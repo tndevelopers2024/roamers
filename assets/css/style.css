@@ -24,7 +24,9 @@
 
 /* From Internal CSS */
 
-
+.bg-color {
+  background: #4ec0db;
+}
 
 /* Navbar */
 nav::before {
@@ -716,8 +718,10 @@ nav::before {
 /* Tablet screens (md = ≥768px and <992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .game-section .item {
-    width: 220px;   /* Example adjustment for tablet */
-    height: 200px;  /* Optional */
+    width: 220px;
+    /* Example adjustment for tablet */
+    height: 200px;
+    /* Optional */
 
   }
 }
@@ -1301,7 +1305,6 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .trip-inner {
@@ -3166,6 +3169,7 @@ textarea {
   left: 7%;
   right: 7%;
 }
+
 .blur-box {
   height: 180px;
 }
@@ -3173,14 +3177,16 @@ textarea {
 /* Medium screens (md = ≥768px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .blur-box {
-    height: 220px; /* example height for tablet screens */
+    height: 220px;
+    /* example height for tablet screens */
   }
 }
 
 /* Large screens and up (lg = ≥992px) */
 @media (min-width: 992px) {
   .blur-box {
-    height: auto; /* or any height you prefer */
+    height: auto;
+    /* or any height you prefer */
   }
 }
 
@@ -3541,7 +3547,7 @@ transform: translateY(0%);
   font-weight: 400;
 }
 
- .silder-inner h4>img {
+.silder-inner h4>img {
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -3870,3 +3876,76 @@ nav::before {
   margin: 0 auto;
   border-radius: 10px;
 }
+
+
+
+
+
+@keyframes fly {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.emoji {
+  display: inline-block;
+  font-size: 2rem;
+  animation: fly 1s ease-in-out infinite;
+}
+
+
+
+.enhanced-box {
+  background: rgba(173, 216, 230, 0.3); /* Light blue translucent */
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.enhanced-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle i {
+  color: #0a9dff;
+  font-size: 26px;
+}
+
+.info-label {
+  font-size: 15px;
+  color: #003344;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.info-value {
+  font-size: 22px;
+  color: #002b45;
+  font-weight: 700;
+}
+
+
