@@ -87,6 +87,30 @@
         display: none !important;
       }
     }
+
+    .trip-home {
+      background-size: cover;
+      background-position: center;
+      transition: opacity .5s ease-in-out;
+    }
+
+    .fade-out {
+      opacity: 0;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .dot.active {
+      background-color: #00cbfd;
+    }
   </style>
 </head>
 
@@ -166,79 +190,43 @@
 
   <!-- >> Banner  << -->
 
-<section class="trip-home"
-    style="background: url('assets/img/ladakh/Banner - 2.jpg') center/cover no-repeat; padding: 230px 0; color: white;">
+  <section class="trip-home" id="tripSection" style="padding: 230px 0; color: white; position: relative;">
 
     <div class="container" style="position: relative; text-align: center;">
-
-      <h1 class="montserrat" style="font-size: 48px; font-weight: 900; margin-bottom: 30px;">LEH LADAKH WITH UMLING LA
+      <h1 class="montserrat" style="font-size: 48px; font-weight: 900; margin-bottom: 30px;">
+        LEH LADAKH WITH UMLING LA
       </h1>
 
       <ul class="des-sub"
-        style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; ; margin-bottom: 50px;">
-
+        style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 50px;">
         <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
-          LEH <i class="fa-solid fa-arrow-right "></i>
+          LEH <i class="fa-solid fa-arrow-right"></i>
         </li>
-
-        <li class="fs-6 fs-md-1 montserrat" style=" display: flex; align-items: center; font-weight: 900;">
-          SHAM VALLEY
-          <i class="fa-solid fa-arrow-right "></i>
-
+        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
+          SHAM VALLEY <i class="fa-solid fa-arrow-right"></i>
         </li>
-        <li class="fs-6 fs-md-1 montserrat" style=" display: flex; align-items: center; font-weight: 900;">
-          KHARDUNG-LA
-          <i class="fa-solid fa-arrow-right "></i>
-
+        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
+          KHARDUNG-LA <i class="fa-solid fa-arrow-right"></i>
         </li>
-        <li class="fs-6 fs-md-1 montserrat" style=" display: flex; align-items: center; font-weight: 900;">
-          NUBRA
-          <i class="fa-solid fa-arrow-right "></i>
-
+        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
+          NUBRA <i class="fa-solid fa-arrow-right"></i>
         </li>
-        <li class="fs-6 fs-md-1 montserrat" style=" display: flex; align-items: center; font-weight: 900;">
-          PANGONG
-          <i class="fa-solid fa-arrow-right "></i>
-
+        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
+          PANGONG <i class="fa-solid fa-arrow-right"></i>
         </li>
-        <li class="fs-6 fs-md-1 montserrat" style=" display: flex; align-items: center; font-weight: 900; ">
-          HANLE
-          <i class="fa-solid fa-arrow-right "></i>
-
+        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
+          HANLE <i class="fa-solid fa-arrow-right"></i>
         </li>
-        <li class="fs-6 fs-md-1" style=" display: flex; align-items: center; font-weight: 900; ">UMLING LA
+        <li class="fs-6 fs-md-1" style="display: flex; align-items: center; font-weight: 900;">
+          UMLING LA
         </li>
       </ul>
+      <div id="dotPagination"
+        style="display: flex; justify-content: center; gap: 10px; margin-top: 20px; position:absolute; left:50%; transform:translate(-50%,150px);">
 
-    </div>
-  </section> 
-  
-  
-  
-  
-  <!-- <div class="swiper banner-swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="/assets/img/" alt="Image 1" /></div>
-      <div class="swiper-slide"><img src="image2.jpg" alt="Image 2" /></div>
-      <div class="swiper-slide"><img src="image3.jpg" alt="Image 3" /></div>
-    </div>
-  
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-  
-  
-   -->
-  
-  
-  
-  
-  
-  
-  
-  
-  
+      </div>
+  </section>
+
   <div class="bg-color text-white text-center py-1">
     <h6 class="fw-bold mb-1">Offer Zone ... !!!</h6>
   </div>
@@ -281,7 +269,7 @@
         <div class="container p-3">
           <div class="row g-4 text-center">
 
-            <div class="col-md-4 col-12">
+            <div class="col">
               <div class="enhanced-box">
                 <div class="icon-circle">
                   <i class="fa-solid fa-tag"></i>
@@ -291,7 +279,7 @@
               </div>
             </div>
 
-            <div class="col-md-4 col-12">
+            <div class="col">
               <div class="enhanced-box">
                 <div class="icon-circle">
                   <i class="fa-solid fa-clock"></i>
@@ -301,7 +289,7 @@
               </div>
             </div>
 
-            <div class="col-md-4 col-12">
+            <div class="col">
               <div class="enhanced-box">
                 <div class="icon-circle">
                   <i class="fa-solid fa-location-dot"></i>
@@ -310,23 +298,41 @@
                 <div class="info-value">Leh - Leh</div>
               </div>
             </div>
+            <div class="col">
+              <a href="#" class="btn butn butn__new mt-3" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
+            </div>
 
           </div>
         </div>
       </section>
-
     </div>
 
+
+
+    <section class="tab-section">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+              <a href="#overview" class="tab-box active">Overview</a>
+              <a href="#itinerary" class="tab-box">Itinerary</a>
+              <a href="#inclusion" class="tab-box">Inclusion</a>
+              <a href="#exclusion" class="tab-box">Exclusion</a>
+              <a href="#notes" class="tab-box"> Notes</a>
+
+        </div>
+      </div>
+    </section>
 
     <!-- >> High Passes & Higher Vibes – Discover Ladakh  << -->
 
     <section class="destination m-3 m-md-5"
       style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;">
+
       <div class="container">
         <div class="row g-4 flex-column-reverse flex-md-row align-items-center">
 
           <!-- Text Section -->
-          <div class="col-md-7">
+          <div class="col-md-7" id="overview">
             <div class="travel-des p-3 p-md-4">
               <h2 class="mb-3">High Passes & Higher Vibes – Discover Ladakh</h2>
               <p style="font-size: 1rem; line-height: 1.7; color: #555;">
@@ -343,9 +349,9 @@
                 it’s
                 the kind of journey you’ll remember forever.
               </p>
-              <a href="#" class="btn butn butn__new mt-3" style="width: 100%; max-width: 200px; border-radius: 15px;">
+              <!-- <a href="#" class="btn butn butn__new mt-3" style="width: 100%; max-width: 200px; border-radius: 15px;">
                 Get Itinerary <i class="fa-solid fa-download ms-1"></i>
-              </a>
+              </a> -->
             </div>
           </div>
 
@@ -375,9 +381,11 @@
 
     <!-- >> Itinerary << -->
 
-    <section class="ilt-up">
-      <div class="container">
+    <section class="ilt-up mt-5" id="itinerary">
+      <div class="container mt-5">
         <div class="row">
+
+
           <div class="col-md-8">
             <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;" class="text-">Complete Trip Itinerary
             </h3>
@@ -656,7 +664,7 @@
                   </div>
                 </div>
 
-                <div class="accordion-item mb-4 shadow border  overflow-hidden" style="border-radius: 20px;">
+                <div id="inclusion" class="accordion-item mb-4 shadow border  overflow-hidden" style="border-radius: 20px;">
                   <h2 class="accordion-header" id="headingSeven">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center bg-light text-dark fw-bold p-3"
@@ -670,7 +678,7 @@
                       </div>
                     </button>
                   </h2>
-                  <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                  <div  id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <div class="mb-3 text-muted fw-semibold">Distance: approx. 260 km | Duration: 6–7 Hours</div>
@@ -699,65 +707,77 @@
             </div>
 
             <!-- >> Inclusion section << -->
+            <section >
+              <div  class="important-notes shadow "
+                style="border-radius: 15px; background-color:rgb(245, 255, 246) ;">
+                <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
+                <div id="">
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Bike rental for 6 days for those opting for the biking experience
+                  </p>
 
-            <div class="important-notes shadow" style="border-radius: 15px; background-color:rgb(245, 255, 246)">
-              <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
-              <div id="">
-                <p>
-                  <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                  Bike rental for 6 days for those opting for the biking experience
-                </p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Fuel included for the
+                    entire
+                    bike journey, covering the route from Leh to Leh</p>
 
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Fuel included for the
-                  entire
-                  bike journey, covering the route from Leh to Leh</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Comfortable travel in a
+                    Tempo
+                    Traveler or cab for those selecting the non-biking option</p>
 
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Comfortable travel in a
-                  Tempo
-                  Traveler or cab for those selecting the non-biking option</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Accommodation for 7
+                    nights
+                  </p>
+                  <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 3 nights in a hotel in Leh
+                  </p>
+                  <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 1 night in Swiss tents at
+                    Nubra
+                    Valley</h>
+                  <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 1 night in lakeside camps at
+                    Pangong Tso</p>
+                  <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 2 nights in a traditional
+                    homestay in Hanle (triple or quad sharing basis)</p>
 
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Accommodation for 7 nights
-                </p>
-                <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 3 nights in a hotel in Leh</p>
-                <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 1 night in Swiss tents at
-                  Nubra
-                  Valley</h>
-                <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 1 night in lakeside camps at
-                  Pangong Tso</p>
-                <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> 2 nights in a traditional
-                  homestay in Hanle (triple or quad sharing basis)</p>
-
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>14 meals throughout the
-                  trip
-                </p>
-                <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> Day 1 – Dinner</p>
-                <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> Day 2 to Day 7 – Breakfast and
-                  Dinner</p>
-                <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> Day 8 – Breakfast</p>
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Mechanical support team
-                  available for biking routes</p>
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>All necessary inner line
-                  permits arranged for the entire itinerary</p>
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Charges covered for driver
-                  stay, tolls, parking, and other on-road expenses</p>
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Trip led by an experienced
-                  team captain</p>
-                <p> <i class="fa-solid fa-circle-check me-2" style="color: green;"></i>Oxygen cylinder available 24/7 in
-                  the vehicle for emergency use</p>
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Riding safety gear provided
-                  including helmets (standard size 58–60 cm), riding jackets, gloves (for riders), and knee guards
-                  (Note:
-                  It’s advisable to carry your own helmet for better fit and comfort)</p>
-                <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Airport pick-up or drop
-                  included based on group flight timings
-                  (Kindly note: Private taxi service for individual transfers will not be provided; group shuttles will
-                  operate at fixed time slots based on flight schedules)</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>14 meals throughout the
+                    trip
+                  </p>
+                  <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> Day 1 – Dinner</p>
+                  <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> Day 2 to Day 7 – Breakfast
+                    and
+                    Dinner</p>
+                  <p><i class="fa-solid fa-minus fs-8 ms-2 me-2" style="color: green;"></i> Day 8 – Breakfast</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Mechanical support team
+                    available for biking routes</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>All necessary inner line
+                    permits arranged for the entire itinerary</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Charges covered for
+                    driver
+                    stay, tolls, parking, and other on-road expenses</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Trip led by an
+                    experienced
+                    team captain</p>
+                  <p> <i class="fa-solid fa-circle-check me-2" style="color: green;"></i>Oxygen cylinder available 24/7
+                    in
+                    the vehicle for emergency use</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Riding safety gear
+                    provided
+                    including helmets (standard size 58–60 cm), riding jackets, gloves (for riders), and knee guards
+                    (Note:
+                    It’s advisable to carry your own helmet for better fit and comfort)</p>
+                  <p id="exclusion" > <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Airport pick-up or drop
+                    included based on group flight timings
+                    (Kindly note: Private taxi service for individual transfers will not be provided; group shuttles
+                    will
+                    operate at fixed time slots based on flight schedules)</p>
+                </div>
               </div>
-            </div>
+            </section>
+
 
             <!-- >> Exclusion Section << -->
 
-            <div class="important-notes shadow" style="border-radius: 15px; background-color: rgb(255, 244, 244);">
+            <div  class="important-notes shadow"
+              style="border-radius: 15px; background-color: rgb(255, 244, 244);" id="exclusion">
               <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
               <div>
                 <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Bike rental for 6 days for
@@ -802,7 +822,7 @@
                   including helmets (standard size 58–60 cm), riding jackets, gloves (for riders), and knee guards
                   (Note:
                   It’s advisable to carry your own helmet for better fit and comfort)</p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Airport pick-up or drop
+                <p id="notes"><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Airport pick-up or drop
                   included
                   based on group flight timings
                   (Kindly note: Private taxi service for individual transfers will not be provided; group shuttles will
@@ -812,7 +832,7 @@
 
             <!-- >> Important Notes Section << -->
 
-            <div class="important-notes shadow" style="border-radius: 15px;">
+            <div class="important-notes shadow" style="border-radius: 15px;" >
               <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;">Important Notes</h3>
               <div>
                 <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Group trips are designed
@@ -929,7 +949,7 @@
 
   <!-- >> Faq << -->
 
-  <section class="faq">
+  <section class="faq" id="notes">
     <h2 class="head">FAQ</h2>
 
     <div class="container">
@@ -1530,34 +1550,68 @@
       }
     });
   </script>
-<script>
-  const bannerSwiper = new Swiper(".banner-swiper", {
-    loop: true,
-    pagination: {
-      el: ".banner-swiper .swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".banner-swiper .swiper-button-next",
-      prevEl: ".banner-swiper .swiper-button-prev",
-    },
-  });
-</script>
-<style>
-  .banner-swiper {
-    width: 100%;
-    max-width: 800px;
-    height: 400px;
-    margin: auto;
-  }
 
-  .banner-swiper .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-</style>
+  <script>
+    const section = document.getElementById("tripSection");
+    const dotContainer = document.getElementById("dotPagination");
 
+    const images = [
+      "assets/img/ladakh/Banner - 2.jpg",
+      "assets/img/ladakh/ladakh-mail.jpeg",
+      "assets/img/ladakh/ride.jpg"
+    ];
+
+    let index = 0;
+    let interval;
+
+    // Create dots
+    images.forEach((_, i) => {
+      const dot = document.createElement("span");
+      dot.classList.add("dot");
+      dot.addEventListener("click", () => {
+        changeImage(i);
+        resetInterval();
+      });
+      dotContainer.appendChild(dot);
+    });
+
+    const dots = document.querySelectorAll(".dot");
+
+    function changeImage(newIndex) {
+      section.classList.add("fade-out");
+      setTimeout(() => {
+        index = newIndex;
+        section.style.backgroundImage = `url('${images[index]}')`;
+        section.classList.remove("fade-out");
+        updateDots();
+      }, 500);
+    }
+
+    function updateDots() {
+      dots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
+      });
+    }
+
+    function nextImage() {
+      index = (index + 1) % images.length;
+      changeImage(index);
+    }
+
+    function startInterval() {
+      interval = setInterval(nextImage, 4000);
+    }
+
+    function resetInterval() {
+      clearInterval(interval);
+      startInterval();
+    }
+
+    // Initialize
+    section.style.backgroundImage = `url('${images[index]}')`;
+    updateDots();
+    startInterval();
+  </script>
 
 </body>
 

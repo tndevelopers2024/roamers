@@ -20,7 +20,10 @@
   margin: 0;
   padding: 0;
 }
-
+.tab-box.active {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
 
 /* From Internal CSS */
 
@@ -96,17 +99,7 @@ nav::before {
 .fa-envelope:hover {
   color: brown !important;
 }
-.banner-swiper {
-  width: 100%;
-  max-height: 700px;
-  margin: auto;
-}
 
-.banner-swiper .swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .call-btn a {
   background-color: #fff;
   padding: 7px 15px;
@@ -3912,9 +3905,9 @@ nav::before {
 }
 
 
-
+/* 
 .enhanced-box {
-  background: rgba(173, 216, 230, 0.3); /* Light blue translucent */
+  background: rgba(173, 216, 230, 0.3); /* Light blue translucent 
   padding: 20px;
   border-radius: 20px;
   backdrop-filter: blur(10px);
@@ -3938,7 +3931,7 @@ nav::before {
   justify-content: center;
   margin: 0 auto 10px auto;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 .icon-circle i {
   color: #0a9dff;
@@ -3956,20 +3949,48 @@ nav::before {
   font-size: 22px;
   color: #002b45;
   font-weight: 700;
+} 
+.tab-section{
+    position: sticky ;
+    top: 70px;
+    z-index: 10;
 }
+.tabs-container {
+    width: 100%;
+    margin: auto;
+    
+    
+  }
 
+  .tabs {
+    display: flex;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
 
-.tripStepSwiper .swiper-slide {
-  font-size: 1rem;
-  padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 25px;
-  margin-right: 10px;
-  white-space: nowrap;
-  color: #000;
-  transition: background 0.3s ease;
-}
+  .tab-box {
+    padding: 15px 31px;
+    background: #eee;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    /* transition: all linear 0.3s; */
+    border-radius: 0px !important;
+  }
 
-.tripStepSwiper .swiper-slide:hover {
-  background-color: rgba(0, 0, 0, 0.15);
-}
+  .tab-box.active {
+    /* background: #007BFF; */
+    border-bottom: 4px solid #007BFF;
+    color: rgb(0, 0, 0);
+  }
+
+  .tab-box:hover {
+    border-bottom: 4px solid #007BFF;
+    /* background: #ccc; */
+  }
+
+  .tab-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #f9f9f9;
+  }
