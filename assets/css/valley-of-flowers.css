@@ -279,7 +279,7 @@ div {
 
 @media screen and (max-width:700px) {
   .tab-box {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 }
 
@@ -462,7 +462,7 @@ html {
 }
 
 .priceCard img {
-  border-radius: 20px;
+  border-radius: 10px;
   object-fit: contain;
   height: 100px !important;
 }
@@ -1420,10 +1420,10 @@ button.swiper-pagination-bullet {
   padding: 0 43px;
 }
 
-.swiper-container {
+/* .swiper-container {
   width: 100%;
   padding-bottom: 60px;
-}
+} */
 
 .swiper-slide img {
   display: block;

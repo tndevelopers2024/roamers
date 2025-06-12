@@ -30,6 +30,7 @@
 
 
   <!-- ***** All CSS Files ***** -->
+  <link rel="stylesheet" href="assets/css/srilanka.css">
   <!-- ***** Font Asesome cdn ***** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -43,1144 +44,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
-  <style>
-    .accordion-bg {
-      background-color: rgb(245, 245, 245);
-    }
 
-    .butn:link,
-    .butn:visited {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.5rem;
-      text-decoration: none;
-      background-color: #5e16bd;
-      background-image: linear-gradient(90deg, #501aa8, #870de8);
-      padding: 1rem 2.5rem;
-      width: 25.1rem;
-      margin-right: 13px;
-      border-radius: 4px;
-      border: none;
-      color: #fff;
-      position: relative;
-      overflow: hidden;
-      transition: all 0.3s ease-in-out;
-    }
-
-    .per-person {
-      color: #7c7c7c;
-      font-weight: 500;
-      font-size: 13px;
-    }
-
-    .butn::before {
-      background: #fff;
-      content: "";
-      height: 55px;
-      opacity: 0;
-      position: absolute;
-      top: 0px;
-      transform: rotate(35deg);
-      width: 20px;
-      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
-    }
-
-    .butn::after {
-      background: #fff;
-      content: "";
-      height: 8rem;
-      opacity: 0;
-      position: absolute;
-      top: -50px;
-      transform: rotate(35deg);
-      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
-      width: 2rem;
-    }
-
-    .butn__new::before {
-      left: -50%;
-    }
-
-    .butn__new::after {
-      left: -100%;
-    }
-
-    .butn:hover,
-    .butn:active {
-      transform: translateY(-3px);
-      color: #fff;
-      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-    }
-
-    .butn__new:hover::before {
-      left: 50%;
-      opacity: 0.5s;
-    }
-
-    .butn__new:hover::after {
-      left: 150%;
-      opacity: 0.6;
-    }
-
-    /* .trip-home {
-      background-position: center !important;
-      background-size: cover !important;
-      background-repeat: no-repeat !important;
-      position: relative !important;
-      background-attachment: fixed !important;
-    } */
-
-    .new-year {
-      position: absolute;
-      height: 28px !important;
-      width: 160px;
-      transition: all 0.7s;
-      border-radius: 0px !important;
-    }
-
-    .christmas {
-      position: absolute;
-      height: 28px !important;
-      width: 160px;
-      transition: all 0.7s;
-      border-radius: 0px !important;
-    }
-
-    .itinerary-logo-content p {
-      font-size: 14px;
-      background: #d8eefe !important;
-      margin: 4px;
-      color: black !important;
-      border-radius: 31px;
-      padding: 5px 10px;
-      text-transform: capitalize;
-    }
-
-    .acc-inner li::before {
-      width: 0;
-      height: 0;
-      border-top: 5px solid transparent;
-      border-left: 10px solid #4ec0db !important;
-      border-bottom: 5px solid transparent;
-      position: absolute;
-      left: 0;
-      content: "";
-      margin-top: 5px;
-    }
-
-    .acc-inner li:hover::before {
-      border-left: 10px solid #555 !important;
-    }
-
-    .with-travel {
-      text-align: center;
-      font-size: 18px;
-      margin-top: 25px;
-      display: none;
-    }
-
-    .with-travel-price {
-      color: #4ec0db;
-      font-weight: 800;
-      margin-right: 5px;
-      margin-left: 5px;
-    }
-
-
-    .travel-des {
-      padding: 30px !important;
-    }
-
-    .travel-des a {
-      max-width: 200px;
-    }
-
-    .price-occupancy {
-      padding: 10px 21px;
-      background: #fff;
-      border: 1px solid #eee;
-      margin: 5px;
-      border-radius: 5px;
-      font-family: "Heebo", sans-serif;
-    }
-
-    .price-occupancy1 {
-      border: none;
-    }
-
-    .price-occupancy1:focus {
-      outline: 0px solid !important;
-      border: 2px solid #4ec1db0d !important;
-      /* -moz-outline-style: none !important; */
-      border-color: none !important;
-      background-color: #4ec0db0f;
-      box-shadow: none !important;
-    }
-
-    .upcoming-slot h4 {
-      font-weight: 400;
-      padding: 3px 8px 3px 8px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: rgb(255 255 255 / 30%) 0px 1px 2px 0px, rgb(125 128 130 / 15%) 0px 2px 6px !important;
-      font-size: 14px !important;
-      line-height: 26px;
-      color: #878686 !important;
-      margin: 0;
-    }
-
-    .occupancy {
-      display: flex;
-      justify-content: center;
-    }
-
-    .ai1::before {
-      background-image: url(assets/img/images/line.svg) !important;
-    }
-
-    .accordion-button::after {
-      background-image: url(assets/img/images/arrow-down.svg) !important;
-    }
-
-    .accordion-button:not(.collapsed)::after {
-      background-image: url(assets/img/images/arrow-up.svg) !important;
-      transform: rotate(-360deg) !important;
-    }
-
-    .why-us {
-      background: url(assets/img/images/sea-travel.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: relative;
-      padding: 60px 0px;
-    }
-
-    .why-us::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0, 0, 0, 0.5);
-    }
-
-    .why-para {
-      color: #fff;
-      text-align: center;
-      font-size: 16px;
-      margin-bottom: 60px;
-    }
-
-    .why-us .trip-inner>h3 {
-      margin-bottom: 30px;
-      padding: 20px 24px;
-    }
-
-    .silder-inner h3 {
-      font-size: 11px;
-      color: #4EC0DB;
-      font-weight: 700;
-    }
-
-    .silder-inner h2 {
-      color: #094067;
-      font-size: 20px;
-      margin-bottom: 0.7rem;
-    }
-
-    .silder-inner h4 {
-      display: flex;
-      align-items: center;
-      color: #5F6C7B;
-      font-size: 12px;
-      font-weight: 400;
-    }
-
-    .silder-inner h4>img {
-      width: 20px;
-      height: 20px;
-      display: inline-block;
-      margin-right: 15px;
-      margin-top: -7px;
-    }
-
-    .inquiry i {
-      margin-left: 20px;
-      font-size: 24px;
-    }
-
-    .price-sticky {
-      position: sticky;
-      top: 100px;
-      margin-top: 65px;
-    }
-
-    .desktop-inform {
-      display: block;
-    }
-
-    @media (max-width: 600px) {
-      .kerala-overview {
-        font-size: 20px !important;
-      }
-
-      .price-occupancy {
-        padding: 10px 18px !important;
-        font-size: 14px !important;
-        box-shadow: rgb(0 207 264 / 35%) 0px 6px 10px, rgba(0, 0, 0, 0.23) 0px 2px 5px;
-      }
-
-      .silder-inner h4 {
-        font-size: 12px !important;
-
-      }
-
-      .acc-container {
-        padding: 0px 0px 0px 6px !important;
-      }
-
-      #tab1 p {
-        font-size: 11px;
-      }
-
-      .trip-home {
-        height: 100%;
-      }
-
-      .trip-home h1 {
-        margin: 230px 90px !important;
-        font-size: 52px !important;
-      }
-
-      .accordion-button {
-        font-size: 10px !important;
-        /* padding: 10px 20px !important; */
-      }
-
-      .days {
-        font-size: 10px !important;
-      }
-
-      .butn:link,
-      .butn:visited {
-        margin-right: auto !important;
-        width: auto !important;
-      }
-
-      .butn::after {
-        top: -21px !important;
-        width: 1rem !important;
-      }
-
-
-      .butn__new::after {
-        left: 6% !important;
-      }
-
-      .butn__new::before {
-        left: -7% !important;
-      }
-
-      #price {
-        margin-left: 105px !important;
-      }
-
-      .readless {
-        display: none;
-      }
-
-      #tab2 p {
-        font-size: 11px;
-      }
-
-      #moreText {
-        visibility: visible !important;
-      }
-
-      #readMoreLink {
-        visibility: visible !important;
-      }
-
-      .travel-des1 p {
-        text-align: justify;
-        margin-bottom: 1.2rem !important;
-        font-size: 14px !important;
-      }
-
-      .occupancy {
-        font-size: 10px !important;
-      }
-
-      .slider-item2 {
-        flex: 0 0 calc(96%) !important;
-        padding: 15px;
-      }
-
-      .slider-item2 img {
-        height: 380px !important;
-      }
-
-      .slider-item2-image {
-        margin-left: 0px !important;
-      }
-
-      .trek-sec {
-        display: block !important;
-      }
-
-      .diff-sec {
-        display: none !important;
-      }
-
-      .desktop-inform {
-        display: none !important;
-      }
-    }
-
-    .silder-inner1 p {
-      border: none !important;
-      margin-bottom: 0px !important;
-      font-size: 12px;
-      font-weight: 400;
-      color: #5F6C7B;
-      padding-bottom: 10px;
-    }
-
-    .silder-inner span {
-      display: flex;
-      align-items: center;
-      color: #4EC0DB;
-      font-size: 16px;
-      margin-left: 5px;
-      font-weight: 600;
-    }
-
-    .silder-inner {
-      padding: 30px 20px;
-      background: #ffff;
-    }
-
-    .short-trips {
-      background: none;
-      padding-bottom: 60px;
-    }
-
-    .container-fluid {
-      width: 96%;
-      padding-right: var(--bs-gutter-x, .75rem);
-      padding-left: var(--bs-gutter-x, .75rem);
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    .acc-btn::after {
-      background-image: url(assets/img/images/arroww\ Black.svg) !important;
-    }
-
-    .acc-btn:not(.collapsed)::after {
-      background-image: url(assets/img/images/arroww\ white.svg) !important;
-      transform: rotate(-360deg) !important;
-    }
-
-    .trip-nav {
-      grid-template-columns: repeat(4, 1fr) !important;
-    }
-
-    #tab1 p {
-      padding-left: 30px;
-      position: relative;
-    }
-
-    #tab1 p::before {
-      content: "";
-      position: absolute;
-      font-size: 20px;
-      background: url(assets/img/icon/chexh\ 1.png);
-      left: 0;
-      width: 20px;
-      margin-top: 3px;
-      background-position: center;
-      height: 20px;
-      background-size: cover;
-    }
-
-    #tab2 p {
-      padding-left: 30px;
-      position: relative;
-    }
-
-    #tab2 p::before {
-      content: "";
-      position: absolute;
-      font-size: 20px;
-      background: url(assets/img/icon/Close\ 1.png);
-      left: 0;
-      width: 20px;
-      margin-top: 3px;
-      background-position: center;
-      height: 20px;
-      background-size: cover;
-    }
-
-    /* .trip-home {
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-      position: relative;
-    } */
-
-    #moreText {
-      visibility: hidden;
-    }
-
-    #readMoreLink {
-      visibility: hidden;
-    }
-
-    .arrow-right {
-      height: 20px;
-      width: 30px;
-      margin-left: 10px;
-    }
-
-    .des-sub {
-      display: flex;
-      justify-content: center;
-      /* margin-left: -43px !important; */
-      margin-bottom: 43px;
-    }
-
-    .accordion-button:not(.collapsed) {
-      color: #0c63e4;
-      background-color: #094067 !important;
-    }
-
-    .whatapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 999;
-      animation: fadeInUp1 0.5s ease-in-out forwards;
-      display: block !important;
-    }
-
-    .whatapp img {
-      width: 50px;
-    }
-
-    .faq {
-      background-image: url(assets/img/images/world2.png) !important;
-    }
-
-    /* dates update */
-    .kodai-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .andaman-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .kerala-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .ooty-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .munnar-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .pondi-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .wayanad-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .chik-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .goa-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .diff i {
-      padding: 0 6px 0 0px;
-      color: #4ec0db;
-      text-shadow: -1.3px 1px #000;
-    }
-
-    .difficulty {
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    .sub-diff {
-      font-size: 14px;
-      font-weight: 600;
-    }
-
-    .diff {
-      padding-bottom: 10px;
-    }
-
-    .diff-sec {
-      margin-top: 20px;
-      padding-top: 20px;
-      padding-bottom: 10px;
-    }
-
-    .trek-sec {
-      display: none;
-    }
-
-    .trek {
-      padding-top: 15px !important;
-      padding-bottom: 15px !important;
-      background-color: #fff;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-      border-radius: 10px;
-    }
-
-    .trip-form a {
-      width: 100% !important;
-      background: #094067 !important;
-      color: #fff !important;
-    }
-
-    .mobile-bottom-bar {
-      display: none;
-    }
-
-    .desk-desc {
-      display: block !important;
-      line-height: 1.7rem;
-    }
-
-    .mob-desc {
-      display: none !important;
-    }
-
-    #dotPagination {
-      display: flex;
-      justify-content: center;
-      gap: 4px;
-      margin-top: 20px;
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, 150px);
-      z-index: 10;
-      padding: 0;
-      align-items: center;
-      /* Added to vertically align dots of different sizes */
-    }
-
-    .dot {
-      width: 3px;
-      /* Smaller inactive dots */
-      height: 3px;
-      border-radius: 50%;
-      background-color: rgba(255, 255, 255, 0.4);
-      cursor: pointer;
-      transition: all 0.2s ease;
-      margin: 0;
-      padding: 0;
-    }
-
-    .dot.active {
-      background-color: #fff;
-      width: 6px;
-      /* Larger active dot */
-      height: 6px;
-      opacity: 1;
-    }
-
-    @media screen and (max-width:732px) {
-      .mobile-bottom-bar {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        z-index: 999;
-        /* ensure it's above other elements */
-        background-color: #fff;
-        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-        overflow: hidden !important;
-      }
-
-      .mobile-bottom-bar .btn {
-        background-color: #4ec0db !important;
-        border-radius: 2rem;
-        padding: 8px 12px !important;
-        color: #fff !important;
-      }
-
-      .mob-price {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #fff;
-        gap: 10px;
-        padding: 10px;
-      }
-
-      .mob-price .price-box {
-        flex: 2;
-      }
-
-      .price-box h6 {
-        font-size: 16px !important;
-        margin-bottom: 0 !important;
-      }
-
-      .mob-price .butn {
-        flex: 2;
-        border-radius: 2rem !important;
-        padding: 10px 4px !important;
-      }
-
-      .mob-price .price-amount {
-        margin-bottom: 0 !important;
-        font-size: 25px;
-        font-weight: 700;
-        color: #4ec0db;
-        margin-right: 4px;
-      }
-
-      .mob-price .price-amount span {
-        font-size: 14px;
-        font-weight: 400;
-        color: #000;
-      }
-
-      .desk-desc {
-        display: none !important;
-      }
-
-      .mob-desc {
-        display: block !important;
-      }
-
-      #dotPagination {
-        display: none !important;
-      }
-    }
-
-    /* Mobile Price  */
-
-    .mobile-bottom-bar {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background: #fff;
-      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
-      animation: slideUp 0.6s ease-out forwards;
-      transform: translateY(100%);
-      z-index: 1000;
-    }
-
-    @keyframes slideUp {
-      to {
-        transform: translateY(0);
-      }
-    }
-
-    .bottom-bar-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 12px 20px;
-      animation: fadeIn 0.8s ease-in;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .price-box {
-      animation: float 3s ease-in-out infinite;
-    }
-
-    @keyframes float {
-
-      0%,
-      100% {
-        transform: translateY(0px);
-      }
-
-      50% {
-        transform: translateY(-4px);
-      }
-    }
-
-    .price-amount {
-      font-size: 18px;
-      font-weight: bold;
-      color: #e63946;
-    }
-
-    .per-person {
-      font-size: 12px;
-      color: #555;
-      display: block;
-    }
-
-    .btn-book {
-      background-color: #1d3557;
-      color: #fff;
-      padding: 10px 16px;
-      border-radius: 6px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-
-    }
-
-    .btn-book:hover {
-      background-color: #457b9d;
-      transform: scale(1.05);
-    }
-
-    .mobile-bottom-bar {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background: #fff;
-      box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.1);
-      padding: 12px 16px;
-      z-index: 1000;
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px;
-    }
-
-    .bottom-bar-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .price-box .label {
-      margin: 0;
-      font-size: 12px;
-      color: rgb(0, 0, 0);
-      font-weight: bold;
-    }
-
-    .price-info {
-      display: flex;
-      align-items: baseline;
-      gap: 6px;
-    }
-
-    .price-amount {
-      font-size: 20px;
-      font-weight: bolder;
-      color: #4ec0db;
-    }
-
-    .per-person {
-      font-size: 12px;
-      color: #777;
-    }
-
-    .btn-book {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 16px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-      transition: background-color 0.3s ease;
-    }
-
-    .btn-book:hover {
-      background-color: #43a047;
-      color: white;
-    }
-
-
-    /* Modal Box */
-
-    .popup-modal {
-      background: white;
-      padding: 24px;
-      border-radius: 12px;
-      width: 90%;
-      max-width: 400px;
-      position: relative;
-      text-align: center;
-      animation: fadeInUp 0.3s ease-out;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .close-btn {
-      position: absolute;
-      top: 12px;
-      right: 16px;
-      background: none;
-      border: none;
-      font-size: 22px;
-      cursor: pointer;
-    }
-
-    .popup-modal h3 {
-      margin-bottom: 16px;
-    }
-
-    .popup-list {
-      list-style: none;
-      padding: 0;
-      margin-bottom: 20px;
-      text-align: left;
-    }
-
-    .popup-list li {
-      margin-bottom: 8px;
-      font-size: 15px;
-    }
-
-
-    .btn-book.full {
-      display: inline-block;
-      width: 100%;
-      margin-top: 10px;
-    }
-
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-
-    /* fab button  */
-    .whatsapp-fab {
-      position: fixed;
-      bottom: 100px;
-      right: 20px;
-      background: #25d366;
-      color: white;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      text-align: center;
-      font-size: 28px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      z-index: 1000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .whatsapp-fab:hover {
-      transform: scale(1.1);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
-    }
-
-    .swiper-container.two {
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-
-    .swiper-container.two .swiper-slide {
-      width: 300px;
-      height: 400px;
-      position: relative;
-    }
-
-    .swiper-container.two .slider-image {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      border-radius: 8px;
-    }
-
-    .swiper-container.two .slider-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .swiper-container.two .swiper-slide-shadow-left,
-    .swiper-container.two .swiper-slide-shadow-right {
-      background-image: none;
-    }
-
-    .accordion-button:not(.collapsed) {
-      background: #094067 !important;
-      color: #fff !important;
-    }
-
-    .accordion-button:focus {
-      box-shadow: none !important;
-      border: none !important;
-    }
-
-    .accordion-button::after {
-      background-color: #fff;
-      border-radius: 100%;
-      background-size: 75%;
-    }
-
-    .animated-badge {
-      transition: all 0.3s ease;
-    }
-
-    .accordion-button:hover .animated-badge {
-      transform: scale(1.02);
-    }
-
-    @media (max-width: 768px) {
-      .animated-badge {
-        font-size: 14px !important;
-      }
-    }
-
-    .scroll-section {
-      padding: 50px 0;
-      opacity: 0;
-      transition: opacity 0.5s ease;
-    }
-
-    .scroll-section.loaded {
-      opacity: 1;
-    }
-
-    .swiper-container.two {
-      width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      visibility: hidden;
-    }
-
-    .swiper-container.two.initialized {
-      visibility: visible;
-    }
-
-    .swiper-container.two .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      width: 300px;
-      height: 400px;
-      margin: 0 10px;
-      opacity: 0;
-      transform: scale(0.8);
-      transition: all 0.3s ease;
-    }
-
-    .swiper-container.two.initialized .swiper-slide {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    .swiper-container.two .slider-image {
-      width: 100%;
-      height: 100%;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-
-    .swiper-container.two .slider-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .scroll-section {
-      padding: 50px 0;
-      opacity: 0;
-      transition: opacity 0.5s ease;
-    }
-
-    .scroll-section.loaded {
-      opacity: 1;
-    }
-
-    .swiper-container.two {
-      width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      visibility: hidden;
-    }
-
-    .swiper-container.two.initialized {
-      visibility: visible;
-    }
-
-    .swiper-container.two .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      width: 300px;
-      height: 400px;
-      margin: 0 10px;
-      opacity: 0;
-      transform: scale(0.8);
-      transition: all 0.3s ease;
-    }
-
-    .swiper-container.two.initialized .swiper-slide {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    .swiper-container.two .slider-image {
-      width: 100%;
-      height: 100%;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-
-    .swiper-container.two .slider-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  </style>
 </head>
 
 <body>
@@ -1192,35 +56,39 @@
   <?php include('includes/header2.php'); ?>
 
   <!-- Banner -->
-  <section class="trip-home" id="tripSection" style="padding: 230px 0; color: white; position: relative; ">
+  <section class="trip-home" class="banner-marigin-section" id="tripSection" style="  padding: 300px 0; color: white; position: relative;  ">
 
 
 
     <div class="container-lg" style="position: relative; text-align: center;">
 
-      <h1 class="montserrat mt-5 mb-2"
-        style="font-size: 52px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+      <h2 class="banner-hight-top ms-2"
+        style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
         SRI LANKA
-      </h1>
+      </h2>
 
-      <ul
-        style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;">
-        <li class="fs-6 fs-md-1  me-2" style="display: flex; align-items: center; font-weight: 800; ">
-          SIGIRIYA <span class="ms-2"> 🢡</span>
+      <ul class="banner-hight-bottom p-0"
+        style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
+        <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
+          SIGIRIYA
+          <span class="ms-2">
+            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width:13px; margin-bottom: 3px;"></span>
+          </span>
         </li>
-        <li class="fs-6 fs-md-1 me-2" style="display: flex; align-items: center; font-weight: 800;">
-          KANDY <span class="ms-2"> 🢡</span>
+
+        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
+          KANDY <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt="" style="width:13px; margin-bottom: 3px;"></span>
         </li>
-        <li class="fs-6 fs-md-1  me-2" style="display: flex; align-items: center; font-weight: 800;">
-          ELLA<span class="ms-2"> 🢡</span>
+        <li class="mobile-small-text  me-2" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+          ELLA<span class="ms-2"><span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt="" style="width:13px; margin-bottom: 3px;"></span>
         </li>
-        <li class="fs-6 fs-md-1  me-2" style="display: flex; align-items: center; font-weight: 800;">
-          GALLE<span class="ms-2"> 🢡</span>
+        <li class="mobile-small-text  me-2" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+          GALLE<span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt="" style="width:13px; margin-bottom: 3px;" </span>
         </li>
-        <li class="fs-6 fs-md-1 me-2" style="display: flex; align-items: center; font-weight: 800;">
-          BENTOTA <span class="ms-2"> 🢡</span>
+        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+          BENTOTA <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt="" style="width:13px; margin-bottom: 3px;"></span>
         </li>
-        <li class="fs-6 fs-md-1 me-2" style="display: flex; align-items: center; font-weight: 800;">
+        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
           COLOMBO
         </li>
       </ul>
@@ -1292,7 +160,7 @@
               </div>
             </div>
             <div class="col d-flex align-items-center">
-              <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
+              <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 10px;">
                 Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
             </div>
           </div>
@@ -1325,7 +193,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">5D - 6N</div>
+                  <div class="info-value">7 Days / 6 Nights</div>
                 </div>
               </div>
             </div>
@@ -1338,12 +206,12 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Rishikesh - Rishikesh</div>
+                  <div class="info-value">Colombo</div>
                 </div>
               </div>
             </div>
             <div class="col mt-4">
-              <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
+              <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 10px;">
                 Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
             </div>
           </div>
@@ -1393,7 +261,7 @@
     </section>
     <br><br>
     <section class="destination mt-0 mt-lg-5"
-      style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;" id="overview">
+      style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 10px;" id="overview">
 
       <div class="">
         <div class="row g-4 flex-column-reverse flex-md-row align-items-center">
@@ -1455,20 +323,20 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img src="assets/img/Sirlanka/srilanka-images-by-roamers (48).webp" , class="img-fluid w-100" alt="Ladakh 3"
-                    style="border-radius: 20px; height: 350px; object-fit: cover;">
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
                   <img src="assets/img/Sirlanka/srilanka-images-by-roamers (46).webp" , class="img-fluid w-100" alt="Ladakh 3"
-                    style="border-radius: 20px; height: 350px; object-fit: cover;">
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
                   <img src="assets/img/Sirlanka/srilanka-images-by-roamers (6).webp" class="img-fluid w-100" alt="Ladakh 1"
-                    style="border-radius: 20px; height: 350px; object-fit: cover;">
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
 
                 <div class="swiper-slide">
                   <img src="assets/img/Sirlanka/srilanka-images-by-roamers (26).webp" , class="img-fluid w-100" alt="Ladakh 3"
-                    style="border-radius: 20px; height: 350px; object-fit: cover;">
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
               </div>
             </div>
@@ -1487,7 +355,7 @@
 
 
           <div class="col-md-8">
-            <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;" class="text-center head">Trip Itinerary
+            <h3 class="mt-5 text-center mt-md-0" style="text-align: start; margin-bottom: 20px; margin-left: 10px;" class="text-center head">Trip Itinerary
             </h3>
             <div class="">
 
@@ -1536,7 +404,7 @@
                   </div>
                 </div>
                 <!-- day 2 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingTwo">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1578,7 +446,7 @@
                   </div>
                 </div>
                 <!-- day 3 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1616,7 +484,7 @@
                   </div>
                 </div>
                 <!-- day 4 -->
-                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingFour">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1634,12 +502,12 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Hey Romers! t let's drive to Ella to board Board the world-renowned an epic Train journey </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Hey Romers! t let's drive to <span class="fw-bold">Ella</span> to board Board the world-renowned an epic <span class="fw-bold">Train journey</span> </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i> A Scenic slow journey through cloud forests, tea valleys, and tunnels. This journey you'll remember forever. </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Explore the iconic Nine Arch Bridge – a photogenic marvel of colonial engineering nestled in greenery</li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Explore the iconic<span class="fw-bold">Nine Arch Bridge</span> – a photogenic marvel of colonial engineering nestled in greenery</li>
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Time to enjoy our Lunch with sweeping views of Ella's rolling hills.</li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Next we'll Stop by Ravana Falls, witness mesemerising falls</li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>We'll arrive by evening for a golden sunset at the iconic Galle Fort (UNESCO site).</li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Next we'll Stop by <span class="fw-bold"> Ravana Falls</span> , witness mesemerising falls</li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>We'll arrive by evening for a golden sunset at the iconic <span class="fw-bold">Galle Fort</span> (UNESCO site).</li>
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Explore Galle on your own with the team, spend time exploring Dutch reformed spots or relax by the beach (Trip captain will provide you the super spots)</li>
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Overnight Stay at Bentota
 
@@ -1649,7 +517,7 @@
                   </div>
                 </div>
                 <!-- day 5 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingFive">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1668,12 +536,12 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary" style="font-size: 0.65rem;"></i>Post Breakfast let's move to our most relaxable city Bentota</li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>First, we'll head to Madu River Boat Safari, gliding through secret waterways flanked by lush mangrove forests. </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary" style="font-size: 0.65rem;"></i>Post Breakfast let's move to our most relaxable city <span class="fw-bold">Bentota</span> </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>First, we'll head to <span class="fw-bold"> Madu River Boat Safari</span>, gliding through secret waterways flanked by lush mangrove forests. </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Check into your beach side resorts, relax for a while.
 
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Water Sports Extravaganza (Bentota Beach) Choose your adventure: Jet skiing / Banana boat rides / Para Motoring & More
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i><span class="fw-bold">Water Sports</span> Extravaganza (Bentota Beach) Choose your adventure: Jet skiing / Banana boat rides / Para Motoring & More
 
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i> Beach, Sunset, Dinner & the day is sorted. Overnight stay in Bentota
@@ -1686,7 +554,7 @@
                   </div>
                 </div>
                 <!-- day 6 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingSix">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1708,20 +576,20 @@
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Roamers Start slow with a chilled-out morning by the sea and savour breakfast.
 
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary" style="font-size: 0.65rem;"></i>Time to Roll into Colombo - the heart of Sri Lanka
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary" style="font-size: 0.65rem;"></i>Time to Roll into <span class="fw-bold">Colombo</span> - the heart of Sri Lanka
 
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>City tour highlights: ◦ The serene Gangaramaya Temple ◦ The stately Independence Square ◦ stroll at Galle Face Green ◦ Browse boutique shops and local markets </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i> Have Lunch at iconic spot ◦ Celebrate with your crew, or choose a special Lunch at the famed Ministry of Crab (Founded by cricket legends Sangakkara & Jayawardene, this globally acclaimed seafood restaurant is a must for foodies and fans alike) </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>City tour highlights: The serene <span class="fw-bold"> Gangaramaya Temple </span> The stately <span class="fw-bold"> Independence Square </span> stroll at <span class="fw-bold"> Galle Face Green</span> Browse boutique shops and <span class="fw-bold">local markets </span> local markets </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i> Have Lunch at iconic spot Celebrate with your crew, or choose a special Lunch at the famed <span class="fw-bold">Ministry of Crab </span>(Founded by cricket legends Sangakkara & Jayawardene, this globally acclaimed seafood restaurant is a must for foodies and fans alike) </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Alright Roamers we've come to end of our Journey, just turn around and see how the strangers has become your best friends</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Time for Farewell dinner, organised by Roamers. Let's feast at the dinner and celebrate our last night in Sri Lanka, A night to remember!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Time for <span class="fw-bold">Farewell dinner</span> , organised by Roamers. Let's feast at the dinner and celebrate our last night in Sri Lanka, A night to remember!</li>
                         <li><i class="fa-regular fa-circle-dot me-2 text-primary mb-3" style="font-size: 0.65rem;"></i>Overnight stay in Colombo</li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <!-- day 7 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingSix">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1757,7 +625,7 @@
             <!-- >> Inclusion section << -->
             <section id="inclusion">
               <div class="important-notes shadow "
-                style="border-radius: 15px; background-color:rgb(245, 255, 246) ;">
+                style="border-radius: 10px; background-color:rgb(245, 255, 246) ;">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
                 <div id="">
                   <p>
@@ -1777,19 +645,23 @@
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Complementary 2x500ml Water Bottles per person per day.
 
                   </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Train Journey Entrances
-                  </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Sigiriya Rock Fortress</p>
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Train Journey Entrances
+
+                  </p><span class="mobile-br"><br></span>
+
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Sigiriya Rock Fortress</p><span class="mobile-br"><br></span>
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Pinnawala Elephant Orphanage</p>
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Sacred Temple of the Tooth Relic (Kandy)
                   </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Ganga Ramaya Temple </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Madu River Boat Safari </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Turtle Hatchery</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Ganga Ramaya Temple </p><span class="mobile-br"><br></span>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Madu River Boat Safari </p><span class="mobile-br"><br></span>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Turtle Hatchery</p><span class="mobile-br"><br></span>
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Gem Museum visit
-                  </p>
+                  </p><span class="mobile-br"><br></span>
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Parking, Toll Charges & all Taxes
-                  </p>
+                  </p><span class="mobile-br"><br></span>
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>No hidden charges </p>
 
                 </div>
@@ -1797,10 +669,45 @@
             </section>
 
             <!-- >> Exclusion Section << -->
- 
+            <div class="important-notes shadow"
+              style="border-radius: 10px; background-color: rgb(255, 244, 244);" id="exclusion">
+              <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
+              <div>
+                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Air Ticket</p><span class="mobile-br"><br></span>
+
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>E Visa ( Please visit <a target="_blank" href="https://eta.gov.lk/slvisa/">Here</a> " )
+                </p>
+
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>If Early/late airport transfers apart from Schedule (taxi will be arranged separately for you on cost)
+
+
+                </p>
+
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Lunch and 2 Dinner Meals on tour.
+
+
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Early Check In (before 3 AM) and Late Check Out (after 11 AM) at the hotel.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Tips and Portage.
+
+
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any expense due to nature or unavoidable circumstances.
+
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any expense not mentioned above.
+
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Applicable TCS & GST
+
+
+                </p>
+              </div>
+            </div>
 
             <!-- >> Important Notes Section << -->
-            <div class="important-notes shadow" style="border-radius: 15px;" id="notes">
+            <div class="important-notes shadow" style="border-radius: 10px;" id="notes">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Important Notes</h3>
               <div>
                 <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Group trips are designed
@@ -1823,18 +730,17 @@
 
           <div class="col-md-4">
 
-            <div class="price-sticky">
-
+            <div class="price-sticky" style="position: sticky; top: 120px;">
               <!-- >> Side Slider Section << -->
-              <div class="priceCard shadow" style="border-radius: 20px;">
-                <img src="assets/img/Sirlanka/srilanka-images-by-roamers (47).webp" alt="Ladakh Banner 3" style=" object-fit:cover;">
+              <div class="priceCard shadow" style="border-radius: 10px;">
+                <img src="assets/img/Sirlanka/srilanka-images-by-roamers (47).webp" alt="Ladakh Banner 3" style=" object-fit:cover; border-radius: 10px;">
               </div>
 
               <!-- >> Pricing Box Section << -->
-              <div class="price-card shadow p-1" style="border-radius: 20px;">
+              <div class="price-card shadow p-1" style="border-radius: 10px;">
                 <div class="p-2">
                   <!-- Inner box with light grey background -->
-                  <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 15px;">
+                  <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
@@ -1846,7 +752,7 @@
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
                       <a href="srilanka-form.php" class="btn butn butn__new bg-"
-                        style="border-radius: 15px;">Dates
+                        style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -1855,7 +761,7 @@
 
               <!-- >> Ladakh Form Section << -->
               <div class="shadow"
-                style="border: 1px solid #00aaff; border-radius: 20px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
+                style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                 <form>
                   <h3 style="text-align: center; margin-bottom: 30px; font-family: 'Arial', sans-serif; color: #333;">
                     Let's Map Your Dream Trip</h3>
@@ -1863,23 +769,23 @@
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
                     <label for="name" style="font-size: 16px; color: #333;">Name</label>
                     <input placeholder="Your Name" type="text" id="name" name="name" required
-                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                   </div>
 
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
                     <label for="email" style="font-size: 16px; color: #333;">Email</label>
                     <input placeholder="Your Email" type="email" id="email" name="email" required
-                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                   </div>
 
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
                     <label for="phone" style="font-size: 16px; color: #333;">Phone Number</label>
                     <input placeholder="Your Phone Number" type="tel" id="phone" name="phone" required
-                      style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                      style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                   </div>
 
                   <div class="trip-form p-0">
-                    <a href="" class="btn butn butn__new bg-" style="border-radius: 15px;">Submit</a>
+                    <a href="" class="btn butn butn__new bg-" style="border-radius: 10px;">Submit</a>
                   </div>
 
                   </button>
@@ -1999,88 +905,76 @@
           </div>
         </div>
       </div>
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination d-none d-md-block"></div>
     </div>
   </section>
 
 
 
-  <!-- Faq -->
+  <!-- Faq Seciton -->
   <section class="faq" id="notes">
     <h2 class="head">FAQ</h2>
     <div class="container">
       <div class="row">
-        <div class="" id="accordionFlushExample">
+        <div class="accordion" id="accordionFlushExample">
           <!--| First |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingOne">
               <button
                 class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                 aria-controls="collapseOne">
-                <div class="d-flex align-items-center">
-                  <span>Can I Join solo ?</span>
-                </div>
+                <span class="ms-3" style="font-size: 1rem;">Can I Join solo ?</span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample">
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <ul class="ps-3">
-                  <p>Absolutely! Whether you're joining solo, with friends, or as a couple, these group trips are
-                    designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
-                    more items from your bucket list!</p>
-                </ul>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends, or as a couple, these group trips are
+                  designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
+                  more items from your bucket list!</p>
               </div>
             </div>
           </div>
 
           <!--| Second |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingTwo">
               <button
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                 aria-controls="collapseTwo">
-                <div class="d-flex align-items-center">
-                  <span>How about safety for female travelers?</span>
-                </div>
+                <span class="ms-3" style="font-size: 1rem;">How about safety for female travelers?</span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample">
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <ul class="ps-3">
-                  <p>Yes, female solo travelers can confidently join our group trips. We prioritize their safety by
-                    ensuring a secure environment with trusted trip captains, verified hosts, and reliable transport
-                    vendors. Your safety is our top priority; any concerns during the trip will be promptly addressed by
-                    our team. So relax and make the most of your journey!</p>
-                </ul>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Yes, female solo travelers can confidently join our group trips. We prioritize their safety by
+                  ensuring a secure environment with trusted trip captains, verified hosts, and reliable transport
+                  vendors. Your safety is our top priority; any concerns during the trip will be promptly addressed by
+                  our team. So relax and make the most of your journey!</p>
               </div>
             </div>
           </div>
 
           <!--| Third |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingThree">
               <button
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                 aria-controls="collapseThree">
-                <div class="d-flex align-items-center">
-                  <span>What is the age requirement to Join?</span>
-                </div>
+                <span class="ms-3" style="font-size: 1rem;">What is the age requirement to Join?</span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample">
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <ul class="ps-3">
-                  <p>The trips is for 18-35 year olds</p>
-                </ul>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">The trips is for 18-35 year olds</p>
               </div>
             </div>
           </div>
@@ -2092,45 +986,37 @@
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                 aria-controls="collapseFour">
-                <div class="d-flex align-items-center">
-                  <span>How do confirm my bookings ?</span>
-                </div>
+                <span class="ms-3" style="font-size: 1rem;">How do confirm my bookings ?</span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-              data-bs-parent="#accordionExample">
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <ul class="ps-3">
-                  <p>Send the payment screenshot to info@roamers.in and you'll get the confirmation email within 24
-                    hours.</p>
-                </ul>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Send the payment screenshot to info@roamers.in and you'll get the confirmation email within 24
+                  hours.</p>
               </div>
             </div>
           </div>
 
           <!--| Five |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingFive">
               <button
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
                 aria-controls="collapseFive">
-                <div class="d-flex align-items-center">
-                  <span>How do trust Roamers?</span>
-                </div>
+                <span class="ms-3" style="font-size: 1rem;">How do trust Roamers?</span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-              data-bs-parent="#accordionExample">
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <ul class="ps-3">
-                  <p>You can absolutely trust us! We've nailed over 500 awesome trips. Check out the great reviews,
-                    speak to our travel consultants, and check the website for further details. Our offices are in
-                    Chennai and Delhi – we're all about being upfront and reliable all the way… Feel free to connect.
-                  </p>
-                </ul>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">You can absolutely trust us! We've nailed over 500 awesome trips. Check out the great reviews,
+                  speak to our travel consultants, and check the website for further details. Our offices are in
+                  Chennai and Delhi – we're all about being upfront and reliable all the way… Feel free to connect.
+                </p>
               </div>
             </div>
           </div>
@@ -2150,7 +1036,7 @@
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="valley-of-flowers-booking-form.php" class="btn-book">Dates & Costing</a>
+      <a href="srilanka-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 
@@ -2413,7 +1299,7 @@
     const images = [
       "assets/img/Sirlanka/srilanka-images-by-roamers (18).webp",
       "assets/img/Sirlanka/srilanka-images-by-roamers (31).webp",
-      "assets/img/Sirlanka/srilanka-images-by-roamers (3).webp",
+      "assets/img/Sirlanka/srilanka-images-by-roamers (3).jpg",
       "assets/img/Sirlanka/srilanka-images-by-roamers (16).webp",
       "assets/img/Sirlanka/srilanka-images-by-roamers (14).webp",
     ];

@@ -233,7 +233,7 @@ session_start();
       padding: 10px 30px;
       background: #4ec0db;
       color: #fff !important;
-      border-radius: 20px;
+      border-radius: 10px;
       justify-content: space-between;
       transition: background 0.2s linear;
       position: relative;
@@ -268,7 +268,7 @@ session_start();
 
     .price-box {
       border: 1px solid #4ec0db;
-      border-radius: 20px;
+      border-radius: 10px;
       background-color: aliceblue;
 
     }
@@ -423,7 +423,7 @@ session_start();
       align-items: center
     }
 
-
+/* 
     .price-box .row {
       margin-bottom: 10px;
     }
@@ -431,7 +431,7 @@ session_start();
 
     .price-box {
       padding-bottom: 10px;
-    }
+    } */
 
 
     .price-box h5,
@@ -720,7 +720,23 @@ session_start();
     .booking-form-head {
       margin-top: 150px;
       font-weight: 800;
-      font-size: 30px;
+      font-size: 20px;
+    }
+
+    .booking-form-head {
+      margin-top: 150px;
+      font-weight: 800;
+      font-size: 20px;
+      /* Mobile default */
+    }
+
+    @media screen and (min-width: 768px) {
+      .booking-form-head {
+        margin-top: 200px;
+        /* More space on desktop */
+        font-size: 32px;
+        /* Larger font for desktop */
+      }
     }
 
 
@@ -1004,6 +1020,36 @@ session_start();
         font-size: 1.1rem;
       }
     }
+
+    /* Custom table styles */
+    .custom-table thead {
+      background-color: #4ec0db;
+      color: #fff;
+
+    }
+
+    .custom-table th,
+    .custom-table td {
+      vertical-align: middle;
+      text-align: center;
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+    }
+
+    .custom-table tbody tr:nth-child(even) {
+      background-color: #f8f9fa;
+            border-radius: 8px;
+    }
+
+    @media (max-width: 576px) {
+
+      .custom-table th,
+      .custom-table td {
+        font-size: 14px;
+        padding: 10px;
+  
+      }
+    }
   </style>
 
 </head>
@@ -1025,17 +1071,17 @@ session_start();
   <?php include('includes/header.php'); ?>
   <!-- ***** Header End ***** -->
   <!-- ***** Welcome Area Start ***** -->
-  <div class="text-center mb-5">
+  <div class="text-center mb-4">
     <h1 class="booking-form-head">
       Strangers to Stories: Sri Lanka</h1>
-    <p>Explore the lush wonders of Sri Lanka's Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with vibrant biodiversity and tropical charm.
-    </p>
+    <!-- <p>Explore the lush wonders of Sri Lanka's Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with vibrant biodiversity and tropical charm.
+    </p> -->
   </div>
 
   <section class="">
     <div class="container">
       <form action="valley-of-flowers-booking-form1.php" method="POST" autocomplete="off">
-        <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0   px-md-5 mx-md-5" id="date-form">
+        <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
 
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
             <div id="container" class="container" style="margin-top:30px;">
@@ -1169,7 +1215,7 @@ session_start();
           </div>
 
           <div class="col order-lg-2 order-1 shadow-lg p-4" style="border-radius:20px">
-            <div class="row p-3">
+            <div class="row px-2 px-md-4">
               <div class="package-info-box" style="border-radius: 10px; display: none;" id="selected-date-box">
                 <div class="background-image shadow"></div>
                 <div class="blur-overlay">
@@ -1187,15 +1233,24 @@ session_start();
                 <h4 class="text-center mb-3 fw-bold">Costing</h4>
 
 
-                <table class="table  costing-table">
-                  <thead>
-                    <tr>
-                      <th>Sharing</th>
-                      <th>Offer Price</th>
-                    </tr>
-                  </thead>
-                  <tbody id="costing-table-body"></tbody>
-                </table>
+                <div class="table-responsive">
+                  <table class="table custom-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sharing</th>
+                        <th scope="col">Offer Price</th>
+                      </tr>
+                    </thead>
+                    <tbody id="costing-table-body">
+                      <!-- Example static row -->
+                      <tr>
+                        <td>Double Sharing</td>
+                        <td>$150</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
                 <div class="justify-content-center starting-price-box px-3">
                   <p id="starting-price" class="starting-price"></p>
                 </div>
@@ -1235,7 +1290,7 @@ session_start();
 
           const startingPriceElem = document.getElementById("starting-price");
           if (startingPriceElem) {
-            startingPriceElem.textContent = `Starting Price: ₹44,990/- `;
+            startingPriceElem.textContent = `Starting Price: ₹43,990/- `;
           } else {
             console.warn("Element with id 'starting-price' not found.");
           }

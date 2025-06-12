@@ -1309,11 +1309,12 @@ that bring travelers together. Explore destinations, meet people, and make memor
                   <h3>7 Days / 6 Nights
 
                   </h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Rishikesh
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Colombo
                   </h4>
                 </div>
                 <h2>Sri Lanka</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Rishikesh, Joshimath, Pulna </p>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon">Sigiriya, Kandy, Ella, Galle, Bentota, Colombo
+                </p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="valley-dates"></span>

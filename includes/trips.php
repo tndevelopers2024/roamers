@@ -156,16 +156,16 @@
 </head>
 
 <style>
-    #upcoming {
+    /* #upcoming {
         padding: 60px 0;
-    }
+    } */
 </style>
 
 <body>
 
 
     <!-- test slider start -->
-    <section class="upcoming-trips py-60 upcoming-desk" id="upcoming">
+    <section class="upcoming-trips upcoming-desk" id="upcoming">
         <div class="container-fluid">
             <h2 class="head">
                 Popular Destinations
