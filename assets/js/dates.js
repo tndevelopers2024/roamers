@@ -62,3 +62,6 @@ document.querySelectorAll(".spiti-dates").forEach((element) => {
 document.querySelectorAll(".ladakh-dates").forEach((element) => {
   element.innerHTML = "May 24, June 07, 21, July 05, 19, 26, Aug 09, 23, Sep 06";
 });
+document.querySelectorAll(".valley-dates").forEach((element)=>{
+  element.innerHTML = "May 10, 24, june 07, 21, 28, july 05 ,06, 12, 13, 18, 19"
+})

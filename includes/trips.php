@@ -353,7 +353,7 @@
                                             alt="second location-icon">EX: Direct, Chennai
                                     </h4>
                                 </div>
-                                <h2>Munnar with Kolukkumalai
+                                <h2>Munnar with Kolukkumalai Bagpacking
                                 </h2>
                                 <div class="inner">
                                     <p><img src="assets/img/images/loc.svg" alt="location-icon">Munnar</p>

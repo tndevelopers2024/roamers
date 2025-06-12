@@ -663,7 +663,7 @@
   <section class="pb-5 payment-banner">
     <div class="container">
        <form action="ooty-booking-form1.php" method="POST" autocomplete="off">
-          <div class="row gy-4" id="date-form">
+          <div class="row row-cols-1 row-cols-lg-2 gy-4" id="date-form">
               <div class="col">
                 <div id="container" class="container" style="margin-top:30px;">
                   <div class="progress px-1" style="height: 3px;">

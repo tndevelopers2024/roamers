@@ -38,6 +38,7 @@
     padding: 0px 10px;
     height: auto;
   }
+  
   .slider-item1 {
     flex: 0 0 calc(100%) !important;
   }
@@ -79,7 +80,7 @@
   }
 
   .trip-home {
-    /* padding: 60px 0px 50px !important; */
+    padding: 60px 0px 50px !important;
     margin-top: 0;
     background-attachment: local !important;
   }
@@ -94,7 +95,7 @@
     font-size: 11px !important;
   }
   .trip-home h1 {
-    font-size: 20px !important;
+    font-size: 25px !important;
     line-height: 40px;
   }
   .col-6 {
@@ -142,7 +143,7 @@
   }
   .accordion-button {
     font-size: 14px;
-    padding: 13px 5px !important;
+    /* padding: 13px 5px !important; */
   }
 
   .sticky-sidebar {

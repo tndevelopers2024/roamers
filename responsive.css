@@ -3,7 +3,7 @@
     font-size: 74px;
   }
   .des-sub li {
-    font-size: 5px;
+    font-size: 10px;
 }
 
 
@@ -79,7 +79,7 @@
   }
 
   .trip-home {
-
+    padding: 60px 0px 50px !important;
     margin-top: 0;
     background-attachment: local !important;
   }
@@ -147,7 +147,7 @@
   }
   .accordion-button {
     font-size: 14px;
-    padding: 13px 10px !important;
+    padding: 13px 5px !important;
   }
 
   .sticky-sidebar {

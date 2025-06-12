@@ -383,6 +383,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
       font-size: 11px !important;
       font-weight: 400 !important;
     }
+
     .ladakh-dates {
       color: #5f6c7b !important;
       font-size: 11px !important;
@@ -422,7 +423,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
       <div class="container mt-5">
         <div class="row">
 
-         <div class="col-12 mt-5 col-lg-4 col-md-6">
+          <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kolukkumalai-trek">
                 <img src="assets/img/kolukkumalai-img/2.jpg" alt="roamers-Gallery">
@@ -450,7 +451,6 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
-
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
@@ -509,6 +509,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
+
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="chikmagalur">
@@ -537,6 +538,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
+
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="andaman">
@@ -566,6 +568,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
+
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="ladakh-umlingla.php">
@@ -623,7 +626,6 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
             </div>
           </div>
 
-
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="#home-form">
@@ -651,6 +653,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
+
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="meghalaya">
@@ -672,6 +675,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
+
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal">
@@ -730,7 +734,6 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
-
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
@@ -808,6 +811,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
+
           <!-- <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kerala">
@@ -927,7 +931,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
 
                   <div class="inner">
                     <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="ladakh-dates"></span>
+                      <span class="ladakh-dates"></span>
                     </h4>
                     <h4><span class="meghalaya-price">₹19,990</span> </h4>
                   </div>
@@ -943,7 +947,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
           <div class="col-12 col-lg-2">
 
           </div>
-          
+
           <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="ladakh-umlingla.php">
@@ -963,7 +967,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
 
                   <div class="inner">
                     <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="ladakh-dates"></span>
+                      <span class="ladakh-dates"></span>
                     </h4>
                     <h4><span class="ladakh-price"></span> </h4>
                   </div>
@@ -1000,7 +1004,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
               </a>
             </div>
           </div>
-          
+
 
         </div>
       </div>
@@ -1013,9 +1017,9 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
           <div class="col-12 col-lg-2">
 
           </div>
-          
 
-          
+
+
 
         </div>
       </div>
@@ -1351,7 +1355,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
   <script src="assets/js/price.js"></script>
 
   <script>
-    window.addEventListener('DOMContentLoaded', function () {
+    window.addEventListener('DOMContentLoaded', function() {
       const swiper = new Swiper('.swiper-container', {
         slidesPerView: 'auto',
         spaceBetween: 10,
@@ -1393,7 +1397,6 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
     document.getElementById("changecon").innerHTML = localStorage.getItem('three');
     document.getElementById("changecon").innerHTML = localStorage.getItem('four');
     document.getElementById("changecon").innerHTML = localStorage.getItem('five');
-
   </script>
 
 </body>

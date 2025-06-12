@@ -60,3 +60,10 @@ document.querySelectorAll(".spiti-price").forEach((element) => {
 document.querySelectorAll(".ladakh-price").forEach((element) => {
   element.innerHTML = "₹29,990";
 })
+document.querySelectorAll(".valley-price").forEach((element)=> {
+  element.innerHTML = "₹9,990"
+})
+
+document.querySelectorAll(".srilanka-price").forEach((element)=> {
+  element.innerHTML = "₹43,990"
+})

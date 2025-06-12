@@ -65,96 +65,94 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
   <script type="application/ld+json">
     {
-    "@context": "http://schema.org",
-    "@type": "Product",
-    "name": "Example Product",
-    "image": "https://www.roamers.in/path-to-product-image.jpg",
-    "description": "Example product description.",
-    "sku": "EX12345",
-    "brand": {
-    "@type": "Brand",
-    "name": "Example Brand"
-    },
-    "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "24"
-    },
-    "offers": {
-    "@type": "Offer",
-    "url": "https://www.roamers.in/product-page",
-    "priceCurrency": "USD",
-    "price": "99.99",
-    "itemCondition": "http://schema.org/NewCondition",
-    "availability": "http://schema.org/InStock"
-    },
-    "review": [
-    {
-    "@type": "Review",
-    "author": {
-    "@type": "Person",
-    "name": "John Doe"
-    },
-    "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5"
-    },
-    "reviewBody": "This product is amazing!"
-    },
-    {
-    "@type": "Review",
-    "author": {
-    "@type": "Person",
-    "name": "Jane Smith"
-    },
-    "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "4"
-    },
-    "reviewBody": "Great product but a bit expensive."
-    }
-    ]
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-    "@context": "http://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-    {
-    "@type": "Question",
-    "name": "What is the return policy?",
-    "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "You can return the product within 30 days of purchase."
-    }
-    },
-    {
-    "@type": "Question",
-    "name": "Does this product come with a warranty?",
-    "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes, it comes with a 1-year warranty."
-    }
-    }
-    ]
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "name": "Example Product",
+      "image": "https://www.roamers.in/path-to-product-image.jpg",
+      "description": "Example product description.",
+      "sku": "EX12345",
+      "brand": {
+        "@type": "Brand",
+        "name": "Example Brand"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "24"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.roamers.in/product-page",
+        "priceCurrency": "USD",
+        "price": "99.99",
+        "itemCondition": "http://schema.org/NewCondition",
+        "availability": "http://schema.org/InStock"
+      },
+      "review": [{
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "This product is amazing!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          },
+          "reviewBody": "Great product but a bit expensive."
+        }
+      ]
     }
   </script>
   <script type="application/ld+json">
     {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "mainEntity": {
-    "@type": "Article",
-    "headline": "How to Use the Example Product",
-    "description": "A comprehensive guide on how to use the Example Product.",
-    "author": {
-    "@type": "Person",
-    "name": "Alex Johnson"
-    },
-    "datePublished": "2024-07-09",
-    "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
+      "@context": "http://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+          "@type": "Question",
+          "name": "What is the return policy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can return the product within 30 days of purchase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this product come with a warranty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it comes with a 1-year warranty."
+          }
+        }
+      ]
     }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "mainEntity": {
+        "@type": "Article",
+        "headline": "How to Use the Example Product",
+        "description": "A comprehensive guide on how to use the Example Product.",
+        "author": {
+          "@type": "Person",
+          "name": "Alex Johnson"
+        },
+        "datePublished": "2024-07-09",
+        "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
+      }
     }
   </script>
   <!-- Google Analytics Code: -->
@@ -162,7 +160,10 @@ that bring travelers together. Explore destinations, meet people, and make memor
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-0MSFD4117B');
   </script>
@@ -439,6 +440,12 @@ that bring travelers together. Explore destinations, meet people, and make memor
       font-weight: 400 !important;
     }
 
+    .valley-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
     .view-more-btn {
       padding-top: 40px
     }
@@ -519,7 +526,8 @@ that bring travelers together. Explore destinations, meet people, and make memor
       font-size: 11px !important;
       font-weight: 400 !important;
     }
-    .ladakh-dates{
+
+    .ladakh-dates {
       color: #5f6c7b !important;
       font-size: 11px !important;
       font-weight: 400 !important;
@@ -706,11 +714,11 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
     .search-box-con {
       border-radius: 10px;
-    /* border: 2px solid #fff; */
-    padding: 8px;
-    -webkit-backdrop-filter: blur(9.8px);
-    backdrop-filter: blur(9.8px);
-    box-shadow: inset 2px 2px 8px #4ec0db, -2px -2px 4px #4ec0db;
+      /* border: 2px solid #fff; */
+      padding: 8px;
+      -webkit-backdrop-filter: blur(9.8px);
+      backdrop-filter: blur(9.8px);
+      box-shadow: inset 2px 2px 8px #4ec0db, -2px -2px 4px #4ec0db;
     }
 
     .search-box-con img {
@@ -721,9 +729,11 @@ that bring travelers together. Explore destinations, meet people, and make memor
     .trip-card {
       flex: 1 0 calc(25% - 20px);
     }
-    .backpacking-img{
-      height:300px !important;
+
+    .backpacking-img {
+      height: 300px !important;
     }
+
     #search-results {
       display: none;
       gap: 20px;
@@ -733,7 +743,8 @@ that bring travelers together. Explore destinations, meet people, and make memor
     }
 
     .trip-card {
-      flex: 1 1 calc(50% - 20px); /* 2 columns with gap */
+      flex: 1 1 calc(50% - 20px);
+      /* 2 columns with gap */
       max-width: calc(50% - 20px);
       box-sizing: border-box;
     }
@@ -744,7 +755,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
         max-width: 100%;
       }
     }
-
   </style>
 
   <section class="home">
@@ -940,6 +950,27 @@ that bring travelers together. Explore destinations, meet people, and make memor
             </a>
           </div> -->
           <div class="swiper-slide">
+            <a href="valley-of-flowers">
+              <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
+              <div class="silder-inner silder-inner1">
+                <div class="inner inner2 inner-home">
+                  <h3>5 Days - 6 Nights</h3>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Rishikesh
+                  </h4>
+                </div>
+                <h2>Valley Of Flowers</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Rishikesh, Joshimath, Pulna
+                </p>
+                <div class="inner">
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
+                    <span class="valley-dates"></span>
+                  </h4>
+                  <h4><span class="valley-price">₹8,990</span> </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
             <a href="kodaikanal1">
               <img src="assets/img/kodaikanal-backpacking/Gunacav.jpeg" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
@@ -1128,7 +1159,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                   <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct, Chennai
                   </h4>
                 </div>
-                <h2>Munnar with Kolukkumalai 
+                <h2>Munnar with Kolukkumalai
                 </h2>
                 <div class="inner">
                   <p><img src="assets/img/images/loc.svg" alt="location-icon">Munnar</p>
@@ -1172,7 +1203,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
             </a>
           </div>
 
-          
+
 
           <!-- <div class="swiper-slide">
             <a href="kodaikanal">
@@ -1249,6 +1280,49 @@ that bring travelers together. Explore destinations, meet people, and make memor
     <div class="container-fluid">
       <div class="swiper-container1">
         <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="valley-of-flowers.php">
+              <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" class="backpacking-img" alt="roamers-Gallery">
+              <div class="silder-inner silder-inner1">
+                <div class="inner inner2">
+                  <h3>5 Days - 6 Nights</h3>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Rishikesh
+                  </h4>
+                </div>
+                <h2>Valley Of Flowers</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Rishikesh, Joshimath, Pulna </p>
+                <div class="inner">
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
+                    <span class="valley-dates"></span>
+                  </h4>
+                  <h4>Starts at <span class="valley-price"></span> </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="srilanka.php">
+              <img src="assets/img/Sirlanka/srilanka-images-by-roamers (44).webp" class="backpacking-img" alt="roamers-Gallery">
+              <div class="silder-inner silder-inner1">
+                <div class="inner inner2">
+                  <h3>7 Days / 6 Nights
+
+                  </h3>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Rishikesh
+                  </h4>
+                </div>
+                <h2>Sri Lanka</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Rishikesh, Joshimath, Pulna </p>
+                <div class="inner">
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
+                    <span class="valley-dates"></span>
+                  </h4>
+                  <h4>Starts at <span class="srilanka-price"></span> </h4>
+                </div>
+              </div>
+            </a>
+          </div>
 
           <div class="swiper-slide">
             <a href="ladakh-umlingla.php">
@@ -1263,7 +1337,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                 <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                  <span class="ladakh-dates"></span>
+                    <span class="ladakh-dates"></span>
                   </h4>
                   <h4>Starts at <span class="ladakh-price"></span> </h4>
                 </div>
@@ -1334,7 +1408,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
               </div>
             </a>
           </div>
-          
+
           <div class="swiper-slide">
             <a href="andaman">
               <img src="assets/img/backpacking/Andaman hoppers.jpg " class="backpacking-img" alt="roamers-Gallery">
@@ -1355,8 +1429,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
               </div>
             </a>
           </div>
-
-          
 
           <div class="swiper-slide">
             <a href="kodaikanal1">
@@ -1400,8 +1472,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
               </div>
             </a>
           </div>
-
-          
 
           <!-- Add more swiper-slide elements for additional images -->
         </div>
@@ -1575,6 +1645,31 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
 
           <div class="swiper-slide">
+            <a href="valley-of-flowers">
+              <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
+              <div class="silder-inner silder-inner1">
+                <div class="inner inner2">
+                  <h3>5 DAYS - 6 NIGHTS</h3>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Rishikesh
+                  </h4>
+                </div>
+                <h2>Valley Of Flowers
+                </h2>
+                <div class="inner">
+                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Rishikesh, Joshimath, Pulna </p>
+                  <h4 class="sta">Starts at </h4>
+                </div>
+
+                <div class="inner">
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
+                    <span class="valley-dates"></span>
+                  </h4>
+                  <h4><span id="valley-price"></span> </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
             <a href="kolukkumalai-trek">
               <img src="assets/img/kolukkumalai-img/2.jpg" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
@@ -1592,8 +1687,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="munnar-dates">Jan
-                      12, Feb 16 </span>
+                    <span class="munnar-dates"></span>
                   </h4>
                   <h4><span id="munnar-price">₹4,990</span> </h4>
                 </div>
@@ -1806,7 +1900,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                   <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Chennai, Bangalore
                   </h4>
                 </div>
-                <h2>Chikmagalur Bagpacking
+                <h2>Chikmagalur Backpacking
                 </h2>
                 <div class="inner">
                   <p><img src="assets/img/images/loc.svg" alt="location-icon">Chikmagalur, Z point, Hebbe Falls</p>
@@ -1930,10 +2024,10 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
   <!--====== FOOTER START======-->
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
       var whatsappButton = document.querySelector('.what-sum');
 
-      whatsappButton.addEventListener("click", function (event) {
+      whatsappButton.addEventListener("click", function(event) {
         event.preventDefault();
 
         // Get form values
@@ -1962,7 +2056,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
         }
       });
     });
-
   </script>
   <!--====== FOOTER END======-->
   <script>
@@ -1995,7 +2088,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
     slider.addEventListener("mouseleave", () => {
       timer = setTimeout(displayImages, 5000); // Resume the slider when leaving hover
     });
-
   </script>
 
 
@@ -2012,8 +2104,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
 
   <script>
-    const data = [
-      {
+    const data = [{
         name: 'Andaman Island Hopping',
         link: 'https://www.roamers.in/andaman',
         image: 'assets/img/kolukkumalai-img/2.jpg',
@@ -2150,16 +2241,16 @@ that bring travelers together. Explore destinations, meet people, and make memor
       }
 
       const filteredData = data
-      .filter(item => item.name.toLowerCase().includes(query))
-      .sort((a, b) => {
-        const aName = a.name.toLowerCase();
-        const bName = b.name.toLowerCase();
-        const aStarts = aName.startsWith(query);
-        const bStarts = bName.startsWith(query);
-        if (aStarts && !bStarts) return -1;
-        if (!aStarts && bStarts) return 1;
-        return aName.indexOf(query) - bName.indexOf(query); // further prioritize closer matches
-      });
+        .filter(item => item.name.toLowerCase().includes(query))
+        .sort((a, b) => {
+          const aName = a.name.toLowerCase();
+          const bName = b.name.toLowerCase();
+          const aStarts = aName.startsWith(query);
+          const bStarts = bName.startsWith(query);
+          if (aStarts && !bStarts) return -1;
+          if (!aStarts && bStarts) return 1;
+          return aName.indexOf(query) - bName.indexOf(query); // further prioritize closer matches
+        });
 
 
       if (filteredData.length === 0) {
@@ -2193,7 +2284,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
       searchResults.style.flexWrap = 'wrap'; // Wrap items to new rows
     }
   </script>
-  
+
 
   <?php include('includes/footer.php'); ?>
   <!-- ***** All jQuery Plugins ***** -->

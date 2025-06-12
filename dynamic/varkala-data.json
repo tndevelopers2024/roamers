@@ -81,7 +81,6 @@
       ]
     }
   },
-
   "ooty": {
     "April": [
       {
@@ -258,6 +257,235 @@
           "vehicle": "RE Himalayan (Dual Rider)",
           "sharing": "Double Sharing",
           "price": "₹38,990/-"
+        }
+      ]
+    }
+  },
+  "munnar": {
+    "April": [
+      {
+        "date": "19th - 22nd",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,999/-"
+      }
+    ],
+    "May": [
+      {
+        "date": "10th - 13th",
+        "status": "Fast Filling",
+        "statusColor": "orange",
+        "price": "₹8,499/-"
+      },
+      {
+        "date": "24th - 27th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,499/-"
+      }
+    ],
+    "June": [
+      {
+        "date": "07th - 10th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,499/-"
+      },
+      {
+        "date": "21st - 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹8,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "chennai": "₹8,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "chennai": "₹9,499/-"
+        }
+      ]
+    }
+  },
+  "valley": {
+    "June": [
+      {
+        "date": "28th - 03rd July",
+        "status": "Fast Filling",
+        "statusColor": "orange",
+        "price": "₹9,990/-"
+      }
+    ],
+    "July": [
+      {
+        "date": "05th - 10th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "12nd - 17th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "19th - 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "26th - 31st",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      }
+    ],
+    "August": [
+      {
+        "date": "02nd - 07th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "09th - 14th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "15th - 20th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "16th - 21st",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "23rd - 28th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      },
+      {
+        "date": "26th - 31st",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹9,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹9,990/-",
+          "mrp": "₹11,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹11,499/-",
+          "mrp": "₹12,990/-"
+        }
+      ]
+    }
+  },
+  "srilanka": {
+    "June": [
+      {
+        "date": "28th - 03rd July",
+        "status": "Fast Filling",
+        "statusColor": "orange",
+        "price": "₹43,990/-"
+      }
+    ],
+    "July": [
+      {
+        "date": "05th - 10th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "12nd - 17th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "19th - 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "26th - 31st",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      }
+    ],
+    "August": [
+      {
+        "date": "02nd - 07th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "09th - 14th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "15th - 20th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "16th - 21st",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "23rd - 28th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      },
+      {
+        "date": "26th - 31st",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹44,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹43,990/-",
+          "mrp": "₹46,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹46,990/-",
+          "mrp": "₹48,990/-"
         }
       ]
     }

@@ -1,5 +1,5 @@
 <?php
-  session_start();
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -55,96 +55,94 @@
 
   <script type="application/ld+json">
     {
-    "@context": "http://schema.org",
-    "@type": "Product",
-    "name": "Example Product",
-    "image": "https://www.roamers.in/path-to-product-image.jpg",
-    "description": "Example product description.",
-    "sku": "EX12345",
-    "brand": {
-    "@type": "Brand", 
-    "name": "Example Brand"
-    },
-    "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "24"
-    },
-    "offers": {
-    "@type": "Offer",
-    "url": "https://www.roamers.in/product-page",
-    "priceCurrency": "USD",
-    "price": "99.99",
-    "itemCondition": "http://schema.org/NewCondition",
-    "availability": "http://schema.org/InStock"
-    },
-    "review": [
-    {
-    "@type": "Review",
-    "author": {
-    "@type": "Person",
-    "name": "John Doe"
-    },
-    "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5"
-    },
-    "reviewBody": "This product is amazing!"
-    },
-    {
-    "@type": "Review",
-    "author": {
-    "@type": "Person",
-    "name": "Jane Smith"
-    },
-    "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "4"
-    },
-    "reviewBody": "Great product but a bit expensive."
-    }
-    ]
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-    "@context": "http://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-    {
-    "@type": "Question",
-    "name": "What is the return policy?",
-    "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "You can return the product within 30 days of purchase."
-    }
-    },
-    {
-    "@type": "Question",
-    "name": "Does this product come with a warranty?",
-    "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes, it comes with a 1-year warranty."
-    }
-    }
-    ]
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "name": "Example Product",
+      "image": "https://www.roamers.in/path-to-product-image.jpg",
+      "description": "Example product description.",
+      "sku": "EX12345",
+      "brand": {
+        "@type": "Brand",
+        "name": "Example Brand"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "24"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.roamers.in/product-page",
+        "priceCurrency": "USD",
+        "price": "99.99",
+        "itemCondition": "http://schema.org/NewCondition",
+        "availability": "http://schema.org/InStock"
+      },
+      "review": [{
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "This product is amazing!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          },
+          "reviewBody": "Great product but a bit expensive."
+        }
+      ]
     }
   </script>
   <script type="application/ld+json">
     {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "mainEntity": {
-    "@type": "Article",
-    "headline": "How to Use the Example Product",
-    "description": "A comprehensive guide on how to use the Example Product.",
-    "author": {
-    "@type": "Person",
-    "name": "Alex Johnson"
-    },
-    "datePublished": "2024-07-09",
-    "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
+      "@context": "http://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+          "@type": "Question",
+          "name": "What is the return policy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can return the product within 30 days of purchase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this product come with a warranty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it comes with a 1-year warranty."
+          }
+        }
+      ]
     }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "mainEntity": {
+        "@type": "Article",
+        "headline": "How to Use the Example Product",
+        "description": "A comprehensive guide on how to use the Example Product.",
+        "author": {
+          "@type": "Person",
+          "name": "Alex Johnson"
+        },
+        "datePublished": "2024-07-09",
+        "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
+      }
     }
   </script>
   <!-- Google Analytics Code: -->
@@ -152,7 +150,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-0MSFD4117B');
   </script>
@@ -162,18 +163,20 @@
       padding: 20px;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
       border-radius: 10px;
-      height:65vh;
+      height: 65vh;
       overflow-y: scroll;
     }
-    .available-box::-webkit-scrollbar{
+
+    .available-box::-webkit-scrollbar {
       width: 10px;
-      background-color:#a3a3a3;
-      border-radius:10px;
+      background-color: #a3a3a3;
+      border-radius: 10px;
     }
+
     /* Track */
     .available-box::-webkit-scrollbar-thumb {
-     background: #4ec0db;
-     border-radius:10px;
+      background: #4ec0db;
+      border-radius: 10px;
     }
 
     .available-box h3 {
@@ -192,27 +195,30 @@
       color: #fff !important;
       border-radius: 10px;
       justify-content: space-between;
-      transition:background 0.2s linear;
+      transition: background 0.2s linear;
       position: relative;
     }
-    .details-box:before{
-      content:"";
-      height:15px;
-      width:15px;
-      border:4px solid #fff;
-      border-left:transparent;
-      border-top:transparent;
-      position:absolute;
-      right:30px;
-      top:50%;
+
+    .details-box:before {
+      content: "";
+      height: 15px;
+      width: 15px;
+      border: 4px solid #fff;
+      border-left: transparent;
+      border-top: transparent;
+      position: absolute;
+      right: 30px;
+      top: 50%;
       transform: rotate(45deg) translateY(-50%);
     }
-    .details-box:hover{
-      background-color:#094067;
+
+    .details-box:hover {
+      background-color: #094067;
     }
+
     .details-head h4 {
       color: #fff !important;
-      font-size:20px !important;
+      font-size: 20px !important;
     }
 
     .price-box {
@@ -256,7 +262,7 @@
       padding: 20px;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
       border-radius: 10px;
-      margin-top:75px !important;
+      margin-top: 75px !important;
     }
 
     .book-btn {
@@ -332,9 +338,12 @@
     } */
     .glowing-text {
       font-size: 16px !important;
-      background: #f857a6;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #f857a6;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #ff5858, #f857a6);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       color: #fff;
       position: absolute;
       left: 121%;
@@ -342,8 +351,9 @@
       width: 150px;
       top: -40px;
       padding: 3px 6px;
-      border-radius:10px;
-    } 
+      border-radius: 10px;
+    }
+
     .glowing-text i {
       animation: blink-effect 1s infinite;
     }
@@ -352,62 +362,67 @@
       0% {
         opacity: 1;
       }
+
       50% {
         opacity: 0;
       }
+
       100% {
         opacity: 1;
       }
     }
+
     .price-box .row {
-      margin:0px 20px;
+      margin: 0px 20px;
       position: relative;
-      padding:20px 0;
-      padding-bottom:10px;
+      padding: 20px 0;
+      padding-bottom: 10px;
     }
-    .price-box .row:before{
-      content:"";
-      position:absolute;
-      bottom:0;
-      left:0;
+
+    .price-box .row:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
       z-index: 0;
-      height:2px;
+      height: 2px;
       width: 100%;
-      background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(31,130,255,1) 50%, rgba(0,212,255,0) 100%);
+      background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(31, 130, 255, 1) 50%, rgba(0, 212, 255, 0) 100%);
     }
+
     .custom-date {
-    position: relative;
-    display: inline-block;
-    width:100%;
-  }
+      position: relative;
+      display: inline-block;
+      width: 100%;
+    }
 
-  .custom-date input[type="date"] {
-    padding: 10px 40px 10px 10px;
-    font-size: 16px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    outline: none;
-  }
+    .custom-date input[type="date"] {
+      padding: 10px 40px 10px 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
 
-  .custom-date i {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #666;
-    pointer-events: none;
-  }
+    .custom-date i {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #666;
+      pointer-events: none;
+    }
 
-  /* Remove the default calendar icon on Chrome */
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    opacity: 0;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    height: 100%;
-  }
-    
+    /* Remove the default calendar icon on Chrome */
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      opacity: 0;
+      cursor: pointer;
+      position: absolute;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+
 
 
     @media (max-width: 600px) {
@@ -446,6 +461,7 @@
       .price-box {
         padding: 10px 10px !important;
       }
+
       .price-col p {
         font-size: 12px !important;
       }
@@ -475,82 +491,97 @@
     .details-box {
       cursor: pointer;
     }
-    #per-details{
-      display:none;
+
+    #per-details {
+      display: none;
     }
-    #full-details{
-      display:none;
+
+    #full-details {
+      display: none;
     }
-    .input-field input{
-      border:1px solid #a3a3a3;
-      outline:none !important;
-      box-shadow:none !important;
+
+    .input-field input {
+      border: 1px solid #a3a3a3;
+      outline: none !important;
+      box-shadow: none !important;
     }
+
     .phone[type="number"]::-webkit-outer-spin-button,
     .phone[type="number"]::-webkit-inner-spin-button {
       -webkit-appearance: none;
       margin: 0;
-   }
+    }
 
     /* Hide number input arrows in Firefox */
     input[type="number"] {
       -moz-appearance: textfield;
     }
-    label{
-      margin-top:20px !important;
-      margin-right:20px !important;
+
+    label {
+      margin-top: 20px !important;
+      margin-right: 20px !important;
     }
-    textarea{
-      resize:none !important;
+
+    textarea {
+      resize: none !important;
       height: 200px !important;
-      outline:none !important;
-      border:1px solid #a3a3a3 !important;
-      box-shadow:none !important;
-      width:100% !important;
-    }
-    select{
+      outline: none !important;
+      border: 1px solid #a3a3a3 !important;
+      box-shadow: none !important;
       width: 100% !important;
-      padding:20px !important;
-      outline:none !important;
-      box-shadow:none !important;
-      
     }
-    .span{
-      display:block;
-      font-size:18px !important;
-      line-height:10px !important;
-      margin-top:24px;
-      color:#000 !important;
-      font-weight:600 !important;
+
+    select {
+      width: 100% !important;
+      padding: 20px !important;
+      outline: none !important;
+      box-shadow: none !important;
+
     }
-    .form-img img{
-      border-radius:10px;
+
+    .span {
+      display: block;
+      font-size: 18px !important;
+      line-height: 10px !important;
+      margin-top: 24px;
+      color: #000 !important;
+      font-weight: 600 !important;
     }
-    #full-details div{
-      color:#000;
-      font-size:18px !important;
-      display:flex;
-      align-items:center;
-      gap:20px;
-      margin-top:20px !important;
+
+    .form-img img {
+      border-radius: 10px;
     }
-    #full-details div i{
-      font-size:24px !important;
-      color:#4ec0db;
-      width:20px !important;
+
+    #full-details div {
+      color: #000;
+      font-size: 18px !important;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 20px !important;
     }
-    #full-details div i:hover{
-      color:#4ec0db !important;
+
+    #full-details div i {
+      font-size: 24px !important;
+      color: #4ec0db;
+      width: 20px !important;
     }
-    #full-details div p{
-      color:#000;
-      font-size:18px;
+
+    #full-details div i:hover {
+      color: #4ec0db !important;
     }
+
+    #full-details div p {
+      color: #000;
+      font-size: 18px;
+    }
+
     .step-container {
       position: relative;
       text-align: center;
       transform: translateY(-43%);
     }
+
     .step-circle {
       width: 30px;
       height: 30px;
@@ -563,7 +594,8 @@
       align-items: center;
       justify-content: center;
       margin-bottom: 10px;
-      cursor: pointer; /* Added cursor pointer */
+      cursor: pointer;
+      /* Added cursor pointer */
     }
 
     .step-line {
@@ -575,42 +607,49 @@
       background-color: #4ec0db;
       z-index: -1;
     }
-    .booking-form-head{
-      margin-top:150px;
+
+    .booking-form-head {
+      margin-top: 150px;
     }
+
     .radio-item [type="radio"] {
       display: none;
     }
-    .radio-item + .radio-item {
+
+    .radio-item+.radio-item {
       margin-top: 15px;
     }
+
     .radio-item label {
-        display: block;
-        padding: 20px 60px;
-        border: 1px solid #a3a3a3;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 18px;
-        font-weight: 400;
-        min-width: 250px;
-        width:100%;
-        white-space: nowrap;
-        position: relative;
-        transition: 0.4s ease-in-out 0s;
+      display: block;
+      padding: 20px 60px;
+      border: 1px solid #a3a3a3;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 400;
+      min-width: 250px;
+      width: 100%;
+      white-space: nowrap;
+      position: relative;
+      transition: 0.4s ease-in-out 0s;
     }
+
     .radio-item label:after,
     .radio-item label:before {
       content: "";
       position: absolute;
       border-radius: 50%;
     }
+
     .radio-item label:after {
-        height: 19px;
-        width: 19px;
-        border: 2px solidrgb(49, 173, 255);
-        left: 21px;
-        top: calc(50% - 13px);
+      height: 19px;
+      width: 19px;
+      border: 2px solidrgb(49, 173, 255);
+      left: 21px;
+      top: calc(50% - 13px);
     }
+
     .radio-item label:before {
       background: #4ec0db;
       height: 20px;
@@ -622,20 +661,22 @@
       visibility: hidden;
       transition: 0.4s ease-in-out 0s;
     }
-    .radio-item [type="radio"]:checked ~ label {
+
+    .radio-item [type="radio"]:checked~label {
       border-color: #4ec0db;
     }
-    .radio-item [type="radio"]:checked ~ label::before {
+
+    .radio-item [type="radio"]:checked~label::before {
       opacity: 1;
       visibility: visible;
       transform: scale(1);
     }
-    .prev-step{
-      background:#fff;
-      color:black;
-      border:1px solid #094067;
+
+    .prev-step {
+      background: #fff;
+      color: black;
+      border: 1px solid #094067;
     }
-    
   </style>
 </head>
 
@@ -659,332 +700,332 @@
 
   <section class="pb-5 payment-banner">
     <div class="container">
-       <form action="ladakh-booking-form1.php" method="POST" autocomplete="off">
-          <div class="row gy-4" id="date-form">
-              <div class="col">
-                <div id="container" class="container" style="margin-top:30px;">
-                  <div class="progress px-1" style="height: 3px;">
-                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="step-container d-flex justify-content-between">
-                    <div class="step-circle" onclick="displayStep(1)">1</div>
-                    <div class="step-circle" onclick="displayStep(2)">2</div>
-                    <div class="step-circle" onclick="displayStep(3)">3</div>
-                  </div>
+      <form action="ladakh-booking-form1.php" method="POST" autocomplete="off">
+        <div class="row gy-4" id="date-form">
+          <div class="col">
+            <div id="container" class="container" style="margin-top:30px;">
+              <div class="progress px-1" style="height: 3px;">
+                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="step-container d-flex justify-content-between">
+                <div class="step-circle" onclick="displayStep(1)">1</div>
+                <div class="step-circle" onclick="displayStep(2)">2</div>
+                <div class="step-circle" onclick="displayStep(3)">3</div>
+              </div>
+            </div>
+            <div class="available-box">
+              <div class="dates">
+                <div id="monthly-data-container">
+                  <h3>Available Dates</h3>
+                  <!-- Dynamic content will be inserted here -->
                 </div>
-                  <div class="available-box">
-                    <div class="dates">
-                      <div id="monthly-data-container">
-                        <h3>Available Dates</h3>
-                          <!-- Dynamic content will be inserted here -->                          
-                      </div>
-                      <div class="button-div d-flex justify-content-end mt-5">
-                        <button class="book-btn next-step" id="book-btn">Next</button>
-                      </div>
-                    </div>                  
-                    <div class="row gy-4" id="per-details">                   
-                        <h2 class="head">Traveller Details</h2>
-                        <div class="per-form">
-                          <div class="row">
-                            <div class="col">
-                              <div class="row row-cols-1 g-3">
-                                <div class="col">
-                                  <div class="input-field">
-                                    <input type="text" id="name" placeholder="Full Name" name="name" autocomplete="off" required>
-                                  </div>
-                                </div>
-                                <div class="col">
-                                  <div class="input-field">
-                                    <input type="email" name="email" placeholder="Email" required>
-                                  </div>
-                                </div>
-                                <div class="col">
-                                  <div class="input-field">
-                                  <input type="number" class="phone" id="phone" name="phone" placeholder="Phone Number" required 
-                                  oninput="this.value = this.value.slice(0, 12).replace(/[^0-9]/g, '');">
-                                  </div>
-                                </div>
-                                <span class="span mt-5">Date Of Birth</span>
-                                <div class="col">
-                                  <div class="input-field">
-                                  <div class="custom-date">
-                                    <input type="date" name="dob" id="dob" placeholder="D.O.B" required>
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                  </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col">
-                                  <span class="span mt-5">Gender</span>
-                                  
-                                  <div class="radio-item"><input name="gender" id="radio1" type="radio" value="Male"><label for="radio1">Male</label></div>
-                                  <div class="radio-item"><input name="gender" id="radio2" type="radio" value="Female"><label for="radio2">Female</label></div>
-                                  <div class="radio-item"><input name="gender" id="radio3" type="radio" value="Others"><label for="radio3" >Others</label></div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col">
-                                  <span class="span mt-5">Sharing</span>
-                                  <div class="radio-item"><input name="sharing" id="radio4" type="radio" value="Double Sharing"><label for="radio4">Double Sharing</label></div>
-                                  <div class="radio-item"><input name="sharing" id="radio5" type="radio" value="Triple Sharing"><label for="radio5">Triple Sharing</label></div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col">
-                                  <label for="travel-date" class="form-label span mt-5">Date and Members:</label>
-                                  <select id="travel-date" name="date" class="form-select mt-4" required>
-                                    <option value="" disabled selected>Select the Date</option>
-                                    <option value=""></option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="input-field mt-4">
-                              <input type="number" id="traveller-count" name="person-count" placeholder="Traveller Count" min="1" required>
-                              <div class="row">
-                                <div class="col">
-                                  <label for="mode" class="form-label span mt-5">Mode of Travel</label>
-                                  <select name="mode" id="mode" class="form-select mt-4" required>
-                                    <option value="" disabled selected>Select the Mode</option>
-                                    <option value="Tempo Traveller">Tempo Traveller</option>
-                                    <option value="RE Himalayan (Solo)">RE Himalayan (Solo)</option>
-                                    <option value="RE Himalayan (Dual Rider)">RE Himalayan (Dual Rider)</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <span class="span mt-5">PickUp & Drop Location</span>
-                              <div class="input-field mt-4">
-                              <select id="pickup" name="pickup" class="form-select mt-4" required>
-                                    <option value="" disabled selected>Select the Location</option>
-                                    <option value="Leh">Leh</option>
-                                  </select>
-                              </div>
-                              <span class="span mt-5">Address</span>
-                              <div class="input-field mt-4">
-                                <input type="text" placeholder="Address 1" name="address1" required>
-                              </div>                             
-                              <div class="input-field mt-4">
-                                <input type="text" placeholder="Address 2" name="address2" required>
-                              </div>  
-                              <div class="row mt-4 gx-4">
-                                <div class="col">
-                                  <div class="input-field">
-                                    <input type="text" placeholder="City" name="city" required>
-                                  </div>
-                                </div>
-                                <div class="col">
-                                  <div class="input-field">
-                                    <input type="text" placeholder="Post Code" name="post-code" required oninput="this.value = this.value.slice(0, 6).replace(/[^0-9]/g, '');">
-                                  </div>
-                                </div>
-                              </div>                           
-                              </div>
-                              <div class="button-div d-flex justify-content-end gap-2 mt-4">
-                                <button id="pre-btn" class="book-btn prev-step">Back</button>
-                                <button class="book-btn next-step" id="next-btn2">Next</button>
-                              </div>
-                            </div>
-                          </div>                        
-                        </div>
-                    </div>
-                    <div id="full-details">
-                      <h1>full details</h1>
-                    </div>
-                  </div>              
-                  
+                <div class="button-div d-flex justify-content-end mt-5">
+                  <button class="book-btn next-step" id="book-btn">Next</button>
                 </div>
-
-                <div class="col">
+              </div>
+              <div class="row gy-4" id="per-details">
+                <h2 class="head">Traveller Details</h2>
+                <div class="per-form">
                   <div class="row">
-                    <div class="cost-col">
-                      <h3>Costing</h3>
-                      <table class="table table-bordered costing-table">
-                        <thead>
-                          <tr>
-                            <th>Mode of Travel</th>
-                            <th>Triple Sharing</th>
-                            <th>Double Sharing</th>
-                          </tr>
-                        </thead>
-                        <tbody id="costing-table-body"></tbody>
-                      </table>
-                      <div class="justify-content-center starting-price-box px-3">
-                        <p id="starting-price" class="starting-price"></p>
+                    <div class="col">
+                      <div class="row row-cols-1 g-3">
+                        <div class="col">
+                          <div class="input-field">
+                            <input type="text" id="name" placeholder="Full Name" name="name" autocomplete="off" required>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="input-field">
+                            <input type="email" name="email" placeholder="Email" required>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="input-field">
+                            <input type="number" class="phone" id="phone" name="phone" placeholder="Phone Number" required
+                              oninput="this.value = this.value.slice(0, 12).replace(/[^0-9]/g, '');">
+                          </div>
+                        </div>
+                        <span class="span mt-5">Date Of Birth</span>
+                        <div class="col">
+                          <div class="input-field">
+                            <div class="custom-date">
+                              <input type="date" name="dob" id="dob" placeholder="D.O.B" required>
+                              <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <span class="span mt-5">Gender</span>
+
+                          <div class="radio-item"><input name="gender" id="radio1" type="radio" value="Male"><label for="radio1">Male</label></div>
+                          <div class="radio-item"><input name="gender" id="radio2" type="radio" value="Female"><label for="radio2">Female</label></div>
+                          <div class="radio-item"><input name="gender" id="radio3" type="radio" value="Others"><label for="radio3">Others</label></div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <span class="span mt-5">Sharing</span>
+                          <div class="radio-item"><input name="sharing" id="radio4" type="radio" value="Double Sharing"><label for="radio4">Double Sharing</label></div>
+                          <div class="radio-item"><input name="sharing" id="radio5" type="radio" value="Triple Sharing"><label for="radio5">Triple Sharing</label></div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="travel-date" class="form-label span mt-5">Date and Members:</label>
+                          <select id="travel-date" name="date" class="form-select mt-4" required>
+                            <option value="" disabled selected>Select the Date</option>
+                            <option value=""></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="input-field mt-4">
+                        <input type="number" id="traveller-count" name="person-count" placeholder="Traveller Count" min="1" required>
+                        <div class="row">
+                          <div class="col">
+                            <label for="mode" class="form-label span mt-5">Mode of Travel</label>
+                            <select name="mode" id="mode" class="form-select mt-4" required>
+                              <option value="" disabled selected>Select the Mode</option>
+                              <option value="Tempo Traveller">Tempo Traveller</option>
+                              <option value="RE Himalayan (Solo)">RE Himalayan (Solo)</option>
+                              <option value="RE Himalayan (Dual Rider)">RE Himalayan (Dual Rider)</option>
+                            </select>
+                          </div>
+                        </div>
+                        <span class="span mt-5">PickUp & Drop Location</span>
+                        <div class="input-field mt-4">
+                          <select id="pickup" name="pickup" class="form-select mt-4" required>
+                            <option value="" disabled selected>Select the Location</option>
+                            <option value="Leh">Leh</option>
+                          </select>
+                        </div>
+                        <span class="span mt-5">Address</span>
+                        <div class="input-field mt-4">
+                          <input type="text" placeholder="Address 1" name="address1" required>
+                        </div>
+                        <div class="input-field mt-4">
+                          <input type="text" placeholder="Address 2" name="address2" required>
+                        </div>
+                        <div class="row mt-4 gx-4">
+                          <div class="col">
+                            <div class="input-field">
+                              <input type="text" placeholder="City" name="city" required>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="input-field">
+                              <input type="text" placeholder="Post Code" name="post-code" required oninput="this.value = this.value.slice(0, 6).replace(/[^0-9]/g, '');">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="button-div d-flex justify-content-end gap-2 mt-4">
+                        <button id="pre-btn" class="book-btn prev-step">Back</button>
+                        <button class="book-btn next-step" id="next-btn2">Next</button>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+              <div id="full-details">
+                <h1>full details</h1>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            <div class="row">
+              <div class="cost-col">
+                <h3>Costing</h3>
+                <table class="table table-bordered costing-table">
+                  <thead>
+                    <tr>
+                      <th>Mode of Travel</th>
+                      <th>Triple Sharing</th>
+                      <th>Double Sharing</th>
+                    </tr>
+                  </thead>
+                  <tbody id="costing-table-body"></tbody>
+                </table>
+                <div class="justify-content-center starting-price-box px-3">
+                  <p id="starting-price" class="starting-price"></p>
+                </div>
+              </div>
             </div>
           </div>
-       </form>
+        </div>
+    </div>
+    </form>
     </div>
   </section>
 
 
-  
+
 
   <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    fetch("./dynamic/varkala-data.json")
-      .then(response => response.json())
-      .then(data => {
-        const locationKey = "ladakh";
-        const locationData = data[locationKey];
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("./dynamic/varkala-data.json")
+        .then(response => response.json())
+        .then(data => {
+          const locationKey = "ladakh";
+          const locationData = data[locationKey];
 
-        if (!locationData?.costing) {
-          console.error("No costing data found for the selected location.");
-          return;
-        }
-
-        document.getElementById("starting-price").textContent =
-          `Starting Price: ${locationData.costing.startingPrice}`;
-
-        const tableBody = document.getElementById("costing-table-body");
-        tableBody.innerHTML = ""; // Clear existing rows
-
-        // Group by vehicle
-        const vehicleGroups = {};
-
-        locationData.costing.prices.forEach(item => {
-          if (!vehicleGroups[item.vehicle]) {
-            vehicleGroups[item.vehicle] = {};
+          if (!locationData?.costing) {
+            console.error("No costing data found for the selected location.");
+            return;
           }
-          vehicleGroups[item.vehicle][item.sharing] = item.price;
-        });
 
-        // Populate table
-        for (const vehicle in vehicleGroups) {
-          const row = `<tr>
+          document.getElementById("starting-price").textContent =
+            `Starting Price: ${locationData.costing.startingPrice}`;
+
+          const tableBody = document.getElementById("costing-table-body");
+          tableBody.innerHTML = ""; // Clear existing rows
+
+          // Group by vehicle
+          const vehicleGroups = {};
+
+          locationData.costing.prices.forEach(item => {
+            if (!vehicleGroups[item.vehicle]) {
+              vehicleGroups[item.vehicle] = {};
+            }
+            vehicleGroups[item.vehicle][item.sharing] = item.price;
+          });
+
+          // Populate table
+          for (const vehicle in vehicleGroups) {
+            const row = `<tr>
             <td>${vehicle}</td>
             <td>${vehicleGroups[vehicle]["Triple Sharing"] || "-"}</td>
             <td>${vehicleGroups[vehicle]["Double Sharing"] || "-"}</td>
           </tr>`;
-          tableBody.innerHTML += row;
+            tableBody.innerHTML += row;
+          }
+        })
+        .catch(error => console.error("Error loading costing data:", error));
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const dateForm = document.querySelector(".dates");
+      const bookBtn = document.querySelector("#book-btn");
+      const nextBtn = document.querySelector("#next-btnn");
+      const nextBtn2 = document.querySelector("#next-btn2")
+      const preBtn = document.querySelector("#pre-btn");
+      const preBtn2 = document.querySelector("#pre-btn2");
+      const confirmBtn = document.querySelector("#confirm-btn")
+      const perDetails = document.querySelector("#per-details");
+      const fullDetails = document.querySelector("#full-details");
+
+
+      if (bookBtn && dateForm && perDetails) {
+        bookBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+          dateForm.style.display = "none";
+          perDetails.style.display = "block";
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+          perDetails.style.display = "none";
+          // Add logic to show the next section if available
+        });
+      }
+
+      if (preBtn) {
+        preBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+          dateForm.style.display = "block";
+          perDetails.style.display = "none";
+        });
+      }
+      if (preBtn2) {
+        preBtn2.addEventListener("click", (e) => {
+          e.preventDefault();
+          dateForm.style.display = "none";
+          perDetails.style.display = "block";
+          fullDetails.style.display = "none";
+        });
+      }
+
+      nextBtn2.addEventListener("click", (e) => {
+        e.preventDefault(); // Prevent form submission if inside a form
+
+
+        // Storing input values in constants
+        const fullName = document.querySelector("#name").value.trim();
+        const email = document.querySelector('input[type="email"]').value.trim();
+        const phone = document.querySelector("#phone").value.trim();
+        const dob = document.querySelector('input[placeholder="D.O.B"]').value.trim();
+        const travellerCount = document.querySelector("#traveller-count").value.trim();
+        const address1 = document.querySelector('input[placeholder="Address 1"]').value.trim();
+        const address2 = document.querySelector('input[placeholder="Address 2"]').value.trim();
+        const city = document.querySelector('input[placeholder="City"]').value.trim();
+        const postCode = document.querySelector('input[placeholder="Post Code"]').value.trim();
+        const gender = document.querySelector('input[name="gender"]:checked')?.value || "";
+        const sharing = document.querySelector('input[name="sharing"]:checked')?.value || "";
+        const travelDate = document.querySelector("#travel-date").value.trim();
+        const pickup = document.querySelector("#pickup").value.trim();
+        const vehicle = document.querySelector("#mode").value.trim();
+        let perPersonAmount = "";
+
+        if (vehicle === "Tempo Traveller" && sharing === "Triple Sharing") {
+          perPersonAmount = "₹29,990/-";
+        } else if (vehicle === "Tempo Traveller" && sharing === "Double Sharing") {
+          perPersonAmount = "₹32,990/-";
+        } else if (vehicle === "RE Himalayan (Solo)" && sharing === "Triple Sharing") {
+          perPersonAmount = "₹42,990/-";
+        } else if (vehicle === "RE Himalayan (Solo)" && sharing === "Double Sharing") {
+          perPersonAmount = "₹45,990/-";
+        } else if (vehicle === "RE Himalayan (Dual Rider)" && sharing === "Triple Sharing") {
+          perPersonAmount = "₹35,990/-";
+        } else if (vehicle === "RE Himalayan (Dual Rider)" && sharing === "Double Sharing") {
+          perPersonAmount = "₹38,990/-";
         }
-      })
-      .catch(error => console.error("Error loading costing data:", error));
-  });
-</script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-  const dateForm = document.querySelector(".dates");
-  const bookBtn = document.querySelector("#book-btn");
-  const nextBtn = document.querySelector("#next-btnn");
-  const nextBtn2 = document.querySelector("#next-btn2")
-  const preBtn = document.querySelector("#pre-btn");
-  const preBtn2 = document.querySelector("#pre-btn2");
-  const confirmBtn = document.querySelector("#confirm-btn")
-  const perDetails = document.querySelector("#per-details");
-  const fullDetails = document.querySelector("#full-details");
-  
+        // Validation check (Ensuring all fields are filled)
+        if (
+          !travelDate || !fullName || !email || !phone || !dob || !travellerCount ||
+          !address1 || !city || !postCode || !gender || !sharing || !pickup || !vehicle
+        ) {
+          alert("All fields are required! Please fill out all fields before proceeding.");
+          return; // Stop execution if any field is empty
+        }
 
-  if (bookBtn && dateForm && perDetails) {
-    bookBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      dateForm.style.display = "none";
-      perDetails.style.display = "block";
-    });
-  }
+        // Creating an object to store input values
+        const formData = {
+          travelDate,
+          fullName,
+          email,
+          phone,
+          dob,
+          travellerCount,
+          address1,
+          address2,
+          city,
+          postCode,
+          gender,
+          sharing,
+          pickup,
+          vehicle,
+          perPersonAmount
+        };
 
-  if (nextBtn) {
-    nextBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      perDetails.style.display = "none";
-      // Add logic to show the next section if available
-    });
-  }
+        // Store the object in local storage (optional)
+        // localStorage.setItem("formData", JSON.stringify(formData));
 
-  if (preBtn) {
-    preBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      dateForm.style.display = "block";
-      perDetails.style.display = "none";
-    });
-  }
-  if (preBtn2) {
-    preBtn2.addEventListener("click", (e) => {
-      e.preventDefault();
-      dateForm.style.display = "none";
-      perDetails.style.display = "block";
-      fullDetails.style.display = "none";
-    });
-  }
+        // Hide previous sections and show full details
+        dateForm.style.display = "none";
+        perDetails.style.display = "none";
+        fullDetails.style.display = "block";
 
-  nextBtn2.addEventListener("click", (e) => {
-    e.preventDefault(); // Prevent form submission if inside a form
-
-    
-    // Storing input values in constants
-    const fullName = document.querySelector("#name").value.trim();
-    const email = document.querySelector('input[type="email"]').value.trim();
-    const phone = document.querySelector("#phone").value.trim();
-    const dob = document.querySelector('input[placeholder="D.O.B"]').value.trim();
-    const travellerCount = document.querySelector("#traveller-count").value.trim();
-    const address1 = document.querySelector('input[placeholder="Address 1"]').value.trim();
-    const address2 = document.querySelector('input[placeholder="Address 2"]').value.trim();
-    const city = document.querySelector('input[placeholder="City"]').value.trim();
-    const postCode = document.querySelector('input[placeholder="Post Code"]').value.trim();
-    const gender = document.querySelector('input[name="gender"]:checked')?.value || "";
-    const sharing = document.querySelector('input[name="sharing"]:checked')?.value || "";
-    const travelDate = document.querySelector("#travel-date").value.trim();
-    const pickup = document.querySelector("#pickup").value.trim();
-    const vehicle = document.querySelector("#mode").value.trim();
-    let perPersonAmount = "";
-
-    if (vehicle === "Tempo Traveller" && sharing === "Triple Sharing") {
-      perPersonAmount = "₹29,990/-";
-    } else if (vehicle === "Tempo Traveller" && sharing === "Double Sharing") {
-      perPersonAmount = "₹32,990/-";
-    } else if (vehicle === "RE Himalayan (Solo)" && sharing === "Triple Sharing") {
-      perPersonAmount = "₹42,990/-";
-    } else if (vehicle === "RE Himalayan (Solo)" && sharing === "Double Sharing") {
-      perPersonAmount = "₹45,990/-";
-    } else if (vehicle === "RE Himalayan (Dual Rider)" && sharing === "Triple Sharing") {
-      perPersonAmount = "₹35,990/-";
-    } else if (vehicle === "RE Himalayan (Dual Rider)" && sharing === "Double Sharing") {
-      perPersonAmount = "₹38,990/-";
-    }
-
-    // Validation check (Ensuring all fields are filled)
-    if (
-      !travelDate || !fullName || !email || !phone || !dob || !travellerCount || 
-      !address1 || !city || !postCode || !gender || !sharing || !pickup ||!vehicle
-    ) {
-      alert("All fields are required! Please fill out all fields before proceeding.");
-      return; // Stop execution if any field is empty
-    }
-
-    // Creating an object to store input values
-    const formData = {
-      travelDate,
-      fullName,
-      email,
-      phone,
-      dob,
-      travellerCount,
-      address1,
-      address2,
-      city,
-      postCode,
-      gender,
-      sharing,
-      pickup,
-      vehicle,
-      perPersonAmount
-    };
-
-    // Store the object in local storage (optional)
-    // localStorage.setItem("formData", JSON.stringify(formData));
-
-    // Hide previous sections and show full details
-    dateForm.style.display = "none";
-    perDetails.style.display = "none";
-    fullDetails.style.display = "block";
-
-    // You can replace the console log with further processing
-    // console.log("Form Data:", formData);
-    const tableHTML = `
+        // You can replace the console log with further processing
+        // console.log("Form Data:", formData);
+        const tableHTML = `
       <h3 class="text-center my-3">Confirm Details</h3>
       <div><i class="fa-regular fa-user"></i> <p><b>Name :</b>  ${formData.fullName}</p></div>
       <div><i class="fa-regular fa-envelope"></i> <p><b>Email :</b>  ${formData.email}</p></div>
@@ -1008,56 +1049,55 @@
         </div>
       </div>`;
 
-    // Append the table to fullDetails container
-    fullDetails.innerHTML = tableHTML;
-    document.addEventListener("click", function (e) {
-  if (e.target && e.target.id === "confirm-btn") {
-        e.preventDefault();
-        document.querySelector("form").submit();
-      }
+        // Append the table to fullDetails container
+        fullDetails.innerHTML = tableHTML;
+        document.addEventListener("click", function(e) {
+          if (e.target && e.target.id === "confirm-btn") {
+            e.preventDefault();
+            document.querySelector("form").submit();
+          }
+        });
+      });
     });
-  });
- });
+  </script>
 
-</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("./dynamic/varkala-data.json")
+        .then(response => response.json())
+        .then(data => {
+          const locationKey = "ladakh"; // Change to "ooty" if needed
+          const locationData = data[locationKey];
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    fetch("./dynamic/varkala-data.json")
-      .then(response => response.json())
-      .then(data => {
-        const locationKey = "ladakh"; // Change to "ooty" if needed
-        const locationData = data[locationKey];
+          if (!locationData) {
+            console.error("No data found for the selected location.");
+            return;
+          }
 
-        if (!locationData) {
-          console.error("No data found for the selected location.");
-          return;
-        }
+          const container = document.getElementById("monthly-data-container");
+          let firstMonth = true;
 
-        const container = document.getElementById("monthly-data-container");
-        let firstMonth = true;
+          for (const [month, details] of Object.entries(locationData)) {
+            if (month === "costing") continue;
 
-        for (const [month, details] of Object.entries(locationData)) {
-          if (month === "costing") continue;
+            const monthBox = document.createElement("div");
+            monthBox.className = "details-box d-flex align-items-center mt-4";
+            monthBox.onclick = () => togglePriceBox(monthBox);
 
-          const monthBox = document.createElement("div");
-          monthBox.className = "details-box d-flex align-items-center mt-4";
-          monthBox.onclick = () => togglePriceBox(monthBox);
+            const monthHeader = document.createElement("div");
+            monthHeader.className = "details-head d-flex gap-2";
+            monthHeader.innerHTML = `<div class="icon"><i class="fa-solid fa-calendar-days"></i></div><h4>${month}</h4>`;
 
-          const monthHeader = document.createElement("div");
-          monthHeader.className = "details-head d-flex gap-2";
-          monthHeader.innerHTML = `<div class="icon"><i class="fa-solid fa-calendar-days"></i></div><h4>${month}</h4>`;
+            monthBox.appendChild(monthHeader);
 
-          monthBox.appendChild(monthHeader);
+            const priceBox = document.createElement("div");
+            priceBox.className = "price-box mt-3";
+            priceBox.style.display = firstMonth ? "block" : "none";
 
-          const priceBox = document.createElement("div");
-          priceBox.className = "price-box mt-3";
-          priceBox.style.display = firstMonth ? "block" : "none";
-
-          details.forEach(detail => {
-            const row = document.createElement("div");
-            row.className = "row";
-            row.innerHTML = `
+            details.forEach(detail => {
+              const row = document.createElement("div");
+              row.className = "row";
+              row.innerHTML = `
             
               <div class="col text-center my-3 position-relative"><h5>${detail.date}</h5>
               ${detail.special ? `<span class="glowing-text"><i class="fa-solid fa-angles-down"></i> ${detail.special} <i class="fa-solid fa-angles-down"></i></span>` : ""}</div>
@@ -1070,25 +1110,25 @@
               
             `;
 
-            priceBox.appendChild(row);
-          });
+              priceBox.appendChild(row);
+            });
 
-          container.appendChild(monthBox);
-          container.appendChild(priceBox);
-          firstMonth = false;
-        }
-      })
-      .catch(error => console.error("Error fetching data:", error));
-  });
+            container.appendChild(monthBox);
+            container.appendChild(priceBox);
+            firstMonth = false;
+          }
+        })
+        .catch(error => console.error("Error fetching data:", error));
+    });
 
-  function togglePriceBox(element) {
-    const priceBox = element.nextElementSibling;
-    const isVisible = priceBox.style.display === "block";
+    function togglePriceBox(element) {
+      const priceBox = element.nextElementSibling;
+      const isVisible = priceBox.style.display === "block";
 
-    document.querySelectorAll('.price-box').forEach(box => box.style.display = 'none');
-    priceBox.style.display = isVisible ? 'none' : 'block';
-  }
-</script>
+      document.querySelectorAll('.price-box').forEach(box => box.style.display = 'none');
+      priceBox.style.display = isVisible ? 'none' : 'block';
+    }
+  </script>
 
 
 
@@ -1123,18 +1163,18 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
-  
+
   <!-- form Steps -->
   <script>
     var currentStep = 1;
     var updateProgressBar;
 
-    $(document).ready(function () {
-      $(".next-step").click(function () {
+    $(document).ready(function() {
+      $(".next-step").click(function() {
         if (currentStep === 2) {
           // Validate form fields before proceeding
           let isValid = true;
-          $("#per-details input[required], #per-details select[required]").each(function () {
+          $("#per-details input[required], #per-details select[required]").each(function() {
             if (!$(this).val()) {
               isValid = false;
               $(this).addClass("is-invalid"); // Highlight empty fields
@@ -1151,7 +1191,7 @@
         if (currentStep < 3) {
           $(".step-" + currentStep).addClass("animate__animated animate__fadeOutLeft");
           currentStep++;
-          setTimeout(function () {
+          setTimeout(function() {
             $(".step").removeClass("animate__animated animate__fadeOutLeft").hide();
             $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInRight");
             updateProgressBar();
@@ -1159,13 +1199,13 @@
         }
       });
 
-      $("#pre-btn").click(function (e) {
+      $("#pre-btn").click(function(e) {
         e.preventDefault(); // Prevent form submission if it's inside a form
 
         if (currentStep > 1) {
           $(".step-" + currentStep).addClass("animate__animated animate__fadeOutRight");
           currentStep--;
-          setTimeout(function () {
+          setTimeout(function() {
             $(".step").removeClass("animate__animated animate__fadeOutRight").hide();
             $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInLeft");
             updateProgressBar();
@@ -1173,16 +1213,15 @@
         }
       });
 
-      updateProgressBar = function () {
+      updateProgressBar = function() {
         var progressPercentage = ((currentStep - 1) / 2) * 100;
         $(".progress-bar").css("width", progressPercentage + "%");
       };
     });
-
   </script>
-<!-- Date populate -->
-    <script>
-      fetch('./dynamic/varkala-data.json')
+  <!-- Date populate -->
+  <script>
+    fetch('./dynamic/varkala-data.json')
       .then(response => response.json())
       .then(data => {
         function populateDates(location) {
@@ -1210,7 +1249,7 @@
         populateDates('ladakh'); // or populateDates('ooty');
       })
       .catch(error => console.error('Error fetching data:', error));
-    </script>
+  </script>
 </body>
 
 
