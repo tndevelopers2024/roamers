@@ -487,12 +487,12 @@
 }
 
 /* .trip-home {
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-      position: relative;
-    } */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+      } */
 
 #moreText {
   visibility: hidden;
@@ -985,9 +985,9 @@
 }
 
 /* .swiper-container.two {
-  padding-top: 50px;
-  padding-bottom: 50px;
-} */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  } */
 
 .swiper-container.two .swiper-slide {
   width: 300px;
@@ -1054,11 +1054,11 @@
 }
 
 /* .swiper-container.two {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  visibility: hidden;
-} */
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    visibility: hidden;
+  } */
 
 .swiper-container.two.initialized {
   visibility: visible;
@@ -1104,11 +1104,11 @@
 }
 
 /* .swiper-container.two {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  visibility: hidden;
-} */
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    visibility: hidden;
+  } */
 
 .swiper-container.two.initialized {
   visibility: visible;
@@ -1160,7 +1160,8 @@
 /* for mobile */
 @media (max-width: 768px) {
   .banner-hight-top {
-    margin-top: 180px;
+    margin-top: 100px;
+    margin-bottom: 60px;
   }
 
   .banner-hight-bottom {
@@ -1195,4 +1196,3 @@
 .icon-blue {
   color: #4ec0db;
 }
-

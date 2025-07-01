@@ -5,15 +5,15 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/valley-bg.jpg" width="600" height="600"
-    alt="image for ooty" />
-  <title>Roamers</title>
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/img3.jpg" width="600"
+    height="600" alt="image for ooty" />
+  <title>Roamers - Valley of Flowers</title>
 
   <!-- SEO Meta Description -->
   <meta name="description" content="Valley of Flowers" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/valley-of-flowers/valley-bg.jpg" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/valley-bg.jpg" />
+  <meta property="og:image" content="https://roamers.in/assets/img/valley-of-flowers/img3.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/img3.jpg" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
@@ -1305,11 +1305,11 @@
         </div>
       </div>
       <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
           const tabs = document.querySelectorAll('.tab-box');
 
           tabs.forEach(tab => {
-            tab.addEventListener('click', function(e) {
+            tab.addEventListener('click', function (e) {
 
               // Remove 'active' class from all tabs
               tabs.forEach(t => t.classList.remove('active'));
@@ -1344,23 +1344,29 @@
 
               <!-- Desktop description (full text) -->
               <p style="color: #555;" class="desk-desc d-none d-md-block">
-                Hey there, team! Welcome to the Valley of Flowers, nature's very own canvas bursting with color! This trip
+                Hey there, team! Welcome to the Valley of Flowers, nature's very own canvas bursting with color! This
+                trip
                 isn't just about checking off a national park—it's about losing ourselves in a wildflower wonderland,
                 breathing in the fresh Himalayan air, and trekking through landscapes that look straight out of a dream.
-                <br> We'll wander through vibrant meadows, feel the chill of glacial streams, and soak in the serene vibes
-                at Hemkund Sahib. And hey, don't forget to pack your appetite—we're diving into some hearty mountain grub
+                <br> We'll wander through vibrant meadows, feel the chill of glacial streams, and soak in the serene
+                vibes
+                at Hemkund Sahib. And hey, don't forget to pack your appetite—we're diving into some hearty mountain
+                grub
                 too. Let's embrace this high-altitude magic and make memories that bloom forever!
               </p>
 
               <!-- Mobile description (truncated with toggle) -->
               <p style="color: #555;" class="mob-desc d-block d-md-none">
-                Hey there, team! Welcome to the Valley of Flowers, nature's very own canvas bursting with color! This trip
+                Hey there, team! Welcome to the Valley of Flowers, nature's very own canvas bursting with color! This
+                trip
                 isn't just about checking off a national park—it's about losing ourselves in a wildflower wonderland,
                 breathing in the fresh Himalayan air<span id="dots">...</span>
                 <span id="moreText" style="display: none;">
                   , and trekking through landscapes that look straight out of a dream.
-                  <br> We'll wander through vibrant meadows, feel the chill of glacial streams, and soak in the serene vibes
-                  at Hemkund Sahib. And hey, don't forget to pack your appetite—we're diving into some hearty mountain grub
+                  <br> We'll wander through vibrant meadows, feel the chill of glacial streams, and soak in the serene
+                  vibes
+                  at Hemkund Sahib. And hey, don't forget to pack your appetite—we're diving into some hearty mountain
+                  grub
                   too. Let's embrace this high-altitude magic and make memories that bloom forever!
                 </span>
               </p>
@@ -1368,8 +1374,7 @@
               <!-- Positioned Read More Icon -->
               <div class="position-absolute bottom-1 start-50 translate-middle-x d-block d-md-none">
                 <span onclick="toggleReadMore()" id="readMoreBtn" class="read-more-icon" style="cursor: pointer;">
-                  <i class="fa-solid fa-circle-chevron-down shadow"
-                    style="
+                  <i class="fa-solid fa-circle-chevron-down shadow" style="
      color: #4ec0db; 
        background-color:rgb(255, 255, 255); 
      font-size: 16px;
@@ -1420,7 +1425,8 @@
 
 
           <div class="col-md-8">
-            <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;" class="text-center head">Trip Itinerary
+            <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;" class="text-center head">Trip
+              Itinerary
             </h3>
             <div class="">
 
@@ -1429,7 +1435,8 @@
 
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
                   <h2 class="accordion-header" id="headingSeven">
-                    <button class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
+                    <button
+                      class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
                       type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
                       aria-controls="collapse7">
                       <div class="d-flex align-items-center">
@@ -1443,12 +1450,23 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 1: Rishikesh ➝ Joshimath (260 km | 8 hrs drive) Scenic mountain drive via Devprayag, Rudraprayag & more.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 2: Joshimath ➝ Pulna (drive) + Pulna ➝ Ghangaria (9 km | 5 hrs trek) Start your trek through lush valleys and river views.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 3: Ghangaria ➝ Valley of Flowers ➝ Ghangaria (8 km | 7 hrs trek) Explore the iconic Valley of Flowers – a UNESCO site in full bloom.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 4: Ghangaria ➝ Hemkund Sahib ➝ Ghangaria (12 km | 9 hrs trek) Trek to the world's highest Gurudwara at 14,100 ft.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 5: Ghangaria ➝ Pulna (9 km | 4 hrs trek) + Drive to Joshimath Easy descent followed by a relaxed evening in Joshimath.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 6: Joshimath ➝ Rishikesh (260 km | 8 hrs drive) Return with memories, new friendships & a trek completion certificate.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 1: Rishikesh ➝
+                          Joshimath (260 km | 8 hrs drive) Scenic mountain drive via Devprayag, Rudraprayag & more.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 2: Joshimath ➝ Pulna
+                          (drive) + Pulna ➝ Ghangaria (9 km | 5 hrs trek) Start your trek through lush valleys and river
+                          views.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 3: Ghangaria ➝
+                          Valley of Flowers ➝ Ghangaria (8 km | 7 hrs trek) Explore the iconic Valley of Flowers – a
+                          UNESCO site in full bloom.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 4: Ghangaria ➝
+                          Hemkund Sahib ➝ Ghangaria (12 km | 9 hrs trek) Trek to the world's highest Gurudwara at 14,100
+                          ft.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 5: Ghangaria ➝ Pulna
+                          (9 km | 4 hrs trek) + Drive to Joshimath Easy descent followed by a relaxed evening in
+                          Joshimath.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Day 6: Joshimath ➝
+                          Rishikesh (260 km | 8 hrs drive) Return with memories, new friendships & a trek completion
+                          certificate.</li>
                       </ul>
                     </div>
                   </div>
@@ -1457,10 +1475,7 @@
                 <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                       aria-controls="collapseOne">
                       <div class="d-flex align-items-center">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
@@ -1475,11 +1490,17 @@
                     <div class="accordion-body" style="background-color: #f5fdff;">
 
                       <ul class="ps-lg-3 ps-0">
-                        <li class=""><i class="fa-regular fa-circle-dot fs-6 fs-md-6 me-2 text-primary mb-3"></i>Meet your fellow trekkers at the ISBT Bus Stand, Rishikesh early in the morning.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Meet Set off on a scenic drive, passing through lush green landscapes and the stunning four sacred river confluences: Devprayag, Rudraprayag, Karnaprayag, and Nandprayag.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Arrive in Joshimath by the evening. Check-in to your Hotel & relax</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Explore this charming Himalayan town at your leisure and socialise with your co trekkers</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Enjoy home-style cooked dinner and overnight stay in a comfortable hotel in Joshimath</li>
+                        <li class=""><i class="fa-regular fa-circle-dot fs-6 fs-md-6 me-2 text-primary mb-3"></i>Meet
+                          your fellow trekkers at the ISBT Bus Stand, Rishikesh early in the morning.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Meet Set off on a scenic
+                          drive, passing through lush green landscapes and the stunning four sacred river confluences:
+                          Devprayag, Rudraprayag, Karnaprayag, and Nandprayag.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Arrive in Joshimath by
+                          the evening. Check-in to your Hotel & relax</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Explore this charming
+                          Himalayan town at your leisure and socialise with your co trekkers</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Enjoy home-style cooked
+                          dinner and overnight stay in a comfortable hotel in Joshimath</li>
                       </ul>
                     </div>
                   </div>
@@ -1506,11 +1527,17 @@
                       <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
                       </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>After a wholesome breakfast, drive from Joshimath to Pulna, where your trek begins.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>The journey takes you through the mesmerizing Bhyundar Valley alongside the pristine Pushpavati River. Along the way, enjoy serene views of waterfalls and lush mountains.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Reach Ghangaria, the base camp for both the Valley of Flowers and Hemkund Sahib. Check-in to your Hotel, unwind, and attend a briefing about the next day's trek.
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>After a wholesome
+                          breakfast, drive from Joshimath to Pulna, where your trek begins.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>The journey takes you
+                          through the mesmerizing Bhyundar Valley alongside the pristine Pushpavati River. Along the
+                          way, enjoy serene views of waterfalls and lush mountains.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Reach Ghangaria, the
+                          base camp for both the Valley of Flowers and Hemkund Sahib. Check-in to your Hotel, unwind,
+                          and attend a briefing about the next day's trek.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Savor a warm, home-cooked dinner and get a good night's rest in Ghangaria.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Savor a warm,
+                          home-cooked dinner and get a good night's rest in Ghangaria.</li>
                       </ul>
                     </div>
                   </div>
@@ -1534,10 +1561,17 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Enroute pass by the Pushpavati River and the beautiful Laxman Waterfall, you'll be surrounded by vibrant blooms like Blue Poppy, Himalayan Rose, and the famous Brahmakamal.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>If the weather is clear, the view of the Himalayan peaks like Nilgiri Parvat and Rattaban will take your breath away.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Spend time marveling at nature's masterpiece & Post Lunch we'll begin Trek down from VOF to Ghangaria.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Reach back to your stay and have a Leisure evening, followed by a hearty dinner and overnight stay in your Hotel at Ghangaria</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Enroute pass by the
+                          Pushpavati River and the beautiful Laxman Waterfall, you'll be surrounded by vibrant blooms
+                          like Blue Poppy, Himalayan Rose, and the famous Brahmakamal.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>If the weather is clear,
+                          the view of the Himalayan peaks like Nilgiri Parvat and Rattaban will take your breath away.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Spend time marveling at
+                          nature's masterpiece & Post Lunch we'll begin Trek down from VOF to Ghangaria.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Reach back to your stay
+                          and have a Leisure evening, followed by a hearty dinner and overnight stay in your Hotel at
+                          Ghangaria</li>
                       </ul>
                     </div>
                   </div>
@@ -1561,11 +1595,18 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Begin your day early with breakfast and head out for the trek to Hemkund Sahib, the world's highest Gurudwara at 14,100 ft.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>The challenging uphill trek is worth every step as you reach this sacred place. Pay your homage at the Gurudwara</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Visit the serene Hemkund Sarovar, a glacial lake surrounded by the majestic Saptarishi Peaks.and Laxman temple built beside the gurudwara</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>After a peaceful visit at the Gurudwara, Post Lunch, trek back down to Ghangaria.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Enjoy a relaxing evening with the Roamers team, followed by a lovely dinner and an overnight stay at Ghangaria</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Begin your day early
+                          with breakfast and head out for the trek to Hemkund Sahib, the world's highest Gurudwara at
+                          14,100 ft.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>The challenging uphill
+                          trek is worth every step as you reach this sacred place. Pay your homage at the Gurudwara</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Visit the serene Hemkund
+                          Sarovar, a glacial lake surrounded by the majestic Saptarishi Peaks.and Laxman temple built
+                          beside the gurudwara</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>After a peaceful visit
+                          at the Gurudwara, Post Lunch, trek back down to Ghangaria.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Enjoy a relaxing evening
+                          with the Roamers team, followed by a lovely dinner and an overnight stay at Ghangaria</li>
                       </ul>
                     </div>
                   </div>
@@ -1590,10 +1631,16 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary"></i>After breakfast, begin your descent from Ghangaria to Pulna. Enjoy the ease of the downhill trek through the beautiful landscape.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Once you reach Pulna, take a scenic drive back to Joshimath via Govindghat.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Upon arrival in Joshimath, check in to your hotel, enjoy lunch, and explore the town at your leisure. Visit Narsingh Temple or relax in the local market with the team</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Indulge in a cozy dinner and enjoy your last night stay with the Roamers fam at Joshimath</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary"></i>After breakfast, begin your
+                          descent from Ghangaria to Pulna. Enjoy the ease of the downhill trek through the beautiful
+                          landscape.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Once you reach Pulna,
+                          take a scenic drive back to Joshimath via Govindghat.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Upon arrival in
+                          Joshimath, check in to your hotel, enjoy lunch, and explore the town at your leisure. Visit
+                          Narsingh Temple or relax in the local market with the team</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>Indulge in a cozy dinner
+                          and enjoy your last night stay with the Roamers fam at Joshimath</li>
                       </ul>
                     </div>
                   </div>
@@ -1618,9 +1665,13 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>After breakfast, bid farewell to Joshimath as you begin your drive back to Rishikesh.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary"></i>Arrive in Rishikesh by evening, where the group disperses with incredible memories from this unforgettable trek.</li>
-                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>(If you've got some time, explore the famous spots and cafes around Rishikesh or indulge in some adventure activities like river rafting or bungee jumping)</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>After breakfast, bid
+                          farewell to Joshimath as you begin your drive back to Rishikesh.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary"></i>Arrive in Rishikesh by
+                          evening, where the group disperses with incredible memories from this unforgettable trek.</li>
+                        <li><i class="fa-regular fa-circle-dot fs-6 me-2 text-primary mb-3"></i>(If you've got some
+                          time, explore the famous spots and cafes around Rishikesh or indulge in some adventure
+                          activities like river rafting or bungee jumping)</li>
                       </ul>
                     </div>
                   </div>
@@ -1632,8 +1683,7 @@
 
             <!-- >> Inclusion section << -->
             <section id="inclusion">
-              <div class="important-notes shadow "
-                style="border-radius: 15px; background-color:rgb(245, 255, 246) ;">
+              <div class="important-notes shadow " style="border-radius: 15px; background-color:rgb(245, 255, 246) ;">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
                 <div id="">
                   <p>
@@ -1641,17 +1691,25 @@
                     Transportation by Tempo Traveler or cabs like Bolero/Sumo (Rishikesh to Joshimath and back).
                   </p>
 
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>5 nights accommodation on a sharing basis: 2 nights in Hotel/guesthouse at Joshimath, 3 nights in Hotel/guesthouse at Ghangaria.</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>5 nights accommodation on
+                    a sharing basis: 2 nights in Hotel/guesthouse at Joshimath, 3 nights in Hotel/guesthouse at
+                    Ghangaria.</p>
 
-                  <p class="mb-0"> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Meals : All Veg meals from Day 1st Dinner to Day 6th morning Tea. </p>
-                  <p>(Complimentary evening tea and snacks provided. Lunch may be packed or served hot depending on the day and place)</p>
+                  <p class="mb-0"> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Meals : All
+                    Veg meals from Day 1st Dinner to Day 6th morning Tea. </p>
+                  <p>(Complimentary evening tea and snacks provided. Lunch may be packed or served hot depending on the
+                    day and place)</p>
 
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Experienced and qualified trek leader and support staff.
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Experienced and qualified
+                    trek leader and support staff.
                   </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>All entry fees and forest permits included
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>All entry fees and forest
+                    permits included
                   </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>First-aid kit available for emergencies.</p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Driver allowances, tolls, parking, and state taxes covered.</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>First-aid kit available
+                    for emergencies.</p>
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Driver allowances, tolls,
+                    parking, and state taxes covered.</p>
                 </div>
               </div>
             </section>
@@ -1659,20 +1717,26 @@
 
             <!-- >> Exclusion Section << -->
 
-            <div class="important-notes shadow"
-              style="border-radius: 15px; background-color: rgb(255, 244, 244);" id="exclusion">
+            <div class="important-notes shadow" style="border-radius: 15px; background-color: rgb(255, 244, 244);"
+              id="exclusion">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
               <div>
-                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any meals beyond those mentioned in inclusions.</p>
+                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any meals beyond those
+                  mentioned in inclusions.</p>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Travel insurance and personal expenses like porter charges, tips, laundry, etc.</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Travel insurance and personal
+                  expenses like porter charges, tips, laundry, etc.</p>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Extra entry fees or expenses for optional activities not listed in inclusions</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Extra entry fees or expenses
+                  for optional activities not listed in inclusions</p>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Cost for snow chains or 4x4 vehicles if required due to heavy snowfall.</p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any additional costs caused by natural disasters, weather, riots, roadblocks, landslides, or other unavoidable situations.</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Cost for snow chains or 4x4
+                  vehicles if required due to heavy snowfall.</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any additional costs caused by
+                  natural disasters, weather, riots, roadblocks, landslides, or other unavoidable situations.</p>
                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>GST (5%) extra.</p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Anything not mentioned in the inclusions above.</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Anything not mentioned in the
+                  inclusions above.</p>
               </div>
             </div>
 
@@ -1840,7 +1904,8 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends, or as a couple, these group trips are
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
+                  or as a couple, these group trips are
                   designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
                   more items from your bucket list!</p>
               </div>
@@ -1861,7 +1926,8 @@
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Yes, female solo travelers can confidently join our group trips. We prioritize their safety by
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Yes, female solo travelers can confidently join our
+                  group trips. We prioritize their safety by
                   ensuring a secure environment with trusted trip captains, verified hosts, and reliable transport
                   vendors. Your safety is our top priority; any concerns during the trip will be promptly addressed by
                   our team. So relax and make the most of your journey!</p>
@@ -1902,7 +1968,8 @@
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Send the payment screenshot to info@roamers.in and you'll get the confirmation email within 24
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Send the payment screenshot to info@roamers.in and
+                  you'll get the confirmation email within 24
                   hours.</p>
               </div>
             </div>
@@ -1922,7 +1989,8 @@
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">You can absolutely trust us! We've nailed over 500 awesome trips. Check out the great reviews,
+                <p style="font-size: 0.875rem; margin-bottom: 0;">You can absolutely trust us! We've nailed over 500
+                  awesome trips. Check out the great reviews,
                   speak to our travel consultants, and check the website for further details. Our offices are in
                   Chennai and Delhi – we're all about being upfront and reliable all the way… Feel free to connect.
                 </p>
@@ -1983,7 +2051,7 @@
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 
   <script>
-    window.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener("DOMContentLoaded", function () {
       const swiper = new Swiper(".swiper-container", {
         slidesPerView: "auto",
         spaceBetween: 10,
@@ -2060,9 +2128,9 @@
 
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       // Initialize Swiper with a slight delay to ensure proper positioning
-      setTimeout(function() {
+      setTimeout(function () {
         var swiper = new Swiper('.swiper-container.two', {
           effect: 'coverflow',
           grabCursor: true,
@@ -2081,7 +2149,7 @@
             clickable: true
           },
           on: {
-            init: function() {
+            init: function () {
               document.querySelector('.scroll-section').classList.add('initialized');
               document.querySelector('.swiper-container.two').classList.add('initialized');
             }
@@ -2094,7 +2162,7 @@
   <script>
     var navbar = document.querySelector("nav");
 
-    window.onscroll = function() {
+    window.onscroll = function () {
       // pageYOffset or scrollY
       if (window.scrollY > 100) {
         navbar.classList.add("scrolled");
@@ -2109,7 +2177,7 @@
 
     // *****Sidebar tab radio content start*****
     var sliders = document.querySelectorAll(".slider");
-    sliders.forEach(function(slider) {
+    sliders.forEach(function (slider) {
       var sliderContainer = slider.querySelector(".slider-container");
       var prevBtn = slider.querySelector(".prev-btn1");
       var nextBtn = slider.querySelector(".next-btn1");
@@ -2273,8 +2341,8 @@
       autoWidth: true,
       loop: true
     });
-    $(document).ready(function() {
-      $(".custom-carousel .item").click(function() {
+    $(document).ready(function () {
+      $(".custom-carousel .item").click(function () {
         $(".custom-carousel .item").not($(this)).removeClass("active");
         $(this).toggleClass("active");
       });

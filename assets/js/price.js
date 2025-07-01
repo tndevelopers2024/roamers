@@ -10,7 +10,7 @@ document.querySelectorAll(".ooty-price").forEach((element) => {
   element.innerHTML = "₹7,499"
 });
 
-document.querySelectorAll(".chik-price").forEach((element)=>{
+document.querySelectorAll(".chik-price").forEach((element) => {
   element.innerHTML = "₹7,990"
 });
 
@@ -27,26 +27,26 @@ document.querySelectorAll(".leh-ladak-price").forEach((element) => {
 });
 
 document.querySelectorAll(".pondi-price").forEach((element) => {
-  element.innerHTML = "₹7,490";
+  element.innerHTML = "₹4,990";
 });
 
 document.querySelectorAll(".goa-price").forEach((element) => {
   element.innerHTML = "₹8,490";
 });
 
-document.querySelectorAll(".meghalaya-price").forEach((element)=>{
+document.querySelectorAll(".meghalaya-price").forEach((element) => {
   element.innerHTML = "₹19,990"
 });
 
-document.querySelectorAll(".kodai-price").forEach((element)=>{
+document.querySelectorAll(".kodai-price").forEach((element) => {
   element.innerHTML = "₹7,990"
 });
 
-document.querySelectorAll(".kedar-price").forEach((element)=>{
+document.querySelectorAll(".kedar-price").forEach((element) => {
   element.innerHTML = "₹8,990"
 });
 
-document.querySelectorAll(".kodai1-price").forEach((element)=>{
+document.querySelectorAll(".kodai1-price").forEach((element) => {
   element.innerHTML = "₹8,990"
 });
 
@@ -60,10 +60,13 @@ document.querySelectorAll(".spiti-price").forEach((element) => {
 document.querySelectorAll(".ladakh-price").forEach((element) => {
   element.innerHTML = "₹29,990";
 })
-document.querySelectorAll(".valley-price").forEach((element)=> {
+document.querySelectorAll(".valley-price").forEach((element) => {
   element.innerHTML = "₹9,990"
 })
 
-document.querySelectorAll(".srilanka-price").forEach((element)=> {
+document.querySelectorAll(".srilanka-price").forEach((element) => {
   element.innerHTML = "₹43,990"
+})
+document.querySelectorAll(".pondi-price").forEach((element) => {
+  element.innerHTML = "₹4,990"
 })

@@ -577,7 +577,7 @@
     height: auto;
     padding: 0;
     position: relative;
-    margin-top: -14px !important;
+    margin-top: -4px !important;
     margin-left: 32px !important;
   }
   nav::before {

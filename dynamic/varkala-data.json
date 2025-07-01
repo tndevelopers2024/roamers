@@ -402,73 +402,65 @@
     }
   },
   "srilanka": {
-    "June": [
+    "August": [
       {
-        "date": "28th - 03rd July",
+        "date": "Aug 16th - Aug 22th",
         "status": "Fast Filling",
         "statusColor": "orange",
         "price": "₹43,990/-"
       }
     ],
-    "July": [
+    "September": [
       {
-        "date": "05th - 10th",
+        "date": "Sep 06th - Sep 12th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "12nd - 17th",
+        "date": "Sep 20th - Sep 26th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "19th - 24th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹43,990/-"
-      },
-      {
-        "date": "26th - 31st",
+        "date": "Sep 27th - 03 Oct",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       }
     ],
-    "August": [
+    "October": [
       {
-        "date": "02nd - 07th",
+        "date": "Oct 18th - Oct 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "Nov 15th - Nov 21th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹43,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "Dec 13th - Dec 19th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "09th - 14th",
+        "date": "Dec 20th - Dec 26th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "15th - 20th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹43,990/-"
-      },
-      {
-        "date": "16th - 21st",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹43,990/-"
-      },
-      {
-        "date": "23rd - 28th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹43,990/-"
-      },
-      {
-        "date": "26th - 31st",
+        "date": "Dec 27th - Dec 02Jan",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
@@ -486,6 +478,87 @@
           "sharing": "Double Sharing",
           "offer": "₹46,990/-",
           "mrp": "₹48,990/-"
+        }
+      ]
+    }
+  },
+  "pondicherry": {
+    "August": [
+      {
+        "date": "Aug 16th - Aug 22th",
+        "status": "Fast Filling",
+        "statusColor": "orange",
+        "price": "₹4,990/-"
+      }
+    ],
+    "September": [
+      {
+        "date": "Sep 06th - Sep 12th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      },
+      {
+        "date": "Sep 20th - Sep 26th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      },
+      {
+        "date": "Sep 27th - 03 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      }
+    ],
+    "October": [
+      {
+        "date": "Oct 18th - Oct 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "Nov 15th - Nov 21th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "Dec 13th - Dec 19th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      },
+      {
+        "date": "Dec 20th - Dec 26th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      },
+      {
+        "date": "Dec 27th - Dec 02Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹4,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹4,990/-",
+          "mrp": "₹5,500/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹5,500/-",
+          "mrp": "₹6,990/-"
         }
       ]
     }

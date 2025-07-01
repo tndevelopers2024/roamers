@@ -62,6 +62,10 @@ document.querySelectorAll(".spiti-dates").forEach((element) => {
 document.querySelectorAll(".ladakh-dates").forEach((element) => {
   element.innerHTML = "May 24, June 07, 21, July 05, 19, 26, Aug 09, 23, Sep 06";
 });
-document.querySelectorAll(".valley-dates").forEach((element)=>{
-  element.innerHTML = "May 10, 24, june 07, 21, 28, july 05 ,06, 12, 13, 18, 19"
-})
+document.querySelectorAll(".valley-dates").forEach((element) => {
+  element.innerHTML = "July 05 ,06, 12, 13, 18, 19"
+});
+// srilanka
+document.querySelectorAll(".srilanka-dates").forEach((element) => {
+  element.innerHTML = "Aug 16, Sep 6, 20, 27, Oct 18, Nov 15, Dec 13, 20, 27"
+});

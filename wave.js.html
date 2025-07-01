@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roamers - Wave Theme</title>
+    <style>
+        @import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+        :root {
+            --primary: #4ec0db;
+            --primary-dark: #3ba0b7;
+            --primary-light: #7ed6ea;
+            --primary-gradient: linear-gradient(60deg, #4ec0db 0%, #3ba0b7 100%);
+            --text-dark: #1a3a4a;
+            --text-light: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            background: var(--primary-light);
+            background-size: cover;
+        }
+
+        .bg-img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            letter-spacing: 2px;
+            font-size: 48px;
+            color: var(--primary);
+            text-shadow: 0 2px 8px rgba(78, 192, 219, 0.15);
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 1px;
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+
+        .header {
+            position: relative;
+            text-align: center;
+            background: var(--primary-gradient);
+            color: var(--text-light);
+            box-shadow: 0 4px 24px 0 rgba(78, 192, 219, 0.15);
+        }
+
+        .logo {
+            width: 50px;
+            fill: var(--primary);
+            display: inline-block;
+            vertical-align: middle;
+            filter: drop-shadow(0 2px 8px rgba(78, 192, 219, 0.2));
+        }
+
+        .inner-header {
+            height: 65vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .waves-canvas {
+            position: relative;
+            width: 100%;
+            height: 15vh;
+            min-height: 100px;
+            max-height: 150px;
+            display: block;
+            z-index: 2;
+        }
+
+        .content {
+            position: relative;
+            height: 20vh;
+            text-align: center;
+            background-color: var(--primary);
+            color: var(--text-light);
+        }
+
+        @media (max-width: 768px) {
+            .waves-canvas {
+                height: 40px;
+                min-height: 40px;
+            }
+
+            .content {
+                height: 30vh;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--Hey! This is the Roamers Wave Theme with #4ec0db-->
+
+    <!-- Background image for waterwave -->
+    <img class="bg-img" src="assets/img/bg/waterwave.png" alt="Waterwave background" loading="lazy"
+        onerror="this.style.display='none'">
+
+    <div class="header">
+
+        <!--Content before waves-->
+        <div class="inner-header flex">
+            <!--Logo-->
+            <svg version="1.1" class="logo" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" xml:space="preserve">
+                <circle cx="250" cy="250" r="200" fill="#4ec0db" stroke="#fff" stroke-width="10" />
+                <path fill="#FFFFFF" stroke="#4ec0db" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
+            </svg>
+            <h1>Roamers</h1>
+        </div>
+
+        <!--Waves Container-->
+        <div style="position:relative; width:100%; overflow:hidden; background:transparent; z-index:2;">
+            <canvas class="waves-canvas"></canvas>
+        </div>
+        <!--Waves end-->
+
+    </div>
+    <!--Header ends-->
+
+    <!--Content starts-->
+    <div class="content flex">
+        <p style="font-size:1.2rem; margin:auto;">Welcome to Roamers! Enjoy the new #4ec0db theme.</p>
+    </div>
+    <!--Content ends-->
+
+    <script>
+        // Fix for canvas not visible in some browsers
+        window.addEventListener('DOMContentLoaded', function () {
+            var canvas = document.querySelector('.waves-canvas');
+            if (canvas) {
+                function resizeCanvas() {
+                    // Set canvas size to match container
+                    var parent = canvas.parentElement;
+                    canvas.width = parent.offsetWidth;
+                    canvas.height = parent.offsetHeight;
+                }
+                resizeCanvas();
+                window.addEventListener('resize', resizeCanvas);
+
+                var ctx = canvas.getContext('2d');
+
+                // Parameters for natural waves
+                var waveConfigs = [
+                    {
+                        amplitude: 18,
+                        wavelength: 320,
+                        speed: 0.18,
+                        color: 'rgba(78,192,219,0.7)',
+                        offset: 0
+                    },
+                    {
+                        amplitude: 12,
+                        wavelength: 220,
+                        speed: 0.13,
+                        color: 'rgba(78,192,219,0.5)',
+                        offset: 30
+                    },
+                    {
+                        amplitude: 8,
+                        wavelength: 140,
+                        speed: 0.09,
+                        color: 'rgba(78,192,219,0.3)',
+                        offset: 60
+                    },
+                    {
+                        amplitude: 5,
+                        wavelength: 90,
+                        speed: 0.06,
+                        color: '#4ec0db',
+                        offset: 90
+                    }
+                ];
+
+                function drawWaves(time) {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                    for (var i = 0; i < waveConfigs.length; i++) {
+                        var cfg = waveConfigs[i];
+                        ctx.beginPath();
+                        for (var x = 0; x <= canvas.width; x += 2) {
+                            var y =
+                                Math.sin((x / cfg.wavelength) * 2 * Math.PI + (time * cfg.speed) + cfg.offset) * cfg.amplitude
+                                + canvas.height * 0.5 + (i * 8);
+                            if (x === 0) {
+                                ctx.moveTo(x, y);
+                            } else {
+                                ctx.lineTo(x, y);
+                            }
+                        }
+                        // Draw down to bottom and close path
+                        ctx.lineTo(canvas.width, canvas.height);
+                        ctx.lineTo(0, canvas.height);
+                        ctx.closePath();
+                        ctx.fillStyle = cfg.color;
+                        ctx.globalAlpha = 1;
+                        ctx.fill();
+                    }
+                }
+
+                function animate() {
+                    var now = performance.now() / 1000;
+                    drawWaves(now);
+                    requestAnimationFrame(animate);
+                }
+                animate();
+            }
+
+            // If the background image fails to load, fallback to background color only
+            var bgImg = document.querySelector('.bg-img');
+            if (bgImg) {
+                bgImg.onerror = function () {
+                    this.style.display = 'none';
+                    document.body.style.background = 'var(--primary-light)';
+                };
+            }
+        });
+    </script>
+</body>
+
+</html>
