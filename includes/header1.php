@@ -153,9 +153,7 @@
 
                     <li class="nav-item">
                         <a class="nav-link" href="#">Community</a>
-                    </li>
-
-
+                    </li
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>

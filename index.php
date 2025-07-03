@@ -833,89 +833,11 @@ that bring travelers together. Explore destinations, meet people, and make memor
       </div>
     </div>
   </section>
-  <!-- ***** Welcome Area end ***** -->
 
-  <!-- ***** categories TRIPS Start ***** -->
-  <section class="categories-container">
-    <div class="container">
-      <div class="swiper-container1">
-        <div class="swiper-wrapper">
+  <!-- Banner Below Section -->
+  <?php include('home-banner-below-section.php'); ?>
 
-          <div class="swiper-slide">
-            <div class="categories">
-              <img src="assets/img/icon/travelbuddies-01.png" alt="">
-
-              <div class="categories-inner">
-                <h2>
-                  Travel Buddies United
-                </h2>
-                <p>
-                  Say Hi to your new travel squad – your undiscovered Besties!
-                  Whether you join solo or in a group, you’re all set for an epic adventure!
-
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="categories categories1">
-
-              <img src="assets/img/icon/Inclusions-01.png" alt="">
-              <div class="categories-inner">
-                <h2>
-                  Everything Included, No Fuss
-                </h2>
-                <p>
-                  Forget about transport, hotels, and planning. Just one booking, and we've got everything taken care of
-                  for you
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="categories">
-              <img src="assets/img/icon/Expertguide-01.png
-              " alt="">
-
-              <div class="categories-inner">
-                <h2>
-                  Led by the Pros
-                </h2>
-                <p>
-                  Cool trip leaders and local guides who know their stuff, and they're fun too! They've got the best
-                  insights and will help you out whenever you need it.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="categories">
-              <img src="assets/img/icon/oneofkind-01.png" alt="">
-
-              <div class="categories-inner">
-                <h2>
-                  One-of-a-kind adventure
-                </h2>
-                <p>
-
-                  Unique experiences selected by those in the know. Whether local grub, must-see spots, and totally cool
-                  one-of-a-kind stuff, we've handpicked it all for you.
-
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Add more swiper-slide elements for additional images -->
-        </div>
-        <div class="swiper-button-next1 swiper-button-next" style="right:6% !important;"></div>
-        <div class="swiper-button-prev1 swiper-button-prev" style="left:6% !important;"></div>
-      </div>
-    </div>
-  </section>
-  <!-- ***** categories TRIPS end ***** -->
-
-  <!-- test slider start -->
+  <!-- upcoming-trips -->
   <section class="upcoming-trips py-60 upcoming-desk" id="upcoming">
     <div class="container-fluid">
       <h2 class="head">
@@ -1267,6 +1189,9 @@ that bring travelers together. Explore destinations, meet people, and make memor
       </div>
     </div>
   </section>
+
+
+  <?php include('group-trips.php'); ?>
 
   <!-- test slider end -->
 
@@ -2107,7 +2032,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
       searchBarContainerEl.classList.toggle("active");
     });
   </script>
-
 
   <script>
     const data = [{

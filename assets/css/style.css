@@ -409,7 +409,7 @@ img {
   top: 0;
 } */
 #navbarNav {
-  justify-content:space-evenly;
+  justify-content: center;
   background: #4ec0db;
 }
 
@@ -1846,7 +1846,6 @@ html {
   position: relative;
   font-weight: 400;
   max-width: 450px;
-  border-radius: 8px !important;
 }
 
 .slide-box .comment::before {
@@ -1865,7 +1864,6 @@ html {
   max-width: 87%;
   height: 45%;
   object-fit: cover;
-  border-radius: 8px;
 }
 
 .slide-box .name {
@@ -1930,7 +1928,7 @@ html {
   font-weight: 300;
   background-color: #4ec0db1f;
   border: 2px solid #4ec0db1f;
-  border-radius: 8px;
+  border-radius: 10px;
   /* padding: 12px 20px; */
   font-family: "Heebo";
   font-weight: 400;
@@ -1947,7 +1945,7 @@ html {
   font-weight: 300;
   background-color: #4ec0db1f;
   border: 2px solid #4ec0db1f;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 12px 20px;
   font-family: "Heebo";
   font-weight: 400;
@@ -2212,7 +2210,7 @@ textarea {
   border: none;
   outline: none;
   text-align: center;
-  border-radius: 10px !important;
+  border-radius: 100px !important;
   width: 45px;
   height: 45px;
   display: grid;
@@ -2240,7 +2238,7 @@ textarea {
 .swiper-slide img {
   height: 210px;
   object-fit: cover !important;
-  border-radius: 8px;
+  border-radius: 0.8vw;
 }
 
 .swiper-slide a {
@@ -2504,9 +2502,9 @@ textarea {
   line-height: 21px;
 }
 
-.categories-container {
+/* .categories-container {
   padding: 40px 0px 0;
-}
+} */
 
 .footer-social-icon {
   display: flex;
@@ -2691,7 +2689,7 @@ transform: translateY(0%);
 }
 
 .prev-btn:hover {
-  background: #ffffff;
+  background: #094067;
   color: #ffff !important;
 }
 
@@ -2900,7 +2898,7 @@ h6 {
   display: grid;
   text-align: center;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 20px;
   margin: auto;
   margin-top: -20px;
   position: relative;

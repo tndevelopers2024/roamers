@@ -43,19 +43,33 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
   <link rel="stylesheet" href="assets/css/form.css" />
 
   <!-- Responsive css -->
-
   <link rel="stylesheet" href="assets/css/responsive.css">
   <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
+
   <style>
+    .width {
+      margin: 100px !important;
+    }
+
+    .roamer-trip-heading {
+      color: rgb(255, 255, 255) !important;
+      background: linear-gradient(90deg, #fff 0%, #e0e0e0 50%, #b3e0ff 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent !important;
+      -webkit-text-fill-color: transparent;
+
+      filter: brightness(1.2) drop-shadow(0 0 8px #b3e0ff);
+    }
+
     .vh {
       height: 80vh;
       color: white;
       font-family: sans-serif;
       font-size: 80px;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -193,7 +207,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
       font-weight: 800;
       line-height: 1.1 !important;
       font-size: 46px;
-      margin: 40px 0px 60px 504px;
+      margin: 4px 0px 60px 504px;
     }
 
     .check-box input[type="radio"] {
@@ -267,7 +281,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
       }
 
       .trip-page h1 {
-        margin: 77px 0px 25px !important;
+        margin: 0px 0px 25px !important;
         text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4) !important;
         font-size: 30px !important;
       }
@@ -403,6 +417,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
 
     /*  */
   </style>
+
 </head>
 
 <body style="  background: #FDFDFD !important;">
@@ -416,7 +431,9 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
   <!-- ***** Header End ***** -->
   <section id="vanta-js" class="trip-page vh">
     <div class="container" style="  position: relative;">
-      <h1>ROAMERS TRIPS</h1>
+      <!-- <h1 class="roamer-trip-heading">Roamers Trips</h1> -->
+
+      <img src="assets/img/clouds style text-Picsart-AiImageEnhancer.png" alt="" class="width">
 
 
     </div>
