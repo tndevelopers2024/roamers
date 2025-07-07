@@ -234,8 +234,6 @@
       </section>
     </div>
 
-
-
     <section class="tab-sections desc-tab">
       <div class="row">
         <div class="col-lg-12 col-12">

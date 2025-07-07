@@ -202,7 +202,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
       background-repeat: no-repeat !important;
       background-size: cover !important;
       background-position: top !important;
-      height: 100vh;
+      height: 110vh;
     }
 
     .new-year {
@@ -253,7 +253,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
 
     .home {
-      background: url(assets/img/images/New-wave-cover-min.png);
+      background: url(assets/img/bg/home-banner-v3.png);
       object-fit: cover !important;
     }
 
@@ -1232,9 +1232,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
-                  <h3>7 Days / 6 Nights
-
-                  </h3>
+                  <h3>7 Days / 6 Nights</h3>
                   <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Colombo
                   </h4>
                 </div>
@@ -1244,7 +1242,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                 </p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="valley-dates"></span>
+                    <span class="srilanka-dates"></span>
                   </h4>
                   <h4>Starts at <span class="srilanka-price"></span> </h4>
                 </div>
@@ -1261,7 +1259,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                   <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Leh
                   </h4>
                 </div>
-                <h2>Leh Ladakh with Umling la</h2>
+                <h2>Leh Ladakh with Umling la</h2>
                 <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
@@ -1279,14 +1277,14 @@ that bring travelers together. Explore destinations, meet people, and make memor
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Delhi
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Delhi
                   </h4>
                 </div>
                 <h2>Spiti Winter Expedition</h2>
                 <p><img src="assets/img/images/loc.svg" alt="location-icon">Spiti Valley</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="spiti-dates"> Dec 23 </span>
+                    <span class="spiti-dates"> Dec 23 </span>
                   </h4>
                   <h4><span class="spiti-price">₹21,990</span> </h4>
                 </div>
@@ -1294,39 +1292,37 @@ that bring travelers together. Explore destinations, meet people, and make memor
             </a>
           </div>
 
-          <!-- <div class="swiper-slide">
-            <a href="kerala">
-              <img src="assets/img/Kerala/Kerala photos.jpg" class="backpacking-img" alt="roamers-Gallery">
+          <div class="swiper-slide">
+            <a href="netravati-trip.php">
+              <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
-                <div class="inner inner2 inner-home">
-                  <h3>5 DAYS / 4 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Kochi, Chennai
+                <div class="inner inner2">
+                  <h3>2 DAYS / 2 NIGHTS</h3>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> Ex: Chennai/ Bangalore 
                   </h4>
                 </div>
-                <h2>Kerala: To God’s Own Country</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Vagamon, Varkala, Alleppey
-                </p>
+                <h2>Netravati River Rafting</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon">Netravati River, Western Ghats</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kerala-dates"> Nov
-                      25, Dec 23 </span>
+                    <span class="netravati-dates">Dec 23</span>
                   </h4>
-                  <h4><span class="kerala-price">₹14,490</span> </h4>
+                  <h4><span class="netravati-price">₹4,990 </span> </h4>
                 </div>
               </div>
             </a>
-          </div> -->
+          </div>
 
           <div class="swiper-slide">
             <a href="meghalaya">
-              <img src="assets/img/megalaya/Front 3.jpg " class="backpacking-img" alt="roamers-Gallery">
+              <img src="assets/img/megalaya/Front 3.jpg" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>6 DAYS / 5 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Guwahati
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Guwahati
                   </h4>
                 </div>
-                <h2>Mejestic Meghalaya</h2>
+                <h2>Majestic Meghalaya</h2>
                 <p><img src="assets/img/images/loc.svg" alt="location-icon">Guwahati, Shillong, Cherrapunjee</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
@@ -1339,18 +1335,18 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
           <div class="swiper-slide">
             <a href="andaman">
-              <img src="assets/img/backpacking/Andaman hoppers.jpg " class="backpacking-img" alt="roamers-Gallery">
+              <img src="assets/img/backpacking/Andaman hoppers.jpg" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Port Blair
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Port Blair
                   </h4>
                 </div>
-                <h2>Andaman Island Hopping</h2>
+                <h2>Andaman Island Hopping</h2>
                 <p><img src="assets/img/images/loc.svg" alt="location-icon">Havelock Island, Neil Island, Port Blair</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="andaman-dates"> Dec 23 </span>
+                    <span class="andaman-dates"> Dec 23 </span>
                   </h4>
                   <h4><span class="andaman-price">₹24,490</span> </h4>
                 </div>

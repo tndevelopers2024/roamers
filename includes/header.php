@@ -23,29 +23,39 @@
             top: 0;
             z-index: 1000;
             background: white;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            padding: 15px 0;
+
+            padding: 19px 0;
         }
 
         nav.scrolled {
             padding: 50px 0;
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(8px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            background: transparent;
             transform: translateY(0);
+            color: #333;
+            /* Dark text color when scrolled for better visibility */
         }
 
-        nav::before {
+        nav.scrolled .nav-link {
+            color: #333 !important;
+            /* Dark text color for nav links when scrolled */
+        }
+
+        nav.scrolled .navbar-brand {
+            color: #333;
+            /* Dark text color for brand when scrolled */
+        }
+
+        /* nav::before {
             width: 100px;
             height: 102px;
             content: "";
             position: absolute;
-            /* background: #4ec0db; */
+            background: #4ec0db;
             bottom: -43px;
             left: 50%;
             border-radius: 10px 0 10px;
             transition: all 0.3s ease;
-        }
+        } */
 
         nav.scrolled::before {
             height: 92px;
@@ -53,7 +63,7 @@
         }
 
         .navbar-brand img {
-            width: 80px;
+            width: 49px;
             height: auto;
             transition: all 0.3s ease;
             position: absolute;
@@ -63,7 +73,7 @@
         }
 
         nav.scrolled .navbar-brand img {
-            width: 50px !important;
+            width: 49px !important;
             margin-top: 2px !important;
         }
 
@@ -122,13 +132,17 @@
         /* Fix mobile menu overlay and stacking issues */
         @media (max-width: 991.98px) {
             .navbar-collapse {
-                background: #fff;
+                background-color: rgba(0, 136, 255, 0.88) !important;
+                backdrop-filter: blur(35px) !important;
+                -webkit-backdrop-filter: blur(35px) !important;
+                border: 1px solid rgba(255, 255, 255, 0.18);
                 position: absolute;
                 top: 56px;
                 left: 0;
                 width: 100vw;
                 z-index: 1050;
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                border-radius: 16px;
             }
 
             .navbar-nav.main-nav {
@@ -182,12 +196,14 @@
                     max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1),
                     filter 0.35s cubic-bezier(0.4, 0, 0.2, 1),
                     visibility 0.35s;
-                box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.13), 0 1.5px 8px 0 rgba(78, 192, 219, 0.08);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
                 margin-top: 0.5rem;
                 pointer-events: none;
-                border-radius: 10px;
-                background: rgba(255, 255, 255, 0.98);
-                backdrop-filter: blur(6px);
+                border-radius: 16px;
+                background: rgba(143, 194, 239, 0.3) !important;
+                backdrop-filter: blur(55px);
+                -webkit-backdrop-filter: blur(55px);
+                border: 1px solid rgba(255, 255, 255, 0.18);
                 will-change: opacity, transform, max-height, filter, visibility;
             }
 
@@ -198,8 +214,17 @@
                 visibility: visible;
                 max-height: 600px;
                 transform: translateY(0) scale(1) rotateX(0deg);
-                filter: blur(0) brightness(1);
+                filter: blur(0) brightness(1.05) saturate(1.1);
                 pointer-events: auto;
+                background: rgba(143, 194, 239, 0) !important;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                box-shadow:
+                    0 8px 32px rgba(0, 0, 0, 0.12),
+                    0 2px 8px rgba(0, 0, 0, 0.08),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+                border-radius: 12px;
             }
 
             .navbar-nav .dropdown-menu {
@@ -260,7 +285,7 @@
         /* Removed .dropdown-arrow styles as per instruction */
 
         /* --- Hot Patch Badge Styles --- */
-        .hot-badge,
+        /* .hot-badge,
         .hot-badge-btn {
             display: inline-block;
             background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
@@ -281,7 +306,6 @@
         }
 
         .hot-badge-btn {
-            /* For button, add focus style */
             transition: box-shadow 0.2s;
         }
 
@@ -335,11 +359,8 @@
             z-index: 10;
             display: inline-block;
             transform: rotate(-10deg);
-            /* waving animation */
             animation: flagWave 1.2s infinite alternate;
-            /* add a little shadow for floating effect */
             filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
-            /* make room for the tail */
             margin-right: 2px;
         }
 
@@ -370,9 +391,10 @@
                 transform: rotate(-10deg) skewY(0deg) scaleY(1);
             }
         }
+        */
 
         /* --- Live Now Badge Styles --- */
-        .live-now-badge {
+        /* .live-now-badge {
             position: absolute;
             left: -10px !important;
             top: -19px;
@@ -407,7 +429,6 @@
             }
         }
 
-        /* Responsive adjustment for badge on small screens */
         @media (max-width: 991.98px) {
             .live-now-badge {
                 left: 0;
@@ -416,6 +437,7 @@
                 padding: 1.5px 7px;
             }
         }
+        */
     </style>
     <!-- Bootstrap CSS (for navbar collapse functionality) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -448,7 +470,7 @@
                             <span style="position: relative; display: inline-block;">
                                 <span style="position:relative; display:inline-block;">
                                     <!-- Live Now badge above the U -->
-                                    <span class="live-now-badge" style="left: 2px; top: -18px;">HOT</span>
+                                    <!-- <span class="live-now-badge" style="left: 2px; top: -18px;">HOT</span> -->
                                     <span>
                                         <span style="position:relative;">
                                             <span style="display:inline-block; position:relative;">

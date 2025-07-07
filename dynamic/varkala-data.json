@@ -313,35 +313,15 @@
     }
   },
   "valley": {
-    "June": [
-      {
-        "date": "28th - 03rd July",
-        "status": "Fast Filling",
-        "statusColor": "orange",
-        "price": "₹9,990/-"
-      }
-    ],
     "July": [
       {
-        "date": "05th - 10th",
+        "date": "July - 12",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
       },
       {
-        "date": "12nd - 17th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
-      },
-      {
-        "date": "19th - 24th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
-      },
-      {
-        "date": "26th - 31st",
+        "date": "July - 26",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
@@ -349,37 +329,45 @@
     ],
     "August": [
       {
-        "date": "02nd - 07th",
+        "date": "Aug - 2nd",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
       },
       {
-        "date": "09th - 14th",
+        "date": "Aug - 15",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
       },
       {
-        "date": "15th - 20th",
+        "date": "Aug - 23",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
       },
       {
-        "date": "16th - 21st",
+        "date": "Aug - 26",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹9,990/-"
+      }
+    ],
+    "September": [
+      {
+        "date": "Sep - 6th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
       },
       {
-        "date": "23rd - 28th",
+        "date": "Sep - 13",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
       },
       {
-        "date": "26th - 31st",
+        "date": "Sep - 20",
         "status": "Available",
         "statusColor": "green",
         "price": "₹9,990/-"
@@ -404,7 +392,7 @@
   "srilanka": {
     "August": [
       {
-        "date": "Aug 16th - Aug 22th",
+        "date": "Aug - 16th",
         "status": "Fast Filling",
         "statusColor": "orange",
         "price": "₹43,990/-"
@@ -412,19 +400,19 @@
     ],
     "September": [
       {
-        "date": "Sep 06th - Sep 12th",
+        "date": "Sep - 6th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "Sep 20th - Sep 26th",
+        "date": "Sep - 20th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "Sep 27th - 03 Oct",
+        "date": "Sep - 27th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
@@ -432,7 +420,7 @@
     ],
     "October": [
       {
-        "date": "Oct 18th - Oct 24th",
+        "date": "Oct - 18th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
@@ -440,7 +428,7 @@
     ],
     "November": [
       {
-        "date": "Nov 15th - Nov 21th",
+        "date": "Nov - 15th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
@@ -448,19 +436,19 @@
     ],
     "December": [
       {
-        "date": "Dec 13th - Dec 19th",
+        "date": "Dec - 13th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "Dec 20th - Dec 26th",
+        "date": "Dec - 20th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
       },
       {
-        "date": "Dec 27th - Dec 02Jan",
+        "date": "Dec - 27th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
