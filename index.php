@@ -246,7 +246,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
     text-align: center !important;
   }
 
- 
+
 
   /* dates update */
   .kodai-dates {
@@ -596,8 +596,8 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
   <?php include('includes/loader.php'); ?>
   <?php include('includes/header.php'); ?>
-  <?php include('banner.php'); ?>
-  <?php include('home-banner-below.php'); ?>
+  <?php include('components/banner.php'); ?>
+  <?php include('components/banner-below.php'); ?>
 
   <!-- <section class="home">
     <div class=" home1 before-overlay">

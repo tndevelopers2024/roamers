@@ -594,10 +594,10 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
   <?php include('includes/loader.php'); ?>
   <?php include('includes/header.php'); ?>
-  <?php include('banner.php'); ?>
-  <?php include('home-banner-below.php'); ?>
-  <?php include('group-trips.php'); ?>
-  <?php include('upcoming-trips.php'); ?>
+  <?php include('components/banner.php'); ?>
+  <?php include('components/banner-below.php'); ?>
+  <?php include('components/group-trips.php'); ?>
+  <?php include('components/upcoming-trips.php'); ?>
 
   <!-- <section class="home">
     <div class=" home1 before-overlay">
