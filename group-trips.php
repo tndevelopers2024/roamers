@@ -154,35 +154,36 @@
 
 <body>
 
-  <div class="container py-5">
-    <h2 class="head">
-      Upcoming Group Trips
+  <div class="container" style="margin-bottom: 50px;">
+    <h2 style="padding-top: 50px" class="head"><i class="fas fa-calendar-alt me-2"></i>
+
+       Group Trips
     </h2>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button"
-          role="tab" aria-selected="true">July
+          role="tab" aria-selected="true"><i class="fas fa-cog me-2"></i> July
           2025</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab"
-          aria-selected="false">August 2025</button>
+          aria-selected="false"><i class="fas fa-umbrella me-2"></i> August 2025</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab"
-          aria-selected="false">September 2025</button>
+          aria-selected="false"><i class="fas fa-leaf me-2"></i> September 2025</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab"
-          aria-selected="false">October 2025</button>
+          aria-selected="false"><i class="fas fa-bell me-2"></i>October 2025</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5" type="button" role="tab"
-          aria-selected="false">November 2025</button>
+          aria-selected="false"><i class="fas fa-cloud icon-cloud me-2"></i>November 2025</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="tab6-tab" data-bs-toggle="tab" data-bs-target="#tab6" type="button" role="tab"
-          aria-selected="false">December 2025</button>
+          aria-selected="false"><i class="fas fa-snowflake me-2"></i>December 2025</button>
       </li>
     </ul>
 
@@ -612,9 +613,8 @@
             <!-- Munnar with Kolukkumalai -->
             <div class="swiper-slide">
               <a href="kolukkumalai-trek">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
@@ -640,9 +640,8 @@
             <!-- Chikmagalur Backpacking -->
             <div class="swiper-slide">
               <a href="chikmagalur">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
@@ -669,9 +668,8 @@
             <!-- Andaman Island Hopping -->
             <div class="swiper-slide">
               <a href="andaman">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>7 DAYS / 6 NIGHTS</h3>
@@ -728,13 +726,12 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <!-- Munnar with Kolukkumalai -->
             <div class="swiper-slide">
               <a href="kolukkumalai-trek">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
@@ -756,13 +753,12 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <!-- Chikmagalur Backpacking -->
             <div class="swiper-slide">
               <a href="chikmagalur">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
@@ -785,13 +781,12 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <!-- Andaman Island Hopping -->
             <div class="swiper-slide">
               <a href="andaman">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>7 DAYS / 6 NIGHTS</h3>
@@ -852,9 +847,8 @@
             <!-- Munnar with Kolukkumalai -->
             <div class="swiper-slide">
               <a href="kolukkumalai-trek">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
@@ -880,9 +874,8 @@
             <!-- Chikmagalur Backpacking -->
             <div class="swiper-slide">
               <a href="chikmagalur">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
@@ -909,9 +902,8 @@
             <!-- Andaman Island Hopping -->
             <div class="swiper-slide">
               <a href="andaman">
-                <img
-                  src="https://images.unsplash.com/photo-1593693392686-3624a7b4a8a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                  alt="roamers-Gallery">
+                <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>7 DAYS / 6 NIGHTS</h3>

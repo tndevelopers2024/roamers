@@ -315,7 +315,6 @@ session_start();
 
     /* Mobile optimization */
     @media (max-width: 768px) {
-
       .costing-table th,
       .costing-table td {
         font-size: 14px;
@@ -351,22 +350,10 @@ session_start();
 
       .col.order-lg-2 {
         padding: 15px !important;
-        position: relative !important;
-        top: auto !important;
-      }
-    }
-
-    @media (min-width: 992px) {
-      .col.order-lg-2 {
-        position: sticky;
-        top: 100px;
-        height: fit-content;
-        z-index: 100;
       }
     }
 
     @media (max-width: 576px) {
-
       .costing-table th,
       .costing-table td {
         font-size: 12px;
@@ -392,6 +379,10 @@ session_start();
       font-weight: bold;
       color: #4ec0db;
     }
+
+
+
+
 
     .book-btn {
       border: none;
@@ -807,6 +798,7 @@ session_start();
       width: fit-content;
     }
 
+
     .selected-div-h4 {
       display: flex;
       align-items: center;
@@ -817,14 +809,17 @@ session_start();
       border-radius: 16px;
     }
 
+
     .selected-date-div h4 {
       color: #fff;
     }
+
 
     @media (max-width: 600px) {
       /* .payment-banner {
         margin-top: 60px !important;
       } */
+
 
       .starting-price-box {
         display: flex;
@@ -833,9 +828,13 @@ session_start();
         text-align: center !important;
       }
 
+
       .starting-price {
         font-size: 16px !important;
       }
+
+
+
 
       .cost-col {
         /* height: 360px !important; */
@@ -932,7 +931,7 @@ session_start();
       background: url('assets/img/valley-of-flowers/valley-bg.jpg');
       background-size: cover;
       background-position: center;
-      filter: blur(4px);
+      filter: blur(2px);
       transform: scale(1.1);
     }
 
@@ -1014,6 +1013,9 @@ session_start();
   <!--====== Preloader Area End ======-->
   <!--====== whatapp Area Start ======-->
 
+
+
+
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1">
     <img src="assets/img/icon/whatsapp.svg" alt="">
   </a>
@@ -1034,7 +1036,6 @@ session_start();
     <div class="container">
       <form action="valley-of-flowers-booking-form1.php" method="POST" autocomplete="off">
         <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0   px-md-5 mx-md-5" id="date-form">
-
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
             <div id="container" class="container" style="margin-top:30px;">
               <div class="progress px-1" style="height: 3px;">
@@ -1060,7 +1061,7 @@ session_start();
               </div>
               <div class="row gy-4" id="per-details">
                 <div>
-                  <button id="pre-btn" class="btn rounded-pill"> <span class="me-1">←</span> Back</button>
+                  <button id="pre-btn" class="book-btn prev-step">← Back</button>
                   <h4 class="text-center fw-bold">Traveller Details</h4>
                 </div>
 
@@ -1169,12 +1170,12 @@ session_start();
           <div class="col order-lg-2 order-1 shadow-lg p-4" style="border-radius:20px">
             <div class="row p-3">
               <div class="package-info-box" style="border-radius: 10px; display: none;" id="selected-date-box">
-                <div class="background-image shadow"></div>
+                <div class="background-image"></div>
                 <div class="blur-overlay">
                   <div class="package-date">
-                    <div class="d-flex align-items-center justify-content-center border rounded">
-                      <h5 class="text-white fw-bold py-2 me-2" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Your adventure starts : </h5>
-                      <h5 class="fw-bold text-white" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);  border-radius: 5px;" id="selected-package-date">Date Not selected</h5>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold py-3">Your adventure starts - </h5>
+                      <h5 class="ms-3 fw-bold text-white" id="selected-package-date">Date Not selected</h5>
                     </div>
                   </div>
                 </div>
@@ -1200,7 +1201,6 @@ session_start();
               </div>
             </div>
           </div>
-
         </div>
     </div>
     </form>

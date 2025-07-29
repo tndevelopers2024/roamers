@@ -13,62 +13,6 @@
     <!-- Title  -->
     <title>Roamers</title>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-
-        /* Global Font Family */
-        * {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        /* Specific element font declarations */
-        body, html {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        p, span, div, a, li, ul, ol {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        input, textarea, select, button {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        .nav-link, .dropdown-item, .navbar-brand {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        /* Override any Bootstrap or other framework fonts */
-        .btn, .form-control, .navbar, .dropdown-menu {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        /* Override external CSS files with higher specificity */
-        body, html, 
-        body *, html *,
-        .container *, .section *,
-        .navbar *, .nav *,
-        .footer *, .header *,
-        .main *, .content *,
-        .wrapper *, .page * {
-            font-family: "Urbanist", sans-serif !important;
-        }
-
-        /* Specific overrides for common elements */
-        h1, h2, h3, h4, h5, h6,
-        p, span, div, a, li, ul, ol,
-        input, textarea, select, button,
-        .nav-link, .dropdown-item, .navbar-brand,
-        .btn, .form-control, .navbar, .dropdown-menu,
-        .footer-text, .footer-widget, .copyright-text,
-        .header-social-icon, .call-btn {
-            font-family: "Urbanist", sans-serif !important;
-        }
-    </style>
 
 </head>
 
@@ -78,8 +22,8 @@
         <div class="container">
             <div class="first-section ">
                 <div class="fs1 d-none d-md-flex">
-                    <a href="tel:+91 81221 21066">
-                        <i class="fa-solid fa-phone"></i>+91 81221 21066
+                    <a href="tel:+91 81221 21066">
+                        <i class="fa-solid fa-phone"></i>+91 81221 21066
                     </a>
                     <a href="mailto:info@roamers.in">
                         <i class="fa-solid fa-envelope"></i>info@roamers.in
@@ -99,7 +43,7 @@
                                     style="width: 14px;" /></a>
                         </li>
                         <li class="d-block d-md-none">
-                            <a href="tel:+91 81221 21066">
+                            <a href="tel:+91 81221 21066">
                                 <i class="fa-solid fa-phone"></i>
                             </a>
                         </li>
@@ -153,14 +97,16 @@
 
                     <li class="nav-item">
                         <a class="nav-link" href="#">Community</a>
-                    </li
+                    </li>
+
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
                 <div class="header-social-icon pb-2 pb-md-0">
                     <a href="https://www.instagram.com/roamers.in/"><i class="fa-brands fa-instagram insta-bg"></i></a>
-                    <a href="tel:+91 81221 21066">
+                    <a href="tel:+91 81221 21066">
                         <i class="fa-solid fa-phone"></i>
                     </a>
                     <a href="mailto:info@roamers.in">

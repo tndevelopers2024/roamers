@@ -158,34 +158,26 @@ const sliderElm = document.querySelector(".slider-containe .sliders");
 const btnLeft = document.querySelector(".slider-containe .btn-left");
 const btnRight = document.querySelector(".slider-containe .btn-right");
 
-let numberSliderBoxs = 0; // Declare outside the if statement
-
 if (sliderElm) {
-    numberSliderBoxs = sliderElm.children.length;
+const numberSliderBoxs = sliderElm.children.length;
 }
 let idxCurrentSlide = 0;
 
 // Functions:
 function moveSlider() {
-    if (!sliderElm || numberSliderBoxs === 0) return; // Add safety check
-    
-    let leftMargin = (sliderElm.clientWidth / numberSliderBoxs) * idxCurrentSlide;
-    sliderElm.style.marginLeft = -leftMargin + "px";
-    console.log(sliderElm.clientWidth, leftMargin);
+  let leftMargin = (sliderElm.clientWidth / numberSliderBoxs) * idxCurrentSlide;
+  sliderElm.style.marginLeft = -leftMargin + "px";
+  console.log(sliderElm.clientWidth, leftMargin);
 }
 function moveLeft() {
-    if (numberSliderBoxs === 0) return; // Add safety check
-    
-    if (idxCurrentSlide === 0) idxCurrentSlide = numberSliderBoxs - 1;
-    else idxCurrentSlide--;
+  if (idxCurrentSlide === 0) idxCurrentSlide = numberSliderBoxs - 1;
+  else idxCurrentSlide--;
 
-    moveSlider();
+  moveSlider();
 }
 function moveRight() {
-    if (numberSliderBoxs === 0) return; // Add safety check
-    
-    if (idxCurrentSlide === numberSliderBoxs - 1) idxCurrentSlide = 0;
-    else idxCurrentSlide++;
+  if (idxCurrentSlide === numberSliderBoxs - 1) idxCurrentSlide = 0;
+  else idxCurrentSlide++;
 
   moveSlider();
 }

@@ -168,7 +168,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">2D / 1N</div>
+                  <div class="info-value">3D / 2N</div>
                 </div>
               </div>
             </div>
@@ -219,7 +219,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">2D / 1N</div>
+                  <div class="info-value">3D / 2N</div>
                 </div>
               </div>
             </div>
@@ -433,8 +433,7 @@
 
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>We’ll
-                          make our way to Rock beach, relax and pass your
+                            style="font-size: 0.65rem;"></i>We’ll make our way to Rock beach, relax and pass your
                           worries to the beach
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"

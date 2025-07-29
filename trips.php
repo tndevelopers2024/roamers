@@ -43,38 +43,13 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
   <link rel="stylesheet" href="assets/css/form.css" />
 
   <!-- Responsive css -->
+
   <link rel="stylesheet" href="assets/css/responsive.css">
   <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
-
   <style>
-    .width {
-      margin: 100px !important;
-    }
-
-    .roamer-trip-heading {
-      color: rgb(255, 255, 255) !important;
-      background: linear-gradient(90deg, #fff 0%, #e0e0e0 50%, #b3e0ff 100%);
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent !important;
-      -webkit-text-fill-color: transparent;
-
-      filter: brightness(1.2) drop-shadow(0 0 8px #b3e0ff);
-    }
-
-    .vh {
-      height: 80vh;
-      color: white;
-      font-family: sans-serif;
-      font-size: 80px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
     .form-home {
       background: url(assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg);
       background-position: center;
@@ -207,7 +182,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
       font-weight: 800;
       line-height: 1.1 !important;
       font-size: 46px;
-      margin: 4px 0px 60px 504px;
+      margin: 40px 0px 60px 504px;
     }
 
     .check-box input[type="radio"] {
@@ -281,7 +256,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
       }
 
       .trip-page h1 {
-        margin: 0px 0px 25px !important;
+        margin: 77px 0px 25px !important;
         text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4) !important;
         font-size: 30px !important;
       }
@@ -417,7 +392,6 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
 
     /*  */
   </style>
-
 </head>
 
 <body style="  background: #FDFDFD !important;">
@@ -429,11 +403,9 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
   <!-- ***** Header Start ***** -->
   <?php include('includes/header.php'); ?>
   <!-- ***** Header End ***** -->
-  <section id="vanta-js" class="trip-page vh">
+  <section class="trip-page" style="background-image: url('assets/img/bg/trips-cover.jpg');">
     <div class="container" style="  position: relative;">
-      <!-- <h1 class="roamer-trip-heading">Roamers Trips</h1> -->
-
-      <img src="assets/img/clouds style text-Picsart-AiImageEnhancer.png" alt="" class="width">
+      <h1>ROAMERS TRIPS</h1>
 
 
     </div>
@@ -487,8 +459,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct,
-                      Chennai
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct, Chennai
                     </h4>
                   </div>
                   <h2>Wonders of Wayanad
@@ -611,8 +582,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                   <h2>Leh Ladakh with Umling la
                   </h2>
                   <div class="inner">
-                    <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la
-                    </p>
+                    <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la</p>
                     <h4 class="sta">Starts at </h4>
                   </div>
 
@@ -634,8 +604,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>2D / 1N</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> EX : Direct,
-                      Chennai
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> EX : Direct, Chennai
                     </h4>
                   </div>
                   <h2>Pondi Dive-in
@@ -664,8 +633,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX : Direct,
-                      Bangalore
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX : Direct, Bangalore
                     </h4>
                   </div>
                   <h2>Goa Escape
@@ -993,8 +961,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                   <h2>Leh Ladakh with Umling la
                   </h2>
                   <div class="inner">
-                    <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la
-                    </p>
+                    <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la</p>
                     <h4 class="sta">Starts at </h4>
                   </div>
 
@@ -1131,8 +1098,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> EX : Direct,
-                      Chennai
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> EX : Direct, Chennai
                     </h4>
                   </div>
                   <h2>Pondi Dive-in
@@ -1160,8 +1126,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX : Direct,
-                      Bangalore
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX : Direct, Bangalore
                     </h4>
                   </div>
                   <h2>Goa Escape
@@ -1193,8 +1158,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>2 DAYS / 1 NIGHT</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX :Direct,
-                      Chennai
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX :Direct, Chennai
                     </h4>
                   </div>
                   <h2>Munnar with Kolukkumalai
@@ -1224,8 +1188,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct,
-                      Chennai
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct, Chennai
                     </h4>
                   </div>
                   <h2>Wonders of Wayanad
@@ -1283,8 +1246,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX:Direct,
-                      Chennai
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX:Direct, Chennai
                     </h4>
                   </div>
                   <h2>Munnar with Kolukkumalai
@@ -1393,7 +1355,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
   <script src="assets/js/price.js"></script>
 
   <script>
-    window.addEventListener('DOMContentLoaded', function () {
+    window.addEventListener('DOMContentLoaded', function() {
       const swiper = new Swiper('.swiper-container', {
         slidesPerView: 'auto',
         spaceBetween: 10,
@@ -1437,19 +1399,6 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
     document.getElementById("changecon").innerHTML = localStorage.getItem('five');
   </script>
 
-  <!-- vanta js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
-  <script>
-    VANTA.CLOUDS({
-      el: "#vanta-js",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 100.00,
-      minWidth: 200.00
-    })
-  </script>
 </body>
 
 </html>
