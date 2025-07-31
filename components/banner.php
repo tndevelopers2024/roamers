@@ -201,9 +201,9 @@
       right: 7%;
     }
 
-    .margin {
-      margin-top: 100px;
-    }
+    /* .margin {
+      margin-bottom: 500px;
+    } */
 
     @media (max-width: 768px) {
       .margin {
@@ -269,9 +269,9 @@
 
 
     <div class="margin">
-      <div class="row home-row">
+      <div class="row home-row" >
         <div class="col-3">
-          <div class="home-icon-content text-center" style="margin-bottom: 52px;">
+          <div class="home-icon-content text-center" style="margin-bottom: 142px;">
             <img src="assets/img/icon/solo.png" alt="home icon image">
             <h4>Solo friendly</h4>
           </div>
