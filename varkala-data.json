@@ -65,18 +65,18 @@
         "price": "₹27000/-"
       }
     ],
-    "costing": {
-      "startingPrice": "₹8,499/-",
+"costing": {
+      "startingPrice": "₹8,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "chennai": "₹10,499/-",
-          "trivandrum": "₹8,499/-"
+          "chennai": "₹9,990/-",
+          "trivandrum": "₹9,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "chennai": "₹11,499/-",
-          "trivandrum": "₹9,499/-"
+          "chennai": "₹8,990/-",
+          "trivandrum": "₹8,990/-"
         }
       ]
     }

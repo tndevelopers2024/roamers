@@ -115,7 +115,7 @@
             justify-content: center;
             background-color: #FFFFFF;
             color: #292929;
-            padding: 2px 6px;
+            padding: 2px 6px 2px 5px;
             border-radius: 30px;
             font-size: 10px;
             font-weight: bold;
@@ -187,7 +187,7 @@
             justify-content: center;
             background-color: #fff;
             color: #333;
-            padding: 7px;
+            padding: 5px 8px;
             border-radius: 19px;
             font-size: 8px;
             box-shadow: 0px 2px 4px 0px #00000040;
@@ -232,7 +232,7 @@
             text-decoration: none;
             font-weight: bold;
             box-shadow: 5px 5px 44px 0px #3CADC9B2;
-            font-size: 16px;
+            font-size: 15px;
             z-index: 10;
             transition: all 0.3s ease;
             padding: 8px 18px;
@@ -580,277 +580,594 @@
             Upcoming Group Trips
         </h2>
         <div class="upcoming-tabs" id="upcoming-tabs">
-            <button class="upcoming-tab-btn" data-tab="august">
-                <i class="fa-solid fa-cloud-sun-rain"></i> August
+            <button class="upcoming-tab-btn active" data-tab="august">
+                <i class="fa-solid fa-cloud-sun"></i> August
             </button>
-            <button class="upcoming-tab-btn" data-tab="september">
-                <i class="fa-solid fa-leaf"></i> September
+            <!-- if you wana show just put september on data-tab -->
+            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+                <i class="fa-solid fa-cloud-sun-rain"></i> September
             </button>
-            <button class="upcoming-tab-btn" data-tab="october">
-                <i class="fa-solid fa-mountain-sun"></i> October
+            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+                <i class="fa-solid fa-cloud-showers-heavy"></i> October
             </button>
-            <button class="upcoming-tab-btn" data-tab="november">
-                <i class="fa-solid fa-wind"></i> November
+            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+                <i class="fa-solid fa-cloud-bolt"></i> November
             </button>
-            <button class="upcoming-tab-btn active" data-tab="december">
-                <i class="fa-solid fa-snowflake"></i> December
+            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+                <i class="fa-solid fa-cloud-sun"></i> December
             </button>
-            <button class="upcoming-tab-btn" data-tab="january">
-                <i class="fa-solid fa-mug-hot"></i> January
+            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+                <i class="fa-solid fa-temperature-low"></i> January
             </button>
+            <script>
+                function showComingSoon(e) {
+                    e.preventDefault();
+                    // Remove any existing toast
+                    let oldToast = document.getElementById('coming-soon-toast');
+                    if (oldToast) oldToast.remove();
+                    // Create toast
+                    const toast = document.createElement('div');
+                    toast.id = 'coming-soon-toast';
+                    toast.innerText = 'Coming Soon!';
+                    toast.style.position = 'fixed';
+                    toast.style.top = '80px';
+                    toast.style.left = '50%';
+                    toast.style.transform = 'translateX(-50%) scale(0.95)';
+                    toast.style.background = '#4CB9D3';
+                    toast.style.color = '#fff';
+                    toast.style.padding = '10px 12px';
+                    toast.style.borderRadius = '20px';
+                    toast.style.fontWeight = 'bold';
+                    toast.style.fontSize = '16px';
+                    toast.style.zIndex = 9999;
+                    toast.style.boxShadow = '0 2px 12px rgba(0,0,0,0.15)';
+                    toast.style.opacity = '0';
+                    toast.style.transition = 'opacity 0.35s cubic-bezier(.4,0,.2,1), transform 0.35s cubic-bezier(.4,0,.2,1)';
+                    document.body.appendChild(toast);
+
+                    // Animate in
+                    setTimeout(() => {
+                        toast.style.opacity = '1';
+                        toast.style.transform = 'translateX(-50%) scale(1)';
+                    }, 10);
+
+                    // Animate out and remove
+                    setTimeout(() => {
+                        toast.style.opacity = '0';
+                        toast.style.transform = 'translateX(-50%) scale(0.95)';
+                        setTimeout(() => {
+                            toast.remove();
+                        }, 350);
+                    }, 1000);
+                }
+            </script>
         </div>
         <!-- August Tab -->
-        <div class="upcoming-tab-content" id="tab-august">
+        <div class="upcoming-tab-content active" id="tab-august">
+
             <!-- Valley of Flowers -->
             <div class="upcoming-card">
                 <div class="upcoming-content">
                     <div class="upcoming-image">
-                        <img src="assets/img/valley-of-flowers/img1.jpg" alt="Valley of Flowers">
+                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
+                            alt="Valley of Flowers">
                     </div>
                     <div class="upcoming-card-flex">
                         <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 6D/5N
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
                         </div>
                         <div class="upcoming-from">
                             <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Dehradun</span>
+                            <span>Ex : Rishikesh</span>
                         </div>
                     </div>
                     <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
-                    <p class="upcoming-locations">Govindghat, Ghangaria, Hemkund</p>
+                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
+                    </p>
                     <div class="upcoming-price-section">
                         <div class="upcoming-dates">
                             <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 10, 17, 24</span>
+                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹15,999</div>
+                            <div class="upcoming-price">₹9,999</div>
                         </div>
                     </div>
-                    <a href="valley-of-flowers.php" class="upcoming-view">View Trip</a>
+                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
                 </div>
             </div>
+            <!-- Sri Lanka -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
+                            alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span>EX: Colombo
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Sri Lanka</h1>
+                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 17</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹43,999</div>
+                        </div>
+                    </div>
+                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+            <!-- Pondi Dive-in -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span> EX: Direct, Chennai
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Pondi Dive-in
+                    </h1>
+                    <p class="upcoming-locations"> Pondicherry</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 16,22</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹4,990</div>
+                        </div>
+                    </div>
+                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+            <!--varkala -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>3D/ 2N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span> EX: Chennai / Trivandrum
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title"> VARKALA </h1>
+                    <p class="upcoming-locations"> Chennai - Trivandrum</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 15,29</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price ">8,990/-</div>
+                        </div>
+                    </div>
+                    <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+
         </div>
         <!-- September Tab -->
         <div class="upcoming-tab-content" id="tab-september">
+            <!-- Sri Lanka -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
+                            alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span>EX: Colombo
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Sri Lanka</h1>
+                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 17</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹43,999</div>
+                        </div>
+                    </div>
+                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+            <!-- Pondi Dive-in -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span> EX: Direct, Chennai
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Pondi Dive-in
+                    </h1>
+                    <p class="upcoming-locations"> Pondicherry</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 16,22</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹4,990</div>
+                        </div>
+                    </div>
+                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
             <!-- Valley of Flowers -->
             <div class="upcoming-card">
                 <div class="upcoming-content">
                     <div class="upcoming-image">
-                        <img src="assets/img/valley-of-flowers/img1.jpg" alt="Valley of Flowers">
+                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
+                            alt="Valley of Flowers">
                     </div>
                     <div class="upcoming-card-flex">
                         <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 6D/5N
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
                         </div>
                         <div class="upcoming-from">
                             <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Dehradun</span>
+                            <span>Ex : Rishikesh</span>
                         </div>
                     </div>
                     <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
-                    <p class="upcoming-locations">Govindghat, Ghangaria, Hemkund</p>
+                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
+                    </p>
                     <div class="upcoming-price-section">
                         <div class="upcoming-dates">
                             <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Sep 7, 14, 21</span>
+                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹15,999</div>
+                            <div class="upcoming-price">₹9,999</div>
                         </div>
                     </div>
-                    <a href="valley-of-flowers.php" class="upcoming-view">View Trip</a>
+                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
                 </div>
             </div>
+
         </div>
         <!-- October Tab -->
         <div class="upcoming-tab-content" id="tab-october">
-            <!-- Meghalaya -->
+            <!-- Valley of Flowers -->
             <div class="upcoming-card">
                 <div class="upcoming-content">
                     <div class="upcoming-image">
-                        <img src="assets/img/megalaya/Cherrapunjee.jpg" alt="Meghalaya">
+                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
+                            alt="Valley of Flowers">
                     </div>
                     <div class="upcoming-card-flex">
                         <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 6D/5N
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
                         </div>
                         <div class="upcoming-from">
                             <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Guwahati</span>
+                            <span>Ex : Rishikesh</span>
                         </div>
                     </div>
-                    <h1 class="upcoming-title">MEGHALAYA ABODE OF CLOUDS</h1>
-                    <p class="upcoming-locations">Shillong, Cherrapunjee, Mawlynnong</p>
+                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
+                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
+                    </p>
                     <div class="upcoming-price-section">
                         <div class="upcoming-dates">
                             <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Oct 5, 12, 19</span>
+                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹16,999</div>
+                            <div class="upcoming-price">₹9,999</div>
                         </div>
                     </div>
-                    <a href="meghalaya.php" class="upcoming-view">View Trip</a>
+                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+            <!-- Sri Lanka -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
+                            alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span>EX: Colombo
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Sri Lanka</h1>
+                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 17</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹43,999</div>
+                        </div>
+                    </div>
+                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+            <!-- Pondi Dive-in -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span> EX: Direct, Chennai
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Pondi Dive-in
+                    </h1>
+                    <p class="upcoming-locations"> Pondicherry</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 16,22</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹4,990</div>
+                        </div>
+                    </div>
+                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
                 </div>
             </div>
         </div>
         <!-- November Tab -->
         <div class="upcoming-tab-content" id="tab-november">
-            <!-- Andaman -->
+            <!-- Valley of Flowers -->
             <div class="upcoming-card">
                 <div class="upcoming-content">
                     <div class="upcoming-image">
-                        <img src="assets/img/andaman/Media/43111.jpg" alt="Andaman Islands">
+                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
+                            alt="Valley of Flowers">
                     </div>
                     <div class="upcoming-card-flex">
                         <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/4N
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
                         </div>
                         <div class="upcoming-from">
                             <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Chennai</span>
+                            <span>Ex : Rishikesh</span>
                         </div>
                     </div>
-                    <h1 class="upcoming-title">ANDAMAN ISLAND ADVENTURE</h1>
-                    <p class="upcoming-locations">Port Blair, Havelock, Neil Island</p>
+                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
+                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
+                    </p>
                     <div class="upcoming-price-section">
                         <div class="upcoming-dates">
                             <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Nov 9, 16, 23</span>
+                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹18,999</div>
+                            <div class="upcoming-price">₹9,999</div>
                         </div>
                     </div>
-                    <a href="andaman.php" class="upcoming-view">View Trip</a>
+                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+            <!-- Sri Lanka -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
+                            alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span>EX: Colombo
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Sri Lanka</h1>
+                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 17</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹43,999</div>
+                        </div>
+                    </div>
+                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+            </div>
+            <!-- Pondi Dive-in -->
+            <div class="upcoming-card">
+                <div class="upcoming-content">
+                    <div class="upcoming-image">
+                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
+                    </div>
+                    <div class="upcoming-card-flex">
+                        <div class="upcoming-duration">
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
+                        </div>
+                        <div class="upcoming-from">
+                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
+                            <span> EX: Direct, Chennai
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="upcoming-title">Pondi Dive-in
+                    </h1>
+                    <p class="upcoming-locations"> Pondicherry</p>
+                    <div class="upcoming-price-section">
+                        <div class="upcoming-dates">
+                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
+                            <span class="upcoming-dates-text">Aug 16,22</span>
+                        </div>
+                        <div>
+                            <div class="upcoming-starts">Starts</div>
+                            <div class="upcoming-price">₹4,990</div>
+                        </div>
+                    </div>
+                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
                 </div>
             </div>
         </div>
         <!-- December Tab -->
-        <div class="upcoming-tab-content active" id="tab-december">
-            <!-- Ooty -->
+        <div class="upcoming-tab-content " id="tab-december">
+            <!-- Valley of Flowers -->
             <div class="upcoming-card">
                 <div class="upcoming-content">
                     <div class="upcoming-image">
-                        <img src="assets/img/Ooty/1-min.jpg" alt="Ooty Hills">
+                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
+                            alt="Valley of Flowers">
                     </div>
                     <div class="upcoming-card-flex">
                         <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 3D/2N
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
                         </div>
                         <div class="upcoming-from">
                             <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Chennai</span>
+                            <span>Ex : Rishikesh</span>
                         </div>
                     </div>
-                    <h1 class="upcoming-title">OOTY THE QUEEN OF HILLS</h1>
-                    <p class="upcoming-locations">Nilgiris, Coonoor, Coimbatore</p>
+                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
+                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
+                    </p>
                     <div class="upcoming-price-section">
                         <div class="upcoming-dates">
                             <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Dec 15, 22, 29</span>
+                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹7,499</div>
+                            <div class="upcoming-price">₹9,999</div>
                         </div>
                     </div>
-                    <a href="ooty.php" class="upcoming-view">View Trip</a>
+                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
                 </div>
             </div>
-            <!-- Kerala -->
+            <!-- Sri Lanka -->
             <div class="upcoming-card">
                 <div class="upcoming-content">
                     <div class="upcoming-image">
-                        <img src="assets/img/Kerala/7221844019.jpg" alt="Kerala Backwaters">
+                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
+                            alt="Valley of Flowers">
                     </div>
                     <div class="upcoming-card-flex">
                         <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 4D/3N
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
                         </div>
                         <div class="upcoming-from">
                             <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Chennai</span>
+                            <span>EX: Colombo
+                            </span>
                         </div>
                     </div>
-                    <h1 class="upcoming-title">KERALA GOD'S OWN COUNTRY</h1>
-                    <p class="upcoming-locations">Munnar, Thekkady, Alleppey</p>
+                    <h1 class="upcoming-title">Sri Lanka</h1>
+                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
                     <div class="upcoming-price-section">
                         <div class="upcoming-dates">
                             <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Dec 15, 22, 29</span>
+                            <span class="upcoming-dates-text">Aug 17</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹12,999</div>
+                            <div class="upcoming-price">₹43,999</div>
                         </div>
                     </div>
-                    <a href="kerala.php" class="upcoming-view">View Trip</a>
+                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
                 </div>
             </div>
-            <!-- Andaman -->
+            <!-- Pondi Dive-in -->
             <div class="upcoming-card">
                 <div class="upcoming-content">
                     <div class="upcoming-image">
-                        <img src="assets/img/andaman/Media/43111.jpg" alt="Andaman Islands">
+                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
                     </div>
                     <div class="upcoming-card-flex">
                         <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/4N
+                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
                         </div>
                         <div class="upcoming-from">
                             <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Chennai</span>
+                            <span> EX: Direct, Chennai
+                            </span>
                         </div>
                     </div>
-                    <h1 class="upcoming-title">ANDAMAN ISLAND ADVENTURE</h1>
-                    <p class="upcoming-locations">Port Blair, Havelock, Neil Island</p>
+                    <h1 class="upcoming-title">Pondi Dive-in
+                    </h1>
+                    <p class="upcoming-locations"> Pondicherry</p>
                     <div class="upcoming-price-section">
                         <div class="upcoming-dates">
                             <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Dec 15, 22, 29</span>
+                            <span class="upcoming-dates-text">Aug 16,22</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹18,999</div>
+                            <div class="upcoming-price">₹4,990</div>
                         </div>
                     </div>
-                    <a href="andaman.php" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Meghalaya -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="assets/img/megalaya/Cherrapunjee.jpg" alt="Meghalaya">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 6D/5N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Guwahati</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">MEGHALAYA ABODE OF CLOUDS</h1>
-                    <p class="upcoming-locations">Shillong, Cherrapunjee, Mawlynnong</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Dec 15, 22, 29</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹16,999</div>
-                        </div>
-                    </div>
-                    <a href="meghalaya.php" class="upcoming-view">View Trip</a>
+                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
                 </div>
             </div>
         </div>

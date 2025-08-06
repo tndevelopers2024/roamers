@@ -62,7 +62,7 @@
         z-index: 2;
         width: 100%;
         text-align: center;
-        padding:-79px
+        padding:-69px
     }
 
     .categories-row-single {
