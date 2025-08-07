@@ -172,15 +172,16 @@
     margin-top: -34px !important;
   }
   .home-icon-content h3 {
-    font-size: 18px !important;
+    font-size: 12px !important;
   }
   .home-icon-content h4 {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 
   .home-icon-content img {
-    width: 40px !important;
-    height: 40px !important;
+    margin-top: 300px;
+    width: 30px !important;
+    height: 30px !important;
   }
   .ai1::before {
     margin-top: 17px !important;
@@ -506,9 +507,9 @@
     letter-spacing: 7px;
     font-size: 40px;
   }
-  .categories-container {
+  /* .categories-container {
     padding: 40px 0px 0px;
-  }
+  } */
   .testimonial {
     margin-top: 20px;
   }

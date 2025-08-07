@@ -1,57 +1,7 @@
 {
   "varkala": {
-    "February": [
-      {
-        "date": "24th - 29th",
-        "status": "Fast filling",
-        "statusColor": "orange",
-        "price": "₹27000/-"
-      }
-    ],
-    "March": [
-      {
-        "date": "11th - 17th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      },
-      {
-        "date": "26th - 29th",
-        "status": "Available",
-        "statusColor": "green",
-        "special": "Holi Special",
-        "price": "₹30,000/-"
-      }
-    ],
-    "April": [
-      {
-        "date": "11th - 17th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      },
-      {
-        "date": "26th - 29th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      }
-    ],
-    "May": [
-      {
-        "date": "11th - 17th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      },
-      {
-        "date": "26th - 29th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      }
-    ],
-    "June": [
+
+    "August": [
       {
         "date": "11th - 17th",
         "status": "Available",

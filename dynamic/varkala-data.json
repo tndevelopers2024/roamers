@@ -1,68 +1,31 @@
 {
-  "varkala": {
-    "February": [
+  "varkala": { 
+    "August": [
       {
-        "date": "24th - 29th",
-        "status": "Fast filling",
-        "statusColor": "orange",
-        "price": "₹27000/-"
-      }
-    ],
-    "March": [
-      {
-        "date": "11th - 17th",
+        "date": "15th ",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹27000/-"
+        "price": "₹8,990/-"
       },
       {
-        "date": "26th - 29th",
+        "date": "29th",
         "status": "Available",
         "statusColor": "green",
-        "special": "Holi Special",
-        "price": "₹30,000/-"
+        "price": "₹8,990/-"
       }
     ],
-    "April": [
+    "September": [
       {
-        "date": "11th - 17th",
+        "date": "12th",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹27000/-"
+        "price": "₹8,990/-"
       },
       {
-        "date": "26th - 29th",
+        "date": "26th",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹27000/-"
-      }
-    ],
-    "May": [
-      {
-        "date": "11th - 17th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      },
-      {
-        "date": "26th - 29th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      }
-    ],
-    "June": [
-      {
-        "date": "11th - 17th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
-      },
-      {
-        "date": "26th - 29th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹27000/-"
+        "price": "₹8,990/-"
       }
     ],
     "costing": {
@@ -470,6 +433,54 @@
       ]
     }
   },
+
+
+  "varkala-new": {
+    "August": [
+      {
+        "date": "15th ",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,990/-"
+      },
+      {
+        "date": "29th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,990/-"
+      }
+    ],
+    "September": [
+      {
+        "date": "12th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,990/-"
+      },
+      {
+        "date": "26th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹43,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹8,990/-",
+          "mrp": "₹12,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹9,990 /-",
+          "mrp": "₹11,990/-"
+        }
+      ]
+    }
+  },
+
   "pondicherry": {
     "August": [
       {

@@ -593,7 +593,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 <body>
 
   <?php include('includes/loader.php'); ?>    
-  <?php include('includes/hearder-new.php'); ?>
+  <?php include('includes/header.php'); ?>
   <?php include('components/banner.php'); ?>
   <?php include('components/banner-below.php'); ?>
   <?php include('components/upcoming-trips.php'); ?>

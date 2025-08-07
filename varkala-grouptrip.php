@@ -52,6 +52,13 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
+  <style>
+    .banner-hight-top {
+      margin-top: 150px !important;
+      margin-bottom: 150px !important;
+    }
+  </style>
+
 <body>
 
   <!-- Whats app  -->
@@ -68,9 +75,9 @@
 
     <div class="container-lg" style="position: relative; text-align: center;">
 
-      <h2 class="banner-hight-top ms-2"
-        style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        Magical Varkala – A Roamers Getaway
+      <h2 class="banner-hight-top"
+        style="font-size:39px;  font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+        Magical Varkala
       </h2>
 
       <!-- <ul class="banner-hight-bottom p-0"
@@ -706,7 +713,7 @@
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="varkala-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                      <a href="varkala-grouptrip-form.php" target="blank" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -793,7 +800,7 @@
             <img src="https://roamers.in/assets/img/varkala/kappilbeach.jpg" alt="Sri Lanka 6">
           </div>
         </div>
-       
+
       </div>
       <div class="swiper-pagination d-none d-md-none"></div>
     </div>
@@ -930,7 +937,7 @@
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="varkala-form.php" class="btn-book">Dates & Costing</a>
+      <a href="varkala-grouptrip-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 

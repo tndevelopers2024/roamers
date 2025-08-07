@@ -2,7 +2,8 @@
     /* Apple Liquid Glass Inspired Styles - Enhanced Glassmorphism */
     body {
         --liquid-glass-bg: linear-gradient(135deg, #e0e7ef 0%, #f5f7fa 100%);
-        --liquid-glass-blur: 38px; /* Increased blur */
+        --liquid-glass-blur: 38px;
+        /* Increased blur */
         --liquid-glass-radius: 26px;
         --liquid-glass-border: 1.5px solid rgba(255, 255, 255, 0.55);
         --liquid-glass-shadow: 0 6px 24px 0 rgba(31, 38, 135, 0.13), 0 2px 8px 0 rgba(255, 255, 255, 0.13);
@@ -28,6 +29,21 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    @media (max-width: 900px) {
+        .categories-section-bg {
+            min-height: 200px;
+            padding: 6px 0 6px 0 !important;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .categories-section-bg {
+            min-height: 80px;
+            padding: 1px 0 1px 0 !important;
+            flex-direction: column;
+        }
     }
 
     .categories-section-bg::before,
@@ -62,14 +78,20 @@
         z-index: 2;
         width: 100%;
         text-align: center;
-        padding:-69px
+        /* padding: 6px; */
+    }
+
+    @media (max-width: 600px) {
+        .categories-container {
+            /* padding: 30px 0px 0; */
+            /* margin-bottom: -150px; */
+        }
     }
 
     .categories-row-single {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        /* changed from center to space-between for even spacing */
         align-items: stretch;
         gap: 1rem;
         text-align: center;
@@ -124,19 +146,32 @@
         }
     }
 
+    /* Hide scrollbar on mobile for .categories-row-single */
+    @media (max-width: 767.98px) {
+        .categories-row-single {
+            scrollbar-width: none;
+            /* Firefox */
+            -ms-overflow-style: none;
+            /* IE and Edge */
+        }
+
+        .categories-row-single::-webkit-scrollbar {
+            display: none;
+            /* Chrome, Safari, Opera */
+        }
+    }
+
     .liquid-glass-card {
-         /* More transparent */
         border-radius: var(--liquid-glass-radius);
         box-shadow: var(--liquid-glass-shadow), var(--liquid-glass-inner-glow);
         border: var(--liquid-glass-border);
-        /* backdrop-filter: blur(var(--liquid-glass-blur)) saturate(180%); */
         -webkit-backdrop-filter: blur(var(--liquid-glass-blur)) saturate(180%);
         transition: box-shadow 0.35s cubic-bezier(.4, 0, .2, 1), transform 0.35s cubic-bezier(.4, 0, .2, 1);
         position: relative;
         overflow: hidden;
         width: 100%;
         min-height: 110px;
-        padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+        padding: 0.7rem;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -148,9 +183,6 @@
         isolation: isolate;
         text-align: center;
         height: 100%;
-        /* Border gradient for Apple-like shine */
-        /* border: 1.5px solid rgba(255,255,255,0.55); */
-        /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18), 0 1.5px 6px 0 rgba(255,255,255,0.13), 0 0 0 2px rgba(255,255,255,0.18) inset; */
     }
 
     .liquid-glass-card::before {
@@ -160,15 +192,13 @@
         left: -30%;
         width: 120%;
         height: 120%;
-        /* background: linear-gradient(120deg, rgba(78, 192, 219, 0.10) 0%, rgba(255, 255, 255, 0.18) 100%); */
         z-index: 0;
         pointer-events: none;
         border-radius: 50%;
-        filter: blur(18px); /* More blur for highlight */
+        filter: blur(18px);
         opacity: 0.38;
     }
 
-    /* Add a soft highlight/reflection */
     .liquid-glass-card::after {
         content: "";
         position: absolute;
@@ -176,7 +206,6 @@
         left: 18px;
         width: 60%;
         height: 18px;
-        /* background: linear-gradient(90deg, rgba(255,255,255,0.33) 0%, rgba(255,255,255,0.05) 100%); */
         border-radius: 12px;
         opacity: 0.55;
         pointer-events: none;
@@ -186,13 +215,53 @@
 
     .liquid-glass-card:hover {
         box-shadow: var(--liquid-glass-hover-shadow), var(--liquid-glass-inner-glow);
-        transform: translateY(-4px) scale(1.025);
-        /* background: rgba(255,255,255,0.38); */
+        /* transform: translateY(-4px) scale(1.025); */
     }
 
     .liquid-glass-card>* {
         position: relative;
         z-index: 2;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 991.98px) {
+        .liquid-glass-card {
+            min-height: 90px;
+            padding: 0.6rem;
+            gap: 0.4rem;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .liquid-glass-card {
+            min-height: 70px;
+            padding: 0.5rem;
+            gap: 0.3rem;
+        }
+
+        .liquid-glass-card::after {
+            top: 4px;
+            left: 10px;
+            width: 70%;
+            height: 12px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .liquid-glass-card {
+            min-height: 36px;
+            padding: 11px;
+            gap: 0.1rem;
+            max-width: 220px;
+            width: 90vw;
+        }
+
+        .liquid-glass-card::after {
+            top: 1px;
+            left: 3px;
+            width: 80%;
+            height: 4px;
+        }
     }
 
     .liquid-glass-icon {
@@ -212,6 +281,20 @@
         -webkit-backdrop-filter: blur(8px) saturate(180%);
         transition: box-shadow 0.3s;
         text-align: center;
+    }
+
+    @media (max-width: 480px) {
+        .liquid-glass-icon {
+            width: 22px;
+            height: 22px;
+            font-size: 0.7rem;
+            margin-bottom: 0.05rem;
+        }
+
+        .liquid-glass-icon img {
+            width: 14px !important;
+            height: 14px !important;
+        }
     }
 
     .liquid-glass-card:hover .liquid-glass-icon {
@@ -246,6 +329,13 @@
         background-clip: unset !important;
     }
 
+    @media (max-width: 480px) {
+        .liquid-glass-title {
+            font-size: 0.62rem;
+            line-height: 1.05;
+        }
+    }
+
     .liquid-glass-text {
         color: #000 !important;
         font-size: 0.87rem;
@@ -257,14 +347,24 @@
         width: 100%;
         font-family: 'SF Pro Text', 'Inter', 'Segoe UI', Arial, sans-serif;
     }
+
+    @media (max-width: 480px) {
+        .liquid-glass-text {
+            font-size: 0.48rem;
+            line-height: 1.05;
+            padding-left: 2px !important;
+            padding-right: 2px !important;
+        }
+    }
 </style>
 <section class="categories-section-bg">
     <section class="categories-container">
-        <div class="container" style="max-width: 900px; text-align: center; margin-bottom: 50px;">
+        <div class="container" style="max-width: 900px; padding:10px; text-align: center;">
             <div class="categories-row-single">
                 <div class="categories-col center-on-mobile">
                     <div class="liquid-glass-card  pt-3">
-                        <span class="liquid-glass-icon"><img src="assets/img/icon/travelbuddies-01.png" alt="" ></span>
+                        <span class="liquid-glass-icon"><img src="assets/img/icon/travelbuddies-01.png" alt=""
+                                style="width:100%;height:auto;max-width:32px;max-height:32px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">Travel Buddies United</h2>
                             <p class="liquid-glass-text px-2 py-1 px-md-4 py-md-2">
@@ -276,7 +376,8 @@
                 </div>
                 <div class="categories-col">
                     <div class="liquid-glass-card  pt-3">
-                        <span class="liquid-glass-icon"><img src="assets/img/icon/Inclusions-01.png" alt=""></span>
+                        <span class="liquid-glass-icon"><img src="assets/img/icon/Inclusions-01.png" alt=""
+                                style="width:100%;height:auto;max-width:32px;max-height:32px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">Everything Included, No Fuss</h2>
                             <p class="liquid-glass-text  px-2 py-1 px-md-4 py-md-2">
@@ -288,7 +389,8 @@
                 </div>
                 <div class="categories-col">
                     <div class="liquid-glass-card  pt-3">
-                        <span class="liquid-glass-icon"><img src="assets/img/icon/Expertguide-01.png" alt=""></span>
+                        <span class="liquid-glass-icon"><img src="assets/img/icon/Expertguide-01.png" alt=""
+                                style="width:100%;height:auto;max-width:32px;max-height:32px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">Led by the Pros</h2>
                             <p class="liquid-glass-text   px-2 py-1 px-md-4 py-md-2">
@@ -300,7 +402,8 @@
                 </div>
                 <div class="categories-col">
                     <div class="liquid-glass-card pt-3">
-                        <span class="liquid-glass-icon"><img src="assets/img/icon/transportation.png" alt="" style="width:20px"></span>
+                        <span class="liquid-glass-icon"><img src="assets/img/icon/transportation.png" alt=""
+                                style="width:100%;height:auto;max-width:20px;max-height:20px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">One-of-a-kind adventure</h2>
                             <p class="liquid-glass-text  px-2 py-1 px-md-4 py-md-2">
