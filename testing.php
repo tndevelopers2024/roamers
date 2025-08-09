@@ -594,9 +594,9 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
   <?php include('includes/loader.php'); ?>    
   <?php include('includes/header.php'); ?>
-  <?php include('components/banner.php'); ?>
+  <?php include('components/bannner-test.php'); ?>
   <?php include('components/banner-below.php'); ?>
-  <?php include('components/upcoming-trips.php'); ?>
+  <?php include('components/upcoming-trips-test.php'); ?>
 
 
   <!-- ***** instagram start***** -->

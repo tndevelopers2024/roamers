@@ -1185,7 +1185,7 @@ session_start();
                         <div class="input-field mt-4">
                           <select id="pickup" name="pickup" class="form-select mt-4" required>
                             <option value="" disabled selected>Select the Location</option>
-                            <option value="Chennai">Rishikesh</option>
+                            <option value="Chennai">Chennai</option>
                           </select>
                         </div>
                         <span class="span mt-5">Address</span>
@@ -1809,9 +1809,9 @@ session_start();
           // Set amount using if statements
           let perPersonAmount = 0;
           if (sharing === "Triple Sharing") {
-            perPersonAmount = 9990;
+            perPersonAmount = 4990;
           } else if (sharing === "Double Sharing") {
-            perPersonAmount = 11499;
+            perPersonAmount = 5500;
           }
 
 
@@ -1853,7 +1853,7 @@ session_start();
             <div class="div"><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
             <div class="d-flex justify-content-between flex-wrap">
               <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
-                <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/- (Per Person)</h4>
+                <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/-</h4>
               </div>
               <div class="button-div d-flex justify-content-end mt-4">
                 <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Back</button>

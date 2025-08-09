@@ -359,7 +359,7 @@
 </style>
 <section class="categories-section-bg">
     <section class="categories-container">
-        <div class="container" style="max-width: 900px; padding:10px; text-align: center;">
+        <div class="container" style="max-width: 900px; text-align: center;">
             <div class="categories-row-single">
                 <div class="categories-col center-on-mobile">
                     <div class="liquid-glass-card  pt-3">

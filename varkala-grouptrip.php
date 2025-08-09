@@ -52,12 +52,8 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
-  <style>
-    .banner-hight-top {
-      margin-top: 150px !important;
-      margin-bottom: 150px !important;
-    }
-  </style>
+
+
 
 <body>
 
@@ -67,6 +63,7 @@
   <!-- Header -->
   <?php include('includes/header.php'); ?>
 
+
   <!-- Banner -->
   <section class="trip-home" class="banner-marigin-section" id="tripSection"
     style="  padding: 350px 0; color: white; position: relative;  ">
@@ -75,44 +72,39 @@
 
     <div class="container-lg" style="position: relative; text-align: center;">
 
-      <h2 class="banner-hight-top"
-        style="font-size:39px;  font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        Magical Varkala
+      <h2 class="banner-hight-top ms-2"
+        style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+         MAGICAL VARKALA
       </h2>
 
-      <!-- <ul class="banner-hight-bottom p-0"
+      <ul class="banner-hight-bottom p-0"
         style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
         <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
-          SIGIRIYA
+          
           <span class="ms-2">
-            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
-                style="width:13px; margin-bottom: 3px;"></span>
+            <span>
           </span>
         </li>
 
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-          KANDY <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-                style="width:13px; margin-bottom: 3px;"></span>
+        
         </li>
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-          ELLA<span class="ms-2"><span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-                style="width:13px; margin-bottom: 3px;"></span>
+         
         </li>
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-          GALLE<span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-                style="width:13px; margin-bottom: 3px;" </span>
+         
         </li>
         <li class="mobile-small-text me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-          BENTOTA <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-                style="width:13px; margin-bottom: 3px;"></span>
+     
         </li>
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-          COLOMBO
+         
         </li>
-      </ul> -->
+      </ul>
 
       <!-- this is the dot pagination for the slider -->
       <div id="dotPagination">
@@ -120,6 +112,7 @@
       </div>
 
   </section>
+
   <!-- Tab -->
   <section class="tab-sections mob-tab">
     <div class="">
@@ -572,50 +565,29 @@
                 <div id="">
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Airport assistant for arrivals/departures (if aligned with schedules)
+                    Covers Transportation & Complementary Canoe Ride
                   </p>
 
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Accomodation: 3-star
-                    Hotels/ Resorts superior stays
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Includes Accommodation + Breakfast
                   </p>
 
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Meals: 06 Breakfasts, 4
-                    Dinners (including Farewell Dinner)
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Sightseeing Entries
                   </p>
 
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Transportation:
-                    Air-conditioned coach throughout the tour (as per itinerary)
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Experienced Trip Captains who are super friendly & knowledgeable.
 
                   </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Complementary 2x500ml
-                    Water Bottles per person per day.
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Permit, Local tax. No hidden charges.
 
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Train Journey Entrances
-
+                    A-Z trip assistance from our Travel experts.
                   </p><span class="mobile-br"><br></span>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Sigiriya Rock Fortress
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Pinnawala Elephant
-                    Orphanage</p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Sacred Temple of the
-                    Tooth Relic (Kandy)
-                  </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Ganga Ramaya Temple </p>
-                  <span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Madu River Boat Safari
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Turtle Hatchery</p><span
-                    class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Gem Museum visit
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Parking, Toll Charges &
-                    all Taxes
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>No hidden charges </p>
 
                 </div>
               </div>
@@ -626,62 +598,28 @@
               id="exclusion">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
               <div>
-                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Air Ticket</p><span
-                  class="mobile-br"><br></span>
+                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Personal expenses like
+                  shopping and optional activities such as kayaking or ziplining
+                </p><span class="mobile-br"><br></span>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>E Visa ( Please visit ➪ <a
-                    class="ms-1" target="_blank" href="https://eta.gov.lk/slvisa/"> Here</a>)
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Cable Car for Jatayu
+                  (optional)
+                  </a>
                 </p>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>If Early/late airport
-                  transfers apart from Schedule (taxi will be arranged separately for you on cost)
-
-
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Any other costs involved due to a natural calamity or any other forced circumstances that are out of
+                  our control.
                 </p>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Lunch and 2 Dinner Meals on
-                  tour.
-
-
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  GST (5%) is applicable extra.
                 </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Early Check In (before 3 AM)
-                  and Late Check Out (after 11 AM) at the hotel.
+
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Anything not mentioned in the above inclusions.
                 </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Tips and Portage.
 
-
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any expense due to nature or
-                  unavoidable circumstances.
-
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any expense not mentioned
-                  above.
-
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Applicable TCS & GST
-
-
-                </p>
-              </div>
-            </div>
-
-            <!-- >> Important Notes Section << -->
-            <div class="important-notes shadow" style="border-radius: 10px;" id="notes">
-              <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Important Notes</h3>
-              <div>
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Group trips are designed
-                  for
-                  ages 18 to 40 due to high packed adventure. Custom trips can be arranged for other age groups.</p>
-
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Itinerary may be subjected
-                  to change due to weather, road conditions, or health concerns. Changes will be made keeping your
-                  safety
-                  and comfort in mind.</p>
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Inform us of any
-                  pre-existing health conditions in advance.</p>
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>5% GST & 5% TCS Applicable
-                </p>
               </div>
             </div>
 
@@ -713,7 +651,8 @@
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="varkala-grouptrip-form.php" target="blank" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                      <a href="varkala-grouptrip-form.php" target="blank" class="btn butn butn__new bg-"
+                        style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>

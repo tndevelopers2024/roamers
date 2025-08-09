@@ -9,18 +9,28 @@
 
 
   .home {
-    background: url(asstes/test/test-6.jpg);
+    background: url('assets/img/banner/desktop-banner-avif.avif');
     object-fit: cover !important;
   }
 
   @media (max-width: 600px) {
     .home {
       padding: 100px 0px 0px 0px;
-      background: url(assets/img/bg/website\ cover\ reso\ change.jpg);
-      /* background: urlasstes/test/test-1.png); */
+      /* margin: 20px; */
+      background: url('assets/img/banner/mobile-banner-avif.avif');
+      background-size: 100% 100% !important;
+      /* Stretch image to fill container */
+      background-repeat: no-repeat !important;
       background-position: top !important;
       background-position-y: 5px !important;
-      height: 140vh;
+      width: 100vw;
+      height: 100vw;
+      /* background-position-x: 5px !important; */
+
+    }
+
+    .categories-container {
+      padding-bottom: 30px !important;
     }
 
     .py-60 {
@@ -43,7 +53,7 @@
     .home-row {
       position: absolute;
       margin: auto;
-      bottom: -94px !important;
+      bottom: 34px !important;
       left: 8.5%;
     }
 
@@ -123,7 +133,7 @@
     }
 
     .home {
-      height: 566px !important;
+      height: 680px !important;
     }
 
     .navbar-nav {
@@ -203,9 +213,9 @@
     right: 7%;
   }
 
-  /* .margin {
-      margin-bottom: 500px;
-    } */
+  .margin {
+    margin-top: 100px;
+  }
 
   @media (max-width: 768px) {
     .margin {
@@ -270,11 +280,19 @@
   </script>
 
 
+  <style>
+    @media (max-width: 600px) {
+      .home-icon-content img {
+        width: 30px !important;
+        height: 30px !important;
+      }
+    }
+  </style>
   <div class="margin">
     <div class="row home-row">
       <div class="col-3">
-        <div class="home-icon-content text-center" style="margin-bottom: 142px;">
-          <img src="assets/img/icon/solo.png" alt="home icon image" width="20px">
+        <div class="home-icon-content text-center" style="margin-bottom: 52px;">
+          <img src="assets/img/icon/solo.png" alt="home icon image">
           <h4>Solo friendly</h4>
         </div>
       </div>

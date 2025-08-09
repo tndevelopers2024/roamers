@@ -36,6 +36,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Style css -->
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/srilanka.css">
 
   <link rel="stylesheet" href="assets/css/responsive.css" />
   <!-- bootstrap cdn -->
@@ -1139,35 +1140,56 @@
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
 
   <!-- Header -->
-  <?php include('includes/header2.php'); ?>
+  <?php include('includes/header.php'); ?>
 
   <!-- Banner -->
-  <section
-    style="min-height: 80vh; color: white; position: relative; background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/img/valley-of-flowers/valley-bg.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;">
+  <section class="trip-home" class="banner-marigin-section" id="tripSection"
+    style="  padding: 350px 0; color: white; position: relative;  ">
+
 
 
     <div class="container-lg" style="position: relative; text-align: center;">
-      <h1 class="montserrat"
-        style="font-size: 52px; font-weight: 900; ; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        VALLEY OF FLOWERS TREK
-      </h1>
 
-      <!-- <ul class="des-sub"
-        style="list-style: none; padding: 0; display: flex; justify-content: center; margin-bottom: 50px;">
-        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
-          Rishikesh <i class="fa-solid fa-right-long"></i>
+      <h2 class="banner-hight-top ms-2"
+        style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+      
+        VALLEY OF FLOWERS TREK
+      
+      </h2>
+
+      <ul class="banner-hight-bottom p-0"
+        style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
+        <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
+          
+          <span class="ms-2">
+            <span></span>
+          </span>
         </li>
-        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
-          Joshimath <i class="fa-solid fa-right-long"></i>
+
+        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
+           <span class="ms-2"> 
         </li>
-        <li class="fs-6 fs-md-1 montserrat" style="display: flex; align-items: center; font-weight: 900;">
-          Ghangaria
+        <li class="mobile-small-text  me-2"
+          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+          <span class="ms-2"><span>
         </li>
-      </ul> -->
+        <li class="mobile-small-text  me-2"
+          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+        
+        </li>
+        <li class="mobile-small-text me-2"
+          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+        
+        </li>
+        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
+          
+        </li>
+      </ul>
+
+      <!-- this is the dot pagination for the slider -->
       <div id="dotPagination">
 
       </div>
-
 
   </section>
 
