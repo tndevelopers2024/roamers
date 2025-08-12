@@ -61,112 +61,6 @@ like-minded travelers!
 that bring travelers together. Explore destinations, meet people, and make memories!" />
   <!--  -->
 </head>
-<!-- script For SEO -->
-
-<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Product",
-      "name": "Example Product",
-      "image": "https://www.roamers.in/path-to-product-image.jpg",
-      "description": "Example product description.",
-      "sku": "EX12345",
-      "brand": {
-        "@type": "Brand",
-        "name": "Example Brand"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "24"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.roamers.in/product-page",
-        "priceCurrency": "USD",
-        "price": "99.99",
-        "itemCondition": "http://schema.org/NewCondition",
-        "availability": "http://schema.org/InStock"
-      },
-      "review": [{
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John Doe"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "This product is amazing!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jane Smith"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "reviewBody": "Great product but a bit expensive."
-        }
-      ]
-    }
-  </script>
-<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-          "@type": "Question",
-          "name": "What is the return policy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can return the product within 30 days of purchase."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this product come with a warranty?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, it comes with a 1-year warranty."
-          }
-        }
-      ]
-    }
-  </script>
-<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebPage",
-      "mainEntity": {
-        "@type": "Article",
-        "headline": "How to Use the Example Product",
-        "description": "A comprehensive guide on how to use the Example Product.",
-        "author": {
-          "@type": "Person",
-          "name": "Alex Johnson"
-        },
-        "datePublished": "2024-07-09",
-        "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
-      }
-    }
-  </script>
-<!-- Google Analytics Code: -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-  gtag('config', 'G-0MSFD4117B');
-</script>
 
 <style>
   .gotoinsta:hover {
@@ -591,16 +485,13 @@ that bring travelers together. Explore destinations, meet people, and make memor
 </style>
 
 <body>
-  <!--====== Preloader Area Start ======-->
-  <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
+
 
   <?php include('includes/loader.php'); ?>
   <?php include('includes/header.php'); ?>
   <?php include('components/banner.php'); ?>
   <?php include('components/banner-below.php'); ?>
   <?php include('components/upcoming-trips.php'); ?>
-
-
 
   <section class="strips py-60" id="backpacking">
     <h2 class="head">
@@ -817,9 +708,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
     </div>
   </section>
 
-
-
-  <!-- ***** instagram start***** -->
   <section class="travelgram" id="travelgram">
     <div class="container-fluid">
       <div class="row">
@@ -1313,9 +1201,6 @@ that bring travelers together. Explore destinations, meet people, and make memor
     </div>
   </section>
 
-  <!-- ***** quotes start ***** -->
-
-  <!-- ***** quotes start ***** -->
   <section class="quotes pt-60">
     <div class="container-fluid">
       <div class="row">
@@ -1353,12 +1238,8 @@ that bring travelers together. Explore destinations, meet people, and make memor
     </div>
   </section>
 
-  <!--====== quotes End ======-->
-  <!-- calendar -->
-  <!-- calendar-end -->
+  <?php include('includes/footer.php'); ?>
 
-
-  <!--====== FOOTER START======-->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var whatsappButton = document.querySelector('.what-sum');
@@ -1393,7 +1274,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
       });
     });
   </script>
-  <!--====== FOOTER END======-->
+
   <script>
     let index = 0;
     let timer; // Variable to store the timer for automatic image change
@@ -1426,9 +1307,12 @@ that bring travelers together. Explore destinations, meet people, and make memor
     });
   </script>
 
-
   <script src="index.js"></script>
 
+  <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
+
+  <!-- // The following script toggles the visibility of the search bar when the magnifier icon is clicked.
+  // This improves user experience by allowing users to show/hide the search bar as needed, keeping the UI clean. -->
   <script>
     const searchBarContainerEl = document.querySelector(".search-bar-container");
     const magnifierEl = document.querySelector(".magnifier");
@@ -1438,7 +1322,10 @@ that bring travelers together. Explore destinations, meet people, and make memor
     });
   </script>
 
-
+  <!-- // The following script implements a client-side search functionality for trip packages.
+  // It is needed to provide instant search results to users as they type, improving usability and engagement.
+  // The data array contains trip information. The search input listens for changes and filters the data accordingly.
+  // Matching results are displayed dynamically; if no match is found, a message is shown. -->
   <script>
     const data = [{
       name: 'Andaman Island Hopping',
@@ -1561,21 +1448,23 @@ that bring travelers together. Explore destinations, meet people, and make memor
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
 
-
-    // Event listener for input changes
+    // Listen for user input in the search box and trigger the search/filter logic.
     searchInput.addEventListener('input', handleSearch);
 
     function handleSearch() {
       const query = searchInput.value.trim().toLowerCase();
 
-      // Clear previous search results
+      // Clear previous search results to avoid showing outdated data.
       searchResults.innerHTML = '';
 
+      // If the search box is empty, hide the results area.
       if (query === '') {
         searchResults.style.display = 'none';
         return;
       }
 
+      // Filter and sort the data array based on the search query.
+      // This ensures that the most relevant trips are shown first.
       const filteredData = data
         .filter(item => item.name.toLowerCase().includes(query))
         .sort((a, b) => {
@@ -1588,7 +1477,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
           return aName.indexOf(query) - bName.indexOf(query); // further prioritize closer matches
         });
 
-
+      // If no results, show a message. Otherwise, render the matching trips.
       if (filteredData.length === 0) {
         searchResults.innerHTML = `<div class="col-12">No Trips found for "${query}"</div>`;
       } else {
@@ -1616,31 +1505,141 @@ that bring travelers together. Explore destinations, meet people, and make memor
         });
       }
 
+      // Show the results area and ensure results are displayed in a flexible, wrapped layout.
       searchResults.style.display = 'flex'; // Flex layout for rows
       searchResults.style.flexWrap = 'wrap'; // Wrap items to new rows
     }
   </script>
 
+  <!--
+    The following scripts are for structured data (JSON-LD) for SEO purposes.
+    They help search engines understand the content of the page, which can improve search ranking and display rich results.
+  -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "name": "Example Product",
+      "image": "https://www.roamers.in/path-to-product-image.jpg",
+      "description": "Example product description.",
+      "sku": "EX12345",
+      "brand": {
+        "@type": "Brand",
+        "name": "Example Brand"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "24"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.roamers.in/product-page",
+        "priceCurrency": "USD",
+        "price": "99.99",
+        "itemCondition": "http://schema.org/NewCondition",
+        "availability": "http://schema.org/InStock"
+      },
+      "review": [{
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "This product is amazing!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          },
+          "reviewBody": "Great product but a bit expensive."
+        }
+      ]
+    }
+  </script>
 
-  <?php include('includes/footer.php'); ?>
-  <!-- ***** All jQuery Plugins ***** -->
-  <!-- jQuery(necessary for all JavaScript plugins) -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+          "@type": "Question",
+          "name": "What is the return policy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can return the product within 30 days of purchase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this product come with a warranty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it comes with a 1-year warranty."
+          }
+        }
+      ]
+    }
+  </script>
 
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "mainEntity": {
+        "@type": "Article",
+        "headline": "How to Use the Example Product",
+        "description": "A comprehensive guide on how to use the Example Product.",
+        "author": {
+          "@type": "Person",
+          "name": "Alex Johnson"
+        },
+        "datePublished": "2024-07-09",
+        "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
+      }
+    }
+  </script>
+  <!-- Google Analytics Code: -->
+  <!-- Google tag (gtag.js) -->
+  <!-- The following script loads Google Analytics for tracking website usage and user behavior.
+       This is needed for site owners to analyze traffic and improve the website. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-0MSFD4117B');
+  </script>
+
+  <!-- jQuery is required for various JavaScript plugins used on the site. -->
   <script src="assets/js/dates.js"></script>
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-
-  <!-- Bootstrap js -->
+  <!-- Bootstrap and plugin scripts are needed for UI components and interactivity. -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
   <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
 
+  <!-- Elfsight platform script is used for embedding widgets (e.g., reviews, social feeds). -->
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 
-  <!-- Active js -->
+  <!-- OwlCarousel, Swiper, and Anime.js are used for sliders, carousels, and animations. -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>

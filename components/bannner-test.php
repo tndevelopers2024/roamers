@@ -16,7 +16,7 @@
     @media (max-width: 600px) {
         .home {
             padding: 100px 0px 0px 0px;
-            background: url(asstes/test/mobile-banner.png);
+            background: url(asstes/test/test.png);
             background-size: 100% 100% !important;
             background-repeat: no-repeat !important;
             background-position: top !important;

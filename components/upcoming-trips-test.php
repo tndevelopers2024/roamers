@@ -108,7 +108,7 @@
 
         .upcoming-image {
             width: 100%;
-            height: 230px;
+            height: 450px;
             border-radius: 24px;
             overflow: hidden;
         }
@@ -123,7 +123,8 @@
 
         .upcoming-content {
             background: linear-gradient(180deg, rgba(86, 195, 221, 0) 0%, #56C3DD 100%);
-            padding: 1px 1px 30px 1px;
+            padding: 1px 1px 1px 1px;
+            margin: 1px 1px 25px 1px;
             color: white;
             position: relative;
             z-index: 1;
@@ -151,7 +152,7 @@
         .upcoming-card-flex {
             display: flex;
             justify-content: space-between;
-            margin: 5px 15px;
+            margin: 5px 15px 3px 15px;
             flex-wrap: wrap;
         }
 
@@ -202,9 +203,8 @@
             text-transform: uppercase;
             color: white;
             text-align: start;
-            margin: 4px 15px 0;
+            margin: 5px 0px 0px 18px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
         }
@@ -212,8 +212,7 @@
         .upcoming-locations {
             font-size: 12px;
             color: white;
-            margin: 1px 17px;
-            overflow: hidden;
+            margin: 1px 18px;
             text-overflow: ellipsis;
             white-space: nowrap;
         }
@@ -222,7 +221,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin: 0 15px;
+            margin: 0px 35px 17px 15px;
             flex-grow: 1;
         }
 

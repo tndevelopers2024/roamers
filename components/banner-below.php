@@ -3,7 +3,6 @@
     body {
         --liquid-glass-bg: linear-gradient(135deg, #e0e7ef 0%, #f5f7fa 100%);
         --liquid-glass-blur: 38px;
-        /* Increased blur */
         --liquid-glass-radius: 26px;
         --liquid-glass-border: 1.5px solid rgba(255, 255, 255, 0.55);
         --liquid-glass-shadow: 0 6px 24px 0 rgba(31, 38, 135, 0.13), 0 2px 8px 0 rgba(255, 255, 255, 0.13);
@@ -22,7 +21,7 @@
         background-position: center center;
         min-height: 260px;
         width: 100%;
-        padding: 8px 0 8px 0 !important;
+        padding: 8px 0 30px 0 !important;
         z-index: 1;
         overflow: hidden;
         display: flex;
@@ -43,6 +42,50 @@
             min-height: 80px;
             padding: 1px 0 1px 0 !important;
             flex-direction: column;
+        }
+    }
+
+    /* iPhone specific tweaks using device-width and device-pixel-ratio */
+    @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        .categories-section-bg {
+            min-height: 60px;
+            padding: 0 !important;
+        }
+
+        .categories-row-single {
+            gap: 0.4rem;
+        }
+
+        .liquid-glass-card {
+            min-height: 28px;
+            padding: 7px;
+            gap: 0.05rem;
+            max-width: 180px;
+            width: 92vw;
+        }
+
+        .liquid-glass-title {
+            font-size: 0.54rem;
+            line-height: 1.01;
+        }
+
+        .liquid-glass-text {
+            font-size: 0.41rem;
+            line-height: 1.01;
+            padding-left: 1px !important;
+            padding-right: 1px !important;
+        }
+
+        .liquid-glass-icon {
+            width: 18px;
+            height: 18px;
+            font-size: 0.6rem;
+            margin-bottom: 0.03rem;
+        }
+
+        .liquid-glass-icon img {
+            width: 12px !important;
+            height: 12px !important;
         }
     }
 
@@ -78,14 +121,6 @@
         z-index: 2;
         width: 100%;
         text-align: center;
-        /* padding: 6px; */
-    }
-
-    @media (max-width: 600px) {
-        .categories-container {
-            /* padding: 30px 0px 0; */
-            /* margin-bottom: -150px; */
-        }
     }
 
     .categories-row-single {
@@ -150,22 +185,19 @@
     @media (max-width: 767.98px) {
         .categories-row-single {
             scrollbar-width: none;
-            /* Firefox */
             -ms-overflow-style: none;
-            /* IE and Edge */
         }
 
         .categories-row-single::-webkit-scrollbar {
             display: none;
-            /* Chrome, Safari, Opera */
         }
     }
 
     .liquid-glass-card {
         border-radius: var(--liquid-glass-radius);
-        box-shadow: var(--liquid-glass-shadow), var(--liquid-glass-inner-glow);
         border: var(--liquid-glass-border);
-        -webkit-backdrop-filter: blur(var(--liquid-glass-blur)) saturate(180%);
+        -webkit-backdrop-filter: blur(var(--liquid-glass-blur));
+        backdrop-filter: blur(var(--liquid-glass-blur));
         transition: box-shadow 0.35s cubic-bezier(.4, 0, .2, 1), transform 0.35s cubic-bezier(.4, 0, .2, 1);
         position: relative;
         overflow: hidden;
@@ -215,7 +247,6 @@
 
     .liquid-glass-card:hover {
         box-shadow: var(--liquid-glass-hover-shadow), var(--liquid-glass-inner-glow);
-        /* transform: translateY(-4px) scale(1.025); */
     }
 
     .liquid-glass-card>* {
@@ -223,7 +254,6 @@
         z-index: 2;
     }
 
-    /* Responsive styles */
     @media (max-width: 991.98px) {
         .liquid-glass-card {
             min-height: 90px;
@@ -297,9 +327,7 @@
         }
     }
 
-    .liquid-glass-card:hover .liquid-glass-icon {
-        /* box-shadow: 0 4px 14px 0 rgba(78, 192, 219, 0.18); */
-    }
+    .liquid-glass-card:hover .liquid-glass-icon {}
 
     .liquid-glass-inner {
         padding: 0;

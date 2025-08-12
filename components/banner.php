@@ -7,26 +7,23 @@
     height: 140vh;
   }
 
-
   .home {
     background: url('assets/img/banner/desktop-banner-avif.avif');
     object-fit: cover !important;
   }
 
   @media (max-width: 600px) {
+
     .home {
       padding: 100px 0px 0px 0px;
-      /* margin: 20px; */
-      background: url('assets/img/banner/mobile-banner-avif.avif');
+      background: url('assets/img/banner/mobile-banner.avif');
       background-size: 100% 100% !important;
-      /* Stretch image to fill container */
       background-repeat: no-repeat !important;
       background-position: top !important;
       background-position-y: 5px !important;
       width: 100vw;
       height: 100vw;
       /* background-position-x: 5px !important; */
-
     }
 
     .categories-container {
@@ -53,7 +50,7 @@
     .home-row {
       position: absolute;
       margin: auto;
-      bottom: 34px !important;
+      bottom: 19px !important;
       left: 8.5%;
     }
 
@@ -133,7 +130,7 @@
     }
 
     .home {
-      height: 680px !important;
+      height: 683px !important;
     }
 
     .navbar-nav {
@@ -280,40 +277,43 @@
   </script>
 
 
-  <style>
-    @media (max-width: 600px) {
-      .home-icon-content img {
-        width: 30px !important;
-        height: 30px !important;
-      }
-    }
-  </style>
   <div class="margin">
     <div class="row home-row">
       <div class="col-3">
         <div class="home-icon-content text-center" style="margin-bottom: 52px;">
-          <img src="assets/img/icon/solo.png" alt="home icon image">
+          <picture>
+            <source srcset="assets/img/icon/solo.png" media="(max-width: 800px)">
+            <img src="assets/img/icon/solo.png" alt="home icon image">
+          </picture>
           <h4>Solo friendly</h4>
         </div>
       </div>
       <div class="col-3">
         <div class="home-icon-content text-center">
-          <img src="assets/img/icon/roadshow.png" alt="home icon image">
+          <picture>
+            <source srcset="assets/img/icon/roadshow.png" media="(max-width: 800px)">
+            <img src="assets/img/icon/roadshow.png" alt="home icon image">
+          </picture>
           <h4>
             Group Trips</h4>
         </div>
       </div>
       <div class="col-3">
         <div class="home-icon-content text-center">
-          <img src="assets/img/icon/trekcamp.png" alt="home icon image">
+          <picture>
+            <source srcset="assets/img/icon/trekcamp.png" media="(max-width: 800px)">
+            <img src="assets/img/icon/trekcamp.png" alt="home icon image">
+          </picture>
           <h4>
             Treks, Camps</h4>
         </div>
       </div>
       <div class="col-3">
         <div class="home-icon-content text-center">
-          <img src="assets/img/icon/Meetups.png" alt="home icon image">
-
+          <picture>
+            <source srcset="assets/img/icon/Meetups.png" media="(max-width: 800px)">
+            <img src="assets/img/icon/Meetups.png" alt="home icon image">
+          </picture>
           <h4>
             Roamers <br class="d-block d-sm-none"> Meetups</h4>
         </div>

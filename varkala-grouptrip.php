@@ -52,7 +52,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
-
+</head>
 
 
 <body>
@@ -74,35 +74,35 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-         MAGICAL VARKALA
+        MAGICAL VARKALA
       </h2>
 
       <ul class="banner-hight-bottom p-0"
         style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
         <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
-          
+
           <span class="ms-2">
             <span>
-          </span>
+            </span>
         </li>
 
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-        
+
         </li>
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-         
+
         </li>
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-         
+
         </li>
         <li class="mobile-small-text me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-     
+
         </li>
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-         
+
         </li>
       </ul>
 
@@ -897,7 +897,7 @@
   <!-- Bootstrap js -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-  </head>
+
   <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
   <!-- Active js -->
