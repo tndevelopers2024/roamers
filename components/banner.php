@@ -205,7 +205,7 @@
     position: absolute;
     width: 86%;
     margin: auto;
-    bottom: 30px;
+    bottom: 50px;
     left: 7%;
     right: 7%;
   }

@@ -1081,7 +1081,7 @@ session_start();
 
   <section class="">
     <div class="container">
-      <form action="valley-of-flowers-booking-form1.php" method="POST" autocomplete="off">
+      <form action="pondicherry-mail-send.php" method="POST" autocomplete="off">
         <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
 
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
@@ -1845,7 +1845,7 @@ session_start();
             <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
             <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
             <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
-            <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Valley Of Flowers</p></div>
+            <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Pondicherry</p></div>
             <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
             <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
             <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>

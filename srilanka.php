@@ -53,9 +53,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
+</head>
 
 <body>
-
   <!-- Whats app  -->
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
 
@@ -1200,7 +1200,7 @@
   <!-- Bootstrap js -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-  </head>
+
   <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
   <!-- Active js -->

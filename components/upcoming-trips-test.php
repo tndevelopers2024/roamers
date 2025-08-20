@@ -5,281 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ooty Travel Package</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
-        * {
+        body, html {
             font-family: 'Manrope', sans-serif;
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
             overflow-x: hidden;
             max-width: 100%;
-            margin: 0;
-            /* Remove touch-action from html/body to allow native scrolling on mobile */
+            background: #f8fafc;
         }
-
-        .upcoming-container {
-            position: relative;
-            max-width: 1700px;
-            margin: 0 auto;
-            padding: 0 15px;
-        }
-
-        .upcoming-tabs {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-        }
-
-        @media (max-width: 600px) {
-            .upcoming-tabs {
-                gap: 6px;
-                margin-bottom: 18px;
-                flex-wrap: nowrap;
-                overflow-x: auto;
-                padding: 0 10px;
-                justify-content: flex-start;
-                scrollbar-width: none;
-                -ms-overflow-style: none;
-                -webkit-overflow-scrolling: touch;
-            }
-
-            .upcoming-tabs::-webkit-scrollbar {
-                display: none;
-            }
-        }
-
-        .upcoming-tab-btn {
-            background: #fff;
-            color: #4CB9D3;
-            border: 2px solid #4CB9D3;
-            border-radius: 20px;
-            padding: 8px 24px;
-            font-size: 16px;
-            font-weight: 700;
-            cursor: pointer;
-            transition: background 0.2s, color 0.2s;
-            margin-bottom: 8px;
-        }
-
-        @media (max-width: 600px) {
-            .upcoming-tab-btn {
-                padding: 5px 20px;
-                font-size: 12px;
-                border-radius: 14px;
-                margin-bottom: 4px;
-            }
-        }
-
-        .upcoming-tab-btn.active,
-        .upcoming-tab-btn:hover {
-            background: #4CB9D3;
-            color: #fff;
-        }
-
-        .upcoming-tab-content {
-            display: none;
-            margin-bottom: 80px;
-        }
-
-        .upcoming-tab-content.active {
-            display: block;
-        }
-
-        .upcoming-card {
-            flex: 0 0 auto;
-            width: 350px;
-            min-width: 350px;
-            max-width: 350px;
-            height: 350px;
-            position: relative;
-            border: 2px solid;
-            border-image-source: linear-gradient(193.16deg, rgba(255, 255, 255, 0) 9.46%, #32EEE7 90.51%);
-            border-radius: 30px;
-            background: transparent;
-            scroll-snap-align: start;
-            margin: 0 10px;
-        }
-
-        .upcoming-image {
-            width: 100%;
-            height: 450px;
-            border-radius: 24px;
-            overflow: hidden;
-        }
-
-        .upcoming-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 24px;
-            padding: 4px;
-        }
-
-        .upcoming-content {
-            background: linear-gradient(180deg, rgba(86, 195, 221, 0) 0%, #56C3DD 100%);
-            padding: 1px 1px 1px 1px;
-            margin: 1px 1px 25px 1px;
-            color: white;
-            position: relative;
-            z-index: 1;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            border-radius: 24px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        @media (max-width: 600px) {
-            .upcoming-content {
-                padding: 0px;
-
-            }
-        }
-
-        @media (max-width: 400px) {
-            .upcoming-content {
-                padding: 0px;
-
-            }
-        }
-
-        .upcoming-card-flex {
-            display: flex;
-            justify-content: space-between;
-            margin: 5px 15px 3px 15px;
-            flex-wrap: wrap;
-        }
-
-        .upcoming-duration {
-            display: flex;
-            align-items: center;
-            background-color: #FFFFFF;
-            color: #292929;
-            padding: 2px 6px;
-            border-radius: 30px;
-            font-size: 10px;
-            font-weight: bold;
-        }
-
-        .upcoming-duration .icon {
-            display: flex;
-            align-items: center;
-            margin-right: 5px;
-            color: #7dd3e7;
-        }
-
-        .upcoming-duration .icon img {
-            width: 12px !important;
-        }
-
-        .upcoming-from {
-            display: flex;
-            align-items: center;
-            background-color: #4CB9D3;
-            border-radius: 30px;
-            padding: 3px 7px;
-            font-size: 11px;
-            color: #FFFFFF;
-        }
-
-        .upcoming-from .icon {
-            display: flex;
-            align-items: center;
-            margin-right: 5px;
-        }
-
-        .upcoming-from .icon img {
-            width: 6px !important;
-        }
-
-        .upcoming-title {
-            font-size: 17px;
-            text-transform: uppercase;
-            color: white;
-            text-align: start;
-            margin: 5px 0px 0px 18px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
-        .upcoming-locations {
-            font-size: 12px;
-            color: white;
-            margin: 1px 18px;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
-        .upcoming-price-section {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin: 0px 35px 17px 15px;
-            flex-grow: 1;
-        }
-
-        .upcoming-dates {
-            display: flex;
-            align-items: center;
-            background-color: #fff;
-            color: #333;
-            padding: 5px 8px;
-            border-radius: 19px;
-            font-size: 8px;
-            box-shadow: 0px 2px 4px 0px #00000040, 1px -1px 6px 0px #00000047 inset;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
-        .upcoming-dates .icon {
-            display: flex;
-            align-items: center;
-            margin-right: 5px;
-        }
-
-        .upcoming-dates .icon img {
-            width: 16px !important;
-        }
-
-        .upcoming-starts {
-            font-size: 12px;
-            font-weight: 800;
-        }
-
-        .upcoming-price {
-            font-weight: bold;
-            text-align: right;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        .upcoming-view {
-            position: absolute;
-            bottom: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: #fff;
-            color: #333;
-            border-radius: 18px;
-            text-decoration: none;
-            font-weight: bold;
-            box-shadow: 5px 5px 44px 0px #3CADC9B2;
-            font-size: 15px;
-            z-index: 10;
-            transition: all 0.3s ease;
-            padding: 8px 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
         .upcoming-header {
             margin: 50px 0 60px;
             text-align: center;
@@ -288,40 +26,206 @@
             justify-content: center;
             gap: 12px;
         }
-
         .upcoming-header-icon {
             color: #4CB9D3;
             font-size: 36px;
         }
-
-        .upcoming-slider-wrapper {
-            position: relative;
+        .swiper {
             width: 100%;
-            padding: 0 40px;
-            overflow: visible;
-            contain: content;
+            padding: 30px 0;
         }
-
-        .upcoming-slider {
+        .swiper-wrapper {
+            align-items: stretch;
+        }
+        .swiper-slide {
             display: flex;
-            gap: 20px;
-            padding: 30px;
-            overflow-x: auto;
-            overflow-y: visible;
-            scroll-snap-type: x mandatory;
-            scroll-padding: 15px;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-            -webkit-overflow-scrolling: touch;
-            /* Remove touch-action here to allow native scrolling */
-            /* touch-action: pan-x; */
-            will-change: scroll-position;
+            height: auto;
         }
-
-        .upcoming-slider::-webkit-scrollbar {
-            display: none;
+        .upcoming-card {
+            border: none;
+            border-radius: 24px;
+            background: #fff;
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            min-width: 320px;
+            max-width: 350px;
+            width: 100%;
+            height: 410px;
+            position: relative;
+            box-shadow: 0 4px 24px 0 rgba(44, 183, 202, 0.10), 0 1.5px 8px 0 rgba(0,0,0,0.04);
+            transition: box-shadow 0.2s, transform 0.2s;
         }
-
+        .upcoming-card:hover {
+            box-shadow: 0 8px 32px 0 rgba(44, 183, 202, 0.18), 0 2px 12px 0 rgba(0,0,0,0.08);
+            transform: translateY(-4px) scale(1.015);
+        }
+        .upcoming-image {
+            width: 100%;
+            height: 180px;
+            border-radius: 24px 24px 0 0;
+            overflow: hidden;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px 0 rgba(44, 183, 202, 0.08);
+        }
+        .upcoming-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 24px 24px 0 0;
+            display: block;
+        }
+        .upcoming-content {
+            background: none;
+            color: #222;
+            position: relative;
+            z-index: 1;
+            border-radius: 0 0 24px 24px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 1.1rem 2.5rem 1.1rem;
+        }
+        .upcoming-card-flex {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0 0 0;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .upcoming-duration {
+            display: flex;
+            align-items: center;
+            background-color: #e6fafd;
+            color: #1a6e7e;
+            padding: 3px 10px 3px 7px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            box-shadow: 0 1px 4px 0 rgba(44, 183, 202, 0.08);
+        }
+        .upcoming-duration .icon {
+            display: flex;
+            align-items: center;
+            margin-right: 5px;
+        }
+        .upcoming-duration .icon img {
+            width: 14px !important;
+        }
+        .upcoming-from {
+            display: flex;
+            align-items: center;
+            background-color: #4CB9D3;
+            border-radius: 20px;
+            padding: 3px 10px 3px 7px;
+            font-size: 12px;
+            color: #fff;
+            font-weight: 500;
+            box-shadow: 0 1px 4px 0 rgba(44, 183, 202, 0.08);
+        }
+        .upcoming-from .icon {
+            display: flex;
+            align-items: center;
+            margin-right: 5px;
+        }
+        .upcoming-from .icon img {
+            width: 10px !important;
+        }
+        .upcoming-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #1a6e7e;
+            text-align: start;
+            margin: 10px 0 0 0;
+            font-weight: 800;
+            text-shadow: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            letter-spacing: 0.5px;
+        }
+        .upcoming-locations {
+            font-size: 13px;
+            color: #4CB9D3;
+            margin: 2px 0 0 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            font-weight: 500;
+        }
+        .upcoming-price-section {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            margin: 18px 0 0 0;
+            flex-grow: 1;
+        }
+        .upcoming-dates {
+            display: flex;
+            align-items: center;
+            background-color: #f2f8fa;
+            color: #1a6e7e;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 11px;
+            font-weight: 600;
+            box-shadow: 0 1px 4px 0 rgba(44, 183, 202, 0.08);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .upcoming-dates .icon {
+            display: flex;
+            align-items: center;
+            margin-right: 6px;
+        }
+        .upcoming-dates .icon img {
+            width: 16px !important;
+        }
+        .upcoming-starts {
+            font-size: 13px;
+            font-weight: 700;
+            color: #4CB9D3;
+            text-align: right;
+        }
+        .upcoming-price {
+            font-weight: 900;
+            text-align: right;
+            color: #1a6e7e;
+            font-size: 18px;
+            margin-top: 2px;
+        }
+        .upcoming-view {
+            position: absolute;
+            bottom: -22px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #4CB9D3;
+            color: #fff !important;
+            border-radius: 22px;
+            text-decoration: none;
+            font-weight: 700;
+            box-shadow: 0 4px 24px 0 rgba(44, 183, 202, 0.18);
+            font-size: 15px;
+            z-index: 10;
+            transition: all 0.2s;
+            padding: 10px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+        }
+        .upcoming-view:hover, .upcoming-view:focus {
+            background: #1a6e7e;
+            color: #fff !important;
+            text-decoration: none;
+            transform: translateX(-50%) scale(1.04);
+            box-shadow: 0 8px 32px 0 rgba(44, 183, 202, 0.22);
+        }
         .upcoming-slider-arrow {
             position: absolute;
             top: 50%;
@@ -330,8 +234,8 @@
             border: none;
             color: #4CB9D3;
             font-size: 1.5rem;
-            width: 48px;
-            height: 48px;
+            width: 44px;
+            height: 44px;
             border-radius: 50%;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             cursor: pointer;
@@ -339,499 +243,331 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: background 0.2s;
+            transition: background 0.2s, color 0.2s;
         }
-
         .upcoming-slider-arrow.left {
             left: 0;
         }
-
         .upcoming-slider-arrow.right {
             right: 0;
         }
-
-        .upcoming-slider-arrow:disabled {
+        .upcoming-slider-arrow.swiper-button-disabled {
             opacity: 0.4;
             cursor: not-allowed;
         }
-
-        /* Responsive Styles */
         @media (max-width: 900px) {
-            .upcoming-container {
-                padding: 0 10px;
-            }
-
             .upcoming-card {
-                width: 320px;
                 min-width: 320px;
                 max-width: 320px;
-                height: 330px;
+                height: 370px;
             }
-
             .upcoming-image {
-                height: 180px;
+                height: 140px;
             }
-
+        }
+        @media (max-width: 600px) {
+            .upcoming-card {
+                min-width: 95vw;
+                max-width: 95vw;
+                height: 350px;
+                margin: 0 5px;
+            }
+            .upcoming-image {
+                height: 120px;
+            }
+        }
+        @media (max-width: 400px) {
+            .upcoming-card {
+                min-width: 98vw;
+                max-width: 98vw;
+                height: 270px;
+                margin: 0 2px;
+            }
+            .upcoming-image {
+                height: 90px;
+            }
+            .upcoming-content {
+                padding: 0.7rem 0.5rem 2.2rem 0.5rem;
+            }
             .upcoming-title {
-                font-size: 16px;
+                font-size: 15px;
             }
-
             .upcoming-locations {
                 font-size: 11px;
             }
-
-            .upcoming-price-section {
-                flex-direction: row;
-                gap: 10px;
-            }
-
-            .upcoming-slider-wrapper {
-                padding: 0 32px;
-            }
-
-            .upcoming-view {
-                bottom: -18px;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .upcoming-container {
-                padding: 0 5px;
-            }
-
-            .upcoming-tab-content {
-                margin-bottom: 80px;
-            }
-
-            .upcoming-slider-wrapper {
-                padding: 0;
-            }
-
-            .upcoming-slider {
-                padding-left: calc((100% - (90vw - 20px)) / 2);
-                padding-right: calc((100% - (90vw - 20px)) / 2);
-                /* Enable momentum scrolling on iOS */
-                -webkit-overflow-scrolling: touch;
-            }
-
-            .upcoming-card {
-                width: calc(90vw - 20px);
-                min-width: calc(90vw - 20px);
-                max-width: calc(90vw - 20px);
-                height: 320px;
-                margin: 0;
-                scroll-snap-align: center;
-            }
-
-            .upcoming-image {
-                height: 260px;
-            }
-
-            .upcoming-title {
-                font-size: 14px;
-                margin: 1px 12px;
-            }
-
-            .upcoming-locations {
-                font-size: 10px;
-                margin: 0px 15px;
-            }
-
-            .upcoming-price-section {
-                margin: 0px 18px 10px 12px;
-                gap: 8px;
-                padding: auto;
-            }
-
             .upcoming-dates {
-                font-size: 7px;
-                padding: 4px 6px;
-                max-width: 60%;
-            }
-
-            .upcoming-starts {
-                font-size: 10px;
-            }
-
-            .upcoming-price {
-                font-size: 16px;
-            }
-
-            .upcoming-view {
-                width: 110px;
-                height: 36px;
-                font-size: 13px;
-                padding: 6px 12px;
-                bottom: -18px;
-            }
-
-            .upcoming-header {
-                font-size: 1.1rem;
-                margin: 25px 0 35px;
-            }
-
-            .upcoming-header-icon {
-                font-size: 22px;
-            }
-
-            .upcoming-slider-arrow {
-                width: 40px;
-                height: 40px;
-                font-size: 1.2rem;
-            }
-
-            .upcoming-slider-arrow.left {
-                left: 5px;
-            }
-
-            .upcoming-slider-arrow.right {
-                right: 5px;
-            }
-        }
-
-        @media (max-width: 400px) {
-            .upcoming-slider {
-                padding-left: calc((100% - (92vw - 16px)) / 2);
-                padding-right: calc((100% - (92vw - 16px)) / 2);
-            }
-
-            .upcoming-card {
-                width: calc(92vw - 16px);
-                min-width: calc(92vw - 16px);
-                max-width: calc(92vw - 16px);
-                height: 280px;
-            }
-
-            .upcoming-image {
-                height: 190px;
-            }
-
-            .upcoming-title {
-                font-size: 13px;
-                margin: 10px 12px 0px 12px;
-            }
-
-            .upcoming-locations {
                 font-size: 9px;
-                margin: 0px 12px 0px 12px;
+                padding: 4px 7px;
             }
-
-            .upcoming-dates {
-                font-size: 6px;
-                padding: 3px 5px;
-                max-width: 65%;
-            }
-
-            .upcoming-starts {
-                font-size: 9px;
-            }
-
-            .upcoming-price {
-                font-size: 14px;
-            }
-
             .upcoming-view {
-                width: 100px;
-                height: 32px;
-                font-size: 12px;
-                padding: 5px 10px;
-                bottom: -16px;
-            }
-
-            .upcoming-slider-wrapper {
-                padding: 0;
+                font-size: 13px;
+                padding: 8px 16px;
             }
         }
     </style>
 </head>
 
 <body>
-    <div class="upcoming-container">
+    <div class="container upcoming-container">
         <h2 class="upcoming-header">
             <i class="fa-solid fa-calendar-days upcoming-header-icon"></i>
             Upcoming Group Trips
         </h2>
-        <div class="upcoming-tabs" id="upcoming-tabs">
-            <button class="upcoming-tab-btn active" data-tab="august">
-                <i class="fa-solid fa-cloud-sun"></i> August
-            </button>
-            <button class="upcoming-tab-btn" data-tab="">
-                <i class="fa-solid fa-cloud-sun-rain"></i> September
-            </button>
-            <button class="upcoming-tab-btn" data-tab="">
-                <i class="fa-solid fa-cloud-showers-heavy"></i> October
-            </button>
-            <button class="upcoming-tab-btn" data-tab="">
-                <i class="fa-solid fa-cloud-bolt"></i> November
-            </button>
-            <button class="upcoming-tab-btn" data-tab="">
-                <i class="fa-solid fa-cloud-sun"></i> December
-            </button>
-            <button class="upcoming-tab-btn" data-tab="">
-                <i class="fa-solid fa-cloud-sun"></i> January
-            </button>
-        </div>
-        <div class="upcoming-tab-content active" id="tab-august">
-            <div class="upcoming-slider-wrapper">
-                <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip"><i
-                        class="fa fa-chevron-left"></i></button>
-                <div class="upcoming-slider" id="upcoming-slider-august">
-                    <div class="upcoming-card">
-                        <div class="upcoming-content">
-                            <div class="upcoming-image">
-                                <img src="assets\img\valley-of-flowers\avif\img-3.avif" alt="Pondi Dive-in">
+        <ul class="nav nav-pills justify-content-center mb-4 flex-wrap gap-2" id="upcoming-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab-august-btn" data-bs-toggle="pill" data-bs-target="#tab-august" type="button" role="tab" aria-controls="tab-august" aria-selected="true">
+                    <i class="fa-solid fa-cloud-sun"></i> August
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-september-btn" data-bs-toggle="pill" data-bs-target="#tab-september" type="button" role="tab" aria-controls="tab-september" aria-selected="false" disabled>
+                    <i class="fa-solid fa-cloud-sun-rain"></i> September
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-october-btn" data-bs-toggle="pill" data-bs-target="#tab-october" type="button" role="tab" aria-controls="tab-october" aria-selected="false" disabled>
+                    <i class="fa-solid fa-cloud-showers-heavy"></i> October
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-november-btn" data-bs-toggle="pill" data-bs-target="#tab-november" type="button" role="tab" aria-controls="tab-november" aria-selected="false" disabled>
+                    <i class="fa-solid fa-cloud-bolt"></i> November
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-december-btn" data-bs-toggle="pill" data-bs-target="#tab-december" type="button" role="tab" aria-controls="tab-december" aria-selected="false" disabled>
+                    <i class="fa-solid fa-cloud-sun"></i> December
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-january-btn" data-bs-toggle="pill" data-bs-target="#tab-january" type="button" role="tab" aria-controls="tab-january" aria-selected="false" disabled>
+                    <i class="fa-solid fa-cloud-sun"></i> January
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab-august" role="tabpanel" aria-labelledby="tab-august-btn">
+                <div class="position-relative">
+                    <button class="upcoming-slider-arrow left swiper-button-prev" aria-label="Scroll to previous trip"><i class="fa fa-chevron-left"></i></button>
+                    <div class="swiper upcoming-slider" id="upcoming-slider-august">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="upcoming-card">
+                                    <div class="upcoming-image">
+                                        <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                                    </div>
+                                    <div class="upcoming-content">
+                                        <div class="upcoming-card-flex">
+                                            <div class="upcoming-duration">
+                                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
+                                            </div>
+                                            <div class="upcoming-from">
+                                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                                <span>EX: Direct, Chennai</span>
+                                            </div>
+                                        </div>
+                                        <div class="upcoming-title">Pondi Dive-in</div>
+                                        <div class="upcoming-locations">Pondicherry</div>
+                                        <div class="upcoming-price-section">
+                                            <div class="upcoming-dates">
+                                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                                <span class="upcoming-dates-text">Aug 16, 22</span>
+                                            </div>
+                                            <div>
+                                                <div class="upcoming-starts">Starts</div>
+                                                <div class="upcoming-price">₹4,990</div>
+                                            </div>
+                                        </div>
+                                        <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="upcoming-card-flex">
-                                <div class="upcoming-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
-                                </div>
-                                <div class="upcoming-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Direct, Chennai</span>
+                            <div class="swiper-slide">
+                                <div class="upcoming-card">
+                                    <div class="upcoming-image">
+                                        <img src="assets/img/valley-of-flowers/avif/img-1.avif" alt="Valley of Flowers">
+                                    </div>
+                                    <div class="upcoming-content">
+                                        <div class="upcoming-card-flex">
+                                            <div class="upcoming-duration">
+                                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>5D/6N
+                                            </div>
+                                            <div class="upcoming-from">
+                                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                                <span>Ex: Rishikesh</span>
+                                            </div>
+                                        </div>
+                                        <div class="upcoming-title">Valley of Flowers Trek</div>
+                                        <div class="upcoming-locations">Rishikesh, Joshimath, Pulna</div>
+                                        <div class="upcoming-price-section">
+                                            <div class="upcoming-dates">
+                                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                                <span class="upcoming-dates-text">Aug 2, 15, 23, 29</span>
+                                            </div>
+                                            <div>
+                                                <div class="upcoming-starts">Starts</div>
+                                                <div class="upcoming-price">₹9,999</div>
+                                            </div>
+                                        </div>
+                                        <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
+                                    </div>
                                 </div>
                             </div>
-                            <h1 class="upcoming-title">Pondi Dive-in</h1>
-                            <p class="upcoming-locations">Pondicherry</p>
-                            <div class="upcoming-price-section">
-                                <div class="upcoming-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Aug 16, 22</span>
-                                </div>
-                                <div>
-                                    <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹4,990</div>
+                            <div class="swiper-slide">
+                                <div class="upcoming-card">
+                                    <div class="upcoming-image">
+                                        <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
+                                    </div>
+                                    <div class="upcoming-content">
+                                        <div class="upcoming-card-flex">
+                                            <div class="upcoming-duration">
+                                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
+                                            </div>
+                                            <div class="upcoming-from">
+                                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                                <span>EX: Colombo</span>
+                                            </div>
+                                        </div>
+                                        <div class="upcoming-title">Sri Lanka</div>
+                                        <div class="upcoming-locations">Sigiriya, Kandy, Ella, Galle, Bentota</div>
+                                        <div class="upcoming-price-section">
+                                            <div class="upcoming-dates">
+                                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                                <span class="upcoming-dates-text">Aug 17</span>
+                                            </div>
+                                            <div>
+                                                <div class="upcoming-starts">Starts</div>
+                                                <div class="upcoming-price">₹43,999</div>
+                                            </div>
+                                        </div>
+                                        <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
+                                    </div>
                                 </div>
                             </div>
-                            <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <div class="swiper-slide">
+                                <div class="upcoming-card">
+                                    <div class="upcoming-image">
+                                        <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
+                                    </div>
+                                    <div class="upcoming-content">
+                                        <div class="upcoming-card-flex">
+                                            <div class="upcoming-duration">
+                                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                            </div>
+                                            <div class="upcoming-from">
+                                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                                <span>EX: Chennai/Trivandrum</span>
+                                            </div>
+                                        </div>
+                                        <div class="upcoming-title">Varkala</div>
+                                        <div class="upcoming-locations">Chennai - Trivandrum</div>
+                                        <div class="upcoming-price-section">
+                                            <div class="upcoming-dates">
+                                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                                <span class="upcoming-dates-text">Aug 15, 29</span>
+                                            </div>
+                                            <div>
+                                                <div class="upcoming-starts">Starts</div>
+                                                <div class="upcoming-price">₹8,990</div>
+                                            </div>
+                                        </div>
+                                        <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="upcoming-card">
-                        <div class="upcoming-content">
-                            <div class="upcoming-image">
-                                <img src="assets\img\valley-of-flowers\avif\img-1.avif" alt="Valley of Flowers">
-                            </div>
-                            <div class="upcoming-card-flex">
-                                <div class="upcoming-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>5D/6N
-                                </div>
-                                <div class="upcoming-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>Ex: Rishikesh</span>
-                                </div>
-                            </div>
-                            <h1 class="upcoming-title">Valley of Flowers Trek</h1>
-                            <p class="upcoming-locations">Rishikesh, Joshimath, Pulna</p>
-                            <div class="upcoming-price-section">
-                                <div class="upcoming-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Aug 2, 15, 23, 29</span>
-                                </div>
-                                <div>
-                                    <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹9,999</div>
-                                </div>
-                            </div>
-                            <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
-                        </div>
-                    </div>
-                    <div class="upcoming-card">
-                        <div class="upcoming-content">
-                            <div class="upcoming-image">
-                                <img src="assets\img\valley-of-flowers\avif\img-2.avif" alt="Sri Lanka">
-                            </div>
-                            <div class="upcoming-card-flex">
-                                <div class="upcoming-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                                </div>
-                                <div class="upcoming-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Colombo</span>
-                                </div>
-                            </div>
-                            <h1 class="upcoming-title">Sri Lanka</h1>
-                            <p class="upcoming-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                            <div class="upcoming-price-section">
-                                <div class="upcoming-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Aug 17</span>
-                                </div>
-                                <div>
-                                    <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹43,999</div>
-                                </div>
-                            </div>
-                            <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
-                        </div>
-                    </div>
-                    <div class="upcoming-card">
-                        <div class="upcoming-content">
-                            <div class="upcoming-image">
-                                <img src="assets\img\valley-of-flowers\avif\img-4.avif" alt="Varkala">
-                            </div>
-                            <div class="upcoming-card-flex">
-                                <div class="upcoming-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="upcoming-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai/Trivandrum</span>
-                                </div>
-                            </div>
-                            <h1 class="upcoming-title">Varkala</h1>
-                            <p class="upcoming-locations">Chennai - Trivandrum</p>
-                            <div class="upcoming-price-section">
-                                <div class="upcoming-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Aug 15, 29</span>
-                                </div>
-                                <div>
-                                    <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹8,990</div>
-                                </div>
-                            </div>
-                            <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
-                        </div>
-                    </div>
+                    <button class="upcoming-slider-arrow right swiper-button-next" aria-label="Scroll to next trip"><i class="fa fa-chevron-right"></i></button>
                 </div>
-                <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip"><i
-                        class="fa fa-chevron-right"></i></button>
             </div>
+            <!-- Other months: Coming soon, disabled -->
+            <div class="tab-pane fade" id="tab-september" role="tabpanel" aria-labelledby="tab-september-btn"></div>
+            <div class="tab-pane fade" id="tab-october" role="tabpanel" aria-labelledby="tab-october-btn"></div>
+            <div class="tab-pane fade" id="tab-november" role="tabpanel" aria-labelledby="tab-november-btn"></div>
+            <div class="tab-pane fade" id="tab-december" role="tabpanel" aria-labelledby="tab-december-btn"></div>
+            <div class="tab-pane fade" id="tab-january" role="tabpanel" aria-labelledby="tab-january-btn"></div>
         </div>
     </div>
 
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const tabBtns = document.querySelectorAll('.upcoming-tab-btn');
-            const tabContents = document.querySelectorAll('.upcoming-tab-content');
-
-            // Tab switching (only August is active)
-            tabBtns.forEach(btn => {
-                btn.addEventListener('click', function () {
-                    const tab = btn.getAttribute('data-tab');
-                    if (!tab) {
+            // Show toast for coming soon tabs
+            document.querySelectorAll('.nav-link[disabled]').forEach(btn => {
+                btn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    if (!document.getElementById('coming-soon-toast')) {
                         const toast = document.createElement('div');
                         toast.id = 'coming-soon-toast';
                         toast.innerText = 'Coming Soon!';
-                        toast.style.position = 'fixed';
-                        toast.style.top = '80px';
-                        toast.style.left = '50%';
-                        toast.style.transform = 'translateX(-50%) scale(0.95)';
-                        toast.style.background = '#4CB9D3';
-                        toast.style.color = '#fff';
-                        toast.style.padding = '10px 12px';
-                        toast.style.borderRadius = '20px';
+                        toast.className = 'toast align-items-center text-white bg-info border-0 position-fixed top-0 start-50 translate-middle-x mt-4 shadow';
+                        toast.style.zIndex = 9999;
+                        toast.style.minWidth = '120px';
                         toast.style.fontWeight = 'bold';
                         toast.style.fontSize = '16px';
-                        toast.style.zIndex = 9999;
-                        toast.style.boxShadow = '0 2px 12px rgba(0,0,0,0.15)';
-                        toast.style.opacity = '0';
-                        toast.style.transition = 'opacity 0.35s, transform 0.35s';
+                        toast.style.borderRadius = '20px';
+                        toast.style.padding = '10px 18px';
                         document.body.appendChild(toast);
 
                         setTimeout(() => {
-                            toast.style.opacity = '1';
-                            toast.style.transform = 'translateX(-50%) scale(1)';
+                            toast.classList.add('show');
                         }, 10);
 
                         setTimeout(() => {
-                            toast.style.opacity = '0';
-                            toast.style.transform = 'translateX(-50%) scale(0.95)';
+                            toast.classList.remove('show');
                             setTimeout(() => toast.remove(), 350);
-                        }, 1000);
-                        return;
+                        }, 1200);
                     }
                 });
             });
 
-            // Slider logic
-            function setupSlider(wrapperSelector, sliderSelector, leftArrowSelector, rightArrowSelector) {
-                const wrapper = document.querySelector(wrapperSelector);
-                if (!wrapper) return;
-                const slider = wrapper.querySelector(sliderSelector);
-                const leftArrow = wrapper.querySelector(leftArrowSelector);
-                const rightArrow = wrapper.querySelector(rightArrowSelector);
-                const cards = Array.from(slider.querySelectorAll('.upcoming-card'));
-
-                function updateArrows() {
-                    if (!slider) return;
-                    leftArrow.disabled = slider.scrollLeft <= 10;
-                    rightArrow.disabled = slider.scrollLeft + slider.offsetWidth >= slider.scrollWidth - 10;
+            // Swiper initialization
+            const swiper = new Swiper('#upcoming-slider-august', {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                centeredSlides: false,
+                navigation: {
+                    nextEl: '.upcoming-slider-arrow.right',
+                    prevEl: '.upcoming-slider-arrow.left',
+                },
+                freeMode: false,
+                grabCursor: true,
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                        centeredSlides: false,
+                    },
+                    400: {
+                        slidesPerView: 1.1,
+                        spaceBetween: 10,
+                        centeredSlides: false,
+                    },
+                    600: {
+                        slidesPerView: 1.2,
+                        spaceBetween: 16,
+                        centeredSlides: false,
+                    },
+                    900: {
+                        slidesPerView: 2.2,
+                        spaceBetween: 20,
+                        centeredSlides: false,
+                    },
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                        centeredSlides: false,
+                    }
                 }
-
-                function smoothScrollTo(position) {
-                    slider.scrollTo({
-                        left: position,
-                        behavior: 'smooth'
-                    });
-                }
-
-                function getCurrentIndex() {
-                    const center = slider.scrollLeft + slider.offsetWidth / 2;
-                    let closestIndex = 0;
-                    let closestDiff = Infinity;
-                    cards.forEach((card, index) => {
-                        const cardCenter = card.offsetLeft + card.offsetWidth / 2;
-                        const diff = Math.abs(cardCenter - center);
-                        if (diff < closestDiff) {
-                            closestDiff = diff;
-                            closestIndex = index;
-                        }
-                    });
-                    return closestIndex;
-                }
-
-                function getCenteredPosition(index) {
-                    const card = cards[index];
-                    const cardLeft = card.offsetLeft;
-                    const containerWidth = slider.offsetWidth;
-                    const cardWidth = card.offsetWidth;
-                    return cardLeft - (containerWidth - cardWidth) / 2;
-                }
-
-                leftArrow.addEventListener('click', function () {
-                    const currentIndex = getCurrentIndex();
-                    const targetIndex = Math.max(0, currentIndex - 1);
-                    const scrollPosition = getCenteredPosition(targetIndex);
-                    smoothScrollTo(scrollPosition);
-                });
-
-                rightArrow.addEventListener('click', function () {
-                    const currentIndex = getCurrentIndex();
-                    const targetIndex = Math.min(cards.length - 1, currentIndex + 1);
-                    const scrollPosition = getCenteredPosition(targetIndex);
-                    smoothScrollTo(scrollPosition);
-                });
-
-                // Remove custom touch event logic to allow native scrolling
-                // This fixes mobile scroll issues
-
-                slider.addEventListener('scroll', updateArrows);
-                window.addEventListener('resize', updateArrows);
-                updateArrows();
-            }
-
-            setupSlider(
-                '.upcoming-tab-content.active .upcoming-slider-wrapper',
-                '.upcoming-slider',
-                '.upcoming-slider-arrow.left',
-                '.upcoming-slider-arrow.right'
-            );
+            });
 
             // Center first card on mobile
             function scrollToFirstCard() {
-                const slider = document.querySelector('.upcoming-slider');
-                if (slider && window.innerWidth <= 600) {
-                    const cards = Array.from(slider.querySelectorAll('.upcoming-card'));
-                    if (cards.length > 0) {
-                        const cardLeft = cards[0].offsetLeft;
-                        const containerWidth = slider.offsetWidth;
-                        const cardWidth = cards[0].offsetWidth;
-                        const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
-                        slider.scrollTo({
-                            left: scrollPosition,
-                            behavior: 'smooth'
-                        });
-                    }
+                if (window.innerWidth <= 600 && swiper && swiper.slideTo) {
+                    swiper.slideTo(0, 0);
                 }
             }
 

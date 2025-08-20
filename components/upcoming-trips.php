@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ooty Travel Package</title>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         * {
             font-family: 'Manrope', sans-serif;
+            box-sizing: border-box;
         }
 
         html,
         body {
             overflow-x: hidden;
             max-width: 100%;
+            margin: 0;
         }
 
         .upcoming-container {
             position: relative;
             max-width: 1700px;
             margin: 0 auto;
-            overflow: hidden;
+            padding: 0 15px;
         }
 
         .upcoming-tabs {
@@ -31,19 +34,22 @@
             margin-bottom: 40px;
             flex-wrap: wrap;
         }
+
         @media (max-width: 600px) {
             .upcoming-tabs {
                 gap: 6px;
                 margin-bottom: 18px;
                 flex-wrap: nowrap;
                 overflow-x: auto;
-                padding: 0px;
+                padding: 0 10px;
                 justify-content: flex-start;
-                scrollbar-width: none; /* Firefox */
-                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+                -webkit-overflow-scrolling: touch;
             }
+
             .upcoming-tabs::-webkit-scrollbar {
-                display: none; /* Chrome, Safari, Opera */
+                display: none;
             }
         }
 
@@ -62,7 +68,7 @@
 
         @media (max-width: 600px) {
             .upcoming-tab-btn {
-                padding: 5px 40px;
+                padding: 5px 20px;
                 font-size: 12px;
                 border-radius: 14px;
                 margin-bottom: 4px;
@@ -77,69 +83,95 @@
 
         .upcoming-tab-content {
             display: none;
-            flex-wrap: wrap;
-            gap: 40px;
-            justify-content: center;
-            margin-bottom: 143px;
+            margin-bottom: 80px;
         }
 
         .upcoming-tab-content.active {
-            display: flex;
+            display: block;
         }
 
         .upcoming-card {
             flex: 0 0 auto;
             width: 350px;
-            height: 300px;
-            overflow: visible;
+            min-width: 350px;
+            max-width: 350px;
+            height: 350px;
             position: relative;
             border: 2px solid;
             border-image-source: linear-gradient(193.16deg, rgba(255, 255, 255, 0) 9.46%, #32EEE7 90.51%);
             border-radius: 30px;
-            background: #fff0;
+            background: transparent;
+            scroll-snap-align: start;
+            margin: 0 10px;
         }
 
         .upcoming-image {
             width: 100%;
-            height: 230px;
-            overflow: visible;
-            position: relative;
+            height: 450px;
             border-radius: 24px;
+            overflow: hidden;
         }
 
         .upcoming-image img {
             width: 100%;
-            height: 95%;
+            height: 100%;
             object-fit: cover;
-            padding: 3px;
             border-radius: 24px;
+            padding: 2px;
+        }
+
+        @media (max-width: 600px) {
+            .upcoming-image {
+                height: 500px !important;
+                max-height: 70vw;
+            }
+        }
+        @media (max-width: 400px) {
+            .upcoming-image {
+                height: 320px !important;
+                max-height: 80vw;
+            }
         }
 
         .upcoming-content {
             background: linear-gradient(180deg, rgba(86, 195, 221, 0) 0%, #56C3DD 100%);
-            padding: 1px 1px 8px 1px;
-            color: rgb(255, 255, 255);
+            padding: 1px 1px 1px 1px;
+            margin: 1px 1px 25px 1px;
+            color: white;
             position: relative;
             z-index: 1;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            overflow: visible;
             border-radius: 24px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 600px) {
+            .upcoming-content {
+                padding: 0px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .upcoming-content {
+                padding: 0px;
+            }
         }
 
         .upcoming-card-flex {
             display: flex;
             justify-content: space-between;
-            margin: 0px 15px 0px 15px;
+            margin: 5px 15px 3px 10px;
             flex-wrap: wrap;
         }
 
         .upcoming-duration {
             display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #FFFFFF;
             color: #292929;
-            padding: 2px 6px 2px 5px;
+            padding: 2px 6px;
             border-radius: 30px;
             font-size: 10px;
             font-weight: bold;
@@ -148,7 +180,6 @@
         .upcoming-duration .icon {
             display: flex;
             align-items: center;
-            font-weight: 800;
             margin-right: 5px;
             color: #7dd3e7;
         }
@@ -160,10 +191,11 @@
         .upcoming-from {
             display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #4CB9D3;
             border-radius: 30px;
             padding: 3px 7px;
+            font-size: 11px;
+            color: #FFFFFF;
         }
 
         .upcoming-from .icon {
@@ -176,46 +208,45 @@
             width: 6px !important;
         }
 
-        .upcoming-from span {
-            color: #FFFFFF;
-            font-size: 11px;
-        }
-
         .upcoming-title {
             font-size: 17px;
             text-transform: uppercase;
             color: white;
             text-align: start;
-            margin: 18px 15px 0px 18px;
+            margin: 5px 0px 0px 12px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         .upcoming-locations {
             font-size: 12px;
             color: white;
-            margin-bottom: 20px;
-            margin: 0px 15px 0px 18px;
+            margin: 1px 12px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         .upcoming-price-section {
             display: flex;
             align-items: center;
-            margin-bottom: 100px;
-            gap: 171px;
-            margin: 0px 5px 1px 17px;
+            justify-content: space-between;
+            margin: 0px 35px 17px 12px;
+            flex-grow: 1;
         }
 
         .upcoming-dates {
             display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #fff;
             color: #333;
             padding: 5px 8px;
             border-radius: 19px;
             font-size: 8px;
-            box-shadow: 0px 2px 4px 0px #00000040;
-            box-shadow: 1px -1px 6px 0px #00000047 inset;
+            box-shadow: 0px 2px 4px 0px #00000040, 1px -1px 6px 0px #00000047 inset;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         .upcoming-dates .icon {
@@ -228,26 +259,20 @@
             width: 16px !important;
         }
 
-        .upcoming-dates span[style*="font-weight: 800;"] {
-            font-weight: 800;
-        }
-
         .upcoming-starts {
             font-size: 12px;
-            text-align: start;
             font-weight: 800;
         }
 
         .upcoming-price {
             font-weight: bold;
             text-align: right;
-            margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
         .upcoming-view {
             position: absolute;
-            bottom: -25px;
+            bottom: -20px;
             left: 50%;
             transform: translateX(-50%);
             background-color: #fff;
@@ -265,349 +290,254 @@
             justify-content: center;
         }
 
-        .upcoming-h2 {
-            margin: 50px 0px 60px 0px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-        }
-
-        .upcoming-h2 .fa-calendar-days {
-            color: #4CB9D3;
-            font-size: 36px;
-            vertical-align: middle;
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 1200px) {
-            .upcoming-card {
-                width: 450px;
-            }
-
-            .upcoming-image {
-                height: 280px;
-            }
-
-            .upcoming-price-section {
-                gap: 40px;
-            }
-
-            .upcoming-view {
-                width: 180px;
-                height: 60px;
-                font-size: 18px;
-                padding: 8px 20px;
-            }
-        }
-
-        @media (max-width: 900px) {
-            .upcoming-container {
-                padding: 30px 10px;
-            }
-
-            .upcoming-tab-content {
-                gap: 20px;
-            }
-
-            .upcoming-card {
-                width: 320px;
-            }
-
-            .upcoming-image {
-                height: 180px;
-            }
-
-            .upcoming-title {
-                font-size: 18px;
-            }
-
-            .upcoming-locations {
-                font-size: 13px;
-            }
-
-            .upcoming-price-section {
-                gap: 15px;
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .upcoming-view {
-                width: 140px;
-                height: 48px;
-                font-size: 15px;
-                padding: 6px 10px;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .upcoming-container {
-                padding: 10px 0px;
-                max-width: 100vw;
-                overflow: hidden;
-            }
-
-            .upcoming-tab-content {
-                gap: 15px;
-                flex-direction: column;
-                align-items: center;
-                margin-bottom: 40px;
-            }
-
-            .upcoming-card {
-                width: 280px;
-                min-width: 280px;
-                max-width: 280px;
-                margin: 0 5px 20px 0;
-                height: 320px;
-                min-height: 320px;
-            }
-
-            .upcoming-image {
-                height: 180px;
-            }
-
-            .upcoming-title {
-                font-size: 16px;
-                margin: 8px 15px 0px 15px;
-                line-height: 1.3;
-            }
-
-            .upcoming-locations {
-                font-size: 11px;
-                margin: 0px 15px 5px 17px;
-                line-height: 1.4;
-            }
-
-            .upcoming-price-section {
-                gap: 15px;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .upcoming-dates {
-                font-size: 8px;
-                padding: 5px 8px;
-                line-height: 1.3;
-                max-width: 60%;
-                word-wrap: break-word;
-            }
-
-            .upcoming-starts {
-                font-size: 11px;
-            }
-
-            .upcoming-price {
-                font-size: 18px;
-            }
-
-            .upcoming-view {
-                width: 120px;
-                height: 40px;
-                font-size: 14px;
-                padding: 8px 16px;
-                left: 50%;
-                right: auto;
-                transform: translateX(-50%);
-                border-radius: 18px;
-                bottom: -20px;
-            }
-
-            .upcoming-h2 {
-                font-size: 1.1rem !important;
-                margin: 25px 0px 35px 0px;
-                padding: 0 15px;
-            }
-
-            .upcoming-duration,
-            .upcoming-from {
-                font-size: 10px;
-                padding: 3px 6px;
-            }
-        }
-
-        @media (max-width: 400px) {
-            .upcoming-container {
-                padding: 8px 0px;
-            }
-
-            .upcoming-tab-content {
-                margin-bottom: 30px;
-            }
-
-            .upcoming-card {
-                width: 260px;
-                max-width: 369px;
-                min-width: 260px;
-                margin: 0 5px 15px 0;
-                height: 300px;
-                min-height: 300px;
-            }
-
-            .upcoming-image {
-                height: 160px;
-            }
-
-            .upcoming-title {
-                font-size: 14px;
-                line-height: 1.2;
-            }
-
-            .upcoming-locations {
-                font-size: 10px;
-                margin: 0px 12px 4px 15px;
-                line-height: 1.3;
-            }
-
-            .upcoming-price-section {
-                gap: 10px;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .upcoming-dates {
-                font-size: 7px;
-                padding: 4px 6px;
-                line-height: 1.2;
-                max-width: 65%;
-            }
-
-            .upcoming-starts {
-                font-size: 10px;
-            }
-
-            .upcoming-price {
-                font-size: 16px;
-            }
-
-            .upcoming-view {
-                width: 100px;
-                height: 36px;
-                font-size: 12px;
-                padding: 6px 12px;
-            }
-
-            .upcoming-h2 {
-                font-size: 1rem !important;
-                margin: 20px 0px 30px 0px;
-                padding: 0 12px;
-            }
-
-            .upcoming-duration,
-            .upcoming-from {
-                font-size: 9px;
-                padding: 2px 5px;
-            }
-        }
-
-        @media (max-width: 320px) {
-            .upcoming-container {
-                padding: 5px 0px;
-            }
-
-            .upcoming-card {
-                width: 240px;
-                max-width: 240px;
-                min-width: 240px;
-                margin: 0 3px 12px 0;
-                height: 280px;
-                min-height: 280px;
-            }
-
-            .upcoming-image {
-                height: 140px;
-            }
-
-            .upcoming-title {
-                font-size: 12px;
-                margin: 5px 10px 0px 10px;
-                line-height: 1.2;
-            }
-
-            .upcoming-locations {
-                font-size: 9px;
-                margin: 0px 10px 3px 12px;
-                line-height: 1.3;
-            }
-
-            .upcoming-price-section {
-                gap: 10px;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                padding: 0 10px;
-            }
-
-            .upcoming-dates {
-                font-size: 6px;
-                padding: 3px 5px;
-                line-height: 1.2;
-                max-width: 70%;
-            }
-
-            .upcoming-starts {
-                font-size: 9px;
-            }
-
-            .upcoming-price {
-                font-size: 14px;
-            }
-
-            .upcoming-view {
-                width: 90px;
-                height: 32px;
-                font-size: 11px;
-                padding: 5px 10px;
-            }
-
-            .upcoming-h2 {
-                font-size: 0.9rem !important;
-                margin: 15px 0px 25px 0px;
-                padding: 0 10px;
-            }
-
-            .upcoming-duration,
-            .upcoming-from {
-                font-size: 8px;
-                padding: 2px 4px;
-            }
-        }
-
-        /* Additional responsive classes for dates and other elements */
         .upcoming-header {
-            margin: 50px 0px 60px 0px;
+            margin: 50px 0 60px;
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 12px;
-        }
-        @media (max-width: 600px) {
-            .upcoming-header {
-                margin: 28px 0px 32px 0px;
-                font-size: 1.1rem;
-                gap: 7px;
-            }
-            .upcoming-header-icon {
-                font-size: 22px !important;
-            }
         }
 
         .upcoming-header-icon {
             color: #4CB9D3;
             font-size: 36px;
-            vertical-align: middle;
+        }
+
+        .upcoming-slider-wrapper {
+            position: relative;
+            width: 100%;
+            padding: 0 40px;
+            overflow: visible;
+            contain: content;
+        }
+
+        .upcoming-slider {
+            display: flex;
+            gap: 20px;
+            padding: 0px 0px 30px 0px;
+            overflow-x: auto;
+            overflow-y: visible;
+            scroll-snap-type: x mandatory;
+            scroll-padding: 15px;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            -webkit-overflow-scrolling: touch;
+            will-change: scroll-position;
+        }
+
+        .upcoming-slider::-webkit-scrollbar {
+            display: none;
+        }
+
+        .upcoming-slider-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #fff;
+            border: none;
+            color: #4CB9D3;
+            font-size: 1.5rem;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            cursor: pointer;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+
+        .upcoming-slider-arrow.left {
+            left: 0;
+        }
+
+        .upcoming-slider-arrow.right {
+            right: 0;
+        }
+
+        .upcoming-slider-arrow:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        @media (max-width: 900px) {
+            .upcoming-container {
+                padding: 0 10px;
+            }
+
+            .upcoming-card {
+                width: 320px;
+                min-width: 320px;
+                max-width: 320px;
+                height: 330px;
+            }
+
+            .upcoming-image {
+                height: 180px;
+            }
+
+            .upcoming-title {
+                font-size: 16px;
+            }
+
+            .upcoming-locations {
+                font-size: 11px;
+            }
+
+            .upcoming-price-section {
+                flex-direction: row;
+                gap: 10px;
+            }
+
+            .upcoming-slider-wrapper {
+                padding: 0 32px;
+            }
+
+            .upcoming-view {
+                bottom: -18px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .upcoming-container {
+                padding: 0 5px;
+            }
+
+            .upcoming-tab-content {
+                margin-bottom: 80px;
+            }
+
+            .upcoming-slider-wrapper {
+                padding: 0;
+            }
+
+            .upcoming-slider {
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .upcoming-card {
+                width: 350px;
+                min-width: 350px;
+                max-width: 350px;
+                height: 325px !important;
+                margin: 0;
+                scroll-snap-align: center;
+            }
+
+            .upcoming-title {
+                font-size: 14px;
+            }
+
+            .upcoming-locations {
+                font-size: 10px;
+            }
+
+            .upcoming-price-section {
+                margin: 0px 18px 10px 12px;
+                gap: 8px;
+                padding: auto;
+            }
+
+            .upcoming-dates {
+                font-size: 7px;
+                padding: 4px 6px;
+                max-width: 60%;
+            }
+
+            .upcoming-starts {
+                font-size: 10px;
+            }
+
+            .upcoming-price {
+                font-size: 16px;
+            }
+
+            .upcoming-view {
+                width: 110px;
+                height: 36px;
+                font-size: 13px;
+                padding: 6px 12px;
+                bottom: -18px;
+            }
+
+            .upcoming-header {
+                font-size: 1.1rem;
+                margin: 25px 0 35px;
+            }
+
+            .upcoming-header-icon {
+                font-size: 22px;
+            }
+
+            .upcoming-slider-arrow {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+
+            .upcoming-slider-arrow.left {
+                left: 5px;
+            }
+
+            .upcoming-slider-arrow.right {
+                right: 5px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .upcoming-slider {
+            }
+
+            .upcoming-card {
+                width: calc(92vw - 16px);
+                min-width: calc(92vw - 16px);
+                max-width: calc(92vw - 16px);
+                height: 280px;
+            }
+
+            .upcoming-title {
+                font-size: 13px;
+                margin: 10px 12px 0px 12px;
+            }
+
+            .upcoming-locations {
+                font-size: 9px;
+                margin: 0px 12px 0px 12px;
+            }
+
+            .upcoming-dates {
+                font-size: 6px;
+                padding: 3px 5px;
+                max-width: 65%;
+            }
+
+            .upcoming-starts {
+                font-size: 9px;
+            }
+
+            .upcoming-price {
+                font-size: 14px;
+            }
+
+            .upcoming-view {
+                width: 100px;
+                height: 32px;
+                font-size: 12px;
+                padding: 5px 10px;
+                bottom: -16px;
+            }
+
+            .upcoming-slider-wrapper {
+                padding: 0;
+            }
         }
     </style>
-    <!-- Font Awesome for calendar icon (CDN) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
-
     <div class="upcoming-container">
         <h2 class="upcoming-header">
             <i class="fa-solid fa-calendar-days upcoming-header-icon"></i>
@@ -617,707 +547,307 @@
             <button class="upcoming-tab-btn active" data-tab="august">
                 <i class="fa-solid fa-cloud-sun"></i> August
             </button>
-            <!-- if you wana show just put september on data-tab -->
-            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+            <button class="upcoming-tab-btn" data-tab="">
                 <i class="fa-solid fa-cloud-sun-rain"></i> September
             </button>
-            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+            <button class="upcoming-tab-btn" data-tab="">
                 <i class="fa-solid fa-cloud-showers-heavy"></i> October
             </button>
-            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+            <button class="upcoming-tab-btn" data-tab="">
                 <i class="fa-solid fa-cloud-bolt"></i> November
             </button>
-            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
+            <button class="upcoming-tab-btn" data-tab="">
                 <i class="fa-solid fa-cloud-sun"></i> December
             </button>
-            <button class="upcoming-tab-btn" data-tab="" onclick="showComingSoon(event)">
-                <i class="fa-solid fa-temperature-low"></i> January
+            <button class="upcoming-tab-btn" data-tab="">
+                <i class="fa-solid fa-cloud-sun"></i> January
             </button>
-            <script>
-                function showComingSoon(e) {
-                    e.preventDefault();
-                    // Remove any existing toast
-                    let oldToast = document.getElementById('coming-soon-toast');
-                    if (oldToast) oldToast.remove();
-                    // Create toast
-                    const toast = document.createElement('div');
-                    toast.id = 'coming-soon-toast';
-                    toast.innerText = 'Coming Soon!';
-                    toast.style.position = 'fixed';
-                    toast.style.top = '80px';
-                    toast.style.left = '50%';
-                    toast.style.transform = 'translateX(-50%) scale(0.95)';
-                    toast.style.background = '#4CB9D3';
-                    toast.style.color = '#fff';
-                    toast.style.padding = '10px 12px';
-                    toast.style.borderRadius = '20px';
-                    toast.style.fontWeight = 'bold';
-                    toast.style.fontSize = '16px';
-                    toast.style.zIndex = 9999;
-                    toast.style.boxShadow = '0 2px 12px rgba(0,0,0,0.15)';
-                    toast.style.opacity = '0';
-                    toast.style.transition = 'opacity 0.35s cubic-bezier(.4,0,.2,1), transform 0.35s cubic-bezier(.4,0,.2,1)';
-                    document.body.appendChild(toast);
-
-                    // Animate in
-                    setTimeout(() => {
-                        toast.style.opacity = '1';
-                        toast.style.transform = 'translateX(-50%) scale(1)';
-                    }, 10);
-
-                    // Animate out and remove
-                    setTimeout(() => {
-                        toast.style.opacity = '0';
-                        toast.style.transform = 'translateX(-50%) scale(0.95)';
-                        setTimeout(() => {
-                            toast.remove();
-                        }, 350);
-                    }, 1000);
-                }
-            </script>
         </div>
-        <!-- August Tab -->
         <div class="upcoming-tab-content active" id="tab-august">
-
-            <!-- Valley of Flowers -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
-                            alt="Valley of Flowers">
+            <div class="upcoming-slider-wrapper">
+                <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button"><i
+                        class="fa fa-chevron-left"></i></button>
+                <div class="upcoming-slider" id="upcoming-slider-august">
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Direct, Chennai</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Pondi Dive-in</h1>
+                            <p class="upcoming-locations">Pondicherry</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Aug 16, 22</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹4,990</div>
+                                </div>
+                            </div>
+                            <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
                     </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Rishikesh</span>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/valley-of-flowers/avif/img-1.avif" alt="Valley of Flowers">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>5D/6N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>Ex: Rishikesh</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Valley of Flowers Trek</h1>
+                            <p class="upcoming-locations">Rishikesh, Joshimath, Pulna</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Aug 2, 15, 23, 29</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹9,999</div>
+                                </div>
+                            </div>
+                            <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
                         </div>
                     </div>
-                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
-                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
-                    </p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹9,999</div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Colombo</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Sri Lanka</h1>
+                            <p class="upcoming-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Aug 17</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹43,999</div>
+                                </div>
+                            </div>
+                            <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
                         </div>
                     </div>
-                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Chennai/Trivandrum</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Varkala</h1>
+                            <p class="upcoming-locations">Chennai - Trivandrum</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Aug 15, 29</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹8,990</div>
+                                </div>
+                            </div>
+                            <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- Sri Lanka -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>EX: Colombo
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Sri Lanka</h1>
-                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 17</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹43,999</div>
-                        </div>
-                    </div>
-                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Pondi Dive-in -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span> EX: Direct, Chennai
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Pondi Dive-in
-                    </h1>
-                    <p class="upcoming-locations"> Pondicherry</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 16,22</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹4,990</div>
-                        </div>
-                    </div>
-                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!--varkala -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>3D/ 2N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span> EX: Chennai / Trivandrum
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title"> VARKALA </h1>
-                    <p class="upcoming-locations"> Chennai - Trivandrum</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 15,29</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price ">8,990/-</div>
-                        </div>
-                    </div>
-                    <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-
-        </div>
-        <!-- September Tab -->
-        <div class="upcoming-tab-content" id="tab-september">
-            <!-- Sri Lanka -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>EX: Colombo
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Sri Lanka</h1>
-                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 17</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹43,999</div>
-                        </div>
-                    </div>
-                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Pondi Dive-in -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span> EX: Direct, Chennai
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Pondi Dive-in
-                    </h1>
-                    <p class="upcoming-locations"> Pondicherry</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 16,22</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹4,990</div>
-                        </div>
-                    </div>
-                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Valley of Flowers -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Rishikesh</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
-                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
-                    </p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹9,999</div>
-                        </div>
-                    </div>
-                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-
-        </div>
-        <!-- October Tab -->
-        <div class="upcoming-tab-content" id="tab-october">
-            <!-- Valley of Flowers -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Rishikesh</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
-                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
-                    </p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹9,999</div>
-                        </div>
-                    </div>
-                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Sri Lanka -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>EX: Colombo
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Sri Lanka</h1>
-                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 17</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹43,999</div>
-                        </div>
-                    </div>
-                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Pondi Dive-in -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span> EX: Direct, Chennai
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Pondi Dive-in
-                    </h1>
-                    <p class="upcoming-locations"> Pondicherry</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 16,22</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹4,990</div>
-                        </div>
-                    </div>
-                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-        </div>
-        <!-- November Tab -->
-        <div class="upcoming-tab-content" id="tab-november">
-            <!-- Valley of Flowers -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Rishikesh</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
-                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
-                    </p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹9,999</div>
-                        </div>
-                    </div>
-                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Sri Lanka -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>EX: Colombo
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Sri Lanka</h1>
-                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 17</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹43,999</div>
-                        </div>
-                    </div>
-                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Pondi Dive-in -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span> EX: Direct, Chennai
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Pondi Dive-in
-                    </h1>
-                    <p class="upcoming-locations"> Pondicherry</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 16,22</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹4,990</div>
-                        </div>
-                    </div>
-                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-        </div>
-        <!-- December Tab -->
-        <div class="upcoming-tab-content " id="tab-december">
-            <!-- Valley of Flowers -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/valley-of-flowers/vally-of-flowers-image%20(1).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Rishikesh</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">VALLEY OF FLOWERS TREK</h1>
-                    <p class="upcoming-locations"> Rishikesh, Joshimath, Pulna
-                    </p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 2,15,23,29</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹9,999</div>
-                        </div>
-                    </div>
-                    <a href="valley-of-flowers.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Sri Lanka -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(44).webp"
-                            alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 7D/6N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>EX: Colombo
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Sri Lanka</h1>
-                    <p class="upcoming-locations"> Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 17</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹43,999</div>
-                        </div>
-                    </div>
-                    <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Pondi Dive-in -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="https://roamers.in/assets/img/short-trip/Lead-Auroville.webp" alt="Valley of Flowers">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span>2D/ 1N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span> EX: Direct, Chennai
-                            </span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">Pondi Dive-in
-                    </h1>
-                    <p class="upcoming-locations"> Pondicherry</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Aug 16,22</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹4,990</div>
-                        </div>
-                    </div>
-                    <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-        </div>
-        <!-- January Tab -->
-        <div class="upcoming-tab-content" id="tab-january">
-            <!-- Ooty -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="assets/img/Ooty/1-min.jpg" alt="Ooty Hills">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 3D/2N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Chennai</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">OOTY THE QUEEN OF HILLS</h1>
-                    <p class="upcoming-locations">Nilgiris, Coonoor, Coimbatore</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Jan 5, 12, 19</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹17,499</div>
-                        </div>
-                    </div>
-                    <a href="ooty.php" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Kerala -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="assets/img/Kerala/7221844019.jpg" alt="Kerala Backwaters">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 4D/3N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Chennai</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">KERALA GOD'S OWN COUNTRY</h1>
-                    <p class="upcoming-locations">Munnar, Thekkady, Alleppey</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Jan 5, 12, 19</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹12,999</div>
-                        </div>
-                    </div>
-                    <a href="kerala.php" class="upcoming-view">View Trip</a>
-                </div>
-            </div>
-            <!-- Andaman -->
-            <div class="upcoming-card">
-                <div class="upcoming-content">
-                    <div class="upcoming-image">
-                        <img src="assets/img/andaman/Media/43111.jpg" alt="Andaman Islands">
-                    </div>
-                    <div class="upcoming-card-flex">
-                        <div class="upcoming-duration">
-                            <span class="icon"><img src="asstes\test\Duration.svg" alt=""></span> 5D/4N
-                        </div>
-                        <div class="upcoming-from">
-                            <span class="icon"><img src="asstes\test\Vector.svg" alt=""></span>
-                            <span>Ex : Chennai</span>
-                        </div>
-                    </div>
-                    <h1 class="upcoming-title">ANDAMAN ISLAND ADVENTURE</h1>
-                    <p class="upcoming-locations">Port Blair, Havelock, Neil Island</p>
-                    <div class="upcoming-price-section">
-                        <div class="upcoming-dates">
-                            <span class="icon"><img src="asstes\test\calander.png" alt=""></span>
-                            <span class="upcoming-dates-text">Jan 5, 12, 19</span>
-                        </div>
-                        <div>
-                            <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price">₹18,999</div>
-                        </div>
-                    </div>
-                    <a href="andaman.php" class="upcoming-view">View Trip</a>
-                </div>
+                <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip" type="button"><i
+                        class="fa fa-chevron-right"></i></button>
             </div>
         </div>
     </div>
 
     <script>
-        // Tab switching logic
         document.addEventListener('DOMContentLoaded', function () {
             const tabBtns = document.querySelectorAll('.upcoming-tab-btn');
             const tabContents = document.querySelectorAll('.upcoming-tab-content');
 
+            // Tab switching (only August is active)
             tabBtns.forEach(btn => {
                 btn.addEventListener('click', function () {
-                    // Remove active from all
-                    tabBtns.forEach(b => b.classList.remove('active'));
-                    tabContents.forEach(tc => tc.classList.remove('active'));
-                    // Add active to clicked
-                    btn.classList.add('active');
                     const tab = btn.getAttribute('data-tab');
+                    if (!tab) {
+                        // Prevent multiple toasts
+                        if (document.getElementById('coming-soon-toast')) return;
+                        const toast = document.createElement('div');
+                        toast.id = 'coming-soon-toast';
+                        toast.innerText = 'Coming Soon!';
+                        toast.style.position = 'fixed';
+                        toast.style.top = '80px';
+                        toast.style.left = '50%';
+                        toast.style.transform = 'translateX(-50%) scale(0.95)';
+                        toast.style.background = '#4CB9D3';
+                        toast.style.color = '#fff';
+                        toast.style.padding = '10px 12px';
+                        toast.style.borderRadius = '20px';
+                        toast.style.fontWeight = 'bold';
+                        toast.style.fontSize = '16px';
+                        toast.style.zIndex = 9999;
+                        toast.style.boxShadow = '0 2px 12px rgba(0,0,0,0.15)';
+                        toast.style.opacity = '0';
+                        toast.style.transition = 'opacity 0.35s, transform 0.35s';
+                        document.body.appendChild(toast);
+
+                        setTimeout(() => {
+                            toast.style.opacity = '1';
+                            toast.style.transform = 'translateX(-50%) scale(1)';
+                        }, 10);
+
+                        setTimeout(() => {
+                            toast.style.opacity = '0';
+                            toast.style.transform = 'translateX(-50%) scale(0.95)';
+                            setTimeout(() => {
+                                if (toast.parentNode) toast.parentNode.removeChild(toast);
+                            }, 350);
+                        }, 1000);
+                        return;
+                    }
+
+                    // Tab switching logic (if more tabs are enabled in future)
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    tabContents.forEach(tc => tc.classList.remove('active'));
                     const content = document.getElementById('tab-' + tab);
                     if (content) content.classList.add('active');
                 });
             });
+
+            // Slider logic
+            function setupSlider(wrapperSelector, sliderSelector, leftArrowSelector, rightArrowSelector) {
+                const wrapper = document.querySelector(wrapperSelector);
+                if (!wrapper) return;
+                const slider = wrapper.querySelector(sliderSelector);
+                const leftArrow = wrapper.querySelector(leftArrowSelector);
+                const rightArrow = wrapper.querySelector(rightArrowSelector);
+                if (!slider || !leftArrow || !rightArrow) return;
+                const cards = Array.from(slider.querySelectorAll('.upcoming-card'));
+
+                function updateArrows() {
+                    if (!slider) return;
+                    // Use Math.abs to avoid floating point issues
+                    leftArrow.disabled = slider.scrollLeft <= 10;
+                    rightArrow.disabled = slider.scrollLeft + slider.offsetWidth >= slider.scrollWidth - 10;
+                }
+
+                function smoothScrollTo(position) {
+                    slider.scrollTo({
+                        left: position,
+                        behavior: 'smooth'
+                    });
+                }
+
+                function getCurrentIndex() {
+                    const center = slider.scrollLeft + slider.offsetWidth / 2;
+                    let closestIndex = 0;
+                    let closestDiff = Infinity;
+                    cards.forEach((card, index) => {
+                        const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+                        const diff = Math.abs(cardCenter - center);
+                        if (diff < closestDiff) {
+                            closestDiff = diff;
+                            closestIndex = index;
+                        }
+                    });
+                    return closestIndex;
+                }
+
+                function getCenteredPosition(index) {
+                    const card = cards[index];
+                    const cardLeft = card.offsetLeft;
+                    const containerWidth = slider.offsetWidth;
+                    const cardWidth = card.offsetWidth;
+                    return cardLeft - (containerWidth - cardWidth) / 2;
+                }
+
+                leftArrow.addEventListener('click', function () {
+                    const currentIndex = getCurrentIndex();
+                    const targetIndex = Math.max(0, currentIndex - 1);
+                    const scrollPosition = getCenteredPosition(targetIndex);
+                    smoothScrollTo(scrollPosition);
+                });
+
+                rightArrow.addEventListener('click', function () {
+                    const currentIndex = getCurrentIndex();
+                    const targetIndex = Math.min(cards.length - 1, currentIndex + 1);
+                    const scrollPosition = getCenteredPosition(targetIndex);
+                    smoothScrollTo(scrollPosition);
+                });
+
+                slider.addEventListener('scroll', updateArrows);
+                window.addEventListener('resize', updateArrows);
+                updateArrows();
+            }
+
+            setupSlider(
+                '.upcoming-tab-content.active .upcoming-slider-wrapper',
+                '.upcoming-slider',
+                '.upcoming-slider-arrow.left',
+                '.upcoming-slider-arrow.right'
+            );
+
+            // Center first card on mobile
+            function scrollToFirstCard() {
+                const slider = document.querySelector('.upcoming-slider');
+                if (slider && window.innerWidth <= 600) {
+                    const cards = Array.from(slider.querySelectorAll('.upcoming-card'));
+                    if (cards.length > 0) {
+                        const cardLeft = cards[0].offsetLeft;
+                        const containerWidth = slider.offsetWidth;
+                        const cardWidth = cards[0].offsetWidth;
+                        const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
+                        slider.scrollTo({
+                            left: scrollPosition,
+                            behavior: 'auto'
+                        });
+                    }
+                }
+            }
+
+            // Debounce resize handler
+            let resizeTimeout;
+            function debounceResize() {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    scrollToFirstCard();
+                }, 100);
+            }
+
+            scrollToFirstCard();
+            window.addEventListener('resize', debounceResize);
         });
     </script>
 </body>

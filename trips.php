@@ -709,7 +709,7 @@ escapes in Chennai, we’ve got you covered. Start exploring today!" />
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kedarkantha">
-                <img src="assets/img/kedarkantha/main-sub.jpg " alt="roamers-Gallery">
+                <img src="assets/img/kedarkantha/main-sub.avif " alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>5 DAYS / 4 NIGHTS</h3>

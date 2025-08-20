@@ -2,64 +2,41 @@
 <html class="no-js" lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways,
-and group travel experiences. Explore, connect, and create unforgettable memories with
-like-minded travelers!
-">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Roamers - Explore the World with Our Social Travel Agency</title>
-  <meta name="title" content="Roamers - Explore the World with Our Social Travel Agency" />
-  <!-- SEO Meta Description -->
-  <meta name="description" content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways,
-and group travel experiences. Explore, connect, and create unforgettable memories with
-like-minded travelers!
-" />
-  <meta name="keywords" content="travel, travel destinations, travel tips, travel guides,
-    vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
-  <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
-  <!-- Title  -->
-
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-  <!-- slider css -->
+  <meta name="description"
+    content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways, and group travel experiences. Explore, connect, and create unforgettable memories with like-minded travelers!">
+  <meta name="keywords"
+    content="travel, travel destinations, travel tips, travel guides, vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
+  <meta name="author" content="Themeland">
+  <meta name="title" content="Roamers - Explore the World with Our Social Travel Agency">
+  <meta property="og:title" content="Roamers | Your Gateway to Social Travel Adventures">
+  <meta property="og:description"
+    content="Discover the world with Roamers! From solo adventures to group travel, we create experiences that bring travelers together. Explore destinations, meet people, and make memories!">
+  <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
+  <meta property="og:image:width" content="700">
+  <meta property="og:image:height" content="500">
+  <link rel="canonical" href="https://www.roamers.in/">
+  <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Favicon  -->
-  <!-- <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" /> -->
-
-  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
-
-  <!-- ***** All CSS Files ***** -->
-  <!-- ***** Font Asesome cdn ***** -->
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Style css -->
-
-  <link rel="stylesheet" href="assets/css/style.css" />
-
-  <!-- Responsive css -->
-  <link rel="stylesheet" href="assets/css/responsive.css">
-  <!-- bootstrap cdn -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://www.roamers.in/" />
-
-  <!-- Open Graph Title & Description-->
-  <meta property="og:title" content="Roamers | Your Gateway to Social Travel Adventures" />
-  <meta property="og:description" content="Discover the world with Roamers! From solo adventures to group travel, we create experiences
-that bring travelers together. Explore destinations, meet people, and make memories!" />
-  <!--  -->
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <style>
@@ -114,7 +91,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
   }
 
   .travelgram {
-    background: url(assets/img/images/instaFinal-1.jpg) !important;
+    background: url(assets/img/images/instaFinal-1.avif) !important;
     background-size: 100% 100% !important;
     object-fit: cover !important;
     background-repeat: no-repeat !important;
@@ -524,7 +501,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
           <div class="swiper-slide">
             <a href="srilanka.php">
-              <img src="assets/img/Sirlanka/srilanka-images-by-roamers (44).webp" class="backpacking-img"
+              <img src="assets/img/Sirlanka/srilanka-images-by-roamers (44).avif" class="backpacking-img"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
@@ -678,7 +655,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
           <div class="swiper-slide">
             <a href="kedarkantha">
-              <img src="assets/img/kedarkantha/main-sub.jpg" class="backpacking-img" alt="roamers-Gallery">
+              <img src="assets/img/kedarkantha/main-sub.avif" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>5 DAYS / 4 NIGHTS</h3>
@@ -1089,7 +1066,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
           <div class="swiper-slide swiper-slide-image">
             <a href="kedarkantha">
-              <img src="assets/img/kedarkantha/main-sub.jpg " alt="roamers-Gallery">
+              <img src="assets/img/kedarkantha/main-sub.avif " alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>5 DAYS / 4 NIGHTS</h3>
@@ -1241,274 +1218,148 @@ that bring travelers together. Explore destinations, meet people, and make memor
   <?php include('includes/footer.php'); ?>
 
   <script>
+    // WhatsApp Button Handler - Optimized
     document.addEventListener("DOMContentLoaded", function () {
-      var whatsappButton = document.querySelector('.what-sum');
+      const whatsappButton = document.querySelector('.what-sum');
+      if (whatsappButton) {
+        whatsappButton.addEventListener("click", function (event) {
+          event.preventDefault();
+          const name1 = document.getElementById("name1")?.value.trim();
+          const phone1 = document.getElementById("phone1")?.value.trim();
+          const des = document.getElementById("des")?.value.trim();
+          const mess = document.getElementById("mess")?.value.trim();
+          const email1 = document.getElementById("email1")?.value.trim();
 
-      whatsappButton.addEventListener("click", function (event) {
-        event.preventDefault();
-
-        // Get form values
-        var name1 = document.getElementById("name1").value;
-        var phone1 = document.getElementById("phone1").value;
-        var des = document.getElementById("des").value;
-        var mess = document.getElementById("mess").value;
-        var email1 = document.getElementById("email1").value;
-
-        // Check if required fields are filled
-        if (name1 && phone1 && email1) {
-          // Construct WhatsApp URL
-          var url = "https://wa.me/+918122121066?text=" +
-            "Client Requesting About Enquiry " + "%0a" +
-            "Name: " + name1 + "%0a" +
-            "E-mail: " + email1 + "%0a" +
-            "Phone No: " + phone1 + "%0a" +
-            "Desigination: " + des + "%0a" +
-            "Message: " + mess + "%0a";
-
-          // Open WhatsApp page
-          window.open(url, '_blank').focus();
-        } else {
-          // If required fields are not filled, you can display an alert or handle it in some way
-          alert("Please fill in all required fields (Name, Email, and Phone Number).");
-        }
-      });
+          if (name1 && phone1 && email1) {
+            const params = [
+              "Client Requesting About Enquiry",
+              `Name: ${name1}`,
+              `E-mail: ${email1}`,
+              `Phone No: ${phone1}`,
+              `Desigination: ${des}`,
+              `Message: ${mess}`
+            ].join("%0a");
+            const url = `https://wa.me/+918122121066?text=${encodeURIComponent(params)}`;
+            window.open(url, '_blank')?.focus();
+          } else {
+            alert("Please fill in all required fields (Name, Email, and Phone Number).");
+          }
+        });
+      }
     });
   </script>
 
   <script>
-    let index = 0;
-    let timer; // Variable to store the timer for automatic image change
-
-    function displayImages() {
+    // Optimized Image Slider
+    (function () {
+      let index = 0, timer;
       const images = document.getElementsByClassName("slide-box");
-      for (let i = 0; i < images.length; i++) {
-        images[i].style.display = "none";
+      if (!images.length) return;
+
+      function displayImages() {
+        for (let img of images) img.style.display = "none";
+        index = (index + 1 > images.length) ? 1 : index + 1;
+        images[index - 1].style.display = "block";
+        timer = setTimeout(displayImages, 5000);
       }
-      index++;
-      if (index > images.length) {
-        index = 1;
+
+      displayImages();
+
+      // Use event delegation for all slide-box elements
+      for (let img of images) {
+        img.addEventListener("mouseenter", () => clearTimeout(timer));
+        img.addEventListener("mouseleave", () => timer = setTimeout(displayImages, 5000));
       }
-      images[index - 1].style.display = "block";
-      timer = setTimeout(displayImages, 5000);
-    }
-
-    // Start the initial image display
-    displayImages();
-
-    const slider = document.querySelector(".slide-box");
-
-    // Add event listeners to stop the slider on hover
-    slider.addEventListener("mouseenter", () => {
-      clearTimeout(timer); // Stop the timer when hovering
-    });
-
-    slider.addEventListener("mouseleave", () => {
-      timer = setTimeout(displayImages, 5000); // Resume the slider when leaving hover
-    });
+    })();
   </script>
 
   <script src="index.js"></script>
 
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
 
-  <!-- // The following script toggles the visibility of the search bar when the magnifier icon is clicked.
-  // This improves user experience by allowing users to show/hide the search bar as needed, keeping the UI clean. -->
   <script>
-    const searchBarContainerEl = document.querySelector(".search-bar-container");
-    const magnifierEl = document.querySelector(".magnifier");
-
-    magnifierEl.addEventListener("click", () => {
-      searchBarContainerEl.classList.toggle("active");
+    // Search Bar Toggle - Optimized
+    document.addEventListener("DOMContentLoaded", function () {
+      const searchBarContainerEl = document.querySelector(".search-bar-container");
+      const magnifierEl = document.querySelector(".magnifier");
+      if (searchBarContainerEl && magnifierEl) {
+        magnifierEl.addEventListener("click", () => {
+          searchBarContainerEl.classList.toggle("active");
+        });
+      }
     });
   </script>
 
-  <!-- // The following script implements a client-side search functionality for trip packages.
-  // It is needed to provide instant search results to users as they type, improving usability and engagement.
-  // The data array contains trip information. The search input listens for changes and filters the data accordingly.
-  // Matching results are displayed dynamically; if no match is found, a message is shown. -->
   <script>
-    const data = [{
-      name: 'Andaman Island Hopping',
-      link: 'https://www.roamers.in/andaman',
-      image: 'assets/img/kolukkumalai-img/2.jpg',
-      duration: '5 DAYS / 4 NIGHTS',
-      location: 'EX: Chennai'
-    },
-    {
-      name: 'Munnar With Kolukkumalai',
-      link: 'https://www.roamers.in/kolukkumalai-trek',
-      image: 'assets/img/kolukkumalai-img/2.jpg',
-      duration: '3 DAYS / 2 NIGHT',
-      location: 'EX: Direct, Chennai'
-    },
-    // Add other data items with similar structure
-    {
-      name: 'Wonders of Wayanad',
-      link: 'https://roamers.in/wayanad',
-      image: 'assets/img/bg/waya-cover.jpg',
-      duration: '3 DAYS / 2 NIGHTS',
-      location: 'EX: Direct, Chennai'
-    },
-    {
-      name: 'Munnar With Kolukkumalai',
-      link: 'https://www.roamers.in/kolukkumalai-trek',
-      image: 'assets/img/kolukkumalai-img/2.jpg',
-      duration: '3 DAYS / 2 NIGHT',
-      location: 'EX: Chennai'
-    },
-    {
-      name: 'Ooty the queen of hills',
-      link: 'https://roamers.in/ooty',
-      image: 'assets/img/bg/ooty-cove.jpeg',
-      duration: '3 DAYS / 2 NIGHTS',
-      location: 'EX: Chennai, Coimbatore'
-    },
+    // Optimized Client-side Search
+    (function () {
+      const data = [
+        { name: 'Andaman Island Hopping', link: 'https://www.roamers.in/andaman', image: 'assets/img/kolukkumalai-img/2.jpg', duration: '5 DAYS / 4 NIGHTS', location: 'EX: Chennai' },
+        { name: 'Munnar With Kolukkumalai', link: 'https://www.roamers.in/kolukkumalai-trek', image: 'assets/img/kolukkumalai-img/2.jpg', duration: '3 DAYS / 2 NIGHT', location: 'EX: Direct, Chennai' },
+        { name: 'Wonders of Wayanad', link: 'https://roamers.in/wayanad', image: 'assets/img/bg/waya-cover.jpg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Direct, Chennai' },
+        { name: 'Munnar With Kolukkumalai', link: 'https://www.roamers.in/kolukkumalai-trek', image: 'assets/img/kolukkumalai-img/2.jpg', duration: '3 DAYS / 2 NIGHT', location: 'EX: Chennai' },
+        { name: 'Ooty the queen of hills', link: 'https://roamers.in/ooty', image: 'assets/img/bg/ooty-cove.jpeg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai, Coimbatore' },
+        { name: 'Chikmagalur Bagpacking', link: 'https://roamers.in/chikmagalur', image: 'assets/img/bg/ooty-cove.jpeg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai, Bangaluru' },
+        { name: 'Kerala : To gods own country', link: 'https://roamers.in/kerala', image: 'assets/img/Kerala/Kerala photos.jpg', duration: '5 DAYS / 4 NIGHTS', location: 'EX: Kochi, Chennai' },
+        { name: 'Andaman island hopping', link: 'https://roamers.in/andaman', image: 'assets/img/backpacking/Andaman hoppers.jpg', duration: '7 DAYS / 6 NIGHTS', location: 'EX: Kochi, Chennai' },
+        { name: 'Pondi Dive-in', link: 'https://roamers.in/pondicherry', image: 'assets/img/short-trip/Lead-Auroville.webp', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
+        { name: 'Mejestic Meghalaya', link: 'https://roamers.in/meghalaya', image: 'assets/img/megalaya/Front 3.jpg ', duration: '6 DAYS / 5 NIGHTS', location: 'EX: Guwahati' },
+        { name: 'Kodaikanal trek with poombarai', link: 'https://roamers.in/kodaikanal', image: 'assets/img/megalaya/Front 3.jpg ', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
+        { name: 'Kedarkantha Trek', link: 'https://roamers.in/kedarkantha', image: 'assets/img/kedarkantha/main-sub.jpg ', duration: '5 DAYS / 4 NIGHTS', location: 'EX: Dehradun' },
+        { name: 'Kodaikanal Backpacking', link: 'https://roamers.in/kodaikanal1', image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
+        { name: 'Varkala & Munroe Flashpacking', link: 'https://roamers.in/varkala-grouptrip', image: 'assets/img/varkala/kerala-1.jpg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
+        { name: 'Spiti winter expedition', link: 'https://roamers.in/spiti-valley', image: 'assets/img/spiti-valley/spiti-cover.jpg', duration: '7 DAYS / 6 NIGHTS', location: 'EX: Delhi' }
+      ];
 
-    {
-      name: 'Chikmagalur Bagpacking',
-      link: 'https://roamers.in/chikmagalur',
-      image: 'assets/img/bg/ooty-cove.jpeg',
-      duration: '3 DAYS / 2 NIGHTS',
-      location: 'EX: Chennai, Bangaluru'
-    },
+      const searchInput = document.getElementById('search-input');
+      const searchResults = document.getElementById('search-results');
+      if (!searchInput || !searchResults) return;
 
-    {
-      name: 'Kerala : To gods own country',
-      link: 'https://roamers.in/kerala',
-      image: 'assets/img/Kerala/Kerala photos.jpg',
-      duration: '5 DAYS / 4 NIGHTS',
-      location: 'EX: Kochi, Chennai'
-    },
+      searchInput.addEventListener('input', function () {
+        const query = this.value.trim().toLowerCase();
+        searchResults.innerHTML = '';
+        if (!query) {
+          searchResults.style.display = 'none';
+          return;
+        }
 
-    {
-      name: 'Andaman island hopping',
-      link: 'https://roamers.in/andaman',
-      image: 'assets/img/backpacking/Andaman hoppers.jpg',
-      duration: '7 DAYS / 6 NIGHTS',
-      location: 'EX: Kochi, Chennai'
-    },
+        const filteredData = data
+          .filter(item => item.name.toLowerCase().includes(query))
+          .sort((a, b) => {
+            const aName = a.name.toLowerCase(), bName = b.name.toLowerCase();
+            const aStarts = aName.startsWith(query), bStarts = bName.startsWith(query);
+            if (aStarts && !bStarts) return -1;
+            if (!aStarts && bStarts) return 1;
+            return aName.indexOf(query) - bName.indexOf(query);
+          });
 
-    {
-      name: 'Pondi Dive-in',
-      link: 'https://roamers.in/pondicherry',
-      image: 'assets/img/short-trip/Lead-Auroville.webp',
-      duration: '3 DAYS / 2 NIGHTS',
-      location: 'EX: Chennai'
-    },
-
-    {
-      name: 'Mejestic Meghalaya',
-      link: 'https://roamers.in/meghalaya',
-      image: 'assets/img/megalaya/Front 3.jpg ',
-      duration: '6 DAYS / 5 NIGHTS',
-      location: 'EX: Guwahati'
-    },
-
-    {
-      name: 'Kodaikanal trek with poombarai',
-      link: 'https://roamers.in/kodaikanal',
-      image: 'assets/img/megalaya/Front 3.jpg ',
-      duration: '3 DAYS / 2 NIGHTS',
-      location: 'EX: Chennai'
-    },
-
-    {
-      name: 'Kedarkantha Trek',
-      link: 'https://roamers.in/kedarkantha',
-      image: 'assets/img/kedarkantha/main-sub.jpg ',
-      duration: '5 DAYS / 4 NIGHTS',
-      location: 'EX: Dehradun'
-    },
-
-    {
-      name: 'Kodaikanal Backpacking',
-      link: 'https://roamers.in/kodaikanal1',
-      image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg',
-      duration: '3 DAYS / 2 NIGHTS',
-      location: 'EX: Chennai'
-    },
-
-    {
-      name: 'Varkala & Munroe Flashpacking',
-      link: 'https://roamers.in/varkala-grouptrip',
-      image: 'assets/img/varkala/kerala-1.jpg',
-      duration: '3 DAYS / 2 NIGHTS',
-      location: 'EX: Chennai'
-    },
-
-    {
-      name: 'Spiti winter expedition',
-      link: 'https://roamers.in/spiti-valley',
-      image: 'assets/img/spiti-valley/spiti-cover.jpg',
-      duration: '7 DAYS / 6 NIGHTS',
-      location: 'EX: Delhi'
-    },
-    ];
-
-    const searchInput = document.getElementById('search-input');
-    const searchResults = document.getElementById('search-results');
-
-    // Listen for user input in the search box and trigger the search/filter logic.
-    searchInput.addEventListener('input', handleSearch);
-
-    function handleSearch() {
-      const query = searchInput.value.trim().toLowerCase();
-
-      // Clear previous search results to avoid showing outdated data.
-      searchResults.innerHTML = '';
-
-      // If the search box is empty, hide the results area.
-      if (query === '') {
-        searchResults.style.display = 'none';
-        return;
-      }
-
-      // Filter and sort the data array based on the search query.
-      // This ensures that the most relevant trips are shown first.
-      const filteredData = data
-        .filter(item => item.name.toLowerCase().includes(query))
-        .sort((a, b) => {
-          const aName = a.name.toLowerCase();
-          const bName = b.name.toLowerCase();
-          const aStarts = aName.startsWith(query);
-          const bStarts = bName.startsWith(query);
-          if (aStarts && !bStarts) return -1;
-          if (!aStarts && bStarts) return 1;
-          return aName.indexOf(query) - bName.indexOf(query); // further prioritize closer matches
-        });
-
-      // If no results, show a message. Otherwise, render the matching trips.
-      if (filteredData.length === 0) {
-        searchResults.innerHTML = `<div class="col-12">No Trips found for "${query}"</div>`;
-      } else {
-        filteredData.forEach(item => {
-          const resultHTML = `
-          <div class="trip-card">
-          <div class="search-box-con">
-            <a href="${item.link}">
-              <img src="${item.image}" alt="${item.name}">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>${item.duration}</h3>
-                  <h4>
-                    <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">
-                    ${item.location}
-                  </h4>
-                </div>
-                <h2>${item.name}</h2>
+        if (!filteredData.length) {
+          searchResults.innerHTML = `<div class="col-12">No Trips found for "${query}"</div>`;
+        } else {
+          searchResults.innerHTML = filteredData.map(item => `
+            <div class="trip-card">
+              <div class="search-box-con">
+                <a href="${item.link}">
+                  <img src="${item.image}" alt="${item.name}">
+                  <div class="silder-inner silder-inner1">
+                    <div class="inner inner2">
+                      <h3>${item.duration}</h3>
+                      <h4>
+                        <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">
+                        ${item.location}
+                      </h4>
+                    </div>
+                    <h2>${item.name}</h2>
+                  </div>
+                </a>
               </div>
-            </a>
-             </div>
-          </div>
-        `;
-          searchResults.innerHTML += resultHTML;
-        });
-      }
-
-      // Show the results area and ensure results are displayed in a flexible, wrapped layout.
-      searchResults.style.display = 'flex'; // Flex layout for rows
-      searchResults.style.flexWrap = 'wrap'; // Wrap items to new rows
-    }
+            </div>
+          `).join('');
+        }
+        searchResults.style.display = 'flex';
+        searchResults.style.flexWrap = 'wrap';
+      });
+    })();
   </script>
 
   <!--
@@ -1610,41 +1461,26 @@ that bring travelers together. Explore destinations, meet people, and make memor
     }
   </script>
   <!-- Google Analytics Code: -->
-  <!-- Google tag (gtag.js) -->
-  <!-- The following script loads Google Analytics for tracking website usage and user behavior.
-       This is needed for site owners to analyze traffic and improve the website. -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-0MSFD4117B');
   </script>
 
-  <!-- jQuery is required for various JavaScript plugins used on the site. -->
+  <!-- jQuery and Plugins -->
   <script src="assets/js/dates.js"></script>
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-  <!-- Bootstrap and plugin scripts are needed for UI components and interactivity. -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-  <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
-
-  <!-- Elfsight platform script is used for embedding widgets (e.g., reviews, social feeds). -->
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-
-  <!-- OwlCarousel, Swiper, and Anime.js are used for sliders, carousels, and animations. -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- <script src="assets/js/main.js"></script> -->
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>

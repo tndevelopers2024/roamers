@@ -1796,7 +1796,7 @@
               <!-- >> Side Slider Section << -->
 
               <div class="priceCard shadow " style="border-radius: 20px;">
-                <img src="assets/img/valley-of-flowers/valley-bg3.jpg" alt="Ladakh Banner 3" style=" object-fit:cover;">
+                <img src="assets/img/valley-of-flowers/valley-bg3.avif" alt="Ladakh Banner 3" style=" object-fit:cover;">
               </div>
 
               <!-- >> Pricing Box Section << -->
@@ -2291,9 +2291,9 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "assets/img/valley-of-flowers/valley-bg.jpg",
-      "assets/img/valley-of-flowers/valley-bg2.png",
-      "assets/img/valley-of-flowers/valley-bg3.jpg"
+      "assets/img/valley-of-flowers/valley-bg.avif",
+      "assets/img/valley-of-flowers/valley-bg2.avif",
+      "assets/img/valley-of-flowers/valley-bg3.avif"
     ];
 
     let index = 0;

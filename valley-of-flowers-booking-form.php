@@ -1034,7 +1034,7 @@ session_start();
 
   <section class="">
     <div class="container">
-      <form action="valley-of-flowers-booking-form1.php" method="POST" autocomplete="off">
+      <form action="valley-of-flowers-mail-send.php" method="POST" autocomplete="off">
         <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0   px-md-5 mx-md-5" id="date-form">
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
             <div id="container" class="container" style="margin-top:30px;">
