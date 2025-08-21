@@ -888,7 +888,7 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="munnar-dates"></span>
                   </h4>
-                  <h4><span id="munnar-price">₹4,990</span> </h4>
+                  <h4><span id="munnar-price">₹8,499</span> </h4>
                 </div>
               </div>
             </a>

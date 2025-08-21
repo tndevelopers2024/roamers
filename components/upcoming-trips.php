@@ -126,6 +126,7 @@
                 max-height: 70vw;
             }
         }
+
         @media (max-width: 400px) {
             .upcoming-image {
                 height: 320px !important;
@@ -488,8 +489,7 @@
         }
 
         @media (max-width: 400px) {
-            .upcoming-slider {
-            }
+            .upcoming-slider {}
 
             .upcoming-card {
                 width: calc(92vw - 16px);
@@ -682,6 +682,65 @@
                                 </div>
                             </div>
                             <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="http://localhost/Roamers/assets/img/kolukkumalai-img/2.jpg" alt="Varkala">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Chennai</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Munnar with Kolukkumalai</h1>
+                            <p class="upcoming-locations">Munnar</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Sep 6, 19 , 26</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹8499</div>
+                                </div>
+                            </div>
+                            <a href="kolukkumalai-trek.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg"
+                                    alt="Varkala">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Port Blair</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Andaman Island Hopping</h1>
+                            <p class="upcoming-locations">Havelock Island, Neil Island, Port Blair</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Customise it!</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹24,490</div>
+                                </div>
+                            </div>
+                            <a href="andaman.php" target="_blank" class="upcoming-view">View Trip</a>
                         </div>
                     </div>
                 </div>

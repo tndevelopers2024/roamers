@@ -392,8 +392,7 @@
                       aria-controls="collapseOne">
                       <div class="d-flex align-items-center">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                        <span>Arrival at Port Blair | Cellular Jail & Light Show
-                        </span>
+                        <span>Chennai to Munnar overnight journey</span>
                       </div>
                       <i class="bi bi-chevron-down ms-auto transition-all"></i>
                     </button>
@@ -405,29 +404,12 @@
 
                       <ul class="ps-lg-3 ps-0">
                         <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Feel the thrill as you touch down in Port Blair, the lively
-                          gateway to the Andaman Islands.
+                            style="font-size: 0.65rem;"></i>Hello Roamers! Let's assemble at 9 PM on the designated
+                          point in Chennai and gear up for an exciting adventure!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Meet Roamers representative at Veer Savarkar Airport Port Blair) who’ll guide you along.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          (Airport Shuttle will be provided 9:00 am - 12 Noon, inform the arrival time to Roamers team)
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Check into our comfy hotel, freshen up, and meet your team captains & co-travellers. And let’s
-                          take a breezy island walk to soak in the vibe.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          By evening, we head to the famous Cellular Jail for the Sound & Light Show, reliving the
-                          heroic saga of India’s freedom struggle.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Return to our hotel for dinner, fun icebreaker games, music, and bonding with your Roamers
-                          fam.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in Port Blair.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Chennai to Munnar overnight journey ahead, floks! Get comfy,
+                          let's enjoy some music, play games, share stories, and laugh the night away!
                         </li>
                       </ul>
                     </div>
@@ -443,7 +425,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                        <span> Ross Island & North Bay | Historic Ruins & Ocean Thrills </span>
+                        <span> Arrival | Zipline | Sunset trek & campstay </span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -455,26 +437,26 @@
                       <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
                       </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Savour a Delicious Breakfast & get fueled up team, our Island adventure begins!
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Rise
+                          and shine, team! We've arrived in Suryanelli which is the base point for the Kolukkumalai
+                          Trek.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Start the morning with a ferry to the marvelous Ross Island, where history meets nature.
+                          After refreshments, let's hit our adventure spot. Gear up for the Zipline thrill over tea
+                          estates and enjoy nearby kayaking
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Stroll past crumbling colonial ruins now claimed by giant roots and deer wandering freely.
-                          Every ruin holds a story, a rare sight!
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Check-in at our beautiful Campstay destination and take some
+                          time to relax and fresh up, then let's go on a short Sunset Trek to a scenic viewpoint.
 
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Later, let’s sail across to North Bay Island, famous for water activities. Try your hand at
-                          snorkelling, glass-bottom rides, or just chill by the blue waters.
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>When we get back to Campsite, it's all about fun. Enjoy a
+                          delish dinner by the bonfire, play games, music and let's dance under the stars.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Back to Port Blair in the evening for dinner, laughter, and a cozy night’s rest.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in Port Blair.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Retire to your comfortable Camps for a peaceful overnight
+                          stay, surrounded by the stunning mountains.
                         </li>
                       </ul>
                     </div>
@@ -490,8 +472,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Havelock Island | Radhanagar Beach, Cafes & Sunset Magic
-                        </span>
+                        <span>Kolukkumalai trek | Munnar exploration</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -500,36 +481,32 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let's start our day with a delightful breakfast and depart from Port Blair to Havelock Island
-                          on a scenic Ferry ride
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Wake Up early team! As our day begins with an epic Sunrise
+                          Trek to Kolukkumalai Peak, experience the wild jeep safari at untamed roads leading us to the
+                          peak.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let's return back to our campsite, and after hearty
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Let's return back to our campsite, and after hearty
                           breakfast, let's check out and head to explore Munnar.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Upon
-                          reaching Havelock Island, we'll check-in to our beachside resort and settle into our
-                          accommodation, allowing the island vibes to embrace us.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>We'll start our adventure at the charming Photo Point to
+                          capture the beauty of Munnar. Then, we'll proceed to beautiful Mattupetty Dam, opt for a
+                          thrilling speedboat ride or take a leisure stroll.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Roamers, let's head out to explore the renowned Radhanagar Beach ‘Touted as the best beach in
-                          Asia’ known for its pristine white sands and crystal-clear waters.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Go
-                          for a swim or stroll along the beach, discover charming & lnstagram-worthy cafes and treat
-                          yourself enjoying the coastal ambience.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Capture the breathtaking sunset views and immerse in the serene atmosphere of the island.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Go back to the resort and let's get ready for an island-style Moon lit Party with the squad.
-                          Loose, dance, and create unforgettable memories under the enchanting moon light
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in Havelock Island
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Next, we'll visit serene Kundala Lake, surrounded by lush
+                          greenery, with options for kayaking or paddle boating.
 
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Our
+                          final destination is Top Station, one of the highest points in Munnar. Get ready to be
+                          mesmerised by the panoramic views. It's like being on top of the world!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>After a long day, it's time to savor a delicious dinner and
+                          enjoy an overnight stay at our hotel.
                         </li>
                       </ul>
                     </div>
@@ -545,7 +522,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Elephant Beach & Kalapathar | Adventure & Serenity</span>
+                        <span>Eravikulam & Lakkam waterfalls | Return</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -554,29 +531,25 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Post breakfast, let's venture out to the blissful Kalapathar Beach and get ready to explore
-                          its breathtaking views and sports adventures.
-
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Hey
+                          team, get ready for a fun-filled day. After breakfast, we'll start our journey. Our stop is
+                          KDHP Tea Museum. Enjoy the green surroundings, pick up some tea-making tricks, and savour a
+                          delicious sip of fresh tea.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Experience the thrill of scuba diving, snorkelling or sea walk. Immerse yourself into
-                          crystal-clear water and discover a vibrant underwater world.
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Next up, let’s head to the Eravikulam National Park for a
+                          hike! Enjoy the stunning scenery and keep your eyes peeled for the Neelgiri Tahwr
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Don't forget to say hi to our sea friend 'Nemo' and make your coral adventure unforgettable!
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>After that, we're heading to the magical Lakkom Waterfalls.
+                          Get ready for an immersive experience surrounded by nature's beauty
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          For those who aren't into sporty activities, take a leisurely stroll along the shoreline. Find
-                          a cozy spot on the beach and soak yourself in the tranquil atmosphere. You're in a paradise!
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>if
+                          you're up for it, take a swim in the refreshing cold waters or simply relax with the view.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After, let's make our way to uncover the secluded Elephant Beach, where you can ride on a
-                          glass bottom boat ride and other water adventures. It's an absolute sight on our journey.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Return to our comfortable resort after a satisfying dinner with the team and an overnight
-                          stay.
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Bid
+                          farewell to this awesome hill station, and by evening, we’ll start our journey back home,
+                          roamers!
                         </li>
                       </ul>
                     </div>
@@ -592,8 +565,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                        <span> Neil Island | Quiet Beaches & Laidback Vibes
-                        </span>
+                        <span>Bye all and back to home!</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -603,114 +575,13 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                          After our last breakfast in Havelock, we sail to Neil Island – a hidden gem many travellers
-                          miss, but not us Roamers!
-
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>We'll
+                          aim to arrive in Chennai by 8 am in the morning. Bye for now Roamers. Reunion plans for next
+                          year? You bet!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Check into the resort and soak in the calm island. Our first stop is the famous Natural Rock
-                          Formation (Howrah Bridge)
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          A stunning arch sculpted by the sea, a true wonder of Neil. you’ll get to see the sea
-                          creatures nearby, everything here is natural and un disturbed!
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Later, head to Laxmanpur Beach, a peaceful beach perfect for evening walks, golden sunsets,
-                          and stargazing by the shore (stargazing on additional)
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Back at the resort, the night is all about games, music, and group bonding. A fun group poll
-                          with team captains will decide tomorrow’s surprise activity.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in Neil Island.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!-- day 6 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                  <h2 class="accordion-header" id="headingFive">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
-                      aria-controls="collapse5">
-
-                      <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                        <span> Bharatpur Beach & Return to Port Blair | Farewell night
-
-                        </span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                      </div>
-                    </button>
-                  </h2>
-
-                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body bg-white px-4 py-3">
-                      <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                          Wake up to the island breeze and savour scrumptious Breakfast and let’s set off to Bharatpur
-                          Beach
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Famous for its coral views, shallow waters, and palm-lined shore. Last Beach on our Pipeline
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Chill, click those Instagram-worthy shots, or just float away in the blue. By afternoon, we’ll
-                          ferry back to Port Blair.
-
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Get time to go shopping and buy souvenirs to your loved ones, and in Andaman there's plenty
-                          you can buy home
-                          (trip captains will guide you to the best spots).
-
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Tonight, a special Roamers surprise awaits to celebrate our final farewell night together
-                          Travellers
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in Port Blair.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!-- day 6 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                  <h2 class="accordion-header" id="headingFive">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
-                      aria-controls="collapse5">
-
-                      <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                        <span> Departure | Bye all & Back to home
-
-
-                        </span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                      </div>
-                    </button>
-                  </h2>
-
-                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body bg-white px-4 py-3">
-                      <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                          In just 7 days, we shared thrills, spills, and countless good times. Let's plan a reunion trip
-                          next year to continue the adventure. 100% guaranteed!
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Goodbyes are never easy, but what a ride it has been! See you guys, more Hugs!
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Goodbyes are never easy, but what ride it has been! See you
+                          guys, more Hugs!
                         </li>
                       </ul>
                     </div>
@@ -796,7 +667,7 @@
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="#" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                      <a href="kolukkumalai-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -1046,7 +917,7 @@
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="#" class="btn-book">Dates & Costing</a>
+      <a href="kolukkumalai-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 

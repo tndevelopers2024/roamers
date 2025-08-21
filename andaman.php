@@ -5,30 +5,28 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url"
-    content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" width="600" height="600"
-    alt="image for ooty" />
-  <title>Roamers - Sri Lanka</title>
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" width="600"
+    height="600" alt="image for ooty" />
+  <title>Roamers - Andaman</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Sri Lanka" />
+  <meta name="description" content="Roamers - Andaman" />
   <meta name="author" content="Themeland" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Sri Lanka" />
-  <meta property="og:description" content="Discover the beauty of Sri Lanka with our detailed travel guide and tips." />
-  <meta property="og:image"
-    content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" />
-  <meta property="og:url" content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" />
+  <meta property="og:title" content="Roamers - Andaman" />
+  <meta property="og:description"
+    content="Explore the Andaman Islands with Roamers – your ultimate guide to pristine beaches, adventure activities, and unforgettable group travel experiences." />
+  <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
+  <meta property="og:url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Sri Lanka" />
+  <meta name="twitter:title" content="Roamers - Andaman" />
   <meta name="twitter:description"
-    content="Discover the beauty of Sri Lanka with our detailed travel guide and tips." />
-  <meta name="twitter:image"
-    content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" />
+    content="Explore the Andaman Islands with Roamers – your ultimate guide to pristine beaches, adventure activities, and unforgettable group travel experiences." />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -232,7 +230,7 @@
             <a href="#itinerary" class="tab-box ">Itinerary <span></span></a>
             <a href="#inclusion" class="tab-box ">Inclusion <span></span></a>
             <a href="#exclusion" class="tab-box ">Exclusion <span></span></a>
-            <a href="#notes" class="tab-box border-end-0">Notes</a>
+            <!-- <a href="#notes" class="tab-box border-end-0">Notes</a> -->
           </div>
         </div>
       </div>
@@ -351,20 +349,11 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (48).webp" , class="img-fluid w-100"
+                  <img src="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" , class="img-fluid w-100"
                     alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (46).webp" , class="img-fluid w-100"
-                    alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (6).webp" class="img-fluid w-100"
-                    alt="Ladakh 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (26).webp" , class="img-fluid w-100"
+                  <img src="https://roamers.in/assets/img/andaman/Media/overview-1.jpg" , class="img-fluid w-100"
                     alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
               </div>
@@ -396,7 +385,8 @@
                       aria-controls="collapseOne">
                       <div class="d-flex align-items-center">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                        <span> Sri Lanka Arrival & To Ancient Land | Sigiriya</span>
+                        <span>Arrival at Port Blair | Cellular Jail & Light Show
+                        </span>
                       </div>
                       <i class="bi bi-chevron-down ms-auto transition-all"></i>
                     </button>
@@ -408,30 +398,35 @@
 
                       <ul class="ps-lg-3 ps-0">
                         <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Meet your fellow Roamers travellers & Trip Captain at
-                          Colombo Airport / Assigned Meetup Point
-
+                            style="font-size: 0.65rem;"></i>Feel the thrill as you touch down in Port Blair, the lively
+                          gateway to the Andaman Islands.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Let's begin our journey through lush countryside to the
-                          historic village of <span class="fw-bold">Sigiriya</span>
-
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Meet
+                          <b>Roamers representative</b>
+                          at Veer Savarkar Airport Port Blair) who’ll guide you along.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Check into the hotel and unwind with a hot cup of Ceylon tea
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          (Airport Shuttle will be provided 9:00 am - 12 Noon, inform the arrival time to Roamers team)
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Chill session by the pool with local bites, stories, and
-                          bonding with your new travel fam
-
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Check into our comfy hotel, freshen up, and meet your team captains & co-travellers. And let’s
+                          take a breezy island walk to soak in the vibe.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Savour a delicious dinner & overnight stay in Sigiriya
-
-
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          By evening, we head to the
+                          <b>famous Cellular Jail</b>
+                          for the
+                          <b>Sound & Light Show</b>
+                          , reliving the
+                          heroic saga of India’s freedom struggle.
                         </li>
-                        <li>Note: The airport pickup time is tentatively between 12:00
-                          PM – 2:00 PM (Pre-inform the team for other timings)
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Return to our hotel for dinner, fun icebreaker games, music, and bonding with your Roamers
+                          fam.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Port Blair.
                         </li>
                       </ul>
                     </div>
@@ -447,7 +442,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                        <span> Sunrise Trek to Sigirya & Pinnawala Elephant Orphanage | Kandy </span>
+                        <span> Ross Island & North Bay | Historic Ruins & Ocean Thrills </span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -459,32 +454,33 @@
                       <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
                       </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Wake
-                          up Roamers, get ready for your lifetime adventure! </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Early morning <span class="fw-bold">hike</span> to the iconic <span class="fw-bold">Sigiriya
-                            Rock Fortress</span>, A 5th-century Royal citadel floating paradise above the jungle </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Enjoy the panoramic views and the magical Sunrise from the
-                          Fortress.
+                          Savour a Delicious Breakfast & get fueled up team, our Island adventure begins!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Our
-                          journey next brings us to the famous <span class="fw-bold">Pinnawala Elephant
-                            Orphanage</span>, Witness gentle giants in a peaceful sanctuary, Elephant lovers real treat!
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Start the morning with a ferry to the marvelous
+                          <b>Ross Island</b>
+                          ,
+                          where history meets nature.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Stroll past crumbling
+                          <b>colonial ruins</b>
+                          now claimed by giant roots and deer wandering freely.
+                          Every ruin holds a story, a rare sight!
 
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Up
-                          next let's head to <span class="fw-bold">Kandy</span>, the last royal capital of Sri Lanka
-
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Later, let’s sail across to
+                          <b>North Bay Island</b>
+                          , famous for water activities. Try your hand at
+                          snorkelling, glass-bottom rides, or just chill by the blue waters.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Enjoy evening leisure, take strolls by <span
-                            class="fw-bold">Kandy Lake</span> & colorful local markets
-
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Back to Port Blair in the evening for dinner, laughter, and a cozy night’s rest.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Relish the Dinner with the Team & Overnight stay at Kandy
-
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Port Blair.
                         </li>
                       </ul>
                     </div>
@@ -500,7 +496,8 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Kandy, Tooth Relic | Nuwara Eliya & Colonical hilly vibes</span>
+                        <span>Havelock Island | Radhanagar Beach, Cafes & Sunset Magic
+                        </span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -509,32 +506,40 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Morning Roamers, time to head to Kandy's most visited spot:
-                          Temple of <span class="fw-bold"> Sacred Tooth Relic</span>: Sacred shrine that houses a relic
-                          of Lord Buddha </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Up
-                          next, our journey leads to <span class="fw-bold">Hillstation</span>! Our First visit is to the
-                          <span class="fw-bold">hilltop Hanuman Temple</span> Rooted to ancient Ramayana Tales.
-
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let's start our day with a delightful breakfast and depart from Port Blair to
+                          <b>Havelock Island</b>
+                          on a scenic Ferry ride
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>After, let's go on a tour of the local tea factory and sip
-                          freshly brewed Ceylon Tea with a plantation view. Time for some Instagrammable Pictures
-                          Roamers!
-
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let's return back to our campsite, and after hearty
+                          breakfast, let's check out and head to explore Munnar.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Reach <span class="fw-bold">Nuwara Eliya</span>,
-                          affectionately called "Little England" for its cool climate, cottages, and rose gardens
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Upon
+                          reaching Havelock Island, we'll check-in to our beachside resort and settle into our
+                          accommodation, allowing the island vibes to embrace us.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Walk around <span class="fw-bold">Gregory Lake</span> or
-                          stop at <span class="fw-bold">cozy cafés</span>.
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Roamers, let's head out to explore the renowned
+                          <b>Radhanagar Beach</b>
+                          ‘Touted as the best beach in
+                          Asia’ known for its pristine white sands and crystal-clear waters.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Savour Dinner & Overnight stay in Nuwara Eliya
-
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Go
+                          for a swim or stroll along the beach, discover charming & lnstagram-worthy cafes and treat
+                          yourself enjoying the coastal ambience.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Capture the breathtaking sunset views and immerse in the serene atmosphere of the island.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Go back to the resort and let's get ready for an
+                          <b>island-style Moon lit Party</b>
+                          with the squad.
+                          Loose, dance, and create unforgettable memories under the enchanting moon light
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Havelock Island
 
                         </li>
                       </ul>
@@ -551,7 +556,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span> Ella Scenic Train Journey & Galle Charms</span>
+                        <span>Elephant Beach & Kalapathar | Adventure & Serenity</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -560,32 +565,37 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Hey
-                          Romers! t let's drive to <span class="fw-bold">Ella</span> to board Board the world-renowned
-                          an epic <span class="fw-bold">Train journey</span> </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> A
-                          Scenic slow journey through cloud forests, tea valleys, and tunnels. This journey you'll
-                          remember forever. </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Explore the iconic<span class="fw-bold">Nine Arch
-                            Bridge</span> – a photogenic marvel of colonial engineering nestled in greenery</li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Time to enjoy our Lunch with sweeping views of Ella's
-                          rolling hills.</li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Next we'll Stop by <span class="fw-bold"> Ravana
-                            Falls</span> , witness mesemerising falls</li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>We'll arrive by evening for a golden sunset at the iconic
-                          <span class="fw-bold">Galle Fort</span> (UNESCO site).
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Explore Galle on your own with the team, spend time
-                          exploring Dutch reformed spots or relax by the beach (Trip captain will provide you the super
-                          spots)</li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Overnight Stay at Bentota
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Post breakfast, let's venture out to the blissful
+                          <b>Kalapathar Beach</b>
+                          and get ready to explore
+                          its breathtaking views and sports adventures.
 
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Experience the thrill of
+                          <b>scuba diving, snorkelling or sea walk.</b>
+                          Immerse yourself into
+                          crystal-clear water and discover a vibrant underwater world.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Don't forget to say hi to our sea friend 'Nemo' and make your coral adventure unforgettable!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          For those who aren't into sporty activities, take a leisurely stroll along the shoreline. Find
+                          a cozy spot on the beach and soak yourself in the tranquil atmosphere. You're in a paradise!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After, let's make our way to uncover the secluded
+                          <b>Elephant Beach</b>
+                          , where you can ride on a
+                          glass bottom boat ride and other
+                          <b>water adventures.</b>
+                          It's an absolute sight on our journey.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Return to our comfortable resort after a satisfying dinner with the team and an overnight
+                          stay.
                         </li>
                       </ul>
                     </div>
@@ -601,7 +611,8 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                        <span>Rivers, Beach Adventures & Golden Moments</span>
+                        <span> Neil Island | Quiet Beaches & Laidback Vibes
+                        </span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -611,25 +622,33 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>Post
-                          Breakfast let's move to our most relaxable city <span class="fw-bold">Bentota</span> </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>First, we'll head to <span class="fw-bold"> Madu River Boat
-                            Safari</span>, gliding through secret waterways flanked by lush mangrove forests. </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Check into your beach side resorts, relax for a while.
-
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i><span class="fw-bold">Water Sports</span> Extravaganza
-                          (Bentota Beach) Choose your adventure: Jet skiing / Banana boat rides / Para Motoring & More
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
+                          After our last breakfast in Havelock, we sail to
+                          <b>Neil Island – a hidden gem many travellers miss, but not us Roamers!</b>
 
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Beach, Sunset, Dinner & the day is sorted. Overnight stay in Bentota
-
-
-
+                          Check into the resort and soak in the calm island. Our first stop is the famous
+                          <b>Natural Rock Formation (Howrah Bridge)</b>
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          A stunning arch sculpted by the sea, a true wonder of Neil. you’ll get to see the sea
+                          creatures nearby, everything here is natural and un disturbed!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Later, head to
+                          <b>Laxmanpur Beach</b>
+                          , a peaceful beach perfect for evening walks, golden sunsets,
+                          and stargazing by the shore (stargazing on additional)
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Back at the resort, the night is all about games, music, and
+                          <b>group bonding. A fun group poll
+                            with team captains</b>
+                          will decide tomorrow’s surprise activity.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Neil Island.
                         </li>
                       </ul>
                     </div>
@@ -637,7 +656,7 @@
                 </div>
                 <!-- day 6 -->
                 <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                  <h2 class="accordion-header" id="headingSix">
+                  <h2 class="accordion-header" id="headingFive">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                       type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
@@ -645,51 +664,54 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 6</span>
-                        <span> Colombo City tour | Roamers Farewell Dinner</span>
+                        <span> Bharatpur Beach & Return to Port Blair | Farewell night
+
+                        </span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
                   </h2>
 
-                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingFive"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Roamers Start slow with a chilled-out morning by the sea and
-                          savour breakfast.
-
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>Time to
-                          Roll into <span class="fw-bold">Colombo</span> - the heart of Sri Lanka
-
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>City
-                          tour highlights: The serene <span class="fw-bold"> Gangaramaya Temple </span> The stately
-                          <span class="fw-bold"> Independence Square </span> stroll at <span class="fw-bold"> Galle Face
-                            Green</span> Browse boutique shops and <span class="fw-bold">local markets </span> local
-                          markets
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
+                          Wake up to the island breeze and savour scrumptious Breakfast and let’s set off to
+                          <b>Bharatpur Beach</b>
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Have Lunch at iconic spot Celebrate with your crew, or choose a special Lunch at the famed
-                          <span class="fw-bold">Ministry of Crab </span>(Founded by cricket legends Sangakkara &
-                          Jayawardene, this globally acclaimed seafood restaurant is a must for foodies and fans alike)
+                          Famous for its coral views, shallow waters, and palm-lined shore. Last Beach on our Pipeline
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Alright Roamers we've come to end of our Journey, just turn
-                          around and see how the strangers has become your best friends</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Time
-                          for <span class="fw-bold">Farewell dinner</span> , organised by Roamers. Let's feast at the
-                          dinner and celebrate our last night in Sri Lanka, A night to remember!</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Overnight stay in Colombo</li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Chill, click those Instagram-worthy shots, or just float away in the blue. By afternoon, we’ll
+                          ferry back to Port Blair.
+
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Get time to go
+                          <b>shopping</b>
+                          and buy souvenirs to your loved ones, and in Andaman there's plenty
+                          you can buy home
+                          (trip captains will guide you to the best spots).
+
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Tonight, a
+                          <b>special Roamers surprise</b>
+                          awaits to celebrate our final farewell night together
+                          Travellers
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Port Blair.
+                        </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <!-- day 7 -->
                 <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                  <h2 class="accordion-header" id="headingSix">
+                  <h2 class="accordion-header" id="headingFive">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                       type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
@@ -697,31 +719,30 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 7</span>
-                        <span>Until Next Time, Bye | Drop to Colombo Airport</span>
+                        <span> Departure | Bye all & Back to home
+
+
+                        </span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
                   </h2>
 
-                  <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingFive"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Transfer to the airport depending on your flight time
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
+                          In just 7 days, we shared thrills, spills, and countless good times. Let's plan a reunion trip
+                          next year to continue the adventure. 100% guaranteed!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>Group
-                          hugs, selfies and bye byes, let's plan for a reunion soon!
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Head home with a heart full of memories and new travel
-                          friends!
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Goodbyes are never easy, but what a ride it has been! See you guys, more Hugs!
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
 
@@ -732,50 +753,30 @@
                 <div id="">
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Airport assistant for arrivals/departures (if aligned with schedules)
-                  </p>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Accomodation: 3-star
-                    Hotels/ Resorts superior stays
-                  </p>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Meals: 06 Breakfasts, 4
-                    Dinners (including Farewell Dinner)
-                  </p>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Transportation:
-                    Air-conditioned coach throughout the tour (as per itinerary)
-
-                  </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Complementary 2x500ml
-                    Water Bottles per person per day.
-
+                    Covers all the Local Transportations including Airport Pick up & Drop off.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Train Journey Entrances
-
-                  </p><span class="mobile-br"><br></span>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Sigiriya Rock Fortress
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Pinnawala Elephant
-                    Orphanage</p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Sacred Temple of the
-                    Tooth Relic (Kandy)
+                    Resorts or Hotels on Twin share basis. Solo travellers can share with a person of same gender
+                    travellers.
                   </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Ganga Ramaya Temple </p>
-                  <span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Madu River Boat Safari
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Turtle Hatchery</p><span
-                    class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Gem Museum visit
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Parking, Toll Charges &
-                    all Taxes
-                  </p><span class="mobile-br"><br></span>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>No hidden charges </p>
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    6 Breakfast & '2 Dinner(Including Farewell Dinner).
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Experienced Team Leaders who are super friendly & knowledge.
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Entry fees for the Spots, Local Tax and Port charges. No hidden charges.
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    A-Z Trip assistance from our Travel Experts.
+                  </p>
+
 
                 </div>
               </div>
@@ -786,64 +787,29 @@
               id="exclusion">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
               <div>
-                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Air Ticket</p><span
-                  class="mobile-br"><br></span>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>E Visa ( Please visit ➪ <a
-                    class="ms-1" target="_blank" href="https://eta.gov.lk/slvisa/"> Here</a>)
+
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Flights to Port Blair & Return. You can book flights personally by yourself or through our services
+                  seperately.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Personal expenses like shopping and for optional activities such as Scuba diving, Bike rental etc.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Any other costing involved due to natural calamity or any other forced circumstances which are out of
+                  our control.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  GST(5%) is applicable extra.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Anything which is not mentioned in inclusions
                 </p>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>If Early/late airport
-                  transfers apart from Schedule (taxi will be arranged separately for you on cost)
-
-
-                </p>
-
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Lunch and 2 Dinner Meals on
-                  tour.
-
-
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Early Check In (before 3 AM)
-                  and Late Check Out (after 11 AM) at the hotel.
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Tips and Portage.
-
-
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any expense due to nature or
-                  unavoidable circumstances.
-
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any expense not mentioned
-                  above.
-
-                </p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Applicable TCS & GST
-
-
-                </p>
               </div>
             </div>
 
-            <!-- >> Important Notes Section << -->
-            <div class="important-notes shadow" style="border-radius: 10px;" id="notes">
-              <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Important Notes</h3>
-              <div>
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Group trips are designed
-                  for
-                  ages 18 to 40 due to high packed adventure. Custom trips can be arranged for other age groups.</p>
-
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Itinerary may be subjected
-                  to change due to weather, road conditions, or health concerns. Changes will be made keeping your
-                  safety
-                  and comfort in mind.</p>
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Inform us of any
-                  pre-existing health conditions in advance.</p>
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>5% GST & 5% TCS Applicable
-                </p>
-              </div>
-            </div>
 
           </div>
 
@@ -854,7 +820,7 @@
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="assets/img/Sirlanka/srilanka-images-by-roamers (47).webp" alt="Ladakh Banner 3"
+                <img src="https://roamers.in/assets/img/andaman/Media/61af5c4e959d8191_28.jpg" alt="Ladakh Banner 3"
                   style=" object-fit:cover; border-radius: 10px;">
               </div>
 
@@ -873,7 +839,7 @@
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="srilanka-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                      <a href="#" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -932,104 +898,47 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (1).webp" alt="Sri Lanka 1">
+            <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (2).webp" alt="Sri Lanka 2">
+            <img src="https://roamers.in/assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg"
+              alt="Sri Lanka 2">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (4).webp" alt="Sri Lanka 3">
+            <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
+              alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (5).webp" alt="Sri Lanka 4">
+            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Sri Lanka 4">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (7).webp" alt="Sri Lanka 5">
+            <img src="https://roamers.in/assets/img/andaman/Media/Portblair-group-min.jpg" alt="Sri Lanka 5">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (8).webp" alt="Sri Lanka 6">
+            <img src="https://roamers.in/assets/img/andaman/Media/610a5c749433a121_images-anthropological3-500x500.jpeg"
+              alt="Sri Lanka 6">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (10).webp" alt="Sri Lanka 8">
+            <img src="https://roamers.in/assets/img/andaman/Media/61af5c4e959d8191_28.jpg" alt="Sri Lanka 8">
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (13).webp" alt="Sri Lanka 9">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (17).webp" alt="Sri Lanka 10">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (20).webp" alt="Sri Lanka 12">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (22).webp" alt="Sri Lanka 13">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (23).webp" alt="Sri Lanka 14">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (27).webp" alt="Sri Lanka 15">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (29).webp" alt="Sri Lanka 16">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (30).webp" alt="Sri Lanka 16">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (33).webp" alt="Sri Lanka 16">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (34).webp" alt="Sri Lanka 16">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (41).webp" alt="Sri Lanka 16">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (43).webp" alt="Sri Lanka 16">
-          </div>
-        </div>
+
       </div>
       <div class="swiper-pagination d-none d-md-none"></div>
     </div>
   </section>
-
 
 
   <!-- Faq Seciton -->
@@ -1157,11 +1066,11 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹43,990/-</span>
+          <span class="price-amount ">₹24,490/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="srilanka-form.php" class="btn-book">Dates & Costing</a>
+      <a href="#" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 

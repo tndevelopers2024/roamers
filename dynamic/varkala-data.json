@@ -1,5 +1,5 @@
 {
-  "varkala": { 
+  "varkala": {
     "August": [
       {
         "date": "15th ",
@@ -225,37 +225,21 @@
     }
   },
   "munnar": {
-    "April": [
+    "Sep": [
       {
-        "date": "19th - 22nd",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,999/-"
-      }
-    ],
-    "May": [
-      {
-        "date": "10th - 13th",
-        "status": "Fast Filling",
-        "statusColor": "orange",
-        "price": "₹8,499/-"
-      },
-      {
-        "date": "24th - 27th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,499/-"
-      }
-    ],
-    "June": [
-      {
-        "date": "07th - 10th",
+        "date": "6th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹8,499/-"
       },
       {
-        "date": "21st - 24th",
+        "date": "19th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,499/-"
+      },
+      {
+        "date": "26th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹8,499/-"
@@ -266,11 +250,13 @@
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "chennai": "₹8,499/-"
+          "mrp": "₹10,990/-",
+          "offer": "₹8499/-"
         },
         {
           "sharing": "Double Sharing",
-          "chennai": "₹9,499/-"
+          "mrp": "₹10,990/-",
+          "offer": "₹9499/-"
         }
       ]
     }
@@ -433,8 +419,6 @@
       ]
     }
   },
-
-
   "varkala-new": {
     "August": [
       {
@@ -480,7 +464,6 @@
       ]
     }
   },
-
   "pondicherry": {
     "August": [
       {
