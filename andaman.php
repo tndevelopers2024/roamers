@@ -76,7 +76,7 @@
       <ul class="banner-hight-bottom p-0"
         style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
         <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
-          HAVELOCK ISLAND
+          PORT BLAIR
           <span class="ms-2">
             <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
                 style="width:13px; margin-bottom: 3px;"></span>
@@ -85,13 +85,18 @@
 
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
 
-          NEIL ISLAND
+          ROSS LAND
           <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
                 style="width:13px; margin-bottom: 3px;"></span>
         </li>
+        <li class="mobile-small-text m me-2"
+          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+          HAVELOCK ISLAND <span class="ms-2"><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
+              style="width:13px; margin-bottom: 3px;"></span>
+        </li>
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-          PORT BLAIR
+          NEIL ISLAND
         </li>
       </ul>
 
@@ -832,14 +837,14 @@
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹ 46,990/-</strike>
+                        <strike>₹ 39,990/-</strike>
                       </span>
-                      <span class="andaman-price new-price"></span><span class="new-price">/-</span>
+                      <span class="andaman-price new-price"></span><span class="new-price ">/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="#" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                      <a href="andaman-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -1066,11 +1071,11 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹24,490/-</span>
+          <span class="price-amount ">₹34,500/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="#" class="btn-book">Dates & Costing</a>
+      <a href="andaman-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 

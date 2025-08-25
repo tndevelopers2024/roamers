@@ -93,8 +93,8 @@
         .upcoming-card {
             flex: 0 0 auto;
             width: 350px;
-            min-width: 350px;
-            max-width: 350px;
+            min-width: 367px;
+            max-width: 378px;
             height: 350px;
             position: relative;
             border: 2px solid;
@@ -687,7 +687,7 @@
                     <div class="upcoming-card">
                         <div class="upcoming-content">
                             <div class="upcoming-image">
-                                <img src="http://localhost/Roamers/assets/img/kolukkumalai-img/2.jpg" alt="Varkala">
+                                <img src="assets\img\kolukkumalai-img\2.jpg" alt="Varkala">
                             </div>
                             <div class="upcoming-card-flex">
                                 <div class="upcoming-duration">
@@ -707,7 +707,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹8499</div>
+                                    <div class="upcoming-price munnar-price"></div>
                                 </div>
                             </div>
                             <a href="kolukkumalai-trek.php" target="_blank" class="upcoming-view">View Trip</a>
@@ -729,7 +729,7 @@
                                 </div>
                             </div>
                             <h1 class="upcoming-title">Andaman Island Hopping</h1>
-                            <p class="upcoming-locations">Havelock Island, Neil Island, Port Blair</p>
+                            <p class="upcoming-locations">Port Blair, Ross Island, Havelock, Neil</p>
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
@@ -737,7 +737,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹24,490</div>
+                                    <div class="upcoming-price andaman-price"></div>
                                 </div>
                             </div>
                             <a href="andaman.php" target="_blank" class="upcoming-view">View Trip</a>

@@ -1185,7 +1185,7 @@ session_start();
                         <div class="input-field mt-4">
                           <select id="pickup" name="pickup" class="form-select mt-4" required>
                             <option value="" disabled selected>Select the Location</option>
-                            <option value="Chennai">Colombo</option>
+                            <option value="Chennai">Chennai</option>
                           </select>
                         </div>
                         <span class="span mt-5">Address</span>

@@ -261,6 +261,39 @@
       ]
     }
   },
+  "andaman": {
+    "October": [
+      {
+        "date": "Oct 18th - Oct 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹37,500/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "Nov 15th - Nov 21th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹37,500/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹37,500/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "mrp": "₹40,990/-",
+          "offer": "₹34,500/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "mrp": "₹41,990/-",
+          "offer": "₹37,500/-"
+        }
+      ]
+    }
+  },
   "valley": {
     "July": [
       {
@@ -541,6 +574,79 @@
           "sharing": "Double Sharing",
           "offer": "₹5,500/-",
           "mrp": "₹6,990/-"
+        }
+      ]
+    }
+  },
+  "chikmagalur": {
+    "September": [
+      {
+        "date": "Sep 06th - Sep 12th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      },
+      {
+        "date": "Sep 20th - Sep 26th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      },
+      {
+        "date": "Sep 27th - 03 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      }
+    ],
+    "October": [
+      {
+        "date": "Oct 18th - Oct 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "Nov 15th - Nov 21th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "Dec 13th - Dec 19th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      },
+      {
+        "date": "Dec 20th - Dec 26th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      },
+      {
+        "date": "Dec 27th - Dec 02Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹7,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹7,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹7,990/-",
+          "mrp": "₹8,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹8,990/-",
+          "mrp": "₹9,990/-"
         }
       ]
     }

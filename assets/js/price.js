@@ -19,7 +19,7 @@ document.querySelectorAll(".kerala-price").forEach((element) => {
 });
 
 document.querySelectorAll(".andaman-price").forEach((element) => {
-  element.innerHTML = "₹24,490";
+  element.innerHTML = "₹34,500";
 });
 
 document.querySelectorAll(".leh-ladak-price").forEach((element) => {
@@ -69,4 +69,7 @@ document.querySelectorAll(".srilanka-price").forEach((element) => {
 })
 document.querySelectorAll(".pondi-price").forEach((element) => {
   element.innerHTML = "₹4,990"
+})
+document.querySelectorAll(".chikmangalur-price").forEach((element) => {
+  element.innerHTML = "₹7,990"
 })
