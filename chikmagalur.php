@@ -359,12 +359,17 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/chikmangalur/Media/10.jpg" , class="img-fluid w-100" alt="Ladakh 3"
+                  <img src="assets/img/chikmangalur/new-chikmangalur-img-by-roamers.avif" , class="img-fluid w-100" alt="Ladakh 3"
                     style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
 
                 <div class="swiper-slide">
                   <img src="assets/img/chikmangalur/Media/hills.jpg" class="img-fluid w-100" alt="Ladakh 1"
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/chikmangalur/new-chikmangalur-img-by-roamers-2.png" class="img-fluid w-100" alt="Ladakh 1"
                     style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
               </div>

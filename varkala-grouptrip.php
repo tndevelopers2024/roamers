@@ -376,6 +376,10 @@
                   <img src="https://roamers.in/assets/img/varkala/kappilbeach.jpg" class="img-fluid w-100"
                     alt="Kappil Beach Varkala" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/varkala/qxz3xossdn9zmjz8cmrx.avif" class="img-fluid w-100"
+                    alt="Kappil Beach Varkala" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                </div>
               </div>
             </div>
           </div>
@@ -716,12 +720,32 @@
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/varkala/varkala-1.jpg" alt="Sri Lanka 2">
+            <img src="https://roamers.in/assets/img/varkala/Ropecar.png" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/varkala/Ropecar.png" alt="Sri Lanka 3">
+            <img src="assets/img/varkala/bwql5yrfiy4deti8luaq.avif" alt="Sri Lanka 3">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Sri Lanka 3">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/varkala/qxz3xossdn9zmjz8cmrx.avif" alt="Sri Lanka 3">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Sri Lanka 3">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
@@ -729,17 +753,6 @@
             <img src="https://roamers.in/assets/img/varkala/black-beach.jpg" alt="Sri Lanka 4">
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/varkala/cliffs.jpg" alt="Sri Lanka 5">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/varkala/kappilbeach.jpg" alt="Sri Lanka 6">
-          </div>
-        </div>
-
       </div>
       <div class="swiper-pagination d-none d-md-none"></div>
     </div>

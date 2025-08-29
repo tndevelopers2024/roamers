@@ -73,3 +73,6 @@ document.querySelectorAll(".pondi-price").forEach((element) => {
 document.querySelectorAll(".chikmangalur-price").forEach((element) => {
   element.innerHTML = "₹7,990"
 })
+document.querySelectorAll(".kerala-onam-price").forEach((element) => {
+  element.innerHTML = "₹8499"
+})

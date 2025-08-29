@@ -5,27 +5,25 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" width="600"
-    height="600" alt="image for ooty" />
-  <title>Roamers - Meghalaya</title>
+  <meta property="og:image:secure_url" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
+  <title>Roamers - Onam Special</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Meghalaya" />
+  <meta name="description" content="Roamers - Onam Special" />
   <meta name="author" content="Themeland" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Meghalaya" />
-  <meta property="og:description" content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta property="og:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta property="og:title" content="Roamers - Onam Special" />
+  <meta property="og:description" content="Discover the beauty of Onam Special with our detailed travel guide and tips." />
+  <meta property="og:image" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
+  <meta property="og:url" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Meghalaya" />
-  <meta name="twitter:description"
-    content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta name="twitter:title" content="Roamers - Onam Special" />
+  <meta name="twitter:description" content="Discover the beauty of Onam Special with our detailed travel guide and tips." />
+  <meta name="twitter:image" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -63,36 +61,25 @@
   <section class="trip-home" class="banner-marigin-section" id="tripSection"
     style="  padding: 350px 0; color: white; position: relative;  ">
 
+
+
     <div class="container-lg" style="position: relative; text-align: center;">
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        MEJESTIC MEGHALAYA
+        ONAM SPECIAL
       </h2>
 
       <ul class="banner-hight-bottom p-0"
         style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
         <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
-
-        </li>
-
-        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
-        </li>
-        <li class="mobile-small-text  me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
-        </li>
-        <li class="mobile-small-text  me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
-        </li>
-        <li class="mobile-small-text me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
+          MUNNAR <span class="ms-2">
+            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+                style="width:13px; margin-bottom: 3px;"></span>
+          </span>
         </li>
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
+          ALAPPUZHA <span class="ms-2">
         </li>
       </ul>
 
@@ -102,7 +89,6 @@
       </div>
 
   </section>
-
   <!-- Tab -->
   <section class="tab-sections mob-tab">
     <div class="">
@@ -132,7 +118,7 @@
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value meghalaya-price"><span>/-</span></div>
+                  <div class="info-value kerala-onam-price"><span>/-</span></div>
                 </div>
               </div>
             </div>
@@ -145,7 +131,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">6D / 5N</div>
+                  <div class="info-value">3D / 2N</div>
                 </div>
               </div>
             </div>
@@ -158,7 +144,7 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Guwahati</div>
+                  <div class="info-value">Chennai</div>
                 </div>
               </div>
             </div>
@@ -196,7 +182,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">6D / 5N</div>
+                  <div class="info-value">3D / 2N</div>
                 </div>
               </div>
             </div>
@@ -209,7 +195,7 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Guwahati</div>
+                  <div class="info-value">Chennai</div>
                 </div>
               </div>
             </div>
@@ -232,7 +218,7 @@
             <a href="#itinerary" class="tab-box ">Itinerary <span></span></a>
             <a href="#inclusion" class="tab-box ">Inclusion <span></span></a>
             <a href="#exclusion" class="tab-box ">Exclusion <span></span></a>
-            <a href="#notes" class="tab-box border-end-0">Notes</a>
+            <!-- <a href="#notes" class="tab-box border-end-0">Notes</a> -->
           </div>
         </div>
       </div>
@@ -295,27 +281,26 @@
           <!-- Text Section -->
           <div class="col-md-7">
             <div class="travel-des p-3 p-md-4">
-              <h2 class="mb-3 pt-3">Let’s unveil the world of Meghalaya </h2>
+              <h2 class="mb-3 pt-3">Onam Special: Munnar & Alleppey Adventure</h2>
 
               <!-- Desktop description (full text) -->
               <p style="color: #555;" class="desk-desc d-none d-md-block">
-                Think Meghalaya is all about those picturesque waterfalls, root bridges, and endless rivers? Well, it's
-                that and so much more! Join us for an action-packed 7-day adventure where you'll dive deep into
-                Meghalaya's unique culture, embrace thrilling experiences, and uncover a world that defies Instagram's
-                limits. It's all about exploring with a tight-knit group of fellow travellers who are ready to create
-                unforgettable memories
+                Step into a world of rolling hills, sparkling backwaters, and festive delights! From exploring Munnar’s tea gardens to cruising through Alleppey’s tranquil canals, enjoy local flavors, vibrant culture, and the perfect blend of relaxation and adventure.
+                <br>
+                Feel the festive spirit with colorful Onam celebrations and traditional rituals.
+                Unwind in cozy stays surrounded by nature’s beauty, creating moments of peace and joy.
+                Capture every sunset, every smile, and every magical memory on this unforgettable Kerala journey.
               </p>
 
               <!-- Mobile description (truncated with toggle) -->
               <p style="color: #555;" class="mob-desc d-block d-md-none">
-                Think Meghalaya is all about those picturesque waterfalls, root bridges, and endless rivers? Well, it's
-                that and so much more! Join us for an action-packed 7-day adventure where you'll dive deep into
-                Meghalaya's unique culture, embrace thrilling experiences,<br>
+                Step into a world of rolling hills, sparkling backwaters, and festive delights! From exploring Munnar’s tea gardens to cruising through Alleppey’s tranquil canals, <br>
                 <span id="dots">...</span>
                 <span id="moreText" style="display: none;"><br><br>
-                  and uncover a world that defies Instagram's
-                  limits. It's all about exploring with a tight-knit group of fellow travellers who are ready to create
-                  unforgettable memories
+                  Enjoy local flavors, vibrant culture, and the perfect blend of relaxation and adventure.<br>
+                  Feel the festive spirit with colorful Onam celebrations and traditional rituals.<br>
+                  Unwind in cozy stays surrounded by nature’s beauty, creating moments of peace and joy.<br>
+                  Capture every sunset, every smile, and every magical memory on this unforgettable Kerala journey.
                 </span>
               </p>
 
@@ -346,14 +331,18 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" , class="img-fluid w-100" alt="Ladakh 3"
-                    style="border-radius: 10px; height: 350px; object-fit: cover;">
+                  <img src="assets/img/kerala-onam/kerala-onam (11).avif" , class="img-fluid w-100"
+                    alt="Kerala Onam 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/kerala-onam/kerala-onam (8).avif" , class="img-fluid w-100"
+                    alt="Kerala Onam 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/kerala-onam/kerala-onam (4).avif" , class="img-fluid w-100"
+                    alt="Kerala Onam 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/megalaya/Guwahati.jpg" class="img-fluid w-100" alt="Ladakh 1"
-                    style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
               </div>
             </div>
           </div>
@@ -375,287 +364,197 @@
             <div class="">
 
               <div class="accordion" id="accordionExample">
-                <!-- day 1 -->
+                <!-- day 0 -->
                 <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
-                  <h2 class="accordion-header" id="headingOne">
+                  <h2 class="accordion-header" id="headingZero">
                     <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                      aria-controls="collapseOne">
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true"
+                      aria-controls="collapseZero">
                       <div class="d-flex align-items-center">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                        <span> Guwahati arrival | Umiam Lake | Shillong chill scenes</span>
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 0</span>
+                        <span>Chennai → Munnar (Overnight Journey)</span>
                       </div>
                       <i class="bi bi-chevron-down ms-auto transition-all"></i>
                     </button>
                   </h2>
-
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  <div id="collapseZero" class="accordion-collapse collapse show" aria-labelledby="headingZero"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
-
                       <ul class="ps-lg-3 ps-0">
-                        <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>
-                          Meet the Roamers team & trip captain at the designated point in Guwahati and get ready to
-                          kick-start our journey to Shillong.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Hey Roamers! Meet the Co Travellers & Trip Leader and we kickstart our Onam trip from Chennai!
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Enjoy the breathtaking views of lush green hills and the mesmerising Umiam Lake while
-                          socializing with the co-travelers. Music on and let the fun begin!
-                          </span>
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          We'll check in to our comfy accommodation in Shillong, freshen up, and it's time for some
-                          leisure.
+                          Have a comfy overnight sleep in AC Sleeper Bus.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let's chill at quaint cafes, soak in the colonial charm of Shillong, and feel free to take a
-                          stroll through the vibrant streets.
+                          Multiple stops available from Chennai, Please get the route access from the Roamers Team.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 1 -->
+                <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                      aria-controls="collapseOne">
+                      <div class="d-flex align-items-center">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
+                        <span>Munnar Arrival | Hidden Waterfalls & Bonfire</span>
+                      </div>
+                      <i class="bi bi-chevron-down ms-auto transition-all"></i>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: #f5fdff;">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Morning, Arrive in Munnar. After quick check-in, freshen up, and straight into our first
+                          adventure.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in Shillong, where the good times continue!
+                          Get ready for our little secret spot, Hidden Waterfalls, where our team can unwind, take a
+                          refreshing dip, and soak in the serene vibe.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          In the evening, spend time in leisure. Let’s have filling snacks and time for games, music and
+                          social bonding.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Late evening, let’s light the campfire in the chilly hills beneath a starry sky, unwind, and
+                          indulge in a delicious dinner together.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Munnar.
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <!-- day 2 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px !important;">
+                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingTwo">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                       type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                       aria-controls="collapseTwo">
-
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                        <span>Laitlum Grand Canyon | Cherrapunjee | Wei Sawdong Waterfall</span>
+                        <span>Zipline, Waterfalls & Alleppey Houseboat Stay</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
                   </h2>
-
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
-                      <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
-                      </div>
                       <ul class="ps-lg-3 ps-0">
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Rise and shine for an epic day! After breakfast, we're off to the stunning Laitlum Canyons for
-                          panoramic valley views of Meghalaya.
+                          Wake up to the refreshing morning. Post breakfast, we’ll kickstart with adrenaline adventures
+                          like Zipline between the mountains & Giant swing etc.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let's Begin our drive towards Cherrapunjee,
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Upon arrival check-in to our cozy hotel
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next, we'll visit the majestic Wei Sawdong Waterfall which is a three-tiered waterfall, one of
-                          Meghalaya's gems.
+                          Visit a Kerala spice farm, buy the best chocolates, tea, spices and perfect little souvenirs
+                          to your loved ones.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight Stay in Cherrapunjee, team extravaganza! Prepare for a night of pure fun and loads
-                          of unforgettable memories
+                          Road trip to magnificent Cheeyappara waterfalls, stop for some epic group photos.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          By evening we’ll check into our private houseboat in Alleppey and let the Onam Celebration
+                          begin.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Sunset cruising through Kerala’s backwaters with chai in hand and local snacks, nothing short
+                          of magic moment.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Explore nearby villages, hop on a speedboat if you’re up for it, and wrap up the day with
+                          dinner and a night of music, laughter, and enjoy with Roamers in the middle of the sea.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in a houseboat in the middle of backwaters (yes, it’s as dreamy as it sounds).
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <!-- day 3 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
-                      aria-controls="collapse3">
-
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Trek | Living Root Bridges of Meghalaya</span>
+                        <span>Onam Celebrations | Farewell & Return</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Wake up early and post-breakfast, we're heading to Tyrna Village for a thrilling living
-                          double-decker root bridge trek.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let's take a pause at the Ritymmen Root Bridge known for it's longest living root.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let’s wake up to the calm backwaters and savour Kerala-style breakfast.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Trek ahead to make our visit to the resplendent Umshiang double-decker bridge and capture
-                          those insta-worthy moments.
+                          After checkout, dive into Onam with Ambalappuzha temple visits, local cultural shows, festive
+                          vibes, and perfect group photos!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>In
-                          the evening, we'll return to our comfy Cherrapunjee accommodation for some well-deserved
-                          leisure.
-                          Overnight stay at Cherrapunjee!!!
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Post-lunch, enjoy some free time in Alleppey town with relaxing beach strolls and last-minute
+                          shopping!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          By late afternoon, we bid farewell & we’ll return from God's own Country.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Early morning Arrive Chennai.
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <!-- day 4 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
-                      aria-controls="collapse4">
 
-                      <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Nohkalikai Falls | Mawsmai Caves | Dawki</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                      </div>
-                    </button>
-                  </h2>
-                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body bg-white px-4 py-3">
-                      <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Rise and shine again! We're diving into the picturesque beauty of Meghalaya, starting with
-                          Nohkalikai Falls (the tallest plunge waterfall in India) and Seven Sister Falls.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next up, we'll head to the majestic Mawsmai Caves. Let's stroll inside and explore.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After a fantastic exploration day, we'll begin our drive towards Dawki.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Visit the pristine Mawlynnong village, know as Asia’s cleanest village, take a relaxing walk
-                          through its beautiful surroundings
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!-- day 5 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
-                      aria-controls="collapse5">
-
-                      <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Umngot River | Boat Ride | Krang Suri Waterfall</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                      </div>
-                    </button>
-                  </h2>
-                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body bg-white px-4 py-3">
-                      <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Alright team! get ready for an exhilarating Boat ride on the crystal-clear waters of Umngot
-                          River in Dawki.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Visit the peaceful India-Bangladesh border checkpost, an unbarbed area perfect for unique
-                          photo ops!
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          On the way back to Shillong, we'll visit the enchanting Krang Shuri Waterfall, an absolute
-                          must-see waterfall of Meghalaya known for its silky cascading water.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          We'll check in to our comfy Shillong accommodation and enjoy some leisure time.
-                          Overnight stay in Shillong, where the adventure never ends!
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!-- day 6 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
-                      aria-controls="collapse6">
-
-                      <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Shillong #MeTime | Farewell</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                      </div>
-                    </button>
-                  </h2>
-                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body bg-white px-4 py-3">
-                      <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Wake up and get ready for a relaxed morning as we prepare to enjoy a delightful breakfast,
-                          fueling up for your last day in Meghalaya.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Bid goodbye to Meghalaya as we drive back to Guwahati, cherishing countless memories,
-                          incredible experiences, and new friendships.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Our fantastic trip ends, leaving us with hearts full of joy and adventure! Until next time,
-                          team!
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          We'll reach our first drop point Coimbatore at 7 PM, and we'll arrive at Chennai by 6 AM. Bye
-                          for now, Roamers. Reunion plans for next year? You bet!
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Goodbyes are never easy, but what ride it has been! See you guys, more Hugs!
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
             <!-- >> Inclusion section << -->
             <section id="inclusion">
-              <div class="important-notes shadow " style="border-radius: 10px; background-color:rgb(245, 255, 246) ;">
+              <div class="important-notes shadow" style="border-radius: 10px; background-color:rgb(245, 255, 246);">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
-                <div id="">
-
+                <div>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Cover all Transportation as mentioned in itinerary.
+                    All transportation as mentioned in the itinerary. Sleeper AC from Chennai &amp; Tempo Traveller for
+                    local transfer.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    6 Meals, 5 Breakfast & 1 Dinner
+                    Hotels or Houseboat stay. Solo travellers can share with travellers of the same gender.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Experienced driver who is super friendly & knowledgeable
+                    2 Breakfasts, 1 Lunch &amp; 2 Dinners.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Entry fees for Included places and local tax. No hidden charges.
-
+                    Experienced team leaders who are friendly &amp; knowledgeable.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    A-Z Trip assistance from our Travel Experts.
-
+                    Entry fees for included places and local taxes. No hidden charges.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Guide Treak, Boating, Bonfire (if Weather Permits)
+                    A–Z trip assistance from our travel experts.
                   </p>
-
                 </div>
               </div>
             </section>
@@ -667,24 +566,23 @@
               <div>
                 <p>
                   <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Personal Expenses like shopping and other optional activities.
-
+                  Personal expenses like shopping or other optional activities.
                 </p>
                 <p>
                   <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Any other costing involved due to natural calamity or any other forced circumstance which are out of
-                  our control.
+                  Any additional costs due to natural calamities or circumstances beyond our control.
                 </p>
                 <p>
                   <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  GST (5%) is applicable extra.
+                  GST (5%) is applicable.
                 </p>
                 <p>
                   <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Anything which is not mentioned in the above Inclusions
+                  Anything not mentioned in the above inclusions.
                 </p>
               </div>
             </div>
+
           </div>
 
           <!-- >> Side Sticky Section << -->
@@ -694,7 +592,7 @@
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery"" alt=" Ladakh Banner 3"
+                <img src="assets/img/kerala-onam/kerala-onam (1).avif" alt="Ladakh Banner 3"
                   style=" object-fit:cover; border-radius: 10px;">
               </div>
 
@@ -706,14 +604,14 @@
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹ 20,000/-</strike>
+                        <strike>₹ 10,990/-</strike>
                       </span>
-                      <span class="meghalaya-price new-price"></span><span class="new-price">/-</span>
+                      <span class="kerala-onam-price new-price"></span><span class="new-price">/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="meghalaya-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                      <a href="kerala-onam-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -772,57 +670,37 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Ritymmen-Root-bridge.jpg" alt="roamers-Gallery">
+            <img src="assets/img/kerala-onam/kerala-onam (2).avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/nohkalikali-falls.jpg" alt="roamers-Gallery">
+            <img src="assets/img/kerala-onam/kerala-onam (7).avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/mawsami%20caves.jpg" alt="roamers-Gallery">
+            <img src="assets/img/kerala-onam/kerala-onam (6).avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Mawlynong%20Village.jpg" alt="roamers-Gallery">
+            <img src="assets/img/kerala-onam/kerala-onam (12).avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Guwahati-1.jpg" alt="roamers-Gallery">
+            <img src="assets/img/kerala-onam/kerala-onam (4).avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/krang%20shuri%20waterfalls.jpg" alt="roamers-Gallery">
+            <img src="assets/img/kerala-onam/kerala-onam (1).avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/double%20deckker.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Wei-Sawdong-Waterfalls.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Umngot%20River%20boat%20ride.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Tyrna%20village.jpg" alt="roamers-Gallery">
+            <img src="assets/img/kerala-onam/kerala-onam (11).avif" alt="Sri Lanka 1">
           </div>
         </div>
       </div>
@@ -957,11 +835,11 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount meghalaya-price">/-</span>
+          <span class="price-amount ">₹8,499/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="meghalaya-form.php" class="btn-book">Dates & Costing</a>
+      <a href="kerala-onam-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 
@@ -1361,7 +1239,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "https://roamers.in/assets/img/megalaya/cover.jpg",
+      "assets/img/kerala-onam/kerala-onam (5).avif",
     ];
 
     let index = 0;
@@ -1429,6 +1307,9 @@
     startInterval();
   </script>
 
+
 </body>
+
+</html>
 
 </html>

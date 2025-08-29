@@ -650,5 +650,103 @@
         }
       ]
     }
+  },
+  "meghalaya": {
+    "September": [
+      {
+        "date": "Sep 06th - Sep 12th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      },
+      {
+        "date": "Sep 20th - Sep 26th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      },
+      {
+        "date": "Sep 27th - 03 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      }
+    ],
+    "October": [
+      {
+        "date": "Oct 18th - Oct 24th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "Nov 15th - Nov 21th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "Dec 13th - Dec 19th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      },
+      {
+        "date": "Dec 20th - Dec 26th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      },
+      {
+        "date": "Dec 27th - Dec 02Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹19,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹7,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹19,990/-",
+          "mrp": "₹20,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹21,990/-",
+          "mrp": "₹22,990/-"
+        }
+      ]
+    }
+  },
+  "kerala-onam": {
+    "September": [
+      {
+        "date": "Sep 04th - Sep 08th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹8,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹8,499/-",
+          "mrp": "₹9,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹9,499/-",
+          "mrp": "₹10,499/-"
+        }
+      ]
+    }
   }
 }
