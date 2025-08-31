@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
+  <meta property="og:image:secure_url"
+    content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
   <title>Roamers - Onam Special</title>
 
   <!-- SEO Meta Description -->
@@ -16,14 +17,19 @@
 
   <!-- Basic Open Graph tags -->
   <meta property="og:title" content="Roamers - Onam Special" />
-  <meta property="og:description" content="Discover the beauty of Onam Special with our detailed travel guide and tips." />
-  <meta property="og:image" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
-  <meta property="og:url" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
+  <meta property="og:description"
+    content="Discover the beauty of Onam Special with our detailed travel guide and tips." />
+  <meta property="og:image"
+    content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
+  <meta property="og:url"
+    content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Roamers - Onam Special" />
-  <meta name="twitter:description" content="Discover the beauty of Onam Special with our detailed travel guide and tips." />
-  <meta name="twitter:image" content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
+  <meta name="twitter:description"
+    content="Discover the beauty of Onam Special with our detailed travel guide and tips." />
+  <meta name="twitter:image"
+    content="https://www.thefestivalwishes.com/pixlab/uploads/stories/1692784080_happy-onam-festival-wishes-with-name.jpg" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -67,7 +73,7 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        ONAM SPECIAL
+        Onam Special – Kerala Getaway
       </h2>
 
       <ul class="banner-hight-bottom p-0"
@@ -285,7 +291,9 @@
 
               <!-- Desktop description (full text) -->
               <p style="color: #555;" class="desk-desc d-none d-md-block">
-                Step into a world of rolling hills, sparkling backwaters, and festive delights! From exploring Munnar’s tea gardens to cruising through Alleppey’s tranquil canals, enjoy local flavors, vibrant culture, and the perfect blend of relaxation and adventure.
+                Step into a world of rolling hills, sparkling backwaters, and festive delights! From exploring Munnar’s
+                tea gardens to cruising through Alleppey’s tranquil canals, enjoy local flavors, vibrant culture, and
+                the perfect blend of relaxation and adventure.
                 <br>
                 Feel the festive spirit with colorful Onam celebrations and traditional rituals.
                 Unwind in cozy stays surrounded by nature’s beauty, creating moments of peace and joy.
@@ -294,7 +302,8 @@
 
               <!-- Mobile description (truncated with toggle) -->
               <p style="color: #555;" class="mob-desc d-block d-md-none">
-                Step into a world of rolling hills, sparkling backwaters, and festive delights! From exploring Munnar’s tea gardens to cruising through Alleppey’s tranquil canals, <br>
+                Step into a world of rolling hills, sparkling backwaters, and festive delights! From exploring Munnar’s
+                tea gardens to cruising through Alleppey’s tranquil canals, <br>
                 <span id="dots">...</span>
                 <span id="moreText" style="display: none;"><br><br>
                   Enjoy local flavors, vibrant culture, and the perfect blend of relaxation and adventure.<br>
@@ -331,16 +340,16 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/kerala-onam/kerala-onam (11).avif" , class="img-fluid w-100"
-                    alt="Kerala Onam 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                  <img src="assets/img/kerala-onam/kerala-onam (11).avif" , class="img-fluid w-100" alt="Kerala Onam 1"
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/kerala-onam/kerala-onam (8).avif" , class="img-fluid w-100"
-                    alt="Kerala Onam 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                  <img src="assets/img/kerala-onam/kerala-onam (8).avif" , class="img-fluid w-100" alt="Kerala Onam 1"
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/kerala-onam/kerala-onam (4).avif" , class="img-fluid w-100"
-                    alt="Kerala Onam 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                  <img src="assets/img/kerala-onam/kerala-onam (4).avif" , class="img-fluid w-100" alt="Kerala Onam 1"
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
 
               </div>
@@ -372,7 +381,7 @@
                       aria-controls="collapseZero">
                       <div class="d-flex align-items-center">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 0</span>
-                        <span>Chennai → Munnar (Overnight Journey)</span>
+                        <span><b>Chennai → Munnar (Overnight Journey)</b></span>
                       </div>
                       <i class="bi bi-chevron-down ms-auto transition-all"></i>
                     </button>
@@ -381,13 +390,16 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Hey Roamers! Meet the Co Travellers & Trip Leader and we kickstart our Onam trip from Chennai!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Have a comfy overnight sleep in AC Sleeper Bus.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Multiple stops available from Chennai, Please get the route access from the Roamers Team.
                         </li>
                       </ul>
@@ -402,7 +414,7 @@
                       aria-controls="collapseOne">
                       <div class="d-flex align-items-center">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                        <span>Munnar Arrival | Hidden Waterfalls & Bonfire</span>
+                        <span><b>Munnar Arrival | Hidden Waterfalls & Bonfire</b></span>
                       </div>
                       <i class="bi bi-chevron-down ms-auto transition-all"></i>
                     </button>
@@ -411,24 +423,25 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Morning, Arrive in Munnar. After quick check-in, freshen up, and straight into our first
-                          adventure.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Morning, <b>Arrive in Munnar</b>. After quick check-in, freshen up, and straight into our first adventure.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Get ready for our little secret spot, Hidden Waterfalls, where our team can unwind, take a
-                          refreshing dip, and soak in the serene vibe.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Get ready for our little secret spot, <b>Hidden Waterfalls</b>, where our team can unwind, take a refreshing dip, and soak in the serene vibe.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          In the evening, spend time in leisure. Let’s have filling snacks and time for games, music and
-                          social bonding.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          In the evening, spend time in <b>Leisure</b>. Let’s have filling snacks and time for games, music and <b>Social Bonding</b>.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Late evening, let’s light the campfire in the chilly hills beneath a starry sky, unwind, and
-                          indulge in a delicious dinner together.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Late evening, let’s light the campfire in the chilly hills beneath a starry sky, unwind, and indulge in a delicious dinner together
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in Munnar.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          <b>Overnight stay in Munnar</b>.
                         </li>
                       </ul>
                     </div>
@@ -443,7 +456,7 @@
                       aria-controls="collapseTwo">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                        <span>Zipline, Waterfalls & Alleppey Houseboat Stay</span>
+                        <span><strong>Zipline, Waterfalls & Alleppey Houseboat Stay</strong></span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -452,31 +465,33 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Wake up to the refreshing morning. Post breakfast, we’ll kickstart with adrenaline adventures
-                          like Zipline between the mountains & Giant swing etc.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Wake up to the refreshing morning. Post breakfast, we’ll kickstart with adrenaline adventures like <strong>Zipline between the mountains &amp; Giant swing etc</strong>.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Visit a Kerala spice farm, buy the best chocolates, tea, spices and perfect little souvenirs
-                          to your loved ones.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Visit a <strong>Kerala spice farm</strong>, buy the best chocolates, tea, spices and perfect little souvenirs to your loved ones.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Road trip to magnificent Cheeyappara waterfalls, stop for some epic group photos.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Road trip to Magnificent <strong>Cheeyappara waterfalls</strong>, stop for some epic group photos.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          By evening we’ll check into our private houseboat in Alleppey and let the Onam Celebration
-                          begin.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          <strong>By Evening we’ll</strong> check into our <strong>private houseboat</strong> in Alleppey and let the Onam Celebration begin.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Sunset cruising through Kerala’s backwaters with chai in hand and local snacks, nothing short
-                          of magic moment.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          <strong>Sunset cruising</strong> through Kerala’s backwaters with chai in hand and local snacks, nothing short of magic moment.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Explore nearby villages, hop on a speedboat if you’re up for it, and wrap up the day with
-                          dinner and a night of music, laughter, and enjoy with Roamers in the middle of the sea.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Explore nearby villages, hop on a <strong>speedboat</strong> if you’re up for it, and wrap up the day with dinner and a night of music, laughter, and enjoy with Roamers middle of the sea.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in a houseboat in the middle of backwaters (yes, it’s as dreamy as it sounds).
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          <strong>Overnight stay in a houseboat in the middle of backwaters</strong> (yes, it’s as dreamy as it sounds).
                         </li>
                       </ul>
                     </div>
@@ -491,7 +506,7 @@
                       aria-controls="collapseThree">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Onam Celebrations | Farewell & Return</span>
+                        <span><strong>Onam Celebrations | Farewell &amp; Return</strong></span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -500,22 +515,25 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let’s wake up to the calm backwaters and savour Kerala-style breakfast.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let’s wake up to the calm backwaters and savour <strong>Kerala-style breakfast</strong>.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After checkout, dive into Onam with Ambalappuzha temple visits, local cultural shows, festive
-                          vibes, and perfect group photos!
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After checkout, dive into Onam with <strong>Ambalappuzha temple</strong> visits, local cultural shows, festive vibes, and perfect group photos!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Post-lunch, enjoy some free time in Alleppey town with relaxing beach strolls and last-minute
-                          shopping!
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Post-lunch, enjoy some free time in Alleppey town with relaxing <strong>Beach</strong> strolls and last-minute <strong>shopping!</strong>
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          By late afternoon, we bid farewell & we’ll return from God's own Country.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          By late afternoon, we bid farewell &amp; we’ll return from God's own Country.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Early morning Arrive Chennai.
+                        <li>
+                          <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          <strong>Early morning Arrive Chennai</strong>
                         </li>
                       </ul>
                     </div>
@@ -1239,7 +1257,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "assets/img/kerala-onam/kerala-onam (5).avif",
+      "assets/img/kerala-onam/kerala-onam (8).avif",
     ];
 
     let index = 0;

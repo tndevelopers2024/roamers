@@ -547,7 +547,7 @@
             <button class="upcoming-tab-btn active" data-tab="august">
                 <i class="fa-solid fa-cloud-sun"></i> August
             </button>
-            <button class="upcoming-tab-btn" data-tab="">
+            <button class="upcoming-tab-btn" data-tab="sep">
                 <i class="fa-solid fa-cloud-sun-rain"></i> September
             </button>
             <button class="upcoming-tab-btn" data-tab="">
@@ -748,6 +748,191 @@
                         class="fa fa-chevron-right"></i></button>
             </div>
         </div>
+        <div class="upcoming-tab-content" id="tab-sep">
+            <div class="upcoming-slider-wrapper">
+                <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button"><i
+                        class="fa fa-chevron-left"></i></button>
+                <div class="upcoming-slider" id="upcoming-slider-sep">
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/kerala-onam/kerala-onam (11).avif" alt="Varkala">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Chennai</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Onam Special – Kerala Getaway</h1>
+                            <p class="upcoming-locations">Munnar , Alappuzha</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Sep 4, 8</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price ">8499</div>
+                                </div>
+                            </div>
+                            <a href="kerala-onam.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Direct, Chennai</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Pondi Dive-in</h1>
+                            <p class="upcoming-locations">Pondicherry</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Sep 6, 12, 20, 26, 27</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹4,990</div>
+                                </div>
+                            </div>
+                            <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Chennai/Trivandrum</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Varkala</h1>
+                            <p class="upcoming-locations">Chennai - Trivandrum</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Sep 12, 26</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹8,990</div>
+                                </div>
+                            </div>
+                            <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/megalaya/Front%203.jpg" alt="Valley of Flowers">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>Ex: Guwahati </span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">MEJESTIC MEGHALAYA</h1>
+                            <p class="upcoming-locations">Guwahati, Shillong, Cherrapunjee</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Sep 6, 12, 20, 26, 27</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹19,990</div>
+                                </div>
+                            </div>
+                            <a href="meghalaya.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/Testimnils/chikmagalur.jpg" alt="Sri Lanka">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Chennai - Bangalore</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">CHIKMAGALUR BAGPACKING </h1>
+                            <p class="upcoming-locations">Chikmagalur, Z point, Hebbe Falls</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Sep 6, 12, 20, 26, 27</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price">₹7,990</div>
+                                </div>
+                            </div>
+                            <a href="chikmagalur.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <!-- <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg"
+                                    alt="Varkala">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Port Blair</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Andaman Island Hopping</h1>
+                            <p class="upcoming-locations">Port Blair, Ross Island, Havelock, Neil</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Customise it!</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price andaman-price"></div>
+                                </div>
+                            </div>
+                            <a href="andaman.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div> -->
+                </div>
+                <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip" type="button"><i
+                        class="fa fa-chevron-right"></i></button>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -801,14 +986,35 @@
                     btn.classList.add('active');
                     tabContents.forEach(tc => tc.classList.remove('active'));
                     const content = document.getElementById('tab-' + tab);
-                    if (content) content.classList.add('active');
+                    if (content) {
+                        content.classList.add('active');
+                        // Initialize slider for the newly active tab once
+                        setupSlider(
+                            '#' + content.id + ' .upcoming-slider-wrapper',
+                            '.upcoming-slider',
+                            '.upcoming-slider-arrow.left',
+                            '.upcoming-slider-arrow.right'
+                        );
+                        // Center first card on mobile for the active tab
+                        const activeSlider = content.querySelector('.upcoming-slider');
+                        if (activeSlider && window.innerWidth <= 600) {
+                            const cards = Array.from(activeSlider.querySelectorAll('.upcoming-card'));
+                            if (cards.length > 0) {
+                                const cardLeft = cards[0].offsetLeft;
+                                const containerWidth = activeSlider.offsetWidth;
+                                const cardWidth = cards[0].offsetWidth;
+                                const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
+                                activeSlider.scrollTo({ left: scrollPosition, behavior: 'auto' });
+                            }
+                        }
+                    }
                 });
             });
 
             // Slider logic
             function setupSlider(wrapperSelector, sliderSelector, leftArrowSelector, rightArrowSelector) {
-                const wrapper = document.querySelector(wrapperSelector);
-                if (!wrapper) return;
+                const wrapper = typeof wrapperSelector === 'string' ? document.querySelector(wrapperSelector) : wrapperSelector;
+                if (!wrapper || wrapper.dataset.initialized === 'true') return;
                 const slider = wrapper.querySelector(sliderSelector);
                 const leftArrow = wrapper.querySelector(leftArrowSelector);
                 const rightArrow = wrapper.querySelector(rightArrowSelector);
@@ -869,6 +1075,7 @@
                 slider.addEventListener('scroll', updateArrows);
                 window.addEventListener('resize', updateArrows);
                 updateArrows();
+                wrapper.dataset.initialized = 'true';
             }
 
             setupSlider(
