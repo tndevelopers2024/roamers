@@ -71,7 +71,7 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        <span class="pondi-banner-title">PONDI DIVE-IN</span>
+        <span class="pondi-banner-title">Pondicherry & chill</span>
       </h2>
       <style>
         @media (max-width: 600px) {

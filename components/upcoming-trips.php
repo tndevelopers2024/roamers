@@ -772,11 +772,11 @@
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Sep 4, 8</span>
+                                    <span class="upcoming-dates-text">Sep 4</span>
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price ">8499</div>
+                                    <div class="upcoming-price ">₹8499</div>
                                 </div>
                             </div>
                             <a href="kerala-onam.php" target="_blank" class="upcoming-view">View Trip</a>
@@ -801,7 +801,7 @@
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Sep 6, 12, 20, 26, 27</span>
+                                    <span class="upcoming-dates-text">Sep 20</span>
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
@@ -830,7 +830,7 @@
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Sep 12, 26</span>
+                                    <span class="upcoming-dates-text">Sep 12</span>
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
@@ -859,7 +859,7 @@
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Sep 6, 12, 20, 26, 27</span>
+                                    <span class="upcoming-dates-text">Sep 20</span>
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
@@ -888,7 +888,7 @@
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Sep 6, 12, 20, 26, 27</span>
+                                    <span class="upcoming-dates-text">Sep 6</span>
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
@@ -898,11 +898,39 @@
                             <a href="chikmagalur.php" target="_blank" class="upcoming-view">View Trip</a>
                         </div>
                     </div>
-                    <!-- <div class="upcoming-card">
+                    <div class="upcoming-card">
                         <div class="upcoming-content">
                             <div class="upcoming-image">
-                                <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg"
-                                    alt="Varkala">
+                                <img src="assets\img\kolukkumalai-img\2.jpg" alt="Varkala">
+                            </div>
+                            <div class="upcoming-card-flex">
+                                <div class="upcoming-duration">
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                </div>
+                                <div class="upcoming-from">
+                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                                    <span>EX: Chennai</span>
+                                </div>
+                            </div>
+                            <h1 class="upcoming-title">Munnar with Kolukkumalai</h1>
+                            <p class="upcoming-locations">Munnar</p>
+                            <div class="upcoming-price-section">
+                                <div class="upcoming-dates">
+                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                                    <span class="upcoming-dates-text">Sep 26</span>
+                                </div>
+                                <div>
+                                    <div class="upcoming-starts">Starts</div>
+                                    <div class="upcoming-price munnar-price"></div>
+                                </div>
+                            </div>
+                            <a href="kolukkumalai-trek.php" target="_blank" class="upcoming-view">View Trip</a>
+                        </div>
+                    </div>
+                    <div class="upcoming-card">
+                        <div class="upcoming-content">
+                            <div class="upcoming-image">
+                                <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
                             </div>
                             <div class="upcoming-card-flex">
                                 <div class="upcoming-duration">
@@ -910,24 +938,24 @@
                                 </div>
                                 <div class="upcoming-from">
                                     <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Port Blair</span>
+                                    <span>EX: Colombo</span>
                                 </div>
                             </div>
-                            <h1 class="upcoming-title">Andaman Island Hopping</h1>
-                            <p class="upcoming-locations">Port Blair, Ross Island, Havelock, Neil</p>
+                            <h1 class="upcoming-title">Sri Lanka</h1>
+                            <p class="upcoming-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Customise it!</span>
+                                    <span class="upcoming-dates-text">Sep 6</span>
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price andaman-price"></div>
+                                    <div class="upcoming-price">₹43,999</div>
                                 </div>
                             </div>
-                            <a href="andaman.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip" type="button"><i
                         class="fa fa-chevron-right"></i></button>

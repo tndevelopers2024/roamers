@@ -227,19 +227,7 @@
   "munnar": {
     "Sep": [
       {
-        "date": "6th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,499/-"
-      },
-      {
-        "date": "19th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,499/-"
-      },
-      {
-        "date": "26th",
+        "date": "Sep 26th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹8,499/-"
@@ -372,29 +360,9 @@
     }
   },
   "srilanka": {
-    "August": [
-      {
-        "date": "Aug - 16th",
-        "status": "Fast Filling",
-        "statusColor": "orange",
-        "price": "₹43,990/-"
-      }
-    ],
     "September": [
       {
         "date": "Sep - 6th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹43,990/-"
-      },
-      {
-        "date": "Sep - 20th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹43,990/-"
-      },
-      {
-        "date": "Sep - 27th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹43,990/-"
@@ -453,29 +421,10 @@
     }
   },
   "varkala-new": {
-    "August": [
-      {
-        "date": "15th ",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      },
-      {
-        "date": "29th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      }
-    ],
+   
     "September": [
       {
-        "date": "12th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      },
-      {
-        "date": "26th",
+        "date": "Sep 12th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹8,990/-"
@@ -498,29 +447,9 @@
     }
   },
   "pondicherry": {
-    "August": [
-      {
-        "date": "Aug 16th - Aug 22th",
-        "status": "Fast Filling",
-        "statusColor": "orange",
-        "price": "₹4,990/-"
-      }
-    ],
     "September": [
       {
-        "date": "Sep 06th - Sep 12th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹4,990/-"
-      },
-      {
-        "date": "Sep 20th - Sep 26th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹4,990/-"
-      },
-      {
-        "date": "Sep 27th - 03 Oct",
+        "date": "Sep 20th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹4,990/-"
@@ -654,19 +583,7 @@
   "meghalaya": {
     "September": [
       {
-        "date": "Sep 06th - Sep 12th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹19,990/-"
-      },
-      {
-        "date": "Sep 20th - Sep 26th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹19,990/-"
-      },
-      {
-        "date": "Sep 27th - 03 Oct",
+        "date": "Sep 20th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹19,990/-"
@@ -727,7 +644,7 @@
   "kerala-onam": {
     "September": [
       {
-        "date": "Sep 04th - Sep 08th",
+        "date": "Sep 04th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹8,499/-"

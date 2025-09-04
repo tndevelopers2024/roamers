@@ -1079,7 +1079,7 @@ session_start();
   <!-- ***** Welcome Area Start ***** -->
   <div class="text-center mb-4">
     <h1 class="booking-form-head">
-      MEGHALAYA BOOKIN
+      MEGHALAYA BOOKING
     </h1>
     <!-- <p>Explore the lush wonders of Sri Lanka's Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with vibrant biodiversity and tropical charm.
     </p> -->
