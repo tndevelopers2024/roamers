@@ -267,7 +267,7 @@
         "date": "Oct 18th - Oct 24th",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹37,500/-"
+        "price": "₹34,500/-"
       }
     ],
     "November": [
@@ -275,11 +275,11 @@
         "date": "Nov 15th - Nov 21th",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹37,500/-"
+        "price": "₹34,500/-"
       }
     ],
     "costing": {
-      "startingPrice": "₹37,500/-",
+      "startingPrice": "₹34,500/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
