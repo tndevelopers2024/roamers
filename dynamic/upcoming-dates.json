@@ -1,0 +1,49 @@
+{
+    "august": {
+        "pondicherry": "Aug 16, 22",
+        "valley-of-flowers": "Aug 2, 15, 23, 29",
+        "srilanka": "Aug 17",
+        "varkala-grouptrip": "Aug 15, 29",
+        "kolukkumalai-trek": "Sep 6, 19, 26",
+        "andaman": "Customise it!"
+    },
+    "sep": {
+        "kerala-onam": "Sep 4",
+        "pondicherry": "Sep 27 - 28",
+        "varkala-grouptrip": "Sep 12",
+        "meghalaya": "Sep 20",
+        "chikmagalur": "Sep 6",
+        "kolukkumalai-trek": "Sep 26",
+        "srilanka": "Sep 6"
+    },
+    "oct": {
+        "kerala-onam": "Oct 4",
+        "pondicherry": "Oct 11 -12 & 25 - 26",
+        "varkala-grouptrip": "Sep 12",
+        "meghalaya": "Oct 18 - 24",
+        "chikmagalur": "Sep 6",
+        "kolukkumalai-trek": "Sep 26",
+        "srilanka": "Oct 18",
+        "andaman": "Oct 18 - 24"
+    },
+    "nov": {
+        "kerala-onam": "Nov 4",
+        "pondicherry": "Nov 08 - 09 & 22 - 23",
+        "varkala-grouptrip": "Sep 12",
+        "meghalaya": "Nov 15 - 21",
+        "chikmagalur": "Sep 6",
+        "kolukkumalai-trek": "Sep 26",
+        "srilanka": "Nov 15",
+        "andaman": "Nov 15 - 21"
+    },
+    "dec": {
+        "kerala-onam": "Nov 4",
+        "pondicherry": "Dec 06 - 07 & 25 - 28",
+        "varkala-grouptrip": "Sep 12",
+        "meghalaya": "Dec 13 - 19, Dec 20 - 26, Dec 27 - Jan 02",
+        "chikmagalur": "Sep 6",
+        "kolukkumalai-trek": "Sep 26",
+        "srilanka": "Dec 13 - 20 - 27",
+        "andaman": "Dec 25 - Jan 1"
+    }
+}

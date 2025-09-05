@@ -252,7 +252,7 @@
   "andaman": {
     "October": [
       {
-        "date": "Oct 18th - Oct 24th",
+        "date": "Oct 18 th - Oct 24 th",
         "status": "Available",
         "statusColor": "green",
         "price": "₹34,500/-"
@@ -260,7 +260,15 @@
     ],
     "November": [
       {
-        "date": "Nov 15th - Nov 21th",
+        "date": "Nov 15 th - Nov 21 th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹34,500/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "Dec 25 th - Jan 1st",
         "status": "Available",
         "statusColor": "green",
         "price": "₹34,500/-"
