@@ -6,37 +6,397 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Roamers - Explore the World with Our Social Travel Agency</title>
-  <meta name="description"
-    content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways, and group travel experiences. Explore, connect, and create unforgettable memories with like-minded travelers!">
-  <meta name="keywords"
-    content="travel, travel destinations, travel tips, travel guides, vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
+  <meta name="description" content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways, and group travel experiences. Explore, connect, and create unforgettable memories with like-minded travelers!">
+  <meta name="keywords" content="travel, travel destinations, travel tips, travel guides, vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
   <meta name="author" content="Themeland">
   <meta name="title" content="Roamers - Explore the World with Our Social Travel Agency">
   <meta property="og:title" content="Roamers | Your Gateway to Social Travel Adventures">
-  <meta property="og:description"
-    content="Discover the world with Roamers! From solo adventures to group travel, we create experiences that bring travelers together. Explore destinations, meet people, and make memories!">
+  <meta property="og:description" content="Discover the world with Roamers! From solo adventures to group travel, we create experiences that bring travelers together. Explore destinations, meet people, and make memories!">
   <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
   <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
   <meta property="og:image:width" content="700">
   <meta property="og:image:height" content="500">
   <link rel="canonical" href="https://www.roamers.in/">
   <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
-  <!-- Swiper CSS -->
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- Main Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <!-- Search Bar Toggle -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const searchBarContainerEl = document.querySelector(".search-bar-container");
+      const magnifierEl = document.querySelector(".magnifier");
+      if (searchBarContainerEl && magnifierEl) {
+        magnifierEl.addEventListener("click", function() {
+          searchBarContainerEl.classList.toggle("active");
+        });
+      }
+    });
+  </script>
+
+  <!-- Client-side Search -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const data = [{
+          name: 'Andaman Island Hopping',
+          link: 'https://www.roamers.in/andaman',
+          image: 'assets/img/kolukkumalai-img/2.jpg',
+          duration: '5 DAYS / 4 NIGHTS',
+          location: 'EX: Chennai'
+        },
+        {
+          name: 'Munnar With Kolukkumalai',
+          link: 'https://www.roamers.in/kolukkumalai-trek',
+          image: 'assets/img/kolukkumalai-img/2.jpg',
+          duration: '3 DAYS / 2 NIGHT',
+          location: 'EX: Direct, Chennai'
+        },
+        {
+          name: 'Wonders of Wayanad',
+          link: 'https://roamers.in/wayanad',
+          image: 'assets/img/bg/waya-cover.jpg',
+          duration: '3 DAYS / 2 NIGHTS',
+          location: 'EX: Direct, Chennai'
+        },
+        {
+          name: 'Munnar With Kolukkumalai',
+          link: 'https://www.roamers.in/kolukkumalai-trek',
+          image: 'assets/img/kolukkumalai-img/2.jpg',
+          duration: '3 DAYS / 2 NIGHT',
+          location: 'EX: Chennai'
+        },
+        {
+          name: 'Ooty the queen of hills',
+          link: 'https://roamers.in/ooty',
+          image: 'assets/img/bg/ooty-cove.jpeg',
+          duration: '3 DAYS / 2 NIGHTS',
+          location: 'EX: Chennai, Coimbatore'
+        },
+        {
+          name: 'Chikmagalur Bagpacking',
+          link: 'https://roamers.in/chikmagalur',
+          image: 'assets/img/bg/ooty-cove.jpeg',
+          duration: '3 DAYS / 2 NIGHTS',
+          location: 'EX: Chennai, Bangaluru'
+        },
+        {
+          name: 'Kerala : To gods own country',
+          link: 'https://roamers.in/kerala',
+          image: 'assets/img/Kerala/Kerala photos.jpg',
+          duration: '5 DAYS / 4 NIGHTS',
+          location: 'EX: Kochi, Chennai'
+        },
+        {
+          name: 'Andaman island hopping',
+          link: 'https://roamers.in/andaman',
+          image: 'assets/img/backpacking/Andaman hoppers.jpg',
+          duration: '7 DAYS / 6 NIGHTS',
+          location: 'EX: Kochi, Chennai'
+        },
+        {
+          name: 'Pondi Dive-in',
+          link: 'https://roamers.in/pondicherry',
+          image: 'assets/img/short-trip/Lead-Auroville.webp',
+          duration: '3 DAYS / 2 NIGHTS',
+          location: 'EX: Chennai'
+        },
+        {
+          name: 'Mejestic Meghalaya',
+          link: 'https://roamers.in/meghalaya',
+          image: 'assets/img/megalaya/Front 3.jpg ',
+          duration: '6 DAYS / 5 NIGHTS',
+          location: 'EX: Guwahati'
+        },
+        {
+          name: 'Kodaikanal trek with poombarai',
+          link: 'https://roamers.in/kodaikanal',
+          image: 'assets/img/megalaya/Front 3.jpg ',
+          duration: '3 DAYS / 2 NIGHTS',
+          location: 'EX: Chennai'
+        },
+        {
+          name: 'Kedarkantha Trek',
+          link: 'https://roamers.in/kedarkantha',
+          image: 'assets/img/kedarkantha/main-sub.jpg ',
+          duration: '5 DAYS / 4 NIGHTS',
+          location: 'EX: Dehradun'
+        },
+        {
+          name: 'Kodaikanal Backpacking',
+          link: 'https://roamers.in/kodaikanal1',
+          image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg',
+          duration: '3 DAYS / 2 NIGHTS',
+          location: 'EX: Chennai'
+        },
+        {
+          name: 'Varkala & Munroe Flashpacking',
+          link: 'https://roamers.in/varkala-grouptrip',
+          image: 'assets/img/varkala/kerala-1.jpg',
+          duration: '3 DAYS / 2 NIGHTS',
+          location: 'EX: Chennai'
+        },
+        {
+          name: 'Spiti winter expedition',
+          link: 'https://roamers.in/spiti-valley',
+          image: 'assets/img/spiti-valley/spiti-cover.jpg',
+          duration: '7 DAYS / 6 NIGHTS',
+          location: 'EX: Delhi'
+        }
+      ];
+
+      const searchInput = document.getElementById('search-input');
+      const searchResults = document.getElementById('search-results');
+      if (!searchInput || !searchResults) return;
+
+      searchInput.addEventListener('input', function() {
+        const query = this.value.trim().toLowerCase();
+        searchResults.innerHTML = '';
+        if (!query) {
+          searchResults.style.display = 'none';
+          return;
+        }
+
+        const filteredData = data
+          .filter(function(item) {
+            return item.name.toLowerCase().includes(query);
+          })
+          .sort(function(a, b) {
+            const aName = a.name.toLowerCase();
+            const bName = b.name.toLowerCase();
+            const aStarts = aName.startsWith(query);
+            const bStarts = bName.startsWith(query);
+            if (aStarts && !bStarts) return -1;
+            if (!aStarts && bStarts) return 1;
+            return aName.indexOf(query) - bName.indexOf(query);
+          });
+
+        if (!filteredData.length) {
+          searchResults.innerHTML = '<div class="col-12">No Trips found for "' + query + '"</div>';
+        } else {
+          searchResults.innerHTML = filteredData.map(function(item) {
+            return (
+              '<div class="trip-card">' +
+              '<div class="search-box-con">' +
+              '<a href="' + item.link + '">' +
+              '<img src="' + item.image + '" alt="' + item.name + '">' +
+              '<div class="silder-inner silder-inner1">' +
+              '<div class="inner inner2">' +
+              '<h3>' + item.duration + '</h3>' +
+              '<h4>' +
+              '<img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">' +
+              item.location +
+              '</h4>' +
+              '</div>' +
+              '<h2>' + item.name + '</h2>' +
+              '</div>' +
+              '</a>' +
+              '</div>' +
+              '</div>'
+            );
+          }).join('');
+        }
+        searchResults.style.display = 'flex';
+        searchResults.style.flexWrap = 'wrap';
+      });
+    });
+  </script>
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "name": "Example Product",
+      "image": "https://www.roamers.in/path-to-product-image.jpg",
+      "description": "Example product description.",
+      "sku": "EX12345",
+      "brand": {
+        "@type": "Brand",
+        "name": "Example Brand"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "24"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.roamers.in/product-page",
+        "priceCurrency": "USD",
+        "price": "99.99",
+        "itemCondition": "http://schema.org/NewCondition",
+        "availability": "http://schema.org/InStock"
+      },
+      "review": [{
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "This product is amazing!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          },
+          "reviewBody": "Great product but a bit expensive."
+        }
+      ]
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+          "@type": "Question",
+          "name": "What is the return policy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can return the product within 30 days of purchase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this product come with a warranty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it comes with a 1-year warranty."
+          }
+        }
+      ]
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "mainEntity": {
+        "@type": "Article",
+        "headline": "How to Use the Example Product",
+        "description": "A comprehensive guide on how to use the Example Product.",
+        "author": {
+          "@type": "Person",
+          "name": "Alex Johnson"
+        },
+        "datePublished": "2024-07-09",
+        "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
+      }
+    }
+  </script>
+
+  <!-- WhatsApp Button Handler -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const whatsappButton = document.querySelector('.what-sum');
+      if (whatsappButton) {
+        whatsappButton.addEventListener("click", function(event) {
+          event.preventDefault();
+          var name1 = document.getElementById("name1") ? document.getElementById("name1").value.trim() : "";
+          var phone1 = document.getElementById("phone1") ? document.getElementById("phone1").value.trim() : "";
+          var des = document.getElementById("des") ? document.getElementById("des").value.trim() : "";
+          var mess = document.getElementById("mess") ? document.getElementById("mess").value.trim() : "";
+          var email1 = document.getElementById("email1") ? document.getElementById("email1").value.trim() : "";
+
+          if (name1 && phone1 && email1) {
+            var params = [
+              "Client Requesting About Enquiry",
+              "Name: " + name1,
+              "E-mail: " + email1,
+              "Phone No: " + phone1,
+              "Desigination: " + des,
+              "Message: " + mess
+            ].join("%0a");
+            var url = "https://wa.me/+918122121066?text=" + encodeURIComponent(params);
+            var win = window.open(url, '_blank');
+            if (win) {
+              win.focus();
+            }
+          } else {
+            alert("Please fill in all required fields (Name, Email, and Phone Number).");
+          }
+        });
+      }
+    });
+  </script>
+
+  <!-- Image Slider -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var index = 0;
+      var timer;
+      var images = document.getElementsByClassName("slide-box");
+      if (!images.length) return;
+
+      function displayImages() {
+        for (var i = 0; i < images.length; i++) {
+          images[i].style.display = "none";
+        }
+        index = (index + 1 > images.length) ? 1 : index + 1;
+        images[index - 1].style.display = "block";
+        timer = setTimeout(displayImages, 5000);
+      }
+
+      displayImages();
+
+      for (var j = 0; j < images.length; j++) {
+        images[j].addEventListener("mouseenter", function() {
+          clearTimeout(timer);
+        });
+        images[j].addEventListener("mouseleave", function() {
+          timer = setTimeout(displayImages, 5000);
+        });
+      }
+    });
+  </script>
+
+  <!-- Main JS -->
+  <script src="index.js"></script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-0MSFD4117B');
+  </script>
+
+  <!-- jQuery and Plugins -->
+  <script src="assets/js/dates.js"></script>
+  <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="assets/js/bootstrap/popper.min.js"></script>
+  <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/plugins.min.js"></script>
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="assets/js/active.js"></script>
+  <script src="assets/js/price.js"></script>
 </head>
 
 <style>
@@ -463,14 +823,127 @@
 
 <body>
 
-
   <?php include('includes/loader.php'); ?>
   <?php include('includes/header.php'); ?>
   <?php include('components/banner.php'); ?>
   <?php include('components/banner-below.php'); ?>
   <?php include('components/upcoming-trips.php'); ?>
 
-  <section class="strips py-60" id="backpacking">
+  <!-- <div class="container" style="position: relative;">
+    <div class="upcoming-container"
+      style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 130px; max-width: 1500px; margin-left: auto; margin-right: auto;">
+
+      <section>
+        <h2 class="upcoming-header">
+          <i class="fa-solid fa-calendar-days upcoming-header-icon"></i>
+          Featured Events
+        </h2>
+
+        <div class="upcoming-tab-content active" id="tab-august">
+          <div class="upcoming-slider-wrapper">
+            <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button">
+              <i class="fa fa-chevron-left"></i>
+            </button>
+            <div class="upcoming-slider">
+              <div class="upcoming-card">
+                <div class="upcoming-content">
+                  <div class="upcoming-image">
+                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                  </div>
+                  <div class="upcoming-card-flex">
+                    <div class="upcoming-duration">
+                      <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
+                    </div>
+                    <div class="upcoming-from">
+                      <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                      <span>EX: Direct, Chennai</span>
+                    </div>
+                  </div>
+                  <h1 class="upcoming-title">Pondi Dive-in</h1>
+                  <p class="upcoming-locations">Pondicherry</p>
+                  <div class="upcoming-price-section">
+                    <div class="upcoming-dates">
+                      <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                      <span class="upcoming-dates-text">Aug 16, 22</span>
+                    </div>
+                    <div>
+                      <div class="upcoming-starts">Starts</div>
+                      <div class="upcoming-price">₹4,990</div>
+                    </div>
+                  </div>
+                  <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+              </div>
+              <div class="upcoming-card">
+                <div class="upcoming-content">
+                  <div class="upcoming-image">
+                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                  </div>
+                  <a href="pondicherry.php" target="_blank" class="upcoming-view">Register</a>
+                </div>
+              </div>
+              <div class="upcoming-card">
+                <div class="upcoming-content">
+                  <div class="upcoming-image">
+                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                  </div>
+                  <a href="pondicherry.php" target="_blank" class="upcoming-view">Register</a>
+                </div>
+              </div>
+              <div class="upcoming-card">
+                <div class="upcoming-content">
+                  <div class="upcoming-image">
+                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                  </div>
+                  <div class="upcoming-card-flex">
+                    <div class="upcoming-duration">
+                      <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
+                    </div>
+                    <div class="upcoming-from">
+                      <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+                      <span>EX: Direct, Chennai</span>
+                    </div>
+                  </div>
+                  <h1 class="upcoming-title">Pondi Dive-in</h1>
+                  <p class="upcoming-locations">Pondicherry</p>
+                  <div class="upcoming-price-section">
+                    <div class="upcoming-dates">
+                      <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+                      <span class="upcoming-dates-text">Aug 16, 22</span>
+                    </div>
+                    <div>
+                      <div class="upcoming-starts">Starts</div>
+                      <div class="upcoming-price">₹4,990</div>
+                    </div>
+                  </div>
+                  <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                </div>
+              </div>
+              <div class="upcoming-card">
+                <div class="upcoming-content">
+                  <div class="upcoming-image">
+                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+                  </div>
+                  <a href="pondicherry.php" target="_blank" class="upcoming-view">Register</a>
+                </div>
+              </div>
+            </div>
+            <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip" type="button">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <img src="assets/img/banner/events-examaple.png" alt="" style="width: 100%; display: block; position: relative; z-index: 1;">
+  </div> -->
+
+  <div class="container">
+    <img src="assets/img/event/banner/event-image-by-roamers-3.png" alt="">
+
+  </div>
+  <div class=" my-5" id="backpacking">
     <h2 class="head">
       Backpacking Trips<span class="sub-head"></span>
     </h2>
@@ -566,30 +1039,6 @@
               </div>
             </a>
           </div>
-
-          <!-- <div class="swiper-slide">
-            <a href="kerala">
-              <img src="assets/img/Kerala/Kerala photos.jpg" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2 inner-home">
-                  <h3>5 DAYS / 4 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Kochi, Chennai
-                  </h4>
-                </div>
-                <h2>Kerala: To God’s Own Country</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Vagamon, Varkala, Alleppey
-                </p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kerala-dates"> Nov
-                      25, Dec 23 </span>
-                  </h4>
-                  <h4><span class="kerala-price">₹14,490</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div> -->
-
           <div class="swiper-slide">
             <a href="meghalaya">
               <img src="assets/img/megalaya/Front 3.jpg " class="backpacking-img" alt="roamers-Gallery">
@@ -674,7 +1123,6 @@
             </a>
           </div>
 
-          <!-- Add more swiper-slide elements for additional images -->
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -683,9 +1131,10 @@
     <div class="view-more-btn text-center">
       <a href="trips"><button>View More <i class="fa-solid fa-arrow-up"></i></button></a>
     </div>
-  </section>
+  </div>
 
-  <section class="travelgram" id="travelgram">
+
+  <section class="travelgram" style="margin-top: 400px;" id="travelgram">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 inst-w d-block d-md-none">
@@ -1217,274 +1666,7 @@
 
   <?php include('includes/footer.php'); ?>
 
-  <script>
-    // WhatsApp Button Handler - Optimized
-    document.addEventListener("DOMContentLoaded", function () {
-      const whatsappButton = document.querySelector('.what-sum');
-      if (whatsappButton) {
-        whatsappButton.addEventListener("click", function (event) {
-          event.preventDefault();
-          const name1 = document.getElementById("name1")?.value.trim();
-          const phone1 = document.getElementById("phone1")?.value.trim();
-          const des = document.getElementById("des")?.value.trim();
-          const mess = document.getElementById("mess")?.value.trim();
-          const email1 = document.getElementById("email1")?.value.trim();
-
-          if (name1 && phone1 && email1) {
-            const params = [
-              "Client Requesting About Enquiry",
-              `Name: ${name1}`,
-              `E-mail: ${email1}`,
-              `Phone No: ${phone1}`,
-              `Desigination: ${des}`,
-              `Message: ${mess}`
-            ].join("%0a");
-            const url = `https://wa.me/+918122121066?text=${encodeURIComponent(params)}`;
-            window.open(url, '_blank')?.focus();
-          } else {
-            alert("Please fill in all required fields (Name, Email, and Phone Number).");
-          }
-        });
-      }
-    });
-  </script>
-
-  <script>
-    // Optimized Image Slider
-    (function () {
-      let index = 0, timer;
-      const images = document.getElementsByClassName("slide-box");
-      if (!images.length) return;
-
-      function displayImages() {
-        for (let img of images) img.style.display = "none";
-        index = (index + 1 > images.length) ? 1 : index + 1;
-        images[index - 1].style.display = "block";
-        timer = setTimeout(displayImages, 5000);
-      }
-
-      displayImages();
-
-      // Use event delegation for all slide-box elements
-      for (let img of images) {
-        img.addEventListener("mouseenter", () => clearTimeout(timer));
-        img.addEventListener("mouseleave", () => timer = setTimeout(displayImages, 5000));
-      }
-    })();
-  </script>
-
-  <script src="index.js"></script>
-
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
-
-  <script>
-    // Search Bar Toggle - Optimized
-    document.addEventListener("DOMContentLoaded", function () {
-      const searchBarContainerEl = document.querySelector(".search-bar-container");
-      const magnifierEl = document.querySelector(".magnifier");
-      if (searchBarContainerEl && magnifierEl) {
-        magnifierEl.addEventListener("click", () => {
-          searchBarContainerEl.classList.toggle("active");
-        });
-      }
-    });
-  </script>
-
-  <script>
-    // Optimized Client-side Search
-    (function () {
-      const data = [
-        { name: 'Andaman Island Hopping', link: 'https://www.roamers.in/andaman', image: 'assets/img/kolukkumalai-img/2.jpg', duration: '5 DAYS / 4 NIGHTS', location: 'EX: Chennai' },
-        { name: 'Munnar With Kolukkumalai', link: 'https://www.roamers.in/kolukkumalai-trek', image: 'assets/img/kolukkumalai-img/2.jpg', duration: '3 DAYS / 2 NIGHT', location: 'EX: Direct, Chennai' },
-        { name: 'Wonders of Wayanad', link: 'https://roamers.in/wayanad', image: 'assets/img/bg/waya-cover.jpg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Direct, Chennai' },
-        { name: 'Munnar With Kolukkumalai', link: 'https://www.roamers.in/kolukkumalai-trek', image: 'assets/img/kolukkumalai-img/2.jpg', duration: '3 DAYS / 2 NIGHT', location: 'EX: Chennai' },
-        { name: 'Ooty the queen of hills', link: 'https://roamers.in/ooty', image: 'assets/img/bg/ooty-cove.jpeg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai, Coimbatore' },
-        { name: 'Chikmagalur Bagpacking', link: 'https://roamers.in/chikmagalur', image: 'assets/img/bg/ooty-cove.jpeg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai, Bangaluru' },
-        { name: 'Kerala : To gods own country', link: 'https://roamers.in/kerala', image: 'assets/img/Kerala/Kerala photos.jpg', duration: '5 DAYS / 4 NIGHTS', location: 'EX: Kochi, Chennai' },
-        { name: 'Andaman island hopping', link: 'https://roamers.in/andaman', image: 'assets/img/backpacking/Andaman hoppers.jpg', duration: '7 DAYS / 6 NIGHTS', location: 'EX: Kochi, Chennai' },
-        { name: 'Pondi Dive-in', link: 'https://roamers.in/pondicherry', image: 'assets/img/short-trip/Lead-Auroville.webp', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
-        { name: 'Mejestic Meghalaya', link: 'https://roamers.in/meghalaya', image: 'assets/img/megalaya/Front 3.jpg ', duration: '6 DAYS / 5 NIGHTS', location: 'EX: Guwahati' },
-        { name: 'Kodaikanal trek with poombarai', link: 'https://roamers.in/kodaikanal', image: 'assets/img/megalaya/Front 3.jpg ', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
-        { name: 'Kedarkantha Trek', link: 'https://roamers.in/kedarkantha', image: 'assets/img/kedarkantha/main-sub.jpg ', duration: '5 DAYS / 4 NIGHTS', location: 'EX: Dehradun' },
-        { name: 'Kodaikanal Backpacking', link: 'https://roamers.in/kodaikanal1', image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
-        { name: 'Varkala & Munroe Flashpacking', link: 'https://roamers.in/varkala-grouptrip', image: 'assets/img/varkala/kerala-1.jpg', duration: '3 DAYS / 2 NIGHTS', location: 'EX: Chennai' },
-        { name: 'Spiti winter expedition', link: 'https://roamers.in/spiti-valley', image: 'assets/img/spiti-valley/spiti-cover.jpg', duration: '7 DAYS / 6 NIGHTS', location: 'EX: Delhi' }
-      ];
-
-      const searchInput = document.getElementById('search-input');
-      const searchResults = document.getElementById('search-results');
-      if (!searchInput || !searchResults) return;
-
-      searchInput.addEventListener('input', function () {
-        const query = this.value.trim().toLowerCase();
-        searchResults.innerHTML = '';
-        if (!query) {
-          searchResults.style.display = 'none';
-          return;
-        }
-
-        const filteredData = data
-          .filter(item => item.name.toLowerCase().includes(query))
-          .sort((a, b) => {
-            const aName = a.name.toLowerCase(), bName = b.name.toLowerCase();
-            const aStarts = aName.startsWith(query), bStarts = bName.startsWith(query);
-            if (aStarts && !bStarts) return -1;
-            if (!aStarts && bStarts) return 1;
-            return aName.indexOf(query) - bName.indexOf(query);
-          });
-
-        if (!filteredData.length) {
-          searchResults.innerHTML = `<div class="col-12">No Trips found for "${query}"</div>`;
-        } else {
-          searchResults.innerHTML = filteredData.map(item => `
-            <div class="trip-card">
-              <div class="search-box-con">
-                <a href="${item.link}">
-                  <img src="${item.image}" alt="${item.name}">
-                  <div class="silder-inner silder-inner1">
-                    <div class="inner inner2">
-                      <h3>${item.duration}</h3>
-                      <h4>
-                        <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">
-                        ${item.location}
-                      </h4>
-                    </div>
-                    <h2>${item.name}</h2>
-                  </div>
-                </a>
-              </div>
-            </div>
-          `).join('');
-        }
-        searchResults.style.display = 'flex';
-        searchResults.style.flexWrap = 'wrap';
-      });
-    })();
-  </script>
-
-  <!--
-    The following scripts are for structured data (JSON-LD) for SEO purposes.
-    They help search engines understand the content of the page, which can improve search ranking and display rich results.
-  -->
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Product",
-      "name": "Example Product",
-      "image": "https://www.roamers.in/path-to-product-image.jpg",
-      "description": "Example product description.",
-      "sku": "EX12345",
-      "brand": {
-        "@type": "Brand",
-        "name": "Example Brand"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "24"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.roamers.in/product-page",
-        "priceCurrency": "USD",
-        "price": "99.99",
-        "itemCondition": "http://schema.org/NewCondition",
-        "availability": "http://schema.org/InStock"
-      },
-      "review": [{
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John Doe"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "This product is amazing!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jane Smith"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "reviewBody": "Great product but a bit expensive."
-        }
-      ]
-    }
-  </script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-          "@type": "Question",
-          "name": "What is the return policy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can return the product within 30 days of purchase."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this product come with a warranty?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, it comes with a 1-year warranty."
-          }
-        }
-      ]
-    }
-  </script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebPage",
-      "mainEntity": {
-        "@type": "Article",
-        "headline": "How to Use the Example Product",
-        "description": "A comprehensive guide on how to use the Example Product.",
-        "author": {
-          "@type": "Person",
-          "name": "Alex Johnson"
-        },
-        "datePublished": "2024-07-09",
-        "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
-      }
-    }
-  </script>
-  <!-- Google Analytics Code: -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-0MSFD4117B');
-  </script>
-
-  <!-- jQuery and Plugins -->
-  <script src="assets/js/dates.js"></script>
-  <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="assets/js/bootstrap/popper.min.js"></script>
-  <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-  <script src="assets/js/plugins/plugins.min.js"></script>
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <script src="assets/js/active.js"></script>
-  <script src="assets/js/price.js"></script>
 
 </body>
 

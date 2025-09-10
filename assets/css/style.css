@@ -409,7 +409,7 @@ img {
   top: 0;
 } */
 #navbarNav {
-  justify-content: center;
+  justify-content: end;
   background: #4ec0db;
 }
 
@@ -2201,20 +2201,20 @@ textarea {
 .swiper-slide img {
   height: 210px;
   object-fit: cover !important;
-  border-radius: 0.8vw;
+  /* border-radius: 0.8vw; */
 }
 
 .swiper-slide a {
-  width: 90%;
+  /* width: 90%; */
   transform: scale(1);
   background: #ffff;
   border-radius: 0.8vw 0.8vw 0px 0vw;
 }
 
-.swiper-slide a:hover {
+/* .swiper-slide a:hover {
   transform: scale(1.03);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+} */
 
 .swiper-container1.swiper-slide>img {
   max-height: 230px !important;
