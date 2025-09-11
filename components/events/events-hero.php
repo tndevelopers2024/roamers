@@ -67,9 +67,9 @@
         let quantity = 1;
         const taxRate = 0; // flat tax handled separately
         const pricesByPackage = {
-            'standard-pass': 499,
-            'premium-pass': 499,
-            'group-pass': 499
+            'standard-pass': 299,
+            'premium-pass': 299,
+            'group-pass': 299
         };
 
         function getSelectedPackage() {
@@ -333,7 +333,7 @@
 
     .main-container {
         max-width: 1400px;
-        margin: 40px auto;
+        margin: 80px auto;
         padding: 0 20px;
     }
 
@@ -759,7 +759,15 @@
 
     @media (max-width: 768px) {
         .event-banner-wrapper {
-            height: 250px !important;
+            height: 180px !important;
+            /* padding: 0px 10px 0px 10px; */
+        }
+
+        .event-banner-image {
+            width: 100%;
+            height: 500px !important;
+            object-fit: cover;
+            display: block;
         }
 
     }
@@ -769,7 +777,11 @@
         } */
 
     @media (max-width: 768px) {
-        .main-container {}
+        .main-container {
+            max-width: 1400px;
+            margin: 150px auto;
+            padding: 0 20px;
+        }
     }
 
 
@@ -843,11 +855,35 @@
             <div class="card mb-4 animated-event-card"
                 style="background-color: #4ec0db; border-radius: 24px; box-shadow: 0 8px 32px 0 rgba(0,0,0,0.18), 0 4px 20px rgba(0,0,0,0.08); border: none;">
                 <div class="card-body">
-                    <h2 class="text-white py-4 px-2" style="letter-spacing: 1px; font-weight: 700;">
+                    <h3 class="text-white py-2 px-2 event-title-responsive" style="letter-spacing: 1px; font-weight: 700;">
                         <span style="display:inline-block;">
-                            Roamers Meet-up: Conversations and Connections
+                            Strangers Meetup: Meet Your Future Travel Buddies
                         </span>
-                    </h2>
+                    </h3>
+                    <style>
+                        @media (max-width: 600px) {
+                            .event-title-responsive {
+                                font-size: 17px !important;
+                                padding-left: 0.5rem !important;
+                                padding-right: 0.5rem !important;
+                                text-align: left !important;
+                                line-height: 1.3 !important;
+                                word-break: break-word;
+                            }
+                        }
+
+                        @media (min-width: 601px) and (max-width: 900px) {
+                            .event-title-responsive {
+                                font-size: 1rem !important;
+                            }
+                        }
+
+                        @media (min-width: 901px) {
+                            .event-title-responsive {
+                                font-size: 1rem !important;
+                            }
+                        }
+                    </style>
                 </div>
             </div>
 
@@ -856,13 +892,18 @@
                 <div class="card-body">
                     <div class="section-title mb-2">Event Details</div>
                     <p class="pulse mb-0" style="line-height: 2.4;">
-                        Looking for a fun way to connect and unwind? Roamers Meet-up: Conversations &amp;
-                        Connections offers the perfect blend of engaging icebreakers, lighthearted fun, and
-                        meaningful conversations. This is a space where you can meet new people, share your
-                        thoughts, and participate in interesting activities that bring everyone together. Whether
-                        you're in the mood for laughter, casual chats, or deeper discussions, this event is all
-                        about creating a positive, non-judgmental environment where everyone feels welcome. Come
-                        join us for an evening filled with fun and connection.
+                        <strong>Roamers Strangers ~ Travellers Meet-up 🌍</strong><br><br>
+                        Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.<br><br>
+                        <strong>Here’s what’s waiting for you:</strong><br>
+                        ✨ Fun icebreakers that feel more like games than small talk<br>
+                        ✨ Travel story circles where you’ll hear wild adventures &amp; hidden gem tips<br>
+                        ✨ Like-minded people who are open, friendly, and love to explore<br>
+                        ✨ A chance to find your next travel buddy for upcoming Roamers trips<br>
+                        ✨ An evening filled with good vibes, laughter, and meaningful connections<br><br>
+                        Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins.<br><br>
+                        This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers.<br><br>
+                        So come join us for a night of conversations, connections, and stories that might just inspire your next journey. 🗺️💫<br>
+                        <strong>👉 Spots are limited. Save yours now and let’s create memories together, even before the trip begins!</strong>
                     </p>
                 </div>
             </div>
@@ -876,31 +917,27 @@
                             <div>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    Tickets once booked cannot be exchanged or refunded.
+                                    Once booked, tickets cannot be refunded or exchanged.
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    An Internet handling fee per ticket may be levied. Please check the total amount
-                                    before payment.
+                                    An internet/processing fee may apply per ticket. Please review the total before completing payment.
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    We recommend that you arrive at least 15 minutes prior at the venue for a
-                                    seamless entry.
+                                    Arrive at least 15 minutes before the event to ensure smooth entry.
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    Please do not purchase tickets if you feel sick.
+                                    If you’re feeling unwell, please avoid purchasing tickets or attending the event.
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    We may take photographs and videos of the registrant for marketing collateral
-                                    and materials.
+                                    Photos and videos may be taken during the event and used for promotional purposes.
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    Resale of a ticket would lead to seizure or cancellation of that ticket without
-                                    refund or other compensation.
+                                    Tickets are strictly non-transferable. Any resale will result in cancellation without refund or compensation.
                                 </p>
                             </div>
                         </div>
@@ -921,7 +958,8 @@
 
         <!-- Right Column: Booking Form -->
         <div class="booking-card">
-            <h3 class="section-title">Guindy - ITC Hotel</h3>
+
+            <h3 class="section-title">Backyard</h3>
 
             <div class="pulse"
                 style="display: flex; flex-direction: column; align-items: flex-start; gap: 18px; width: 100%; font-size: 1.08rem; color: #444; margin-bottom: 20px;">
@@ -929,7 +967,7 @@
                     <i class="fa-regular fa-calendar-days" aria-hidden="true"
                         style="margin-top: 2px; min-width: 22px; font-size: 1.15em; color: #4ec0db;"></i>
                     <span>
-                        <span style="font-weight: 500;">July 13, 2025</span>
+                        <span style="font-weight: 500;">Sep 21, 2025</span>
                         <span style="color: #888;"> | Sunday</span>
                     </span>
                 </div>
@@ -937,14 +975,14 @@
                     <i class="fa-regular fa-clock" aria-hidden="true"
                         style="margin-top: 2px; min-width: 22px; font-size: 1.15em; color: #4ec0db;"></i>
                     <span>
-                        <span style="font-weight: 500;">4:00 PM - 7:00 PM</span>
+                        <span style="font-weight: 500;">5:30 PM - 8:30 PM</span>
                     </span>
                 </div>
                 <div style="display: flex; align-items: flex-start; gap: 14px;">
                     <i class="fa-solid fa-location-dot" aria-hidden="true"
                         style="margin-top: 2px; min-width: 22px; font-size: 1.15em; color: #4ec0db;"></i>
                     <span>
-                        The Brew Room, Savera Hotel, 146, Dr. Radhakrishnan Salai, Mylapore, Chennai
+                        53/23, 3rd Main Road, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020
                     </span>
                 </div>
             </div>
@@ -954,7 +992,7 @@
                 <select class="ticket-dropdown " id="packageType" name="package_type" aria-label="Package Type">
                     <option value="standard-pass">Female</option>
                     <option value="premium-pass">Male</option>
-                    <option value="group-pass">Group Pass (4+ people)</option>
+                    <!-- <option value="group-pass">Group Pass (4+ people)</option> -->
                 </select>
 
                 <div class="quantity-selector">
@@ -973,7 +1011,7 @@
                 <div class="section-label pulse">Amount</div>
                 <div class="amount-row">
                     <span class="amount-label pulse">Price</span>
-                    <span class="amount-value pulse" id="price" aria-live="polite" role="status">499 ₹</span>
+                    <span class="amount-value pulse" id="price" aria-live="polite" role="status">299 ₹</span>
                 </div>
                 <div class="amount-row">
                     <span class="amount-label pulse">Tax</span>
@@ -984,7 +1022,7 @@
             <form method="POST" action="events-send-mail.php">
                 <div class="form-group">
                     <label for="full_name" class="section-label pulse">Full Name</label>
-                    <input type="hidden" name="event_type" value="Kerala Onam Event">
+                    <input type="hidden" name="event_type" value="stranger-events">
                     <input id="full_name" type="text" class="form-input" name="full_name"
                         placeholder="e.g., Priya Sharma" autocomplete="name" required aria-required="true"
                         aria-describedby="error-name">
@@ -1000,10 +1038,18 @@
                     <div id="error-phone" class="form-error" role="alert" aria-live="polite" style="display:none;">
                     </div>
                 </div>
+                <div class="form-group">
+                    <label for="email" class="section-label pulse">Email</label>
+                    <input id="email" type="email" class="form-input" name="email"
+                        placeholder="e.g., priya@email.com" autocomplete="email" required aria-required="true"
+                        aria-describedby="error-email">
+                    <div id="error-email" class="form-error" role="alert" aria-live="polite" style="display:none;">
+                    </div>
+                </div>
 
                 <input type="hidden" name="selected_quantity" id="selected_quantity" value="1">
                 <input type="hidden" name="selected_package" id="selected_package" value="standard-pass">
-                <input type="hidden" name="calculated_base_price" id="calculated_base_price" value="499">
+                <input type="hidden" name="calculated_base_price" id="calculated_base_price" value="299">
                 <input type="hidden" name="calculated_tax" id="calculated_tax" value="20.00">
                 <input type="hidden" name="calculated_total" id="calculated_total" value="519.00">
 

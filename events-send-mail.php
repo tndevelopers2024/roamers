@@ -29,6 +29,11 @@ $events = [
         'subject' => 'New Kerala Onam Booking Received',
         'from_name' => 'Kerala Onam Booking'
     ],
+    'stranger-events' => [
+        'name' => 'Stranger Events Backyard',
+        'subject' => 'Backyard Booking Received',
+        'from_name' => 'Backyard Booking'
+    ],
     'default' => [
         'name' => 'Event',
         'subject' => 'New Event Booking Received',
@@ -78,22 +83,115 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = $eventConfig['subject'];
 
         $mail->Body = "
-            <h2>New {$eventConfig['name']} Booking Details</h2>
-            <p><strong>Event:</strong> {$eventConfig['name']}</p>
-            <p><strong>Full Name:</strong> {$fullName}</p>
-            <p><strong>Phone Number:</strong> {$phone}</p>
-            <p><strong>Package:</strong> {$package}</p>
-            <p><strong>Quantity:</strong> {$quantity}</p>
-            <p><strong>Base Price:</strong> ₹{$basePrice}</p>
-            <p><strong>Tax:</strong> ₹{$tax}</p>
-            <p><strong>Total:</strong> ₹{$total}</p>
-            <hr>
-            <p><small>Event Type: {$eventType}</small></p>
+            <div style='font-family:Segoe UI,Roboto,sans-serif;max-width:480px;margin:0 auto;background:#fff;border-radius:10px;padding:32px 28px 24px 28px;box-shadow:0 2px 12px rgba(78,192,219,0.07);color:#4ec0db;'>
+                <div style='text-align:center;margin-bottom:24px;'>
+                    <img src='https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png' alt='Roamers Logo' style='height:48px;margin-bottom:8px;'>
+                    <h2 style='margin:0;font-size:1.5em;color:#4ec0db;font-weight:700;letter-spacing:0.5px;'>New {$eventConfig['name']} Booking</h2>
+                </div>
+                <table style='width:100%;border-collapse:collapse;font-size:1.07em;margin-bottom:18px;'>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Event</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$eventConfig['name']}</td>
+                    </tr>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Full Name</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$fullName}</td>
+                    </tr>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Phone Number</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$phone}</td>
+                    </tr>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Package</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;text-transform:capitalize;'>" . str_replace(['standard-pass', 'premium-pass', 'group-pass'], ['Female', 'Male', 'Group Pass'], $package) . "</td>
+                    </tr>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Quantity</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$quantity}</td>
+                    </tr>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Base Price</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>₹{$basePrice}</td>
+                    </tr>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Tax</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>₹{$tax}</td>
+                    </tr>
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Total</td>
+                        <td style='padding:7px 0;font-weight:700;color:#4ec0db;text-align:right;font-size:1.13em;'>₹{$total}</td>
+                    </tr>
+                </table>
+                <div style='border-top:1px solid #4ec0db;padding-top:10px;text-align:right;'>
+                    <span style='font-size:0.98em;color:#4ec0db;'>Event Type: <span style='color:#4ec0db;font-weight:500;'>{$eventType}</span></span>
+                </div>
+            </div>
         ";
 
         // Send email
-        $mail->send();
-        echo 'Success! Booking email has been sent.';
+        if ($mail->send()) {
+            echo "<div style='
+                max-width: 420px;
+                margin: 60px auto 0 auto;
+                background: #f8fff9;
+                border-radius: 14px;
+                box-shadow: 0 2px 16px rgba(78,192,219,0.10), 0 1.5px 8px rgba(78,192,219,0.08);
+                padding: 38px 30px 30px 30px;
+                text-align: center;
+                font-family: Segoe UI, Roboto, sans-serif;
+                color: #4ec0db;
+            '>
+                <img src='https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png' alt='Roamers Logo' style='height:54px;margin-bottom:18px;'>
+                <h2 style='color:#4ec0db;font-size:1.45em;margin:0 0 10px 0;font-weight:700;letter-spacing:0.5px;'>Booking Confirmed!</h2>
+                <p style='font-size:1.08em;color:#4ec0db;margin-bottom:18px;'>Thank you for registering for <span style='color:#4ec0db;font-weight:500;'>{$eventConfig['name']}</span>.<br>
+                We have received your booking details and sent a confirmation to our team.<br>
+                <span style='color:#4ec0db;font-weight:600;'>We will contact you soon!</span></p>
+                <div style='margin:18px 0 0 0;'>
+                    <a href='events.php' style='
+                        display:inline-block;
+                        background:#4ec0db;
+                        color:#fff;
+                        padding:12px 32px;
+                        border-radius:30px;
+                        font-size:1.08em;
+                        font-weight:600;
+                        text-decoration:none;
+                        box-shadow:0 2px 8px rgba(78,192,219,0.10);
+                        transition:background 0.2s;
+                    ' onmouseover=\"this.style.background='#4ec0db'\" onmouseout=\"this.style.background='#4ec0db'\">Back to Events</a>
+                </div>
+            </div>";
+        } else {
+            echo "<div style='
+                max-width: 420px;
+                margin: 60px auto 0 auto;
+                background: #fff6f6;
+                border-radius: 14px;
+                box-shadow: 0 2px 16px rgba(78,192,219,0.10), 0 1.5px 8px rgba(78,192,219,0.08);
+                padding: 38px 30px 30px 30px;
+                text-align: center;
+                font-family: Segoe UI, Roboto, sans-serif;
+                color: #4ec0db;
+            '>
+                <h2 style='color:#4ec0db;font-size:1.3em;margin:0 0 10px 0;font-weight:700;'>Oops! Something went wrong.</h2>
+                <p style='font-size:1.08em;color:#4ec0db;margin-bottom:18px;'>We couldn't send your booking at this time.<br>
+                Please try again or contact us at <a href='mailto:hello@roamers.in' style='color:#4ec0db;text-decoration:underline;'>hello@roamers.in</a>.</p>
+                <div style='margin:18px 0 0 0;'>
+                    <a href='events.php' style='
+                        display:inline-block;
+                        background:#4ec0db;
+                        color:#fff;
+                        padding:12px 32px;
+                        border-radius:30px;
+                        font-size:1.08em;
+                        font-weight:600;
+                        text-decoration:none;
+                        box-shadow:0 2px 8px rgba(78,192,219,0.10);
+                        transition:background 0.2s;
+                    ' onmouseover=\"this.style.background='#4ec0db'\" onmouseout=\"this.style.background='#4ec0db'\">Back to Events</a>
+                </div>
+            </div>";
+        }
     } catch (Exception $e) {
         echo "Mailer Error: {$mail->ErrorInfo}";
     }

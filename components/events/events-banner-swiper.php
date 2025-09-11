@@ -82,9 +82,10 @@
         @media (max-width: 600px) {
             .swiper {
                 aspect-ratio: 16 / 11;
-                max-height: 180px;
+                max-height: 280px;
                 min-height: 100px;
                 border-radius: 12px;
+                /* margin-top: 50px; */
             }
         }
     </style>
@@ -92,11 +93,11 @@
 
 
 <!-- Swiper -->
-<div class="event-banner-wrapper p-2 container " style="margin-top:80px; margin-bottom: 50px; ">
+<div class="event-banner-wrapper p-4 p-md-2  container " style="margin-top:80px; margin-bottom: 50px; ">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-           <div class="swiper-slide">
-                <img src="assets/img/event/banner/events-examaple.png"
+            <div class="swiper-slide">
+                <img src="assets\img\event\banner\event-image-by-roamers-8.png"
                     alt="Pool Party" />
             </div>
         </div>

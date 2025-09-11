@@ -1,8 +1,9 @@
 <style>
+    /* Button Styles */
     .book-btn-1 {
         width: 100%;
-        background: #4ec0db !important;
-        color: white;
+        background: #4ec0db;
+        color: #fff;
         border: none;
         padding: 15px;
         border-radius: 8px;
@@ -18,112 +19,222 @@
     }
 
     .book-btn-1:hover {
-        background: rgb(133, 210, 228);
+        background: #85d2e4;
     }
-</style>
 
-
-<style>
-    /* Snowflake animation keyframes */
+    /* Snowflake Animation */
     @keyframes snowflake-fall {
         0% {
             top: -40px;
             opacity: 0.8;
             transform: translateX(0) scale(1) rotate(0deg);
         }
+
         80% {
             opacity: 1;
         }
+
         100% {
             top: 80%;
             opacity: 0.2;
             transform: translateX(20px) scale(1.2) rotate(360deg);
         }
     }
+
     .snowflake-anim {
         position: absolute;
         left: 50%;
         top: -40px;
         font-size: 2.5rem;
-        color: #ffffff;
+        color: #fff;
         z-index: 3;
         pointer-events: none;
         animation: snowflake-fall 2.5s linear infinite;
-        /* Each snowflake can have a different delay for realism */
     }
+
+    /* Swiper Styles */
+    .swiper-container {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
     .swiper-slide {
         position: relative;
         overflow: hidden;
+        flex: 0 0 25%;
+        max-width: 20%;
+        min-width: 0;
+        box-sizing: border-box;
+        margin-right: 16px;
+        /* height: 320px !important; */
+    }
+
+    .swiper-slide:last-child {
+        margin-right: 0;
+    }
+
+    .swiper-slide a {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 0.8vw 0.8vw 0 0;
+        /* height: 320px !important; */
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        /* height: 390px !important; */
+        object-fit: fill !important;
+        display: block;
+        border-radius: 0.8vw 0.8vw 0 0;
+    }
+
+    /* Swiper Navigation Buttons */
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: absolute;
+        top: 61%;
+        transform: translateY(-48%);
+        opacity: 1;
+        padding: 6px 18px;
+        color: #fff;
+        border: none;
+        outline: none;
+        text-align: center;
+        border-radius: 100px;
+        width: 45px;
+        height: 45px;
+        display: grid;
+        background: #4ec0db;
+        place-items: center;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .swiper-button-next {
+        right: 46px;
+    }
+
+    .swiper-button-prev {
+        left: 46px;
+    }
+
+    .swiper-button-next.swiper-button-disabled,
+    .swiper-button-prev.swiper-button-disabled {
+        opacity: 1.35;
+        cursor: pointer;
+        pointer-events: visible;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-family: "Font Awesome 6 Free", "FontAwesome", Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0;
+        content: '';
+    }
+
+    /* Responsive Swiper Slides */
+    @media (max-width: 992px) {
+        .swiper-slide {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+            margin-right: 16px;
+        }
+
+        .swiper-slide:last-child {
+            margin-right: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .swiper-slide {
+            flex: 0 0 50%;
+            max-width: 50%;
+            margin-right: 12px;
+        }
+
+        .swiper-slide:last-child {
+            margin-right: 0;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .swiper-slide {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-right: 0;
+        }
     }
 </style>
-<div class="container position-relative" style="padding-top: 40px;">
-    <div class="my-5 position-absolute w-100" id="backpacking" style="z-index:2; top:200px; left:0;">
+
+<div class="container position-relative" style="padding-bottom: 100px;">
+    <div class="my-5 position-absolute w-100" id="backpacking" style="z-index:2; top:290px; left:0;">
         <section id="shortbreak">
             <div class="container-fluid">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="valley-of-flowers" style="display:block; position:relative;">
-                                <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
-                                <button type="submit" class="book-btn-1
-                                    <i class="fas fa-arrow-right" style="animation: arrowMove 1.2s infinite alternate;"></i>
-                                </button>
+                            <a href="srilanka.php">
+                                <img src="assets/img/event/cards/event-card-2.png" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="valley-of-flowers" style="display:block; position:relative;">
-                                <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
-                                <button type="submit" class="book-btn-1 pulse mt-3" style="animation: bounceIn 0.7s; border-radius: 30px;">
-                                    Register Now
-                                    <i class="fas fa-arrow-right" style="animation: arrowMove 1.2s infinite alternate;"></i>
-                                </button>
+                            <a href="andaman.php">
+                                <img src="assets/img/event/cards/event-card-3.png" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="valley-of-flowers" style="display:block; position:relative;">
-                                <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
-                                <button type="submit" class="book-btn-1 pulse mt-3" style="animation: bounceIn 0.7s; border-radius: 30px;">
-                                    Register Now
-                                    <i class="fas fa-arrow-right" style="animation: arrowMove 1.2s infinite alternate;"></i>
-                                </button>
+                            <a href="kerala-onam.php">
+                                <img src="assets/img/event/cards/event-card-4.png" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="valley-of-flowers" style="display:block; position:relative;">
-                                <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
-                                <button type="submit" class="book-btn-1 pulse mt-3" style="animation: bounceIn 0.7s; border-radius: 30px;">
-                                    Register Now
-                                    <i class="fas fa-arrow-right" style="animation: arrowMove 1.2s infinite alternate;"></i>
-                                </button>
+                            <a href="kodaikanal.php">
+                                <img src="assets/img/event/cards/event-card-5.png" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="valley-of-flowers" style="display:block; position:relative;">
-                                <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
-                                <button type="submit" class="book-btn-1 pulse mt-3" style="animation: bounceIn 0.7s; border-radius: 30px;">
-                                    Register Now
-                                    <i class="fas fa-arrow-right" style="animation: arrowMove 1.2s infinite alternate;"></i>
-                                </button>
+                            <a href="valley-of-flowers">
+                                <img src="assets/img/event/cards/event-card-2.png" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="valley-of-flowers" style="display:block; position:relative;">
-                                <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
-                                <button type="submit" class="book-btn-1 pulse mt-3" style="animation: bounceIn 0.7s; border-radius: 30px;">
-                                    Register Now
-                                    <i class="fas fa-arrow-right" style="animation: arrowMove 1.2s infinite alternate;"></i>
-                                </button>
+                            <a href="valley-of-flowers">
+                                <img src="assets/img/event/cards/event-card-3.png" alt="roamers-Gallery">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="valley-of-flowers">
+                                <img src="assets/img/event/cards/event-card-4.png" alt="roamers-Gallery">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="valley-of-flowers">
+                                <img src="assets/img/event/cards/event-card-5.png" alt="roamers-Gallery">
                             </a>
                         </div>
                     </div>
-                    <div class="swiper-button-next" style="right: 46px;"></div>
-                    <div class="swiper-button-prev" style="left: 46px;"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
     </div>
 </div>
-<div class="container position-relative" style="overflow: hidden;">
+
+<div class="container position-relative" style="overflow: visible;">
     <!-- Snowflake animation starts here -->
     <?php
     // Generate 12 snowflakes with random horizontal positions and animation delays
@@ -133,48 +244,44 @@
         $size = rand(18, 32); // px
     ?>
         <i class="fa-solid fa-snowflake snowflake-anim"
-           style="left: <?php echo $left; ?>%; font-size: <?php echo $size; ?>px; animation-delay: <?php echo $delay; ?>s;"></i>
+            style="left: <?php echo $left; ?>%; font-size: <?php echo $size; ?>px; animation-delay: <?php echo $delay; ?>s;"></i>
     <?php endfor; ?>
     <a href="events.php">
         <img src="assets/img/event/banner/event-image-by-roamers-6.png" alt="" style="width:100%; display:block; position:relative; z-index:1;">
     </a>
 </div>
-<!-- Optionally, if you want more snowflakes per slide, you can add more <i> elements with different delays inside the .swiper-slide -->
 <script>
     // Ensure Swiper is initialized with 4 slides per view
     document.addEventListener('DOMContentLoaded', function() {
         if (typeof Swiper !== 'undefined') {
-            var swiperContainers = document.querySelectorAll('.swiper-container1');
+            var swiperContainers = document.querySelectorAll('.swiper-container');
             swiperContainers.forEach(function(container) {
                 var options = {
                     slidesPerView: 4,
                     spaceBetween: 20,
                     navigation: {
-                        nextEl: container.parentElement.querySelector('.swiper-button-next'),
-                        prevEl: container.parentElement.querySelector('.swiper-button-prev'),
+                        nextEl: container.querySelector('.swiper-button-next'),
+                        prevEl: container.querySelector('.swiper-button-prev'),
                     },
                     breakpoints: {
                         0: {
-                            slidesPerView: 1
+                            slidesPerView: 1,
+                            spaceBetween: 0
                         },
                         576: {
-                            slidesPerView: 2
+                            slidesPerView: 2,
+                            spaceBetween: 12
                         },
                         768: {
-                            slidesPerView: 3
+                            slidesPerView: 3,
+                            spaceBetween: 12
                         },
                         992: {
-                            slidesPerView: 4
+                            slidesPerView: 4,
+                            spaceBetween: 16
                         }
                     }
                 };
-                // If data-swiper-options is present, merge it
-                if (container.dataset.swiperOptions) {
-                    try {
-                        var dataOptions = JSON.parse(container.dataset.swiperOptions);
-                        options = Object.assign(options, dataOptions);
-                    } catch (e) {}
-                }
                 new Swiper(container, options);
             });
         }

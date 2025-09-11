@@ -228,7 +228,7 @@
 </style>
 
 
-<section class="home">
+<section class="home container">
   <div class=" home1 before-overlay">
   </div>
   <div class="close-mark">

@@ -957,15 +957,7 @@
 
   <?php include('components/christmas.php'); ?>
 
-  <div style="padding: 100px 0px 100px 0px;">
-    <?php include('components/christmas -2.php'); ?>
-  </div>
-  <div style="padding: 100px 0px 100px 0px;">
-    <?php include('components/christmas -1.php'); ?>
-  </div>
-
-
-  <div class="container" style="margin-top: 150px;">
+  <div class="container" style="padding-top: 250px;">
     <a href="events.php"><img src="assets/img/event/banner/event-image-by-roamers-3.png" alt=""></a>
   </div>
 
