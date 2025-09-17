@@ -11,33 +11,56 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-
 // Event configuration array
 $events = [
     'saidpet' => [
         'name' => 'Saidpet Event',
         'subject' => 'New Saidpet Event Booking Received',
-        'from_name' => 'Saidpet Event Booking'
+        'from_name' => 'Saidpet Event Booking',
+        // Add event-specific details if needed
+        'date' => '',
+        'day' => '',
+        'time' => '',
+        'location' => ''
     ],
     'mahashivratri' => [
         'name' => 'Mahashivratri Ooty Event',
         'subject' => 'New Mahashivratri Ooty Booking Received',
-        'from_name' => 'Mahashivratri Ooty Booking'
+        'from_name' => 'Mahashivratri Ooty Booking',
+        // Add event-specific details if needed
+        'date' => '',
+        'day' => '',
+        'time' => '',
+        'location' => ''
     ],
     'kerala-onam' => [
         'name' => 'Kerala Onam Event',
         'subject' => 'New Kerala Onam Booking Received',
-        'from_name' => 'Kerala Onam Booking'
+        'from_name' => 'Kerala Onam Booking',
+        // Add event-specific details if needed
+        'date' => '',
+        'day' => '',
+        'time' => '',
+        'location' => ''
     ],
     'stranger-events' => [
-        'name' => 'Stranger Events Backyard',
-        'subject' => 'Backyard Booking Received',
-        'from_name' => 'Backyard Booking'
+        'name' => 'Backyard - Adyar, Chennai',
+        'subject' => 'New Backyard Booking Received',
+        'from_name' => 'Backyard Booking',
+        'date' => 'Sep 21, 2025',
+        'day' => 'Sunday',
+        'time' => '5:30 PM - 8:30 PM',
+        'location' => '53/23, 3rd Main Road, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020'
     ],
     'default' => [
         'name' => 'Event',
         'subject' => 'New Event Booking Received',
-        'from_name' => 'Event Booking'
+        'from_name' => 'Event Booking',
+        // Add event-specific details if needed
+        'date' => '',
+        'day' => '',
+        'time' => '',
+        'location' => ''
     ]
 ];
 
@@ -46,19 +69,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Sanitize inputs
     $fullName = htmlspecialchars(trim($_POST['full_name'] ?? ''));
     $phone = htmlspecialchars(trim($_POST['phone_number'] ?? ''));
-    $quantity = htmlspecialchars($_POST['selected_quantity'] ?? '1');
+    $dob = htmlspecialchars(trim($_POST['dob'] ?? ''));
+    $quantity = (int)($_POST['selected_quantity'] ?? 1);
     $package = htmlspecialchars($_POST['selected_package'] ?? 'standard-pass');
-    $basePrice = htmlspecialchars($_POST['calculated_base_price'] ?? '0');
-    $tax = htmlspecialchars($_POST['calculated_tax'] ?? '0');
-    $total = htmlspecialchars($_POST['calculated_total'] ?? '0');
+    $basePricePerUnit = (float)($_POST['calculated_base_price'] ?? 0);
+    $tax = (float)($_POST['calculated_tax'] ?? 0); // Default to 0 if not provided
+    $total = (float)($_POST['calculated_total'] ?? ($basePricePerUnit * $quantity)); // Calculate if not provided
     $eventType = htmlspecialchars(trim($_POST['event_type'] ?? 'default'));
 
     // Get event configuration
     $eventConfig = $events[$eventType] ?? $events['default'];
 
     // Validate required fields
-    if (empty($fullName) || empty($phone)) {
-        die('Full name and phone number are required.');
+    if (empty($fullName) || empty($phone) || empty($dob)) {
+        die('Full name, phone number, and date of birth are required.');
     }
 
     // Prepare the email
@@ -66,21 +90,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         // Server settings
-        $mail->isSMTP();                                      // Use SMTP
-        $mail->Host       = 'smtp.gmail.com';               // Set SMTP server
-        $mail->SMTPAuth   = true;                             // Enable SMTP auth
-        $mail->Username   = 'info@roamers.in';                // SMTP username
-        $mail->Password   = 'iifr konl ctis tphr';            // SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   // Encryption
-        $mail->Port       = 587;                              // TCP port
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'info@roamers.in';
+        $mail->Password   = 'iifr konl ctis tphr';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
 
         // Recipients
         $mail->setFrom('info@roamers.in', $eventConfig['from_name']);
-        $mail->addAddress('info@roamers.in', 'Admin');      // To email
+        $mail->addAddress('info@roamers.in', 'Admin');
 
         // Content
         $mail->isHTML(true);
         $mail->Subject = $eventConfig['subject'];
+
+        // Package display name
+        $packageDisplay = str_replace(['standard-pass', 'premium-pass', 'group-pass'], ['Female', 'Male', 'Group Pass'], $package);
 
         $mail->Body = "
             <div style='font-family:Segoe UI,Roboto,sans-serif;max-width:480px;margin:0 auto;background:#fff;border-radius:10px;padding:32px 28px 24px 28px;box-shadow:0 2px 12px rgba(78,192,219,0.07);color:#4ec0db;'>
@@ -92,7 +119,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <tr>
                         <td style='padding:7px 0;color:#4ec0db;'>Event</td>
                         <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$eventConfig['name']}</td>
-                    </tr>
+                    </tr>";
+
+        // Add event details if available
+        if (!empty($eventConfig['date'])) {
+            $mail->Body .= "
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Date</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$eventConfig['date']}</td>
+                    </tr>";
+        }
+        if (!empty($eventConfig['day'])) {
+            $mail->Body .= "
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Day</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$eventConfig['day']}</td>
+                    </tr>";
+        }
+        if (!empty($eventConfig['time'])) {
+            $mail->Body .= "
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Time</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$eventConfig['time']}</td>
+                    </tr>";
+        }
+        if (!empty($eventConfig['location'])) {
+            $mail->Body .= "
+                    <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Location</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$eventConfig['location']}</td>
+                    </tr>";
+        }
+
+        $mail->Body .= "
                     <tr>
                         <td style='padding:7px 0;color:#4ec0db;'>Full Name</td>
                         <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$fullName}</td>
@@ -102,24 +161,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$phone}</td>
                     </tr>
                     <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Date of Birth</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$dob}</td>
+                    </tr>
+                    <tr>
                         <td style='padding:7px 0;color:#4ec0db;'>Package</td>
-                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;text-transform:capitalize;'>" . str_replace(['standard-pass', 'premium-pass', 'group-pass'], ['Female', 'Male', 'Group Pass'], $package) . "</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;text-transform:capitalize;'>{$packageDisplay}</td>
                     </tr>
                     <tr>
                         <td style='padding:7px 0;color:#4ec0db;'>Quantity</td>
                         <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$quantity}</td>
                     </tr>
                     <tr>
-                        <td style='padding:7px 0;color:#4ec0db;'>Base Price</td>
-                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>₹{$basePrice}</td>
-                    </tr>
-                    <tr>
-                        <td style='padding:7px 0;color:#4ec0db;'>Tax</td>
-                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>₹{$tax}</td>
-                    </tr>
-                    <tr>
-                        <td style='padding:7px 0;color:#4ec0db;'>Total</td>
-                        <td style='padding:7px 0;font-weight:700;color:#4ec0db;text-align:right;font-size:1.13em;'>₹{$total}</td>
+                        <td style='padding:7px 0;color:#4ec0db;'> Price (per unit)</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>₹" . number_format($basePricePerUnit, 2) . "</td>
                     </tr>
                 </table>
                 <div style='border-top:1px solid #4ec0db;padding-top:10px;text-align:right;'>
@@ -143,11 +198,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             '>
                 <img src='https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png' alt='Roamers Logo' style='height:54px;margin-bottom:18px;'>
                 <h2 style='color:#4ec0db;font-size:1.45em;margin:0 0 10px 0;font-weight:700;letter-spacing:0.5px;'>Booking Confirmed!</h2>
-                <p style='font-size:1.08em;color:#4ec0db;margin-bottom:18px;'>Thank you for registering for <span style='color:#4ec0db;font-weight:500;'>{$eventConfig['name']}</span>.<br>
+                <p style='font-size:1.08em;color:#4ec0db;margin-bottom:18px;'>Thank you for registering for <span style='color:#4ec0db;font-weight:500;'>{$eventConfig['name']}</span> on {$eventConfig['date']} ({$eventConfig['day']}) from {$eventConfig['time']} at {$eventConfig['location']}.<br>
                 We have received your booking details and sent a confirmation to our team.<br>
                 <span style='color:#4ec0db;font-weight:600;'>We will contact you soon!</span></p>
                 <div style='margin:18px 0 0 0;'>
-                    <a href='events.php' style='
+                    <a href='events-sep-21.php' style='
                         display:inline-block;
                         background:#4ec0db;
                         color:#fff;
@@ -177,7 +232,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p style='font-size:1.08em;color:#4ec0db;margin-bottom:18px;'>We couldn't send your booking at this time.<br>
                 Please try again or contact us at <a href='mailto:hello@roamers.in' style='color:#4ec0db;text-decoration:underline;'>hello@roamers.in</a>.</p>
                 <div style='margin:18px 0 0 0;'>
-                    <a href='events.php' style='
+                    <a href='events-sep-21.php' style='
                         display:inline-block;
                         background:#4ec0db;
                         color:#fff;

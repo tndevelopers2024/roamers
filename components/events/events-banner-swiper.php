@@ -93,7 +93,7 @@
 
 
 <!-- Swiper -->
-<div class="event-banner-wrapper p-4 p-md-2  container " style="margin-top:80px; margin-bottom: 50px; ">
+<!-- <div class="event-banner-wrapper p-4 p-md-2  container " style="margin-top:80px; margin-bottom: 50px; ">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -101,11 +101,38 @@
                     alt="Pool Party" />
             </div>
         </div>
-        <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
-        <!-- <div class="swiper-pagination"></div> -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div>
+</div> -->
+
+<div class="container event-banner-mobile">
+    <img src="assets\img\event\banner\event-image-by-roamers-8.png"
+        alt="Pool Party" />
 </div>
+<style>
+    .event-banner-mobile img {
+        margin-top: 80px;
+        border-radius: 20px;
+    }
+
+@media (max-width: 600px) {
+    .event-banner-mobile {
+        padding: 0;
+        margin: 0 auto 20px auto;
+        max-width: 100%;
+    }
+    .event-banner-mobile img {
+        margin-top: 100px;
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 12px;
+        display: block;
+    }
+}
+</style>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

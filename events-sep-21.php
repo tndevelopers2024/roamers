@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Roamers - Explore the World with Our Social Travel Agency</title>
+    <title>Roamers - Events</title>
     <meta name="description"
-        content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways, and group travel experiences. Explore, connect, and create unforgettable memories with like-minded travelers!">
+        content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
     <meta name="keywords"
-        content="travel, travel destinations, travel tips, travel guides, vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
+        content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
     <meta name="author" content="Themeland">
-    <meta name="title" content="Roamers - Explore the World with Our Social Travel Agency">
-    <meta property="og:title" content="Roamers | Your Gateway to Social Travel Adventures">
+    <meta name="title" content="Roamers - Events">
+    <meta property="og:title" content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
     <meta property="og:description"
-        content="Discover the world with Roamers! From solo adventures to group travel, we create experiences that bring travelers together. Explore destinations, meet people, and make memories!">
+        content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
     <meta property="og:image" content="assets/img/event/banner/event-image-by-roamers-8.png">
     <meta property="og:image:secure_url" content="assets/img/event/banner/">
     <meta property="og:image:width" content="700">

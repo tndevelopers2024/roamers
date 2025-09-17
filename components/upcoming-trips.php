@@ -22,7 +22,7 @@
 
         .upcoming-container {
             position: relative;
-            max-width: 1700px;
+            max-width: 1500px;
             margin: 0 auto;
             padding: 0 15px;
         }
@@ -544,9 +544,9 @@
             Upcoming Group Trips
         </h2>
         <div class="upcoming-tabs" id="upcoming-tabs">
-            <button class="upcoming-tab-btn active" data-tab="august">
+            <!-- <button class="upcoming-tab-btn active" data-tab="august">
                 <i class="fa-solid fa-cloud-sun"></i> August
-            </button>
+            </button> -->
             <button class="upcoming-tab-btn" data-tab="sep">
                 <i class="fa-solid fa-cloud-sun-rain"></i> September
             </button>
@@ -563,7 +563,7 @@
                 <i class="fa-solid fa-cloud-sun"></i> January
             </button>
         </div>
-        <div class="upcoming-tab-content active" id="tab-august">
+        <!-- <div class="upcoming-tab-content active" id="tab-august">
             <div class="upcoming-slider-wrapper">
                 <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button"><i
                         class="fa fa-chevron-left"></i></button>
@@ -747,8 +747,8 @@
                 <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip" type="button"><i
                         class="fa fa-chevron-right"></i></button>
             </div>
-        </div>
-        <div class="upcoming-tab-content" id="tab-sep">
+        </div> -->
+        <div class="upcoming-tab-content active" id="tab-sep">
             <div class="upcoming-slider-wrapper">
                 <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button"><i
                         class="fa fa-chevron-left"></i></button>
@@ -801,7 +801,7 @@
                             <div class="upcoming-price-section">
                                 <div class="upcoming-dates">
                                     <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="upcoming-dates-text">Sep 20</span>
+                                    <span class="upcoming-dates-text">Sep 27</span>
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>

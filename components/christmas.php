@@ -170,17 +170,51 @@
         }
     }
 
-    @media (max-width: 576px) {
+    @media (max-width: 600px) {
         .swiper-slide {
-            flex: 0 0 100%;
-            max-width: 100%;
+            flex: 0 0 50%;
+            max-width: 50%;
+            margin-right: 12px;
+        }
+
+        .swiper-slide:last-child {
             margin-right: 0;
+        }
+
+        .height {
+            z-index: 2;
+            /* top: 30px; */
+            left: 0;
+        }
+    }
+
+    .height {
+        z-index: 2;
+        top: 290px;
+        left: 0;
+    }
+
+    @media (max-width: 768px) {
+        .height {
+            top: 50px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .height {
+            top: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .height {
+            top: 18px;
         }
     }
 </style>
 
-<div class="container position-relative" style="padding-bottom: 100px;">
-    <div class="my-5 position-absolute w-100" id="backpacking" style="z-index:2; top:290px; left:0;">
+<div class="container position-relative">
+    <div class="my-5 position-absolute w-100 height" id="backpacking">
         <section id="shortbreak">
             <div class="container-fluid">
                 <div class="swiper-container">

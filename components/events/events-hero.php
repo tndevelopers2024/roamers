@@ -333,7 +333,7 @@
 
     .main-container {
         max-width: 1400px;
-        margin: 80px auto;
+        margin: 30px auto;
         padding: 0 20px;
     }
 
@@ -360,7 +360,7 @@
     }
 
     .section-title {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         font-weight: 700;
         color: #2c3e50;
         margin: 30px 0 20px 0;
@@ -779,7 +779,7 @@
     @media (max-width: 768px) {
         .main-container {
             max-width: 1400px;
-            margin: 150px auto;
+            margin: 50px auto;
             padding: 0 20px;
         }
     }
@@ -880,7 +880,7 @@
 
                         @media (min-width: 901px) {
                             .event-title-responsive {
-                                font-size: 1rem !important;
+                                font-size: 1.5rem !important;
                             }
                         }
                     </style>
@@ -892,18 +892,38 @@
                 <div class="card-body">
                     <div class="section-title mb-2">Event Details</div>
                     <p class="pulse mb-0" style="line-height: 2.4;">
-                        <strong>Roamers Strangers ~ Travellers Meet-up 🌍</strong><br><br>
                         Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.<br><br>
-                        <strong>Here’s what’s waiting for you:</strong><br>
-                        ✨ Fun icebreakers that feel more like games than small talk<br>
-                        ✨ Travel story circles where you’ll hear wild adventures &amp; hidden gem tips<br>
-                        ✨ Like-minded people who are open, friendly, and love to explore<br>
-                        ✨ A chance to find your next travel buddy for upcoming Roamers trips<br>
-                        ✨ An evening filled with good vibes, laughter, and meaningful connections<br><br>
-                        Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins.<br><br>
-                        This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers.<br><br>
-                        So come join us for a night of conversations, connections, and stories that might just inspire your next journey. 🗺️💫<br>
-                        <strong>👉 Spots are limited. Save yours now and let’s create memories together, even before the trip begins!</strong>
+                    <div class="card mb-3" style="background: #e3f6fd; border-radius: 16px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); border: 2px solid white;">
+                        <div class="card-body" style="padding: 1.2rem 1.5rem;">
+                            <strong>Here’s what’s waiting for you:</strong>
+                            <ul style="list-style: none; padding-left: 0; margin-bottom: 0; margin-top: 12px;">
+                                <li style="margin-bottom: 10px;">
+                                    <i class="fa-solid fa-star me-1" style="color: #f7b731;"></i>
+                                    Fun icebreakers that feel more like games than small talk
+                                </li>
+                                <li style="margin-bottom: 10px;">
+                                    <i class="fa-solid fa-star me-1" style="color: #f7b731;"></i>
+                                    Travel story circles where you’ll hear wild adventures &amp; hidden gem tips
+                                </li>
+                                <li style="margin-bottom: 10px;">
+                                    <i class="fa-solid fa-users me-1" style="color: #0984e3;"></i>
+                                    Like-minded people who are open, friendly, and love to explore
+                                </li>
+                                <li style="margin-bottom: 10px;">
+                                    <i class="fa-solid fa-user-friends me-1" style="color: #00b894;"></i>
+                                    A chance to find your next travel buddy for upcoming Roamers trips
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-face-laugh-beam me-1" style="color: #e17055;"></i>
+                                    An evening filled with good vibes, laughter, and meaningful connections
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins.<br><br>
+                    This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers.<br><br>
+                    So come join us for a night of conversations, connections, and stories that might just inspire your next journey. 🗺️💫<br>
+                    <strong>👉 Spots are limited. Save yours now and let’s create memories together, even before the trip begins!</strong>
                     </p>
                 </div>
             </div>
@@ -921,11 +941,15 @@
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    An internet/processing fee may apply per ticket. Please review the total before completing payment.
+                                    Photos and videos may be taken during the event and used for promotional purposes.
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    Arrive at least 15 minutes before the event to ensure smooth entry.
+                                    Tickets are strictly non-transferable. Any resale will result in cancellation without refund or compensation.
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                                    An internet/processing fee may apply per ticket. Please review the total before completing payment.
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
@@ -933,12 +957,9 @@
                                 </p>
                                 <p>
                                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    Photos and videos may be taken during the event and used for promotional purposes.
+                                    Arrive at least 15 minutes before the event to ensure smooth entry.
                                 </p>
-                                <p>
-                                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                                    Tickets are strictly non-transferable. Any resale will result in cancellation without refund or compensation.
-                                </p>
+
                             </div>
                         </div>
                     </section>
@@ -959,7 +980,10 @@
         <!-- Right Column: Booking Form -->
         <div class="booking-card">
 
-            <h3 class="section-title">Backyard</h3>
+            <h3 class="section-title">
+                <i class="fa-solid fa-location-dot" style="color: #4ec0db; margin-right: 8px;"></i>
+                Backyard - Adyar, Chennai
+            </h3>
 
             <div class="pulse"
                 style="display: flex; flex-direction: column; align-items: flex-start; gap: 18px; width: 100%; font-size: 1.08rem; color: #444; margin-bottom: 20px;">
@@ -1013,10 +1037,6 @@
                     <span class="amount-label pulse">Price</span>
                     <span class="amount-value pulse" id="price" aria-live="polite" role="status">299 ₹</span>
                 </div>
-                <div class="amount-row">
-                    <span class="amount-label pulse">Tax</span>
-                    <span class="tax-amount pulse" id="tax" aria-live="polite">+ 20.00 Tax</span>
-                </div>
             </div>
 
             <form method="POST" action="events-send-mail.php">
@@ -1039,19 +1059,17 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="email" class="section-label pulse">Email</label>
-                    <input id="email" type="email" class="form-input" name="email"
-                        placeholder="e.g., priya@email.com" autocomplete="email" required aria-required="true"
-                        aria-describedby="error-email">
-                    <div id="error-email" class="form-error" role="alert" aria-live="polite" style="display:none;">
+                    <label for="dob" class="section-label pulse">Date of Birth</label>
+                    <input id="dob" type="date" class="form-input" name="dob"
+                        placeholder="YYYY-MM-DD" autocomplete="bday" required aria-required="true"
+                        aria-describedby="error-dob">
+                    <div id="error-dob" class="form-error" role="alert" aria-live="polite" style="display:none;">
                     </div>
                 </div>
 
                 <input type="hidden" name="selected_quantity" id="selected_quantity" value="1">
                 <input type="hidden" name="selected_package" id="selected_package" value="standard-pass">
                 <input type="hidden" name="calculated_base_price" id="calculated_base_price" value="299">
-                <input type="hidden" name="calculated_tax" id="calculated_tax" value="20.00">
-                <input type="hidden" name="calculated_total" id="calculated_total" value="519.00">
 
                 <button type="submit" class="book-btn pulse" style="animation: bounceIn 0.7s; border-radius: 30px;">
                     Register Now
