@@ -837,7 +837,7 @@
   <?php include('includes/header.php'); ?>
   <?php include('components/banner.php'); ?>
   <?php include('components/banner-below.php'); ?>
-  <?php include('components/new-upcoming-trips.php'); ?>
+  <?php include('components/testing-upcoming-trips.php'); ?>
 
   <!-- <div class="container" style="position: relative;">
     <div class="upcoming-container"
@@ -957,9 +957,40 @@
 
   <?php include('components/christmas.php'); ?>
 
-  <div class="container" style="padding-top: 330px;">
-    <a href="events-sep-21.php"><img src="assets/img/event/banner/event-image-by-roamers-3.png" alt=""></a>
+  <div class="container event-banner-container">
+    <a href="events-sep-21.php" class="d-block w-100">
+      <img
+        src="assets/img/event/banner/event-image-by-roamers-3.png"
+        alt="Roamers Event Banner"
+        class="img-fluid w-100 event-banner-img">
+    </a>
   </div>
+
+  <style>
+    .event-banner-container {
+      padding-top: 330px;
+    }
+    @media (max-width: 991.98px) {
+      .event-banner-container {
+        padding-top: 300px !important;
+      }
+    }
+    @media (max-width: 575.98px) {
+      .event-banner-container {
+        padding-top: 552px !important;
+      }
+      .event-banner-img {
+        max-height: 220px;
+        object-fit: cover;
+      }
+    }
+    .event-banner-img {
+      height: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
 
   <div class="container" style="padding-top: 30px;">
     <?php include('components/event-trips.php'); ?>
@@ -971,7 +1002,7 @@
   <!-- -------------Testing Areas ------------- -->
 
 
-  <section class="travelgram" style="margin-top: 100px;" id="travelgram">
+  <section class="travelgram" id="travelgram">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 inst-w d-block d-md-none">

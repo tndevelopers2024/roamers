@@ -451,8 +451,8 @@
     width: 98%;
   }
   .swiper-slide img {
-    max-height: 200px !important;
-    object-fit: cover !important;
+    /* max-height: 200px ; */
+    object-fit: cover;
     border-radius: 3.8vw;
   }
   .swiper-slide a {

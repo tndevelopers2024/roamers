@@ -1,6 +1,3 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ooty Travel Package</title>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -160,7 +157,7 @@
     .event-card-flex {
         display: flex;
         justify-content: space-between;
-        margin: 5px 15px 3px 10px;
+        /* margin: 5px 15px 3px 10px; */
         flex-wrap: wrap;
     }
 
@@ -207,9 +204,9 @@
     }
 
     .event-title {
-        font-size: 17px;
+        font-size: 15px;
         text-transform: uppercase;
-        color: black;
+        color: white;
         text-align: start;
         margin: 5px 0px 0px 12px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -550,1667 +547,394 @@
                 <i class="fa fa-chevron-left"></i>
             </button>
             <div class="event-slider" id="event-slider-august">
-       
+
+                <!-- Card 1-->
                 <div class="event-card">
                     <div class="event-content">
                         <div class="event-image">
-                            <img src="assets\img\event\cards\event-card-6.png" alt="Valley of Flowers">
-                            <!-- <h1 class="event-title" style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; color: #fff; background: rgba(0,0,0,0.4); margin: 0; padding: 8px 0;">Valley of Flowers Trek</h1> -->
-                        </div>
-                        <a href="valley-of-flowers.php" target="_blank" class="event-view">Book Now</a>
-                    </div>
-                </div>
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets\img\event\cards\event-card-6.png" alt="Valley of Flowers">
-                            <!-- <h1 class="event-title" style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; color: #fff; background: rgba(0,0,0,0.4); margin: 0; padding: 8px 0;">Valley of Flowers Trek</h1> -->
-                        </div>
-                        <a href="valley-of-flowers.php" target="_blank" class="event-view">Book Now</a>
-                    </div>
-                </div>
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets\img\event\cards\event-card-7.png" alt="Valley of Flowers">
+                            <img src="assets\img\event\cards\event-card-11.png" alt="Valley of Flowers">
                             <!-- <h1 class="event-title" style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; color: #fff; background: rgba(0,0,0,0.4); margin: 0; padding: 8px 0;">Valley of Flowers Trek</h1> -->
                         </div>
                         <a href="valley-of-flowers.php" target="_blank" class="event-view">Book Now</a>
                     </div>
                 </div>
 
-                <!-- Sri Lanka Card -->
-                <!-- <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Colombo</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Sri Lanka</h1>
-                        <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Aug 17</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹43,999</div>
-                            </div>
-                        </div>
-                        <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div> -->
-                <!-- Varkala Card -->
-                <!-- <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Chennai/Trivandrum</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Varkala</h1>
-                        <p class="event-locations">Chennai - Trivandrum</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Aug 15, 29</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹8,990</div>
-                            </div>
-                        </div>
-                        <a href="varkala-grouptrip.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div> -->
-                <!-- Munnar with Kolukkumalai Card -->
-                <!-- <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/kolukkumalai-img/2.jpg" alt="Munnar with Kolukkumalai">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Chennai</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Munnar with Kolukkumalai</h1>
-                        <p class="event-locations">Munnar</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 6, 19, 26</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price munnar-price"></div>
-                            </div>
-                        </div>
-                        <a href="kolukkumalai-trek.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div> -->
-                <!-- Andaman Island Hopping Card -->
-                <!-- <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg"
-                                alt="Andaman Island Hopping">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Port Blair</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Andaman Island Hopping</h1>
-                        <p class="event-locations">Port Blair, Ross Island, Havelock, Neil</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Customise it!</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price andaman-price"></div>
-                            </div>
-                        </div>
-                        <a href="andaman.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div> -->
-            </div>
-            <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button">
-                <i class="fa fa-chevron-right"></i>
-            </button>
-        </div>
-    </div>
-    <!-- September Tab Content -->
-    <div class="event-tab-content" id="tab-sep">
-        <div class="event-slider-wrapper">
-            <button class="event-slider-arrow left" aria-label="Scroll to previous trip" type="button">
-                <i class="fa fa-chevron-left"></i>
-            </button>
-            <div class="event-slider" id="event-slider-dec">
-                <!-- Onam Special – Kerala Getaway Card -->
+                <!-- Card 2-->
                 <div class="event-card">
                     <div class="event-content">
                         <div class="event-image">
-                            <img src="assets/img/kerala-onam/kerala-onam (11).avif" alt="Onam Special – Kerala Getaway">
+                            <img src="assets\img\event\cards\event-card-10.png" alt="Valley of Flowers">
+                            <!-- <h1 class="event-title" style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; color: #fff; background: rgba(0,0,0,0.4); margin: 0; padding: 8px 0;">Valley of Flowers Trek</h1> -->
                         </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Chennai</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Onam Special – Kerala Getaway</h1>
-                        <p class="event-locations">Munnar , Alappuzha</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 4</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹8499</div>
-                            </div>
-                        </div>
-                        <a href="kerala-onam.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Pondi Dive-in Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Direct, Chennai</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Pondi Dive-in</h1>
-                        <p class="event-locations">Pondicherry</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹4,990</div>
-                            </div>
-                        </div>
-                        <a href="pondicherry.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Varkala Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Chennai/Trivandrum</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Varkala</h1>
-                        <p class="event-locations">Chennai - Trivandrum</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 12</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹8,990</div>
-                            </div>
-                        </div>
-                        <a href="varkala-grouptrip.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- MEJESTIC MEGHALAYA Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/megalaya/Front%203.jpg" alt="MEJESTIC MEGHALAYA">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>Ex: Guwahati</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">MEJESTIC MEGHALAYA</h1>
-                        <p class="event-locations">Guwahati, Shillong, Cherrapunjee</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹19,990</div>
-                            </div>
-                        </div>
-                        <a href="meghalaya.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- CHIKMAGALUR BACKPACKING Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/Testimnils/chikmagalur.jpg" alt="CHIKMAGALUR BACKPACKING">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Chennai - Bangalore</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">CHIKMAGALUR BAGPACKING</h1>
-                        <p class="event-locations">Chikmagalur, Z point, Hebbe Falls</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 6</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹7,990</div>
-                            </div>
-                        </div>
-                        <a href="chikmagalur.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Munnar with Kolukkumalai Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/kolukkumalai-img/2.jpg" alt="Munnar with Kolukkumalai">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Chennai</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Munnar with Kolukkumalai</h1>
-                        <p class="event-locations">Munnar</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 26</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price munnar-price"></div>
-                            </div>
-                        </div>
-                        <a href="kolukkumalai-trek.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Sri Lanka Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Colombo</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Sri Lanka</h1>
-                        <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 6</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹43,999</div>
-                            </div>
-                        </div>
-                        <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-            </div>
-            <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button">
-                <i class="fa fa-chevron-right"></i>
-            </button>
-        </div>
-    </div>
-    <!-- Oct Tab Content  -->
-    <div class="event-tab-content" id="tab-oct">
-        <div class="event-slider-wrapper">
-            <!-- Left Arrow Button -->
-            <button class="event-slider-arrow left" aria-label="Scroll to previous trip" type="button">
-                <i class="fa fa-chevron-left"></i>
-            </button>
-            <div class="event-slider" id="event-slider-oct">
-                <!-- Onam Special – Kerala Getaway Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/kerala-onam/kerala-onam (11).avif" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Onam Special – Kerala Getaway</h1>
-                            <p class="event-locations">Munnar , Alappuzha</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 4</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price ">₹8499</div>
-                                </div>
-                            </div>
-                            <a href="kerala-onam.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- MEJESTIC MEGHALAYA Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/megalaya/Front%203.jpg" alt="MEJESTIC MEGHALAYA">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>Ex: Guwahati</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">MEJESTIC MEGHALAYA</h1>
-                        <p class="event-locations">Guwahati, Shillong, Cherrapunjee</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹19,990</div>
-                            </div>
-                        </div>
-                        <a href="meghalaya.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Pondi Dive-in Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                        </div>
-                        <div class="event-card-flex">
-                            <!-- Duration -->
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
-                            </div>
-                            <!-- From Location -->
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Direct, Chennai</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Pondi Dive-in</h1>
-                        <p class="event-locations">Pondicherry</p>
-                        <div class="event-price-section">
-                            <!-- Dates -->
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹4,990</div>
-                            </div>
-                        </div>
-                        <a href="pondicherry.php" target="_blank" class="event-view">View Trip</a>
+                        <a href="valley-of-flowers.php" target="_blank" class="event-view">Book Now</a>
                     </div>
                 </div>
 
-                <!-- Andaman Island Hopping Card -->
+                <!-- Card 3-->
                 <div class="event-card">
                     <div class="event-content">
                         <div class="event-image">
-                            <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg"
-                                alt="Andaman Island Hopping">
+                            <img src="assets\img\event\cards\event-card-12.png" alt="Sri Lanka">
                         </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Port Blair</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Andaman Island Hopping</h1>
-                        <p class="event-locations">Port Blair, Ross Island, Havelock, Neil</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text"></span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price andaman-price"></div>
-                            </div>
-                        </div>
-                        <a href="andaman.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-
-                <!-- Sri Lanka Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Colombo</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Sri Lanka</h1>
-                        <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Aug 17</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹43,999</div>
-                            </div>
-                        </div>
-                        <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Varkala Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
+                        <div style="position: absolute; top: 100; left: 0; width: 100%; z-index: 2; margin-top: 229px;">
+                            <div class="event-card-flex" style=" padding: 10px 20px;">
                                 <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>5:00 Pm
                                 </div>
                                 <div class="event-from">
                                     <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai/Trivandrum</span>
+                                    <span>Chennai</span>
                                 </div>
                             </div>
-                            <h1 class="event-title">Varkala</h1>
-                            <p class="event-locations">Chennai - Trivandrum</p>
-                            <div class="event-price-section">
+                            <h1 class="event-title"
+                                style=" margin: 0; padding: 5px 20px; font-size: 15px; font-weight: bold;">
+                                Strangers Fun meetup
+                            </h1>
+                            <div class="event-price-section"
+                                style=" margin: 0;  padding: 4px 20px 6px 20px;">
                                 <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 12</span>
+                                    <span class="event-dates-text">Date: 21st Sep</span>
                                 </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹8,990</div>
-                                </div>
-                            </div>
-                            <a href="varkala-grouptrip.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Majestic Meghalaya Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/megalaya/Front%203.jpg" alt="Valley of Flowers">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>Ex: Guwahati </span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">MEJESTIC MEGHALAYA</h1>
-                            <p class="event-locations">Guwahati, Shillong, Cherrapunjee</p>
-                            <div class="event-price-section">
                                 <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 20</span>
+                                    <span class="event-dates-text">Slot&nbsp;Count:&nbsp;[25]</span>
                                 </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹19,990</div>
-                                </div>
-                            </div>
-                            <a href="meghalaya.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Chikmagalur Backpacking Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/Testimnils/chikmagalur.jpg" alt="Sri Lanka">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai - Bangalore</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">CHIKMAGALUR BAGPACKING </h1>
-                            <p class="event-locations">Chikmagalur, Z point, Hebbe Falls</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 6</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹7,990</div>
-                                </div>
-                            </div>
-                            <a href="chikmagalur.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Munnar with Kolukkumalai Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets\img\kolukkumalai-img\2.jpg" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Munnar with Kolukkumalai</h1>
-                            <p class="event-locations">Munnar</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 26</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price munnar-price"></div>
-                                </div>
-                            </div>
-                            <a href="kolukkumalai-trek.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Sri Lanka Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Colombo</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Sri Lanka</h1>
-                            <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 6</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹43,999</div>
-                                </div>
-                            </div>
-                            <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-            </div>
-            <!-- Right Arrow Button -->
-            <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button">
-                <i class="fa fa-chevron-right"></i>
-            </button>
-        </div>
-    </div>
-    <!-- Nov Tab Content -->
-    <div class="event-tab-content" id="tab-nov">
-        <div class="event-slider-wrapper">
-            <!-- Left Arrow Button -->
-            <button class="event-slider-arrow left" aria-label="Scroll to previous trip" type="button">
-                <i class="fa fa-chevron-left"></i>
-            </button>
-            <div class="event-slider" id="event-slider-nov">
-                <!-- Onam Special – Kerala Getaway Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/kerala-onam/kerala-onam (11).avif" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Onam Special – Kerala Getaway</h1>
-                            <p class="event-locations">Munnar , Alappuzha</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 4</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price ">₹8499</div>
-                                </div>
-                            </div>
-                            <a href="kerala-onam.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-
-
-                <!-- Andaman Island Hopping Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg"
-                                alt="Andaman Island Hopping">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Port Blair</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Andaman Island Hopping</h1>
-                        <p class="event-locations">Port Blair, Ross Island, Havelock, Neil</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text"></span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price andaman-price"></div>
-                            </div>
-                        </div>
-                        <a href="andaman.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- MEJESTIC MEGHALAYA Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/megalaya/Front%203.jpg" alt="MEJESTIC MEGHALAYA">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>Ex: Guwahati</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">MEJESTIC MEGHALAYA</h1>
-                        <p class="event-locations">Guwahati, Shillong, Cherrapunjee</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹19,990</div>
-                            </div>
-                        </div>
-                        <a href="meghalaya.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Sri Lanka Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Colombo</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Sri Lanka</h1>
-                        <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Aug 17</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹43,999</div>
                             </div>
                         </div>
                         <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
                     </div>
                 </div>
 
-                <!-- Pondi Dive-in Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                        </div>
-                        <div class="event-card-flex">
-                            <!-- Duration -->
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
-                            </div>
-                            <!-- From Location -->
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Direct, Chennai</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Pondi Dive-in</h1>
-                        <p class="event-locations">Pondicherry</p>
-                        <div class="event-price-section">
-                            <!-- Dates -->
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹4,990</div>
-                            </div>
-                        </div>
-                        <a href="pondicherry.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
 
-                <!-- Varkala Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai/Trivandrum</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Varkala</h1>
-                            <p class="event-locations">Chennai - Trivandrum</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 12</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹8,990</div>
-                                </div>
-                            </div>
-                            <a href="varkala-grouptrip.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Majestic Meghalaya Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/megalaya/Front%203.jpg" alt="Valley of Flowers">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>Ex: Guwahati </span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">MEJESTIC MEGHALAYA</h1>
-                            <p class="event-locations">Guwahati, Shillong, Cherrapunjee</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 20</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹19,990</div>
-                                </div>
-                            </div>
-                            <a href="meghalaya.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Chikmagalur Backpacking Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/Testimnils/chikmagalur.jpg" alt="Sri Lanka">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai - Bangalore</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">CHIKMAGALUR BAGPACKING </h1>
-                            <p class="event-locations">Chikmagalur, Z point, Hebbe Falls</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 6</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹7,990</div>
-                                </div>
-                            </div>
-                            <a href="chikmagalur.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Munnar with Kolukkumalai Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets\img\kolukkumalai-img\2.jpg" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Munnar with Kolukkumalai</h1>
-                            <p class="event-locations">Munnar</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 26</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price munnar-price"></div>
-                                </div>
-                            </div>
-                            <a href="kolukkumalai-trek.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Sri Lanka Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Colombo</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Sri Lanka</h1>
-                            <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 6</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹43,999</div>
-                                </div>
-                            </div>
-                            <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
+                <!-- Left Arrow Button -->
+                <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button">
+                    <i class="fa fa-chevron-left"></i>
+                </button>
+
+                <!-- Right Arrow Button -->
+                <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip" type="button">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const tabBtns = document.querySelectorAll('.event-tab-btn');
+                        const tabContents = document.querySelectorAll('.event-tab-content');
+
+                        // Tab switching (only August is active)
+                        tabBtns.forEach(btn => {
+                            btn.addEventListener('click', function() {
+                                const tab = btn.getAttribute('data-tab');
+                                if (!tab) {
+                                    // Prevent multiple toasts
+                                    if (document.getElementById('coming-soon-toast')) return;
+                                    const toast = document.createElement('div');
+                                    toast.id = 'coming-soon-toast';
+                                    toast.innerText = 'Coming Soon!';
+                                    toast.style.position = 'fixed';
+                                    toast.style.top = '80px';
+                                    toast.style.left = '50%';
+                                    toast.style.transform = 'translateX(-50%) scale(0.95)';
+                                    toast.style.background = '#4CB9D3';
+                                    toast.style.color = '#fff';
+                                    toast.style.padding = '10px 12px';
+                                    toast.style.borderRadius = '20px';
+                                    toast.style.fontWeight = 'bold';
+                                    toast.style.fontSize = '16px';
+                                    toast.style.zIndex = 9999;
+                                    toast.style.boxShadow = '0 2px 12px rgba(0,0,0,0.15)';
+                                    toast.style.opacity = '0';
+                                    toast.style.transition = 'opacity 0.35s, transform 0.35s';
+                                    document.body.appendChild(toast);
+
+                                    setTimeout(() => {
+                                        toast.style.opacity = '1';
+                                        toast.style.transform = 'translateX(-50%) scale(1)';
+                                    }, 10);
+
+                                    setTimeout(() => {
+                                        toast.style.opacity = '0';
+                                        toast.style.transform = 'translateX(-50%) scale(0.95)';
+                                        setTimeout(() => {
+                                            if (toast.parentNode) toast.parentNode.removeChild(toast);
+                                        }, 350);
+                                    }, 1000);
+                                    return;
+                                }
+
+                                // Tab switching logic (if more tabs are enabled in future)
+                                tabBtns.forEach(b => b.classList.remove('active'));
+                                btn.classList.add('active');
+                                tabContents.forEach(tc => tc.classList.remove('active'));
+                                const content = document.getElementById('tab-' + tab);
+                                if (content) {
+                                    content.classList.add('active');
+                                    // Initialize slider for the newly active tab once
+                                    setupSlider(
+                                        '#' + content.id + ' .event-slider-wrapper',
+                                        '.event-slider',
+                                        '.event-slider-arrow.left',
+                                        '.event-slider-arrow.right'
+                                    );
+                                    // Center first card on mobile for the active tab
+                                    const activeSlider = content.querySelector('.event-slider');
+                                    if (activeSlider && window.innerWidth <= 600) {
+                                        const cards = Array.from(activeSlider.querySelectorAll('.event-card'));
+                                        if (cards.length > 0) {
+                                            const cardLeft = cards[0].offsetLeft;
+                                            const containerWidth = activeSlider.offsetWidth;
+                                            const cardWidth = cards[0].offsetWidth;
+                                            const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
+                                            activeSlider.scrollTo({
+                                                left: scrollPosition,
+                                                behavior: 'auto'
+                                            });
+                                        }
+                                    }
+                                }
+                            });
+                        });
+
+                        // Slider logic
+                        function setupSlider(wrapperSelector, sliderSelector, leftArrowSelector, rightArrowSelector) {
+                            const wrapper = typeof wrapperSelector === 'string' ? document.querySelector(wrapperSelector) : wrapperSelector;
+                            if (!wrapper || wrapper.dataset.initialized === 'true') return;
+                            const slider = wrapper.querySelector(sliderSelector);
+                            const leftArrow = wrapper.querySelector(leftArrowSelector);
+                            const rightArrow = wrapper.querySelector(rightArrowSelector);
+                            if (!slider || !leftArrow || !rightArrow) return;
+                            const cards = Array.from(slider.querySelectorAll('.event-card'));
+
+                            function updateArrows() {
+                                if (!slider) return;
+                                // Use Math.abs to avoid floating point issues
+                                leftArrow.disabled = slider.scrollLeft <= 10;
+                                rightArrow.disabled = slider.scrollLeft + slider.offsetWidth >= slider.scrollWidth - 10;
+                            }
+
+                            function smoothScrollTo(position) {
+                                slider.scrollTo({
+                                    left: position,
+                                    behavior: 'smooth'
+                                });
+                            }
+
+                            function getCurrentIndex() {
+                                const center = slider.scrollLeft + slider.offsetWidth / 2;
+                                let closestIndex = 0;
+                                let closestDiff = Infinity;
+                                cards.forEach((card, index) => {
+                                    const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+                                    const diff = Math.abs(cardCenter - center);
+                                    if (diff < closestDiff) {
+                                        closestDiff = diff;
+                                        closestIndex = index;
+                                    }
+                                });
+                                return closestIndex;
+                            }
+
+                            function getCenteredPosition(index) {
+                                const card = cards[index];
+                                const cardLeft = card.offsetLeft;
+                                const containerWidth = slider.offsetWidth;
+                                const cardWidth = card.offsetWidth;
+                                return cardLeft - (containerWidth - cardWidth) / 2;
+                            }
+
+                            leftArrow.addEventListener('click', function() {
+                                const currentIndex = getCurrentIndex();
+                                const targetIndex = Math.max(0, currentIndex - 1);
+                                const scrollPosition = getCenteredPosition(targetIndex);
+                                smoothScrollTo(scrollPosition);
+                            });
+
+                            rightArrow.addEventListener('click', function() {
+                                const currentIndex = getCurrentIndex();
+                                const targetIndex = Math.min(cards.length - 1, currentIndex + 1);
+                                const scrollPosition = getCenteredPosition(targetIndex);
+                                smoothScrollTo(scrollPosition);
+                            });
+
+                            // Ensure arrows receive pointer events even if overlapping content
+                            [leftArrow, rightArrow].forEach((btn) => {
+                                btn.style.pointerEvents = 'auto';
+                            });
+
+                            slider.addEventListener('scroll', updateArrows);
+                            window.addEventListener('resize', updateArrows);
+                            updateArrows();
+
+                            // Re-evaluate arrows after images load (layout/scrollWidth changes)
+                            const sliderImages = Array.from(slider.querySelectorAll('img'));
+                            sliderImages.forEach((img) => {
+                                if (img.complete) return; // already loaded
+                                img.addEventListener('load', updateArrows, {
+                                    passive: true,
+                                    once: true
+                                });
+                                img.addEventListener('error', updateArrows, {
+                                    passive: true,
+                                    once: true
+                                });
+                            });
+                            // Fallback: also run once after next frame and shortly after
+                            requestAnimationFrame(updateArrows);
+                            setTimeout(updateArrows, 300);
+                            wrapper.dataset.initialized = 'true';
+                        }
+
+                        setupSlider(
+                            '.event-tab-content.active .event-slider-wrapper',
+                            '.event-slider',
+                            '.event-slider-arrow.left',
+                            '.event-slider-arrow.right'
+                        );
+
+                        // Also initialize sliders for inactive tabs so arrows work when switched later
+                        document.querySelectorAll('.event-slider-wrapper').forEach((wrapper) => {
+                            setupSlider(wrapper, '.event-slider', '.event-slider-arrow.left', '.event-slider-arrow.right');
+                        });
+
+                        // Drag-to-scroll for sliders (mouse + touch)
+                        function enableDragScroll(slider) {
+                            let isDown = false;
+                            let startX = 0;
+                            let scrollLeftStart = 0;
+                            let isDragging = false;
+                            let lastX = 0;
+                            let lastTime = 0;
+                            let velocity = 0;
+                            let momentumId = 0;
+
+                            function stopMomentum() {
+                                if (momentumId) {
+                                    cancelAnimationFrame(momentumId);
+                                    momentumId = 0;
+                                }
+                            }
+
+                            function onPointerDown(clientX) {
+                                isDown = true;
+                                isDragging = false;
+                                startX = clientX;
+                                lastX = clientX;
+                                lastTime = performance.now();
+                                velocity = 0;
+                                scrollLeftStart = slider.scrollLeft;
+                                slider.classList.add('dragging');
+                                stopMomentum();
+                            }
+
+                            function onPointerMove(clientX, evt) {
+                                if (!isDown) return;
+                                const now = performance.now();
+                                const deltaX = clientX - startX;
+                                const movedSinceLast = clientX - lastX;
+                                const dt = Math.max(1, now - lastTime);
+                                if (Math.abs(deltaX) > 3) {
+                                    isDragging = true;
+                                }
+                                slider.scrollLeft = scrollLeftStart - deltaX;
+                                velocity = (movedSinceLast) / dt; // px per ms
+                                lastX = clientX;
+                                lastTime = now;
+                                if (evt) evt.preventDefault();
+                            }
+
+                            function onPointerUp() {
+                                isDown = false;
+                                slider.classList.remove('dragging');
+                                // Apply momentum only if we were dragging
+                                if (!isDragging) return;
+                                const decay = 0.95; // friction
+                                const minVelocity = 0.02; // px/ms threshold
+                                let currentVelocity = velocity * 16; // approx px per frame (16ms)
+                                function step() {
+                                    // Stop if velocity is low
+                                    if (Math.abs(currentVelocity) < minVelocity * 16) {
+                                        momentumId = 0;
+                                        return;
+                                    }
+                                    slider.scrollLeft -= currentVelocity;
+                                    currentVelocity *= decay;
+                                    momentumId = requestAnimationFrame(step);
+                                }
+                                momentumId = requestAnimationFrame(step);
+                            }
+
+                            // Mouse
+                            slider.addEventListener('mousedown', (e) => {
+                                // Only left button
+                                if (e.button !== 0) return;
+                                onPointerDown(e.clientX);
+                            });
+                            window.addEventListener('mousemove', (e) => onPointerMove(e.clientX, e));
+                            window.addEventListener('mouseup', onPointerUp);
+
+                            // Touch
+                            slider.addEventListener('touchstart', (e) => {
+                                if (!e.touches || e.touches.length === 0) return;
+                                onPointerDown(e.touches[0].clientX);
+                            }, {
+                                passive: true
+                            });
+                            slider.addEventListener('touchmove', (e) => {
+                                if (!e.touches || e.touches.length === 0) return;
+                                onPointerMove(e.touches[0].clientX, e);
+                            }, {
+                                passive: false
+                            });
+                            slider.addEventListener('touchend', onPointerUp, {
+                                passive: true
+                            });
+
+                            // Prevent link clicks while dragging
+                            slider.querySelectorAll('a').forEach((link) => {
+                                link.addEventListener('click', (e) => {
+                                    if (isDragging) {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                    }
+                                });
+                            });
+                        }
+
+                        document.querySelectorAll('.event-slider').forEach(enableDragScroll);
+
+                        // Center first card on mobile
+                        function scrollToFirstCard() {
+                            const slider = document.querySelector('.event-slider');
+                            if (slider && window.innerWidth <= 600) {
+                                const cards = Array.from(slider.querySelectorAll('.event-card'));
+                                if (cards.length > 0) {
+                                    const cardLeft = cards[0].offsetLeft;
+                                    const containerWidth = slider.offsetWidth;
+                                    const cardWidth = cards[0].offsetWidth;
+                                    const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
+                                    slider.scrollTo({
+                                        left: scrollPosition,
+                                        behavior: 'auto'
+                                    });
+                                }
+                            }
+                        }
+
+                        // Debounce resize handler
+                        let resizeTimeout;
+
+                        function debounceResize() {
+                            clearTimeout(resizeTimeout);
+                            resizeTimeout = setTimeout(() => {
+                                scrollToFirstCard();
+                            }, 100);
+                        }
+
+                        scrollToFirstCard();
+                        window.addEventListener('resize', debounceResize);
+                    });
+                </script>
             </div>
-            <!-- Right Arrow Button -->
-            <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button">
-                <i class="fa fa-chevron-right"></i>
-            </button>
-        </div>
-    </div>
-    <!-- Dec Tab Content -->
-    <div class="event-tab-content" id="tab-dec">
-        <div class="event-slider-wrapper">
-            <!-- Left Arrow Button -->
-            <button class="event-slider-arrow left" aria-label="Scroll to previous trip" type="button">
-                <i class="fa fa-chevron-left"></i>
-            </button>
-            <div class="event-slider" id="event-slider-sep">
-                <!-- Onam Special – Kerala Getaway Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/kerala-onam/kerala-onam (11).avif" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Onam Special – Kerala Getaway</h1>
-                            <p class="event-locations">Munnar , Alappuzha</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 4</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price ">₹8499</div>
-                                </div>
-                            </div>
-                            <a href="kerala-onam.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Pondi Dive-in Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                        </div>
-                        <div class="event-card-flex">
-                            <!-- Duration -->
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
-                            </div>
-                            <!-- From Location -->
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Direct, Chennai</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Pondi Dive-in</h1>
-                        <p class="event-locations">Pondicherry</p>
-                        <div class="event-price-section">
-                            <!-- Dates -->
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹4,990</div>
-                            </div>
-                        </div>
-                        <a href="pondicherry.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Sri Lanka Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Colombo</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Sri Lanka</h1>
-                        <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Aug 17</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹43,999</div>
-                            </div>
-                        </div>
-                        <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Andaman Island Hopping Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg"
-                                alt="Andaman Island Hopping">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>EX: Port Blair</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">Andaman Island Hopping</h1>
-                        <p class="event-locations">Port Blair, Ross Island, Havelock, Neil</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text"></span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price andaman-price"></div>
-                            </div>
-                        </div>
-                        <a href="andaman.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- MEJESTIC MEGHALAYA Card -->
-                <div class="event-card">
-                    <div class="event-content">
-                        <div class="event-image">
-                            <img src="assets/img/megalaya/Front%203.jpg" alt="MEJESTIC MEGHALAYA">
-                        </div>
-                        <div class="event-card-flex">
-                            <div class="event-duration">
-                                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
-                            </div>
-                            <div class="event-from">
-                                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                <span>Ex: Guwahati</span>
-                            </div>
-                        </div>
-                        <h1 class="event-title">MEJESTIC MEGHALAYA</h1>
-                        <p class="event-locations">Guwahati, Shillong, Cherrapunjee</p>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                <span class="event-dates-text">Sep 20</span>
-                            </div>
-                            <div>
-                                <div class="event-starts">Starts</div>
-                                <div class="event-price">₹19,990</div>
-                            </div>
-                        </div>
-                        <a href="meghalaya.php" target="_blank" class="event-view">View Trip</a>
-                    </div>
-                </div>
-                <!-- Varkala Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/valley-of-flowers/avif/img-4.avif" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai/Trivandrum</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Varkala</h1>
-                            <p class="event-locations">Chennai - Trivandrum</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 12</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹8,990</div>
-                                </div>
-                            </div>
-                            <a href="varkala-grouptrip.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Majestic Meghalaya Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/megalaya/Front%203.jpg" alt="Valley of Flowers">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>6D/5N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>Ex: Guwahati </span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">MEJESTIC MEGHALAYA</h1>
-                            <p class="event-locations">Guwahati, Shillong, Cherrapunjee</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 20</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹19,990</div>
-                                </div>
-                            </div>
-                            <a href="meghalaya.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Chikmagalur Backpacking Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/Testimnils/chikmagalur.jpg" alt="Sri Lanka">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai - Bangalore</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">CHIKMAGALUR BAGPACKING </h1>
-                            <p class="event-locations">Chikmagalur, Z point, Hebbe Falls</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 6</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹7,990</div>
-                                </div>
-                            </div>
-                            <a href="chikmagalur.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Munnar with Kolukkumalai Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets\img\kolukkumalai-img\2.jpg" alt="Varkala">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Chennai</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Munnar with Kolukkumalai</h1>
-                            <p class="event-locations">Munnar</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 26</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price munnar-price"></div>
-                                </div>
-                            </div>
-                            <a href="kolukkumalai-trek.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-                <!-- Sri Lanka Card -->
-                <!-- <div class="event-card">
-                        <div class="event-content">
-                            <div class="event-image">
-                                <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-                            </div>
-                            <div class="event-card-flex">
-                                <div class="event-duration">
-                                    <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-                                </div>
-                                <div class="event-from">
-                                    <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                                    <span>EX: Colombo</span>
-                                </div>
-                            </div>
-                            <h1 class="event-title">Sri Lanka</h1>
-                            <p class="event-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-                            <div class="event-price-section">
-                                <div class="event-dates">
-                                    <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                                    <span class="event-dates-text">Sep 6</span>
-                                </div>
-                                <div>
-                                    <div class="event-starts">Starts</div>
-                                    <div class="event-price">₹43,999</div>
-                                </div>
-                            </div>
-                            <a href="srilanka.php" target="_blank" class="event-view">View Trip</a>
-                        </div>
-                    </div> -->
-            </div>
-            <!-- Right Arrow Button -->
-            <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button">
-                <i class="fa fa-chevron-right"></i>
-            </button>
         </div>
     </div>
 </div>
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const tabBtns = document.querySelectorAll('.event-tab-btn');
-        const tabContents = document.querySelectorAll('.event-tab-content');
-
-        // Tab switching (only August is active)
-        tabBtns.forEach(btn => {
-            btn.addEventListener('click', function() {
-                const tab = btn.getAttribute('data-tab');
-                if (!tab) {
-                    // Prevent multiple toasts
-                    if (document.getElementById('coming-soon-toast')) return;
-                    const toast = document.createElement('div');
-                    toast.id = 'coming-soon-toast';
-                    toast.innerText = 'Coming Soon!';
-                    toast.style.position = 'fixed';
-                    toast.style.top = '80px';
-                    toast.style.left = '50%';
-                    toast.style.transform = 'translateX(-50%) scale(0.95)';
-                    toast.style.background = '#4CB9D3';
-                    toast.style.color = '#fff';
-                    toast.style.padding = '10px 12px';
-                    toast.style.borderRadius = '20px';
-                    toast.style.fontWeight = 'bold';
-                    toast.style.fontSize = '16px';
-                    toast.style.zIndex = 9999;
-                    toast.style.boxShadow = '0 2px 12px rgba(0,0,0,0.15)';
-                    toast.style.opacity = '0';
-                    toast.style.transition = 'opacity 0.35s, transform 0.35s';
-                    document.body.appendChild(toast);
-
-                    setTimeout(() => {
-                        toast.style.opacity = '1';
-                        toast.style.transform = 'translateX(-50%) scale(1)';
-                    }, 10);
-
-                    setTimeout(() => {
-                        toast.style.opacity = '0';
-                        toast.style.transform = 'translateX(-50%) scale(0.95)';
-                        setTimeout(() => {
-                            if (toast.parentNode) toast.parentNode.removeChild(toast);
-                        }, 350);
-                    }, 1000);
-                    return;
-                }
-
-                // Tab switching logic (if more tabs are enabled in future)
-                tabBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                tabContents.forEach(tc => tc.classList.remove('active'));
-                const content = document.getElementById('tab-' + tab);
-                if (content) {
-                    content.classList.add('active');
-                    // Initialize slider for the newly active tab once
-                    setupSlider(
-                        '#' + content.id + ' .event-slider-wrapper',
-                        '.event-slider',
-                        '.event-slider-arrow.left',
-                        '.event-slider-arrow.right'
-                    );
-                    // Center first card on mobile for the active tab
-                    const activeSlider = content.querySelector('.event-slider');
-                    if (activeSlider && window.innerWidth <= 600) {
-                        const cards = Array.from(activeSlider.querySelectorAll('.event-card'));
-                        if (cards.length > 0) {
-                            const cardLeft = cards[0].offsetLeft;
-                            const containerWidth = activeSlider.offsetWidth;
-                            const cardWidth = cards[0].offsetWidth;
-                            const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
-                            activeSlider.scrollTo({
-                                left: scrollPosition,
-                                behavior: 'auto'
-                            });
-                        }
-                    }
-                }
-            });
-        });
-
-        // Slider logic
-        function setupSlider(wrapperSelector, sliderSelector, leftArrowSelector, rightArrowSelector) {
-            const wrapper = typeof wrapperSelector === 'string' ? document.querySelector(wrapperSelector) : wrapperSelector;
-            if (!wrapper || wrapper.dataset.initialized === 'true') return;
-            const slider = wrapper.querySelector(sliderSelector);
-            const leftArrow = wrapper.querySelector(leftArrowSelector);
-            const rightArrow = wrapper.querySelector(rightArrowSelector);
-            if (!slider || !leftArrow || !rightArrow) return;
-            const cards = Array.from(slider.querySelectorAll('.event-card'));
-
-            function updateArrows() {
-                if (!slider) return;
-                // Use Math.abs to avoid floating point issues
-                leftArrow.disabled = slider.scrollLeft <= 10;
-                rightArrow.disabled = slider.scrollLeft + slider.offsetWidth >= slider.scrollWidth - 10;
-            }
-
-            function smoothScrollTo(position) {
-                slider.scrollTo({
-                    left: position,
-                    behavior: 'smooth'
-                });
-            }
-
-            function getCurrentIndex() {
-                const center = slider.scrollLeft + slider.offsetWidth / 2;
-                let closestIndex = 0;
-                let closestDiff = Infinity;
-                cards.forEach((card, index) => {
-                    const cardCenter = card.offsetLeft + card.offsetWidth / 2;
-                    const diff = Math.abs(cardCenter - center);
-                    if (diff < closestDiff) {
-                        closestDiff = diff;
-                        closestIndex = index;
-                    }
-                });
-                return closestIndex;
-            }
-
-            function getCenteredPosition(index) {
-                const card = cards[index];
-                const cardLeft = card.offsetLeft;
-                const containerWidth = slider.offsetWidth;
-                const cardWidth = card.offsetWidth;
-                return cardLeft - (containerWidth - cardWidth) / 2;
-            }
-
-            leftArrow.addEventListener('click', function() {
-                const currentIndex = getCurrentIndex();
-                const targetIndex = Math.max(0, currentIndex - 1);
-                const scrollPosition = getCenteredPosition(targetIndex);
-                smoothScrollTo(scrollPosition);
-            });
-
-            rightArrow.addEventListener('click', function() {
-                const currentIndex = getCurrentIndex();
-                const targetIndex = Math.min(cards.length - 1, currentIndex + 1);
-                const scrollPosition = getCenteredPosition(targetIndex);
-                smoothScrollTo(scrollPosition);
-            });
-
-            // Ensure arrows receive pointer events even if overlapping content
-            [leftArrow, rightArrow].forEach((btn) => {
-                btn.style.pointerEvents = 'auto';
-            });
-
-            slider.addEventListener('scroll', updateArrows);
-            window.addEventListener('resize', updateArrows);
-            updateArrows();
-
-            // Re-evaluate arrows after images load (layout/scrollWidth changes)
-            const sliderImages = Array.from(slider.querySelectorAll('img'));
-            sliderImages.forEach((img) => {
-                if (img.complete) return; // already loaded
-                img.addEventListener('load', updateArrows, {
-                    passive: true,
-                    once: true
-                });
-                img.addEventListener('error', updateArrows, {
-                    passive: true,
-                    once: true
-                });
-            });
-            // Fallback: also run once after next frame and shortly after
-            requestAnimationFrame(updateArrows);
-            setTimeout(updateArrows, 300);
-            wrapper.dataset.initialized = 'true';
-        }
-
-        setupSlider(
-            '.event-tab-content.active .event-slider-wrapper',
-            '.event-slider',
-            '.event-slider-arrow.left',
-            '.event-slider-arrow.right'
-        );
-
-        // Also initialize sliders for inactive tabs so arrows work when switched later
-        document.querySelectorAll('.event-slider-wrapper').forEach((wrapper) => {
-            setupSlider(wrapper, '.event-slider', '.event-slider-arrow.left', '.event-slider-arrow.right');
-        });
-
-        // Drag-to-scroll for sliders (mouse + touch)
-        function enableDragScroll(slider) {
-            let isDown = false;
-            let startX = 0;
-            let scrollLeftStart = 0;
-            let isDragging = false;
-            let lastX = 0;
-            let lastTime = 0;
-            let velocity = 0;
-            let momentumId = 0;
-
-            function stopMomentum() {
-                if (momentumId) {
-                    cancelAnimationFrame(momentumId);
-                    momentumId = 0;
-                }
-            }
-
-            function onPointerDown(clientX) {
-                isDown = true;
-                isDragging = false;
-                startX = clientX;
-                lastX = clientX;
-                lastTime = performance.now();
-                velocity = 0;
-                scrollLeftStart = slider.scrollLeft;
-                slider.classList.add('dragging');
-                stopMomentum();
-            }
-
-            function onPointerMove(clientX, evt) {
-                if (!isDown) return;
-                const now = performance.now();
-                const deltaX = clientX - startX;
-                const movedSinceLast = clientX - lastX;
-                const dt = Math.max(1, now - lastTime);
-                if (Math.abs(deltaX) > 3) {
-                    isDragging = true;
-                }
-                slider.scrollLeft = scrollLeftStart - deltaX;
-                velocity = (movedSinceLast) / dt; // px per ms
-                lastX = clientX;
-                lastTime = now;
-                if (evt) evt.preventDefault();
-            }
-
-            function onPointerUp() {
-                isDown = false;
-                slider.classList.remove('dragging');
-                // Apply momentum only if we were dragging
-                if (!isDragging) return;
-                const decay = 0.95; // friction
-                const minVelocity = 0.02; // px/ms threshold
-                let currentVelocity = velocity * 16; // approx px per frame (16ms)
-                function step() {
-                    // Stop if velocity is low
-                    if (Math.abs(currentVelocity) < minVelocity * 16) {
-                        momentumId = 0;
-                        return;
-                    }
-                    slider.scrollLeft -= currentVelocity;
-                    currentVelocity *= decay;
-                    momentumId = requestAnimationFrame(step);
-                }
-                momentumId = requestAnimationFrame(step);
-            }
-
-            // Mouse
-            slider.addEventListener('mousedown', (e) => {
-                // Only left button
-                if (e.button !== 0) return;
-                onPointerDown(e.clientX);
-            });
-            window.addEventListener('mousemove', (e) => onPointerMove(e.clientX, e));
-            window.addEventListener('mouseup', onPointerUp);
-
-            // Touch
-            slider.addEventListener('touchstart', (e) => {
-                if (!e.touches || e.touches.length === 0) return;
-                onPointerDown(e.touches[0].clientX);
-            }, {
-                passive: true
-            });
-            slider.addEventListener('touchmove', (e) => {
-                if (!e.touches || e.touches.length === 0) return;
-                onPointerMove(e.touches[0].clientX, e);
-            }, {
-                passive: false
-            });
-            slider.addEventListener('touchend', onPointerUp, {
-                passive: true
-            });
-
-            // Prevent link clicks while dragging
-            slider.querySelectorAll('a').forEach((link) => {
-                link.addEventListener('click', (e) => {
-                    if (isDragging) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                    }
-                });
-            });
-        }
-
-        document.querySelectorAll('.event-slider').forEach(enableDragScroll);
-
-        // Center first card on mobile
-        function scrollToFirstCard() {
-            const slider = document.querySelector('.event-slider');
-            if (slider && window.innerWidth <= 600) {
-                const cards = Array.from(slider.querySelectorAll('.event-card'));
-                if (cards.length > 0) {
-                    const cardLeft = cards[0].offsetLeft;
-                    const containerWidth = slider.offsetWidth;
-                    const cardWidth = cards[0].offsetWidth;
-                    const scrollPosition = cardLeft - (containerWidth - cardWidth) / 2;
-                    slider.scrollTo({
-                        left: scrollPosition,
-                        behavior: 'auto'
-                    });
-                }
-            }
-        }
-
-        // Debounce resize handler
-        let resizeTimeout;
-
-        function debounceResize() {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(() => {
-                scrollToFirstCard();
-            }, 100);
-        }
-
-        scrollToFirstCard();
-        window.addEventListener('resize', debounceResize);
-    });
-</script>
-<script src="assets/js/event-dates.js"></script>

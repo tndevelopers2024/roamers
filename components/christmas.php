@@ -1,4 +1,8 @@
 <style>
+    .backpacking-img {
+        height: 430px !important;
+    }
+
     /* Button Styles */
     .book-btn-1 {
         width: 100%;
@@ -27,7 +31,7 @@
         0% {
             top: -40px;
             opacity: 0.8;
-            transform: translateX(0) scale(1) rotate(0deg);
+            transform: translateX(0) scale(0.9) rotate(0deg);
         }
 
         80% {
@@ -37,7 +41,7 @@
         100% {
             top: 80%;
             opacity: 0.2;
-            transform: translateX(20px) scale(1.2) rotate(360deg);
+            transform: translateX(10px) scale(1.0) rotate(360deg);
         }
     }
 
@@ -45,11 +49,24 @@
         position: absolute;
         left: 50%;
         top: -40px;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         color: #fff;
         z-index: 3;
         pointer-events: none;
         animation: snowflake-fall 2.5s linear infinite;
+    }
+
+    /* Hide snowflakes on mobile for better performance */
+    @media (max-width: 600px) {
+        .snowflake-anim {
+            display: none;
+        }
+    }
+
+    .swiper {
+
+        padding: 0px 24px 0px 24px !important;
+
     }
 
     /* Swiper Styles */
@@ -58,6 +75,8 @@
         height: auto;
         overflow: hidden;
         position: relative;
+        -webkit-overflow-scrolling: touch;
+        margin: 0 auto;
     }
 
     .swiper-wrapper {
@@ -69,16 +88,8 @@
     .swiper-slide {
         position: relative;
         overflow: hidden;
-        flex: 0 0 25%;
-        max-width: 20%;
-        min-width: 0;
         box-sizing: border-box;
-        margin-right: 16px;
-        /* height: 320px !important; */
-    }
-
-    .swiper-slide:last-child {
-        margin-right: 0;
+        width: 100%;
     }
 
     .swiper-slide a {
@@ -86,17 +97,48 @@
         position: relative;
         width: 100%;
         height: 100%;
-        background: #fff;
         border-radius: 0.8vw 0.8vw 0 0;
-        /* height: 320px !important; */
+        margin: 0 auto;
     }
 
     .swiper-slide img {
         width: 100%;
-        /* height: 390px !important; */
-        object-fit: fill !important;
+        max-width: 100%;
+        object-fit: cover !important;
         display: block;
         border-radius: 0.8vw 0.8vw 0 0;
+        border-radius: 12px;
+    }
+
+    @media (max-width: 575.98px) {
+        .swiper-container {
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .swiper-slide {
+            width: 100% !important;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .swiper-slide a {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .swiper-slide img {
+            height: 553px !important;
+            width: 100% !important;
+            max-width: 100%;
+            margin: 0 auto;
+            border-radius: 12px;
+        }
     }
 
     /* Swiper Navigation Buttons */
@@ -131,9 +173,8 @@
 
     .swiper-button-next.swiper-button-disabled,
     .swiper-button-prev.swiper-button-disabled {
-        opacity: 1.35;
-        cursor: pointer;
-        pointer-events: visible;
+        opacity: 0.5;
+        cursor: not-allowed;
     }
 
     .swiper-button-next::after,
@@ -145,52 +186,19 @@
         content: '';
     }
 
-    /* Responsive Swiper Slides */
-    @media (max-width: 992px) {
-        .swiper-slide {
-            flex: 0 0 33.3333%;
-            max-width: 33.3333%;
-            margin-right: 16px;
-        }
-
-        .swiper-slide:last-child {
-            margin-right: 0;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .swiper-slide {
-            flex: 0 0 50%;
-            max-width: 50%;
-            margin-right: 12px;
-        }
-
-        .swiper-slide:last-child {
-            margin-right: 0;
-        }
-    }
-
     @media (max-width: 600px) {
-        .swiper-slide {
-            flex: 0 0 50%;
-            max-width: 50%;
-            margin-right: 12px;
+        .swiper-button-next {
+            right: 10px;
         }
 
-        .swiper-slide:last-child {
-            margin-right: 0;
-        }
-
-        .height {
-            z-index: 2;
-            /* top: 30px; */
-            left: 0;
+        .swiper-button-prev {
+            left: 10px;
         }
     }
 
     .height {
         z-index: 2;
-        top: 290px;
+        top: 200px;
         left: 0;
     }
 
@@ -215,67 +223,111 @@
 
 <div class="container position-relative">
     <div class="my-5 position-absolute w-100 height" id="backpacking">
-        <section id="shortbreak">
+        <!-- <section id="shortbreak">
             <div class="container-fluid">
-                <div class="swiper-container">
+                <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="srilanka.php">
-                                <img src="assets/img/event/cards/event-card-2.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-2.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="andaman.php">
-                                <img src="assets/img/event/cards/event-card-3.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-3.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="kerala-onam.php">
-                                <img src="assets/img/event/cards/event-card-4.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-4.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="kodaikanal.php">
-                                <img src="assets/img/event/cards/event-card-5.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-5.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="valley-of-flowers">
-                                <img src="assets/img/event/cards/event-card-2.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-2.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="valley-of-flowers">
-                                <img src="assets/img/event/cards/event-card-3.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-3.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="valley-of-flowers">
-                                <img src="assets/img/event/cards/event-card-4.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-4.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="valley-of-flowers">
-                                <img src="assets/img/event/cards/event-card-5.png" alt="roamers-Gallery">
+                                <img src="assets/img/event/cards/event-card-5.png" class="backpacking-img" alt="roamers-Gallery">
                             </a>
                         </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="srilanka.php">
+                        <img src="assets/img/event/cards/event-card-2.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="andaman.php">
+                        <img src="assets/img/event/cards/event-card-3.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="kerala-onam.php">
+                        <img src="assets/img/event/cards/event-card-4.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="kodaikanal.php">
+                        <img src="assets/img/event/cards/event-card-5.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="valley-of-flowers">
+                        <img src="assets/img/event/cards/event-card-2.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="valley-of-flowers">
+                        <img src="assets/img/event/cards/event-card-3.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="valley-of-flowers">
+                        <img src="assets/img/event/cards/event-card-4.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="valley-of-flowers">
+                        <img src="assets/img/event/cards/event-card-5.png" class="backpacking-img" alt="roamers-Gallery">
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
     </div>
 </div>
 
 <div class="container position-relative" style="overflow: visible;">
-    <!-- Snowflake animation starts here -->
+    <!-- Snowflake animation -->
     <?php
-    // Generate 12 snowflakes with random horizontal positions and animation delays
     for ($j = 0; $j < 12; $j++):
-        $left = rand(5, 95); // percent
-        $delay = round(0.2 * ($j % 6) + (rand(0, 10) / 20), 2); // seconds
-        $size = rand(18, 32); // px
+        $left = rand(5, 95);
+        $delay = round(0.2 * ($j % 6) + (rand(0, 10) / 20), 2);
+        $size = rand(18, 32);
     ?>
         <i class="fa-solid fa-snowflake snowflake-anim"
             style="left: <?php echo $left; ?>%; font-size: <?php echo $size; ?>px; animation-delay: <?php echo $delay; ?>s;"></i>
@@ -284,40 +336,40 @@
         <img src="assets/img/event/banner/event-image-by-roamers-6.png" alt="" style="width:100%; display:block; position:relative; z-index:1;">
     </a>
 </div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
 <script>
-    // Ensure Swiper is initialized with 4 slides per view
-    document.addEventListener('DOMContentLoaded', function() {
-        if (typeof Swiper !== 'undefined') {
-            var swiperContainers = document.querySelectorAll('.swiper-container');
-            swiperContainers.forEach(function(container) {
-                var options = {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                    navigation: {
-                        nextEl: container.querySelector('.swiper-button-next'),
-                        prevEl: container.querySelector('.swiper-button-prev'),
-                    },
-                    breakpoints: {
-                        0: {
-                            slidesPerView: 1,
-                            spaceBetween: 0
-                        },
-                        576: {
-                            slidesPerView: 2,
-                            spaceBetween: 12
-                        },
-                        768: {
-                            slidesPerView: 3,
-                            spaceBetween: 12
-                        },
-                        992: {
-                            slidesPerView: 4,
-                            spaceBetween: 16
-                        }
-                    }
-                };
-                new Swiper(container, options);
-            });
-        }
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            "@0.75": {
+                slidesPerView: 2,
+                spaceBetween: 16,
+            },
+            "@1.00": {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            "@1.50": {
+                slidesPerView: 4,
+                spaceBetween: 24,
+            },
+        },
     });
 </script>

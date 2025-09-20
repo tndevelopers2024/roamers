@@ -950,53 +950,6 @@
     <div class="container-fluid">
       <div class="swiper-container1">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <a href="valley-of-flowers.php">
-              <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" class="backpacking-img"
-                alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>5 Days - 6 Nights</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Rishikesh
-                  </h4>
-                </div>
-                <h2>Valley Of Flowers</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Rishikesh, Joshimath, Pulna </p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="valley-dates"></span>
-                  </h4>
-                  <h4>Starts at <span class="valley-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="swiper-slide">
-            <a href="srilanka.php">
-              <img src="assets/img/Sirlanka/srilanka-images-by-roamers (44).avif" class="backpacking-img"
-                alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>7 Days / 6 Nights
-
-                  </h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Colombo
-                  </h4>
-                </div>
-                <h2>Sri Lanka</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Sigiriya, Kandy, Ella, Galle, Bentota,
-                  Colombo
-                </p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="valley-dates"></span>
-                  </h4>
-                  <h4>Starts at <span class="srilanka-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
 
           <div class="swiper-slide">
             <a href="ladakh-umlingla.php">
@@ -1081,28 +1034,6 @@
           </div>
 
           <div class="swiper-slide">
-            <a href="kodaikanal1">
-              <img src="assets/img/kodaikanal-backpacking/Gunacav.jpeg" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2 inner-home">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Chennai
-                  </h4>
-                </div>
-                <h2>Kodaikanal Backpacking</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Kodaikanal, Vattakanal, Poombarai
-                </p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kodai1-dates"></span>
-                  </h4>
-                  <h4><span class="kodai1-price">₹8,490</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="swiper-slide">
             <a href="kedarkantha">
               <img src="assets/img/kedarkantha/main-sub.avif" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
@@ -1124,8 +1055,8 @@
           </div>
 
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
       </div>
     </div>
     <div class="view-more-btn text-center">
@@ -1134,7 +1065,7 @@
   </div>
 
 
-  <section class="travelgram" style="margin-top: 400px;" id="travelgram">
+  <section class="travelgram" style="margin-top: 40px;" id="travelgram">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 inst-w d-block d-md-none">
@@ -1287,252 +1218,105 @@
       Short Break Trips
     </h2>
     <div class="container-fluid">
-      <div class="swiper-container">
+      <div class="swiper-container1">
         <div class="swiper-wrapper">
 
-
           <div class="swiper-slide">
-            <a href="valley-of-flowers">
-              <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
+            <a href="ladakh-umlingla.php">
+              <img src="assets/img/ladakh/ladakh-mail.jpeg" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
-                  <h3>5 DAYS - 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Rishikesh
+                  <h3>8 DAYS / 7 NIGHTS</h3>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Leh
                   </h4>
                 </div>
-                <h2>Valley Of Flowers
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Rishikesh, Joshimath, Pulna </p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
+                <h2>Leh Ladakh with Umling la</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="valley-dates"></span>
+                    <span class="ladakh-dates"></span>
                   </h4>
-                  <h4><span id="valley-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a href="kolukkumalai-trek">
-              <img src="assets/img/kolukkumalai-img/2.jpg" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct,
-                    Chennai
-                  </h4>
-                </div>
-                <h2>Munnar with Kolukkumalai
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Munnar</p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="munnar-dates"></span>
-                  </h4>
-                  <h4><span id="munnar-price" class="munnar-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-
-          <div class="swiper-slide">
-            <a href="wayanad">
-              <!-- <img class="new-year" src="assets/img/bg/Pongal-gif.gif" alt=""> -->
-              <img src="assets/img/bg/waya-cover.jpg" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct,
-                    Chennai
-                  </h4>
-                </div>
-                <h2>Wonders of Wayanad
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Wayanad</p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="wayanad-dates"> Jan 12 </span>
-                  </h4>
-                  <h4><span id="wayanad-price">₹7,990</span> </h4>
+                  <h4>Starts at <span class="ladakh-price"></span> </h4>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="varkala-grouptrip">
-              <img src="assets/img/varkala/kerala-1.jpg" alt="roamers-Gallery">
+            <a href="spiti-valley">
+              <img src="assets/img/spiti-valley/spiti-cover.jpg" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Chennai,
-                    Trivandrum
+                  <h3>7 DAYS / 6 NIGHTS</h3>
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Delhi
                   </h4>
                 </div>
-                <h2>Varkala & Munroe Flashpacking
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Varkala, Munroe Island, Trivandrum</p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
+                <h2>Spiti Winter Expedition</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon">Spiti Valley</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="varkala-dates">Jan
-                      12, Feb 16 </span>
+                    <span class="spiti-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span class="varkala-price">₹8,490</span> </h4>
+                  <h4><span class="spiti-price">₹21,990</span> </h4>
                 </div>
               </div>
             </a>
           </div>
-
-          <div class="swiper-slide swiper-slide-image">
-            <a href="ooty">
-              <img src="assets/img/bg/ooty-cove.jpeg" alt="roamers-Gallery">
+          <div class="swiper-slide">
+            <a href="meghalaya">
+              <img src="assets/img/megalaya/Front 3.jpg " class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> EX: Chennai,
-                    Coimbatore
+                  <h3>6 DAYS / 5 NIGHTS</h3>
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Guwahati
                   </h4>
                 </div>
-                <h2>Ooty the Queen of Hills
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Nilgiri, Coonoor, Coimbatore
-                  </p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
+                <h2>Mejestic Meghalaya</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon">Guwahati, Shillong, Cherrapunjee</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="ooty-dates">Nov 3, 24, Dec 8, 15, 22, Jan 26 </span>
-                  </h4>
-                  <h4><span id="ooty-price">₹7,490</span> </h4>
+                    Opens Soon</h4>
+                  <h4>Starts at <span class="meghalaya-price">₹19,990</span> </h4>
                 </div>
               </div>
             </a>
           </div>
-
 
           <div class="swiper-slide">
-            <a href="kodaikanal">
-              <img src="assets/img/kodaikanal/Dolphin nose.jpg" alt="roamers-Gallery">
+            <a href="andaman">
+              <img src="assets/img/backpacking/Andaman hoppers.jpg " class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Chennai
+                  <h3>7 DAYS / 6 NIGHTS</h3>
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Port Blair
                   </h4>
                 </div>
-                <h2>Kodaikanal Trek with Poombarai
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Perumal peak, Vattakanal, Poombarai</p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
+                <h2>Andaman Island Hopping</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon">Havelock Island, Neil Island, Port Blair</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kodai-dates">Jan
-                      26, Feb 10 </span>
+                    <span class="andaman-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span class="kodai-price">₹7,990</span> </h4>
+                  <h4><span class="andaman-price"></span> </h4>
                 </div>
               </div>
             </a>
           </div>
-
-          <!-- <div class="swiper-slide">
-            <a href="kolukkumalai">
-              <img class="new-year" src="assets/img/bg/christmas.gif" alt="">
-              <img src="assets/img/short-trip/st1.JPG" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>2 DAYS / 1 NIGHT</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Chennai
-                  </h4>
-                </div>
-                <h2>Munnar with Kolukkumalai
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Kolukkumalai, Munnar </p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kolukku-dates"> Dec
-                      8, 23, Jan 12 </span>
-                  </h4>
-                  <h4><span>₹5,499</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div> -->
-
 
           <div class="swiper-slide">
-            <a href="pondicherry">
-              <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> EX: Chennai
-                  </h4>
-                </div>
-                <h2>Pondi Dive-in
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Pondicherry</p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="pondi-dates">Nov
-                      24, Dec 09, 23 </span>
-                  </h4>
-                  <h4><span class="pondi-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-
-          <div class="swiper-slide swiper-slide-image">
             <a href="kedarkantha">
-              <img src="assets/img/kedarkantha/main-sub.avif " alt="roamers-Gallery">
+              <img src="assets/img/kedarkantha/main-sub.avif" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>5 DAYS / 4 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon"> EX: Dehradun
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Dehradun
                   </h4>
                 </div>
-                <h2>Kedarkantha Trek
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Kedarkantha
-                  </p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
+                <h2>Kedarkantha Trek</h2>
+                <p><img src="assets/img/images/loc.svg" alt="location-icon">Kedarkantha</p>
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kedar-dates">Open Soon</span>
+                    <span class="kedar-dates"> Open Soon </span>
                   </h4>
                   <h4><span class="kedar-price">₹8,990</span> </h4>
                 </div>
@@ -1540,89 +1324,9 @@
             </a>
           </div>
 
-          <div class="swiper-slide">
-            <a href="chikmagalur">
-              <img src="assets/img/Testimnils/chikmagalur.jpg" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Chennai,
-                    Bangalore
-                  </h4>
-                </div>
-                <h2>Chikmagalur Backpacking
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Chikmagalur, Z point, Hebbe Falls</p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="chik-dates"> Dec
-                      15 </span>
-                  </h4>
-                  <h4><span class="chik-price">₹7,990</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- <div class="swiper-slide">
-            <a href="#home-form">
-              <img src="assets/img/short-trip/Tourist-Places-in-Kodaikanal-.jpg" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Chennai
-                  </h4>
-                </div>
-                <h2>Kodai paradise
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">Kodaikanal</p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    Opens Soon
-                  </h4>
-                  <h4><span>₹7,499</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div> -->
-          <div class="swiper-slide">
-            <a href="#home-form">
-              <img src="assets/img/Kerala/goa-cover.jpeg" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Bangalore
-                  </h4>
-                </div>
-                <h2>Goa Escape
-                </h2>
-                <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" alt="location-icon">North Goa, South Goa </p>
-                  <h4 class="sta">Starts at </h4>
-                </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="goa-dates">Opens Soon</span>
-                  </h4>
-                  <h4><span class="goa-price">₹8,490</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- Add more swiper-slide elements for additional images -->
         </div>
-        <div class="swiper-button-next" style="right: 46px;"></div>
-        <div class="swiper-button-prev" style="left: 46px;"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
     </div>
   </section>

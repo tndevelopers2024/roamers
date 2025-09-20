@@ -553,7 +553,7 @@
   }
 
   .swiper-slide img {
-    max-height: 200px !important;
+    /* height: 200px; */
     object-fit: cover !important;
     border-radius: 3.8vw;
   }

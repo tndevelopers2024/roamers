@@ -70,11 +70,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $fullName = htmlspecialchars(trim($_POST['full_name'] ?? ''));
     $phone = htmlspecialchars(trim($_POST['phone_number'] ?? ''));
     $dob = htmlspecialchars(trim($_POST['dob'] ?? ''));
-    $quantity = (int)($_POST['selected_quantity'] ?? 1);
+    $quantity = (int) ($_POST['selected_quantity'] ?? 1);
     $package = htmlspecialchars($_POST['selected_package'] ?? 'standard-pass');
-    $basePricePerUnit = (float)($_POST['calculated_base_price'] ?? 0);
-    $tax = (float)($_POST['calculated_tax'] ?? 0); // Default to 0 if not provided
-    $total = (float)($_POST['calculated_total'] ?? ($basePricePerUnit * $quantity)); // Calculate if not provided
+    $basePricePerUnit = (float) ($_POST['calculated_base_price'] ?? 0);
+    $tax = (float) ($_POST['calculated_tax'] ?? 0); // Default to 0 if not provided
+    $total = (float) ($_POST['calculated_total'] ?? ($basePricePerUnit * $quantity)); // Calculate if not provided
     $eventType = htmlspecialchars(trim($_POST['event_type'] ?? 'default'));
 
     // Get event configuration
@@ -91,12 +91,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@roamers.in';
-        $mail->Password   = 'iifr konl ctis tphr';
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'info@roamers.in';
+        $mail->Password = 'iifr konl ctis tphr';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
+        $mail->Port = 587;
 
         // Recipients
         $mail->setFrom('info@roamers.in', $eventConfig['from_name']);
@@ -116,6 +116,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <h2 style='margin:0;font-size:1.5em;color:#4ec0db;font-weight:700;letter-spacing:0.5px;'>New {$eventConfig['name']} Booking</h2>
                 </div>
                 <table style='width:100%;border-collapse:collapse;font-size:1.07em;margin-bottom:18px;'>
+                 <tr>
+                        <td style='padding:7px 0;color:#4ec0db;'>Full Name</td>
+                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$fullName}</td>
+                    </tr>
                     <tr>
                         <td style='padding:7px 0;color:#4ec0db;'>Event</td>
                         <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$eventConfig['name']}</td>
@@ -152,10 +156,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         $mail->Body .= "
-                    <tr>
-                        <td style='padding:7px 0;color:#4ec0db;'>Full Name</td>
-                        <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$fullName}</td>
-                    </tr>
+                   
                     <tr>
                         <td style='padding:7px 0;color:#4ec0db;'>Phone Number</td>
                         <td style='padding:7px 0;font-weight:500;color:#4ec0db;text-align:right;'>{$phone}</td>

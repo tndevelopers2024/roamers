@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Roamers - Events</title>
     <meta name="description"
-        content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
+        content="Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins. This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers. So come join us for a night of conversations, connections, and stories that might just inspire your next journey.">
     <meta name="keywords"
-        content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
+        content="Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins. This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers. So come join us for a night of conversations, connections, and stories that might just inspire your next journey.">
     <meta name="author" content="Themeland">
     <meta name="title" content="Roamers - Events">
-    <meta property="og:title" content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
+    <meta property="og:title" content="Roamers - Strangers Meetup ">
     <meta property="og:description"
-        content="Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.">
-    <meta property="og:image" content="assets/img/event/banner/event-image-by-roamers-8.png">
-    <meta property="og:image:secure_url" content="assets/img/event/banner/">
-    <meta property="og:image:width" content="700">
-    <meta property="og:image:height" content="500">
+        content="Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins. This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers. So come join us for a night of conversations, connections, and stories that might just inspire your next journey.">
+    <meta property="og:image" content="https://roamers.in/assets/img/event/cards/event-card-8.avif">
+    <meta property="og:image:secure_url" content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <link rel="canonical" href="https://www.roamers.in/">
     <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
     <!-- Swiper CSS -->
@@ -40,10 +41,10 @@
 
     <script>
         // WhatsApp Button Handler - Optimized
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             const whatsappButton = document.querySelector('.what-sum');
             if (whatsappButton) {
-                whatsappButton.addEventListener("click", function(event) {
+                whatsappButton.addEventListener("click", function (event) {
                     event.preventDefault();
                     const name1 = document.getElementById("name1")?.value.trim();
                     const phone1 = document.getElementById("phone1")?.value.trim();
@@ -72,7 +73,7 @@
 
     <script>
         // Optimized Image Slider
-        (function() {
+        (function () {
             let index = 0,
                 timer;
             const images = document.getElementsByClassName("slide-box");
@@ -100,7 +101,7 @@
 
     <script>
         // Search Bar Toggle - Optimized
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             const searchBarContainerEl = document.querySelector(".search-bar-container");
             const magnifierEl = document.querySelector(".magnifier");
             if (searchBarContainerEl && magnifierEl) {
@@ -113,119 +114,119 @@
 
     <script>
         // Optimized Client-side Search
-        (function() {
+        (function () {
             const data = [{
-                    name: 'Andaman Island Hopping',
-                    link: 'https://www.roamers.in/andaman',
-                    image: 'assets/img/kolukkumalai-img/2.jpg',
-                    duration: '5 DAYS / 4 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Munnar With Kolukkumalai',
-                    link: 'https://www.roamers.in/kolukkumalai-trek',
-                    image: 'assets/img/kolukkumalai-img/2.jpg',
-                    duration: '3 DAYS / 2 NIGHT',
-                    location: 'EX: Direct, Chennai'
-                },
-                {
-                    name: 'Wonders of Wayanad',
-                    link: 'https://roamers.in/wayanad',
-                    image: 'assets/img/bg/waya-cover.jpg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Direct, Chennai'
-                },
-                {
-                    name: 'Munnar With Kolukkumalai',
-                    link: 'https://www.roamers.in/kolukkumalai-trek',
-                    image: 'assets/img/kolukkumalai-img/2.jpg',
-                    duration: '3 DAYS / 2 NIGHT',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Ooty the queen of hills',
-                    link: 'https://roamers.in/ooty',
-                    image: 'assets/img/bg/ooty-cove.jpeg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai, Coimbatore'
-                },
-                {
-                    name: 'Chikmagalur Bagpacking',
-                    link: 'https://roamers.in/chikmagalur',
-                    image: 'assets/img/bg/ooty-cove.jpeg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai, Bangaluru'
-                },
-                {
-                    name: 'Kerala : To gods own country',
-                    link: 'https://roamers.in/kerala',
-                    image: 'assets/img/Kerala/Kerala photos.jpg',
-                    duration: '5 DAYS / 4 NIGHTS',
-                    location: 'EX: Kochi, Chennai'
-                },
-                {
-                    name: 'Andaman island hopping',
-                    link: 'https://roamers.in/andaman',
-                    image: 'assets/img/backpacking/Andaman hoppers.jpg',
-                    duration: '7 DAYS / 6 NIGHTS',
-                    location: 'EX: Kochi, Chennai'
-                },
-                {
-                    name: 'Pondi Dive-in',
-                    link: 'https://roamers.in/pondicherry',
-                    image: 'assets/img/short-trip/Lead-Auroville.webp',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Mejestic Meghalaya',
-                    link: 'https://roamers.in/meghalaya',
-                    image: 'assets/img/megalaya/Front 3.jpg ',
-                    duration: '6 DAYS / 5 NIGHTS',
-                    location: 'EX: Guwahati'
-                },
-                {
-                    name: 'Kodaikanal trek with poombarai',
-                    link: 'https://roamers.in/kodaikanal',
-                    image: 'assets/img/megalaya/Front 3.jpg ',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Kedarkantha Trek',
-                    link: 'https://roamers.in/kedarkantha',
-                    image: 'assets/img/kedarkantha/main-sub.jpg ',
-                    duration: '5 DAYS / 4 NIGHTS',
-                    location: 'EX: Dehradun'
-                },
-                {
-                    name: 'Kodaikanal Backpacking',
-                    link: 'https://roamers.in/kodaikanal1',
-                    image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Varkala & Munroe Flashpacking',
-                    link: 'https://roamers.in/varkala-grouptrip',
-                    image: 'assets/img/varkala/kerala-1.jpg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Spiti winter expedition',
-                    link: 'https://roamers.in/spiti-valley',
-                    image: 'assets/img/spiti-valley/spiti-cover.jpg',
-                    duration: '7 DAYS / 6 NIGHTS',
-                    location: 'EX: Delhi'
-                }
+                name: 'Andaman Island Hopping',
+                link: 'https://www.roamers.in/andaman',
+                image: 'assets/img/kolukkumalai-img/2.jpg',
+                duration: '5 DAYS / 4 NIGHTS',
+                location: 'EX: Chennai'
+            },
+            {
+                name: 'Munnar With Kolukkumalai',
+                link: 'https://www.roamers.in/kolukkumalai-trek',
+                image: 'assets/img/kolukkumalai-img/2.jpg',
+                duration: '3 DAYS / 2 NIGHT',
+                location: 'EX: Direct, Chennai'
+            },
+            {
+                name: 'Wonders of Wayanad',
+                link: 'https://roamers.in/wayanad',
+                image: 'assets/img/bg/waya-cover.jpg',
+                duration: '3 DAYS / 2 NIGHTS',
+                location: 'EX: Direct, Chennai'
+            },
+            {
+                name: 'Munnar With Kolukkumalai',
+                link: 'https://www.roamers.in/kolukkumalai-trek',
+                image: 'assets/img/kolukkumalai-img/2.jpg',
+                duration: '3 DAYS / 2 NIGHT',
+                location: 'EX: Chennai'
+            },
+            {
+                name: 'Ooty the queen of hills',
+                link: 'https://roamers.in/ooty',
+                image: 'assets/img/bg/ooty-cove.jpeg',
+                duration: '3 DAYS / 2 NIGHTS',
+                location: 'EX: Chennai, Coimbatore'
+            },
+            {
+                name: 'Chikmagalur Bagpacking',
+                link: 'https://roamers.in/chikmagalur',
+                image: 'assets/img/bg/ooty-cove.jpeg',
+                duration: '3 DAYS / 2 NIGHTS',
+                location: 'EX: Chennai, Bangaluru'
+            },
+            {
+                name: 'Kerala : To gods own country',
+                link: 'https://roamers.in/kerala',
+                image: 'assets/img/Kerala/Kerala photos.jpg',
+                duration: '5 DAYS / 4 NIGHTS',
+                location: 'EX: Kochi, Chennai'
+            },
+            {
+                name: 'Andaman island hopping',
+                link: 'https://roamers.in/andaman',
+                image: 'assets/img/backpacking/Andaman hoppers.jpg',
+                duration: '7 DAYS / 6 NIGHTS',
+                location: 'EX: Kochi, Chennai'
+            },
+            {
+                name: 'Pondi Dive-in',
+                link: 'https://roamers.in/pondicherry',
+                image: 'assets/img/short-trip/Lead-Auroville.webp',
+                duration: '3 DAYS / 2 NIGHTS',
+                location: 'EX: Chennai'
+            },
+            {
+                name: 'Mejestic Meghalaya',
+                link: 'https://roamers.in/meghalaya',
+                image: 'assets/img/megalaya/Front 3.jpg ',
+                duration: '6 DAYS / 5 NIGHTS',
+                location: 'EX: Guwahati'
+            },
+            {
+                name: 'Kodaikanal trek with poombarai',
+                link: 'https://roamers.in/kodaikanal',
+                image: 'assets/img/megalaya/Front 3.jpg ',
+                duration: '3 DAYS / 2 NIGHTS',
+                location: 'EX: Chennai'
+            },
+            {
+                name: 'Kedarkantha Trek',
+                link: 'https://roamers.in/kedarkantha',
+                image: 'assets/img/kedarkantha/main-sub.jpg ',
+                duration: '5 DAYS / 4 NIGHTS',
+                location: 'EX: Dehradun'
+            },
+            {
+                name: 'Kodaikanal Backpacking',
+                link: 'https://roamers.in/kodaikanal1',
+                image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg',
+                duration: '3 DAYS / 2 NIGHTS',
+                location: 'EX: Chennai'
+            },
+            {
+                name: 'Varkala & Munroe Flashpacking',
+                link: 'https://roamers.in/varkala-grouptrip',
+                image: 'assets/img/varkala/kerala-1.jpg',
+                duration: '3 DAYS / 2 NIGHTS',
+                location: 'EX: Chennai'
+            },
+            {
+                name: 'Spiti winter expedition',
+                link: 'https://roamers.in/spiti-valley',
+                image: 'assets/img/spiti-valley/spiti-cover.jpg',
+                duration: '7 DAYS / 6 NIGHTS',
+                location: 'EX: Delhi'
+            }
             ];
 
             const searchInput = document.getElementById('search-input');
             const searchResults = document.getElementById('search-results');
             if (!searchInput || !searchResults) return;
 
-            searchInput.addEventListener('input', function() {
+            searchInput.addEventListener('input', function () {
                 const query = this.value.trim().toLowerCase();
                 searchResults.innerHTML = '';
                 if (!query) {

@@ -1,25 +1,5 @@
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Munnar with Kolukkumalai Adventure - 3 Days 2 Nights | Roamers</title>
-    <meta name="description"
-        content="Join Roamers for an epic Munnar with Kolukkumalai adventure! Experience sunrise treks, zipline adventures, and the world's highest tea plantation. Book your 3D2N package now!">
-    <meta name="keywords"
-        content="Munnar travel, Kolukkumalai trek, Kerala adventure, group travel, solo travel, Roamers, 3 days 2 nights, tea plantation, sunrise trek">
-    <meta name="author" content="Roamers">
-    <meta name="title" content="Munnar with Kolukkumalai Adventure - 3 Days 2 Nights | Roamers">
-    <meta property="og:title" content="Munnar with Kolukkumalai Adventure - Roamers">
-    <meta property="og:description"
-        content="Embark on an epic journey through Munnar and Kolukkumalai. Experience zipline adventures, sunrise treks, and the world's highest tea plantation with Roamers!">
-    <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
-    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
-    <meta property="og:image:width" content="700">
-    <meta property="og:image:height" content="500">
-    <link rel="canonical" href="https://www.roamers.in/munnar-kolukkumalai-adventure">
-    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -857,7 +837,7 @@
                 <div class="card-body">
                     <h3 class="text-white py-2 px-2 event-title-responsive" style="letter-spacing: 1px; font-weight: 700;">
                         <span style="display:inline-block;">
-                            Strangers Meetup: Meet Your Future Travel Buddies
+                            Strangers Meetup: Meet Your Future Buddies
                         </span>
                     </h3>
                     <style>
@@ -891,8 +871,10 @@
                 style="border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: none; background: #e3f6fd;">
                 <div class="card-body">
                     <div class="section-title mb-2">Event Details</div>
-                    <p class="pulse mb-0" style="line-height: 2.4;">
-                        Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.<br><br>
+                    <p class="pulse mb-4" style="line-height: 2.4;">
+                        Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins.
+                        This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers.
+                        So come join us for a night of conversations, connections, and stories that might just inspire your next journey.
                     <div class="card mb-3" style="background: #e3f6fd; border-radius: 16px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); border: 2px solid white;">
                         <div class="card-body" style="padding: 1.2rem 1.5rem;">
                             <strong>Here’s what’s waiting for you:</strong>
@@ -919,10 +901,11 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    Whether you’re a Stranger or traveller looking for your tribe, planning your very first adventure, or simply curious about exploring someday – this is where it all begins.<br><br>
-                    This isn’t just a meetup, it’s a community moment, a safe, welcoming space where strangers become friends, and friends become co-travellers.<br><br>
-                    So come join us for a night of conversations, connections, and stories that might just inspire your next journey. 🗺️💫<br>
+                    </div><br>
+                    <p class="pulse mb-2" style="line-height: 2.4;">
+                        Love to travel but don’t always find people who share the same vibe? This is your space. Imagine walking into a room full of curious travellers, solo explorers, and adventure seekers who are just as excited to swap stories, laugh over travel fails, and dream up the next Strangers trip together.
+                    </p>
+
                     <strong>👉 Spots are limited. Save yours now and let’s create memories together, even before the trip begins!</strong>
                     </p>
                 </div>
