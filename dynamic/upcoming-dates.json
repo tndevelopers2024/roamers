@@ -9,7 +9,7 @@
     },
     "sep": {
         "kerala-onam": "Sep 4",
-        "pondicherry": "Sep 20 - 27",
+        "pondicherry": "Sep 27",
         "varkala-grouptrip": "Sep 12",
         "meghalaya": "Sep 20",
         "chikmagalur": "Sep 6",
@@ -18,32 +18,55 @@
     },
     "oct": {
         "kerala-onam": "Oct 4",
-        "pondicherry": "Oct 11 -12 & 25 - 26",
+        "pondicherry": "Oct 11,25",
         "varkala-grouptrip": "Sep 12",
-        "meghalaya": "Oct 18 - 24",
-        "chikmagalur": "Sep 6",
-        "kolukkumalai-trek": "Sep 26",
+        "meghalaya": "Oct 18",
+        "kodaikanal": "Oct 01,05",
+        "chikmagalur": "Oct 17",
+        "kolukkumalai-trek": "Oct 01,27",
         "srilanka": "Oct 18",
-        "andaman": "Oct 18 - 24"
+        "andaman": "Oct 18",
+        "wayanad": "Oct 17"
     },
     "nov": {
         "kerala-onam": "Nov 4",
-        "pondicherry": "Nov 08 - 09 & 22 - 23",
+        "pondicherry": "Nov 08,09 & 22,23",
         "varkala-grouptrip": "Sep 12",
-        "meghalaya": "Nov 15 - 21",
-        "chikmagalur": "Sep 6",
-        "kolukkumalai-trek": "Sep 26",
+        "meghalaya": "Nov 01,22",
+        "chikmagalur": "Nov 06,28",
+        "kolukkumalai-trek": "Nov 14,28",
         "srilanka": "Nov 15",
-        "andaman": "Nov 15 - 21"
+        "andaman": "Nov 15",
+        "wayanad": "Nov 17"
     },
     "dec": {
         "kerala-onam": "Nov 4",
-        "pondicherry": "Dec 06 - 07 & 25 - 28",
+        "pondicherry": "Dec 06,25",
         "varkala-grouptrip": "Sep 12",
-        "meghalaya": "Dec 13 - 19, Dec 20 - 26, Dec 27 - Jan 02",
+        "meghalaya": "Dec 20,23,28",
+        "chikmagalur": "Dec 24 (Christmas Special)",
+        "kolukkumalai-trek": "Dec 12,23 (Christmas special)",
+        "srilanka": "Dec 13,27",
+        "andaman": "Dec 25"
+    },
+    "jan": {
+        "kerala-onam": "Nov 4",
+        "pondicherry": "Dec 06,28",
+        "varkala-grouptrip": "Sep 12",
+        "meghalaya": "Jan 10,14,24",
         "chikmagalur": "Sep 6",
         "kolukkumalai-trek": "Sep 26",
-        "srilanka": "Dec 13 - 20 - 27",
-        "andaman": "Dec 25 - Jan 1"
+        "srilanka": "Dec 13,27",
+        "andaman": "Dec 25"
+    },
+    "feb": {
+        "kerala-onam": "Nov 4",
+        "pondicherry": "Dec 06,25",
+        "varkala-grouptrip": "Sep 12",
+        "meghalaya": "Feb 14,28",
+        "chikmagalur": "Sep 6",
+        "kolukkumalai-trek": "Sep 26",
+        "srilanka": "Dec 13,27",
+        "andaman": "Dec 25"
     }
 }

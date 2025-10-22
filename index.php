@@ -6,12 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Roamers - Explore the World with Our Social Travel Agency</title>
-  <meta name="description" content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways, and group travel experiences. Explore, connect, and create unforgettable memories with like-minded travelers!">
-  <meta name="keywords" content="travel, travel destinations, travel tips, travel guides, vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
+  <meta name="description"
+    content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways, and group travel experiences. Explore, connect, and create unforgettable memories with like-minded travelers!">
+  <meta name="keywords"
+    content="travel, travel destinations, travel tips, travel guides, vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
   <meta name="author" content="Themeland">
   <meta name="title" content="Roamers - Explore the World with Our Social Travel Agency">
   <meta property="og:title" content="Roamers | Your Gateway to Social Travel Adventures">
-  <meta property="og:description" content="Discover the world with Roamers! From solo adventures to group travel, we create experiences that bring travelers together. Explore destinations, meet people, and make memories!">
+  <meta property="og:description"
+    content="Discover the world with Roamers! From solo adventures to group travel, we create experiences that bring travelers together. Explore destinations, meet people, and make memories!">
   <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
   <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png">
   <meta property="og:image:width" content="700">
@@ -21,9 +24,14 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -392,7 +400,9 @@
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
   <script src="assets/js/plugins/plugins.min.js"></script>
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
@@ -405,6 +415,18 @@
     color: #4ec0db;
     border: 2px solid #4ec0db;
     font-weight: 500;
+  }
+
+  .short-break-trips-img {
+    height: 300px;
+    width: 410px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  .silder-inner {
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: #000;
   }
 
   .gotoinsta {
@@ -434,7 +456,7 @@
   }
 
   .py-60 {
-    padding: 60px 0px 70px 0;
+    padding: 60px 0px 50px 0;
   }
 
   .elfsight-app-d8fb604c-d55a-470d-bf66-89a000cb227d {
@@ -823,265 +845,107 @@
 
 <body>
 
-  <?php include('includes/loader.php'); ?>
-  <?php include('includes/header.php'); ?>
-  <?php include('components/banner.php'); ?>
-  <?php include('components/banner-below.php'); ?>
-  <?php include('components/upcoming-trips.php'); ?>
+  <!-- Header Section -->
+  <header>
+    <?php include('includes/header.php'); ?>
+  </header>
 
-  <!-- <div class="container" style="position: relative;">
-    <div class="upcoming-container"
-      style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 130px; max-width: 1500px; margin-left: auto; margin-right: auto;">
+  <main>
 
-      <section>
-        <h2 class="upcoming-header">
-          <i class="fa-solid fa-calendar-days upcoming-header-icon"></i>
-          Featured Events
-        </h2>
+    <!-- Preloader Section -->
+    <?php include('includes/loader.php'); ?>
 
-        <div class="upcoming-tab-content active" id="tab-august">
-          <div class="upcoming-slider-wrapper">
-            <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button">
-              <i class="fa fa-chevron-left"></i>
-            </button>
-            <div class="upcoming-slider">
-              <div class="upcoming-card">
-                <div class="upcoming-content">
-                  <div class="upcoming-image">
-                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                  </div>
-                  <div class="upcoming-card-flex">
-                    <div class="upcoming-duration">
-                      <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
-                    </div>
-                    <div class="upcoming-from">
-                      <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                      <span>EX: Direct, Chennai</span>
-                    </div>
-                  </div>
-                  <h1 class="upcoming-title">Pondi Dive-in</h1>
-                  <p class="upcoming-locations">Pondicherry</p>
-                  <div class="upcoming-price-section">
-                    <div class="upcoming-dates">
-                      <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                      <span class="upcoming-dates-text">Aug 16, 22</span>
-                    </div>
-                    <div>
-                      <div class="upcoming-starts">Starts</div>
-                      <div class="upcoming-price">₹4,990</div>
-                    </div>
-                  </div>
-                  <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-              </div>
-              <div class="upcoming-card">
-                <div class="upcoming-content">
-                  <div class="upcoming-image">
-                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                  </div>
-                  <a href="pondicherry.php" target="_blank" class="upcoming-view">Register</a>
-                </div>
-              </div>
-              <div class="upcoming-card">
-                <div class="upcoming-content">
-                  <div class="upcoming-image">
-                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                  </div>
-                  <a href="pondicherry.php" target="_blank" class="upcoming-view">Register</a>
-                </div>
-              </div>
-              <div class="upcoming-card">
-                <div class="upcoming-content">
-                  <div class="upcoming-image">
-                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                  </div>
-                  <div class="upcoming-card-flex">
-                    <div class="upcoming-duration">
-                      <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>2D/1N
-                    </div>
-                    <div class="upcoming-from">
-                      <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                      <span>EX: Direct, Chennai</span>
-                    </div>
-                  </div>
-                  <h1 class="upcoming-title">Pondi Dive-in</h1>
-                  <p class="upcoming-locations">Pondicherry</p>
-                  <div class="upcoming-price-section">
-                    <div class="upcoming-dates">
-                      <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                      <span class="upcoming-dates-text">Aug 16, 22</span>
-                    </div>
-                    <div>
-                      <div class="upcoming-starts">Starts</div>
-                      <div class="upcoming-price">₹4,990</div>
-                    </div>
-                  </div>
-                  <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
-                </div>
-              </div>
-              <div class="upcoming-card">
-                <div class="upcoming-content">
-                  <div class="upcoming-image">
-                    <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
-                  </div>
-                  <a href="pondicherry.php" target="_blank" class="upcoming-view">Register</a>
-                </div>
-              </div>
-            </div>
-            <button class="upcoming-slider-arrow right" aria-label="Scroll to next trip" type="button">
-              <i class="fa fa-chevron-right"></i>
-            </button>
-          </div>
-        </div>
-      </section>
+    <!-- Banner Section-->
+    <?php include('components/banner.php'); ?>
 
+    <!-- Banner Below Section -->
+    <?php include('components/banner-below.php'); ?>
+
+    <!-- Upcoming Trips Section -->
+    <div style="margin-top: 50px; ">
+      <?php include('components/new-upcoming-trips.php'); ?>
     </div>
-    <img src="assets/img/banner/events-examaple.png" alt="" style="width: 100%; display: block; position: relative; z-index: 1;">
-  </div> -->
 
-  <div class="container">
-    <img src="assets/img/event/banner/event-image-by-roamers-3.png" alt="">
-
-  </div>
-  <div class=" my-5" id="backpacking">
-    <h2 class="head">
-      Backpacking Trips<span class="sub-head"></span>
-    </h2>
-    <div class="container-fluid">
-      <div class="swiper-container1">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <a href="ladakh-umlingla.php">
-              <img src="assets/img/ladakh/ladakh-mail.jpeg" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>8 DAYS / 7 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Leh
-                  </h4>
-                </div>
-                <h2>Leh Ladakh with Umling la</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="ladakh-dates"></span>
-                  </h4>
-                  <h4>Starts at <span class="ladakh-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="swiper-slide">
-            <a href="spiti-valley">
-              <img src="assets/img/spiti-valley/spiti-cover.jpg" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Delhi
-                  </h4>
-                </div>
-                <h2>Spiti Winter Expedition</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Spiti Valley</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="spiti-dates"> Dec 23 </span>
-                  </h4>
-                  <h4><span class="spiti-price">₹21,990</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a href="meghalaya">
-              <img src="assets/img/megalaya/Front 3.jpg " class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>6 DAYS / 5 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Guwahati
-                  </h4>
-                </div>
-                <h2>Mejestic Meghalaya</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Guwahati, Shillong, Cherrapunjee</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    Opens Soon</h4>
-                  <h4>Starts at <span class="meghalaya-price">₹19,990</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="swiper-slide">
-            <a href="andaman">
-              <img src="assets/img/backpacking/Andaman hoppers.jpg " class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Port Blair
-                  </h4>
-                </div>
-                <h2>Andaman Island Hopping</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Havelock Island, Neil Island, Port Blair</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="andaman-dates"> Dec 23 </span>
-                  </h4>
-                  <h4><span class="andaman-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="swiper-slide">
-            <a href="kedarkantha">
-              <img src="assets/img/kedarkantha/main-sub.avif" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>5 DAYS / 4 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Dehradun
-                  </h4>
-                </div>
-                <h2>Kedarkantha Trek</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Kedarkantha</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kedar-dates"> Open Soon </span>
-                  </h4>
-                  <h4><span class="kedar-price">₹8,990</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-        </div>
-        <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
+    <!-- Events Section -->
+    <div class="" style="max-width: 1800px; margin:auto">
+      <img src="assets/img/event/banner/events-desktop-banner-by-roamers.avif.avif" alt="" class="d-none d-md-block">
+      <img src="assets/img/event/banner/events-mobile-banner-by-roamers.avif" alt="" class="d-block d-md-none">
+      <div class="mt-4">
+        <?php include('components/event-trips.php'); ?>
       </div>
     </div>
-    <div class="view-more-btn text-center">
-      <a href="trips"><button>View More <i class="fa-solid fa-arrow-up"></i></button></a>
+
+    <!-- Mobile Christmas -->
+    <img class="d-block d-md-none mt-5" src="assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif" alt="Roamers Event Banner">
+    <div class="d-block d-md-none" style="margin-top:0px; margin-bottom: 50px; border-radius:20px 20px 0px 20px ;">
+      <?php include('components/christmas-mobile.php'); ?>
     </div>
-  </div>
+
+    <!-- Dsktop Christmas -->
+    <div class="d-none d-md-block mt-5" style="max-width: 1800px; margin:auto; ">
+      <?php include('components/christmas.php'); ?>
+    </div>
 
 
-  <section class="travelgram" style="margin-top: 40px;" id="travelgram">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 inst-w d-block d-md-none">
-          <h2 style="margin-top:30px !important;" class="head bbb">
-            Our Travelgram
-            <a href="https://www.instagram.com/roamers.in/"
-              style="display:block; font-size: 16px;color: #4ec0db; margin-bottom: -10px !important;margin-left: -22px !important; margin-top: 6px !important;"><img
-                src="assets/img/icon/insta-logo.png" alt="" class="insta-logo"></i>@roamers.in</a>
-          </h2>
-          <div class="elfsight-app-d8fb604c-d55a-470d-bf66-89a000cb227d"></div>
-          <a href="https://www.instagram.com/roamers.in/" class="gotoinsta">
-            Follow us
-          </a>
-        </div>
-        <div class="col-md-6">
-          <!-- <div class="testimonials-above">
+    <!-- Testimonial Section -->
+    <section class="travelgram" id="travelgram">
+      <style>
+        /* Responsive margin for travelgram section */
+        .travelgram {
+          margin-top: 0px;
+        }
+
+        @media (min-width: 600px) {
+          .travelgram {
+            margin-top: 0px;
+          }
+        }
+
+        @media (min-width: 768px) {
+          .travelgram {
+            margin-top: 290px;
+          }
+        }
+
+        @media (min-width: 992px) {
+          .travelgram {
+            margin-top: 340px;
+          }
+        }
+
+        @media (min-width: 1200px) {
+          .travelgram {
+            margin-top: 390px;
+          }
+        }
+
+        /* Optional: fine-tune heading padding for large screens */
+        .travelgram .head {
+          padding-top: 40px !important;
+        }
+
+        @media (min-width: 992px) {
+          .travelgram .head {
+            padding-top: 260px !important;
+          }
+        }
+      </style>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 inst-w d-block d-md-none">
+            <h2 style="margin-top:30px !important;" class="head bbb">
+              Our Travelgram
+              <a href="https://www.instagram.com/roamers.in/"
+                style="display:block; font-size: 16px;color: #4ec0db; margin-bottom: -10px !important;margin-left: -22px !important; margin-top: 6px !important;"><img
+                  src="assets/img/icon/insta-logo.png" alt="" class="insta-logo"></i>@roamers.in</a>
+            </h2>
+            <div class="elfsight-app-d8fb604c-d55a-470d-bf66-89a000cb227d"></div>
+            <a href="https://www.instagram.com/roamers.in/" class="gotoinsta">
+              Follow us
+            </a>
+          </div>
+          <div class="col-md-6">
+            <!-- <div class="testimonials-above">
             <h2>
               Rated by Explorers
             </h2>
@@ -1091,288 +955,337 @@
             </p>
           </div> -->
 
-          <div class="testimonial">
-            <div class="testimonials">
+            <div class="testimonial">
+              <div class="testimonials">
+
+                <div class="slider-containe" data-bs-interval="1000">
+                  <div class="sliders">
+                    <div class="slide-box">
+                      <!-- Testi One -->
 
 
-              <div class="slider-containe" data-bs-interval="1000">
-                <div class="sliders">
-                  <div class="slide-box">
-                    <!-- Testi One -->
+                      <p class="comment">
+
+                        Joined the group trip with my sister, it was the best experience we could ask for. Everything
+                        was
+                        great about the trip, explored even the spots which was not mentioned in itinerary, don’t really
+                        know how the days went so soon.No
+                        words, Thanks you all!
+                      </p>
+                      <h3 class="name"> Shreya </h3>
+                      <ul class="star">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                      <img src="assets/img/Testimnils/Andaman.jpg" />
 
 
-                    <p class="comment">
-
-                      Joined the group trip with my sister, it was the best experience we could ask for. Everything was
-                      great about the trip, explored even the spots which was not mentioned in itinerary, don’t really
-                      know how the days went so soon.No
-                      words, Thanks you all!
-                    </p>
-                    <h3 class="name"> Shreya </h3>
-                    <ul class="star">
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                    </ul>
-                    <img src="assets/img/Testimnils/Andaman.jpg" />
+                    </div>
+                    <div class="slide-box">
+                      <!-- Testi Two -->
 
 
+                      <p class="comment">
+
+                        The VIBE was unreal, didn’t expect I’ll connect like this.. Best trip I have gone, explored
+                        places, local foods, cultures, and those kids Ohh my goodness!!!! 😍 Thank you roamers and trip
+                        captain. We’ll meet soon on our reunion :
+                      </p>
+                      <h3 class="name">Vinayak</h3>
+                      <ul class="star">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                      <img src="assets/img/Testimnils/Spiti.jpg" />
+
+
+                    </div>
+
+                    <div class="slide-box">
+                      <!-- Testi Two -->
+
+
+                      <p class="comment">
+                        I joined solo and was imaginable experience, my first time going with the group trip, truly
+                        knocked my expectations. Very cool people, and awesome spots. Enjoyed a lot, Spl thanks to our
+                        trip captain veer. Gonna miss you’ll Fam…
+                      </p>
+                      <h3 class="name">Naisha </h3>
+                      <ul class="star">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                      <img src="assets/img/Testimnils/chikmagalur.jpg" />
+
+                    </div>
+                    <div class="slide-box">
+                      <!-- Testi Three -->
+
+
+                      <p class="comment">
+                        Camp nights with the bunch of crazy travellers, this was the trip which I’m gonna remember for
+                        long. Lots of memories to take with….. definitely a must goooo!
+                      </p>
+                      <h3 class="name">Aadhya</h3>
+                      <ul class="star">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                      <img src="assets/img/Testimnils/Manali.jpg" />
+
+                    </div>
                   </div>
-                  <div class="slide-box">
-                    <!-- Testi Two -->
 
-
-                    <p class="comment">
-
-                      The VIBE was unreal, didn’t expect I’ll connect like this.. Best trip I have gone, explored
-                      places, local foods, cultures, and those kids Ohh my goodness!!!! 😍 Thank you roamers and trip
-                      captain. We’ll meet soon on our reunion :
-                    </p>
-                    <h3 class="name">Vinayak</h3>
-                    <ul class="star">
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                    </ul>
-                    <img src="assets/img/Testimnils/Spiti.jpg" />
-
-
-                  </div>
-
-                  <div class="slide-box">
-                    <!-- Testi Two -->
-
-
-                    <p class="comment">
-                      I joined solo and was imaginable experience, my first time going with the group trip, truly
-                      knocked my expectations. Very cool people, and awesome spots. Enjoyed a lot, Spl thanks to our
-                      trip captain veer. Gonna miss you’ll Fam…
-                    </p>
-                    <h3 class="name">Naisha </h3>
-                    <ul class="star">
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                    </ul>
-                    <img src="assets/img/Testimnils/chikmagalur.jpg" />
-
-                  </div>
-                  <div class="slide-box">
-                    <!-- Testi Three -->
-
-
-                    <p class="comment">
-                      Camp nights with the bunch of crazy travellers, this was the trip which I’m gonna remember for
-                      long. Lots of memories to take with….. definitely a must goooo!
-                    </p>
-                    <h3 class="name">Aadhya</h3>
-                    <ul class="star">
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                      <li><i class="fa-solid fa-star"></i></li>
-                    </ul>
-                    <img src="assets/img/Testimnils/Manali.jpg" />
-
-                  </div>
+                  <a style="display:none;" href="#!" class="control-slider btn-left">
+                    <i class="fas fa-chevron-left"></i>
+                  </a>
+                  <a style="display:none;" href="#!" class="control-slider btn-right">
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
                 </div>
-
-                <a style="display:none;" href="#!" class="control-slider btn-left">
-                  <i class="fas fa-chevron-left"></i>
-                </a>
-                <a style="display:none;" href="#!" class="control-slider btn-right">
-                  <i class="fas fa-chevron-right"></i>
-                </a>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-6 inst-w d-none d-md-block">
-          <h2 class="head " style="padding-top: 260px !important;">
-            Our Travelgram
-            <a href="https://www.instagram.com/roamers.in/"
-              style="margin-left:-24px; display:block; font-size: 16px;color: #4ec0db;"><img
-                src="assets/img/icon/insta-logo.png" alt="" class="insta-logo"></i>@roamers.in</a>
-          </h2>
+          <div class="col-md-6 inst-w d-none d-md-block">
+            <h2 class="head ">
+              Our Travelgram
+              <a href="https://www.instagram.com/roamers.in/"
+                style="margin-left:-24px; display:block; font-size: 16px;color: #4ec0db;"><img
+                  src="assets/img/icon/insta-logo.png" alt="" class="insta-logo"></i>@roamers.in</a>
+            </h2>
 
-          <div class="elfsight-app-d8fb604c-d55a-470d-bf66-89a000cb227d"></div>
-          <a href="https://www.instagram.com/roamers.in/" class="gotoinsta">
+            <div class="elfsight-app-d8fb604c-d55a-470d-bf66-89a000cb227d"></div>
+            <a href="https://www.instagram.com/roamers.in/" class="gotoinsta">
 
-            Follow us
-          </a>
+              Follow us
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="short-trips py-60" id="shortbreak">
-    <h2 class="head">
-      Short Break Trips
-    </h2>
-    <div class="container-fluid">
-      <div class="swiper-container1">
-        <div class="swiper-wrapper">
+    <!-- Short Break Trips Section-->
+    <!-- <section class="short-trips py-60 desktop-version" style="max-width: 1800px; margin:auto">
+      <h2 class=" head">
+        Short Break Trips
+      </h2>
+      <div class="container-fluid">
+        <div class="swiper-container1">
+          <div class="swiper-wrapper">
 
-          <div class="swiper-slide">
-            <a href="ladakh-umlingla.php">
-              <img src="assets/img/ladakh/ladakh-mail.jpeg" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>8 DAYS / 7 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Leh
-                  </h4>
+            <div class="swiper-slide">
+              <a href="ladakh-umlingla.php" style="border-radius: 30px;">
+                <img src="assets/img/ladakh/ladakh-mail.jpeg" class="short-break-trips-img"
+                  alt="Leh Ladakh with Umling la">
+                <div class="silder-inner silder-inner1">
+                  <div class="inner inner2">
+                    <h3>8 DAYS / 7 NIGHTS</h3>
+                    <h4>
+                      <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">EX: Leh
+                    </h4>
+                  </div>
+                  <h2>Leh Ladakh with Umling la</h2>
+                  <p>
+                    <img src="assets/img/images/loc.svg" alt="location icon">Leh, Nubra, Pangong, Hanle, Umling la
+                  </p>
+                  <div class="inner">
+                    <h4 style="padding-right: 20px;">
+                      <img src="assets/img/images/date.svg" alt="date icon">
+                      <span class="ladakh-dates"></span>
+                    </h4>
+                    <h4>Starts at <span class="ladakh-price"></span></h4>
+                  </div>
                 </div>
-                <h2>Leh Ladakh with Umling la</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon"> Leh, Nubra, Pangong, Hanle, Umling la</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="ladakh-dates"></span>
-                  </h4>
-                  <h4>Starts at <span class="ladakh-price"></span> </h4>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="spiti-valley">
+                <img src="assets/img/spiti-valley/spiti-cover.jpg" class="short-break-trips-img"
+                  alt="Spiti Winter Expedition">
+                <div class="silder-inner silder-inner1">
+                  <div class="inner inner2">
+                    <h3>7 DAYS / 6 NIGHTS</h3>
+                    <h4>
+                      <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">EX: Delhi
+                    </h4>
+                  </div>
+                  <h2>Spiti Winter Expedition</h2>
+                  <p>
+                    <img src="assets/img/images/loc.svg" alt="location icon">Spiti Valley
+                  </p>
+                  <div class="inner">
+                    <h4 style="padding-right: 20px;">
+                      <img src="assets/img/images/date.svg" alt="date icon">
+                      <span class="spiti-dates">Dec 23</span>
+                    </h4>
+                    <h4><span class="spiti-price">₹21,990</span></h4>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="meghalaya">
+                <img src="assets/img/megalaya/Front 3.jpg" class="short-break-trips-img" alt="Majestic Meghalaya">
+                <div class="silder-inner silder-inner1">
+                  <div class="inner inner2">
+                    <h3>6 DAYS / 5 NIGHTS</h3>
+                    <h4>
+                      <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">EX: Guwahati
+                    </h4>
+                  </div>
+                  <h2>Majestic Meghalaya</h2>
+                  <p>
+                    <img src="assets/img/images/loc.svg" alt="location icon">Guwahati, Shillong, Cherrapunjee
+                  </p>
+                  <div class="inner">
+                    <h4 style="padding-right: 20px;">
+                      <img src="assets/img/images/date.svg" alt="date icon">
+                      Opens Soon
+                    </h4>
+                    <h4>Starts at <span class="meghalaya-price">₹19,990</span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="andaman">
+                <img src="assets/img/backpacking/Andaman hoppers.jpg" class="short-break-trips-img"
+                  alt="Andaman Island Hopping">
+                <div class="silder-inner silder-inner1">
+                  <div class="inner inner2">
+                    <h3>7 DAYS / 6 NIGHTS</h3>
+                    <h4>
+                      <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">EX: Port Blair
+                    </h4>
+                  </div>
+                  <h2>Andaman Island Hopping</h2>
+                  <p>
+                    <img src="assets/img/images/loc.svg" alt="location icon">Havelock Island, Neil Island, Port Blair
+                  </p>
+                  <div class="inner">
+                    <h4 style="padding-right: 20px;">
+                      <img src="assets/img/images/date.svg" alt="date icon">
+                      <span class="andaman-dates">Dec 23</span>
+                    </h4>
+                    <h4><span class="andaman-price"></span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="kedarkantha">
+                <img src="assets/img/kedarkantha/main-sub.avif" class="short-break-trips-img" alt="Kedarkantha Trek">
+                <div class="silder-inner silder-inner1">
+                  <div class="inner inner2">
+                    <h3>5 DAYS / 4 NIGHTS</h3>
+                    <h4>
+                      <img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">EX: Dehradun
+                    </h4>
+                  </div>
+                  <h2>Kedarkantha Trek</h2>
+                  <p>
+                    <img src="assets/img/images/loc.svg" alt="location icon">Kedarkantha
+                  </p>
+                  <div class="inner">
+                    <h4 style="padding-right: 20px;">
+                      <img src="assets/img/images/date.svg" alt="date icon">
+                      <span class="kedar-dates">Open Soon</span>
+                    </h4>
+                    <h4><span class="kedar-price">₹8,990</span></h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+
           </div>
-
-          <div class="swiper-slide">
-            <a href="spiti-valley">
-              <img src="assets/img/spiti-valley/spiti-cover.jpg" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Delhi
-                  </h4>
-                </div>
-                <h2>Spiti Winter Expedition</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Spiti Valley</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="spiti-dates"> Dec 23 </span>
-                  </h4>
-                  <h4><span class="spiti-price">₹21,990</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a href="meghalaya">
-              <img src="assets/img/megalaya/Front 3.jpg " class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>6 DAYS / 5 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Guwahati
-                  </h4>
-                </div>
-                <h2>Mejestic Meghalaya</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Guwahati, Shillong, Cherrapunjee</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    Opens Soon</h4>
-                  <h4>Starts at <span class="meghalaya-price">₹19,990</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="swiper-slide">
-            <a href="andaman">
-              <img src="assets/img/backpacking/Andaman hoppers.jpg " class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Port Blair
-                  </h4>
-                </div>
-                <h2>Andaman Island Hopping</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Havelock Island, Neil Island, Port Blair</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="andaman-dates"> Dec 23 </span>
-                  </h4>
-                  <h4><span class="andaman-price"></span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="swiper-slide">
-            <a href="kedarkantha">
-              <img src="assets/img/kedarkantha/main-sub.avif" class="backpacking-img" alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
-                <div class="inner inner2">
-                  <h3>5 DAYS / 4 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" alt="second location-icon">EX: Dehradun
-                  </h4>
-                </div>
-                <h2>Kedarkantha Trek</h2>
-                <p><img src="assets/img/images/loc.svg" alt="location-icon">Kedarkantha</p>
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
-                    <span class="kedar-dates"> Open Soon </span>
-                  </h4>
-                  <h4><span class="kedar-price">₹8,990</span> </h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
       </div>
-    </div>
-  </section>
+    </section> -->
 
-  <section class="quotes pt-60">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-7  quotes-img" style="margin-bottom: 20px;">
-          <img class="quotes-img-img1" style="height: 100% !important; width: 100% !important;"
-            src="assets/img/icon/Vertical-private-trips-NEW.png" alt="">
-          <img class="quotes-img-img" style="height: 100% !important;
+    <!-- <style>
+      .desktop-version {
+        max-width: 1550px;
+        margin: auto;
+      }
+
+      @media (max-width: 600px) {
+        .desktop-version {
+          max-width: 100% !important;
+          margin: auto;
+        }
+      }
+      @media (max-width:600px) {
+        max-width: 0px;
+        margin: auto;
+      }
+    </style> -->
+
+    <!-- Talk To Our Travel Experts (Form Section) -->
+    <section class="quotes pt-60">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7  quotes-img" style="margin-bottom: 20px;">
+            <img class="quotes-img-img1" style="height: 100% !important; width: 100% !important;"
+              src="assets/img/icon/Vertical-private-trips-NEW.png" alt="">
+            <img class="quotes-img-img" style="height: 100% !important;
     width: 182% !important;
     margin-left:-49px;" src="assets/img/icon/Private-trips.jpg" alt="">
-        </div>
-        <div class="col-md-5" id="contact-roamers">
-          <div class="form" id="home-form">
-            <div class="above-form">
-              <!-- <h3>Have A Query?</h3> -->
-              <h2>Talk To Our Travel Experts</h2>
-            </div>
-            <div class="form-section">
-              <form style="text-align: center !important;" id="regForm1" action="index-contact-us-mail.php"
-                method="POST">
-                <input type="text" required placeholder="Name" name="name1" id="name1">
-                <input type="email" required placeholder="Email" name="email1" id="email1">
-                <input type="text" required placeholder="Mobile Number" name="phone1" id="phone1">
-                <input type="text" placeholder="Destination" name="des" id="des">
-                <textarea placeholder="Message" name="mess" id="mess" id="" rows="4"></textarea>
-                <button style="margin-top: 20px;" type="submit" class="what-sum btn mb-4 "><i
-                    class="fa-regular fa-comment-dots"></i>
-                  REQUEST CALL BACK</button>
-              </form>
+          </div>
+          <div class="col-md-5" id="contact-roamers">
+            <div class="form" id="home-form">
+              <div class="above-form">
+                <!-- <h3>Have A Query?</h3> -->
+                <h2>Talk To Our Travel Experts</h2>
+              </div>
+              <div class="form-section">
+                <form style="text-align: center !important;" id="regForm1" action="index-contact-us-mail.php"
+                  method="POST">
+                  <input type="text" required placeholder="Name" name="name1" id="name1">
+                  <input type="email" required placeholder="Email" name="email1" id="email1">
+                  <input type="text" required placeholder="Mobile Number" name="phone1" id="phone1">
+                  <input type="text" placeholder="Destination" name="des" id="des">
+                  <textarea placeholder="Message" name="mess" id="mess" id="" rows="4"></textarea>
+                  <button style="margin-top: 20px;" type="submit" class="what-sum btn mb-4 "><i
+                      class="fa-regular fa-comment-dots"></i>
+                    REQUEST CALL BACK</button>
+                </form>
 
+              </div>
             </div>
           </div>
+
         </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-  <?php include('includes/footer.php'); ?>
+  </main>
+
+  <!-- Footer Sections -->
+  <footer>
+    <?php include('includes/footer.php'); ?>
+  </footer>
 
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
 
 </body>
-
 
 </html>

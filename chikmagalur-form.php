@@ -13,25 +13,25 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta property="og:image:secure_url" content="https://roamers.in/assets/img/chikmangalur/Media/10.jpg" width="600"
     height="600" alt="image for ooty" />
-  <title>Roamers - Chikmagalur</title>
+  <title>Roamers - Chikmangalur</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Chikmagalur" />
+  <meta name="description" content="Roamers - Chikmangalur" />
   <meta name="author" content="Themeland" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Chikmagalur" />
+  <meta property="og:title" content="Roamers - Chikmangalur" />
   <meta property="og:description"
-    content="Discover the beauty of Chikmagalur with our detailed travel guide and tips." />
+    content="Discover the beauty of Chikmangalur with our detailed travel guide and tips." />
   <meta property="og:image" content="https://roamers.in/assets/img/chikmangalur/Media/10.jpg" />
   <meta property="og:url" content="https://roamers.in/assets/img/chikmangalur/Media/10.jpg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Chikmagalur" />
+  <meta name="twitter:title" content="Roamers - Chikmangalur" />
   <meta name="twitter:description"
-    content="Discover the beauty of Chikmagalur with our detailed travel guide and tips." />
+    content="Discover the beauty of Chikmangalur with our detailed travel guide and tips." />
   <meta name="twitter:image" content="https://roamers.in/assets/img/chikmangalur/Media/10.jpg" />
 
 

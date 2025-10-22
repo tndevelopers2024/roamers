@@ -7,30 +7,30 @@ require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $dob = $_POST['dob'];
-    $gender = $_POST['gender'];
-    $date = $_POST['date'];
-    $sharing = $_POST['sharing'];
+    $name         = $_POST['name'];
+    $email        = $_POST['email'];
+    $phone        = $_POST['phone'];
+    $dob          = $_POST['dob'];
+    $gender       = $_POST['gender'];
+    $date         = $_POST['date'];
+    $sharing      = $_POST['sharing'];
     $person_count = $_POST['person-count'];
-    $pickup = $_POST['pickup'];
-    $address1 = $_POST['address1'];
-    $address2 = $_POST['address2'];
-    $city = $_POST['city'];
-    $postcode = $_POST['post-code'];
+    $pickup       = $_POST['pickup'];
+    $address1     = $_POST['address1'];
+    $address2     = $_POST['address2'];
+    $city         = $_POST['city'];
+    $postcode     = $_POST['post-code'];
 
     $mail = new PHPMailer(true);
 
     try {
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'info@roamers.in';
-        $mail->Password = 'iifr konl ctis tphr'; // App password
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'info@roamers.in';
+        $mail->Password   = 'atgk pshm vwxb jvia'; // App password
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->Port       = 587;
 
         $mail->setFrom('info@roamers.in', 'Booking Form');
         $mail->addAddress('info@roamers.in');
@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
         $mail->send();
-        echo "<script>alert('Booking successful! We will contact you soon.'); window.location.href = 'index.php';</script>";
+        echo "<script>alert('Booking successful! We will contact you soon.'); window.location.href = 'ooty-booking-form.php';</script>";
     } catch (Exception $e) {
         echo "<script>alert('Mailer Error: {$mail->ErrorInfo}');</script>";
     }

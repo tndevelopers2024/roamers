@@ -51,7 +51,7 @@ document.querySelectorAll(".kodai1-price").forEach((element)=>{
 });
 
 document.querySelectorAll(".varkala-price").forEach((element) => {
-  element.innerHTML = "₹8,990";
+  element.innerHTML = "₹8,490";
 });
 
 document.querySelectorAll(".spiti-price").forEach((element) => {

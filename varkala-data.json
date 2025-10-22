@@ -1,7 +1,29 @@
 {
   "varkala": {
-
-    "August": [
+    "February": [
+      {
+        "date": "24th - 29th",
+        "status": "Fast filling",
+        "statusColor": "orange",
+        "price": "₹27000/-"
+      }
+    ],
+    "March": [
+      {
+        "date": "11th - 17th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹27000/-"
+      },
+      {
+        "date": "26th - 29th",
+        "status": "Available",
+        "statusColor": "green",
+        "special": "Holi Special",
+        "price": "₹30,000/-"
+      }
+    ],
+    "April": [
       {
         "date": "11th - 17th",
         "status": "Available",
@@ -15,18 +37,46 @@
         "price": "₹27000/-"
       }
     ],
-"costing": {
-      "startingPrice": "₹8,990/-",
+    "May": [
+      {
+        "date": "11th - 17th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹27000/-"
+      },
+      {
+        "date": "26th - 29th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹27000/-"
+      }
+    ],
+    "June": [
+      {
+        "date": "11th - 17th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹27000/-"
+      },
+      {
+        "date": "26th - 29th",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹27000/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹8,499/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "chennai": "₹9,990/-",
-          "trivandrum": "₹9,990/-"
+          "chennai": "₹10,499/-",
+          "trivandrum": "₹8,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "chennai": "₹8,990/-",
-          "trivandrum": "₹8,990/-"
+          "chennai": "₹11,499/-",
+          "trivandrum": "₹9,499/-"
         }
       ]
     }

@@ -837,7 +837,7 @@
   <?php include('includes/header.php'); ?>
   <?php include('components/banner.php'); ?>
   <?php include('components/banner-below.php'); ?>
-  <?php include('components/testing-upcoming-trips.php'); ?>
+
 
   <!-- <div class="container" style="position: relative;">
     <div class="upcoming-container"
@@ -955,35 +955,48 @@
 
   <!-- Testing -->
 
-  <?php include('components/christmas.php'); ?>
-
-  <div class="container event-banner-container">
-    <a href="events-sep-21.php" class="d-block w-100">
-      <img
-        src="assets/img/event/banner/event-image-by-roamers-3.png"
-        alt="Roamers Event Banner"
-        class="img-fluid w-100 event-banner-img">
-    </a>
+  <!-- Upcoming Trips Section -->
+  <div style="margin-top: 50px;">
+    <?php include('components/new-upcoming-trips.php'); ?>
   </div>
+
+  <!-- Mobile Christmas -->
+  <img class="d-block d-md-none" src="asstes/test/new chirstmas banner 2.png" alt="Roamers Event Banner">
+  <div class="d-block d-md-none" style="margin-top:50px; margin-bottom: 50px;">
+    <?php include('components/christmas-mobile.php'); ?>
+  </div>
+
+  <!-- Dsktop Christmas -->
+  <div class="d-none d-md-block" style="max-width: 1800px; margin:auto; ">
+    <?php include('components/christmas.php'); ?>
+  </div>
+
+
+
+
 
   <style>
     .event-banner-container {
       padding-top: 330px;
     }
+
     @media (max-width: 991.98px) {
       .event-banner-container {
         padding-top: 300px !important;
       }
     }
+
     @media (max-width: 575.98px) {
       .event-banner-container {
         padding-top: 552px !important;
       }
+
       .event-banner-img {
         max-height: 220px;
         object-fit: cover;
       }
     }
+
     .event-banner-img {
       height: auto;
       max-width: 100%;
@@ -992,7 +1005,7 @@
     }
   </style>
 
-  <div class="container" style="padding-top: 30px;">
+  <div class="container" style="padding-top: 430px;">
     <?php include('components/event-trips.php'); ?>
   </div>
 

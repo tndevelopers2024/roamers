@@ -13,38 +13,27 @@ require 'PHPMailer/src/SMTP.php';
 
 // Event configuration array
 $events = [
-    'saidpet' => [
-        'name' => 'Saidpet Event',
-        'subject' => 'New Saidpet Event Booking Received',
-        'from_name' => 'Saidpet Event Booking',
-        // Add event-specific details if needed
-        'date' => '',
-        'day' => '',
-        'time' => '',
-        'location' => ''
-    ],
-    'mahashivratri' => [
-        'name' => 'Mahashivratri Ooty Event',
-        'subject' => 'New Mahashivratri Ooty Booking Received',
-        'from_name' => 'Mahashivratri Ooty Booking',
-        // Add event-specific details if needed
-        'date' => '',
-        'day' => '',
-        'time' => '',
-        'location' => ''
-    ],
-    'kerala-onam' => [
-        'name' => 'Kerala Onam Event',
-        'subject' => 'New Kerala Onam Booking Received',
-        'from_name' => 'Kerala Onam Booking',
-        // Add event-specific details if needed
-        'date' => '',
-        'day' => '',
-        'time' => '',
-        'location' => ''
-    ],
-    'stranger-events' => [
+
+    'stranger-events-sep-21' => [
         'name' => 'Backyard - Adyar, Chennai',
+        'subject' => 'New Backyard Booking Received',
+        'from_name' => 'Backyard Booking',
+        'date' => 'Sep 21, 2025',
+        'day' => 'Sunday',
+        'time' => '5:30 PM - 8:30 PM',
+        'location' => '53/23, 3rd Main Road, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020'
+    ],
+    'stranger-events-nov-1' => [
+        'name' => 'Backyard - Adyar, Chennai',
+        'subject' => 'New Backyard Booking Received',
+        'from_name' => 'Backyard Booking',
+        'date' => 'Sep 21, 2025',
+        'day' => 'Sunday',
+        'time' => '5:30 PM - 8:30 PM',
+        'location' => '53/23, 3rd Main Road, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020'
+    ],
+    'stranger-events-nov-26' => [
+        'name' => 'Adyar, Chennai',
         'subject' => 'New Backyard Booking Received',
         'from_name' => 'Backyard Booking',
         'date' => 'Sep 21, 2025',

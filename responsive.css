@@ -451,8 +451,8 @@
     width: 98%;
   }
   .swiper-slide img {
-    /* max-height: 200px ; */
-    object-fit: cover;
+    max-height: 200px !important;
+    object-fit: cover !important;
     border-radius: 3.8vw;
   }
   .swiper-slide a {
@@ -505,9 +505,9 @@
     letter-spacing: 7px;
     font-size: 40px;
   }
-  /* .categories-container {
+  .categories-container {
     padding: 40px 0px 0px;
-  } */
+  }
   .testimonial {
     margin-top: 20px;
   }

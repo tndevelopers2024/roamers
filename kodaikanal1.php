@@ -5,27 +5,41 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/kodaikanal-backpacking/Poombara.jpeg" width="600" height="600"
-    alt="image for ooty" />
-  <title>Roamers</title>
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/kodaikanal/Kodai.jpg" width="600"
+    height="600" alt="image for ooty" />
+  <title>Roamers - Kodaikanal</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Kodaikanal Backpacking" />
+  <meta name="description" content="Roamers - Kodaikanal" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/kodaikanal-backpacking/Poombara.jpeg" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/kodaikanal-backpacking/Poombara.jpeg" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
-  <!-- Title  -->
+  <!-- Basic Open Graph tags -->
+  <meta property="og:title" content="Roamers - Kodaikanal" />
+  <meta property="og:description"
+    content="Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints, chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging treks, and getting fully immersed in nature. " />
+  <meta property="og:image" content="https://roamers.in/assets/img/kodaikanal/Kodai.jpg" />
+  <meta property="og:url" content="https://roamers.in/assets/img/kodaikanal/Kodai.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Roamers - Kodaikanal" />
+  <meta name="twitter:description" content="Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks,
+     ticking off viewpoints, chasing waterfalls, and camping under the stars. Expect epic views,
+      wildlife spotting, challenging treks, and getting fully immersed in nature. " />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/kodaikanal/Kodai.jpg" />
 
+  <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/valley-of-flowers.css" />
 
   <!-- Favicon  -->
-  <!-- <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" /> -->
-  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon"  sizes="192x192" />
+  <link rel="shortcut icon" href="assets/img/Logo/Logo mark-01.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- ***** All CSS Files ***** -->
+  <link rel="stylesheet" href="assets/css/srilanka.css">
   <!-- ***** Font Asesome cdn ***** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -33,1527 +47,884 @@
   <!-- Style css -->
   <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- Responsive css -->
-
   <link rel="stylesheet" href="assets/css/responsive.css" />
   <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
-  <style>
-    .butn:link,
-    .butn:visited {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.5rem;
-      text-decoration: none;
-      background-color: #5e16bd;
-      background-image: linear-gradient(90deg, #501aa8, #870de8);
-      padding: 1rem 2.5rem;
-      width: 25.1rem;
-
-      margin-right: 13px;
-      border-radius: 4px;
-      border: none;
-      color: #fff;
-      position: relative;
-      overflow: hidden;
-      transition: all 0.3s ease-in-out;
-    }
-
-    .butn::before {
-      background: #fff;
-      content: "";
-      height: 55px;
-      opacity: 0;
-      position: absolute;
-      top: 0px;
-      transform: rotate(35deg);
-      width: 20px;
-      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
-    }
-
-    .butn::after {
-      background: #fff;
-      content: "";
-      height: 8rem;
-      opacity: 0;
-      position: absolute;
-      top: -50px;
-      transform: rotate(35deg);
-      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
-      width: 2rem;
-    }
-
-    .butn__new::before {
-      left: -50%;
-    }
-
-    .butn__new::after {
-      left: -100%;
-    }
-
-    .butn:hover,
-    .butn:active {
-      transform: translateY(-3px);
-      color: #fff;
-      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-    }
-
-    .butn__new:hover::before {
-      left: 50%;
-      opacity: 0.5s;
-    }
-
-    .butn__new:hover::after {
-      left: 150%;
-      opacity: 0.6;
-    }
-
-    .trip-home {
-      background: url(assets/img/kodaikanal/Kodai.jpg);
-      background-position: bottom !important;
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: relative;
-    }
-
-    .trip-home h1 {
-      text-align: center;
-      color: #fff;
-      text-transform: capitalize;
-      font-weight: 800;
-      line-height: 1.1 !important;
-      font-size: 46px;
-      margin: 90px 0px 54px !important;
-    }
-
-    #readMoreLink {
-      visibility: hidden;
-    }
-
-    .per-person {
-      color: #7c7c7c;
-      font-weight: 500;
-      font-size: 13px;
-    }
-
-    .with-travel {
-      text-align: center;
-      font-size: 18px;
-      margin-top: 25px;
-    }
-
-    .with-travel-price {
-      color: #4ec0db;
-      font-weight: 800;
-      margin-right: 5px;
-      margin-left: 5px;
-    }
-
-    .trip-home {
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-      padding: 280px 280px 150px !important;
-      margin-top: -127px;
-      position: relative;
-    }
-
-    .new-year {
-      position: absolute;
-      height: 28px !important;
-      width: 160px;
-      transition: all 0.7s;
-      border-radius: 0px !important;
-    }
-
-    .christmas {
-      position: absolute;
-      height: 28px !important;
-      width: 160px;
-      transition: all 0.7s;
-      border-radius: 0px !important;
-    }
-
-    .trip-about img {
-      transition: 0.5s all;
-      border-radius: 5px;
-    }
-
-    .trip-about img:hover {
-      transform: scale(1.04) !important;
-    }
-
-    .whatapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 999;
-      animation: fadeInUp1 0.5s ease-in-out forwards;
-      display: block !important;
-    }
-
-    .upcoming-slot h4 {
-      font-weight: 400;
-      padding: 3px 8px 3px 8px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: rgb(255 255 255 / 30%) 0px 1px 2px 0px, rgb(125 128 130 / 15%) 0px 2px 6px !important;
-      font-size: 14px !important;
-      line-height: 26px;
-      color: #878686 !important;
-      margin: 0;
-    }
-
-    @media (max-width: 600px) {
-      .kerala-overview {
-        font-size: 20px !important;
-      }
-
-      .price-occupancy {
-        padding: 10px 20px !important;
-        font-size: 14px !important;
-        box-shadow: rgb(0 207 264 / 35%) 0px 6px 10px, rgba(0, 0, 0, 0.23) 0px 2px 5px;
-      }
-
-      .silder-inner h4 {
-        font-size: 12px !important;
-
-      }
-
-      #price {
-        margin-left: 105px !important;
-      }
-
-      .butn:link,
-      .butn:visited {
-        margin-right: auto !important;
-        width: auto !important;
-      }
-
-      .butn::after {
-        top: -21px !important;
-        width: 1rem !important;
-      }
-
-
-      .butn__new::after {
-        left: 6% !important;
-      }
-
-      .butn__new::before {
-        left: -7% !important;
-      }
-
-      .accordion-button {
-        font-size: 10px !important;
-        padding: 10px 20px !important;
-      }
-
-      .days {
-        font-size: 10px !important;
-      }
-
-      #tab1 p {
-        font-size: 11px;
-      }
-
-      #tab2 p {
-        font-size: 11px;
-      }
-
-      .occupancy {
-        font-size: 10px !important;
-      }
-
-      .trip-home h1 {
-        margin: 90px 0px 27px !important;
-      }
-
-      .kerala-overview {
-        font-size: 20px !important;
-      }
-
-
-      .acc-container {
-        padding: 0px 0px 0px 6px !important;
-      }
-
-      .slider-item2 {
-        flex: 0 0 calc(96%) !important;
-        padding: 15px;
-      }
-
-      .slider-item2 img {
-        height: 380px !important;
-      }
-
-      #moreText {
-        visibility: visible !important;
-      }
-
-      #readMoreLink {
-        visibility: visible !important;
-      }
-
-      .readless {
-        display: none;
-      }
-
-      .slider-item2-image {
-        margin-left: 0px !important;
-      }
-
-      .trek-sec {
-        display: block !important;
-      }
-
-      .desktop-inform {
-        display: none !important;
-      }
-
-      .diff-sec {
-        display: none !important;
-      }
-    }
-
-    .price-occupancy {
-      padding: 12px 33px;
-      background: #fff;
-      border: 1px solid #eee;
-      margin: 5px;
-      border-radius: 5px;
-      font-family: "Heebo", sans-serif;
-    }
-
-    .price-occupancy1 {
-      border: none;
-    }
-
-    .occupancy {
-      display: flex;
-      justify-content: center;
-    }
-
-    .price-occupancy1:focus {
-      outline: 0px solid !important;
-      border: 2px solid #4ec1db0d !important;
-      /* -moz-outline-style: none !important; */
-      border-color: none !important;
-      background-color: #4ec0db0f;
-      box-shadow: none !important;
-    }
-
-    .travel-des {
-      padding: 30px;
-    }
-
-    .travel-des a {
-      max-width: 200px;
-    }
-
-    .ai1::before {
-      background-image: url(assets/img/images/line.svg) !important;
-    }
-
-    .accordion-button::after {
-      background-image: url(assets/img/images/arrow-down.svg) !important;
-    }
-
-    .accordion-button:not(.collapsed)::after {
-      background-image: url(assets/img/images/arrow-up.svg) !important;
-      transform: rotate(-360deg) !important;
-    }
-
-    .why-us {
-      background: url(assets/img/images/sea-travel.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: relative;
-      padding: 60px 0px;
-    }
-
-    .why-us::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0, 0, 0, 0.5);
-    }
-
-    .why-para {
-      color: #fff;
-      text-align: center;
-      font-size: 16px;
-      margin-bottom: 60px;
-    }
-
-    .why-us .trip-inner>h3 {
-      margin-bottom: 30px;
-      padding: 20px 24px;
-    }
-
-    .silder-inner h3 {
-      font-size: 11px;
-      color: #4EC0DB;
-      font-weight: 700;
-    }
-
-    .silder-inner h2 {
-      color: #094067;
-      font-size: 20px;
-      margin-bottom: 0.7rem;
-    }
-
-    .silder-inner h4 {
-      display: flex;
-      align-items: center;
-      color: #5F6C7B;
-      font-size: 12px;
-      font-weight: 400;
-    }
-
-    .silder-inner h4>img {
-      width: 20px;
-      height: 20px;
-      display: inline-block;
-      margin-right: 15px;
-      margin-top: -7px;
-    }
-
-    .silder-inner1 p {
-      border: none !important;
-      margin-bottom: 0px !important;
-      font-size: 12px;
-      font-weight: 400;
-      color: #5F6C7B;
-      padding-bottom: 10px;
-    }
-
-
-
-    .silder-inner span {
-      display: flex;
-      align-items: center;
-      color: #4EC0DB;
-      font-size: 16px;
-      margin-left: 5px;
-      font-weight: 600;
-    }
-
-    .silder-inner {
-      padding: 30px 20px;
-      background: #ffff;
-    }
-
-    .short-trips {
-      background: none;
-      padding-bottom: 60px;
-    }
-
-    .container-fluid {
-      width: 96%;
-      padding-right: var(--bs-gutter-x, .75rem);
-      padding-left: var(--bs-gutter-x, .75rem);
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    .acc-btn::after {
-      background-image: url(assets/img/images/arroww\ Black.svg) !important;
-    }
-
-    .acc-btn:not(.collapsed)::after {
-      background-image: url(assets/img/images/arroww\ white.svg) !important;
-      transform: rotate(-360deg) !important;
-    }
-
-    .trip-nav {
-      grid-template-columns: repeat(4, 1fr) !important;
-    }
-
-    #tab1 p {
-      padding-left: 30px;
-      position: relative;
-    }
-
-    #tab1 p::before {
-      content: "";
-      position: absolute;
-      font-size: 20px;
-      background: url(assets/img/icon/chexh\ 1.png);
-      left: 0;
-      width: 20px;
-      margin-top: 3px;
-      background-position: center;
-      height: 20px;
-      background-size: cover;
-    }
-
-    #tab2 p {
-      padding-left: 30px;
-      position: relative;
-    }
-
-    #tab2 p::before {
-      content: "";
-      position: absolute;
-      font-size: 20px;
-      background: url(assets/img/icon/Close\ 1.png);
-      left: 0;
-      width: 20px;
-      margin-top: 3px;
-      background-position: center;
-      height: 20px;
-      background-size: cover;
-    }
-
-    .arrow-right {
-      height: 20px;
-      width: 30px;
-      margin-left: 10px;
-    }
-
-    .itinerary-logo-content p {
-      font-size: 14px;
-      background: #d8eefe !important;
-      margin: 4px;
-      color: black !important;
-      border-radius: 31px;
-      padding: 5px 10px;
-      text-transform: capitalize;
-    }
-
-    .trip-about img {
-      width: 264px !important;
-      height: 315px !important;
-      object-fit: cover !important;
-    }
-
-    .acc-inner li::before {
-      width: 0;
-      height: 0;
-      border-top: 5px solid transparent;
-      border-left: 10px solid #4ec0db !important;
-      border-bottom: 5px solid transparent;
-      position: absolute;
-      left: 0;
-      content: "";
-      margin-top: 5px;
-    }
-
-    .acc-inner li:hover::before {
-      border-left: 10px solid #555 !important;
-    }
-
-    .des-sub {
-      display: flex;
-      justify-content: center;
-      margin-left: -43px !important;
-      margin-bottom: 43px;
-    }
-
-    .accordion-button:not(.collapsed) {
-      color: #0c63e4;
-      background-color: #094067 !important;
-    }
-
-    .faq {
-      background-image: url(assets/img/images/world2.png) !important;
-    }
-
-    /* dates update */
-    .kodai-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .andaman-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .kerala-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .ooty-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .munnar-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .pondi-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .wayanad-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .chik-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    .goa-dates {
-      color: #5f6c7b !important;
-      font-size: 11px !important;
-      font-weight: 400 !important;
-    }
-
-    /*  */
-  </style>
+  <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 </head>
 
 <body>
+  <!-- Whats app  -->
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
-  <!-- ***** Header Start ***** -->
-  <?php include ('includes/header.php'); ?>
-  <!-- ***** Header End ***** -->
-  <!-- ***** Welcome Area Start ***** -->
 
-  <section class="trip-home">
-    <div class="container" style="  position: relative;">
-      <h1>KODAIKANAL BACKPACKING </h1>
-      <ul class="des-sub">
-        <li>
-          Kodaikanal <img src="assets/img/icon/Arrow-head.png" class="arrow-right" alt="roamers-trip">
+  <!-- Header -->
+  <?php include('includes/header.php'); ?>
+
+  <!-- Banner -->
+  <section class="trip-home" class="banner-marigin-section" id="tripSection"
+    style="  padding: 350px 0; color: white; position: relative;  ">
+
+
+
+    <div class="container-lg" style="position: relative; text-align: center;">
+
+      <h2 class="banner-hight-top ms-2"
+        style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+        KODAIKANAL BACKPACKING
+      </h2>
+
+      <ul class="banner-hight-bottom p-0"
+        style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
+        <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
+          Kodaikanal
+          <span class="ms-2">
+            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+                style="width:13px; margin-bottom: 3px;"></span>
+          </span>
         </li>
-        <li>
-          Vattakanal <img src="assets/img/icon/Arrow-head.png" class="arrow-right" alt="roamers-trip">
+
+        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
+          Vattakanal
+          <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
+                style="width:13px; margin-bottom: 3px;"></span>
         </li>
-        <li>
+        <li class="mobile-small-text m me-2"
+          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
           Poombarai
         </li>
       </ul>
-      <div class="row desktop-inform">
-        <div class="col-md-4 col-4">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-indian-rupee-sign"></i></h3>
-            <p style="color:white !important;">Starting Price</p>
-            <h2><span class="kodai1-price"></span> /-</h2>
-          </div>
-        </div>
-        <div class="col-md-4 col-4">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-calendar-days"></i></h3>
-            <p style="color:white !important;">Duration</p>
-            <h2>3 Days - 2 Nights</h2>
-          </div>
-        </div>
-        <div class="col-md-4 col-4 ">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-location-dot"></i></h3>
-            <p style="color:white !important;">Pickup & Drop</p>
-            <h2>Chennai</h2>
-          </div>
+
+      <!-- this is the dot pagination for the slider -->
+      <div id="dotPagination">
+
+      </div>
+
+  </section>
+  <!-- Tab -->
+  <section class="tab-sections mob-tab">
+    <div class="">
+      <div class="">
+        <div class="tab-contentt">
+          <a href="#overview" class="tab-box  active">Overview <span></span></a>
+          <a href="#itinerary" class="tab-box ">Itinerary <span></span></a>
+          <a href="#inclusion" class="tab-box ">Inclusion <span></span></a>
+          <a href="#exclusion" class="tab-box ">Exclusion <span></span></a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="trek-sec">
-    <div class="container trek">
+  <!-- Banner Below -->
+  <div class="container">
+    <div class="row desktop-inform my-4 g-3">
+      <section class="info-highlights">
+        <div class="container p-3">
+          <div class="row row-cols-1 row-cols-lg-4 g-4 text-center">
+
+            <div class="col">
+              <div class="enhanced-box">
+                <div class="icon-circle">
+                  <!-- <i class='bx  bx-rupee'></i>  -->
+                  <img src="assets/img/icon/rupees.png" alt="">
+                </div>
+                <div>
+                  <div class="info-label">Starting Price</div>
+                  <div class="info-value kodaikanal1-price"><span>/-</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="enhanced-box">
+                <div class="icon-circle">
+                  <!-- <i class='bx  bx-hourglass'></i>  -->
+                  <img src="assets/img/icon/duration.png" style="width:35px" alt="">
+                </div>
+                <div>
+                  <div class="info-label">Duration</div>
+                  <div class="info-value">3D / 2N</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="enhanced-box">
+                <div class="icon-circle">
+                  <!-- <i class="fa-solid fa-location-dot"></i> -->
+                  <img src="assets/img/icon/location.png" alt="">
+                </div>
+                <div>
+                  <div class="info-label">Pickup & Drop</div>
+                  <div class="info-value">Chennai</div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center">
+              <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="row mobile-inform mt-4">
+      <section class="info-highlights">
+        <div class="">
+          <div class="row text-center">
+
+            <!-- <div class="col">
+              <div class="enhanced-box">
+                <div class="icon-circle">
+                  
+                   <img src="assets/img/icon/rupees.png" alt="">
+                </div>
+                <div>
+                <div class="info-label">Starting Price</div>
+                <div class="info-value valley-price"><span>/-</span></div>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="col-5 px-0">
+              <div class="enhanced-box">
+                <div class="icon-circle">
+                  <!-- <i class='bx  bx-hourglass'></i>  -->
+                  <img src="assets/img/icon/duration.png" style="width:35px" alt="">
+                </div>
+                <div>
+                  <div class="info-label">Duration</div>
+                  <div class="info-value">3D / 2N</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-7 px-0" style="border-left:1px solid #cbc9c9;">
+              <div class="enhanced-box">
+                <div class="icon-circle">
+                  <!-- <i class="fa-solid fa-location-dot"></i> -->
+                  <img src="assets/img/icon/location.png" alt="">
+                </div>
+                <div>
+                  <div class="info-label">Pickup & Drop</div>
+                  <div class="info-value">Chennai</div>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-4">
+              <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
+                Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+    <section class="tab-sections desc-tab">
       <div class="row">
-        <div class="col-4 col-md-4">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-indian-rupee-sign"></i>
+        <div class="col-lg-12 col-12">
+          <div class="tab-contentt">
+            <a href="#overview" class="tab-box  active">Overview <span></span></a>
+            <a href="#itinerary" class="tab-box ">Itinerary <span></span></a>
+            <a href="#inclusion" class="tab-box ">Inclusion <span></span></a>
+            <a href="#exclusion" class="tab-box ">Exclusion <span></span></a>
+            <!-- <a href="#notes" class="tab-box border-end-0">Notes</a> -->
+          </div>
+        </div>
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const tabs = document.querySelectorAll('.tab-box');
+          const sections = Array.from(tabs)
+            .map(tab => document.querySelector(tab.getAttribute('href')))
+            .filter(Boolean); // Skip nulls
+
+          function updateActiveTabOnScroll() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            let bestMatchIndex = -1;
+
+            sections.forEach((section, i) => {
+              const rect = section.getBoundingClientRect();
+              const sectionTop = rect.top + scrollTop;
+              const sectionBottom = sectionTop + section.offsetHeight;
+
+              // Trigger active tab if section is at least halfway visible
+              if (scrollTop + window.innerHeight / 2 >= sectionTop && scrollTop < sectionBottom) {
+                bestMatchIndex = i;
+              }
+            });
+
+            if (bestMatchIndex !== -1) {
+              tabs.forEach(tab => tab.classList.remove('active'));
+              tabs[bestMatchIndex].classList.add('active');
+            }
+          }
+
+          // Throttle scroll events for performance
+          let ticking = false;
+          window.addEventListener('scroll', () => {
+            if (!ticking) {
+              window.requestAnimationFrame(() => {
+                updateActiveTabOnScroll();
+                ticking = false;
+              });
+              ticking = true;
+            }
+          });
+
+          // Run once on load
+          updateActiveTabOnScroll();
+        });
+      </script>
+
+
+
+    </section>
+    <br><br>
+
+    <section class="destination mt-0 mt-lg-5"
+      style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;" id="overview">
+
+      <div class="">
+        <div class="row g-4 flex-column-reverse flex-md-row align-items-center">
+
+          <!-- Text Section -->
+          <div class="col-md-7">
+            <div class="travel-des p-3 p-md-4">
+              <h2 class="mb-3 pt-3">Kodaikanal Backpacking: Peaks, Falls, Starlit CampsNature's Bliss Awaits </h2>
+
+              <!-- Desktop description (full text) -->
+              <p style="color: #555;" class="desk-desc d-none d-md-block">
+                Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints,
+                chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging
+                treks, and getting fully immersed in nature. <br> <br> A ton of good vibes awaits too—experience great
+                team
+                bonding and enjoy fun sessions. It's all about creating unforgettable moments and sharing stories by the
+                bonfire. This trek is going to be pure magic—let's do this Roamers!
+
+
+              </p>
+
+              <!-- Mobile description (truncated with toggle) -->
+              <p style="color: #555;" class="mob-desc d-block d-md-none">
+                Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints,
+                chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging
+                treks, and getting fully immersed in nature. <br>
+                <span id="dots">...</span>
+                <span id="moreText" style="display: none;"><br><br>
+                  A ton of good vibes awaits too—experience great
+                  team
+                  bonding and enjoy fun sessions. It's all about creating unforgettable moments and sharing stories by
+                  the
+                  bonfire. This trek is going to be pure magic—let's do this Roamers!
+                </span>
+              </p>
+
+              <!-- Positioned Read More Icon -->
+              <div onclick="toggleReadMore()"
+                class="position-absolute bottom-1 start-50 translate-middle-x d-block d-md-none">
+                <span id="readMoreBtn" class="read-more-icon" style="cursor: pointer;">
+                  <i class="fa-solid fa-circle-chevron-down shadow" style="
+     color: #4ec0db; 
+       background-color:rgb(255, 255, 255); 
+     font-size: 16px;
+     width: 30px;
+     height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     margin-top: 5px;">
+                  </i>
+
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Section -->
+          <div class="col-md-5 mt-0">
+            <div class="swiper miniSlider px-px-md-0 py-3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/kodaikanal/Gunacaves.jpg" , class="img-fluid w-100" alt="Ladakh 3"
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/kodaikanal/gunacavesgrou.jpeg" , class="img-fluid w-100" alt="Ladakh 3"
+                    style="border-radius: 10px; height: 350px; object-fit: cover;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- >> Itinerary << -->
+
+    <section class="ilt-up" id="itinerary">
+      <div class="container cont-fluid">
+        <div class="row">
+
+          <div class="col-md-8">
+            <h3 class="mt-5 text-center mt-md-0" style="text-align: start; margin-bottom: 20px; margin-left: 10px;"
+              class="text-center head">Trip Itinerary
             </h3>
-            <p style="margin: 1px 0px 0px 0 !important;">Starting Price</p>
-            <h2 style="color: black;">₹8,990 /-</h2>
-          </div>
-        </div>
-        <div class="col-4 col-md-4">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-calendar-days"></i></h3>
-            <p style="margin: 1px 0px 0px 0 !important;">Duration</p>
-            <h2 style="color: black;">3D - 2N</h2>
-          </div>
-        </div>
-        <div class="col-4 col-md-4">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-location-dot"></i></h3>
-            <p style="margin: 1px 0px 0px 0 !important;">Pickup & Drop</p>
-            <h2 style="color: black;">Chennai
-            </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+            <div class="">
 
-    <div class="container">
-      <div class="row diff-sec">
-        <div style="margin:0px !important;text-align: left;
-    padding-left: 40px;" class="col-md-6 col-6">
-          <div class="diff">
-            <i class="fa-solid fa-person-hiking"></i><span class="difficulty">Altitude: </span><span
-              class="sub-diff">7000ft</span>
-          </div>
-          <div class="diff">
-            <i class="fa-solid fa-map-location-dot"></i><span class="difficulty">Trek Length: </span><span
-              class="sub-diff">10km</span>
-          </div>
+              <div class="accordion" id="accordionExample">
+                <!-- day 1 -->
+                <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      <div class="d-flex align-items-center">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
+                        <span>OVERNIGHT JOURNEY TO KODAIKANAL
+                        </span>
+                      </div>
+                      <i class="bi bi-chevron-down ms-auto transition-all"></i>
+                    </button>
+                  </h2>
 
-        </div>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: #f5fdff;">
 
-        <div style="margin:0px !important; padding:0px; text-align:left;" class="col-md-6 col-6">
-          <div class="diff">
-            <i class="fa-solid fa-mountain"></i><span class="difficulty">Trek Difficulty: </span><span
-              class="sub-diff">Moderate</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                      <ul class="ps-lg-3 ps-0">
+                        <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>
+                          Meet the Roamers team and trip captains in Chennai! Let's kickstart our overnight journey from
+                          Chennai to Kodaikanal.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Pickup Point: Koyambedu (For additional Pickup points inform the Trip Captains)
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Transport type: Sleeper Bus (AC)
+                        </li>
 
-  <style>
-    .diff i {
-      padding: 0 6px 0 0px;
-      color: #4ec0db;
-      text-shadow: -1.3px 1px #000;
-    }
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 2 -->
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px !important;">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
 
-    .difficulty {
-      font-size: 14px;
-      font-weight: 700;
-    }
+                      <div class="d-flex align-items-center w-100">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
+                        <span> KODAIKANAL ARRIVAL | DOLPHIN NOSE & FALLS
+                        </span>
+                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                      </div>
+                    </button>
+                  </h2>
 
-    .sub-diff {
-      font-size: 14px;
-      font-weight: 600;
-    }
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
+                      </div>
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Welcome to the Princess of Hills, Kodaikanal! Check into your hotel, freshen up, and get ready
+                          to kickstart your adventure.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Head to Vattakanal for a stunning hike to Dolphin's Nose viewpoint. Trek through rugged
+                          terrains and rustic nature to reach the viewpoint. Enjoy the breathtaking views and snap some
+                          epic photos!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Next, visit Echo Rock nearby for panoramic views and some fun echo-shouting.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Afterward, head to the beautiful Vattakanal Falls and let the cascading waterfalls wash away
+                          your worries.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Shop time! Take your time to find the best tea, chocolates, and souvenirs for your loved ones.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Return to your comfy hotel for dinner, and enjoy a campfire with music, dancing, games, and
+                          laughter all night long. Sleep tight! </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 3 -->
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
+                      aria-controls="collapse3">
 
-    .diff {
-      padding-bottom: 10px;
-    }
+                      <div class="d-flex align-items-center w-100">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
+                        <span> POOMBARAI VIEWS, WATERFALLS & MANNAVANUR LAKE
+                        </span>
+                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                      </div>
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-white px-4 py-3">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After a delicious breakfast, start the day with a pleasant drive to Poombarai, the magical
+                          land of Kodai.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          On the way, stop at the stunning Palani View Point for breathtaking views and a much-needed
+                          chai.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Explore the enchanting Poombarai Village, strolling, interacting with locals, and embracing
+                          serenity.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Next, go on a short hike to reach the hidden Poombarai Waterfalls. Take a dip in the fresh
+                          falls or simply enjoy the paradise-like surroundings.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Savour lunch in Poombarai, then head to Mannavanur Lake. Enjoy ziplining, kayaking, or simply
+                          relax in the serene atmosphere.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Return to the hotel for a delicious dinner and an overnight stay.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 4 -->
+                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
+                      aria-controls="collapse4">
 
-    .diff-sec {
-      margin-top: 20px;
-      padding-top: 20px;
-      padding-bottom: 10px;
-    }
+                      <div class="d-flex align-items-center w-100">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
+                        <span>KODAIKANAL EXPLORE | PILLAR ROCKS, GUNA CAVES & MORE</span>
+                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                      </div>
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-white px-4 py-3">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Post breakfast, check out and head to Pillar Rock for a stunning view of the surrounding
+                          mountains.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Embark on a short hike and take in the jaw-dropping scenery.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Next, visit the Pine Forest. Take a stroll and soak in the calm nature surrounded by majestic
+                          pine trees. </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Visit Guna Caves, also called Devil's Kitchen, a mysterious cave with dramatic rock
+                          formations. Unfold the untold mysteries of the Pandavas.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Get ready to witness nature at its best at Green Valley Viewpoint, which offers the best seat
+                          beside the mountains.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Finally, visit Kodai Lake. Opt for boating or simply relax in the great atmosphere.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Time to depart, Roamers! If there's extra time, go shopping! Bid farewell to the Princess of
+                          Hills. By the next morning, the journey will reach Chennai. </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 5 -->
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
+                      aria-controls="collapse5">
 
-    .trek-sec {
-      display: none;
-    }
+                      <div class="d-flex align-items-center w-100">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
+                        <span> BYE ALL AND BACK TO HOME!
+                        </span>
+                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                      </div>
+                    </button>
+                  </h2>
 
-    .trek {
-      padding-top: 15px !important;
-      padding-bottom: 15px !important;
-      background-color: #fff;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-      border-radius: 10px;
-    }
-  </style>
-
-
-  <!-- ***** Welcome Area end ***** -->
-
-
-  <!-- ***** Travel Desitination***** -->
-  <section class="Desitination">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="trip-about">
-            <div class="row">
-              <div class="col-6">
-                <img src="assets/img/kodaikanal/gunacavesgrou.jpeg" alt="roamers-trip">
-              </div>
-              <div class="col-6">
-                <img src="assets/img/kodaikanal/Gunacaves.jpg" alt="roamers-trip" style="margin-top:70px;">
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-white px-4 py-3">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
+                          We'll aim to arrive in Chennai by 6 am in the morning. Bye for now Roamers. Reunion plans for
+                          next year? You bet!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Goodbyes are never easy, but what ride it has been! See you guys, more Hugs!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-7" style="display: grid; place-items: center;">
-          <div class="travel-des">
-            <h2 style="text-align:left !important;" class="head text-center text-md-left kerala-overview">
-              Kodaikanal Backpacking: Peaks, Falls, Starlit Camps—Nature's Bliss Awaits
-            </h2>
-            <p>
-              Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints,
-              chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging treks,
-              and getting fully immersed in nature.
-              <span class="readless">
-                A ton of good vibes awaits too—experience great team bonding and
-                enjoy fun sessions. It's all about creating unforgettable moments and sharing stories by the bonfire.
-                This
-                trek is going to be pure magic—let's do this Roamers! </span>
-              <span id="moreText" style="display:none">
-                A ton of good vibes awaits too—experience great team bonding and
-                enjoy fun sessions. It's all about creating unforgettable moments and sharing stories by the bonfire.
-                This
-                trek is going to be pure magic—let's do this Roamers! 
-              </span>
-            </p>
-            <a href="javascript:void(0);" id="readMoreLink" onclick="toggleReadMore()">...Read More</a>
 
-            <a style="width: 200px" href="kodaikanal-form" class="btn butn butn__new mt-3"> <i style="margin-right: 8px"
-                class="fa-solid fa-cloud-arrow-down"></i>Get Itinerary </a>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Travel Desitination end***** -->
-
-  <!-- ***** Itinerary & Upcoming Dates start***** -->
-
-  <!-- ***** Itinerary start***** -->
-  <section class="ilt-up">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <h2 class="head text-center text-md-left head1">
-            Itinerary
-          </h2>
-          <div class="acc-container">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item ai1">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    <div class="days"> DAY 0 </div>: OVERNIGHT JOURNEY TO KODAIKANAL
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="itinerary-logo-group">
-                      <div class="itinerary-logo-content">
-                      </div>
-
-                      <div class="itinerary-logo">
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/transportation.png" alt="">
-                          Transportation
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/Hotel.png" alt="">
-                          N / A
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/meals.png" alt="">
-                          N / A
-                        </p>
-                      </div>
-                    </div>
-                    <ul class="acc-inner">
-                      <li>
-                        Meet the Roamers team and trip captains in Chennai! Let's kickstart our overnight journey from
-                        Chennai to Kodaikanal.
-                      </li>
-                      <li>
-                        Pickup Point: Koyambedu (For additional Pickup points inform the Trip Captains)
-                      </li>
-                      <li>
-                        Transport type: Sleeper Bus (AC)
-                      </li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item ai1">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <div class="days"> DAY 1</div>: KODAIKANAL ARRIVAL | DOLPHIN NOSE & FALLS
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="itinerary-logo-group">
-                      <div class="itinerary-logo-content">
-                        <p>Kodaikanal</p>
-                        <p>Dolphins Nose</p>
-                        <p>Hike</p>
-                        <p>Echo Rock</p>
-                        <p>Waterfalls</p>
-
-
-                      </div>
-                      <div class="itinerary-logo">
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/transportation.png" alt="">
-                          Transportation
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/Hotel.png" alt="">
-                          Hotel
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/meals.png" alt="">
-                          B + L + D
-                        </p>
-                      </div>
-                    </div>
-                    <ul class="acc-inner">
-                      <li>
-                        Welcome to the Princess of Hills, Kodaikanal! Check into your hotel, freshen up, and get ready
-                        to kickstart your adventure.
-                      </li>
-                      <li>
-                        Head to Vattakanal for a stunning hike to Dolphin's Nose viewpoint. Trek through rugged terrains
-                        and rustic nature to reach the viewpoint. Enjoy the breathtaking views and snap some epic
-                        photos!</li>
-
-                      <li>
-                        Next, visit Echo Rock nearby for panoramic views and some fun echo-shouting.
-                      </li>
-                      <li>
-                        Afterward, head to the beautiful Vattakanal Falls and let the cascading waterfalls wash away
-                        your worries.
-                      </li>
-                      <li>
-                        Shop time! Take your time to find the best tea, chocolates, and souvenirs for your loved ones.
-                      </li>
-                      <li>
-                        Return to your comfy hotel for dinner, and enjoy a campfire with music, dancing, games, and
-                        laughter all night long. Sleep tight!
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div class="accordion-item ai1">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
-                    <div class="days"> DAY 2</div>: POOMBARAI VIEWS, WATERFALLS & MANNAVANUR LAKE
-                  </button>
-                </h2>
-                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="itinerary-logo-group">
-                      <div class="itinerary-logo-content">
-                        <P>Poombarai</P>
-                        <p>Viewpoints</p>
-                        <p>Waterfals</p>
-                        <p>Mannavanour</p>
-                        <p>Kayaking</p>
-                      </div>
-                      <div class="itinerary-logo">
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/transportation.png" alt="">
-                          Transportation
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/Hotel.png" alt="">
-                          Hotel
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/meals.png" alt="">
-                          Breakfast + Dinner
-                        </p>
-                      </div>
-                    </div>
-                    <ul class="acc-inner">
-                      <li>
-                        After a delicious breakfast, start the day with a pleasant drive to Poombarai, the magical land
-                        of Kodai.</li>
-                      <li>
-                        On the way, stop at the stunning Palani View Point for breathtaking views and a much-needed
-                        chai.
-                      </li>
-                      <li>
-                        Explore the enchanting Poombarai Village, strolling, interacting with locals, and embracing
-                        serenity.
-                      </li>
-                      <li>
-                        Next, go on a short hike to reach the hidden Poombarai Waterfalls. Take a dip in the fresh falls
-                        or simply enjoy the paradise-like surroundings.
-                      </li>
-                      <li>
-                        Savour lunch in Poombarai, then head to Mannavanur Lake. Enjoy ziplining, kayaking, or simply
-                        relax in the serene atmosphere.
-                      </li>
-                      <li>
-                        Return to the hotel for a delicious dinner and an overnight stay.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item ai1">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
-                    <div class="days"> DAY 3 </div>: KODAIKANAL EXPLORE | PILLAR ROCKS, GUNA CAVES & MORE
-                  </button>
-                </h2>
-                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="itinerary-logo-group">
-                      <div class="itinerary-logo-content">
-                        <P>Guna Caves</P>
-                        <p>Pillar Rocks</p>
-                        <p>Lake</p>
-                        <p>Green valley</p>
-                        <p>Coakers Walk</p>
-                      </div>
-                      <div class="itinerary-logo">
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/transportation.png" alt="">
-                          Transportation
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/Hotel.png" alt="">
-                          N / A
-                        </p>
-                        <p>
-                          <img class="itinerary-logo-img1" src="assets/img/icon/meals.png" alt="">
-                          Breakfast
-                        </p>
-                      </div>
-                    </div>
-                    <ul class="acc-inner">
-                      <li>
-                        Post breakfast, check out and head to Pillar Rock for a stunning view of the surrounding
-                        mountains. </li>
-                      <li>
-                        Embark on a short hike and take in the jaw-dropping scenery.
-                      </li>
-                      <li>
-                        Next, visit the Pine Forest. Take a stroll and soak in the calm nature surrounded by majestic
-                        pine trees.
-                      </li>
-                      <li>
-                        Visit Guna Caves, also called Devil's Kitchen, a mysterious cave with dramatic rock formations.
-                        Unfold the untold mysteries of the Pandavas.
-                      </li>
-                      <li>
-                        Get ready to witness nature at its best at Green Valley Viewpoint, which offers the best seat
-                        beside the mountains.
-                      </li>
-                      <li>
-                        Finally, visit Kodai Lake. Opt for boating or simply relax in the great atmosphere.
-                      </li>
-                      <li>
-                        Time to depart, Roamers! If there's extra time, go shopping! Bid farewell to the Princess of
-                        Hills. By the next morning, the journey will reach Chennai.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item ai1">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseTwo">
-                    BYE ALL AND BACK TO HOME!
-                  </button>
-                </h2>
-                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="itinerary-logo-group">
-                      <div class="itinerary-logo-content">
-                      </div>
-                    </div>
-                    <ul class="acc-inner">
-                      <li>
-                        We'll aim to arrive in Chennai by 6 am in the morning. Bye for now Roamers. Reunion plans for
-                        next year? You bet!
-                      </li>
-                      <li>
-                        Goodbyes are never easy, but what ride
-                        it has been! See you guys, more Hugs!
-                      </li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-          <div class="tab-section">
-            <div class="wrapper">
-              <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                <li><a href="#tab1" class="active"><i class="fa-solid fa-check"></i>Inclusions</a></li>
-                <li><a href="#tab2"><i class="fa-solid fa-xmark"></i>Exclusions</a></li>
-              </ul>
-              <section id="first-tab-group" class="tabgroup">
-                <div id="tab1">
-                  <p>Covers all Transportations as mentioned itinerary.
+            <!-- >> Inclusion section << -->
+            <section id="inclusion">
+              <div class="important-notes shadow " style="border-radius: 10px; background-color:rgb(245, 255, 246) ;">
+                <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
+                <div id="">
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Covers all Transportations as mentioned itinerary.
                   </p>
                   <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
                     Accomodations in tents or tree house on multiple sharing basis.
                   </p>
                   <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
                     6 Meals: 3 Breakfast, 1 Lunch & 2 Dinner
                   </p>
                   <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
                     Local guide & Roamers Trip Leaders.
                   </p>
                   <p>
-                    Entry fees, forest permit and Local Tax
-                    included. No hidden charges.
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Entry fees, forest permit and Local Tax included. No hidden charges.
                   </p>
                   <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
                     A-Z Trip assistance from our Travel Experts.
                   </p>
                 </div>
-                <div id="tab2">
-                  <p>Any kind of personal expenses.
-                  </p>
-                  <p>Any other costing involved due to natural calamity or any other forced circumstance which are
-                    out of our control.
-                  </p>
-                  <p>
-                    GST (5%) is applicable extra.
-                  </p>
-                  <p>
-                    Anything which is not mentioned in the above Inclusions
-                  </p>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="sticky-sidebar">
-            <h2 class="head text-center text-md-left ">
-              Upcoming Slots
-            </h2>
-            <div class="trip-tab">
-              <ul class="nav nav-pills trip-nav mb-3" id="pills-tab" role="tablist">
-                <!-- <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-jan-tab" data-bs-toggle="pill" data-bs-target="#pills-jan"
-                    type="button" role="tab" aria-controls="pills-jan" aria-selected="false">Jan</button>
-                </li> -->
-                <!-- <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Sep</button>
-                </li> -->
-                <!-- <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-feb-tab" data-bs-toggle="pill" data-bs-target="#pills-feb"
-                    type="button" role="tab" aria-controls="pills-feb" aria-selected="false">Feb</button>
-                </li> -->
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-mar-tab" data-bs-toggle="pill" data-bs-target="#pills-mar"
-                    type="button" role="tab" aria-controls="pills-mar" aria-selected="false">Mar</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-apr-tab" data-bs-toggle="pill" data-bs-target="#pills-apr"
-                    type="button" role="tab" aria-controls="pills-apr" aria-selected="false">Apr</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-may-tab" data-bs-toggle="pill" data-bs-target="#pills-may"
-                    type="button" role="tab" aria-controls="pills-may" aria-selected="false">May</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-jun-tab" data-bs-toggle="pill" data-bs-target="#pills-jun"
-                    type="button" role="tab" aria-controls="pills-jun" aria-selected="false">Jun</button>
-                </li>
-              </ul>
-              <div class="tab-content tab-con" id="pills-tabContent">
+              </div>
+            </section>
 
-                <!-- <div class="tab-pane fade show active" id="pills-jan" role="tabpanel" aria-labelledby="pills-jan-tab">
-                  <div class="upcoming-slot ">
-                    <h3> Jan 24</h3>                    
-                  </div>
-                </div> -->
-
-                <!-- <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                  <div class="upcoming-slot ">
-                    <h3> Sep 13</h3>
-                  </div>
-                </div> -->
-
-                <!-- <div class="tab-pane fade" id="pills-oct" role="tabpanel" aria-labelledby="pills-oct-tab">
-                  <div class="upcoming-slot ">
-                    <h3> Feb 14 </h3>
-                    <h4 style="background:#ff9500 !important; color:#fff !important;">New Year Trip</h4> 
-                  </div>
-                </div> -->
-
-                <!-- <div class="tab-pane fade " id="pills-feb" role="tabpanel" aria-labelledby="pills-feb-tab">
-                  <div class="upcoming-slot ">
-                    <h3> Feb 14</h3>
-                  </div>
-                </div> -->
-
-                <div class="tab-pane fade show active" id="pills-mar" role="tabpanel" aria-labelledby="pills-mar-tab">
-                  <div class="upcoming-slot ">
-                    <h3> Mar 07</h3>
-                    <h3> Mar 14</h3>
-                    <h3> Mar 28</h3>
-                    <!-- <h4>Closed</h4> -->
-                  </div>
-                </div>
-
-                <div class="tab-pane " id="pills-apr" role="tabpanel" aria-labelledby="pills-apr-tab">
-                  <div class="upcoming-slot ">
-                    <h3> Apr 11</h3>
-                    <h3> Apr 17</h3>
-                    <h3> Apr 25</h3>
-                    <!-- <h4>Closed</h4> -->
-                  </div>
-                </div>
-
-                <div class="tab-pane " id="pills-may" role="tabpanel" aria-labelledby="pills-may-tab">
-                  <div class="upcoming-slot ">
-                  <h3> May 09</h3>
-                  <h3> May 16</h3>
-                  <h3> May 23</h3>
-                  <h3> May 30</h3>
-                    <!-- <h4>Closed</h4> -->
-                  </div>
-                </div>
-
-                <div class="tab-pane " id="pills-jun" role="tabpanel" aria-labelledby="pills--tab">
-                  <div class="upcoming-slot ">
-                    <h3> Jun 5</h3>
-                    <!-- <h4>Closed</h4> -->
-                  </div>
-                </div>
+            <!-- >> Exclusion Section << -->
+            <div class="important-notes shadow" style="border-radius: 10px; background-color: rgb(255, 244, 244);"
+              id="exclusion">
+              <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
+              <div>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Any kind of personal expenses.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Any other costing involved due to natural calamity or any other forced circumstance which are out of
+                  our control. </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  GST (5%) is applicable extra.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  GST(5%) is applicable extra.
+                </p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Anything which is not mentioned in the above Inclusions </p>
               </div>
             </div>
 
 
-            <h2 style="font-size: 21px; margin-top: 32px;" class="head text-center text-md-left">
-              Sharing Occupancy Type
-            </h2>
-            <div class="occupancy">
-              <div class="price-occupancy">
-                <select class="price-occupancy1" name="" id="">
-                  <option value="9990">Double Sharing</option>
-                  <!-- <option value="">Quad Sharing</option> -->
-                  <option value="8990" selected>Triple Sharing</option>
-                </select>
+          </div>
+
+          <!-- >> Side Sticky Section << -->
+
+          <div class="col-md-4">
+
+            <div class="price-sticky" style="position: sticky;">
+              <!-- >> Side Slider Section << -->
+              <div class="priceCard shadow" style="border-radius: 10px;">
+                <img src="assets/img/kodaikanal/Gunacaves.jpg" alt="Ladakh Banner 3"
+                  style=" object-fit:cover; border-radius: 10px;">
               </div>
-              <div class="price-occupancy">
-                <i class="fa-solid fa-location-dot" style="color: #adadad; font-size: 11px; padding: 0px 0 0 4px;"></i>
-                <select class="price-occupancy1" name="" id="">
-                  <!-- <option value="" selected>Chennai</option> -->
-                  <option value="">Chennai</option>
-                  <!-- <option value="">Coimbatore</option> -->
-                </select>
+
+              <!-- >> Pricing Box Section << -->
+              <div class="price-card shadow p-1" style="border-radius: 10px;">
+                <div class="p-2">
+                  <!-- Inner box with light grey background -->
+                  <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
+                    <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
+                    <h5 class="special-offer">
+                      <span class="old-price">
+                        <strike>₹ 9,990/-</strike>
+                      </span>
+                      <span class="kodaikanal1-price new-price"></span><span class="new-price ">/-</span>
+                    </h5>
+
+                    <p>perfect for group adventures and shared <br> memories.</p>
+                    <div class="trip-form p-0">
+                      <a href="kodaikanal1-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                        & Costing</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="price">
-              <h4>Price</h4>
-              <p id="price">₹8,990 <span class="per-person">Per Person</span></p>
-            </div>
-            <div class="trip-form">
-              <a href="https://wa.me/message/QYDBK5TO42TGH1" class="btn inquiry butn butn__new">Send Inquiry</a>
-              <a href="kodaikanal-backpacking-form" class="btn butn butn__new">Book Now</a>
+
+              <!-- >> Ladakh Form Section << -->
+              <div id="form" class="shadow"
+                style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
+                <form>
+                  <h3 style="text-align: center; margin-bottom: 30px; font-family: 'Arial', sans-serif; color: #333;">
+                    Let's Map Your Dream Trip</h3>
+
+                  <div class="input-field mb-3" style="margin-bottom: 20px;">
+                    <label for="name" style="font-size: 16px; color: #333;">Name</label>
+                    <input placeholder="Your Name" type="text" id="name" name="name" required
+                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                  </div>
+
+                  <div class="input-field mb-3" style="margin-bottom: 20px;">
+                    <label for="email" style="font-size: 16px; color: #333;">Email</label>
+                    <input placeholder="Your Email" type="email" id="email" name="email" required
+                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                  </div>
+
+                  <div class="input-field mb-3" style="margin-bottom: 20px;">
+                    <label for="phone" style="font-size: 16px; color: #333;">Phone Number</label>
+                    <input placeholder="Your Phone Number" type="tel" id="phone" name="phone" required
+                      style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                  </div>
+
+                  <div class="trip-form p-0">
+                    <a href="" class="btn butn butn__new bg-" style="border-radius: 10px;">Submit</a>
+                  </div>
+
+                  </button>
+                </form>
+              </div>
+
             </div>
           </div>
+
         </div>
       </div>
-    </div>
-  </section>
-  <!-- ***** Itinerary end***** -->
+    </section>
+  </div>
 
-  <!-- ***** Itinerary & Upcoming Dates end***** -->
-
-  <!-- ***** why choose us start***** -->
-
-  <!-- <section class="why-us">
-    <div class="container position-relative">
-      <h2 class="head text-white mb-2">
-        why choose us
-      </h2>
-
-      <p class="why-para">
-        Choose us for your travel needs because we offer extensive knowledge, a user-friendly experience, trustworthy recommendations, and exclusive deals and discounts. 
-      </p>
-      <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-briefcase"></i></h3>
-            <h2>affordable price available</h2>
-            <p>
-              At our travel site, we prioritize affordability, ensuring that you have access to a wide range of travel options at competitive prices.            </p>
+  <!-- Rewind -->
+  <section class="scroll-section">
+    <h3 class="head" style="text-align: center; margin-bottom: 20px;"> <img
+        src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
+        class="align-start me-2">Roamers Rewind <img src="assets/img/valley-of-flowers/fast-backward.png"
+        alt="rewind icon" style="width: 25px;" class="align-start">
+    </h3>
+    <div class="swiper-container two">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/DolphinNos.jpeg" alt="Sri Lanka 1">
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="trip-inner trip-inner1">
-            <h3><i class="fa-solid fa-earth-americas"></i></h3>
-            <h2>wide variety of designation</h2>
-            <p>
-              Embark on your next adventure with our travel site, offering a wide variety of destinations to suit every traveler's taste. From tropical paradises to bustling cities, explore breathtaking landscapes and immerse yourself in diverse cultures around the world.            </p>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/Kodailak.jpeg" alt="Sri Lanka 2">
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="trip-inner">
-            <h3><i class="fa-solid fa-thumbs-up"></i></h3>
-            <h2>highly quality of service</h2>
-            <p>
-              Experience the highest quality of service with our travel site. From personalized assistance to reliable support, we are committed to delivering excellence at every step of your journey.            </p>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/MannavanurLak.jpeg" alt="Sri Lanka 3">
           </div>
         </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- ***** why choose us end***** -->
-
-
-  <!--====== CUSTOMISE YOUR TRIP Start ======-->
-
-  <section class="customise_your_trip  ">
-    <h2 class="head">
-      Spots/activity
-    </h2>
-    <div class="slider">
-      <div class="slider-container">
-
-      <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/Gunacav.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Guna Cave</h2> -->
-            </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/PineFores.jpeg" alt="Sri Lanka 4">
           </div>
         </div>
-        <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/DolphinNos.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Dolphin nose</h2> -->
-            </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/Poombara.jpeg" alt="Sri Lanka 5">
           </div>
         </div>
-
-        <!-- <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kolukkumalai-img/attukal-waterfalls.jpg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <h2>Attukal waterfalls</h2>
-            </div>
-          </div>
-        </div> -->
-        <div class="slider-item2 slider-item2-image">
-          <div class="silder-pad">
-            <div class="slid-img">
-
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/Kodailak.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Kodai Lake</h2> -->
-            </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/CoakersWal.jpeg" alt="Sri Lanka 6">
           </div>
         </div>
-
-        <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/MannavanurLak.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Mannavanur Lake</h2> -->
-            </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/VattakanalWaterfall.jpeg" alt="Sri Lanka 8">
           </div>
         </div>
-
-
-        <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/PineFores.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Pine Forest</h2> -->
-            </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/kodaikanal-backpacking/Gunacav.jpeg" alt="Sri Lanka 8">
           </div>
         </div>
-
-
-        <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/Poombara.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Poombarai</h2> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/CoakersWal.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Coakers Walk</h2> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="slider-item2">
-          <div class="silder-pad">
-            <div class="slid-img">
-              <img class="cus-img" src="assets/img/kodaikanal-backpacking/VattakanalWaterfall.jpeg" alt="roamers-Gallery">
-            </div>
-            <div class="cust-inner">
-              <h3> </h3>
-              <!-- <h2>Vattakanal Waterfalls</h2> -->
-            </div>
-          </div>
-        </div>
-
 
       </div>
-      <button class="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
-      <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
-      <button class="prev-btn1"><i class="fa-solid fa-chevron-left"></i></button>
-      <button class="next-btn1"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="swiper-pagination d-none d-md-none"></div>
     </div>
   </section>
 
-  <!-- ***** Gallery start ***** -->
 
-  <!--====== faq Start ======-->
-  <section class="faq">
+  <!-- Faq Seciton -->
+  <section class="faq" id="notes">
     <h2 class="head">FAQ</h2>
     <div class="container">
       <div class="row">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item acc-item">
-            <h2 class="accordion-header acco-head" id="flush-headingOne">
-              <button class="accordion-button acc-btn collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Can I Join solo?
+        <div class="accordion" id="accordionFlushExample">
+          <!--| First |-->
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                aria-controls="collapseOne">
+                <span class="ms-3" style="font-size: 1rem;">Can I Join solo ?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                Absolutely! Whether you're joining solo, with friends, or as a couple, these group trips are designed to
-                accommodate all types of travelers. Join us for budget-friendly adventures and check off more items from
-                your bucket list! </div>
-            </div>
-          </div>
-          <div class="accordion-item acc-item">
-            <h2 class="accordion-header acco-head" id="flush-headingTwo">
-              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                How about a safety for female Travellers?
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                Yes, female solo travelers can confidently join our group trips. We prioritize their safety by ensuring
-                a secure environment with trusted trip captains, verified hosts, and reliable transport vendors. Your
-                safety is our top priority any safety concerns during the trip will be promptly addressed by our team.
-                So relax and make the most of your journey!</div>
-            </div>
-          </div>
-          <div class="accordion-item acc-item">
-            <h2 class="accordion-header  acco-head" id="flush-headingThree">
-              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                What is the age requirement to Join?
-              </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                The trips is for 18-35 year olds
+              <div class="accordion-body bg-white px-4 py-3">
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
+                  or as a couple, these group trips are
+                  designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
+                  more items from your bucket list!</p>
               </div>
             </div>
           </div>
-          <div class="accordion-item acc-item">
-            <h2 class="accordion-header acco-head" id="flush-headingFour">
-              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                How do I confirm my booking?
+
+          <!--| Second |-->
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                <span class="ms-3" style="font-size: 1rem;">How about safety for female travelers?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                Send the payment screenshot to info@roamers.in and you’ll get the confirmation email within 24 hours.
+              <div class="accordion-body bg-white px-4 py-3">
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Yes, female solo travelers can confidently join our
+                  group trips. We prioritize their safety by
+                  ensuring a secure environment with trusted trip captains, verified hosts, and reliable transport
+                  vendors. Your safety is our top priority; any concerns during the trip will be promptly addressed by
+                  our team. So relax and make the most of your journey!</p>
               </div>
             </div>
           </div>
-          <div class="accordion-item acc-item">
-            <h2 class="accordion-header acco-head" id="flush-headingFive">
-              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                How do I trust Roamers?
+
+          <!--| Third |-->
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                <span class="ms-3" style="font-size: 1rem;">What is the age requirement to Join?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
-            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                You can absolutely trust us! We've nailed over 500 awesome trips. Check out the great reviews, speak to
-                our travel consultants, and check the website for further details. Our offices are in Chennai and Delhi
-                – we're all about being upfront and reliable all the way… Feel free to connect.</div>
+              <div class="accordion-body bg-white px-4 py-3">
+                <p style="font-size: 0.875rem; margin-bottom: 0;">The trips is for 18-39 year olds</p>
+              </div>
             </div>
           </div>
+
+          <!--| Four |-->
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                aria-controls="collapseFour">
+                <span class="ms-3" style="font-size: 1rem;">How do confirm my bookings ?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-white px-4 py-3">
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Send the payment screenshot to info@roamers.in and
+                  you'll get the confirmation email within 24
+                  hours.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--| Five |-->
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                aria-controls="collapseFive">
+                <span class="ms-3" style="font-size: 1rem;">How do trust Roamers?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-white px-4 py-3">
+                <p style="font-size: 0.875rem; margin-bottom: 0;">You can absolutely trust us! We've nailed over 500
+                  awesome trips. Check out the great reviews,
+                  speak to our travel consultants, and check the website for further details. Our offices are in
+                  Chennai and Delhi – we're all about being upfront and reliable all the way… Feel free to connect.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
-  <!--====== faq END ======-->
+
+  <!-- Mobile Price -->
+  <div class="mobile-bottom-bar">
+    <div class="bottom-bar-content">
+      <div class="price-box ">
+        <h6 class="label">Starts at</h6>
+        <div class="price-info">
+          <span class="price-amount ">₹8990/-</span>
+          <span class="per-person">(Per Person)</span>
+        </div>
+      </div>
+      <a href="kodaikanal1-form.php" class="btn-book">Dates & Costing</a>
+    </div>
+  </div>
 
 
+
+  <!-- Trips -->
   <?php include('includes/trips.php'); ?>
-  <!--====== quotes End ======-->
 
-  <!--====== FOOTER START======-->
-  <?php include ('includes/footer.php'); ?>
-  <!--====== FOOTER END======-->
-
-  <!-- ***** All jQuery Plugins ***** -->
+  <!-- Footer -->
+  <?php include('includes/footer.php'); ?>
 
   <!-- jQuery(necessary for all JavaScript plugins) -->
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 
   <!-- Bootstrap js -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
@@ -1561,39 +932,30 @@
 
   <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
   <!-- Active js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="assets/js/main.js"></script> -->
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
   <script src="assets/js/price.js"></script>
 
+  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+
   <script>
-    function toggleReadMore() {
-
-      var moreText = document.getElementById('moreText');
-      var readMoreLink = document.getElementById('readMoreLink');
-
-      if (moreText.style.display === 'none') {
-        moreText.style.display = 'inline';
-        readMoreLink.textContent = '...Read Less';
-      } else {
-        moreText.style.display = 'none';
-        readMoreLink.textContent = '...Read More';
-      }
-    }
-
-
-    window.addEventListener('DOMContentLoaded', function () {
-      const swiper = new Swiper('.swiper-container', {
-        slidesPerView: 'auto',
+    // Slider 
+    window.addEventListener("DOMContentLoaded", function () {
+      const swiper = new Swiper(".swiper-container", {
+        slidesPerView: "auto",
         spaceBetween: 10,
         loop: true,
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
         breakpoints: {
           1300: {
@@ -1607,8 +969,107 @@
           },
         },
       });
-
     });
+
+
+
+
+
+    var selectElements = document.getElementById("price-occ");
+    var selectElements1 = document.getElementById("price-occ1");
+    var price = document.getElementById('price');
+    var perperson = document.getElementById('per-person');
+    var bbb = document.getElementById('withtravel');
+
+    selectElements.addEventListener("change", updatePrice);
+
+    function updatePrice() {
+      var selectedValue = selectElements.value;
+      var selectedValue1 = selectElements1.value;
+
+      if (selectedValue == "double" && selectedValue1 == "chennai") {
+        price.innerHTML = "₹10,490";
+        perperson.innerHTML = " per person";
+        perperson.style.fontSize = "14px";
+        perperson.style.fontWeight = "500";
+        perperson.style.color = "#7c7c7c";
+        bbb.style.display = "block";
+      } else if (selectedValue == "triple" && selectedValue1 == "coimbatore") {
+        price.innerHTML = "₹7,490";
+        perperson.innerHTML = " per person";
+        perperson.style.fontSize = "14px";
+        perperson.style.fontWeight = "500";
+        perperson.style.color = "#7c7c7c";
+        bbb.style.display = "none";
+      } else if (selectedValue == "triple" && selectedValue1 == "chennai") {
+        price.innerHTML = "₹9,490";
+        perperson.innerHTML = " per person";
+        perperson.style.fontSize = "14px";
+        perperson.style.fontWeight = "500";
+        perperson.style.color = "#7c7c7c";
+        bbb.style.display = "block";
+      } else if (selectedValue == "double" && selectedValue1 == "coimbatore") {
+        price.innerHTML = "₹8,490";
+        perperson.innerHTML = " per person";
+        perperson.style.fontSize = "14px";
+        perperson.style.fontWeight = "500";
+        perperson.style.color = "#7c7c7c";
+        bbb.style.display = "none ";
+      }
+    }
+
+    // Initial price update when the page loads
+    updatePrice();
+  </script>
+
+  <script>
+    window.addEventListener('load', function () {
+      const scrollSection = document.querySelector('.scroll-section');
+      const swiperContainer = document.querySelector('.swiper-container.two');
+
+      // Initialize Swiper
+      const swiper = new Swiper('.swiper-container.two', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        initialSlide: 2,
+        loop: true,
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        on: {
+          init: function () {
+            // Add initialization classes after Swiper is ready
+            setTimeout(() => {
+              scrollSection.classList.add('loaded');
+              swiperContainer.classList.add('initialized');
+            }, 100);
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    var navbar = document.querySelector("nav");
+
+    window.onscroll = function () {
+      // pageYOffset or scrollY
+      if (window.scrollY > 100) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    };
+
 
 
     // *****Sidebar tab content end*****    
@@ -1696,46 +1157,228 @@
           nextBtn.style.display = "none";
         } else {
           prevBtn.style.display = "none";
-          nextBtn.style.display = "none ";
+          nextBtn.style.display = "none";
         }
       }
-
     });
-
   </script>
+
+
+
   <script>
-    var navbar = document.querySelector('nav')
+    $(".custom-carousel").owlCarousel({
+      autoWidth: true,
+      loop: true
+    });
+    $(document).ready(function () {
+      $(".custom-carousel .item").click(function () {
+        $(".custom-carousel .item").not($(this)).removeClass("active");
+        $(this).toggleClass("active");
+      });
+    });
+  </script>
 
-    window.onscroll = function () {
+  <script>
+    var ladakhSlider = new Swiper(".ladakhSwiper", {
+      loop: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <!-- >> Banner Below << -->
 
-      // pageYOffset or scrollY
-      if (window.scrollY > 100) {
-        navbar.classList.add('scrolled')
+  <script>
+    var swiper = new Swiper(".miniSlider", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+  <!-- >> Featured Page << -->
+
+  <script>
+    const cardSwiper = new Swiper(".custom-swiper-container", {
+      loop: true,
+      slidesPerView: 4,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".custom-swiper-button-next",
+        prevEl: ".custom-swiper-button-prev",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 4, // Optional: scale up at larger screen sizes
+        },
+
+      }
+    });
+  </script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container.two', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      effect: 'coverflow',
+      loop: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflow: {
+        rotate: 0,
+        stretch: 100,
+        depth: 150,
+        modifier: 1.5,
+        slideShadows: false,
+      }
+    });
+  </script>
+
+
+  <script>
+    function toggleReadMore() {
+      const moreText = document.getElementById('moreText');
+      const readMoreBtn = document.getElementById('readMoreBtn');
+
+      if (moreText.style.display === 'none' || moreText.style.display === '') {
+        moreText.style.display = 'inline';
+        readMoreBtn.innerHTML = `
+  <i class="fa-solid fa-circle-chevron-up shadow"
+     style="
+        color: #4ec0db; 
+       background-color:rgb(255, 255, 255); 
+       font-size: 16px; 
+      width: 30px; 
+       height: 30px; 
+       display: flex; 
+       align-items: center; 
+       justify-content: center; 
+       border-radius: 50%; 
+       margin-top: 0px;">
+  </i>`;
+
       } else {
-        navbar.classList.remove('scrolled')
+        moreText.style.display = 'none';
+        readMoreBtn.innerHTML = `
+  <i class="fa-solid fa-circle-chevron-down shadow" 
+     style="
+          color: #4ec0db; 
+       background-color:rgb(255, 255, 255); 
+     font-size: 16px;
+     width: 30px;
+     height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     margin-top: 0px;">
+  </i>`;
+
       }
     }
-    // Get all elements with the class "price-occupancy1"
-    const selectElements = document.getElementsByClassName("price-occupancy1");
+  </script>
 
-    // Get the price element
-    const price = document.getElementById('price');
-    const person = document.querySelector('.per-person');
+  <script>
+    const section = document.getElementById("tripSection");
+    const dotContainer = document.getElementById("dotPagination");
 
-    // Add a change event listener to each select element
-    for (const select of selectElements) {
-      select.addEventListener("change", function () {
-        // Get the selected option
-        const selectedOption = select.options[select.selectedIndex];
+    const images = [
+      "assets/img/kodaikanal/Kodai.jpg",
+    ];
 
-        // Update the value
-        const selectedValue = parseInt(selectedOption.value); // Parse as an integer
+    let index = 0;
+    let interval;
 
-        // You can do something with the selected value here
-        price.innerHTML = `₹${selectedValue.toLocaleString()} <span class="per-person">Per Person</span>`;
+    // Create dots
+    images.forEach((_, i) => {
+      const dot = document.createElement("span");
+      dot.classList.add("dot");
+      dot.style.opacity = "0";
+      dot.addEventListener("click", () => {
+        changeImage(i);
+        resetInterval();
+      });
+      dotContainer.appendChild(dot);
+      setTimeout(() => {
+        dot.style.transition = "opacity 0.3s ease";
+        dot.style.opacity = "1";
+      }, i * 100);
+    });
+
+    const dots = document.querySelectorAll(".dot");
+
+    function changeImage(newIndex) {
+      if (newIndex === index) return; // Prevent unnecessary change
+
+      section.classList.add("fade-in");
+
+      // Preload image before applying for smoother transition
+      const img = new Image();
+      img.src = images[newIndex];
+      img.onload = () => {
+        requestAnimationFrame(() => {
+          section.style.backgroundImage = `url('${images[newIndex]}')`;
+          section.classList.remove("fade-in");
+          index = newIndex;
+          updateDots();
+        });
+      };
+    }
+
+    function updateDots() {
+      dots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
       });
     }
+
+    function nextImage() {
+      const nextIndex = (index + 1) % images.length;
+      changeImage(nextIndex);
+    }
+
+    function startInterval() {
+      interval = setInterval(nextImage, 5000); // Slightly longer for breathing space
+    }
+
+    function resetInterval() {
+      clearInterval(interval);
+      startInterval();
+    }
+
+    // Init
+    section.style.backgroundImage = `url('${images[index]}')`;
+    updateDots();
+    startInterval();
   </script>
+
+
 </body>
+
+</html>
 
 </html>

@@ -168,7 +168,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">3D / 2N</div>
+                  <div class="info-value">2D / 1N</div>
                 </div>
               </div>
             </div>

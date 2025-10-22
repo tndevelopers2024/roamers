@@ -1,9 +1,6 @@
 <head>
-    <meta charset="utf-8" />
-    <title>Swiper demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
 
     <!-- Demo styles -->
     <style>
@@ -92,67 +89,3 @@
 </head>
 
 
-<!-- Swiper -->
-<!-- <div class="event-banner-wrapper p-4 p-md-2  container " style="margin-top:80px; margin-bottom: 50px; ">
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="assets\img\event\banner\event-image-by-roamers-8.png"
-                    alt="Pool Party" />
-            </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-    </div>
-</div> -->
-
-<div class="container event-banner-mobile">
-    <img src="assets\img\event\banner\event-image-by-roamers-8.png"
-        alt="Pool Party" />
-</div>
-<style>
-    .event-banner-mobile img {
-        margin-top: 80px;
-        border-radius: 20px;
-    }
-
-@media (max-width: 600px) {
-    .event-banner-mobile {
-        padding: 0;
-        margin: 0 auto 20px auto;
-        max-width: 100%;
-    }
-    .event-banner-mobile img {
-        margin-top: 100px;
-        width: 100%;
-        height: 320px;
-        object-fit: cover;
-        border-radius: 12px;
-        display: block;
-    }
-}
-</style>
-
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-</script>

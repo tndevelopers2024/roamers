@@ -548,7 +548,7 @@
                       aria-controls="collapse5">
 
                       <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
                         <span>Umngot River | Boat Ride | Krang Suri Waterfall</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
@@ -587,7 +587,7 @@
                       aria-controls="collapse6">
 
                       <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 6</span>
                         <span>Shillong #MeTime | Farewell</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
