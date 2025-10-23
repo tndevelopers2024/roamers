@@ -876,8 +876,7 @@
     </div>
 
     <!-- Mobile Christmas -->
-    <img class="d-block d-md-none mt-5" src="assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif" alt="Roamers Event Banner">
-    <div class="d-block d-md-none" style="margin-top:0px; margin-bottom: 50px; border-radius:20px 20px 0px 20px ;">
+    <div class="d-block d-md-none" style="margin-top:50px; margin-bottom: 50px; border-radius:20px 20px 0px 20px ;">
       <?php include('components/christmas-mobile.php'); ?>
     </div>
 

@@ -1138,6 +1138,7 @@
         </button>
 
         <div class="event-slider" id="event-slider-august">
+            
             <!-- Event Card 1 -->
             <!-- <div class="event-card">
                 <div class="event-content" style="position: relative;">
@@ -1178,46 +1179,8 @@
                     <a href="#" class="event-view">Closed</a>
                 </div>
             </div> -->
-            <!-- Event Card 2 -->
-            <div onclick="window.open('events-nov-26.php','target:_blank')" style="cursor: pointer;" class="event-card">
-                <div class="event-content" style="position: relative;">
-                    <div class="event-image">
-                        <img src="assets/img/event/cards/event-card-12.avif" alt="Pottery WORK SHOP">
-                    </div>
-                    <!-- Slot at top right, responsive -->
-                    <div class="event-slot-badge">
-                        <span class="event-dates-text" style="color: black;">
-                            <i class="fa-solid fa-users me-1" style=" margin-right: 4px;"></i>
-                            Slot: 15
-                        </span>
-                    </div>
-                    <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 210px; ">
-                        <div class="event-card-flex" style=" padding: 10px 20px;"></div>
-                        <h1 class="event-title event-title-responsive-on-event"
-                            style="padding: 0px 10px 0px 10px; font-size: 15px; font-weight: bold; word-spacing: 1px;">
-                            Pottery WORK SHOP
-                            <p class="mt-1"
-                                style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
-                                Shape, mold, Heal, create, laugh together</p>
 
-                        </h1>
-                        <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
-                            <div class="event-dates">
-                                <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 26th Nov
-                                    2025</span>
-                            </div>
-                            <div class="event-dates">
-                                <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
-                                <span class="event-dates-text" style="font-weight:700">Chennai
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="events-nov-26.php" target="_blank" class="event-view">Register</a>
-                </div>
-            </div>
-            <!-- Event Card 3 -->
+            <!-- Event Card 2 -->
             <div onclick="window.open('events-nov-1.php','target:_blank')" style="cursor: pointer;" class="event-card">
                 <div class="event-content" style="position: relative;">
                     <div class="event-image">
@@ -1257,7 +1220,8 @@
                     <a href="events-nov-1.php" target="_blank" class="event-view">Register</a>
                 </div>
             </div>
-            <!-- Event Card 4 -->
+
+            <!-- Event Card 3 -->
             <div class="event-card">
                 <div class="event-content" style="position: relative;">
                     <div class="event-image">
@@ -1295,7 +1259,8 @@
                     <a href="components\events\event-pages\events-nov-1.php" class="event-view">Soon !</a>
                 </div>
             </div>
-            <!-- Event Card 5 -->
+            <!-- Event Card 4 -->
+
             <div class="event-card">
                 <div class="event-content" style="position: relative;">
                     <div class="event-image">
@@ -1333,6 +1298,47 @@
                     <a href="components\events\event-pages\events-nov-1.php" class="event-view">Soon !</a>
                 </div>
             </div>
+            <!-- Event Card 5 -->
+
+            <div onclick="window.open('events-nov-26.php','target:_blank')" style="cursor: pointer;" class="event-card">
+                <div class="event-content" style="position: relative;">
+                    <div class="event-image">
+                        <img src="assets/img/event/cards/event-card-12.avif" alt="Pottery WORK SHOP">
+                    </div>
+                    <!-- Slot at top right, responsive -->
+                    <div class="event-slot-badge">
+                        <span class="event-dates-text" style="color: black;">
+                            <i class="fa-solid fa-users me-1" style=" margin-right: 4px;"></i>
+                            Slot: 15
+                        </span>
+                    </div>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 210px; ">
+                        <div class="event-card-flex" style=" padding: 10px 20px;"></div>
+                        <h1 class="event-title event-title-responsive-on-event"
+                            style="padding: 0px 10px 0px 10px; font-size: 15px; font-weight: bold; word-spacing: 1px;">
+                            Pottery WORK SHOP
+                            <p class="mt-1"
+                                style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
+                                Shape, mold, Heal, create, laugh together</p>
+
+                        </h1>
+                        <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
+                            <div class="event-dates">
+                                <span class="event-dates-text" style="font-weight:700"><i
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 26th Nov
+                                    2025</span>
+                            </div>
+                            <div class="event-dates">
+                                <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
+                                <span class="event-dates-text" style="font-weight:700">Chennai
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="events-nov-26.php" target="_blank" class="event-view">Register</a>
+                </div>
+            </div>
+
         </div>
         <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button" id="event-slider-next">
             <i class="fa fa-chevron-right"></i>
@@ -1375,7 +1381,7 @@
 
 <script>
     // Touch slider: swipe smoothly moves to next/prev card (like a carousel)
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         const slider = document.getElementById('event-slider-august');
         const leftBtn = document.getElementById('event-slider-prev');
         const rightBtn = document.getElementById('event-slider-next');
@@ -1422,11 +1428,11 @@
 
         // Button click handlers
         if (leftBtn && rightBtn && slider && cards.length > 0) {
-            leftBtn.addEventListener('click', function () {
+            leftBtn.addEventListener('click', function() {
                 const idx = getCurrentIndex();
                 if (idx > 0) scrollToCard(idx - 1);
             });
-            rightBtn.addEventListener('click', function () {
+            rightBtn.addEventListener('click', function() {
                 const idx = getCurrentIndex();
                 if (idx < cards.length - 1) scrollToCard(idx + 1);
             });
@@ -1465,7 +1471,7 @@
                 lastMove = Date.now();
             }
 
-            slider.addEventListener('touchstart', function (e) {
+            slider.addEventListener('touchstart', function(e) {
                 isTouching = true;
                 startX = e.touches[0].pageX;
                 scrollLeftStart = slider.scrollLeft;
@@ -1496,7 +1502,7 @@
                 passive: false
             });
 
-            slider.addEventListener('touchend', function (e) {
+            slider.addEventListener('touchend', function(e) {
                 if (!isTouching) return;
                 isTouching = false;
                 if (rafId) {
@@ -1527,14 +1533,14 @@
             let mouseStartX = 0;
             let mouseScrollLeft = 0;
 
-            slider.addEventListener('mousedown', function (e) {
+            slider.addEventListener('mousedown', function(e) {
                 isDragging = true;
                 mouseStartX = e.pageX;
                 mouseScrollLeft = slider.scrollLeft;
                 slider.classList.add('dragging');
             });
 
-            slider.addEventListener('mousemove', function (e) {
+            slider.addEventListener('mousemove', function(e) {
                 if (!isDragging) return;
                 e.preventDefault();
                 const x = e.pageX;
@@ -1542,7 +1548,7 @@
                 slider.scrollLeft = mouseScrollLeft + walk;
             });
 
-            slider.addEventListener('mouseup', function (e) {
+            slider.addEventListener('mouseup', function(e) {
                 if (isDragging) {
                     isDragging = false;
                     slider.classList.remove('dragging');
@@ -1562,7 +1568,7 @@
                 }
             });
 
-            slider.addEventListener('mouseleave', function (e) {
+            slider.addEventListener('mouseleave', function(e) {
                 if (isDragging) {
                     isDragging = false;
                     slider.classList.remove('dragging');

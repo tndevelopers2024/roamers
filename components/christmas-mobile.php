@@ -2,8 +2,16 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <style>
   .christmas-swiper-bg {
-    background-color: #245d95;
-    padding: 100px 0px 50px 0px;
+    /* background-color: #245d95; */
+    background-image: url('assets/optimized-images/christmas&newyear/chirstmas&newyear-mobile-banner-by-roamers.avif');
+    background-size: auto;       /* Default: original size */
+background-size: cover;      /* Fills entire area, maintaining aspect ratio */
+background-size: contain;    /* Fits image entirely inside the element */
+background-size: 100% 100%;  /* Stretches to fill */
+
+
+
+    padding: 150px 0px 150px 0px;
     position: relative;
     overflow: hidden;
   }
@@ -160,10 +168,10 @@
 
 <div class="christmas-swiper-bg">
   <!-- Floating Christmas Decorations -->
-  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f384.png"
-    alt="Christmas tree" class="christmas-deco deco-tree" loading="lazy" />
-  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f381.png"
-    alt="Gift" class="christmas-deco deco-gift" loading="lazy" />
+  <!-- <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f384.png"
+    alt="Christmas tree" class="christmas-deco deco-tree" loading="lazy" /> -->
+  <!-- <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f381.png"
+    alt="Gift" class="christmas-deco deco-gift" loading="lazy" /> -->
   <!-- <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f514.png"
     alt="Bell" class="christmas-deco deco-bell" loading="lazy" /> -->
   <!-- Animated Snowflakes -->

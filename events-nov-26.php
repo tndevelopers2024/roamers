@@ -1463,7 +1463,7 @@
                         <div class="form-group">
                             <label for="full_name" class="section-label pulse">Full Name</label>
                             <!-- Rename Value its Dynamic -->
-                            <input type="hidden" name="event_type" value="stranger-events-nov-26">
+                            <input type="hidden" name="event_type" value="pottery-workshop-edition-nov-26">
                             <input id="full_name" type="text" class="form-input" name="full_name"
                                 placeholder="e.g., Priya Sharma" autocomplete="name" required aria-required="true"
                                 aria-describedby="error-name">
