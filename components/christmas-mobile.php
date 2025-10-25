@@ -4,10 +4,15 @@
   .christmas-swiper-bg {
     /* background-color: #245d95; */
     background-image: url('assets/optimized-images/christmas&newyear/chirstmas&newyear-mobile-banner-by-roamers.avif');
-    background-size: auto;       /* Default: original size */
-background-size: cover;      /* Fills entire area, maintaining aspect ratio */
-background-size: contain;    /* Fits image entirely inside the element */
-background-size: 100% 100%;  /* Stretches to fill */
+    /* background-image: url('asstes/test/Christmas 1.png'); */
+    background-size: auto;
+    /* Default: original size */
+    background-size: cover;
+    /* Fills entire area, maintaining aspect ratio */
+    background-size: contain;
+    /* Fits image entirely inside the element */
+    background-size: 100% 100%;
+    /* Stretches to fill */
 
 
 
@@ -121,12 +126,12 @@ background-size: 100% 100%;  /* Stretches to fill */
     }
   }
 
-  .christmas-swiper .swiper-slide:nth-child(1) {
-    background-image: url('assets/optimized-images/christmas&newyear/chirstmas&newyear-card-1-by-roamers.avif');
-  }
-
   .christmas-swiper .swiper-slide:nth-child(2) {
     background-image: url('assets/optimized-images/christmas&newyear/chirstmas&newyear-card-2-by-roamers.avif');
+  }
+
+  .christmas-swiper .swiper-slide:nth-child(1) {
+    background-image: url('assets/optimized-images/christmas&newyear/chirstmas&newyear-card-1-by-roamers.avif');
   }
 
   .christmas-swiper .swiper-slide:nth-child(3) {
@@ -153,7 +158,7 @@ background-size: 100% 100%;  /* Stretches to fill */
     background-image: url('assets/optimized-images/christmas&newyear/chirstmas&newyear-card-8-by-roamers.avif');
   }
 
-  
+
   /* .christmas-swiper .swiper-slide:nth-child(9) {
     background-image: url('assets/img/event/cards/event-card-2.png');
   } */
@@ -185,14 +190,14 @@ background-size: 100% 100%;  /* Stretches to fill */
 
   <div class="swiper christmas-swiper" id="christmasSwiperContainer">
     <div class="swiper-wrapper">
+      <div class="swiper-slide" data-url="kodaikanal1-christmas-new-year.php"></div>
+      <div class="swiper-slide" data-url="meghalaya.php"></div>
       <div class="swiper-slide" data-url="pondicherry.php"></div>
-      <div class="swiper-slide" data-url="kodaikanal.php"></div>
       <div class="swiper-slide" data-url="wayanad.php"></div>
       <div class="swiper-slide" data-url="srilanka.php"></div>
       <div class="swiper-slide" data-url="kerala.php"></div>
       <div class="swiper-slide" data-url="ooty.php"></div>
       <div class="swiper-slide" data-url="andaman.php"></div>
-      <div class="swiper-slide" data-url="meghalaya.php"></div>
       <!-- <div class="swiper-slide" data-url="meghalaya.php"></div> -->
     </div>
   </div>

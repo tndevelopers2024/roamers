@@ -10,28 +10,32 @@ session_start();
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" width="600"
-    height="600" alt="image for ooty" />
-  <title>Roamers - Meghalaya</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks,
+     ticking off viewpoints, chasing waterfalls, and camping under the stars. Expect epic views,
+      wildlife spotting, challenging treks, and getting fully immersed in nature. ">
+  <title>Roamers - Kodaikanal (Form)</title> <!-- SEO Meta Description -->
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Meghalaya" />
+  <meta name="description" content="Roamers - Kodaikanal(Form)" />
   <meta name="author" content="Themeland" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Meghalaya" />
-  <meta property="og:description" content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta property="og:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta property="og:title" content="Roamers - Kodaikanal(Form)" />
+  <meta property="og:description" content="Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks,
+     ticking off viewpoints, chasing waterfalls, and camping under the stars. Expect epic views,
+      wildlife spotting, challenging treks, and getting fully immersed in nature. " />
+  <meta property="og:image" content="https://roamers.in/assets/img/kodaikanal/Kodai.jpg" />
+  <meta property="og:url" content="https://roamers.in/assets/img/kodaikanal/Kodai.jpg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Meghalaya" />
-  <meta name="twitter:description"
-    content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta name="twitter:title" content="Roamers - Kodaikanal(Form)" />
+  <meta name="twitter:description" content="Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks,
+     ticking off viewpoints, chasing waterfalls, and camping under the stars. Expect epic views,
+      wildlife spotting, challenging treks, and getting fully immersed in nature. " />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/kodaikanal/Kodai.jpg" />
+  <!-- Title  -->
 
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -292,7 +296,7 @@ session_start();
 
 
     .price-box h5 {
-      font-size: 14px
+      font-size: 12px
     }
 
 
@@ -951,7 +955,7 @@ session_start();
       left: 0;
       width: 100%;
       height: 100%;
-      background: url('assets/img/megalaya/nohkalikali-falls.jpg');
+      background: url('assets/img/andaman/Media/overview-2.jpg');
       background-size: cover;
       background-position: center;
       filter: blur(4px);
@@ -1079,7 +1083,7 @@ session_start();
   <!-- ***** Welcome Area Start ***** -->
   <div class="text-center mb-4">
     <h1 class="booking-form-head">
-      MEGHALAYA BOOKING
+      Kodaikanal Backpacking
     </h1>
     <!-- <p>Explore the lush wonders of Sri Lanka's Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with vibrant biodiversity and tropical charm.
     </p> -->
@@ -1087,9 +1091,8 @@ session_start();
 
   <section class="">
     <div class="container">
-      <form action="meghalaya-mail-send.php" method="POST" autocomplete="off">
+      <form action="kodaikanal1-mail-send-christmas-new-year.php" method="POST" autocomplete="off">
         <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
-
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
             <div id="container" class="container" style="margin-top:30px;">
               <div class="progress px-1" style="height: 3px;">
@@ -1191,7 +1194,7 @@ session_start();
                         <div class="input-field mt-4">
                           <select id="pickup" name="pickup" class="form-select mt-4" required>
                             <option value="" disabled selected>Select the Location</option>
-                            <option value="Guwahati">Guwahati</option>
+                            <option value="Chennai">Chennai</option>
                           </select>
                         </div>
                         <span class="span mt-5">Address</span>
@@ -1284,14 +1287,14 @@ session_start();
   </section>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
       fetch("./dynamic/varkala-data.json") // Check this path
         .then(response => {
           if (!response.ok) throw new Error("Network response was not ok");
           return response.json();
         })
         .then(data => {
-          const locationKey = "meghalaya";
+          const locationKey = "kodaikanal1-christmas-new-year";
           const locationData = data[locationKey];
 
 
@@ -1309,7 +1312,7 @@ session_start();
 
           const startingPriceElem = document.getElementById("starting-price");
           if (startingPriceElem) {
-            startingPriceElem.textContent = `Starting Price: ₹19,990/- `;
+            startingPriceElem.textContent = `Starting Price: ₹9,990/-`;
           } else {
             console.warn("Element with id 'starting-price' not found.");
           }
@@ -1503,11 +1506,11 @@ session_start();
 
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
       fetch("./dynamic/varkala-data.json") // to change the price ... 
         .then(response => response.json())
         .then(data => {
-          const locationKey = "meghalaya"; // Change to "ooty" if needed
+          const locationKey = "kodaikanal1-christmas-new-year"; // Change to "ooty" if needed
           const locationData = data[locationKey];
 
           if (!locationData) {
@@ -1815,9 +1818,9 @@ session_start();
           // Set amount using if statements
           let perPersonAmount = 0;
           if (sharing === "Triple Sharing") {
-            perPersonAmount = 19990;
+            perPersonAmount = 9990;
           } else if (sharing === "Double Sharing") {
-            perPersonAmount = 21990;
+            perPersonAmount = 10990;
           }
 
 
@@ -1851,7 +1854,7 @@ session_start();
             <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
             <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
             <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
-            <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> MEGHALAYA BAGPACKING</p></div>
+            <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Kodaikanal</p></div>
             <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
             <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
             <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>
@@ -1942,8 +1945,10 @@ session_start();
   </script>
 
 
+
   <!--  All jQuery Plugins  -->
   <!-- jQuery(necessary for all JavaScript plugins) -->
+
 
   <script src="assets/js/dates.js"></script>
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
@@ -1952,13 +1957,18 @@ session_start();
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+
+
   <!-- Bootstrap js -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-
   <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
+
+
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
 
   <!-- Active js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
@@ -1972,5 +1982,8 @@ session_start();
 
 
 </body>
+
+
+
 
 </html>

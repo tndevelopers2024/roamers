@@ -880,7 +880,7 @@
                                 <span>Ex: Guwahati</span>
                             </div>
                         </div>
-                        <h1 class="upcoming-title">MEJESTIC MEGHALAYA</h1>
+                        <h1 class="upcoming-title">MAJESTIC MEGHALAYA</h1>
                         <p class="upcoming-locations">Guwahati, Shillong, Cherrapunjee</p>
                         <div class="upcoming-price-section">
                             <div class="upcoming-dates">
@@ -1141,7 +1141,7 @@
                                 <span>Ex: Guwahati</span>
                             </div>
                         </div>
-                        <h1 class="upcoming-title">MEJESTIC MEGHALAYA</h1>
+                        <h1 class="upcoming-title">MAJESTIC MEGHALAYA</h1>
                         <p class="upcoming-locations">Guwahati, Shillong, Cherrapunjee</p>
                         <div class="upcoming-price-section">
                             <div class="upcoming-dates">
@@ -1408,7 +1408,7 @@
                                 <span>Ex: Guwahati</span>
                             </div>
                         </div>
-                        <h1 class="upcoming-title">MEJESTIC MEGHALAYA</h1>
+                        <h1 class="upcoming-title">MAJESTIC MEGHALAYA</h1>
                         <p class="upcoming-locations">Guwahati, Shillong, Cherrapunjee</p>
                         <div class="upcoming-price-section">
                             <div class="upcoming-dates">
@@ -1852,7 +1852,7 @@
                                 <span>Ex: Guwahati</span>
                             </div>
                         </div>
-                        <h1 class="upcoming-title">MEJESTIC MEGHALAYA</h1>
+                        <h1 class="upcoming-title">MAJESTIC MEGHALAYA</h1>
                         <p class="upcoming-locations">Guwahati, Shillong, Cherrapunjee</p>
                         <div class="upcoming-price-section">
                             <div class="upcoming-dates">
@@ -2169,7 +2169,7 @@
                                 <span>Ex: Guwahati</span>
                             </div>
                         </div>
-                        <h1 class="upcoming-title">MEJESTIC MEGHALAYA</h1>
+                        <h1 class="upcoming-title">MAJESTIC MEGHALAYA</h1>
                         <p class="upcoming-locations">Guwahati, Shillong, Cherrapunjee</p>
                         <div class="upcoming-price-section">
                             <div class="upcoming-dates">
@@ -2483,7 +2483,7 @@
                                 <span>Ex: Guwahati</span>
                             </div>
                         </div>
-                        <h1 class="upcoming-title">MEJESTIC MEGHALAYA</h1>
+                        <h1 class="upcoming-title">MAJESTIC MEGHALAYA</h1>
                         <p class="upcoming-locations">Guwahati, Shillong, Cherrapunjee</p>
                         <div class="upcoming-price-section">
                             <div class="upcoming-dates">

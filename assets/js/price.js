@@ -79,3 +79,7 @@ document.querySelectorAll(".chikmangalur-price").forEach((element) => {
 document.querySelectorAll(".kerala-onam-price").forEach((element) => {
   element.innerHTML = "₹8499"
 });
+
+document.querySelectorAll(".meghalaya-christmas-new-year").forEach((element) => {
+  element.innerHTML = "₹21,990"
+});

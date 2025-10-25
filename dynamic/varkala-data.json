@@ -646,7 +646,7 @@
         "price": "₹19,990/-"
       },
       {
-        "date": "Dec 22nd - Dec 28th",
+        "date": "Dec 23rd - Dec 28th",
         "status": "Christmas Special",
         "statusColor": "red",
         "price": "₹21,990/-"
@@ -779,6 +779,74 @@
           "sharing": "Double Sharing",
           "offer": "₹9,990/-",
           "mrp": "₹10,499/-"
+        }
+      ]
+    }
+  },
+  "kodaikanal1-christmas-new-year": {
+    "December": [
+      {
+        "date": "24 Dec 2025 - 28 Dec 2025",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "₹9,999/-"
+      },
+      {
+        "date": "29 Dec 2025 - 02 Jan 2025",
+        "status": "New Year Special",
+        "statusColor": "red",
+        "price": "₹9,999/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹9,999/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹9,990/-",
+          "mrp": "₹9,999/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹10,990/-",
+          "mrp": "₹11,499/-"
+        }
+      ]
+    }
+  },
+  "meghalaya-christmas-new-year": {
+    "December": [
+      {
+        "date": "20 Dec 2025 - 25 Dec 2025",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "₹21,990/-"
+      },
+      {
+        "date": "23 Dec 2025 - 28 Jan 2025",
+        "status": "New Year Special",
+        "statusColor": "red",
+        "price": "₹21,990/-"
+      },
+      {
+        "date": "28 Dec 2025 - 02 Jan 2025",
+        "status": "New Year Special",
+        "statusColor": "red",
+        "price": "₹21,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹21,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹21,990/-",
+          "mrp": "₹25,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹23,990/-",
+          "mrp": "₹27,990/-"
         }
       ]
     }

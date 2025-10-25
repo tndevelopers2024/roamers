@@ -66,6 +66,13 @@
           location: 'EX: Direct, Chennai'
         },
         {
+          name: 'Chikmagalur',
+          link: 'https://www.roamers.in/chikmagalur.php',
+          image: 'https://www.roamers.in/assets/img/chikmangalur/Media/hills.jpg',
+          duration: '3 DAYS / 2 NIGHT',
+          location: 'EX: Direct, Chennai-Bangalore'
+        },
+        {
           name: 'Wonders of Wayanad',
           link: 'https://roamers.in/wayanad',
           image: 'assets/img/bg/waya-cover.jpg',
@@ -73,25 +80,11 @@
           location: 'EX: Direct, Chennai'
         },
         {
-          name: 'Munnar With Kolukkumalai',
-          link: 'https://www.roamers.in/kolukkumalai-trek',
-          image: 'assets/img/kolukkumalai-img/2.jpg',
-          duration: '3 DAYS / 2 NIGHT',
-          location: 'EX: Chennai'
-        },
-        {
           name: 'Ooty the queen of hills',
           link: 'https://roamers.in/ooty',
           image: 'assets/img/bg/ooty-cove.jpeg',
           duration: '3 DAYS / 2 NIGHTS',
           location: 'EX: Chennai, Coimbatore'
-        },
-        {
-          name: 'Chikmagalur Bagpacking',
-          link: 'https://roamers.in/chikmagalur',
-          image: 'assets/img/bg/ooty-cove.jpeg',
-          duration: '3 DAYS / 2 NIGHTS',
-          location: 'EX: Chennai, Bangaluru'
         },
         {
           name: 'Kerala : To gods own country',
@@ -115,7 +108,7 @@
           location: 'EX: Chennai'
         },
         {
-          name: 'Mejestic Meghalaya',
+          name: 'Majestic Meghalaya',
           link: 'https://roamers.in/meghalaya',
           image: 'assets/img/megalaya/Front 3.jpg ',
           duration: '6 DAYS / 5 NIGHTS',
@@ -876,7 +869,7 @@
     </div>
 
     <!-- Mobile Christmas -->
-    <div class="d-block d-md-none" style="margin-top:50px; margin-bottom: 50px; border-radius:20px 20px 0px 20px ;">
+    <div class="d-block d-md-none" style="margin-top:50px; margin-bottom: 50px; border-radius:20px 20px 0px 20px; width: 100%;">
       <?php include('components/christmas-mobile.php'); ?>
     </div>
 
