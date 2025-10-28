@@ -1206,7 +1206,7 @@
                         <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 1st Nov
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 18 Nov
                                     2025</span>
                             </div>
                             <div class="event-dates">

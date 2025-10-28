@@ -332,79 +332,39 @@
       ]
     }
   },
-  "valley": {
-    "July": [
+  "spiti-valley": {
+    "December": [
       {
-        "date": "July 12",
+        "date": "6 Dec 2025",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹9,990/-"
+        "price": "₹21,990"
       },
       {
-        "date": "July 26",
+        "date": "13 Dec 2025",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹9,990/-"
-      }
-    ],
-    "August": [
-      {
-        "date": "Aug 2nd",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
+        "price": "₹21,990"
       },
       {
-        "date": "Aug 15",
+        "date": "20 Dec 2025",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹9,990/-"
-      },
-      {
-        "date": "Aug 23",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
-      },
-      {
-        "date": "Aug 26",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
-      }
-    ],
-    "September": [
-      {
-        "date": "Sep 6th",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
-      },
-      {
-        "date": "Sep 13",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
-      },
-      {
-        "date": "Sep 20",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹9,990/-"
+        "price": "₹21,990"
       }
     ],
     "costing": {
-      "startingPrice": "₹9,990/-",
+      "startingPrice": "₹21,990",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "₹9,990/-",
-          "mrp": "₹11,499/-"
+          "offer": "₹21,990",
+          "mrp": "₹31,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "₹11,499/-",
-          "mrp": "₹12,990/-"
+          "offer": "₹22,990",
+          "mrp": "₹32,990/-"
         }
       ]
     }

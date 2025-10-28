@@ -130,7 +130,7 @@
     }
 
     .home {
-      height: 683px !important;
+      height: 600px !important;
     }
 
     .navbar-nav {

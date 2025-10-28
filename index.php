@@ -403,6 +403,7 @@
 </head>
 
 <style>
+
   .gotoinsta:hover {
     background-color: #fff;
     color: #4ec0db;

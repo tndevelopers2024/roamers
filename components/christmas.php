@@ -196,49 +196,49 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="pondicherry.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-1-by-roamers.avif" class="backpacking-img"
                             alt="Srilanka Gallery">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="kodaikanal.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-2-by-roamers.avif" class="backpacking-img"
                             alt="Andaman Gallery">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="wayanad.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-3-by-roamers.avif" class="backpacking-img"
                             alt="Kerala Onam Gallery">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="srilanka.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-4-by-roamers.avif" class="backpacking-img"
                             alt="Kodaikanal Gallery">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="kerala.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-5-by-roamers.avif" class="backpacking-img"
                             alt="Valley of Flowers Gallery">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="ooty.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-6-by-roamers.avif" class="backpacking-img"
                             alt="Valley of Flowers Gallery">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="andaman.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-7-by-roamers.avif" class="backpacking-img"
                             alt="Valley of Flowers Gallery">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="meghalaya.php">
+                    <a href="christmas&newyear-special.php">
                         <img src="assets/optimized-images/christmas&newyear/chirstmas&newyear-card-8-by-roamers.avif" class="backpacking-img"
                             alt="Valley of Flowers Gallery">
                     </a>

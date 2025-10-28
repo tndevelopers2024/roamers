@@ -190,15 +190,15 @@
 
   <div class="swiper christmas-swiper" id="christmasSwiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" data-url="kodaikanal1-christmas-new-year.php"></div>
-      <div class="swiper-slide" data-url="meghalaya.php"></div>
-      <div class="swiper-slide" data-url="pondicherry.php"></div>
-      <div class="swiper-slide" data-url="wayanad.php"></div>
-      <div class="swiper-slide" data-url="srilanka.php"></div>
-      <div class="swiper-slide" data-url="kerala.php"></div>
-      <div class="swiper-slide" data-url="ooty.php"></div>
-      <div class="swiper-slide" data-url="andaman.php"></div>
-      <!-- <div class="swiper-slide" data-url="meghalaya.php"></div> -->
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <!-- <div class="swiper-slide" data-urlchristmas&newyear-special.php="meghalaya.php"></div> -->
     </div>
   </div>
 </div>
