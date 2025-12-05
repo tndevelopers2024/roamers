@@ -7,9 +7,7 @@
     <title>Ooty Travel Package</title>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <style>
-        * {
-            font-family: 'Manrope', sans-serif;
-        }
+
 
         .upcoming-grid {
             display: grid;

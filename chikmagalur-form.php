@@ -177,28 +177,6 @@ session_start();
 
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    span,
-    li,
-    button,
-    .btn,
-    a,
-    .head,
-    div,
-    th,
-    td,
-    tr {
-      font-family: "Urbanist", sans-serif !important;
-    }
 
 
     .available-box {

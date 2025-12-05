@@ -13,10 +13,7 @@
     /* Fits image entirely inside the element */
     background-size: 100% 100%;
     /* Stretches to fill */
-
-
-
-    padding: 150px 0px 150px 0px;
+    padding: 210px 0px 190px 0px;
     position: relative;
     overflow: hidden;
   }
@@ -183,30 +180,50 @@
   <span class="snowflake" style="left: 20px; font-size: 22px; animation-delay:0s; animation-duration:8s;">❄️</span>
   <span class="snowflake" style="left: 90px; font-size: 18px; animation-delay:1s; animation-duration:9.3s;">❅</span>
   <span class="snowflake" style="left: 150px; font-size: 28px; animation-delay:2.7s; animation-duration:10s;">❆</span>
-  <span class="snowflake" style="left: 215px; font-size: 20px; animation-delay:1.3s; animation-duration:12.2s;">❄️</span>
+  <span class="snowflake"
+    style="left: 215px; font-size: 20px; animation-delay:1.3s; animation-duration:12.2s;">❄️</span>
   <span class="snowflake" style="left: 300px; font-size: 25px; animation-delay:.7s; animation-duration:8.8s;">❅</span>
   <span class="snowflake" style="left: 45px; font-size: 30px; animation-delay:2s; animation-duration:11.2s;">❄️</span>
   <span class="snowflake" style="left: 260px; font-size: 16px; animation-delay:3.5s; animation-duration:9.7s;">❆</span>
 
   <div class="swiper christmas-swiper" id="christmasSwiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
-      <div class="swiper-slide" data-url="christmas&newyear-special.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
+      <div class="swiper-slide" data-url="christmas&newyear.php"></div>
       <!-- <div class="swiper-slide" data-urlchristmas&newyear-special.php="meghalaya.php"></div> -->
     </div>
+  </div>
+
+  <!-- View All Button -->
+  <div
+    style="display: flex; justify-content: center; margin-top: 30px; margin-bottom: 20px; position: relative; z-index: 25;">
+    <a href="christmas&newyear.php"><button class="btn btn-primary" style="
+        padding: 10px 32px;
+        border-radius: 30px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        background: linear-gradient(90deg,#4CB9D3 0%, #32EEE7 100%);
+        color: #fff;
+        border: 1px solid white;
+        box-shadow: 0 4px 18px 0 rgba(76, 185, 211, 0.14);
+        transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+      " onmouseover="this.style.background='linear-gradient(90deg,#32EEE7 0%, #32EEE7 100%)';this.style.color='#fff';"
+        onmouseout="this.style.background='linear-gradient(90deg,#4CB9D3 0%, #32EEE7 100%)';this.style.color='#fff';">
+        View All
+      </button></a>
   </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
   // Only init inside the unique ID container for this block
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     var christmasSwiperInstance = new Swiper("#christmasSwiperContainer", {
       effect: "cards",
       grabCursor: true,
@@ -215,7 +232,7 @@
     // Attach click using slideChange event to always target active slide
     // Instead of adding/removing onclick handlers on slide change, simply set click handler on container.
     // On click, find the currently active slide and use its data-url.
-    document.querySelector("#christmasSwiperContainer").addEventListener("click", function(e) {
+    document.querySelector("#christmasSwiperContainer").addEventListener("click", function (e) {
       var active = document.querySelector("#christmasSwiperContainer .swiper-slide.swiper-slide-active");
       if (active) {
         var url = active.getAttribute("data-url");
@@ -229,19 +246,19 @@
     christmasSwiperInstance.emit('slideChangeTransitionEnd');
 
     // Optionally: make snowflakes twinkle
-    document.querySelectorAll('.snowflake').forEach(function(sf, i) {
+    document.querySelectorAll('.snowflake').forEach(function (sf, i) {
       sf.animate([{
-          opacity: 0.85,
-          textShadow: '0 0 7px #fff7'
-        },
-        {
-          opacity: 0.95,
-          textShadow: '0 0 22px #fff'
-        },
-        {
-          opacity: 0.85,
-          textShadow: '0 0 7px #fff7'
-        }
+        opacity: 0.85,
+        textShadow: '0 0 7px #fff7'
+      },
+      {
+        opacity: 0.95,
+        textShadow: '0 0 22px #fff'
+      },
+      {
+        opacity: 0.85,
+        textShadow: '0 0 7px #fff7'
+      }
       ], {
         duration: 2100 + i * 200,
         iterations: Infinity,

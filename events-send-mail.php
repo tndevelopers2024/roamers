@@ -78,7 +78,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             box-shadow: 0 2px 16px rgba(78,192,219,0.10), 0 1.5px 8px rgba(78,192,219,0.08);
             padding: 38px 30px 30px 30px;
             text-align: center;
-            font-family: Segoe UI, Roboto, sans-serif;
             color: #4ec0db;
         '>
             <h2 style='color:#4ec0db;font-size:1.3em;margin:0 0 10px 0;font-weight:700;'>Required Information Missing</h2>
@@ -133,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Build mail body safely
         $mailBody = "
-            <div style='font-family:Segoe UI,Roboto,sans-serif;max-width:480px;margin:0 auto;background:#fff;border-radius:10px;padding:32px 28px 24px 28px;box-shadow:0 2px 12px rgba(78,192,219,0.07);color:#4ec0db;'>
+            <div style='max-width:480px;margin:0 auto;background:#fff;border-radius:10px;padding:32px 28px 24px 28px;box-shadow:0 2px 12px rgba(78,192,219,0.07);color:#4ec0db;'>
                 <div style='text-align:center;margin-bottom:24px;'>
                     <img src='https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png' alt='Roamers Logo' style='height:48px;margin-bottom:8px;'>
                     <h2 style='margin:0;font-size:1.5em;color:#4ec0db;font-weight:700;letter-spacing:0.5px;'>New " . htmlspecialchars($eventType) . " Booking</h2>
@@ -220,7 +219,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 box-shadow: 0 2px 16px rgba(78,192,219,0.10), 0 1.5px 8px rgba(78,192,219,0.08);
                 padding: 38px 30px 30px 30px;
                 text-align: center;
-                font-family: Segoe UI, Roboto, sans-serif;
                 color: #4ec0db;
             '>
                 <img src='https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png' alt='Roamers Logo' style='height:54px;margin-bottom:18px;'>
@@ -260,7 +258,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 box-shadow: 0 2px 16px rgba(78,192,219,0.10), 0 1.5px 8px rgba(78,192,219,0.08);
                 padding: 38px 30px 30px 30px;
                 text-align: center;
-                font-family: Segoe UI, Roboto, sans-serif;
                 color: #4ec0db;
             '>
                 <h2 style='color:#4ec0db;font-size:1.3em;margin:0 0 10px 0;font-weight:700;'>Oops! Something went wrong.</h2>
@@ -291,7 +288,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             box-shadow: 0 2px 16px rgba(78,192,219,0.10), 0 1.5px 8px rgba(78,192,219,0.08);
             padding: 38px 30px 30px 30px;
             text-align: center;
-            font-family: Segoe UI, Roboto, sans-serif;
             color: #4ec0db;
         '>
             <h2 style='color:#4ec0db;font-size:1.3em;margin:0 0 10px 0;font-weight:700;'>Oops! Something went wrong.</h2>

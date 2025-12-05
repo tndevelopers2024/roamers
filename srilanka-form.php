@@ -189,9 +189,7 @@ session_start();
     div,
     th,
     td,
-    tr {
-      font-family: "Urbanist", sans-serif !important;
-    }
+    tr {}
 
 
     .available-box {

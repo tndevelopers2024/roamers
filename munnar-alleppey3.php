@@ -22,8 +22,8 @@
 
   <!-- Favicon  -->
   <!-- <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" /> -->
-  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon"  sizes="192x192" />
-  
+  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
+
   <!-- ***** All CSS Files ***** -->
   <!-- ***** Font Asesome cdn ***** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -174,7 +174,7 @@
       border: 1px solid #eee;
       margin: 5px;
       border-radius: 5px;
-      font-family: "Heebo", sans-serif;
+
     }
 
     .price-occupancy1 {
@@ -779,8 +779,7 @@
                 <img src="assets/img/munnar/header_timesofindia.jpg" alt="roamers-trip">
               </div>
               <div class="col-6">
-                <img style="height:100%" src="assets/img/munnar/sub-2.jpg" alt="roamers-trip"
-                  style="margin-top:70px;">
+                <img style="height:100%" src="assets/img/munnar/sub-2.jpg" alt="roamers-trip" style="margin-top:70px;">
               </div>
             </div>
           </div>

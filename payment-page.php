@@ -351,7 +351,7 @@
       }
 
       .price-box h5 {
-        font-size: 16px !important;
+        font-size: 12px !important;
       }
 
       .price-col h4 {

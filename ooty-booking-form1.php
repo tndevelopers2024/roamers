@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <center>
                 <img src='cid:ootyImage' alt='Ooty Image' style='width:400px; max-width:400px; height:auto; margin-bottom:20px;' />
             </center>
-            <table border='1' cellpadding='8' cellspacing='0' style='border-collapse: collapse; font-family: Arial, sans-serif;'>
+            <table border='1' cellpadding='8' cellspacing='0' style='border-collapse: collapse;'>
                 <tr><th align='left'>Name</th><td>$name</td></tr>
                 <tr><th align='left'>Email</th><td>$email</td></tr>
                 <tr><th align='left'>Phone</th><td>$phone</td></tr>

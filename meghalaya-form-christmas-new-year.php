@@ -176,12 +176,6 @@ session_start();
 
 
   <style>
-    @media (max-width: 600px) {
-      .price-box h5 {
-        font-size: 12px !important;
-      }
-    }
-
     @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -201,9 +195,7 @@ session_start();
     div,
     th,
     td,
-    tr {
-      font-family: "Urbanist", sans-serif !important;
-    }
+    tr {}
 
 
     .available-box {
@@ -901,7 +893,7 @@ session_start();
 
 
       .price-box h5 {
-        font-size: 14px !important;
+        font-size: 12px !important;
       }
 
 
@@ -1096,9 +1088,9 @@ session_start();
       <form action="meghalaya-mail-send-christmas-new-year.php" method="POST" autocomplete="off">
         <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
 
-          <div class="col order-lg-1 order-2 shadow-lg " style="border-radius:20px">
+          <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
             <div id="container" class="container" style="margin-top:30px;">
-              <div class="progress " style="height: 3px;">
+              <div class="progress px-1" style="height: 3px;">
                 <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
                   aria-valuemax="100"></div>
               </div>
@@ -1108,7 +1100,7 @@ session_start();
                 <div class="step-circle" onclick="displayStep(3)">3</div>
               </div>
             </div>
-            <div class=" md-p-3" style="border-radius: 20px;">
+            <div class=" p-3" style="border-radius: 20px;">
               <div class="dates" id="dates">
                 <div id="monthly-data-container">
 
@@ -1290,7 +1282,7 @@ session_start();
   </section>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       fetch("./dynamic/varkala-data.json") // Check this path
         .then(response => {
           if (!response.ok) throw new Error("Network response was not ok");
@@ -1509,7 +1501,7 @@ session_start();
 
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       fetch("./dynamic/varkala-data.json") // to change the price ... 
         .then(response => response.json())
         .then(data => {
@@ -1552,7 +1544,7 @@ session_start();
               <div class="col text-center my-3 position-relative"><h5>${detail.date}</h5>
               ${detail.special ? `<span class="glowing-text"><i class="fa-solid fa-angles-down"></i> ${detail.special} <i class="fa-solid fa-angles-down"></i></span>` : ""}</div>
               <div class="col text-center">
-                <p style="color:${detail.statusColor};">${detail.status}</p>
+                <p style="color:${detail.statusColor}; font-size:12px;">${detail.status}</p>
               </div>
               <div class="col price-col text-center"><p>Starts at:</p><h4>${detail.price}</h4></div>
             `;

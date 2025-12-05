@@ -455,7 +455,6 @@
 
 
     * {
-      font-family: 'Manrope', sans-serif;
       box-sizing: border-box;
     }
 
@@ -1037,7 +1036,6 @@
 
 
     * {
-      font-family: 'Manrope', sans-serif;
     }
 
     html,
@@ -1833,7 +1831,7 @@
             </div>
           </div>
 
-          <div class="col-12 mt-5 col-lg-4 col-md-6">
+          <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kodaikanal/Kodai.jpg"" alt="
@@ -1865,7 +1863,7 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
@@ -1899,7 +1897,7 @@
             </div>
           </div>
 
-          <div class="col-12 mt-5 col-lg-4 col-md-6">
+          <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal1">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kodaikanal/perumal-peak.jpg"
@@ -1925,7 +1923,7 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
@@ -2424,7 +2422,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-4 col-md-6">
+          <!-- <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kodaikanal/perumal-peak.jpg"
@@ -2456,7 +2454,7 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-12 col-lg-4 col-md-6 mt-5">
             <div class="swiper-slide">

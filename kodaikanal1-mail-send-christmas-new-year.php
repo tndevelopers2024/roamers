@@ -51,7 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             border-radius: 18px;
             box-shadow: 0 6px 32px rgba(0,0,0,0.13);
             overflow: hidden;
-            font-family: Segoe UI, Arial, sans-serif;
             border: 2.5px solid #C51A1A;
         '>
             <div style='background:#C51A1A; padding: 24px 0 16px 0; text-align: center; position: relative;'>
@@ -367,7 +366,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     max-width:370px;
                     text-align:center;
                     position:relative;
-                    font-family:Segoe UI,Arial,sans-serif;
                     border:2px solid #C51A1A;
                 \">
                     <div style='margin-bottom:18px;'>

@@ -183,7 +183,6 @@
       padding: 15px 27px;
       border-radius: 14px;
       background: #fff;
-      font-family: sans-serif;
       color: #555;
       font-size: 14px;
       line-height: 24px;
@@ -196,7 +195,6 @@
     }
 
     .things-carry li {
-      font-family: "Heebo", sans-serif;
       font-size: 15px;
       font-weight: 400;
       line-height: 32px;
@@ -226,7 +224,6 @@
       padding: 15px 27px;
       border-radius: 14px;
       background: #fff;
-      font-family: sans-serif;
       color: #555;
       font-size: 14px;
       line-height: 24px;
@@ -239,7 +236,6 @@
     }
 
     .privacy-policy li {
-      font-family: "Heebo", sans-serif;
       font-size: 15px;
       font-weight: 400;
       line-height: 32px;
@@ -425,7 +421,6 @@
       border: 1px solid #eee;
       margin: 5px;
       border-radius: 5px;
-      font-family: "Heebo", sans-serif;
     }
 
     .price-occupancy1 {

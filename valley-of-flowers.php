@@ -203,7 +203,6 @@
       border: 1px solid #eee;
       margin: 5px;
       border-radius: 5px;
-      font-family: "Heebo", sans-serif;
     }
 
     .price-occupancy1 {
@@ -1829,7 +1828,7 @@
               <div class="shadow"
                 style="border: 1px solid #00aaff; border-radius: 20px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                 <form>
-                  <h3 style="text-align: center; margin-bottom: 30px; font-family: 'Arial', sans-serif; color: #333;">
+                  <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                     Let's Map Your Dream Trip</h3>
 
                   <div class="input-field mb-3" style="margin-bottom: 20px;">

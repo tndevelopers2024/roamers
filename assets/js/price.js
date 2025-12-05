@@ -58,6 +58,10 @@ document.querySelectorAll(".spiti-price").forEach((element) => {
   element.innerHTML = "₹21,990";
 });
 
+document.querySelectorAll(".spiti-valley-winter").forEach((element) => {
+  element.innerHTML = "₹21,990";
+});
+
 document.querySelectorAll(".ladakh-price").forEach((element) => {
   element.innerHTML = "₹29,990";
 })

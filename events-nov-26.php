@@ -110,7 +110,7 @@
 
     body {
         background: #000;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
         font-size: 14px;
         color: #fff;
         margin: 0;
@@ -283,9 +283,7 @@
         text-align: center !important;
     }
 
-    * {
-        font-family: 'Manrope', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+    * {}
 
     body {
 
@@ -1285,7 +1283,7 @@
                             <div class="section-title mb-2">Event Details</div>
                             <p class="pulse mb-4" style="line-height: 2.4;">
                                 Here,you’ll mold more than pottery! Whether you’re simply someone looking to slow down,
-                                have mindfulness, and connect with like minded people, this is where it all begins.<br> 
+                                have mindfulness, and connect with like minded people, this is where it all begins.<br>
                                 Here, we don’t just mold pottery~ you’ll mold your present, heal your past, and shape
                                 your future.<br>
 
@@ -1401,7 +1399,7 @@
 
                     <h3 class="section-title">
                         <i class="fa-solid fa-location-dot" style="color: #4ec0db; margin-right: 8px;"></i>
-                      Chennai
+                        Chennai
                     </h3>
 
                     <div class="pulse"

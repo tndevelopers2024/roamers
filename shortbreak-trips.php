@@ -451,7 +451,7 @@
 
 
     * {
-      font-family: 'Manrope', sans-serif;
+
       box-sizing: border-box;
     }
 
@@ -1032,9 +1032,7 @@
 
 
 
-    * {
-      font-family: 'Manrope', sans-serif;
-    }
+    * {}
 
     html,
 

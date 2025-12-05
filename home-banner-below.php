@@ -2,7 +2,8 @@
     /* Apple Liquid Glass Inspired Styles - Enhanced Glassmorphism */
     body {
         --liquid-glass-bg: linear-gradient(135deg, #e0e7ef 0%, #f5f7fa 100%);
-        --liquid-glass-blur: 38px; /* Increased blur */
+        --liquid-glass-blur: 38px;
+        /* Increased blur */
         --liquid-glass-radius: 26px;
         --liquid-glass-border: 1.5px solid rgba(255, 255, 255, 0.55);
         --liquid-glass-shadow: 0 6px 24px 0 rgba(31, 38, 135, 0.13), 0 2px 8px 0 rgba(255, 255, 255, 0.13);
@@ -62,7 +63,7 @@
         z-index: 2;
         width: 100%;
         text-align: center;
-        padding:-79px
+        padding: -79px
     }
 
     .categories-row-single {
@@ -125,7 +126,7 @@
     }
 
     .liquid-glass-card {
-         /* More transparent */
+        /* More transparent */
         border-radius: var(--liquid-glass-radius);
         box-shadow: var(--liquid-glass-shadow), var(--liquid-glass-inner-glow);
         border: var(--liquid-glass-border);
@@ -164,7 +165,8 @@
         z-index: 0;
         pointer-events: none;
         border-radius: 50%;
-        filter: blur(18px); /* More blur for highlight */
+        filter: blur(18px);
+        /* More blur for highlight */
         opacity: 0.38;
     }
 
@@ -239,7 +241,7 @@
         line-height: 1.15;
         text-align: center;
         width: 100%;
-        font-family: 'SF Pro Display', 'Inter', 'Segoe UI', Arial, sans-serif;
+
         background: none !important;
         -webkit-background-clip: unset !important;
         -webkit-text-fill-color: unset !important;
@@ -255,7 +257,7 @@
         margin-bottom: 0;
         text-align: center;
         width: 100%;
-        font-family: 'SF Pro Text', 'Inter', 'Segoe UI', Arial, sans-serif;
+
     }
 </style>
 <section class="categories-section-bg">
@@ -264,7 +266,7 @@
             <div class="categories-row-single">
                 <div class="categories-col center-on-mobile">
                     <div class="liquid-glass-card  pt-3">
-                        <span class="liquid-glass-icon"><img src="assets/img/icon/travelbuddies-01.png" alt="" ></span>
+                        <span class="liquid-glass-icon"><img src="assets/img/icon/travelbuddies-01.png" alt=""></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">Travel Buddies United</h2>
                             <p class="liquid-glass-text px-2 py-1 px-md-4 py-md-2">
@@ -300,7 +302,8 @@
                 </div>
                 <div class="categories-col">
                     <div class="liquid-glass-card pt-3">
-                        <span class="liquid-glass-icon"><img src="assets/img/icon/transportation.png" alt="" style="width:20px"></span>
+                        <span class="liquid-glass-icon"><img src="assets/img/icon/transportation.png" alt=""
+                                style="width:20px"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">One-of-a-kind adventure</h2>
                             <p class="liquid-glass-text  px-2 py-1 px-md-4 py-md-2">

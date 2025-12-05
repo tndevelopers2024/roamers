@@ -179,9 +179,7 @@ session_start();
     div,
     th,
     td,
-    tr {
-      font-family: "Urbanist", sans-serif !important;
-    }
+    tr {}
 
 
     .available-box {
@@ -1060,7 +1058,7 @@ session_start();
   <!-- ***** Welcome Area Start ***** -->
   <div class="text-center mb-4">
     <h1 class="booking-form-head">
-    Spiti Valley Trip</h1>
+      Spiti Valley Trip</h1>
     <!-- <p>Explore the lush wonders of Sri Lanka's Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with vibrant biodiversity and tropical charm.
     </p> -->
   </div>
@@ -1602,7 +1600,6 @@ session_start();
             <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
             <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
             <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
-            <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Wayanad</p></div>
             <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
             <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
             <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>

@@ -48,7 +48,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             border-radius: 18px;
             box-shadow: 0 6px 32px rgba(0,0,0,0.13);
             overflow: hidden;
-            font-family: Segoe UI, Arial, sans-serif;
             border: 1px solid #e0e7ef;
         '>
             <div style='background: linear-gradient(90deg, #4ec0db 0%, #1e90ff 100%); padding: 32px 0 18px 0; text-align: center;'>
@@ -317,7 +316,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     max-width:350px;
                     text-align:center;
                     position:relative;
-                    font-family:Segoe UI,Arial,sans-serif;
                 \">
                     <div style='margin-bottom:18px;'>
                         <img src='https://img.icons8.com/fluency/64/high-importance.png' style='width:54px;' alt='Error'/>

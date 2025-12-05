@@ -416,7 +416,6 @@
 
 
     * {
-      font-family: 'Manrope', sans-serif;
       box-sizing: border-box;
     }
 
@@ -992,13 +991,6 @@
       .upcoming-slider-wrapper {
         padding: 0;
       }
-    }
-
-
-
-
-    * {
-      font-family: 'Manrope', sans-serif;
     }
 
     html,

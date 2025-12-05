@@ -7,7 +7,6 @@
     <!-- ... (styles unchanged, omitted for brevity) ... -->
     <style>
         * {
-            font-family: 'Manrope', sans-serif;
             box-sizing: border-box;
         }
 
@@ -590,9 +589,6 @@
 </head>
 
 <style>
-    * {
-        font-family: 'Manrope', sans-serif;
-    }
 
     html,
 
@@ -861,7 +857,7 @@
         display: flex;
         justify-content: space-evenly;
         gap: 0px;
-        padding: 0px 0px 30px 0px;
+        padding: 0px 0px 80px 0px;
         overflow-x: hidden;
         overflow-y: visible;
         scroll-snap-type: x mandatory;
@@ -972,11 +968,11 @@
         }
 
         .event-card {
-            width: 350px;
-            min-width: 350px;
-            max-width: 350px;
+            width: 85vw;
+            min-width: 85vw;
+            max-width: 85vw;
             height: 325px !important;
-            margin: 0;
+            margin: 0 15px 0 0;
             scroll-snap-align: center;
         }
 
@@ -1033,10 +1029,11 @@
 
     @media (max-width: 400px) {
         .event-card {
-            width: calc(92vw - 16px);
-            min-width: calc(92vw - 16px);
-            max-width: calc(92vw - 16px);
+            width: 85vw;
+            min-width: 85vw;
+            max-width: 85vw;
             height: 280px;
+            margin-right: 15px;
         }
 
         .event-title {
@@ -1138,7 +1135,7 @@
         </button>
 
         <div class="event-slider" id="event-slider-august">
-            
+
             <!-- Event Card 1 -->
             <!-- <div class="event-card">
                 <div class="event-content" style="position: relative;">
@@ -1181,7 +1178,7 @@
             </div> -->
 
             <!-- Event Card 2 -->
-            <div onclick="window.open('events-nov-1.php','target:_blank')" style="cursor: pointer;" class="event-card">
+            <div onclick="window.open('events-dec-6.php','target:_blank')" style="cursor: pointer;" class="event-card">
                 <div class="event-content" style="position: relative;">
                     <div class="event-image">
                         <img src="assets/img/event/cards/event-card-11.avif" alt="Pottery WORK SHOP">
@@ -1206,7 +1203,7 @@
                         <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 18 Nov
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 06 Dec
                                     2025</span>
                             </div>
                             <div class="event-dates">
@@ -1285,7 +1282,7 @@
                         <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 21st Nov
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 22st Nov
                                     2025</span>
                             </div>
                             <div class="event-dates">
@@ -1325,7 +1322,7 @@
                         <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 26th Nov
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 29th Nov
                                     2025</span>
                             </div>
                             <div class="event-dates">
@@ -1381,7 +1378,7 @@
 
 <script>
     // Touch slider: swipe smoothly moves to next/prev card (like a carousel)
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         const slider = document.getElementById('event-slider-august');
         const leftBtn = document.getElementById('event-slider-prev');
         const rightBtn = document.getElementById('event-slider-next');
@@ -1428,11 +1425,11 @@
 
         // Button click handlers
         if (leftBtn && rightBtn && slider && cards.length > 0) {
-            leftBtn.addEventListener('click', function() {
+            leftBtn.addEventListener('click', function () {
                 const idx = getCurrentIndex();
                 if (idx > 0) scrollToCard(idx - 1);
             });
-            rightBtn.addEventListener('click', function() {
+            rightBtn.addEventListener('click', function () {
                 const idx = getCurrentIndex();
                 if (idx < cards.length - 1) scrollToCard(idx + 1);
             });
@@ -1471,7 +1468,7 @@
                 lastMove = Date.now();
             }
 
-            slider.addEventListener('touchstart', function(e) {
+            slider.addEventListener('touchstart', function (e) {
                 isTouching = true;
                 startX = e.touches[0].pageX;
                 scrollLeftStart = slider.scrollLeft;
@@ -1502,7 +1499,7 @@
                 passive: false
             });
 
-            slider.addEventListener('touchend', function(e) {
+            slider.addEventListener('touchend', function (e) {
                 if (!isTouching) return;
                 isTouching = false;
                 if (rafId) {
@@ -1533,14 +1530,14 @@
             let mouseStartX = 0;
             let mouseScrollLeft = 0;
 
-            slider.addEventListener('mousedown', function(e) {
+            slider.addEventListener('mousedown', function (e) {
                 isDragging = true;
                 mouseStartX = e.pageX;
                 mouseScrollLeft = slider.scrollLeft;
                 slider.classList.add('dragging');
             });
 
-            slider.addEventListener('mousemove', function(e) {
+            slider.addEventListener('mousemove', function (e) {
                 if (!isDragging) return;
                 e.preventDefault();
                 const x = e.pageX;
@@ -1548,7 +1545,7 @@
                 slider.scrollLeft = mouseScrollLeft + walk;
             });
 
-            slider.addEventListener('mouseup', function(e) {
+            slider.addEventListener('mouseup', function (e) {
                 if (isDragging) {
                     isDragging = false;
                     slider.classList.remove('dragging');
@@ -1568,7 +1565,7 @@
                 }
             });
 
-            slider.addEventListener('mouseleave', function(e) {
+            slider.addEventListener('mouseleave', function (e) {
                 if (isDragging) {
                     isDragging = false;
                     slider.classList.remove('dragging');

@@ -350,7 +350,6 @@
         line-height: 1.15;
         text-align: center;
         width: 100%;
-        font-family: 'SF Pro Display', 'Inter', 'Segoe UI', Arial, sans-serif;
         background: none !important;
         -webkit-background-clip: unset !important;
         -webkit-text-fill-color: unset !important;
@@ -373,7 +372,6 @@
         margin-bottom: 0;
         text-align: center;
         width: 100%;
-        font-family: 'SF Pro Text', 'Inter', 'Segoe UI', Arial, sans-serif;
     }
 
     @media (max-width: 480px) {

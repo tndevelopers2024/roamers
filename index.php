@@ -37,11 +37,11 @@
 
   <!-- Search Bar Toggle -->
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const searchBarContainerEl = document.querySelector(".search-bar-container");
       const magnifierEl = document.querySelector(".magnifier");
       if (searchBarContainerEl && magnifierEl) {
-        magnifierEl.addEventListener("click", function() {
+        magnifierEl.addEventListener("click", function () {
           searchBarContainerEl.classList.toggle("active");
         });
       }
@@ -50,112 +50,112 @@
 
   <!-- Client-side Search -->
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const data = [{
-          name: 'Andaman Island Hopping',
-          link: 'https://www.roamers.in/andaman',
-          image: 'assets/img/kolukkumalai-img/2.jpg',
-          duration: '5 DAYS / 4 NIGHTS',
-          location: 'EX: Chennai'
-        },
-        {
-          name: 'Munnar With Kolukkumalai',
-          link: 'https://www.roamers.in/kolukkumalai-trek',
-          image: 'assets/img/kolukkumalai-img/2.jpg',
-          duration: '3 DAYS / 2 NIGHT',
-          location: 'EX: Direct, Chennai'
-        },
-        {
-          name: 'Chikmagalur',
-          link: 'https://www.roamers.in/chikmagalur.php',
-          image: 'https://www.roamers.in/assets/img/chikmangalur/Media/hills.jpg',
-          duration: '3 DAYS / 2 NIGHT',
-          location: 'EX: Direct, Chennai-Bangalore'
-        },
-        {
-          name: 'Wonders of Wayanad',
-          link: 'https://roamers.in/wayanad',
-          image: 'assets/img/bg/waya-cover.jpg',
-          duration: '3 DAYS / 2 NIGHTS',
-          location: 'EX: Direct, Chennai'
-        },
-        {
-          name: 'Ooty the queen of hills',
-          link: 'https://roamers.in/ooty',
-          image: 'assets/img/bg/ooty-cove.jpeg',
-          duration: '3 DAYS / 2 NIGHTS',
-          location: 'EX: Chennai, Coimbatore'
-        },
-        {
-          name: 'Kerala : To gods own country',
-          link: 'https://roamers.in/kerala',
-          image: 'assets/img/Kerala/Kerala photos.jpg',
-          duration: '5 DAYS / 4 NIGHTS',
-          location: 'EX: Kochi, Chennai'
-        },
-        {
-          name: 'Andaman island hopping',
-          link: 'https://roamers.in/andaman',
-          image: 'assets/img/backpacking/Andaman hoppers.jpg',
-          duration: '7 DAYS / 6 NIGHTS',
-          location: 'EX: Kochi, Chennai'
-        },
-        {
-          name: 'Pondi Dive-in',
-          link: 'https://roamers.in/pondicherry',
-          image: 'assets/img/short-trip/Lead-Auroville.webp',
-          duration: '3 DAYS / 2 NIGHTS',
-          location: 'EX: Chennai'
-        },
-        {
-          name: 'Majestic Meghalaya',
-          link: 'https://roamers.in/meghalaya',
-          image: 'assets/img/megalaya/Front 3.jpg ',
-          duration: '6 DAYS / 5 NIGHTS',
-          location: 'EX: Guwahati'
-        },
-        {
-          name: 'Kodaikanal trek with poombarai',
-          link: 'https://roamers.in/kodaikanal',
-          image: 'assets/img/megalaya/Front 3.jpg ',
-          duration: '3 DAYS / 2 NIGHTS',
-          location: 'EX: Chennai'
-        },
-        {
-          name: 'Kedarkantha Trek',
-          link: 'https://roamers.in/kedarkantha',
-          image: 'assets/img/kedarkantha/main-sub.jpg ',
-          duration: '5 DAYS / 4 NIGHTS',
-          location: 'EX: Dehradun'
-        },
-        {
-          name: 'Kodaikanal Backpacking',
-          link: 'https://roamers.in/kodaikanal1',
-          image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg',
-          duration: '3 DAYS / 2 NIGHTS',
-          location: 'EX: Chennai'
-        },
-        {
-          name: 'Varkala & Munroe Flashpacking',
-          link: 'https://roamers.in/varkala-grouptrip',
-          image: 'assets/img/varkala/kerala-1.jpg',
-          duration: '3 DAYS / 2 NIGHTS',
-          location: 'EX: Chennai'
-        },
-        {
-          name: 'Spiti winter expedition',
-          link: 'https://roamers.in/spiti-valley',
-          image: 'assets/img/spiti-valley/spiti-cover.jpg',
-          duration: '7 DAYS / 6 NIGHTS',
-          location: 'EX: Delhi'
-        }
+        name: 'Andaman Island Hopping',
+        link: 'https://www.roamers.in/andaman',
+        image: 'assets/img/kolukkumalai-img/2.jpg',
+        duration: '5 DAYS / 4 NIGHTS',
+        location: 'EX: Chennai'
+      },
+      {
+        name: 'Munnar With Kolukkumalai',
+        link: 'https://www.roamers.in/kolukkumalai-trek',
+        image: 'assets/img/kolukkumalai-img/2.jpg',
+        duration: '3 DAYS / 2 NIGHT',
+        location: 'EX: Direct, Chennai'
+      },
+      {
+        name: 'Chikmagalur',
+        link: 'https://www.roamers.in/chikmagalur.php',
+        image: 'https://www.roamers.in/assets/img/chikmangalur/Media/hills.jpg',
+        duration: '3 DAYS / 2 NIGHT',
+        location: 'EX: Direct, Chennai-Bangalore'
+      },
+      {
+        name: 'Wonders of Wayanad',
+        link: 'https://roamers.in/wayanad',
+        image: 'assets/img/bg/waya-cover.jpg',
+        duration: '3 DAYS / 2 NIGHTS',
+        location: 'EX: Direct, Chennai'
+      },
+      {
+        name: 'Ooty the queen of hills',
+        link: 'https://roamers.in/ooty',
+        image: 'assets/img/bg/ooty-cove.jpeg',
+        duration: '3 DAYS / 2 NIGHTS',
+        location: 'EX: Chennai, Coimbatore'
+      },
+      {
+        name: 'Kerala : To gods own country',
+        link: 'https://roamers.in/kerala',
+        image: 'assets/img/Kerala/Kerala photos.jpg',
+        duration: '5 DAYS / 4 NIGHTS',
+        location: 'EX: Kochi, Chennai'
+      },
+      {
+        name: 'Andaman island hopping',
+        link: 'https://roamers.in/andaman',
+        image: 'assets/img/backpacking/Andaman hoppers.jpg',
+        duration: '7 DAYS / 6 NIGHTS',
+        location: 'EX: Kochi, Chennai'
+      },
+      {
+        name: 'Pondi Dive-in',
+        link: 'https://roamers.in/pondicherry',
+        image: 'assets/img/short-trip/Lead-Auroville.webp',
+        duration: '3 DAYS / 2 NIGHTS',
+        location: 'EX: Chennai'
+      },
+      {
+        name: 'Majestic Meghalaya',
+        link: 'https://roamers.in/meghalaya',
+        image: 'assets/img/megalaya/Front 3.jpg ',
+        duration: '6 DAYS / 5 NIGHTS',
+        location: 'EX: Guwahati'
+      },
+      {
+        name: 'Kodaikanal trek with poombarai',
+        link: 'https://roamers.in/kodaikanal',
+        image: 'assets/img/megalaya/Front 3.jpg ',
+        duration: '3 DAYS / 2 NIGHTS',
+        location: 'EX: Chennai'
+      },
+      {
+        name: 'Kedarkantha Trek',
+        link: 'https://roamers.in/kedarkantha',
+        image: 'assets/img/kedarkantha/main-sub.jpg ',
+        duration: '5 DAYS / 4 NIGHTS',
+        location: 'EX: Dehradun'
+      },
+      {
+        name: 'Kodaikanal Backpacking',
+        link: 'https://roamers.in/kodaikanal1',
+        image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg',
+        duration: '3 DAYS / 2 NIGHTS',
+        location: 'EX: Chennai'
+      },
+      {
+        name: 'Varkala & Munroe Flashpacking',
+        link: 'https://roamers.in/varkala-grouptrip',
+        image: 'assets/img/varkala/kerala-1.jpg',
+        duration: '3 DAYS / 2 NIGHTS',
+        location: 'EX: Chennai'
+      },
+      {
+        name: 'Spiti winter expedition',
+        link: 'https://roamers.in/spiti-valley',
+        image: 'assets/img/spiti-valley/spiti-cover.jpg',
+        duration: '7 DAYS / 6 NIGHTS',
+        location: 'EX: Delhi'
+      }
       ];
 
       const searchInput = document.getElementById('search-input');
       const searchResults = document.getElementById('search-results');
       if (!searchInput || !searchResults) return;
 
-      searchInput.addEventListener('input', function() {
+      searchInput.addEventListener('input', function () {
         const query = this.value.trim().toLowerCase();
         searchResults.innerHTML = '';
         if (!query) {
@@ -164,10 +164,10 @@
         }
 
         const filteredData = data
-          .filter(function(item) {
+          .filter(function (item) {
             return item.name.toLowerCase().includes(query);
           })
-          .sort(function(a, b) {
+          .sort(function (a, b) {
             const aName = a.name.toLowerCase();
             const bName = b.name.toLowerCase();
             const aStarts = aName.startsWith(query);
@@ -180,7 +180,7 @@
         if (!filteredData.length) {
           searchResults.innerHTML = '<div class="col-12">No Trips found for "' + query + '"</div>';
         } else {
-          searchResults.innerHTML = filteredData.map(function(item) {
+          searchResults.innerHTML = filteredData.map(function (item) {
             return (
               '<div class="trip-card">' +
               '<div class="search-box-con">' +
@@ -306,10 +306,10 @@
 
   <!-- WhatsApp Button Handler -->
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const whatsappButton = document.querySelector('.what-sum');
       if (whatsappButton) {
-        whatsappButton.addEventListener("click", function(event) {
+        whatsappButton.addEventListener("click", function (event) {
           event.preventDefault();
           var name1 = document.getElementById("name1") ? document.getElementById("name1").value.trim() : "";
           var phone1 = document.getElementById("phone1") ? document.getElementById("phone1").value.trim() : "";
@@ -341,7 +341,7 @@
 
   <!-- Image Slider -->
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       var index = 0;
       var timer;
       var images = document.getElementsByClassName("slide-box");
@@ -359,10 +359,10 @@
       displayImages();
 
       for (var j = 0; j < images.length; j++) {
-        images[j].addEventListener("mouseenter", function() {
+        images[j].addEventListener("mouseenter", function () {
           clearTimeout(timer);
         });
-        images[j].addEventListener("mouseleave", function() {
+        images[j].addEventListener("mouseleave", function () {
           timer = setTimeout(displayImages, 5000);
         });
       }
@@ -403,7 +403,6 @@
 </head>
 
 <style>
-
   .gotoinsta:hover {
     background-color: #fff;
     color: #4ec0db;
@@ -860,23 +859,54 @@
       <?php include('components/new-upcoming-trips.php'); ?>
     </div>
 
-    <!-- Events Section -->
-    <div class="" style="max-width: 1800px; margin:auto">
-      <img src="assets/img/event/banner/events-desktop-banner-by-roamers.avif.avif" alt="" class="d-none d-md-block">
-      <img src="assets/img/event/banner/events-mobile-banner-by-roamers.avif" alt="" class="d-block d-md-none">
-      <div class="mt-4">
-        <?php include('components/event-trips.php'); ?>
-      </div>
-    </div>
 
     <!-- Mobile Christmas -->
-    <div class="d-block d-md-none" style="margin-top:50px; margin-bottom: 50px; border-radius:20px 20px 0px 20px; width: 100%;">
+    <div class="d-block d-md-none"
+      style="margin-top:50px; margin-bottom: 50px; border-radius:20px 20px 0px 20px; width: 100%;">
       <?php include('components/christmas-mobile.php'); ?>
     </div>
 
     <!-- Dsktop Christmas -->
-    <div class="d-none d-md-block mt-5" style="max-width: 1800px; margin:auto; ">
+    <div class="d-none d-md-block mt-5" style="max-width: 1800px;  margin:auto">
       <?php include('components/christmas.php'); ?>
+    </div>
+
+
+
+
+    <!-- Events Section -->
+    <div class="events-section-responsive mx-auto" style="max-width: 1800px; margin:50px auto 0 auto;">
+      <style>
+        /* @media (max-width: 1200px) {
+          .events-section-responsive {
+            margin-top: 280px !important;
+          }
+        }
+
+        @media (max-width: 992px) {
+          .events-section-responsive {
+            margin-top: 180px !important;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .events-section-responsive {
+            margin-top: 80px !important;
+          }
+        }
+
+        @media (max-width: 576px) {
+          .events-section-responsive {
+            margin-top: 30px !important;
+            max-width: 100% !important;
+          }
+        } */
+      </style>
+      <img src="assets/img/event/banner/events-desktop-banner-by-roamers.avif.avif" alt="" class="d-none d-md-block">
+      <img src="assets/img/event/banner/events-mobile-banner-by-roamers.avif" alt="" class="d-block d-md-none w-100">
+      <div class="mt-4">
+        <?php include('components/event-trips.php'); ?>
+      </div>
     </div>
 
 
@@ -896,19 +926,19 @@
 
         @media (min-width: 768px) {
           .travelgram {
-            margin-top: 290px;
+            margin-top: 0px;
           }
         }
 
         @media (min-width: 992px) {
           .travelgram {
-            margin-top: 340px;
+            margin-top: 0px;
           }
         }
 
         @media (min-width: 1200px) {
           .travelgram {
-            margin-top: 390px;
+            margin-top: 0px;
           }
         }
 
@@ -1236,7 +1266,7 @@
     <section class="quotes pt-60">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-7  quotes-img" style="margin-bottom: 20px;">
+          <div class="col-md-7  quotes-img" style="margin-bottom: 20px; margin-top:60px">
             <img class="quotes-img-img1" style="height: 100% !important; width: 100% !important;"
               src="assets/img/icon/Vertical-private-trips-NEW.png" alt="">
             <img class="quotes-img-img" style="height: 100% !important;

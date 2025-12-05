@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css" />
 <style>
     * {
-        font-family: 'Manrope', sans-serif;
         box-sizing: border-box;
     }
 

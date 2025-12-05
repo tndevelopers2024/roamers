@@ -199,9 +199,7 @@ session_start();
     div,
     th,
     td,
-    tr {
-      font-family: "Urbanist", sans-serif !important;
-    }
+    tr {}
 
 
     .available-box {
@@ -1287,7 +1285,7 @@ session_start();
   </section>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       fetch("./dynamic/varkala-data.json") // Check this path
         .then(response => {
           if (!response.ok) throw new Error("Network response was not ok");
@@ -1506,7 +1504,7 @@ session_start();
 
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       fetch("./dynamic/varkala-data.json") // to change the price ... 
         .then(response => response.json())
         .then(data => {

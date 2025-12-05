@@ -7,7 +7,6 @@
     <!-- ... (styles unchanged, omitted for brevity) ... -->
     <style>
         * {
-            font-family: 'Manrope', sans-serif;
             box-sizing: border-box;
         }
 
@@ -475,7 +474,7 @@
                 width: 350px;
                 min-width: 350px;
                 max-width: 350px;
-                height: 325px !important;
+                
                 margin: 0;
                 scroll-snap-align: center;
             }
@@ -591,7 +590,6 @@
 
 <style>
     * {
-        font-family: 'Manrope', sans-serif;
     }
 
     html,
@@ -975,7 +973,7 @@
             width: 350px;
             min-width: 350px;
             max-width: 350px;
-            height: 325px !important;
+            
             margin: 0;
             scroll-snap-align: center;
         }

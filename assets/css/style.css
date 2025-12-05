@@ -1,7 +1,7 @@
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&display=swap");
 /* ******************************
 :: 2.0 IMPORT ALL CSS
 ****************************** */
@@ -16,9 +16,11 @@
 /* ******************************
 :: 3.0 GLOBAL CSS
 ****************************** */
+
 * {
   margin: 0;
   padding: 0;
+
 }
 
 .sliders-container {
@@ -29,7 +31,7 @@
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -57,7 +59,7 @@ h6 {
   font-weight: 600;
   color: #222;
   margin-bottom: 0;
-  font-family: 'Manrope', sans-serif;
+
 }
 
 .kedar-dates {
@@ -120,8 +122,8 @@ h6 {
 }
 
 p {
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
+
+  font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   color: #5f6c7b;
@@ -132,7 +134,7 @@ a {
   color: #444;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  font-family: 'Manrope', sans-serif;
+
 }
 
 a:hover,
@@ -163,7 +165,7 @@ ol,
 ul {
   margin: 0;
   padding: 0;
-  font-family: 'Manrope', sans-serif;
+
 }
 
 ol li,
@@ -645,7 +647,7 @@ img {
 .wrapper {
   margin: 50px auto 0px;
   width: 100%;
-  font-family: 'Manrope', sans-serif;
+
   color: #555;
   font-size: 14px;
   line-height: 24px;
@@ -1893,7 +1895,7 @@ html {
   border: 2px solid #4ec0db1f;
   border-radius: 10px;
   /* padding: 12px 20px; */
-  font-family: 'Manrope', sans-serif;
+
   font-weight: 400;
   color: #777;
   margin-bottom: 0;
@@ -1910,7 +1912,7 @@ html {
   border: 2px solid #4ec0db1f;
   border-radius: 10px;
   padding: 12px 20px;
-  font-family: 'Manrope', sans-serif;
+
   font-weight: 400;
   color: #777;
   margin-bottom: 0;
@@ -2087,7 +2089,7 @@ th,
 
 table {
   width: 100%;
-  font-family: 'Manrope', sans-serif;
+
 }
 
 th {
@@ -2160,7 +2162,7 @@ textarea {
 
 .swiper-slide {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -2193,7 +2195,7 @@ textarea {
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-family: swiper-icons;
+
   font-size: 20px !important;
   font-weight: bold;
   letter-spacing: 0px;

@@ -22,7 +22,7 @@
 
   <!-- Favicon  -->
   <!-- <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" /> -->
-  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon"  sizes="192x192" />
+  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
 
   <!-- ***** All CSS Files ***** -->
   <!-- ***** Font Asesome cdn ***** -->
@@ -38,7 +38,7 @@
   <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 </head>
 
 
@@ -184,7 +184,7 @@
     border: 1px solid #eee;
     margin: 5px;
     border-radius: 5px;
-    font-family: "Heebo", sans-serif;
+
   }
 
   .price-occupancy1 {
@@ -412,18 +412,18 @@
   }
 
   .with-travel {
-      text-align: center;
-      font-size: 18px;
-      margin-top: 25px;
-      display: none;
-    }
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    display: none;
+  }
 
-    .with-travel-price {
-      color: #4ec0db;
-      font-weight: 800;
-      margin-right: 5px;
-      margin-left: 5px;
-    }
+  .with-travel-price {
+    color: #4ec0db;
+    font-weight: 800;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 
   .silder-inner span {
     display: flex;
@@ -785,7 +785,8 @@
         </div>
         <div class="col-md-7" style="display: grid; place-items: center">
           <div class="travel-des travel-des1">
-            <h2 style="text-align:left !important;" class="head text-center text-md-left kerala-overview">Be the part of Biggest Celebration!</h2>
+            <h2 style="text-align:left !important;" class="head text-center text-md-left kerala-overview">Be the part of
+              Biggest Celebration!</h2>
             <p class='mb-4'>
               Hey team! Get ready for a special trip to witness one of India's biggest Mahashivratri celebrations.
               Experience the Mega puja for Lord Shiva, cultural dances, and nightlong satsong with Sadguru. Then, we'll
@@ -1146,7 +1147,7 @@
                 <div class="tab-pane fade show active" id="pills-phone" role="tabpanel"
                   aria-labelledby="pills-phone-tab">
                   <div class="upcoming-slot">
-                  <h3>Mar 08</h3>
+                    <h3>Mar 08</h3>
 
                   </div>
                 </div>
@@ -1880,14 +1881,14 @@
         perperson.style.fontSize = "14px";
         perperson.style.fontWeight = "500";
         perperson.style.color = "#7c7c7c";
-        bbb.style.display="block";
-      }  else if (selectedValue == "double" && selectedValue1 == "coimbatore") {
+        bbb.style.display = "block";
+      } else if (selectedValue == "double" && selectedValue1 == "coimbatore") {
         price.innerHTML = "₹6,999";
         perperson.innerHTML = " per person";
         perperson.style.fontSize = "14px";
         perperson.style.fontWeight = "500";
         perperson.style.color = "#7c7c7c";
-        bbb.style.display="none";
+        bbb.style.display = "none";
       }
     }
 

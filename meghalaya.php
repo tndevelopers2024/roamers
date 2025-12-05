@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" width="600"
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" width="600"
     height="600" alt="image for ooty" />
   <title>Roamers - Meghalaya</title>
 
@@ -18,14 +18,14 @@
   <!-- Basic Open Graph tags -->
   <meta property="og:title" content="Roamers - Meghalaya" />
   <meta property="og:description" content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta property="og:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta property="og:image" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
+  <meta property="og:url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Roamers - Meghalaya" />
   <meta name="twitter:description"
     content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta name="twitter:image" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -67,7 +67,7 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        MEJESTIC MEGHALAYA
+        MAJESTIC MEGHALAYA
       </h2>
 
       <ul class="banner-hight-bottom p-0"
@@ -397,7 +397,7 @@
                         <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
                             style="font-size: 0.65rem;"></i>
                           Meet the Roamers team & trip captain at the designated point in Guwahati and get ready to
-                          kick-start our journey to Shillong.
+                          kick-start our journey to Shillong.(Request to plan Arrival before 12:30 Noon for smooth transfers)
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Enjoy the breathtaking views of lush green hills and the mesmerising Umiam Lake while
@@ -448,17 +448,28 @@
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Let's Begin our drive towards Cherrapunjee,
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Upon arrival check-in to our cozy hotel
-                        </li>
+                        </li> -->
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next, we'll visit the majestic Wei Sawdong Waterfall which is a three-tiered waterfall, one of
+                          We'll visit the majestic Wei Sawdong Waterfall which is a three-tiered waterfall, one of
                           Meghalaya's gems.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight Stay in Cherrapunjee, team extravaganza! Prepare for a night of pure fun and loads
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Up next, let’s make our way to Nohkalikai Falls view point (the tallest plunge
+                          waterfall in India)
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Upon arrival check-in to our cozy hotel, prepare for an evening of pure fun and loads
                           of unforgettable memories
                         </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight Stay in Cherrapunjee.
+                        </li>
+                        <!-- <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight Stay in Cherrapunjee, team extravaganza! Prepare for a night of pure fun and loads
+                          of unforgettable memories
+                        </li> -->
                       </ul>
                     </div>
                   </div>
@@ -473,7 +484,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Trek | Living Root Bridges of Meghalaya</span>
+                        <span>Trek to Living Root Bridges of Meghalaya | Rainbow Falls</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -492,6 +503,10 @@
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Trek ahead to make our visit to the resplendent Umshiang double-decker bridge and capture
                           those insta-worthy moments.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Further, we’ll trek to reach Rainbow Falls, one of the most picturesque falls in
+                          Meghalaya
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>In
                           the evening, we'll return to our comfy Cherrapunjee accommodation for some well-deserved
@@ -512,7 +527,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Nohkalikai Falls | Mawsmai Caves | Dawki</span>
+                        <span>Cherrapunji to Shnongpdeng (Dawki)</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -522,18 +537,22 @@
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Rise and shine again! We're diving into the picturesque beauty of Meghalaya, starting with
-                          Nohkalikai Falls (the tallest plunge waterfall in India) and Seven Sister Falls.
+                          Rise and shine again! We're diving into the picturesque beauty of
+                          Meghalaya’s Seven Sister Falls
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next up, we'll head to the majestic Mawsmai Caves. Let's stroll inside and explore.
+                          Next up, we'll head to the majestic Mawsmai Caves. Let's stroll and explore
+                          the marvels
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After a fantastic exploration day, we'll begin our drive towards Dawki.
+                          Visit the pristine Mawlynnong village, known as Asia’s cleanest village, take a
+                          relaxing walk through its beautiful surroundings
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Visit the pristine Mawlynnong village, know as Asia’s cleanest village, take a relaxing walk
-                          through its beautiful surroundings
+                          After a fantastic exploration day, we'll begin our drive towards Dawki
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Gather for a delicious group Dinner & Overnight Camping in Dawki
                         </li>
                       </ul>
                     </div>
@@ -549,7 +568,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                        <span>Umngot River | Boat Ride | Krang Suri Waterfall</span>
+                        <span>Umngot River | Boat Ride | Krang Shuri Waterfall</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -609,13 +628,13 @@
                           Our fantastic trip ends, leaving us with hearts full of joy and adventure! Until next time,
                           team!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           We'll reach our first drop point Coimbatore at 7 PM, and we'll arrive at Chennai by 6 AM. Bye
                           for now, Roamers. Reunion plans for next year? You bet!
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Goodbyes are never easy, but what ride it has been! See you guys, more Hugs!
-                        </li>
+                        </li> -->
                       </ul>
                     </div>
                   </div>
@@ -706,7 +725,7 @@
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹ 20,000/-</strike>
+                        <strike>₹ 22,000/-</strike>
                       </span>
                       <span class="meghalaya-price new-price"></span><span class="new-price">/-</span>
                     </h5>
@@ -724,7 +743,7 @@
               <div id="form" class="shadow"
                 style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                 <form>
-                  <h3 style="text-align: center; margin-bottom: 30px; font-family: 'Arial', sans-serif; color: #333;">
+                  <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                     Let's Map Your Dream Trip</h3>
 
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
@@ -1001,7 +1020,7 @@
 
   <script>
     // Slider 
-    window.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("DOMContentLoaded", function() {
       const swiper = new Swiper(".swiper-container", {
         slidesPerView: "auto",
         spaceBetween: 10,
@@ -1076,7 +1095,7 @@
   </script>
 
   <script>
-    window.addEventListener('load', function () {
+    window.addEventListener('load', function() {
       const scrollSection = document.querySelector('.scroll-section');
       const swiperContainer = document.querySelector('.swiper-container.two');
 
@@ -1099,7 +1118,7 @@
           clickable: true,
         },
         on: {
-          init: function () {
+          init: function() {
             // Add initialization classes after Swiper is ready
             setTimeout(() => {
               scrollSection.classList.add('loaded');
@@ -1114,7 +1133,7 @@
   <script>
     var navbar = document.querySelector("nav");
 
-    window.onscroll = function () {
+    window.onscroll = function() {
       // pageYOffset or scrollY
       if (window.scrollY > 100) {
         navbar.classList.add("scrolled");
@@ -1129,7 +1148,7 @@
 
     // *****Sidebar tab radio content start*****
     var sliders = document.querySelectorAll(".slider");
-    sliders.forEach(function (slider) {
+    sliders.forEach(function(slider) {
       var sliderContainer = slider.querySelector(".slider-container");
       var prevBtn = slider.querySelector(".prev-btn1");
       var nextBtn = slider.querySelector(".next-btn1");
@@ -1223,8 +1242,8 @@
       autoWidth: true,
       loop: true
     });
-    $(document).ready(function () {
-      $(".custom-carousel .item").click(function () {
+    $(document).ready(function() {
+      $(".custom-carousel .item").click(function() {
         $(".custom-carousel .item").not($(this)).removeClass("active");
         $(this).toggleClass("active");
       });

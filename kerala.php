@@ -657,7 +657,7 @@
 
                       <p>perfect for group adventures and shared <br> memories.</p>
                       <div class="trip-form p-0">
-                        <a href="#" class="btn butn butn__new bg-"
+                        <a href="kerala-form.php" class="btn butn butn__new bg-"
                           style="border-radius: 10px;">Dates
                           & Costing</a>
                       </div>
@@ -669,7 +669,7 @@
                 <div id="form" class="shadow"
                   style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                   <form>
-                    <h3 style="text-align: center; margin-bottom: 30px; font-family: 'Arial', sans-serif; color: #333;">
+                    <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                       Let's Map Your Dream Trip</h3>
 
                     <div class="input-field mb-3" style="margin-bottom: 20px;">
@@ -900,11 +900,11 @@
         <div class="price-box ">
           <h6 class="label">Starts at</h6>
           <div class="price-info">
-            <span class="price-amount ">₹7,990/-</span>
+            <span class="price-amount ">₹14,490 /-</span>
             <span class="per-person">(Per Person)</span>
           </div>
         </div>
-        <a href="#" class="btn-book">Dates & Costing</a>
+        <a href="kerala-form.php" class="btn-book">Dates & Costing</a>
       </div>
     </div>
 

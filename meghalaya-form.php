@@ -195,9 +195,7 @@ session_start();
     div,
     th,
     td,
-    tr {
-      font-family: "Urbanist", sans-serif !important;
-    }
+    tr {}
 
 
     .available-box {
@@ -292,7 +290,7 @@ session_start();
 
 
     .price-box h5 {
-      font-size: 14px
+      font-size: 12px
     }
 
 
@@ -895,7 +893,7 @@ session_start();
 
 
       .price-box h5 {
-        font-size: 14px !important;
+        font-size: 12px !important;
       }
 
 

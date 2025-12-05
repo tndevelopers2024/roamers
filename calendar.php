@@ -111,7 +111,6 @@
       padding: 15px 27px;
       border-radius: 14px;
       background: #fff;
-      font-family: sans-serif;
       color: #555;
       font-size: 14px;
       line-height: 24px;
@@ -124,7 +123,6 @@
     }
 
     .things-carry li {
-      font-family: "Heebo", sans-serif;
       font-size: 15px;
       font-weight: 400;
       line-height: 32px;
@@ -154,7 +152,6 @@
       padding: 15px 27px;
       border-radius: 14px;
       background: #fff;
-      font-family: sans-serif;
       color: #555;
       font-size: 14px;
       line-height: 24px;
@@ -167,7 +164,6 @@
     }
 
     .privacy-policy li {
-      font-family: "Heebo", sans-serif;
       font-size: 15px;
       font-weight: 400;
       line-height: 32px;
@@ -352,7 +348,6 @@
       border: 1px solid #eee;
       margin: 5px;
       border-radius: 5px;
-      font-family: "Heebo", sans-serif;
     }
 
     .price-occupancy1 {
@@ -759,7 +754,6 @@
       background: -moz-linear-gradient(left, #52A0FD 0%, #00C9FB 80%, #00C9FB 100%);
       background: -webkit-linear-gradient(left, #52A0FD 0%, #00C9FB 80%, #00C9FB 100%);
       background: linear-gradient(to right, #52A0FD 0%, #00C9FB 80%, #00C9FB 100%);
-      font-family: Helvetica;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

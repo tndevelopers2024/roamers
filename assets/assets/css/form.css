@@ -1,0 +1,139 @@
+body {
+  overflow-x: hidden;
+}
+
+.travel {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+.form {
+  padding: 20px 40px 40px;
+  border-radius: 20px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 10px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3,
+.travelling-date {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070 !important;
+  font-size: 1rem;
+  padding: 0 0 0 17px;
+  border-radius: 10px !important;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 66px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #4ec0db;
+}
+.form button:hover {
+  background: #4ec0db;
+  opacity: 0.6;
+}
+
+.select-box select {
+  padding: 15px;
+  border-radius: 3px;
+  height: 50px;
+  color: gray;
+  padding-right: 30px;
+  font-size: 14px;
+  border-color: blue;
+  position: relative;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: white
+    url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='20' height='20' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='Black'/></g></svg>")
+    no-repeat;
+  background-position: right 5px top 50%;
+}
+
+.fa-plane-departure {
+  font-size: 8px;
+  color: red;
+  margin-right: 5px;
+}
+
+/*  */
+
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
+.form-content-holder {
+  margin: 60px 0px 100px;
+}
+
+

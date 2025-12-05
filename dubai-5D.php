@@ -327,7 +327,6 @@ like-minded travelers!
       border: 1px solid #eee;
       margin: 5px;
       border-radius: 5px;
-      font-family: "Heebo", sans-serif;
     }
 
     .price-occupancy1 {

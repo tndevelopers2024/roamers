@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" width="600"
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" width="600"
     height="600" alt="image for ooty" />
   <title>Roamers - Meghalaya</title>
 
@@ -18,13 +18,13 @@
   <!-- Basic Open Graph tags for Christmas & New Year Meghalaya Special -->
   <meta property="og:title" content="Meghalaya Christmas & New Year Trip - Roamers" />
   <meta property="og:description" content="Celebrate Christmas and New Year in Majestic Meghalaya! Exclusive group tours, memorable experiences, and festive adventures await with Roamers." />
-  <meta property="og:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
-  <meta property="og:url" content="https://roamers.in/meghalaya-christmas-new-year.php" />
+  <meta property="og:image" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
+  <meta property="og:url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Meghalaya Christmas & New Year Trip - Roamers" />
   <meta name="twitter:description" content="Join our Christmas & New Year group departures to Meghalaya for an unforgettable festive adventure. Small groups, expert guides, and the best of Meghalaya's spirit!" />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta name="twitter:image" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -67,7 +67,7 @@
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
         <p class="text-white">Christmas & New Year Special 🎅</p>
-        MEJESTIC MEGHALAYA
+        MAJESTIC MEGHALAYA
       </h2>
 
       <ul class="banner-hight-bottom p-0"
@@ -635,7 +635,7 @@
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    6 Meals, 5 Breakfast & 1 Dinner
+                    6 Meals - 5 Breakfast & 1 Dinner
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
@@ -653,7 +653,7 @@
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Guide Treak, Boating, Bonfire (if Weather Permits)
+                    Guide Trek, Boating, Bonfire (if Weather Permits)
                   </p>
 
                 </div>
@@ -724,7 +724,7 @@
               <div id="form" class="shadow"
                 style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                 <form>
-                  <h3 style="text-align: center; margin-bottom: 30px; font-family: 'Arial', sans-serif; color: #333;">
+                  <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                     Let's Map Your Dream Trip</h3>
 
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
