@@ -589,7 +589,6 @@
 </head>
 
 <style>
-
     html,
 
 
@@ -603,18 +602,32 @@
     }
 
     .event-card-content {
-        margin-top: 210px;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        margin-top: 0 !important;
+        padding: 0 20px;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        margin-top: 0 !important;
     }
 
     @media (max-width: 768px) {
         .event-card-content {
-            margin-top: 140px;
+            margin-top: 0 !important;
+            bottom: 20px;
+            /* Adjusted for tablet */
         }
     }
 
     @media (max-width: 480px) {
         .event-card-content {
-            margin-top: 210px;
+            margin-top: 0 !important;
+            bottom: 20px;
+            /* Percentage based for fluid height */
         }
     }
 
@@ -671,15 +684,15 @@
 
     @media (max-width: 600px) {
         .event-image {
-            height: 500px !important;
-            max-height: 100vw;
+            height: 100% !important;
+            max-height: none !important;
         }
     }
 
     @media (max-width: 400px) {
         .event-image {
-            height: 320px !important;
-            max-height: 100vw;
+            height: 100% !important;
+            max-height: none !important;
         }
     }
 
@@ -784,7 +797,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 0px 35px 07px 12px;
+        justify-content: space-between;
+        margin: 0;
+        margin-top: 10px;
+        width: 100%;
         flex-grow: 1;
         color: black;
     }
@@ -929,7 +945,7 @@
         }
 
         .event-image {
-            height: 180px;
+            height: 300px;
         }
 
         .event-title {
@@ -971,23 +987,28 @@
             width: 85vw;
             min-width: 85vw;
             max-width: 85vw;
-            height: 325px !important;
+            height: 85vw !important;
             margin: 0 15px 0 0;
             scroll-snap-align: center;
         }
 
         .event-title {
             font-size: 14px;
+            margin: 10px 12px 0px 12px;
+            /* Standardized margin */
         }
 
         .event-locations {
             font-size: 10px;
+            margin: 0px 12px 0px 12px;
+            /* Standardized margin */
         }
 
         .event-price-section {
             margin: 0px 18px 10px 12px;
             gap: 8px;
-            padding: auto;
+            padding: 0;
+            /* Removed auto padding */
         }
 
         .event-dates {
@@ -1008,8 +1029,13 @@
             width: 110px;
             height: 36px;
             font-size: 9px !important;
-            padding: 6px 12px;
-            bottom: -37px;
+            /* padding: 6px 12px; */
+            bottom: -18px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            transform: none;
+            width: fit-content;
         }
 
         .event-slider-arrow {
@@ -1032,7 +1058,7 @@
             width: 85vw;
             min-width: 85vw;
             max-width: 85vw;
-            height: 280px;
+            height: 85vw;
             margin-right: 15px;
         }
 
@@ -1066,6 +1092,11 @@
             font-size: 12px;
             padding: 5px 10px;
             bottom: -16px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            transform: none;
+            width: fit-content;
         }
 
         .event-slider-wrapper {
@@ -1113,9 +1144,9 @@
 
     @media (max-width: 480px) {
         .event-slot-badge {
-            top: unset;
-            bottom: 287px;
-            right: 18px;
+            top: 15px;
+            bottom: unset;
+            right: 15px;
             left: unset;
             padding: 2px 6px;
             min-width: 54px;
@@ -1190,17 +1221,16 @@
                             Slot: 30
                         </span>
                     </div>
-                    <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 210px; ">
+                    <div class="event-card-content">
                         <div class="event-card-flex" style=" padding: 10px 20px;"></div>
-                        <h1 class="event-title event-title-responsive-on-event"
-                            style="padding: 0px 10px 0px 10px; font-size: 15px; font-weight: bold; color: #fff; word-spacing: 1px;">
+                        <h1 class="event-title event-title-responsive-on-event">
                             Strangers Fun meetup
                             <p class="mt-1"
                                 style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
                                 Games, icebreakers, laughs, future buddies</p>
 
                         </h1>
-                        <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
+                        <div class="event-price-section">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
                                         class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 06 Dec
@@ -1231,16 +1261,15 @@
                             Slot: 15
                         </span>
                     </div>
-                    <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 210px; ">
+                    <div class="event-card-content">
                         <div class="event-card-flex" style=" padding: 10px 20px;"></div>
-                        <h1 class="event-title event-title-responsive-on-event"
-                            style="padding: 0px 10px 0px 10px; font-size: 15px; font-weight: bold; color: #fff; word-spacing: 1px;">
+                        <h1 class="event-title event-title-responsive-on-event">
                             Mystery Movie Night
                             <p class="mt-1" style="font-size: 10px; margin-bottom: 0px;color: #FFFFFF; text-transform: none;  
                             word-spacing: 1px;">Watch a surprise film, popcorn, laughs, discussions</p>
 
                         </h1>
-                        <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
+                        <div class="event-price-section">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
                                         class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 14th Nov
@@ -1253,7 +1282,8 @@
                             </div>
                         </div>
                     </div>
-                    <a href="components\events\event-pages\events-nov-1.php" class="event-view">Soon !</a>
+                    <a href="components/events/event-pages/events-nov-1.php" target="_blank"
+                        class="event-view">Register</a>
                 </div>
             </div>
             <!-- Event Card 4 -->
@@ -1270,16 +1300,15 @@
                             Slot: 16
                         </span>
                     </div>
-                    <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 210px; ">
+                    <div class="event-card-content">
                         <div class="event-card-flex" style=" padding: 10px 20px;"></div>
-                        <h1 class="event-title event-title-responsive-on-event mt-1"
-                            style="padding: 0px 10px 0px 10px; font-size: 15px; font-weight: bold; color: #fff; word-spacing: 1px;">
+                        <h1 class="event-title event-title-responsive-on-event mt-1">
                             Coffee & Conversations
                             <p class="mt-1" style="font-size: 11px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;
                              word-spacing: 1px; ">Sip, chat, share stories, meet like-minded people</p>
 
                         </h1>
-                        <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
+                        <div class="event-price-section">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
                                         class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 22st Nov
@@ -1309,17 +1338,16 @@
                             Slot: 15
                         </span>
                     </div>
-                    <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 2; margin-top: 210px; ">
+                    <div class="event-card-content">
                         <div class="event-card-flex" style=" padding: 10px 20px;"></div>
-                        <h1 class="event-title event-title-responsive-on-event"
-                            style="padding: 0px 10px 0px 10px; font-size: 15px; font-weight: bold; word-spacing: 1px;">
+                        <h1 class="event-title event-title-responsive-on-event">
                             Pottery WORK SHOP
                             <p class="mt-1"
                                 style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
                                 Shape, mold, Heal, create, laugh together</p>
 
                         </h1>
-                        <div class="event-price-section " style=" margin: 0;  padding: 10px 20px 20px 20px;">
+                        <div class="event-price-section">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
                                         class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 29th Nov

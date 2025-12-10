@@ -2654,7 +2654,7 @@
                 View All Trips
             </button></a>
     </div> -->
-    <div style="display: flex; justify-content: center; margin-bottom:50px;">
+    <div style="display: flex; justify-content: center; margin-bottom:10px !important;">
         <a href="trips.php"><button class="btn btn-primary" style="
                 padding: 10px 32px;
                 border-radius: 30px;

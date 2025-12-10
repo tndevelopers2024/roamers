@@ -862,7 +862,7 @@
 
     <!-- Mobile Christmas -->
     <div class="d-block d-md-none"
-      style="margin-top:50px; margin-bottom: 50px; border-radius:20px 20px 0px 20px; width: 100%;">
+      style="margin-top:30px; margin-bottom: 50px; border-radius:20px 20px 0px 20px; width: 100%;">
       <?php include('components/christmas-mobile.php'); ?>
     </div>
 
@@ -904,7 +904,7 @@
       </style>
       <img src="assets/img/event/banner/events-desktop-banner-by-roamers.avif.avif" alt="" class="d-none d-md-block">
       <img src="assets/img/event/banner/events-mobile-banner-by-roamers.avif" alt="" class="d-block d-md-none w-100">
-      <div class="mt-4">
+      <div class="mt-5">
         <?php include('components/event-trips.php'); ?>
       </div>
     </div>
