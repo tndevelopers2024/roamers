@@ -30,6 +30,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Damion&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
     <!-- Responsive css -->
@@ -49,34 +51,137 @@
 
         body {
             overflow-x: hidden;
+            font-family: 'Lato', sans-serif;
         }
 
-        .trip-home {
-            background: url(assets/img/varkala/varkala-bg.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .section-title,
+        .head,
+        .banner-title,
+        .card-title,
+        .accordion-button {
+            font-family: 'Montserrat', sans-serif;
+            color: #094067;
+        }
+
+        .head {
+            color: #094067 !important;
             position: relative;
+            padding-bottom: 15px;
+            text-align: center !important;
         }
 
-        .trip-home h1 {
+        /* Centered expanding bar */
+        .head::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            height: 4px;
+            width: 50px;
+            background-color: #094067;
+            border-radius: 2px;
+            animation: expandBar 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes expandBar {
+            0% {
+                width: 40px;
+                opacity: 0.7;
+            }
+
+            100% {
+                width: 90px;
+                opacity: 1;
+            }
+        }
+
+
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.7) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+        }
+
+        .banner-content {
             text-align: center;
             color: #fff;
-            text-transform: capitalize;
-            font-weight: 800;
-            line-height: 1.1 !important;
-            font-size: 46px;
-            margin: 90px 0px 54px !important;
+            padding: 20px;
+            max-width: 800px;
+            z-index: 10;
         }
 
-        .trip-home {
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-            padding: 280px 280px 150px !important;
-            margin-top: -127px;
+        .banner-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+            /* opacity: 0; */
+            /* transform: translateY(30px); */
+            /* animation: fadeInUp 1s ease forwards 0.5s; */
+            color: #fff !important;
             position: relative;
+            z-index: 20;
+        }
+
+        .banner-subtitle {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            /* opacity: 0; */
+            /* transform: translateY(20px); */
+            /* animation: fadeInUp 1s ease forwards 0.8s; */
+            color: #fff !important;
+            position: relative;
+            z-index: 20;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .banner-nav-btn {
+            color: rgba(255, 255, 255, 0.7);
+            transition: all 0.3s ease;
+        }
+
+        .banner-nav-btn:hover {
+            color: #4EC0DB;
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            .banner-slider {
+                height: 70vh;
+                min-height: 500px;
+            }
+
+            .banner-title {
+                font-size: 2.5rem;
+            }
+
+            .banner-subtitle {
+                font-size: 1.1rem;
+            }
         }
 
         .swiper-container2 {
@@ -269,6 +374,443 @@
                 left: 100%;
             }
         }
+
+        /* Highlights Section Styles */
+        .highlights-section {
+            background-color: #f9f9f9;
+            padding: 60px 0;
+            margin-top: 50px;
+        }
+
+        .highlight-card {
+            background: #fff;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight-icon {
+            width: 70px;
+            height: 70px;
+            background: #e0f7fa;
+            color: #4EC0DB;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            margin: 0 auto 20px;
+            transition: all 0.3s ease;
+        }
+
+        .highlight-card:hover .highlight-icon {
+            background: #4EC0DB;
+            color: #fff;
+        }
+
+        .highlight-card h4 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .highlight-card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Gallery Section Styles */
+        .gallery-section {
+            padding: 60px 0;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .swiper-container-gallery {
+            width: 100%;
+            padding-top: 60px;
+            /* More space for top elements */
+            padding-bottom: 70px;
+            /* More space for shadows */
+            overflow: visible !important;
+            /* Allow shadows to bleed */
+        }
+
+        .swiper-container-gallery .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 450px !important;
+            /* Slightly reduced height for better aspect ratio */
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+            filter: none !important;
+            /* Remove blur */
+            opacity: 1 !important;
+            /* Full visibility */
+            transition: all 0.5s ease;
+            /* margin-top: 30px; Removed manual margin, let swiper handle it */
+        }
+
+        .swiper-container-gallery .swiper-slide-active {
+            filter: blur(0px);
+            opacity: 1;
+            /* transform: scale(1.1); Removed to prevent conflict with Swiper */
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .swiper-container-gallery .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+            color: #fff;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .swiper-container-gallery .swiper-slide-active .gallery-overlay {
+            transform: translateY(0);
+        }
+
+        .gallery-overlay h5 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Custom Book Now Button Styles */
+        .btn-custom-book {
+            background-color: #4EC0DB;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            padding: 10px 10px 10px 30px;
+            font-size: 18px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-custom-book:hover,
+        .package-card-wrap:hover .btn-custom-book {
+            background-color: #094067;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            color: #fff;
+        }
+
+        .btn-custom-book .icon-circle {
+            background-color: #fff;
+            color: #000;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-custom-book:hover .icon-circle,
+        .package-card-wrap:hover .icon-circle {
+            transform: rotate(45deg);
+            color: #4EC0DB;
+        }
+
+        /* Modern Package Card Styles */
+        .package-card-wrap {
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .card-modern {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            height: 450px;
+            margin-bottom: 20px;
+            display: block;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            /* Glass Border */
+        }
+
+        /* Glossy Sheen Overlay */
+        .card-modern::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(125deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 60%);
+            z-index: 6;
+            /* Above gradient */
+            pointer-events: none;
+        }
+
+        .card-modern:hover,
+        .package-card-wrap:hover .card-modern {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-modern .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s ease;
+        }
+
+        .card-modern:hover .card-img,
+        .package-card-wrap:hover .card-img {
+            transform: scale(1.1);
+        }
+
+        .card-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(5px);
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #4EC0DB;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            z-index: 10;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70%;
+            background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
+            z-index: 5;
+        }
+
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 25px;
+            z-index: 10;
+        }
+
+        .card-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .meta-item i {
+            color: #4EC0DB;
+            margin-right: 6px;
+        }
+
+        .card-title {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 800;
+            margin: 0;
+            line-height: 1.3;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* FAQ Section Styles - Premium Modern */
+        .faq .accordion-item {
+            border: none !important;
+            margin-bottom: 20px !important;
+            border-radius: 16px !important;
+            box-shadow: none !important;
+            /* Removed shadow */
+            overflow: hidden !important;
+            background: transparent !important;
+            /* Removed background */
+            transition: all 0.3s ease !important;
+        }
+
+        .faq .accordion-item:hover {
+            transform: translateY(-3px);
+            /* box-shadow: 0 20px 40px rgba(78, 192, 219, 0.1) !important; Removed hover shadow */
+        }
+
+        .faq .accordion-button {
+            border-radius: 16px !important;
+            font-weight: 700 !important;
+            font-size: 1.15rem !important;
+            color: #2c3e50 !important;
+            background-color: transparent !important;
+            /* Removed background */
+            box-shadow: none !important;
+            padding: 25px 30px !important;
+            text-transform: capitalize;
+            transition: all 0.3s ease !important;
+        }
+
+        .faq .accordion-button:not(.collapsed) {
+            background: transparent !important;
+            /* Removed background */
+            color: #4EC0DB !important;
+            box-shadow: none !important;
+            border: 0 !important;
+            border-bottom: 0 !important;
+        }
+
+        .faq .accordion-collapse {
+            border: 0 !important;
+            border-width: 0 !important;
+            box-shadow: none !important;
+        }
+
+        .faq .accordion-button:focus {
+            box-shadow: none !important;
+            border-color: transparent !important;
+        }
+
+        .faq .accordion-body {
+            padding: 30px !important;
+            color: #555 !important;
+            line-height: 1.7 !important;
+            background-color: #fff !important;
+            font-size: 1rem !important;
+            border-top: 0 !important;
+        }
+
+        /* Modern Plus/Minus Icon */
+        .faq .accordion-button::after {
+            width: 40px;
+            height: 40px;
+            background-position: center;
+            background-size: 16px !important;
+            background-color: #fff;
+            border-radius: 50%;
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='12' y1='5' x2='12' y2='19'%3e%3c/line%3e%3cline x1='5' y1='12' x2='19' y2='12'%3e%3c/line%3e%3c/svg%3e") !important;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .faq .accordion-button:not(.collapsed)::after {
+            background-color: #4EC0DB;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='5' y1='12' x2='19' y2='12'%3e%3c/line%3e%3c/svg%3e") !important;
+            transform: rotate(180deg) !important;
+            box-shadow: 0 6px 20px rgba(78, 192, 219, 0.4);
+            border-color: transparent;
+        }
+
+        /* Mobile Horizontal Scroll for Packages */
+        @media (max-width: 991px) {
+            .packages-scroll-row {
+                display: flex !important;
+                flex-wrap: nowrap !important;
+                overflow-x: auto !important;
+                -webkit-overflow-scrolling: touch;
+                scroll-snap-type: x mandatory;
+                padding-bottom: 20px;
+                /* Space for shadow */
+                gap: 15px;
+            }
+
+            .packages-scroll-row>.col-lg-3 {
+                flex: 0 0 85% !important;
+                max-width: 85% !important;
+                scroll-snap-align: center;
+            }
+        }
+
+        /* Refactored Utility Classes */
+        .banner-bg-static {
+            background-image: url('https://irisholidays.com/keralatourism/wp-content/uploads/2023/12/varkala-beach-kerala-1.jpg');
+            height: 90vh;
+            padding: 0;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .dark-overlay-flex {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .centered-white-text {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero-title-large {
+            font-size: 3.5rem;
+            font-weight: 800;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            margin-bottom: 15px;
+        }
+
+        .hero-subtitle-medium {
+            font-size: 1.3rem;
+            font-weight: 500;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .img-brightness-dim {
+            filter: brightness(0.9);
+        }
+
+        .meta-spacing {
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -276,48 +818,298 @@
     <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
     <!-- ***** Header Start ***** -->
     <?php include('includes/header.php'); ?>
-    <!-- ***** Header End ***** -->
+    <!-- ***** Header End -->
 
-    <section class="trip-home">
-        <div class="container" style="  position: relative;">
-            <h1>VARKALA TOUR PACKAGES</h1>
-            <div class="row desktop-inform">
-                <div class="col">
+    <!-- Banner Slider Start -->
+    <!-- Banner Slider Start -->
+    <section class="trip-home banner-bg-static" id="tripSection">
+        <div class="banner-overlay dark-overlay-flex">
+            <div class="banner-content centered-white-text">
+                <h2 class="banner-title">
+                    Varkala Tour Packages</h2>
+                <p class="banner-subtitle hero-subtitle-medium">Experience
+                    the magic of cliffs and waves</p>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Slider End -->
+
+    <!-- About Us Section Start -->
+    <style>
+        .about-area {
+            position: relative;
+            z-index: 1;
+            padding: 120px 0 60px;
+            background-color: #f9f9f9;
+            overflow: hidden;
+        }
+
+        .about-img-wrapper {
+            position: relative;
+            z-index: 1;
+            /* padding-right: 30px;
+            padding-bottom: 30px; */
+        }
+
+        .about-img-1 {
+            width: 85%;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .about-img-1 img {
+            width: 100%;
+            transition: all 0.4s ease;
+        }
+
+        .about-img-2 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 55%;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 5px solid #fff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-img-2 img {
+            width: 100%;
+        }
+
+        .experience-badge {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            background: #4EC0DB;
+            padding: 20px 25px;
+            border-radius: 15px;
+            color: #fff;
+            box-shadow: 0 10px 20px rgba(78, 192, 219, 0.3);
+            text-align: center;
+            z-index: 2;
+        }
+
+        .experience-badge h3 {
+            font-size: 35px;
+            font-weight: 800;
+            margin: 0;
+            line-height: 1;
+        }
+
+        .experience-badge p {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+
+        .video-btn-wrap {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+        }
+
+        .about-content {
+            padding-left: 30px;
+        }
+
+        .section-subtitle {
+            color: #4EC0DB;
+            font-family: 'Damion', cursive;
+            /* Assuming handwriting font */
+            font-size: 24px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .section-title {
+            font-size: 42px;
+            font-weight: 800;
+            color: #2c3e50;
+            line-height: 1.2;
+            margin-bottom: 40px;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            position: relative;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 35px;
+            position: relative;
+        }
+
+        /* Connecting Dotted Line */
+        .feature-item:not(:last-child)::before {
+            content: "";
+            position: absolute;
+            left: 32px;
+            top: 65px;
+            height: calc(100% - 30px);
+            border-left: 2px dashed #e0e0e0;
+        }
+
+        .icon-box {
+            width: 65px;
+            height: 65px;
+            background: #4EC0DB;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 25px;
+            flex-shrink: 0;
+            box-shadow: 0 8px 20px rgba(78, 192, 219, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* White ring effect */
+        .icon-box::after {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 1px solid rgba(78, 192, 219, 0.3);
+            border-radius: 50%;
+        }
+
+        .feature-item:hover .icon-box {
+            transform: translateY(-5px);
+            background: #094067;
+        }
+
+        .icon-box img {
+            width: 32px;
+            filter: brightness(0) invert(1);
+        }
+
+        .feature-text h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 0 8px;
+            color: #2c3e50;
+        }
+
+        .feature-text p {
+            font-size: 15px;
+            color: #777;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .travel-bg-figure {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            opacity: 0.1;
+            width: 300px;
+        }
+    </style>
+
+    <section class="about-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Image Composition -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="about-img-wrapper">
+                        <!-- Main Image -->
+                        <div class="about-img-1">
+                            <img src="https://www.bluebirdtravels.in/wp-content/uploads/varkala/kerala/Places-to-Visit-in-Varkala-1200x900-cropped.jpg"
+                                alt="Varkala Adventure">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-subtitle">Explore Varkala</span>
+                        <h2 class="section-title">Highlights of Varkala</h2>
+
+                        <ul class="feature-list">
+                            <li class="feature-item animate">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-mountain-sun" style="font-size:24px; color:#fff;"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Majestic Cliff</h4>
+                                    <p>The only place in southern Kerala where cliffs are found adjacent to the Arabian
+                                        Sea.</p>
+                                </div>
+                            </li>
+
+                            <li class="feature-item animate">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Pristine Beaches</h4>
+                                    <p>Relax on the golden sands of Papanasam Beach, known for its holy waters and
+                                        stunning sunsets.</p>
+                                </div>
+                            </li>
+
+                            <li class="feature-item animate">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-om" style="font-size:24px; color:#fff;"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Spiritual &amp; Cultural Hub</h4>
+                                    <p>Home to the ancient Janardanaswamy Temple and the Sivagiri Mutt, inviting peace
+                                        and wellness.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- About Us Section End -->
 
-    <section style="margin-top:50px;">
+    <section
+        style="padding: 80px 0; background-image: url('https://ex-coders.com/html/turmet/assets/img/about/about-bg.jpg') ; background-size: cover; background-position: center; background-repeat: no-repeat;">
         <h2 class="head">VARKALA TOUR PACKAGES</h2>
         <div class="container">
 
-            <div class="row">
+            <div class="row packages-scroll-row">
                 <div class="col-lg-3">
-                    <div class="swiper-container2">
-                        <div class="swiper-slide">
-                            <a href="varkala-3days-2nights-2.php">
-                                <div class="picture">
-                                    <h4>Group Trip</h4>
+                    <div class="package-card-wrap">
+                        <a href="varkala-3days-2nights-2.php" class="card-modern">
+                            <div class="card-badge">Group Trip</div>
+                            <img src="assets/img/varkala/Munroesland.jpg" alt="Varkala and Munroe"
+                                class="card-img img-brightness-dim">
+                            <div class="card-gradient"></div>
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 3D / 2N</span>
                                 </div>
-                                <img class="img" src="assets/img/varkala/Munroesland.jpg" alt="Image 1"
-                            >
-                                <div class="slide-bg">
-                                    <div class="slide-text">
-                                        <div class="inner">
-                                            <h3><i class="fa-solid fa-calendar-days"> </i>3D / 2N</h3>
-                                            <h4><i class="fa-solid fa-location-dot"></i>
-                                                EX: Trivandrum,
-                                                Kochi
-                                            </h4>
-                                        </div>
-                                        <h5 class="fw-bold">Varkala and Munroe<br> Flashpacking</h5>
-                                    </div>
+                                <div class="card-meta meta-spacing">
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                            </a>
-                        </div>
+                                <h3 class="card-title">Varkala and Munroe<br> Flashpacking</h3>
+                            </div>
+                        </a>
+                        <button class="btn-custom-book w-100">
+                            Book Now
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </button>
                     </div>
-                    <a href="varkala-3days-2nights-2.php"><button class="btn w-100 ">Book Now</button></a>
                 </div>
 
                 <!-- <div class="col-lg-3">
@@ -346,111 +1138,88 @@
         </div> -->
 
                 <div class="col-lg-3">
-                    <div class="swiper-container2">
-                        <div class="swiper-slide">
-                            <a href="varkala-4days-3nights-1.php">
-                                <div class="picture">
-                                    <h4>Private Trip</h4>
+                    <div class="package-card-wrap">
+                        <a href="varkala-4days-3nights-1.php" class="card-modern">
+                            <div class="card-badge">Private Trip</div>
+                            <img src="assets/img/varkala/kerala-1.jpg" alt="Adventurous Varkala" class="card-img"
+                                style="filter:brightness(0.9)">
+                            <div class="card-gradient"></div>
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 4D / 3N</span>
                                 </div>
-                                <img class="img" src="assets/img/varkala/kerala-1.jpg" alt="Image 3"
-                                    >
-                                <div class="slide-bg">
-                                    <div class="slide-text">
-                                        <div class="inner">
-                                            <h3><i class="fa-solid fa-calendar-days"> </i>4D / 3N</h3>
-                                            <h4><i class="fa-solid fa-location-dot"></i>
-                                                EX: Trivandrum,
-                                                Kochi
-                                            </h4>
-                                        </div>
-                                        <h5 class="fw-bold">Adventurous Varkala with<br> Trivandrum</h5>
-                                    </div>
+                                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                            </a>
-                        </div>
+                                <h3 class="card-title">Adventurous Varkala with<br> Trivandrum</h3>
+                            </div>
+                        </a>
+                        <button class="btn-custom-book w-100">
+                            Book Now
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </button>
                     </div>
-                    <a href="varkala-4days-3nights-1.php"><button class="btn w-100 ">Book Now</button></a>
 
                 </div>
 
-                <!-- <div class="col-lg-3">
-          <div class="swiper-container2">
-            <div class="swiper-slide">
-              <a href="varkala-grouptrip.php">
-                <div class="picture">
-                  <h4>Private Trip</h4>
-                </div>
-                <img class="img" src="assets/img/varkala/black-beach.jpg" alt="Image 2">
-                <div class="slide-bg">
-                  <div class="slide-text">
-                    <div class="inner">
-                      <h3><i class="fa-solid fa-calendar-days"> </i>3D / 2N</h3>
-                      <h4><i class="fa-solid fa-location-dot"></i>
-                        EX: Trivandrum,
-                        Kochi
-                      </h4>
-                    </div>
-                    <h5 class="fw-bold">Vibrant Varkala with<br> Munroe</h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div> -->
+
 
                 <div class="col-lg-3">
-                    <div class="swiper-container2">
-                        <div class="swiper-slide">
-                            <a href="varkala-4days-3nights-2.php">
-                                <div class="picture">
-                                    <h4>Private Trip</h4>
+                    <div class="package-card-wrap">
+                        <a href="varkala-4days-3nights-2.php" class="card-modern">
+                            <div class="card-badge">Private Trip</div>
+                            <img src="assets/img/varkala/varkala-bg1.jpg" alt="Magical Varkala" class="card-img"
+                                style="filter:brightness(0.9)">
+                            <div class="card-gradient"></div>
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 4D / 3N</span>
                                 </div>
-                                <img class="img" src="assets/img/varkala/varkala-bg1.jpg" alt="Image 4"
-                                 >
-                                <div class="slide-bg">
-                                    <div class="slide-text">
-                                        <div class="inner">
-                                            <h3><i class="fa-solid fa-calendar-days"> </i>4D / 3N</h3>
-                                            <h4><i class="fa-solid fa-location-dot"></i>
-                                                EX: Trivandrum,
-                                                Kochi
-                                            </h4>
-                                        </div>
-                                        <h5 class="fw-bold">Magical Varkala with<br> Munroe Island</h5>
-                                    </div>
+                                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                            </a>
-                        </div>
+                                <h3 class="card-title">Magical Varkala with<br> Munroe Island</h3>
+                            </div>
+                        </a>
+                        <button class="btn-custom-book w-100">
+                            Book Now
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </button>
                     </div>
-                    <a href="varkala-4days-3nights-2.php"><button class="btn w-100 ">Book Now</button></a>
 
                 </div>
 
                 <div class="col-lg-3">
-                    <div class="swiper-container2">
-                        <div class="swiper-slide">
-                            <a href="varkala-5days-4nights.php">
-                                <div class="picture">
-                                    <h4>Private Trip</h4>
+                    <div class="package-card-wrap">
+                        <a href="varkala-5days-4nights.php" class="card-modern">
+                            <div class="card-badge">Private Trip</div>
+                            <img src="assets/img/varkala/black-beach.jpg" alt="Varkala All-In-One" class="card-img"
+                                style="filter:brightness(0.9)">
+                            <div class="card-gradient"></div>
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 5D / 4N</span>
                                 </div>
-                                <img class="img" src="assets/img/varkala/black-beach.jpg" alt="Image 4"
-                                >
-                                <div class="slide-bg">
-                                    <div class="slide-text">
-                                        <div class="inner">
-                                            <h3><i class="fa-solid fa-calendar-days"> </i>5D / 4N</h3>
-                                            <h4><i class="fa-solid fa-location-dot"></i>
-                                                EX: Trivandrum,
-                                                Kochi
-                                            </h4>
-                                        </div>
-                                        <h5 class="fw-bold">Varkala All-In-One</h5>
-                                    </div>
+                                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                            </a>
-                        </div>
+                                <h3 class="card-title">Varkala All-In-One</h3>
+                            </div>
+                        </a>
+                        <button class="btn-custom-book w-100">
+                            Book Now
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </button>
                     </div>
-                    <a href="varkala-5days-4nights.php"><button class="btn w-100 ">Book Now</button></a>
 
                 </div>
 
@@ -592,12 +1361,152 @@
 
     </section>
 
+    <!--====== Highlights Section Start ======-->
+    <!-- <section class="highlights-section">
+        <div class="container">
+            <h2 class="head">Highlights of Varkala</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="highlight-card w-100">
+                        <div class="highlight-icon">
+                            <i class="fa-solid fa-umbrella-beach"></i>
+                        </div>
+                        <h4>Cliff & Beach</h4>
+                        <p>Experience the unique geological formation where cliffs meet the Arabian Sea, offering
+                            breathtaking views and sunset spots.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="highlight-card w-100">
+                        <div class="highlight-icon">
+                            <i class="fa-solid fa-gopuram"></i>
+                        </div>
+                        <h4>Spiritual Vibes</h4>
+                        <p>Visit the 2,000-year-old Janardana Swami Temple and immerse yourself in the spiritual aura of
+                            the Sivagiri Mutt.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="highlight-card w-100">
+                        <div class="highlight-icon">
+                            <i class="fa-solid fa-swimmer"></i>
+                        </div>
+                        <h4>Water Sports</h4>
+                        <p>A haven for adventure seekers! Try surfing, paragliding, and jet skiing along the pristine
+                            coastline.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="highlight-card w-100">
+                        <div class="highlight-icon">
+                            <i class="fa-solid fa-coffee"></i>
+                        </div>
+                        <h4>Cafe Culture</h4>
+                        <p>Relax at vibrant cliff-top cafes serving delicious seafood, continental cuisines, and a
+                            laid-back hippie atmosphere.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section> -->
+    <!--====== Highlights Section End ======-->
+
+    <!--====== Gallery Section Start ======-->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="head">Glimpses of Varkala</h2>
+            <div class="swiper-container-gallery">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Black Sand Beach</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Varkala Cliff</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Sunset Views</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Palm Groves</h5>
+                        </div>
+                    </div>
+
+                    <!-- Duplicated Slides for Loop Stability -->
+                    <div class="swiper-slide">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Black Sand Beach</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Varkala Cliff</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Sunset Views</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Palm Groves</h5>
+                        </div>
+                    </div>
+
+                    <!-- Duplicated Slides for Loop Stability 2 -->
+                    <div class="swiper-slide">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Black Sand Beach</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Varkala Cliff</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Sunset Views</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Palm Groves</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!--====== Gallery Section End ======-->
+
     <!--====== faq Start ======-->
     <section class="faq">
         <h2 class="head">FAQ</h2>
-        <div class="container ">
-            <div class="row">
-                <div class="">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item acc-item">
                             <h2 class="accordion-header acco-head" id="flush-headingOne">
@@ -694,14 +1603,11 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
     </section>
     <!--====== faq END ======-->
 
 
-    <?php include('includes/trips.php'); ?>
 
     <!--====== FOOTER START======-->
     <?php include('includes/footer.php'); ?>
@@ -921,6 +1827,32 @@
 
 
 
+    </script>
+    <script>
+        var gallerySwiper = new Swiper('.swiper-container-gallery', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            spaceBetween: 40, /* Add spacing between slides */
+            loop: true, /* Enable infinite loop */
+            loopedSlides: 6, /* Essential for smooth loop with auto slides */
+            coverflowEffect: {
+                rotate: 0, /* Flat coverflow for cleaner look */
+                stretch: 0,
+                depth: 150,
+                modifier: 1.5,
+                slideShadows: false, /* Remove heavy shadows for cleaner UI */
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
     </script>
 </body>
 

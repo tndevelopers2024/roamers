@@ -36,6 +36,7 @@
     }
 
     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
     }
 
@@ -208,13 +209,6 @@
       text-align: center;
       margin-bottom: 2rem;
       color: #4ec0db;
-      font-size: 2rem;
-      font-weight: 700;
-    }
-
-    .accordion-item {
-      border: 1px solid #dee2e6 !important;
-      margin-bottom: 1rem;
     }
 
     .accordion-button {
@@ -222,39 +216,16 @@
       color: #212529 !important;
       background-color: #fff !important;
       border-radius: 10px !important;
-      padding: 1rem 1.5rem !important;
-      display: flex !important;
-      justify-content: space-between !important;
-      align-items: center !important;
-      box-shadow: none !important;
-    }
-
-    .accordion-button:focus {
-      box-shadow: none !important;
-      border-color: transparent !important;
     }
 
     .accordion-button:not(.collapsed) {
       color: #4ec0db !important;
-      background-color: #fff !important;
-    }
-
-    .accordion-button .fa-chevron-down {
-      transition: transform 0.3s ease;
-      color: #4ec0db;
-      font-size: 1rem;
-      flex-shrink: 0;
-      margin-left: 1rem;
-    }
-
-    .accordion-button:not(.collapsed) .fa-chevron-down {
-      transform: rotate(180deg);
+      box-shadow: none;
     }
 
     .accordion-body {
       font-size: 0.9rem;
       color: #555;
-      line-height: 1.6;
     }
 
     .whatapp {
@@ -361,13 +332,6 @@
         border-radius: 0 !important;
       }
     }
-
-    /* Increase card spacing on mobile */
-    @media (max-width: 767px) {
-      .d-flex.flex-wrap .upcoming-card {
-        margin-bottom: 30px !important;
-      }
-    }
   </style>
 </head>
 
@@ -419,7 +383,8 @@
 
     </h2>
 
-    <div class="d-flex flex-wrap justify-content-center justify-content-md-start align-items-start mx-auto p-0" style="max-width: 1600px;">
+    <div class="d-flex flex-wrap justify-content-center align-items-center m-0 p-0">
+      <!-- SPITI WINTER EXPEDITION -->
       <div class="upcoming-card mt-3" onclick="window.open('spitivalley-winter-christmas&newyear.php','_blank')"
         style="cursor: pointer;">
         <div class="upcoming-content">
@@ -521,7 +486,7 @@
           </div>
           <div class="upcoming-card-flex">
             <div class="upcoming-duration">
-              <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>3D/2N
+              <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>5D/4N
             </div>
             <div class="upcoming-from">
               <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
@@ -529,11 +494,11 @@
             </div>
           </div>
           <h1 class="upcoming-title">KERALA: TO GOD’s OWN PLACE</h1>
-          <p class="upcoming-locations">Munnar , Alappuzha</p>
+          <p class="upcoming-locations">Munnar, Thekkady, Alappuzha</p>
           <div class="upcoming-price-section">
             <div class="upcoming-dates">
               <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-              <span class="upcoming-dates-text">Dec 21,24,28</span>
+              <span class="upcoming-dates-text">Dec 24</span>
             </div>
             <div>
               <div class="upcoming-starts">Starts</div>
@@ -587,7 +552,7 @@
             </div>
             <div class="upcoming-from">
               <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-              <span>EX: Bangalore / Chennai</span>
+              <span>EX: Chennai</span>
             </div>
           </div>
           <h1 class="upcoming-title">Wonders of Wayanad</h1>
@@ -599,7 +564,7 @@
             </div>
             <div>
               <div class="upcoming-starts">Starts</div>
-              <div class="upcoming-price">8,990/-</div>
+              <div class="upcoming-price">₹9,499/-</div>
             </div>
           </div>
           <a href="wayanad-christmas-newyear.php" target="_blank" class="upcoming-view">View Trip</a>
@@ -665,72 +630,68 @@
           <a href="pondi-christmas&newyear-special.php" class="upcoming-view">View Trip</a>
         </div>
       </div>
-     <!-- Sri Lanka -->
-        <div class="upcoming-card mt-5" onclick="window.open('srilanka-christmas&newyear.php','_blank')"
-          style="cursor: pointer;">
-          <div class="upcoming-content">
-            <div class="upcoming-image">
-              <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
-            </div>
-            <div class="upcoming-card-flex">
-              <div class="upcoming-duration">
-                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-              </div>
-              <div class="upcoming-from">
-                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                <span>EX: Colombo</span>
-              </div>
-            </div>
-            <h1 class="upcoming-title">Sri Lanka</h1>
-            <p class="upcoming-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
-            <div class="upcoming-price-section">
-              <div class="upcoming-dates">
-                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                <span class="upcoming-dates-text">Dec 13,20,27</span>
-              </div>
-              <div>
-                <div class="upcoming-starts">Starts</div>
-                <div class="upcoming-price">₹43,999</div>
-              </div>
-            </div>
-            <a href="srilanka-christmas&newyear-special.php" target="_blank" class="upcoming-view">View Trip</a>
+      <!-- Sri Lanka -->
+      <div class="upcoming-card mt-5" onclick="window.open('srilanka-christmas&newyear.php','_blank')"
+        style="cursor: pointer;">
+        <div class="upcoming-content">
+          <div class="upcoming-image">
+            <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
           </div>
-        </div>
-        <!-- Andaman Island Hopping -->
-        <div class="upcoming-card mt-5" onclick="window.open('andaman-christmas&newyear.php','_blank')"
-          style="cursor: pointer;">
-          <div class="upcoming-content">
-            <div class="upcoming-image">
-              <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg" alt="Andaman Island Hopping">
+          <div class="upcoming-card-flex">
+            <div class="upcoming-duration">
+              <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
             </div>
-            <div class="upcoming-card-flex">
-              <div class="upcoming-duration">
-                <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
-              </div>
-              <div class="upcoming-from">
-                <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
-                <span>EX: Port Blair</span>
-              </div>
+            <div class="upcoming-from">
+              <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+              <span>EX: Colombo</span>
             </div>
-            <h1 class="upcoming-title">Andaman Island Hopping</h1>
-            <p class="upcoming-locations">Port Blair, Ross Island, Havelock, Neil</p>
-            <div class="upcoming-price-section">
-              <div class="upcoming-dates">
-                <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
-                <span class="upcoming-dates-text">Dec 25</span>
-              </div>
-              <div>
-                <div class="upcoming-starts">Starts</div>
-                <div class="upcoming-price andaman-price">₹34,500/- </div>
-              </div>
-            </div>
-            <a href="andaman-christmas&newyear.php" target="_blank" class="upcoming-view">View Trip</a>
           </div>
+          <h1 class="upcoming-title">Sri Lanka</h1>
+          <p class="upcoming-locations">Sigiriya, Kandy, Ella, Galle, Bentota</p>
+          <div class="upcoming-price-section">
+            <div class="upcoming-dates">
+              <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+              <span class="upcoming-dates-text">Dec 13,20,27</span>
+            </div>
+            <div>
+              <div class="upcoming-starts">Starts</div>
+              <div class="upcoming-price">₹43,999</div>
+            </div>
+          </div>
+          <a href="srilanka-christmas&newyear-special.php" target="_blank" class="upcoming-view">View Trip</a>
         </div>
-
+      </div>
+      <!-- Andaman Island Hopping -->
+      <div class="upcoming-card mt-5" onclick="window.open('andaman-christmas&newyear.php','_blank')" style="cursor: pointer;">
+        <div class="upcoming-content">
+          <div class="upcoming-image">
+            <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg" alt="Andaman Island Hopping">
+          </div>
+          <div class="upcoming-card-flex">
+            <div class="upcoming-duration">
+              <span class="icon"><img src="assets/svg/time.svg" alt="Time"></span>7D/6N
+            </div>
+            <div class="upcoming-from">
+              <span class="icon"><img src="assets/svg/location.svg" alt="Location"></span>
+              <span>EX: Port Blair</span>
+            </div>
+          </div>
+          <h1 class="upcoming-title">Andaman Island Hopping</h1>
+          <p class="upcoming-locations">Port Blair, Ross Island, Havelock, Neil</p>
+          <div class="upcoming-price-section">
+            <div class="upcoming-dates">
+              <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
+              <span class="upcoming-dates-text">Dec 25</span>
+            </div>
+            <div>
+              <div class="upcoming-starts">Starts</div>
+              <div class="upcoming-price andaman-price">₹34,500/- </div>
+            </div>
+          </div>
+          <a href="andaman-christmas&newyear.php" target="_blank" class="upcoming-view">View Trip</a>
+        </div>
+      </div>
     </div>
-
-
 
   </div>
 
@@ -760,7 +721,7 @@
   </div> -->
 
   <!-- Banner -3 -->
-  <!-- <div class="container">
+  <div class="container">
     <div class="banner-swiper-container banner-swiper-secondary" sty>
       <div class="swiper banner-swiper" style="will-change: transform; backface-visibility: hidden;">
         <div class="swiper-wrapper" style="will-change: transform; backface-visibility: hidden;">
@@ -792,7 +753,8 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+
 
   <!-- Faq Seciton -->
   <section class="faq" id="notes">
@@ -803,14 +765,15 @@
           <!--| First |-->
           <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+              <button
+                class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                 aria-controls="collapseOne">
-                <span>Can I Join solo?</span>
-                <!-- <i class="fa-solid fa-chevron-down"></i> -->
+                <span class="ms-3" style="font-size: 1rem;">Can I Join solo ?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
                 <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
@@ -824,10 +787,12 @@
           <!--| Second |-->
           <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <span>How about safety for female travelers?</span>
-                <!-- <i class="fa-solid fa-chevron-down"></i> -->
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                <span class="ms-3" style="font-size: 1rem;">How about safety for female travelers?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -845,10 +810,12 @@
           <!--| Third |-->
           <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <span>What is the age requirement to join?</span>
-                <!-- <i class="fa-solid fa-chevron-down"></i> -->
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                <span class="ms-3" style="font-size: 1rem;">What is the age requirement to Join?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -860,12 +827,14 @@
           </div>
 
           <!--| Four |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
             <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                <span>How do I confirm my bookings?</span>
-                <!-- <i class="fa-solid fa-chevron-down"></i> -->
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                aria-controls="collapseFour">
+                <span class="ms-3" style="font-size: 1rem;">How do confirm my bookings ?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -881,10 +850,12 @@
           <!--| Five |-->
           <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
             <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                <span>How do I trust Roamers?</span>
-                <!-- <i class="fa-solid fa-chevron-down"></i> -->
+              <button
+                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                aria-controls="collapseFive">
+                <span class="ms-3" style="font-size: 1rem;">How do trust Roamers?</span>
+                <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
