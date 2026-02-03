@@ -262,7 +262,6 @@ $months_config = [
         overflow-x: hidden;
         max-width: 100%;
         margin: 0;
-        background-color: #f5f5f5 !important;
     }
 
     .upcoming-container {

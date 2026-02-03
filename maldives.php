@@ -2226,7 +2226,6 @@
                 <div class="swiper-pagination"></div>
             </div>
     </section>
-    
     <!-- Discovery Sections -->
     <section class="discovery-section reveal" style="padding: 100px 0;">
         <div class="container">
