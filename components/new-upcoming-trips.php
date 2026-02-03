@@ -52,7 +52,7 @@ $trips_db = [
         'places' => 'Guwahati, Shillong, Cherrapunjee',
         'price' => '₹19,990',
         'original_price' => '',
-        'link' => 'meghalaya.php'
+        'link' => 'meghalaya'
     ],
     'varkala' => [
         'title' => 'Varkala',
@@ -61,7 +61,7 @@ $trips_db = [
         'location' => 'EX: Chennai/Trivandrum',
         'places' => 'Chennai - Trivandrum',
         'price' => '₹8,990',
-        'link' => 'varkala-grouptrip.php'
+        'link' => 'varkala-grouptrip'
     ],
     'chikmagalur' => [
         'title' => 'CHIKMAGALUR BACKPACKING',
@@ -70,7 +70,7 @@ $trips_db = [
         'location' => 'EX: Chennai - Bangalore',
         'places' => 'Chikmagalur, Z point, Hebbe Falls',
         'price' => '₹7,990',
-        'link' => 'chikmagalur.php'
+        'link' => 'chikmagalur'
     ],
     // munnar with kolukkumalai
     'munnar' => [
@@ -81,7 +81,7 @@ $trips_db = [
         'places' => 'Munnar',
         'price' => '',
         'price_class' => 'munnar-price',
-        'link' => 'kolukkumalai-trek.php'
+        'link' => 'kolukkumalai-trek'
     ],
     'srilanka' => [
         'title' => 'Sri Lanka',
@@ -90,7 +90,7 @@ $trips_db = [
         'location' => 'EX: Colombo',
         'places' => 'Sigiriya, Kandy, Ella, Galle, Bentota',
         'price' => '₹43,999',
-        'link' => 'srilanka.php'
+        'link' => 'srilanka'
     ],
     'pondi' => [
         'title' => 'Pondi Dive-in',
@@ -99,7 +99,7 @@ $trips_db = [
         'location' => 'EX: Direct, Chennai',
         'places' => 'Pondicherry',
         'price' => '₹4,990',
-        'link' => 'pondicherry.php'
+        'link' => 'pondicherry'
     ],
     'valley' => [
         'title' => 'Valley of Flowers Trek',
@@ -108,7 +108,7 @@ $trips_db = [
         'location' => 'Ex: Rishikesh',
         'places' => 'Rishikesh, Joshimath, Pulna',
         'price' => '₹9,999',
-        'link' => 'valley-of-flowers.php'
+        'link' => 'valley-of-flowers'
     ],
     'andaman' => [
         'title' => 'Andaman Island Hopping',
@@ -118,7 +118,7 @@ $trips_db = [
         'places' => 'Port Blair, Ross Island, Havelock, Neil',
         'price' => '₹24,990',
         'price_class' => 'andaman-price',
-        'link' => 'andaman.php'
+        'link' => 'andaman'
     ],
     'kodaikanal' => [
         'title' => 'KODAIKANAL BACKPACKING',
@@ -128,7 +128,7 @@ $trips_db = [
         'places' => 'Kodaikanal , Vattakanal , Poombarai',
         'price' => '₹',
         'price_class' => 'kodaikanal-price',
-        'link' => 'kodaikanal1.php'
+        'link' => 'kodaikanal1'
     ],
     'wayanad' => [
         'title' => 'Wonders of Wayanad',
@@ -137,7 +137,7 @@ $trips_db = [
         'location' => 'EX: Chennai',
         'places' => 'Wayanad',
         'price' => '₹8,990',
-        'link' => 'wayanad.php'
+        'link' => 'wayanad'
     ],
     'kerala_onam' => [
         'title' => 'Onam Special – Kerala Getaway',
@@ -146,7 +146,7 @@ $trips_db = [
         'location' => 'EX: Chennai',
         'places' => 'Munnar , Alappuzha',
         'price' => '₹8499',
-        'link' => 'kerala-onam.php'
+        'link' => 'kerala-onam'
     ],
     'ooty' => [
         'title' => 'Ooty The Queen of Hills',
@@ -155,7 +155,7 @@ $trips_db = [
         'location' => 'EX: Chennai, Coimbatore',
         'places' => 'Ooty, Pykara, Coonoor, Isha',
         'price' => '₹6,999',
-        'link' => 'ooty.php'
+        'link' => 'ooty'
     ]
 ];
 // Month schedules we have to add the trips here based on the month for the upcoming trips

@@ -83,12 +83,7 @@
           </span>
         </li>
 
-        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
-          ROSS LAND
-          <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-                style="width:13px; margin-bottom: 3px;"></span>
-        </li>
+  
         <li class="mobile-small-text m me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
           HAVELOCK ISLAND <span class="ms-2"><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
@@ -97,6 +92,13 @@
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
           NEIL ISLAND
+              <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
+                style="width:13px; margin-bottom: 3px;"></span>
+        </li>
+              <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
+
+          ROSS LAND
+      
         </li>
       </ul>
 

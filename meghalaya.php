@@ -799,7 +799,7 @@
             <img src="https://roamers.in/assets/img/megalaya/nohkalikali-falls.jpg" alt="roamers-Gallery">
           </div>
         </div>
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
           <div class="slider-image">
             <img src="https://roamers.in/assets/img/megalaya/mawsami%20caves.jpg" alt="roamers-Gallery">
           </div>
@@ -818,7 +818,7 @@
           <div class="slider-image">
             <img src="https://roamers.in/assets/img/megalaya/krang%20shuri%20waterfalls.jpg" alt="roamers-Gallery">
           </div>
-        </div>
+        </div> -->
         <div class="swiper-slide">
           <div class="slider-image">
             <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery">
@@ -848,6 +848,7 @@
       <div class="swiper-pagination d-none d-md-none"></div>
     </div>
   </section>
+
 
 
 
