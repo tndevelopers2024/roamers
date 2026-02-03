@@ -135,7 +135,7 @@
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value andaman-price"><span>/-</span></div>
+                  <div class="info-value"><span>24,990/-</span></div>
                 </div>
               </div>
             </div>
@@ -839,7 +839,7 @@
                       <span class="old-price">
                         <strike>₹ 39,990/-</strike>
                       </span>
-                      <span class="andaman-price new-price"></span><span class="new-price ">/-</span>
+                      <span class="new-price">₹24,990/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
@@ -1071,7 +1071,7 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹34,500/-</span>
+          <span class="price-amount ">₹24,990/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>

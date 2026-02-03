@@ -117,22 +117,22 @@ like-minded travelers!
       left: -100%;
     }
 
-    .butn:hover,
+    /* .butn:hover,
     .butn:active {
       transform: translateY(-3px);
       color: #fff;
       box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-    }
+    } */
 
-    .butn__new:hover::before {
+    /* .butn__new:hover::before {
       left: 50%;
       opacity: 0.5s;
-    }
+    } */
 
-    .butn__new:hover::after {
+    /* .butn__new:hover::after {
       left: 150%;
       opacity: 0.6;
-    }
+    } */
 
     .trip-home {
       background: url(assets/img/andaman/Media/43111.jpg);
@@ -197,9 +197,9 @@ like-minded travelers!
       border-radius: 5px;
     }
 
-    .trip-about img:hover {
+    /* .trip-about img:hover {
       transform: scale(1.04) !important;
-    }
+    } */
 
     .whatapp {
       position: fixed;
@@ -548,9 +548,9 @@ like-minded travelers!
       margin-top: 5px;
     }
 
-    .acc-inner li:hover::before {
+    /* .acc-inner li:hover::before {
       border-left: 10px solid #555 !important;
-    }
+    } */
 
     .des-sub {
       display: flex;

@@ -91,7 +91,7 @@
         width: 350px;
         min-width: 367px;
         max-width: 378px;
-        height: 350px;
+        height: 390px;
         position: relative;
         border: 2px solid;
         border-image-source: linear-gradient(193.16deg, rgba(255, 255, 255, 0) 9.46%, #32EEE7 90.51%);

@@ -239,9 +239,9 @@ session_start();
     }
 
 
-    .details-box:hover {
+    /* .details-box:hover {
       background-color: #094067;
-    }
+    } */
 
 
     .details-head h4 {
@@ -655,10 +655,10 @@ session_start();
       width: 20px !important;
     }
 
-
+/* 
     #full-details .div i:hover {
       color: #4ec0db !important;
-    }
+    } */
 
 
     #full-details .div p {

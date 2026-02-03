@@ -12,6 +12,22 @@
             box-sizing: border-box;
         }
 
+        /* Aggressive Reset for Links */
+        a,
+        a:hover,
+        a:focus,
+        a:visited,
+        a *,
+        .upcoming-view,
+        .upcoming-view:hover {
+            text-decoration: none !important;
+            border: none !important;
+            border-bottom: none !important;
+            outline: none !important;
+            box-shadow: none !important;
+            color: inherit;
+        }
+
         html,
         body {
             overflow-x: hidden;
@@ -84,13 +100,13 @@
             display: none;
             margin-bottom: 80px;
             opacity: 0;
-            transition: opacity 0.5s cubic-bezier(0.4,0,0.2,1);
+            transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .upcoming-tab-content.active {
             display: block;
             opacity: 1;
-            transition: opacity 0.5s cubic-bezier(0.4,0,0.2,1);
+            transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .upcoming-card {
@@ -98,15 +114,15 @@
             width: 350px;
             min-width: 367px;
             max-width: 378px;
-            height: 350px;
+            height: 490px;
             position: relative;
             border: 2px solid;
             border-image-source: linear-gradient(193.16deg, rgba(255, 255, 255, 0) 9.46%, #32EEE7 90.51%);
-            border-radius: 30px;
+            border-radius: 20px;
             background: transparent;
             scroll-snap-align: start;
             margin: 0 10px;
-            transition: box-shadow 0.3s cubic-bezier(0.4,0,0.2,1), transform 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .upcoming-card:hover {
@@ -119,7 +135,7 @@
             height: 450px;
             border-radius: 24px;
             overflow: hidden;
-            transition: box-shadow 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .upcoming-image img {
@@ -128,7 +144,7 @@
             object-fit: cover;
             border-radius: 24px;
             padding: 2px;
-            transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         /* .upcoming-card:hover .upcoming-image img {
@@ -161,7 +177,7 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            transition: box-shadow 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         @media (max-width: 600px) {
@@ -234,7 +250,7 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
             text-overflow: ellipsis;
             white-space: nowrap;
-            transition: color 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         /* .upcoming-card:hover .upcoming-title {
@@ -247,7 +263,7 @@
             margin: 1px 12px;
             text-overflow: ellipsis;
             white-space: nowrap;
-            transition: color 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         /* .upcoming-card:hover .upcoming-locations {
@@ -274,7 +290,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            transition: background 0.3s cubic-bezier(0.4,0,0.2,1), color 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         /* .upcoming-card:hover .upcoming-dates {
@@ -301,7 +317,7 @@
             font-weight: bold;
             text-align: right;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-            transition: color 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         /* .upcoming-card:hover .upcoming-price {
@@ -321,19 +337,19 @@
             /* box-shadow: 5px 5px 44px 0px #3CADC9B2; */
             font-size: 15px;
             z-index: 10;
-            transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             padding: 8px 18px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        .upcoming-view:hover, .upcoming-view:focus {
+        /* .upcoming-view:hover, .upcoming-view:focus {
             background: #4CB9D3;
             color: #fff;
             box-shadow: 0 8px 32px 0 rgba(76,185,211,0.18), 0 1.5px 8px 0 rgba(50,238,231,0.10);
             transform: scale(1.05) translateX(-50%);
-        }
+        } */
 
         .upcoming-header {
             margin: 0px 0px 30px 0px;
@@ -370,7 +386,7 @@
             -webkit-overflow-scrolling: touch;
             will-change: scroll-position;
             scroll-behavior: smooth;
-            transition: gap 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: gap 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .upcoming-slider::-webkit-scrollbar {
@@ -394,7 +410,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: background 0.2s, box-shadow 0.3s cubic-bezier(0.4,0,0.2,1), color 0.3s cubic-bezier(0.4,0,0.2,1);
+            transition: background 0.2s, box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .upcoming-slider-arrow.left {
@@ -413,7 +429,7 @@
         .upcoming-slider-arrow:hover:not(:disabled) {
             background: #4CB9D3;
             color: #fff;
-            box-shadow: 0 4px 16px 0 rgba(76,185,211,0.18);
+            box-shadow: 0 4px 16px 0 rgba(76, 185, 211, 0.18);
         }
 
         @media (max-width: 900px) {
@@ -646,7 +662,9 @@
                                     <div class="upcoming-price ">₹8499</div>
                                 </div>
                             </div>
-                            <a href="kerala-onam.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <a href="kerala-onam.php" target="_blank" class="upcoming-view"
+                                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">View
+                                Trip</a>
                         </div>
                     </div>
                     <div class="upcoming-card">
@@ -675,7 +693,9 @@
                                     <div class="upcoming-price">₹4,990</div>
                                 </div>
                             </div>
-                            <a href="pondicherry.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <a href="pondicherry.php" target="_blank" class="upcoming-view"
+                                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">View
+                                Trip</a>
                         </div>
                     </div>
                     <div class="upcoming-card">
@@ -704,7 +724,9 @@
                                     <div class="upcoming-price">₹8,990</div>
                                 </div>
                             </div>
-                            <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view"
+                                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">View
+                                Trip</a>
                         </div>
                     </div>
                     <div class="upcoming-card">
@@ -733,7 +755,9 @@
                                     <div class="upcoming-price">₹19,990</div>
                                 </div>
                             </div>
-                            <a href="meghalaya.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <a href="meghalaya.php" target="_blank" class="upcoming-view"
+                                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">View
+                                Trip</a>
                         </div>
                     </div>
                     <div class="upcoming-card">
@@ -762,7 +786,9 @@
                                     <div class="upcoming-price">₹7,990</div>
                                 </div>
                             </div>
-                            <a href="chikmagalur.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <a href="chikmagalur.php" target="_blank" class="upcoming-view"
+                                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">View
+                                Trip</a>
                         </div>
                     </div>
                     <div class="upcoming-card">
@@ -791,7 +817,9 @@
                                     <div class="upcoming-price munnar-price"></div>
                                 </div>
                             </div>
-                            <a href="kolukkumalai-trek.php" target="_blank" class="upcoming-view">View Trip</a>
+                            <a href="kolukkumalai-trek.php" target="_blank" class="upcoming-view"
+                                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">View
+                                Trip</a>
                         </div>
                     </div>
                     <div class="upcoming-card">
@@ -831,13 +859,13 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const tabBtns = document.querySelectorAll('.upcoming-tab-btn');
             const tabContents = document.querySelectorAll('.upcoming-tab-content');
 
             // Tab switching (only August is active)
             tabBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
+                btn.addEventListener('click', function () {
                     const tab = btn.getAttribute('data-tab');
                     if (!tab) {
                         // Prevent multiple toasts
@@ -965,14 +993,14 @@
                     return cardLeft - (containerWidth - cardWidth) / 2;
                 }
 
-                leftArrow.addEventListener('click', function() {
+                leftArrow.addEventListener('click', function () {
                     const currentIndex = getCurrentIndex();
                     const targetIndex = Math.max(0, currentIndex - 1);
                     const scrollPosition = getCenteredPosition(targetIndex);
                     smoothScrollTo(scrollPosition);
                 });
 
-                rightArrow.addEventListener('click', function() {
+                rightArrow.addEventListener('click', function () {
                     const currentIndex = getCurrentIndex();
                     const targetIndex = Math.min(cards.length - 1, currentIndex + 1);
                     const scrollPosition = getCenteredPosition(targetIndex);

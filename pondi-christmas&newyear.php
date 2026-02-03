@@ -71,7 +71,7 @@
 
             <h2 class="banner-hight-top ms-2"
                 style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-                <p class="text-white">Christmas & New Year Special 🎅</p>
+                <p class="text-white">Christmas Christmas & New Year Special New Year 2026 Special 🎅</p>
 
                 <span class="pondi-banner-title">Pondicherry & chill</span>
             </h2>
@@ -682,8 +682,8 @@
 
                                         <p>perfect for group adventures and shared <br> memories.</p>
                                         <div class="trip-form p-0">
-                                            <a href="pondi-form-christmas&newyear-special.php" class="btn butn butn__new bg-"
-                                                style="border-radius: 10px;">Dates
+                                            <a href="pondi-form-christmas&newyear-special.php"
+                                                class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                                                 & Costing</a>
                                         </div>
                                     </div>
@@ -694,8 +694,7 @@
                             <div id="form" class="shadow"
                                 style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                                 <form>
-                                    <h3
-                                        style="text-align: center; margin-bottom: 30px; color: #333;">
+                                    <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                                         Let's Map Your Dream Trip</h3>
 
                                     <div class="input-field mb-3" style="margin-bottom: 20px;">

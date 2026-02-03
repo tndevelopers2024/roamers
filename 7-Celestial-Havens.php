@@ -314,10 +314,10 @@
             background-color: #fff !important;
         }
 
-        .nav-pills a:hover {
+        /* .nav-pills a:hover {
             background-color: #094067;
             color: white;
-        }
+        } */
 
         .nav-pills a.active {
             background-color: #4ec0db;
@@ -349,14 +349,14 @@
             border-radius: 10px;
         }
 
-        .blog-wrapper a:hover img {
+        /* .blog-wrapper a:hover img {
             transform: scale(1.03) !important;
             transition: all 0.3s ease 0s;
-        }
+        } */
 
-        .blog-wrapper a:hover h5 {
+        /* .blog-wrapper a:hover h5 {
             color: #4ec0db;
-        }
+        } */
         .blog-content .list {
             position: relative;
             padding-left: 20px;

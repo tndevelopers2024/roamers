@@ -169,12 +169,12 @@ that bring travelers together. Explore destinations, meet people, and make memor
   </script>
 </head>
 <style>
-  .gotoinsta:hover {
+  /* .gotoinsta:hover {
     background-color: #fff;
     color: #4ec0db;
     border: 2px solid #4ec0db;
     font-weight: 500;
-  }
+  } */
 
   .gotoinsta {
     z-index: 99 !important;
@@ -298,9 +298,9 @@ that bring travelers together. Explore destinations, meet people, and make memor
     margin-left: 3px;
   }
 
-  .view-more-btn button:hover i {
+  /* .view-more-btn button:hover i {
     transform: rotate(45deg);
-  }
+  } */
 
   .kedar-dates {
     color: #5f6c7b !important;
@@ -375,9 +375,9 @@ that bring travelers together. Explore destinations, meet people, and make memor
     text-shadow: none;
   }
 
-  .result-item a:hover {
+  /* .result-item a:hover {
     color: #000;
-  }
+  } */
 
   #search-results {
     color: red;
@@ -425,18 +425,18 @@ that bring travelers together. Explore destinations, meet people, and make memor
     border-bottom: 1px solid #000;
   }
 
-  .result-item:hover {
+  /* .result-item:hover {
     background-color: #4ec0db;
     color: #fff;
-  }
+  } */
 
-  .result-item:hover .result-item a {
+  /* .result-item:hover .result-item a {
     color: #fff !important;
-  }
-
+  } */
+/* 
   .result-item:hover a {
     color: #fff;
-  }
+  } */
 
   .search-bar-container {
     display: flex;
@@ -529,10 +529,10 @@ that bring travelers together. Explore destinations, meet people, and make memor
     cursor: pointer;
   }
 
-  .fa-xmark:hover {
+  /* .fa-xmark:hover {
     transform: rotate(80deg);
     color: #4ec0db;
-  }
+  } */
 
   .before-overlay {
     display: none;

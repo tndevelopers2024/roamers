@@ -96,7 +96,7 @@
             width: 350px;
             min-width: 367px;
             max-width: 378px;
-            height: 350px;
+            height: 390px;
             position: relative;
             border: 2px solid;
             border-image-source: linear-gradient(193.16deg, rgba(255, 255, 255, 0) 9.46%, #32EEE7 90.51%);
@@ -326,13 +326,13 @@
             justify-content: center;
         }
 
-        .upcoming-view:hover,
+        /* .upcoming-view:hover,
         .upcoming-view:focus {
             background: #4CB9D3;
             color: #fff;
             box-shadow: 0 8px 32px 0 rgba(76, 185, 211, 0.18), 0 1.5px 8px 0 rgba(50, 238, 231, 0.10);
             transform: scale(1.05) translateX(-50%);
-        }
+        } */
 
         .upcoming-header {
             margin: 0px 0px 30px 0px;

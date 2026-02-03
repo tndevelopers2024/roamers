@@ -330,10 +330,10 @@
       background-color: #fff !important;
     }
 
-    .nav-pills a:hover {
+    /* .nav-pills a:hover {
       background-color: #094067;
       color: white;
-    }
+    } */
 
     .nav-pills a.active {
       background-color: #4ec0db;

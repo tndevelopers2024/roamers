@@ -144,7 +144,7 @@
                   </div>
                   <div>
                     <div class="info-label">Starting Price</div>
-                    <div class="info-value "><span>7,499/-</span></div>
+                    <div class="info-value "><span>6,999/-</span></div>
                   </div>
                 </div>
               </div>
@@ -577,12 +577,12 @@
                         <span class="old-price">
                           <strike>₹ 10,000/-</strike>
                         </span>
-                        <span class="new-price"></span><span class="new-price">7,490/-</span>
+                        <span class="new-price"></span><span class="new-price">6,999/-</span>
                       </h5>
 
                       <p>perfect for group adventures and shared <br> memories.</p>
                       <div class="trip-form p-0">
-                        <a href="#" target="blank" class="btn butn butn__new bg-"
+                        <a href="ooty-form.php" target="blank" class="btn butn butn__new bg-"
                           style="border-radius: 10px;">Dates
                           & Costing</a>
                       </div>
@@ -825,7 +825,7 @@
         <div class="price-box ">
           <h6 class="label">Starts at</h6>
           <div class="price-info">
-            <span class="price-amount ">₹7,490/-</span>
+            <span class="price-amount ">₹6,999/-</span>
             <span class="per-person">(Per Person)</span>
           </div>
         </div>

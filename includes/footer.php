@@ -128,7 +128,7 @@
                                 <div class="footer-contact-item">
                                     <span><i class="fa-solid fa-phone"></i></span>
                                     <div class="fc-inner">
-                                        <a href="tel:+91 8122121066">
+                                        <a href="tel:+91 8122121066" class="text-decoration-none">
                                             <h3>+91 81221 21066</h3>
                                         </a>
                                     </div>
@@ -137,7 +137,7 @@
                                     <span><i class="fa-solid fa-envelope"></i></span>
                                     <div class="fc-inner">
 
-                                        <a href="mailto:info@roamers.in">
+                                        <a href="mailto:info@roamers.in" class="text-decoration-none">
                                             <h3>info@roamers.in</h3>
                                         </a>
                                     </div>
@@ -145,7 +145,7 @@
                                 <div class="footer-contact-item">
                                     <span><i class="fa-solid fa-location-dot"></i></span>
                                     <div class="fc-inner">
-                                        <a
+                                        <a class="text-decoration-none"
                                             href="https://www.google.com/maps/place/Roamers/@13.0429823,80.1760232,15z/data=!4m6!3m5!1s0x3a526115924d470b:0x950dc71c515d3215!8m2!3d13.0429823!4d80.1760232!16s%2Fg%2F11t_tshshk?entry=ttu">
                                             <h3>Chennai, Delhi</h3>
                                         </a>
@@ -168,10 +168,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2025, All Right Reserved <a
-                                    href="https://codepen.io/anupkumar92/">Roamers</a></p>
+                        <div class="copyright-text ">
+                            <p class="text-white">Copyright &copy; <script>
+                                document.write(new Date().getFullYear());
+                            </script>, All Right Reserved <a href="#">Roamers</a></p>
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -104,9 +104,9 @@ like-minded travelers!
       transform: scale(100%) !important;
     }
 
-    .swiper-slide a:hover {
+    /* .swiper-slide a:hover {
       transform: scale(100%) !important;
-    }
+    } */
 
     .swiper-slide a .slide-bg {
       position: absolute;
@@ -133,9 +133,9 @@ like-minded travelers!
       color: #fff !important;
     }
 
-    .swiper-slide a:hover {
+    /* .swiper-slide a:hover {
       box-shadow: rgba(48, 212, 245, 0.24) 0px 6px 8px;
-    }
+    } */
 
 
     .swiper-slide a {

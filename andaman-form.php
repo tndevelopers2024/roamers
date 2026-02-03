@@ -239,9 +239,9 @@ session_start();
     }
 
 
-    .details-box:hover {
+    /* .details-box:hover {
       background-color: #094067;
-    }
+    } */
 
 
     .details-head h4 {
@@ -656,9 +656,9 @@ session_start();
     }
 
 
-    #full-details .div i:hover {
+    /* #full-details .div i:hover {
       color: #4ec0db !important;
-    }
+    } */
 
 
     #full-details .div p {
@@ -1288,7 +1288,7 @@ session_start();
 
           const startingPriceElem = document.getElementById("starting-price");
           if (startingPriceElem) {
-            startingPriceElem.textContent = `Starting Price: ₹34,500/- `;
+            startingPriceElem.textContent = `Starting Price: ₹24,990/- `;
           } else {
             console.warn("Element with id 'starting-price' not found.");
           }
@@ -1794,9 +1794,9 @@ session_start();
           // Set amount using if statements
           let perPersonAmount = 0;
           if (sharing === "Triple Sharing") {
-            perPersonAmount = 34500;
+            perPersonAmount = 24990;
           } else if (sharing === "Double Sharing") {
-            perPersonAmount = 37500;
+            perPersonAmount = 26990;
           }
 
 

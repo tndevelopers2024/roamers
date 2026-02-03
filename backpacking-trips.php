@@ -82,9 +82,9 @@
       }
 
       /* hover effect */
-      .nav-pills li a:hover {
+      /* .nav-pills li a:hover {
         transform: translateY(-2px);
-      }
+      } */
     }
 
     @media (max-width: 600px) {
@@ -355,10 +355,10 @@
       background-color: #fff !important;
     }
 
-    .nav-pills a:hover {
+    /* .nav-pills a:hover {
       background-color: #094067;
       color: white;
-    }
+    } */
 
     .nav-pills a.active {
       background-color: #4ec0db;
@@ -516,11 +516,11 @@
       }
     }
 
-    .upcoming-tab-btn.active,
+    /* .upcoming-tab-btn.active,
     .upcoming-tab-btn:hover {
       background: #4CB9D3;
       color: #fff;
-    }
+    } */
 
     .upcoming-tab-content {
       display: none;
@@ -768,13 +768,13 @@
       justify-content: center;
     }
 
-    .upcoming-view:hover,
+    /* .upcoming-view:hover,
     .upcoming-view:focus {
       background: #4CB9D3;
       color: #fff;
       box-shadow: 0 8px 32px 0 rgba(76, 185, 211, 0.18), 0 1.5px 8px 0 rgba(50, 238, 231, 0.10);
       transform: scale(1.05) translateX(-50%);
-    }
+    } */
 
     .upcoming-header {
       margin: 0px 0px 30px 0px;
@@ -850,12 +850,12 @@
       opacity: 0.4;
       cursor: not-allowed;
     }
-
+/* 
     .upcoming-slider-arrow:hover:not(:disabled) {
       background: #4CB9D3;
       color: #fff;
       box-shadow: 0 4px 16px 0 rgba(76, 185, 211, 0.18);
-    }
+    } */
 
     @media (max-width: 900px) {
       .upcoming-container {
@@ -1031,8 +1031,7 @@
 
 
 
-    * {
-    }
+    * {}
 
     html,
 
@@ -1046,14 +1045,7 @@
       /* Prevents flickering on some browsers */
     }
 
-    .event-card:hover {
-      /* transform: translateY(-1px) scale(1.03); */
-      /* Slight lift + subtle scale for depth */
-      /* box-shadow: 0 16px 32px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.12); */
-      /* Layered shadows for realism */
-      /* z-index: -3; */
-      /* Ensures hovered card stays on top during slider interactions */
-    }
+
 
     /* Optional: Reduce motion for users who prefer it */
     @media (prefers-reduced-motion: reduce) {
@@ -1061,10 +1053,10 @@
         transition: none;
       }
 
-      .event-card:hover {
+      /* .event-card:hover {
         transform: none;
         box-shadow: none;
-      }
+      } */
     }
 
     .event-container {
@@ -2606,7 +2598,7 @@
                       <div class="event-price-section " style=" margin: 0;  padding: 0px 20px 10px 20px;">
                         <div class="event-dates">
                           <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
-                              style="color: #4ec0db;"></i>11th Oct 2025</span>
+                              style="color: #4ec0db;"></i>11th Oct <?php echo $current_year; ?></span>
                         </div>
                         <div class="event-dates">
                           <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2643,7 +2635,7 @@
                         <div class="event-dates">
                           <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                               style="color: #4ec0db;"></i>25th Oct
-                            2025</span>
+                            <?php echo $current_year; ?></span>
                         </div>
                         <div class="event-dates">
                           <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2679,7 +2671,7 @@
                         <div class="event-dates">
                           <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                               style="color: #4ec0db;"></i> 1st Nov
-                            2025</span>
+                            <?php echo $current_year; ?></span>
                         </div>
                         <div class="event-dates">
                           <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2719,7 +2711,7 @@
                         <div class="event-dates">
                           <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                               style="color: #4ec0db;"></i> 14th Nov
-                            2025</span>
+                            <?php echo $current_year; ?></span>
                         </div>
                         <div class="event-dates">
                           <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2756,7 +2748,7 @@
                         <div class="event-dates">
                           <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                               style="color: #4ec0db;"></i>21st Nov
-                            2025</span>
+                            <?php echo $current_year; ?></span>
                         </div>
                         <div class="event-dates">
                           <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2792,7 +2784,7 @@
                         <div class="event-dates">
                           <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                               style="color: #4ec0db;"></i> 1st Nov
-                            2025</span>
+                            <?php echo $current_year; ?></span>
                         </div>
                         <div class="event-dates">
                           <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>

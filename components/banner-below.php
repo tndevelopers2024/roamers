@@ -7,7 +7,6 @@
         --liquid-glass-border: 1.5px solid rgba(255, 255, 255, 0.55);
         --liquid-glass-shadow: 0 6px 24px 0 rgba(31, 38, 135, 0.13), 0 2px 8px 0 rgba(255, 255, 255, 0.13);
         --liquid-glass-inner-glow: 0 0 0 2px rgba(255, 255, 255, 0.18) inset;
-        --liquid-glass-hover-shadow: 0 10px 32px 0 rgba(31, 38, 135, 0.18), 0 3px 12px 0 rgba(255, 255, 255, 0.18);
         --liquid-glass-icon-bg: white;
         --liquid-glass-icon-shadow: 0 2px 8px 0 rgba(78, 192, 219, 0.10);
         --liquid-glass-title: #1a1a1a;
@@ -245,9 +244,7 @@
         filter: blur(2px);
     }
 
-    .liquid-glass-card:hover {
-        box-shadow: var(--liquid-glass-hover-shadow), var(--liquid-glass-inner-glow);
-    }
+
 
     .liquid-glass-card>* {
         position: relative;
@@ -327,8 +324,6 @@
         }
     }
 
-    .liquid-glass-card:hover .liquid-glass-icon {}
-
     .liquid-glass-inner {
         padding: 0;
         display: flex;
@@ -393,7 +388,7 @@
                                 style="width:100%;height:auto;max-width:32px;max-height:32px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">Travel Buddies United</h2>
-                            <p class="liquid-glass-text px-2 py-1 px-md-4 py-md-2">
+                            <p class="liquid-glass-text px-2 py-1 px-md-4 py-md-2 text-white">
                                 Say Hi to your new travel squad – your undiscovered Besties!
                                 Whether you join solo or in a group, you’re all set for an epic adventure!
                             </p>
@@ -406,7 +401,7 @@
                                 style="width:100%;height:auto;max-width:32px;max-height:32px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">Everything Included, No Fuss</h2>
-                            <p class="liquid-glass-text  px-2 py-1 px-md-4 py-md-2">
+                            <p class="liquid-glass-text  px-2 py-1 px-md-4 py-md-2 text-white">
                                 Forget about transport, hotels, and planning. Just one booking, and we've got everything
                                 taken care of for you.
                             </p>
@@ -419,7 +414,7 @@
                                 style="width:100%;height:auto;max-width:32px;max-height:32px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">Led by the Pros</h2>
-                            <p class="liquid-glass-text   px-2 py-1 px-md-4 py-md-2">
+                            <p class="liquid-glass-text   px-2 py-1 px-md-4 py-md-2 text-white">
                                 Cool trip leaders and local guides who know their stuff, and they're fun too! They've
                                 got the best insights and will help you out whenever you need it.
                             </p>
@@ -432,7 +427,7 @@
                                 style="width:100%;height:auto;max-width:20px;max-height:20px;"></span>
                         <div class="liquid-glass-inner">
                             <h2 class="liquid-glass-title">One-of-a-kind adventure</h2>
-                            <p class="liquid-glass-text  px-2 py-1 px-md-4 py-md-2">
+                            <p class="liquid-glass-text  px-2 py-1 px-md-4 py-md-2 text-white">
                                 Unique experiences selected by those in the know. Whether local grub, must-see spots,
                                 and totally cool one-of-a-kind stuff, we've handpicked it all for you.
                             </p>

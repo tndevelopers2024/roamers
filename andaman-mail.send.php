@@ -266,9 +266,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     display: inline-block;
                 }
 
-                .thankyou-btn:hover {
+                /* .thankyou-btn:hover {
                     background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%);
-                }
+                } */
 
                 @media (max-width: 600px) {
                     .thankyou-container {

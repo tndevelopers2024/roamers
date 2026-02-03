@@ -154,7 +154,7 @@ session_start();
           "@type": "Person",
           "name": "Alex Johnson"
         },
-        "datePublished": "2024-07-09",
+        "datePublished": "<?php echo $current_year; ?>-01-01",
         "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
       }
     }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Roamers</title>
+    <title>Roamers - Varkala</title>
 
     <!-- SEO Meta Description -->
     <meta name="description" content="varkala" />
@@ -14,6 +14,12 @@
     <meta property="og:image:secure_url" content="https://roamers.in/assets/img/varkala/kappilbeach.jpg" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="500" />
+    <meta property="og:title" content="Varkala Packages" />
+    <meta property="og:description"
+        content="Discover the best Varkala packages with Roamers. Explore stunning beaches, cliffs, and cultural experiences. Book your Varkala trip today!" />
+    <meta property="og:url" content="https://roamers.in/varkala-packages.php" />
+    <meta property="og:type" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title  -->
 
@@ -85,7 +91,7 @@
             transform: translateX(-50%);
             height: 4px;
             width: 50px;
-            background-color: #094067;
+            /* background-color: #094067; */
             border-radius: 2px;
             animation: expandBar 3s ease-in-out infinite alternate;
         }
@@ -170,17 +176,23 @@
         }
 
         @media (max-width: 768px) {
+            nav::before {
+                display: none;
+            }
+
             .banner-slider {
                 height: 70vh;
                 min-height: 500px;
             }
 
             .banner-title {
-                font-size: 2.5rem;
+                font-size: 2rem !important;
+                padding: 0 15px;
             }
 
             .banner-subtitle {
-                font-size: 1.1rem;
+                font-size: 1rem !important;
+                padding: 0 15px;
             }
         }
 
@@ -463,6 +475,17 @@
             /* margin-top: 30px; Removed manual margin, let swiper handle it */
         }
 
+        @media (max-width: 600px) {
+            .swiper-container-gallery .swiper-slide {
+                width: 75vw !important;
+                height: 350px !important;
+            }
+
+            .section-title {
+                font-size: 28px !important;
+            }
+        }
+
         .swiper-container-gallery .swiper-slide-active {
             filter: blur(0px);
             opacity: 1;
@@ -632,10 +655,37 @@
             z-index: 10;
         }
 
-        .card-meta {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 15px;
+        @media (max-width: 991px) {
+            .card-meta {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        /* Stronger Overrides for Mobile FAQ */
+        @media (max-width: 768px) {
+            .faq {
+                padding: 40px 15px !important;
+                margin: 0 !important;
+                background-image: none !important;
+            }
+
+            .faq .accordion-item {
+                border-radius: 16px !important;
+                margin-bottom: 15px !important;
+            }
+
+            .faq .accordion-button {
+                border-radius: 16px !important;
+                font-size: 16px !important;
+                /* Restore readable font size */
+                padding: 20px !important;
+            }
+
+            .accordion-flush .accordion-item .accordion-button {
+                border-radius: 16px !important;
+                /* Override responsive.css */
+            }
         }
 
         .meta-item {
@@ -665,11 +715,9 @@
             border: none !important;
             margin-bottom: 20px !important;
             border-radius: 16px !important;
-            box-shadow: none !important;
-            /* Removed shadow */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
             overflow: hidden !important;
-            background: transparent !important;
-            /* Removed background */
+            background: #fff !important;
             transition: all 0.3s ease !important;
         }
 
@@ -682,9 +730,9 @@
             border-radius: 16px !important;
             font-weight: 700 !important;
             font-size: 1.15rem !important;
+            font-size: 1.15rem !important;
             color: #2c3e50 !important;
-            background-color: transparent !important;
-            /* Removed background */
+            background-color: #fff !important;
             box-shadow: none !important;
             padding: 25px 30px !important;
             text-transform: capitalize;
@@ -692,12 +740,23 @@
         }
 
         .faq .accordion-button:not(.collapsed) {
+            background-color: transparent !important;
             background: transparent !important;
-            /* Removed background */
             color: #4EC0DB !important;
             box-shadow: none !important;
             border: 0 !important;
             border-bottom: 0 !important;
+        }
+
+        .faq .accordion-button:focus,
+        .faq .accordion-button:active {
+            background-color: transparent !important;
+            background: transparent !important;
+            box-shadow: none !important;
+            border-color: transparent !important;
+            outline: none !important;
+            color: #4EC0DB !important;
+
         }
 
         .faq .accordion-collapse {
@@ -732,6 +791,19 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='12' y1='5' x2='12' y2='19'%3e%3c/line%3e%3cline x1='5' y1='12' x2='19' y2='12'%3e%3c/line%3e%3c/svg%3e") !important;
             border: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 2px;
+
+        }
+
+        @media (max-width: 768px) {
+            .faq .accordion-button:not(.collapsed)::after {
+                background-color: #4EC0DB;
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='5' y1='12' x2='19' y2='12'%3e%3c/line%3e%3c/svg%3e") !important;
+                transform: rotate(180deg) !important;
+                box-shadow: 0 6px 20px rgba(78, 192, 219, 0.4);
+                border-color: transparent;
+                padding: 2px;
+            }
         }
 
         .faq .accordion-button:not(.collapsed)::after {
@@ -740,25 +812,29 @@
             transform: rotate(180deg) !important;
             box-shadow: 0 6px 20px rgba(78, 192, 219, 0.4);
             border-color: transparent;
+            padding: 7px;
         }
 
-        /* Mobile Horizontal Scroll for Packages */
+        /* Mobile List View for Packages */
         @media (max-width: 991px) {
             .packages-scroll-row {
                 display: flex !important;
-                flex-wrap: nowrap !important;
-                overflow-x: auto !important;
-                -webkit-overflow-scrolling: touch;
-                scroll-snap-type: x mandatory;
-                padding-bottom: 20px;
-                /* Space for shadow */
-                gap: 15px;
+                flex-wrap: wrap !important;
+                /* Enable wrapping */
+                overflow-x: visible !important;
+                /* Disable scroll */
+                padding-bottom: 0px;
+                gap: 20px;
+                /* Vertical gap */
+                margin-left: 0px;
+                margin-right: 0px;
             }
 
             .packages-scroll-row>.col-lg-3 {
-                flex: 0 0 85% !important;
-                max-width: 85% !important;
-                scroll-snap-align: center;
+                flex: 0 0 100% !important;
+                /* Full width */
+                max-width: 100% !important;
+                margin-bottom: 20px;
             }
         }
 
@@ -877,6 +953,36 @@
             width: 100%;
         }
 
+        @media (max-width: 768px) {
+            .about-img-1 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .about-img-2 {
+                position: relative;
+                width: 90%;
+                margin: -40px auto 0;
+                right: auto;
+                bottom: auto;
+                display: block;
+            }
+
+            .about-img-wrapper {
+                padding-bottom: 0;
+                text-align: center;
+            }
+
+            .experience-badge {
+                position: relative;
+                bottom: auto;
+                left: auto;
+                margin: -30px auto 20px;
+                width: fit-content;
+                right: auto;
+            }
+        }
+
         .experience-badge {
             position: absolute;
             bottom: 30px;
@@ -986,7 +1092,7 @@
 
         .feature-item:hover .icon-box {
             transform: translateY(-5px);
-            background: #094067;
+            /* background: #094067; */
         }
 
         .icon-box img {
@@ -1366,7 +1472,7 @@
         <div class="container">
             <h2 class="head">Highlights of Varkala</h2>
             <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="col-lg-3 col-md-6 col-12 mb-4 d-flex">
                     <div class="highlight-card w-100">
                         <div class="highlight-icon">
                             <i class="fa-solid fa-umbrella-beach"></i>
@@ -1376,7 +1482,7 @@
                             breathtaking views and sunset spots.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="col-lg-3 col-md-6 col-12 mb-4 d-flex">
                     <div class="highlight-card w-100">
                         <div class="highlight-icon">
                             <i class="fa-solid fa-gopuram"></i>
@@ -1386,7 +1492,7 @@
                             the Sivagiri Mutt.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="col-lg-3 col-md-6 col-12 mb-4 d-flex">
                     <div class="highlight-card w-100">
                         <div class="highlight-icon">
                             <i class="fa-solid fa-swimmer"></i>
@@ -1396,7 +1502,7 @@
                             coastline.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                <div class="col-lg-3 col-md-6 col-12 mb-4 d-flex">
                     <div class="highlight-card w-100">
                         <div class="highlight-icon">
                             <i class="fa-solid fa-coffee"></i>
@@ -1506,7 +1612,7 @@
         <h2 class="head">FAQ</h2>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-12">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item acc-item">
                             <h2 class="accordion-header acco-head" id="flush-headingOne">
@@ -1627,83 +1733,17 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1, // Adjust the number of visible slides
-            spaceBetween: 10, // Adjust the spacing between slides
-            loop: true,       // Enable looping
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                },
-                1024: {
-                    slidesPerView: 4,
-                    spaceBetween: 40,
-                },
-            },
-        });
 
-    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- Active js -->
     <script src="assets/js/active.js"></script>
     <script src="assets/js/dates.js"></script>
 
     <script>
-        function toggleReadMore() {
-
-            var moreText = document.getElementById('moreText');
-            var readMoreLink = document.getElementById('readMoreLink');
-
-            if (moreText.style.display === 'none') {
-                moreText.style.display = 'inline';
-                readMoreLink.textContent = '...Read Less';
-            } else {
-                moreText.style.display = 'none';
-                readMoreLink.textContent = '...Read More';
-            }
-        }
-
-
-        window.addEventListener('DOMContentLoaded', function () {
-            const swiper = new Swiper('.swiper-container', {
-                slidesPerView: 'auto',
-                spaceBetween: 10,
-                loop: true,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                breakpoints: {
-                    1300: {
-                        slidesPerView: 4,
-                    },
-                    640: {
-                        slidesPerView: 3,
-                    },
-                    240: {
-                        slidesPerView: 1.1,
-                    },
-                },
-            });
-
-        });
-
-
-        // *****Sidebar tab content end*****    
+        // *****Sidebar tab content end*****        
 
         // *****Sidebar tab radio content start*****
         var sliders = document.querySelectorAll(".slider");

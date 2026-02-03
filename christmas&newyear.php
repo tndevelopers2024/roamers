@@ -662,7 +662,8 @@
         </div>
       </div>
       <!-- Andaman Island Hopping -->
-      <div class="upcoming-card mt-5" onclick="window.open('andaman-christmas&newyear.php','_blank')" style="cursor: pointer;">
+      <div class="upcoming-card mt-5" onclick="window.open('andaman-christmas&newyear.php','_blank')"
+        style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
             <img src="https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg" alt="Andaman Island Hopping">

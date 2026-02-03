@@ -14,6 +14,21 @@
       font-weight: 400 !important;
     }
 
+    /* Aggressive Reset for Links */
+    a,
+    a:hover,
+    a:focus,
+    a:visited,
+    a *,
+    .nav-link,
+    .nav-link:hover {
+      text-decoration: none !important;
+      border-bottom: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      /* Keep color inheritance optional for nav links */
+    }
+
     .card__description {
       color: #687179;
       font-size: 11px !important;
@@ -157,7 +172,7 @@
   <div class="container" style="margin-bottom: 50px;">
     <h2 style="padding-top: 50px" class="head"><i class="fas fa-calendar-alt me-2"></i>
 
-       Group Trips
+      Group Trips
     </h2>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
@@ -194,7 +209,7 @@
           <!-- Pondi Dive-in -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="pondicherry">
+              <a href="pondicherry" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -222,7 +237,8 @@
           <!-- Kodaikanal Backpacking -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="kodaikanal1">
+              <a href="kodaikanal1"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/kodaikanal-backpacking/Gunacav.jpeg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2 inner-home">
@@ -248,7 +264,7 @@
           <!-- Ooty the Queen of Hills -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="ooty">
+              <a href="ooty" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/bg/ooty-cove.jpeg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2 inner-home">
@@ -275,7 +291,7 @@
           <!-- Valley of flowers -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="valley-of-flowers">
+              <a href="valley-of-flowers" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/valley-of-flowers/vally-of-flowers-image (1).webp" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2 inner-home">
@@ -307,7 +323,7 @@
           <!-- Pondi Dive-in -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="pondicherry">
+              <a href="pondicherry" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -333,7 +349,8 @@
           <!--Kerala -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="munnar-alleppey3">
+              <a href="munnar-alleppey3"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/Kerala/Kerala photos.jpg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2 inner-home">
@@ -358,7 +375,8 @@
           <!-- Wayanad -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="wayanad">
+              <a href="wayanad"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="new-year" src="assets/img/bg/Pongal-gif.gif" alt="">
                 <img src="assets/img/bg/waya-cover.jpg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -439,7 +457,8 @@
           <!-- Sri Lanka -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="srilanka.php">
+              <a href="srilanka.php"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/Sirlanka/srilanka-images-by-roamers (44).avif" class="backpacking-img"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -470,7 +489,7 @@
           <!-- Pondi Dive-in -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="pondicherry">
+              <a href="pondicherry" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -498,7 +517,7 @@
           <div class="col-md-3">
             <!-- Munnar with Kolukkumalai -->
             <div class="swiper-slide">
-              <a href="kolukkumalai-trek">
+              <a href="kolukkumalai-trek" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/kolukkumalai-img/2.jpg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -524,7 +543,7 @@
           <div class="col-md-3">
             <!-- Chikmagalur Backpacking -->
             <div class="swiper-slide">
-              <a href="chikmagalur">
+              <a href="chikmagalur" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/Testimnils/chikmagalur.jpg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -551,7 +570,7 @@
           <div class="col-md-3">
             <!-- Andaman Island Hopping -->
             <div class="swiper-slide">
-              <a href="andaman">
+              <a href="andaman" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/backpacking/Andaman hoppers.jpg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -584,7 +603,7 @@
           <!-- Pondi Dive-in -->
           <div class="col-md-3">
             <div class="swiper-slide">
-              <a href="pondicherry">
+              <a href="pondicherry" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -612,7 +631,7 @@
           <div class="col-md-3">
             <!-- Munnar with Kolukkumalai -->
             <div class="swiper-slide">
-              <a href="kolukkumalai-trek">
+              <a href="kolukkumalai-trek" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
 
                 <div class="silder-inner silder-inner1">
@@ -639,7 +658,7 @@
           <div class="col-md-3">
             <!-- Chikmagalur Backpacking -->
             <div class="swiper-slide">
-              <a href="chikmagalur">
+              <a href="chikmagalur" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
 
                 <div class="silder-inner silder-inner1">
@@ -667,7 +686,7 @@
           <div class="col-md-3">
             <!-- Andaman Island Hopping -->
             <div class="swiper-slide">
-              <a href="andaman">
+              <a href="andaman" style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
 
                 <div class="silder-inner silder-inner1">

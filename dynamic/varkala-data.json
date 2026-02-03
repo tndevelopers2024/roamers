@@ -1,112 +1,33 @@
 {
-    "varkala": {
-        "August": [
-            {
-                "date": "15 Aug",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,990/-"
-            },
-            {
-                "date": "29 Aug",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,990/-"
-            }
-        ],
-        "September": [
-            {
-                "date": "12 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,990/-"
-            },
-            {
-                "date": "26 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹8,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "chennai": "₹9,990/-",
-                    "trivandrum": "₹8,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "chennai": "₹11,499/-",
-                    "trivandrum": "₹9,499/-"
-                }
-            ]
-        }
-    },
     "ooty": {
-        "April": [
+        "February": [
             {
-                "date": "17 Apr - 21 Apr",
-                "status": "Sold Out",
-                "statusColor": "red",
-                "price": "₹7,499/-"
+                "date": "14 Feb - 16 Feb",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹6,999/-"
             }
         ],
-        "May": [
+        "March": [
             {
-                "date": "2 May - 6 May",
-                "status": "Fast Filling",
-                "statusColor": "orange",
-                "price": "₹7,499/-"
-            },
-            {
-                "date": "16 May - 20 May",
+                "date": "06 Mar - 08 Mar",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹7,499/-"
-            },
-            {
-                "date": "30 May - 03 Jun",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,499/-"
-            }
-        ],
-        "June": [
-            {
-                "date": "05 Jun - 09 Jun",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,499/-"
-            },
-            {
-                "date": "20 Jun - 24 Jun",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,499/-"
-            }
-        ],
-        "July": [
-            {
-                "date": "03 Jul - 07 Jul",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,499/-"
+                "price": "₹6,999/-"
             }
         ],
         "costing": {
-            "startingPrice": "₹7,499/-",
+            "startingPrice": "₹6,999/-",
             "prices": [
                 {
                     "sharing": "Triple Sharing",
-                    "chennai": "₹8,990/-",
-                    "coimbatore": "₹7,499/-"
+                    "chennai": "₹6,999/-",
+                    "coimbatore": "₹6,999/-"
                 },
                 {
                     "sharing": "Double Sharing",
-                    "chennai": "₹9,990/-",
-                    "coimbatore": "₹8,499/-"
+                    "chennai": "₹7,999/-",
+                    "coimbatore": "₹8,490/-"
                 }
             ]
         }
@@ -225,53 +146,17 @@
         }
     },
     "munnar": {
-        "Sep": [
+        "March": [
             {
-                "date": "26 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            }
-        ],
-        "Oct": [
-            {
-                "date": "01 Oct - 05 Oct",
+                "date": "6 Mar",
                 "status": "Available",
                 "statusColor": "green",
                 "price": "₹8,499/-"
             },
             {
-                "date": "23 Oct - 27 Oct",
+                "date": "20 Mar",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹8,499/-"
-            }
-        ],
-        "Nov": [
-            {
-                "date": "14 Nov - 17 Nov",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            },
-            {
-                "date": "28 Nov - 02 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            }
-        ],
-        "Dec": [
-            {
-                "date": "12 Dec - 15 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            },
-            {
-                "date": "23 Dec - 27 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
                 "price": "₹8,499/-"
             }
         ],
@@ -292,42 +177,68 @@
         }
     },
     "andaman": {
-        "October": [
+        "January": [
             {
-                "date": "18 Oct - 24 Oct",
+                "date": "14 Jan - 19 Jan",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹34,500/-"
+                "price": "₹24,990/-"
             }
         ],
-        "November": [
+        "February": [
             {
-                "date": "15 Nov - 21 Nov",
+                "date": "14 Feb ",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹34,500/-"
+                "price": "₹24,990/-"
+            },
+            {
+                "date": "28 Feb",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹24,990/-"
             }
         ],
-        "December": [
+        "March": [
             {
-                "date": "25 Dec - 1 Jan",
+                "date": "21 Mar",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹34,500/-"
+                "price": "₹24,990/-"
+            },
+            {
+                "date": "28 Mar",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹24,990/-"
+            }
+        ],
+        "April": [
+            {
+                "date": "03 Apr - 07 Apr",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹24,990/-"
+            },
+            {
+                "date": "18 Apr - 23 Apr",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹24,990/-"
             }
         ],
         "costing": {
-            "startingPrice": "₹34,500/-",
+            "startingPrice": "₹24,990/-",
             "prices": [
                 {
                     "sharing": "Triple Sharing",
                     "mrp": "₹40,990/-",
-                    "offer": "₹34,500/-"
+                    "offer": "₹24,990/-"
                 },
                 {
                     "sharing": "Double Sharing",
                     "mrp": "₹41,990/-",
-                    "offer": "₹37,500/-"
+                    "offer": "₹26,990/-"
                 }
             ]
         }
@@ -590,9 +501,43 @@
         }
     },
     "varkala-new": {
-        "September": [
+        "January": [
             {
-                "date": "12 Sep",
+                "date": "14 Jan",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹8,990/-"
+            },
+            {
+                "date": "24 Jan",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹8,990/-"
+            }
+        ],
+        "February": [
+            {
+                "date": "14 Feb",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹8,990/-"
+            },
+            {
+                "date": "27 Feb",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹8,990/-"
+            }
+        ],
+        "March": [
+            {
+                "date": "13 Mar",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹8,990/-"
+            },
+            {
+                "date": "27 Mar",
                 "status": "Available",
                 "statusColor": "green",
                 "price": "₹8,990/-"
@@ -743,47 +688,7 @@
         }
     },
     "meghalaya": {
-        "November": [
-            {
-                "date": "1 Nov - 6 Nov",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            },
-            {
-                "date": "22 Nov - 27 Nov",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            }
-        ],
-        "December": [
-            {
-                "date": "20 Dec - 25 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            },
-            {
-                "date": "23 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹21,990/-"
-            },
-            {
-                "date": "28 Dec - 2 Jan",
-                "status": "New Year Special",
-                "statusColor": "red",
-                "price": "₹21,990/-"
-            }
-        ],
-        "Jan": [
-            {
-                "date": "10 Jan - 15 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            },
+        "January": [
             {
                 "date": "14 Jan - 19 Jan",
                 "status": "Available",
@@ -797,7 +702,7 @@
                 "price": "₹19,990/-"
             }
         ],
-        "Feb": [
+        "February": [
             {
                 "date": "14 Feb - 19 Feb",
                 "status": "Available",
@@ -805,7 +710,35 @@
                 "price": "₹19,990/-"
             },
             {
-                "date": "28 Feb - 5 Mar",
+                "date": "28 Feb - 05 Mar",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹19,990/-"
+            }
+        ],
+        "March": [
+            {
+                "date": "19 Mar",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹19,990/-"
+            },
+            {
+                "date": "21 Mar - 26 Mar",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹19,990/-"
+            },
+            {
+                "date": "28 Mar - 02 Apr",
+                "status": "Available",
+                "statusColor": "green",
+                "price": "₹19,990/-"
+            }
+        ],
+        "April": [
+            {
+                "date": "11 Apr - 16 Apr",
                 "status": "Available",
                 "statusColor": "green",
                 "price": "₹19,990/-"

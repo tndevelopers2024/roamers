@@ -407,7 +407,7 @@ unforgettable adventure in the Abode of Clouds with Roamers today.
                     <div class="col-md-12">
                         <div class="blog-img">
                             <img class="img-fluid" src="assets/img/megalaya/nohkalikali-falls.jpg">
-                            <p style="color:grey; font-size: 10px;">August 24, 2024</p>
+                            <p style="color:grey; font-size: 10px;">January 1, <?php echo $current_year; ?></p>
                         </div>
                         <div class="blog-content">
 

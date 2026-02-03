@@ -769,13 +769,13 @@
       justify-content: center;
     }
 
-    .upcoming-view:hover,
+    /* .upcoming-view:hover,
     .upcoming-view:focus {
       background: #4CB9D3;
       color: #fff;
       box-shadow: 0 8px 32px 0 rgba(76, 185, 211, 0.18), 0 1.5px 8px 0 rgba(50, 238, 231, 0.10);
       transform: scale(1.05) translateX(-50%);
-    }
+    } */
 
     .upcoming-header {
       margin: 0px 0px 30px 0px;

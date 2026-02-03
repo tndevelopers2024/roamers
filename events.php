@@ -733,13 +733,13 @@
       justify-content: center;
     }
 
-    .upcoming-view:hover,
+    /* .upcoming-view:hover,
     .upcoming-view:focus {
       background: #4CB9D3;
       color: #fff;
       box-shadow: 0 8px 32px 0 rgba(76, 185, 211, 0.18), 0 1.5px 8px 0 rgba(50, 238, 231, 0.10);
       transform: scale(1.05) translateX(-50%);
-    }
+    } */
 
     .upcoming-header {
       margin: 0px 0px 30px 0px;
@@ -2605,7 +2605,7 @@
                         <div class="event-price-section " style=" margin: 0;  padding: 0px 20px 10px 20px;">
                           <div class="event-dates">
                             <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
-                                style="color: #4ec0db;"></i>11th Oct 2025</span>
+                                style="color: #4ec0db;"></i>11th Oct <?php echo $current_year; ?></span>
                           </div>
                           <div class="event-dates">
                             <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2644,7 +2644,7 @@
                           <div class="event-dates">
                             <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                                 style="color: #4ec0db;"></i>25th Oct
-                              2025</span>
+                              <?php echo $current_year; ?></span>
                           </div>
                           <div class="event-dates">
                             <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2682,7 +2682,7 @@
                           <div class="event-dates">
                             <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                                 style="color: #4ec0db;"></i> 1st Nov
-                              2025</span>
+                              <?php echo $current_year; ?></span>
                           </div>
                           <div class="event-dates">
                             <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2725,7 +2725,7 @@
                           <div class="event-dates">
                             <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                                 style="color: #4ec0db;"></i> 14th Nov
-                              2025</span>
+                              <?php echo $current_year; ?></span>
                           </div>
                           <div class="event-dates">
                             <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2765,7 +2765,7 @@
                           <div class="event-dates">
                             <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                                 style="color: #4ec0db;"></i>21st Nov
-                              2025</span>
+                              <?php echo $current_year; ?></span>
                           </div>
                           <div class="event-dates">
                             <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -2805,7 +2805,7 @@
                           <div class="event-dates">
                             <span class="event-dates-text" style="font-weight:700"><i class="fa-solid fa-calendar me-1"
                                 style="color: #4ec0db;"></i> 1st Nov
-                              2025</span>
+                              <?php echo $current_year; ?></span>
                           </div>
                           <div class="event-dates">
                             <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>

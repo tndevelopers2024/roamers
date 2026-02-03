@@ -414,7 +414,7 @@ group travel adventure today with confidence.
                     <div class="col-md-12">
                         <div class="blog-img">
                             <img class="img-fluid" src="assets/img/backpacking/Leh ladakh (1).jpg">
-                            <p style="color:grey; font-size: 10px;">Feb 24, 2025</p>
+                            <p style="color:grey; font-size: 10px;">Feb 24, <?php echo $current_year; ?></p>
                         </div>
                         <div class="blog-content">
                             <h2>INTRODUCTION</h2>

@@ -19,7 +19,7 @@ document.querySelectorAll(".kerala-price").forEach((element) => {
 });
 
 document.querySelectorAll(".andaman-price").forEach((element) => {
-  element.innerHTML = "₹34,500";
+  element.innerHTML = "₹28,990";
 });
 
 document.querySelectorAll(".leh-ladak-price").forEach((element) => {

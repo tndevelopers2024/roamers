@@ -96,7 +96,7 @@
             width: 350px;
             min-width: 367px;
             max-width: 378px;
-            height: 350px;
+            height: 390px;
             position: relative;
             border: 2px solid;
             border-image-source: linear-gradient(193.16deg, rgba(255, 255, 255, 0) 9.46%, #32EEE7 90.51%);
@@ -159,6 +159,7 @@
             height: 100%;
             display: flex;
             flex-direction: column;
+            overflow: visible !important; /* Fix for button clipping */
             transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
@@ -326,13 +327,13 @@
             justify-content: center;
         }
 
-        .upcoming-view:hover,
+        /* .upcoming-view:hover,
         .upcoming-view:focus {
             background: #4CB9D3;
             color: #fff;
             box-shadow: 0 8px 32px 0 rgba(76, 185, 211, 0.18), 0 1.5px 8px 0 rgba(50, 238, 231, 0.10);
             transform: scale(1.05) translateX(-50%);
-        }
+        } */
 
         .upcoming-header {
             margin: 0px 0px 30px 0px;
@@ -847,11 +848,13 @@
         left: 50%;
         transform: translateX(-50%);
         background-color: #fff;
-        color: #333;
+        color: #333 !important;
+        /* Force dark text */
         border-radius: 18px;
         text-decoration: none;
         font-weight: bold;
-        /* box-shadow: 5px 5px 44px 0px #3CADC9B2; */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+        /* Force shadow visibility */
         font-size: 15px;
         z-index: 10;
         transition: all 0.3s ease;
@@ -866,7 +869,7 @@
         width: 100%;
         /* padding: 0 40px; */
         overflow: visible;
-        contain: content;
+        /* contain: content; Removed to fix button clipping */
     }
 
     .event-slider {
@@ -1195,7 +1198,7 @@
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700">
                                     <i class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i>
-                                    11th Oct 2025
+                                    11th Oct <?php echo $current_year; ?>
                                 </span>
                             </div>
                             <div class="event-dates">
@@ -1208,33 +1211,35 @@
                 </div>
             </div> -->
 
-            <!-- Event Card 2 -->
-            <div onclick="window.open('events-dec-6.php','target:_blank')" style="cursor: pointer;" class="event-card">
+
+            <!-- Event Card 5 -->
+            <div onclick="window.open('events-nov-26.php','target:_blank')" style="cursor: pointer;" class="event-card">
                 <div class="event-content" style="position: relative;">
                     <div class="event-image">
-                        <img src="assets/img/event/cards/event-card-11.avif" alt="Pottery WORK SHOP">
+                        <img src="assets/img/event/cards/event-card-12.avif" alt="Pottery WORK SHOP">
                     </div>
                     <!-- Slot at top right, responsive -->
                     <div class="event-slot-badge">
                         <span class="event-dates-text" style="color: black;">
                             <i class="fa-solid fa-users me-1" style=" margin-right: 4px;"></i>
-                            Slot: 30
+                            Slot: 15
                         </span>
                     </div>
                     <div class="event-card-content">
                         <div class="event-card-flex" style=" padding: 10px 20px;"></div>
                         <h1 class="event-title event-title-responsive-on-event">
-                            Strangers Fun meetup
+                            Pottery WORK SHOP
                             <p class="mt-1"
                                 style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
-                                Games, icebreakers, laughs, future buddies</p>
+                                Shape, mold, Heal, create, laugh together</p>
 
                         </h1>
                         <div class="event-price-section">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 06 Dec
-                                    2025</span>
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 29th Nov
+                                    <?php echo $current_year; ?>
+                                </span>
                             </div>
                             <div class="event-dates">
                                 <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -1243,8 +1248,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <a href="events-sep-21.php" target="_blank" class="event-view">Register</a> -->
-                    <a href="events-nov-1.php" target="_blank" class="event-view">Register</a>
+                    <a href="events-nov-26.php" target="_blank" style="color: #4ec0db !important;" class="event-view text-decoration-none">Register</a>
                 </div>
             </div>
 
@@ -1273,7 +1277,8 @@
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
                                         class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 14th Nov
-                                    2025</span>
+                                    <?php echo $current_year; ?>
+                                </span>
                             </div>
                             <div class="event-dates">
                                 <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
@@ -1283,11 +1288,52 @@
                         </div>
                     </div>
                     <a href="components/events/event-pages/events-nov-1.php" target="_blank"
-                        class="event-view">Register</a>
+                        class="event-view text-decoration-none" style="color: #4ec0db !important;">Register</a>
                 </div>
             </div>
-            <!-- Event Card 4 -->
 
+            <!-- Event Card 2 -->
+            <div onclick="window.open('events-dec-6.php','target:_blank')" style="cursor: pointer;" class="event-card">
+                <div class="event-content" style="position: relative;">
+                    <div class="event-image">
+                        <img src="assets/img/event/cards/event-card-11.avif" alt="Pottery WORK SHOP">
+                    </div>
+                    <!-- Slot at top right, responsive -->
+                    <div class="event-slot-badge">
+                        <span class="event-dates-text" style="color: black;">
+                            <i class="fa-solid fa-users me-1" style=" margin-right: 4px;"></i>
+                            Slot: 30
+                        </span>
+                    </div>
+                    <div class="event-card-content">
+                        <div class="event-card-flex" style=" padding: 10px 20px;"></div>
+                        <h1 class="event-title event-title-responsive-on-event">
+                            Strangers Fun meetup
+                            <p class="mt-1"
+                                style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
+                                Games, icebreakers, laughs, future buddies</p>
+
+                        </h1>
+                        <div class="event-price-section">
+                            <div class="event-dates">
+                                <span class="event-dates-text" style="font-weight:700"><i
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 06 Dec
+                                    <?php echo $current_year; ?>
+                                </span>
+                            </div>
+                            <div class="event-dates">
+                                <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
+                                <span class="event-dates-text" style="font-weight:700">Chennai
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a href="events-sep-21.php" target="_blank" class="event-view">Register</a> -->
+                    <a href="events-nov-1.php" target="_blank" style="color: #4ec0db !important;" class="event-view text-decoration-none">Register</a>
+                </div>
+            </div>
+
+            <!-- Event Card 4 -->
             <div class="event-card">
                 <div class="event-content" style="position: relative;">
                     <div class="event-image">
@@ -1311,58 +1357,22 @@
                         <div class="event-price-section">
                             <div class="event-dates">
                                 <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 22st Nov
-                                    2025</span>
+                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 22nd Nov
+                                    <?php echo $current_year; ?>
+                                </span>
                             </div>
                             <div class="event-dates">
                                 <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
-                                <span class="event-dates-text" style="font-weight:700">Bangalore
+                                <span class="event-dates-text" style="font-weight:700 ">Bangalore
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <a href="components\events\event-pages\events-nov-1.php" class="event-view">Soon !</a>
+                    <a href="components\events\event-pages\events-nov-1.php"
+                        class="event-view text-decoration-none" style="color: #4ec0db !important;">Soon !</a>
                 </div>
             </div>
-            <!-- Event Card 5 -->
 
-            <div onclick="window.open('events-nov-26.php','target:_blank')" style="cursor: pointer;" class="event-card">
-                <div class="event-content" style="position: relative;">
-                    <div class="event-image">
-                        <img src="assets/img/event/cards/event-card-12.avif" alt="Pottery WORK SHOP">
-                    </div>
-                    <!-- Slot at top right, responsive -->
-                    <div class="event-slot-badge">
-                        <span class="event-dates-text" style="color: black;">
-                            <i class="fa-solid fa-users me-1" style=" margin-right: 4px;"></i>
-                            Slot: 15
-                        </span>
-                    </div>
-                    <div class="event-card-content">
-                        <div class="event-card-flex" style=" padding: 10px 20px;"></div>
-                        <h1 class="event-title event-title-responsive-on-event">
-                            Pottery WORK SHOP
-                            <p class="mt-1"
-                                style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
-                                Shape, mold, Heal, create, laugh together</p>
-
-                        </h1>
-                        <div class="event-price-section">
-                            <div class="event-dates">
-                                <span class="event-dates-text" style="font-weight:700"><i
-                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i> 29th Nov
-                                    2025</span>
-                            </div>
-                            <div class="event-dates">
-                                <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
-                                <span class="event-dates-text" style="font-weight:700">Chennai
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="events-nov-26.php" target="_blank" class="event-view">Register</a>
-                </div>
-            </div>
 
         </div>
         <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button" id="event-slider-next">

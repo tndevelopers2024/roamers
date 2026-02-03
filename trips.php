@@ -593,10 +593,11 @@
       }
     }
 
-    .upcoming-content {
+    .event-content {
       background: linear-gradient(180deg, rgba(86, 195, 221, 0) 0%, #56C3DD 100%);
-      padding: 1px 1px 1px 1px;
-      margin: 1px 1px 25px 1px;
+      padding: 1px;
+      margin: 0 0 25px 0;
+      /* Increased bottom margin for hanging button */
       color: white;
       position: relative;
       z-index: 1;
@@ -605,6 +606,8 @@
       height: 100%;
       display: flex;
       flex-direction: column;
+      overflow: visible !important;
+      /* Fix for button clipping */
       transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -772,13 +775,13 @@
       justify-content: center;
     }
 
-    .upcoming-view:hover,
+    /* .upcoming-view:hover,
     .upcoming-view:focus {
       background: #4CB9D3;
       color: #fff;
       box-shadow: 0 8px 32px 0 rgba(76, 185, 211, 0.18), 0 1.5px 8px 0 rgba(50, 238, 231, 0.10);
       transform: scale(1.05) translateX(-50%);
-    }
+    } */
 
     .upcoming-header {
       margin: 0px 0px 30px 0px;
@@ -1036,6 +1039,9 @@
 
 
     * {
+      text-decoration: none !important;
+      border-bottom: none !important;
+
     }
 
     html,
@@ -1272,11 +1278,13 @@
       left: 50%;
       transform: translateX(-50%);
       background-color: #fff;
-      color: #333;
+      color: #333 !important;
+      /* Force dark text */
       border-radius: 18px;
       text-decoration: none;
       font-weight: bold;
-      box-shadow: 5px 5px 44px 0px #3CADC9B2;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+      /* Force shadow visibility */
       font-size: 15px;
       z-index: 10;
       transition: all 0.3s ease;
@@ -1286,12 +1294,14 @@
       justify-content: center;
     }
 
+
+
     .event-slider-wrapper {
       position: relative;
       width: 100%;
       /* padding: 0 40px; */
       overflow: visible;
-      contain: content;
+      /* contain: content; Removed to fix button clipping */
     }
 
     .event-slider {
@@ -1299,8 +1309,7 @@
       justify-content: space-evenly;
       gap: 20px;
       padding: 20px 0px 30px 0px;
-      overflow-x: hidden;
-      overflow-y: visible;
+      overflow-x: auto;
       scroll-snap-type: x mandatory;
       scroll-padding: 15px;
       scrollbar-width: none;
@@ -1514,12 +1523,8 @@
     }
 
     .trips-page-images,
-    .swiper-slide img,
-    .silder-inner img,
-    .inner img {
-      border-radius: 16px !important;
-    }
   </style>
+  <link rel="stylesheet" href="assets/css/trip-overrides.css?v=1.1" />
 </head>
 
 <header>
@@ -1549,7 +1554,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="kolukkumalai-trek">
+              <a href="kolukkumalai-trek"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kolukkumalai-img/2.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1582,7 +1588,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="wayanad">
+              <a href="wayanad"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/bg/waya-cover.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1604,7 +1611,7 @@
                         alt="second location-icon">
                       <span class="wayanad-dates"> Jan 12 </span>
                     </h4>
-                    <h4><span class="kolukku-price">₹7,990</span> </h4>
+                    <h4><span class="wayanad-price">₹7,990</span> </h4>
                   </div>
                 </div>
               </a>
@@ -1613,14 +1620,15 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="ooty">
+              <a href="ooty"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/bg/ooty-cove.jpeg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
-                    <h3>3 DAYS / 2 NIGHTS</h3>
+                    <h3 class="text-decoration-none">3 DAYS / 2 NIGHTS</h3>
                     <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
-                        alt="second location-icon"> EX :Chennai,
+                        alt="second location-icon"> EX: Chennai,
                       Coimbatore
                     </h4>
                   </div>
@@ -1638,7 +1646,7 @@
                         alt="second location-icon">
                       <span class="ooty-dates">Nov 3, 24, Dec 8, 15, 22, Jan 26 </span>
                     </h4>
-                    <h4><span class="ooty-price"></span> </h4>
+                    <h4><span class="ooty-price">₹7,499</span> </h4>
                   </div>
                 </div>
               </a>
@@ -1647,7 +1655,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="chikmagalur">
+              <a href="chikmagalur"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Testimnils/chikmagalur.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1680,7 +1689,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="andaman">
+              <a href="andaman"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;"
                   src="assets/img/backpacking/Andaman hoppers.jpg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1714,7 +1724,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="ladakh-umlingla.php">
+              <a href="ladakh-umlingla.php"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/ladakh/ladakh-mail.jpeg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1746,7 +1757,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="pondicherry">
+              <a href="pondicherry"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;"
                   src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1807,7 +1819,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="meghalaya">
+              <a href="meghalaya"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/megalaya/Front 3.jpg "
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1867,7 +1880,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="kedarkantha">
+              <a href="kedarkantha"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kedarkantha/main-sub.avif "
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1927,7 +1941,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="varkala-grouptrip">
+              <a href="varkala-grouptrip"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;"
                   src="assets/img/valley-of-flowers/avif/img-4.avif" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -1961,7 +1976,8 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="spiti-valley">
+              <a href="spiti-valley"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/spiti-valley/spiti-cover.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -2023,10 +2039,7 @@
     <!-- Backpacking Trips -->
     <div id="section2" class="section mb-5">
       <div class="container mt-5">
-        <div class="row">
-          <div class="col-12 col-lg-2">
-
-          </div>
+        <div class="row justify-content-center">
           <!-- <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kerala">
@@ -2093,7 +2106,7 @@
           <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="#home-form">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/megalaya/Front 3.jpg "
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/megalaya/Front 3.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -2113,7 +2126,7 @@
                   <div class="inner">
                     <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
                         alt="second location-icon">
-                      <span class="ladakh-dates"></span>
+                      Opens Soon
                     </h4>
                     <h4><span class="meghalaya-price">₹19,990</span> </h4>
                   </div>
@@ -2125,10 +2138,7 @@
       </div>
       <!-- row2 -->
       <div style="margin-bottom: 3rem;" class="container mt-5">
-        <div class="row">
-          <div class="col-12 col-lg-2">
-
-          </div>
+        <div class="row justify-content-center">
 
           <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
@@ -2153,7 +2163,7 @@
                   <div class="inner">
                     <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
                         alt="second location-icon">
-                      <span class="ladakh-dates"></span>
+                      (Open Soon)
                     </h4>
                     <h4><span class="ladakh-price"></span> </h4>
                   </div>
@@ -2203,10 +2213,7 @@
       <!-- row3 -->
 
       <div style="margin-bottom: 3rem;" class="container">
-        <div class="row">
-          <div class="col-12 col-lg-2">
-
-          </div>
+        <div class="row justify-content-center">
 
 
 
@@ -2217,10 +2224,7 @@
       <!-- row4 -->
 
       <div style="margin-bottom: 6rem;" class="container">
-        <div class="row">
-          <div class="col-12 col-lg-2">
-
-          </div>
+        <div class="row justify-content-center">
           <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="spiti-valley">
@@ -2258,7 +2262,8 @@
         <div class="row">
           <div class="col-12 col-lg-4 col-md-4">
             <div class="swiper-slide">
-              <a href="ooty">
+              <a href="ooty"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/bg/ooty-cove.jpeg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -2291,7 +2296,8 @@
           </div>
           <div class="col-12 col-lg-4 col-md-4">
             <div class="swiper-slide">
-              <a href="pondicherry">
+              <a href="pondicherry"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;"
                   src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -2323,7 +2329,8 @@
           </div>
           <div class="col-12 col-lg-4 col-md-4 mt-5">
             <div class="swiper-slide">
-              <a href="#home-form">
+              <a href="#home-form"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Kerala/goa-cover.jpeg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -2415,7 +2422,7 @@
                         alt="second location-icon">
                       <span class="wayanad-dates"> Jan 12 </span>
                     </h4>
-                    <h4><span class="kolukku-price">₹7,990</span> </h4>
+                    <h4><span class="wayanad-price">₹7,990</span> </h4>
                   </div>
                 </div>
               </a>
@@ -2458,7 +2465,8 @@
 
           <div class="col-12 col-lg-4 col-md-6 mt-5">
             <div class="swiper-slide">
-              <a href="kolukkumalai-trek">
+              <a href="kolukkumalai-trek"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kolukkumalai-img/2.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -2490,7 +2498,8 @@
 
           <div class="col-12 col-lg-4 col-md-6 mt-5">
             <div class="swiper-slide">
-              <a href="chikmagalur">
+              <a href="chikmagalur"
+                style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Testimnils/chikmagalur.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
@@ -2898,10 +2907,10 @@
     });
   });
 
-  document.getElementById("changecon").innerHTML = localStorage.getItem('second');
+  /* document.getElementById("changecon").innerHTML = localStorage.getItem('second');
   document.getElementById("changecon").innerHTML = localStorage.getItem('three');
   document.getElementById("changecon").innerHTML = localStorage.getItem('four');
-  document.getElementById("changecon").innerHTML = localStorage.getItem('five');
+  document.getElementById("changecon").innerHTML = localStorage.getItem('five'); */
 </script>
 
 </body>

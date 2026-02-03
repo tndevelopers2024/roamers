@@ -397,78 +397,162 @@ group travel adventure today with confidence.
                     <div class="col-md-12">
                         <div class="blog-img">
                             <img class="img-fluid" src="assets/img/bg/india-blog.jpg">
-                            <p style="color:grey; font-size: 10px;">Feb 24, 2025</p>
+                            <p style="color:grey; font-size: 10px;">Feb 24, <?php echo $current_year; ?></p>
                         </div>
                         <div class="blog-content">
                             <h2>India's Hidden Gems: 10 Best Camping Destinations</h2>
-                            <p>What do you do when you get tired of staring at a bright screen all day? Do you like packing your bags and taking a trip to a scenic part of India? Either with your best mates and family or all by yourself to cherish the beauty of the world? Well, if this sounds like your vibe, then here are 10 of the most beautiful camping spots in India.</p>
-                            <p>You can wake up to the beauty of nature every morning and head to sleep under the stars every night. It is the best getaway from your boring daily work life. With that being said, here are the best spots to plan your next camping trip this year:</p>
+                            <p>What do you do when you get tired of staring at a bright screen all day? Do you like
+                                packing your bags and taking a trip to a scenic part of India? Either with your best
+                                mates and family or all by yourself to cherish the beauty of the world? Well, if this
+                                sounds like your vibe, then here are 10 of the most beautiful camping spots in India.
+                            </p>
+                            <p>You can wake up to the beauty of nature every morning and head to sleep under the stars
+                                every night. It is the best getaway from your boring daily work life. With that being
+                                said, here are the best spots to plan your next camping trip this year:</p>
 
                             <h5>Ladakh: Where Earth Meets Sky</h5>
-                            <p>With the majestic Himalayas keeping watch in the backdrop, picture opening your tent to see the first rays of the sun dancing on the immaculate waters of Pangong Tso Lake. The camping experience in Ladakh is truly magical. Camps like Pangong Retreat provide an almost otherworldly experience during the best weather months, which are May through September. At NODAMIC Life Camp in Nubra Valley, the starry heavens are so clear that you'll think you could touch the Milky Way.</p>
+                            <p>With the majestic Himalayas keeping watch in the backdrop, picture opening your tent to
+                                see the first rays of the sun dancing on the immaculate waters of Pangong Tso Lake. The
+                                camping experience in Ladakh is truly magical. Camps like Pangong Retreat provide an
+                                almost otherworldly experience during the best weather months, which are May through
+                                September. At NODAMIC Life Camp in Nubra Valley, the starry heavens are so clear that
+                                you'll think you could touch the Milky Way.</p>
 
                             <h5>Spiti Valley: The Middle Land</h5>
-                            <p>Known as Little Tibet, Spiti Valley is a place where peace and adventure coexist. Camping here, especially around Chandratal Lake in May and June, is a fantastic experience. Batseri Camps provides an unadulterated view of the Sangla Valley, while Parasol Camps and Retreat offers the ideal balance of comfort and wilderness. Every second spent here is greatly enhanced by the sight of snow-capped peaks reflected in Chandratal's glistening waters.</p>
+                            <p>Known as Little Tibet, Spiti Valley is a place where peace and adventure coexist. Camping
+                                here, especially around Chandratal Lake in May and June, is a fantastic experience.
+                                Batseri Camps provides an unadulterated view of the Sangla Valley, while Parasol Camps
+                                and Retreat offers the ideal balance of comfort and wilderness. Every second spent here
+                                is greatly enhanced by the sight of snow-capped peaks reflected in Chandratal's
+                                glistening waters.</p>
 
                             <h5>Rishikesh: Where Adventure Flows</h5>
-                            <p>Rishikesh's camping scene is as vibrant as the Ganges River that runs through it. Camps like Ganga Rivera, which are open from March to May and September to November, provide more than simply a location to set up camp; they are also entry points to exciting adventures. White-water rafting, cliff leaping, or just lounging by a bonfire while listening to the river's never-ending music are all soul-stirring experiences.</p>
+                            <p>Rishikesh's camping scene is as vibrant as the Ganges River that runs through it. Camps
+                                like Ganga Rivera, which are open from March to May and September to November, provide
+                                more than simply a location to set up camp; they are also entry points to exciting
+                                adventures. White-water rafting, cliff leaping, or just lounging by a bonfire while
+                                listening to the river's never-ending music are all soul-stirring experiences.</p>
 
                             <h5>Mussoorie: Queen of the Hills</h5>
 
-                            <p>You may experience nature more closely at Dhanaulti's ECO Camp without sacrificing comfort. With camping options available, the journey to Nag Tibba offers breathtaking views that make every step worthwhile. The months of March through June are ideal for stargazing, and the ethereal ambiance created by the early mist drifting over the hills is difficult to forget.</p>
+                            <p>You may experience nature more closely at Dhanaulti's ECO Camp without sacrificing
+                                comfort. With camping options available, the journey to Nag Tibba offers breathtaking
+                                views that make every step worthwhile. The months of March through June are ideal for
+                                stargazing, and the ethereal ambiance created by the early mist drifting over the hills
+                                is difficult to forget.</p>
 
                             <h5>Manali: Valley of the Gods</h5>
 
-                            <p>In the Solang Valley, camping offers the ideal balance of peace and adventure. Experiences at Broza Adventures and The Last Stop Riverside Camps range from heart-pounding to serene meditation by the river. Your soul is rejuvenated by the pine-scented air and the sound of the Beas River, which becomes your constant friend.</p>
+                            <p>In the Solang Valley, camping offers the ideal balance of peace and adventure.
+                                Experiences at Broza Adventures and The Last Stop Riverside Camps range from
+                                heart-pounding to serene meditation by the river. Your soul is rejuvenated by the
+                                pine-scented air and the sound of the Beas River, which becomes your constant friend.
+                            </p>
 
 
                             <h5>Jaisalmer: Desert Dreams</h5>
-                            <p>The sensation of camping in the Thar Desert is beyond description. Amidst infinite golden dunes, the Star Desert Camp provides an insight into Rajasthani culture from October to March. Memories that will last a lifetime are made during the nightly cultural performances beneath the starry desert sky.</p>
+                            <p>The sensation of camping in the Thar Desert is beyond description. Amidst infinite golden
+                                dunes, the Star Desert Camp provides an insight into Rajasthani culture from October to
+                                March. Memories that will last a lifetime are made during the nightly cultural
+                                performances beneath the starry desert sky.</p>
                             <h5>Rann of Kutch: White Wonder</h5>
-                            <p>The White Desert Camps create a memorable camping experience amidst the unique Rann scenery. The full moon in the white salt desert between October and February appears to be from another planet. It seems quite comfortable to rough it at the Rann Tent City since it blends luxury and wilderness in such a way.</p>
+                            <p>The White Desert Camps create a memorable camping experience amidst the unique Rann
+                                scenery. The full moon in the white salt desert between October and February appears to
+                                be from another planet. It seems quite comfortable to rough it at the Rann Tent City
+                                since it blends luxury and wilderness in such a way.</p>
 
                             <h5>Wayanad: Tropical Paradise</h5>
-                            <p>Wayanad is a year-round camping destination, unlike most others. The Mount Forest and Lantern Stay camps provide a distinctive viewpoint of Kerala's natural environment. Camping in the Western Ghats, surrounded by spice gardens and coffee plantations, is a particularly revitalising experience.</p>
-                            
+                            <p>Wayanad is a year-round camping destination, unlike most others. The Mount Forest and
+                                Lantern Stay camps provide a distinctive viewpoint of Kerala's natural environment.
+                                Camping in the Western Ghats, surrounded by spice gardens and coffee plantations, is a
+                                particularly revitalising experience.</p>
+
                             <h5>Assam: Wild East</h5>
 
-                            <p>It’s time to witness Northeast India's unadulterated beauty up close at Nameri Eco Camp. The weather is ideal for wildlife and bird watchers from November to March, if that’s what makes you wake up with a smile on your face. Camping here is much more than just pitching a tent as the days go by. It's more about getting lost in the area's abundant wildlife and finding your tired way back to bed only at night. It will leave you feeling satisfied and energized after a day of being out in the Sun.</p>
+                            <p>It’s time to witness Northeast India's unadulterated beauty up close at Nameri Eco Camp.
+                                The weather is ideal for wildlife and bird watchers from November to March, if that’s
+                                what makes you wake up with a smile on your face. Camping here is much more than just
+                                pitching a tent as the days go by. It's more about getting lost in the area's abundant
+                                wildlife and finding your tired way back to bed only at night. It will leave you feeling
+                                satisfied and energized after a day of being out in the Sun.</p>
 
                             <h5>Coorg: Coffee Country Camping</h5>
-                            <p>Coorg offers ideal camping conditions from October to February. Experiences that blend luxury and adventure are offered by the Coorg Adventure Park and Jungle Lodges. At Dubare, camping is made even more memorable by the sound of distant elephant trumpeting. What makes it even better is the scent of coffee plantations when you wake up - of course, you get to try the coffee, too!</p>
+                            <p>Coorg offers ideal camping conditions from October to February. Experiences that blend
+                                luxury and adventure are offered by the Coorg Adventure Park and Jungle Lodges. At
+                                Dubare, camping is made even more memorable by the sound of distant elephant trumpeting.
+                                What makes it even better is the scent of coffee plantations when you wake up - of
+                                course, you get to try the coffee, too!</p>
 
                             <h5>Essential Packing Guide</h5>
-                            <p>When travelling to one of India's many camping locations, being well-prepared can mean the difference between an unforgettable experience and a difficult one. What you should bring is as follows:</p>
+                            <p>When travelling to one of India's many camping locations, being well-prepared can mean
+                                the difference between an unforgettable experience and a difficult one. What you should
+                                bring is as follows:</p>
 
                             <h5>Gear and Equipment</h5>
-                            <p>First things first: a good waterproof tent, a sleeping bag that fits the temperature range of your destination, and a comfortable sleeping pad or mat. Remember to bring a dependable torch or headlamp with extra batteries.</p>
-                            <p>This is because power sources may be limited in isolated areas. While a durable backpack with rain cover protects your supplies, a multi-tool or Swiss Army knife becomes indispensable for a variety of camping jobs.</p>
+                            <p>First things first: a good waterproof tent, a sleeping bag that fits the temperature
+                                range of your destination, and a comfortable sleeping pad or mat. Remember to bring a
+                                dependable torch or headlamp with extra batteries.</p>
+                            <p>This is because power sources may be limited in isolated areas. While a durable backpack
+                                with rain cover protects your supplies, a multi-tool or Swiss Army knife becomes
+                                indispensable for a variety of camping jobs.</p>
 
                             <h5>Clothing and Protection</h5>
-                            <p>Wear layers because the weather in India might change suddenly. Make sure you bring a waterproof outer shell, warm fleece or wool mid-layers, and moisture-wicking base layers. Pack gloves and a thick hat to feel comfortable in high-altitude locations like Ladakh or the Spiti Valley.</p>
+                            <p>Wear layers because the weather in India might change suddenly. Make sure you bring a
+                                waterproof outer shell, warm fleece or wool mid-layers, and moisture-wicking base
+                                layers. Pack gloves and a thick hat to feel comfortable in high-altitude locations like
+                                Ladakh or the Spiti Valley.</p>
 
-                            <p>Essentials include comfortable camp sandals, durable hiking boots, and towels that dry quickly. Remember to wear a wide-brimmed hat, high-SPF sunscreen, sunglasses, and lip balm. This is especially important at higher elevations when UV radiation is more powerful.</p>
+                            <p>Essentials include comfortable camp sandals, durable hiking boots, and towels that dry
+                                quickly. Remember to wear a wide-brimmed hat, high-SPF sunscreen, sunglasses, and lip
+                                balm. This is especially important at higher elevations when UV radiation is more
+                                powerful.</p>
 
                             <h5>Health and Safety</h5>
-                            <p>Assemble a first-aid kit with basic medications for you and your group. You can also pack some bandages, antiseptic wipes, and any prescription drugs you may have. If going to a high-altitude camp, take altitude sickness medication. If you tend to feel sick on the car or plane, pack some motion sickness medication as well.</p>
-                            <p>If you are planning to camp in tropical areas like Wayanad or Assam, insect repellant is especially important. Get some mosquito repellant to sleep comfortably at night or truly enjoy your treks or campfire expeditions without irritation. Also, bring along a portable filter or some water purification tablets because clean drinking water isn't always easily accessible.</p>
+                            <p>Assemble a first-aid kit with basic medications for you and your group. You can also pack
+                                some bandages, antiseptic wipes, and any prescription drugs you may have. If going to a
+                                high-altitude camp, take altitude sickness medication. If you tend to feel sick on the
+                                car or plane, pack some motion sickness medication as well.</p>
+                            <p>If you are planning to camp in tropical areas like Wayanad or Assam, insect repellant is
+                                especially important. Get some mosquito repellant to sleep comfortably at night or truly
+                                enjoy your treks or campfire expeditions without irritation. Also, bring along a
+                                portable filter or some water purification tablets because clean drinking water isn't
+                                always easily accessible.</p>
                             <h5>Documentation and Connectivity</h5>
-                            <p>Bring the required identification, emergency contact details, and permits (particularly for restricted locations like Ladakh). Your mobile gadgets need a power bank, but keep in mind that network connectivity may be spotty in rural regions. As a backup navigation aid, think about keeping a physical map and compass with you.</p>
+                            <p>Bring the required identification, emergency contact details, and permits (particularly
+                                for restricted locations like Ladakh). Your mobile gadgets need a power bank, but keep
+                                in mind that network connectivity may be spotty in rural regions. As a backup navigation
+                                aid, think about keeping a physical map and compass with you.</p>
 
                             <h5>Practical Essentials</h5>
-                            <p>Remember to include basic amenities, hand sanitiser, toilet paper, and biodegradable soap. Your tent and equipment can benefit greatly from a repair kit. Keeping a "leave no trace" policy is essential to protecting these stunning places. So make sure to bring plastic bags for trash collection and waterproofing.</p>
+                            <p>Remember to include basic amenities, hand sanitiser, toilet paper, and biodegradable
+                                soap. Your tent and equipment can benefit greatly from a repair kit. Keeping a "leave no
+                                trace" policy is essential to protecting these stunning places. So make sure to bring
+                                plastic bags for trash collection and waterproofing.</p>
 
                             <h5>Food and Hydration</h5>
 
-                            <p>Even though many campgrounds offer meals, it's a good idea to pack trail mix, energy bars, and dried fruits for in-between meals. Peace of mind is offered by a reusable water bottle and some emergency food supplies. Bring the essential cooking supplies and light, simple-to-prepare meals if you're camping alone.</p>
+                            <p>Even though many campgrounds offer meals, it's a good idea to pack trail mix, energy
+                                bars, and dried fruits for in-between meals. Peace of mind is offered by a reusable
+                                water bottle and some emergency food supplies. Bring the essential cooking supplies and
+                                light, simple-to-prepare meals if you're camping alone.</p>
 
                             <h5>Pack Your Bags and Head Out There!</h5>
 
-                            <p>From the splendour of Ladakh to the beauty of Coorg, each of these locations has something special to offer. Their ability to introduce you to India's many landscapes and cultures is what sets them apart. Rather than going to a hotel and basking in a swimming pool, these spots will truly help you find yourself.</p>
+                            <p>From the splendour of Ladakh to the beauty of Coorg, each of these locations has
+                                something special to offer. Their ability to introduce you to India's many landscapes
+                                and cultures is what sets them apart. Rather than going to a hotel and basking in a
+                                swimming pool, these spots will truly help you find yourself.</p>
 
-                            <p>Visit these places for unique experiences, not simply for checking off the venues from your travel list or chilling in rich amenities. These locations offer experiences that will last a lifetime, regardless of your level of camping experience. You will remember the scenes in your memory long after your tent is packed away.</p>
+                            <p>Visit these places for unique experiences, not simply for checking off the venues from
+                                your travel list or chilling in rich amenities. These locations offer experiences that
+                                will last a lifetime, regardless of your level of camping experience. You will remember
+                                the scenes in your memory long after your tent is packed away.</p>
 
-                            <p>Yes, your memory is the best reminder of your journey - not just the pictures on your phone or camera. So remember to always respect local customs, maintain camping etiquette, and leave no trace behind. After all, the beauty of these places lies in their pristine nature, and it's our responsibility to keep them that way for future adventurers.</p>
+                            <p>Yes, your memory is the best reminder of your journey - not just the pictures on your
+                                phone or camera. So remember to always respect local customs, maintain camping
+                                etiquette, and leave no trace behind. After all, the beauty of these places lies in
+                                their pristine nature, and it's our responsibility to keep them that way for future
+                                adventurers.</p>
                         </div>
                     </div>
                 </div>

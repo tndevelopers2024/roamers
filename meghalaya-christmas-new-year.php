@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" width="600"
-    height="600" alt="image for ooty" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif"
+    width="600" height="600" alt="image for ooty" />
   <title>Roamers - Meghalaya</title>
 
   <!-- SEO Meta Description -->
@@ -17,13 +17,15 @@
 
   <!-- Basic Open Graph tags for Christmas & New Year Meghalaya Special -->
   <meta property="og:title" content="Meghalaya Christmas & New Year Trip - Roamers" />
-  <meta property="og:description" content="Celebrate Christmas and New Year in Majestic Meghalaya! Exclusive group tours, memorable experiences, and festive adventures await with Roamers." />
+  <meta property="og:description"
+    content="Celebrate Christmas and New Year in Majestic Meghalaya! Exclusive group tours, memorable experiences, and festive adventures await with Roamers." />
   <meta property="og:image" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
   <meta property="og:url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Meghalaya Christmas & New Year Trip - Roamers" />
-  <meta name="twitter:description" content="Join our Christmas & New Year group departures to Meghalaya for an unforgettable festive adventure. Small groups, expert guides, and the best of Meghalaya's spirit!" />
+  <meta name="twitter:description"
+    content="Join our Christmas & New Year group departures to Meghalaya for an unforgettable festive adventure. Small groups, expert guides, and the best of Meghalaya's spirit!" />
   <meta name="twitter:image" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" />
 
   <!-- Title  -->
@@ -346,8 +348,8 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" , class="img-fluid w-100" alt="Ladakh 3"
-                    style="border-radius: 10px; height: 350px; object-fit: cover;">
+                  <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" , class="img-fluid w-100"
+                    alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
 
                 <div class="swiper-slide">
@@ -694,8 +696,8 @@
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery"" alt=" Ladakh Banner 3"
-                  style=" object-fit:cover; border-radius: 10px;">
+                <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery"" alt="
+                  Ladakh Banner 3" style=" object-fit:cover; border-radius: 10px;">
               </div>
 
               <!-- >> Pricing Box Section << -->
@@ -713,7 +715,8 @@
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="meghalaya-form-christmas-new-year.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                      <a href="meghalaya-form-christmas-new-year.php" class="btn butn butn__new bg-"
+                        style="border-radius: 10px;">Dates
                         & Costing</a>
                     </div>
                   </div>

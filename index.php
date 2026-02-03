@@ -34,6 +34,8 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/color.css">
+
 
   <!-- Search Bar Toggle -->
   <script>
@@ -400,9 +402,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/price.js"></script>
+  <link rel="stylesheet" href="assets/css/expert-section.css">
 </head>
 
 <style>
+  /* Keep existing styles */
   .gotoinsta:hover {
     background-color: #fff;
     color: #4ec0db;
@@ -859,23 +863,8 @@
       <?php include('components/new-upcoming-trips.php'); ?>
     </div>
 
-
-    <!-- Mobile Christmas -->
-    <div class="d-block d-md-none"
-      style="margin-top:30px; margin-bottom: 50px; border-radius:20px 20px 0px 20px; width: 100%;">
-      <?php include('components/christmas-mobile.php'); ?>
-    </div>
-
-    <!-- Dsktop Christmas -->
-    <div class="d-none d-md-block mt-5" style="max-width: 1800px;  margin:auto">
-      <?php include('components/christmas.php'); ?>
-    </div>
-
-
-
-
     <!-- Events Section -->
-    <div class="events-section-responsive mx-auto" style="max-width: 1800px; margin:50px auto 0 auto;">
+    <div class="events-section-responsive mx-auto" style="max-width: 1800px; margin:10px auto 0 auto;">
       <style>
         /* @media (max-width: 1200px) {
           .events-section-responsive {
@@ -1273,29 +1262,26 @@
     width: 182% !important;
     margin-left:-49px;" src="assets/img/icon/Private-trips.jpg" alt="">
           </div>
-          <div class="col-md-5" id="contact-roamers">
+          <div class="col-md-5 mt-5" id="contact-roamers">
             <div class="form" id="home-form">
               <div class="above-form">
-                <!-- <h3>Have A Query?</h3> -->
                 <h2>Talk To Our Travel Experts</h2>
               </div>
               <div class="form-section">
-                <form style="text-align: center !important;" id="regForm1" action="index-contact-us-mail.php"
-                  method="POST">
+                <form id="regForm1" action="index-contact-us-mail.php" method="POST">
                   <input type="text" required placeholder="Name" name="name1" id="name1">
                   <input type="email" required placeholder="Email" name="email1" id="email1">
                   <input type="text" required placeholder="Mobile Number" name="phone1" id="phone1">
                   <input type="text" placeholder="Destination" name="des" id="des">
-                  <textarea placeholder="Message" name="mess" id="mess" id="" rows="4"></textarea>
-                  <button style="margin-top: 20px;" type="submit" class="what-sum btn mb-4 "><i
-                      class="fa-regular fa-comment-dots"></i>
-                    REQUEST CALL BACK</button>
+                  <textarea placeholder="Message" name="mess" id="mess" rows="4"></textarea>
+                  <button type="submit" class="what-sum btn rounded-pill">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    REQUEST CALL BACK
+                  </button>
                 </form>
-
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>

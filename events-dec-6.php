@@ -1401,7 +1401,7 @@
                             <i class="fa-regular fa-calendar-days" aria-hidden="true"
                                 style="margin-top: 2px; min-width: 22px; font-size: 1.15em; color: #4ec0db;"></i>
                             <span>
-                                <span style="font-weight: 500;">Dec 6 , 2025</span>
+                                <span style="font-weight: 500;">Dec 6 , <?php echo $current_year; ?></span>
                                 <span style="color: #888;"> | Sunday</span>
                             </span>
                         </div>

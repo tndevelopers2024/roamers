@@ -1122,7 +1122,8 @@
                   </div>
                   <div class="upcoming-slot ">
                     <h3> Dec 28</h3>
-                    <h4 style="background:#ff9500 !important; color:#fff !important;">New Year Trip</h4>
+                    <h4 style="background:#ff9500 !important; color:#fff !important;"><?php echo $new_year_trip_text; ?>
+                    </h4>
                   </div>
                 </div>
 
