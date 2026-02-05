@@ -98,7 +98,7 @@
                         DELHI
                         <span class="ms-2">
                             <span>
-                                <img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+                                <img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -107,7 +107,7 @@
                         SHIMLA
                         <span class="ms-2">
                             <span>
-                                <img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+                                <img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -116,7 +116,7 @@
                         KALPA
                         <span class="ms-2">
                             <span>
-                                <img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+                                <img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -124,7 +124,7 @@
                     <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
                         NAKO
                         <span class="ms-2">
-                            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+                            <span><img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -132,7 +132,7 @@
                     <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
                         KAZA
                         <span class="ms-2">
-                            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+                            <span><img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>

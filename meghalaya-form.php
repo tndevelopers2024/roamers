@@ -11,7 +11,7 @@ session_start();
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" width="600"
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-10.avif" width="600"
     height="600" alt="image for ooty" />
   <title>Roamers - Meghalaya</title>
 
@@ -24,14 +24,14 @@ session_start();
   <!-- Basic Open Graph tags -->
   <meta property="og:title" content="Roamers - Meghalaya" />
   <meta property="og:description" content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta property="og:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta property="og:image" content="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-10.avif" />
+  <meta property="og:url" content="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-10.avif" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Roamers - Meghalaya" />
   <meta name="twitter:description"
     content="Discover the beauty of Meghalaya with our detailed travel guide and tips." />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-10.avif" />
 
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -949,7 +949,7 @@ session_start();
       left: 0;
       width: 100%;
       height: 100%;
-      background: url('assets/img/megalaya/nohkalikali-falls.jpg');
+      background: url('assets/img/meghalaya/meghalaya-gallery-27.avif');
       background-size: cover;
       background-position: center;
       filter: blur(4px);

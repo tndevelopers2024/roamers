@@ -1685,14 +1685,14 @@
             {
                 name: 'Mejestic Meghalaya',
                 link: 'https://roamers.in/meghalaya',
-                image: 'assets/img/megalaya/Front 3.jpg ',
+                image: 'assets/img/meghalaya/meghalaya-gallery-16.avif ',
                 duration: '6 DAYS / 5 NIGHTS',
                 location: 'EX: Guwahati'
             },
             {
                 name: 'Kodaikanal trek with poombarai',
                 link: 'https://roamers.in/kodaikanal',
-                image: 'assets/img/megalaya/Front 3.jpg ',
+                image: 'assets/img/meghalaya/meghalaya-gallery-16.avif ',
                 duration: '3 DAYS / 2 NIGHTS',
                 location: 'EX: Chennai'
             },

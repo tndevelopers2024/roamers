@@ -923,7 +923,7 @@ session_start();
       left: 0;
       width: 100%;
       height: 100%;
-      background: url('assets/img/Sirlanka/srilanka-images-by-roamers (17).webp');
+      background: url('assets/img/sri-lanka/sri-lanka-gallery-17.avif');
       background-size: cover;
       background-position: center;
       filter: blur(4px);

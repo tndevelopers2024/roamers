@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $mail->isHTML(true);
         $mail->Subject = 'NEW SRI LANKA BOOKING RECEIVED';
-        $mail->AddEmbeddedImage('assets/img/Sirlanka/srilanka-images-by-roamers (46).webp', 'srilankaimg');
+        $mail->AddEmbeddedImage('assets/img/sri-lanka/sri-lanka-gallery-46.avif', 'srilankaimg');
 
         $mail->Body = "
         <div style='

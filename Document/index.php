@@ -633,7 +633,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
           <div class="swiper-slide">
             <a href="srilanka.php">
-              <img src="assets/img/Sirlanka/srilanka-images-by-roamers (44).webp" class="backpacking-img"
+              <img src="assets/img/sri-lanka/sri-lanka-gallery-44.avif" class="backpacking-img"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
@@ -724,7 +724,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
           <div class="swiper-slide">
             <a href="meghalaya">
-              <img src="assets/img/megalaya/Front 3.jpg " class="backpacking-img" alt="roamers-Gallery">
+              <img src="assets/img/meghalaya/meghalaya-gallery-16.avif " class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>6 DAYS / 5 NIGHTS</h3>
@@ -871,7 +871,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                       <li><i class="fa-solid fa-star"></i></li>
                       <li><i class="fa-solid fa-star"></i></li>
                     </ul>
-                    <img src="assets/img/Testimnils/Andaman.jpg" />
+                    <img src="assets/img/testimonials/andaman.avif" />
 
 
                   </div>
@@ -893,7 +893,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                       <li><i class="fa-solid fa-star"></i></li>
                       <li><i class="fa-solid fa-star"></i></li>
                     </ul>
-                    <img src="assets/img/Testimnils/Spiti.jpg" />
+                    <img src="assets/img/testimonials/spiti.avif" />
 
 
                   </div>
@@ -915,7 +915,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                       <li><i class="fa-solid fa-star"></i></li>
                       <li><i class="fa-solid fa-star"></i></li>
                     </ul>
-                    <img src="assets/img/Testimnils/chikmagalur.jpg" />
+                    <img src="assets/img/testimonials/chikmagalur.avif" />
 
                   </div>
                   <div class="slide-box">
@@ -934,7 +934,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                       <li><i class="fa-solid fa-star"></i></li>
                       <li><i class="fa-solid fa-star"></i></li>
                     </ul>
-                    <img src="assets/img/Testimnils/Manali.jpg" />
+                    <img src="assets/img/testimonials/manali.avif" />
 
                   </div>
                 </div>
@@ -1228,7 +1228,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
           <div class="swiper-slide">
             <a href="chikmagalur">
-              <img src="assets/img/Testimnils/chikmagalur.jpg" alt="roamers-Gallery">
+              <img src="assets/img/testimonials/chikmagalur.avif" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
@@ -1512,7 +1512,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
       {
         name: 'Mejestic Meghalaya',
         link: 'https://roamers.in/meghalaya',
-        image: 'assets/img/megalaya/Front 3.jpg ',
+        image: 'assets/img/meghalaya/meghalaya-gallery-16.avif ',
         duration: '6 DAYS / 5 NIGHTS',
         location: 'EX: Guwahati'
       },
@@ -1520,7 +1520,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
       {
         name: 'Kodaikanal trek with poombarai',
         link: 'https://roamers.in/kodaikanal',
-        image: 'assets/img/megalaya/Front 3.jpg ',
+        image: 'assets/img/meghalaya/meghalaya-gallery-16.avif ',
         duration: '3 DAYS / 2 NIGHTS',
         location: 'EX: Chennai'
       },

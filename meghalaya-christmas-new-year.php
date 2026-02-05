@@ -348,12 +348,12 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" , class="img-fluid w-100"
+                  <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-10.avif" , class="img-fluid w-100"
                     alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/megalaya/Guwahati.jpg" class="img-fluid w-100" alt="Ladakh 1"
+                  <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-18.avif" class="img-fluid w-100" alt="Ladakh 1"
                     style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
               </div>
@@ -696,7 +696,7 @@
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery"" alt="
+                <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-10.avif" alt="roamers-Gallery"" alt="
                   Ladakh Banner 3" style=" object-fit:cover; border-radius: 10px;">
               </div>
 
@@ -775,57 +775,57 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Ritymmen-Root-bridge.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-28.avif" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/nohkalikali-falls.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-27.avif" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/mawsami%20caves.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/mawsami%20caves.jpg" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Mawlynong%20Village.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/Mawlynong%20Village.jpg" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Guwahati-1.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-17.avif" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/krang%20shuri%20waterfalls.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/krang%20shuri%20waterfalls.jpg" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-10.avif" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/double%20deckker.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/double%20deckker.jpg" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Wei-Sawdong-Waterfalls.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-32.avif" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Umngot%20River%20boat%20ride.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/Umngot%20River%20boat%20ride.jpg" alt="roamers-Gallery">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Tyrna%20village.jpg" alt="roamers-Gallery">
+            <img src="https://roamers.in/assets/img/meghalaya/Tyrna%20village.jpg" alt="roamers-Gallery">
           </div>
         </div>
       </div>
@@ -1364,7 +1364,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "https://roamers.in/assets/img/megalaya/cover.jpg",
+      "https://roamers.in/assets/img/meghalaya/meghalaya-gallery-13.avif",
     ];
 
     let index = 0;

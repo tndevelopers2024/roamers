@@ -1644,7 +1644,7 @@
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="chikmagalur">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Testimnils/chikmagalur.jpg"
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/testimonials/chikmagalur.avif"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -1804,7 +1804,7 @@
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="meghalaya">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/megalaya/Front 3.jpg "
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/meghalaya/meghalaya-gallery-16.avif "
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -2089,7 +2089,7 @@
           <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="#home-form">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/megalaya/Front 3.jpg "
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/meghalaya/meghalaya-gallery-16.avif "
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -2487,7 +2487,7 @@
           <div class="col-12 col-lg-4 col-md-6 mt-5">
             <div class="swiper-slide">
               <a href="chikmagalur">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Testimnils/chikmagalur.jpg"
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/testimonials/chikmagalur.avif"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">

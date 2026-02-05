@@ -363,7 +363,7 @@
         </div>
         <!-- <div class="swiper-slide" style="will-change: transform; backface-visibility: hidden;">
           <picture>
-            <source srcset="https://roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" media="(max-width: 576px)">
+            <source srcset="https://roamers.in/assets/img/sri-lanka/sri-lanka-gallery-06.avif" media="(max-width: 576px)">
             <img class="slide-picture" loading="eager" decoding="async" src="https://roamers.in/assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif" alt="Himalayan Christmas Escape" style="will-change: transform; backface-visibility: hidden;">
           </picture>
         </div> -->
@@ -420,7 +420,7 @@
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
-            <img src="assets/img/megalaya/Front%203.jpg" alt="Valley of Flowers">
+            <img src="assets/img/meghalaya/Front%203.jpg" alt="Valley of Flowers">
           </div>
           <div class="upcoming-card-flex">
             <div class="upcoming-duration">
@@ -451,7 +451,7 @@
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
-            <img src="assets/img/Testimnils/chikmagalur.jpg" alt="Sri Lanka">
+            <img src="assets/img/testimonials/chikmagalur.avif" alt="Sri Lanka">
           </div>
           <div class="upcoming-card-flex">
             <div class="upcoming-duration">
@@ -728,7 +728,7 @@
         <div class="swiper-wrapper" style="will-change: transform; backface-visibility: hidden;">
           <div class="swiper-slide" style="will-change: transform; backface-visibility: hidden;">
             <picture>
-              <source srcset="https://roamers.in/assets/img/megalaya/cover.jpg" media="(max-width: 576px)">
+              <source srcset="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-13.avif" media="(max-width: 576px)">
               <img class="slide-picture" loading="eager" decoding="async"
                 src="https://roamers.in/assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif"
                 alt="Christmas in Manali - Snowy Adventure"
@@ -737,7 +737,7 @@
           </div>
           <div class="swiper-slide" style="will-change: transform; backface-visibility: hidden;">
             <picture>
-              <source srcset="https://roamers.in/assets/img/megalaya/cover.jpg" media="(max-width: 576px)">
+              <source srcset="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-13.avif" media="(max-width: 576px)">
               <img class="slide-picture" loading="eager" decoding="async"
                 src="https://roamers.in/assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif"
                 alt="New Year Party in Goa" style="will-change: transform; backface-visibility: hidden;">
@@ -745,7 +745,7 @@
           </div>
           <div class="swiper-slide" style="will-change: transform; backface-visibility: hidden;">
             <picture>
-              <source srcset="https://roamers.in/assets/img/megalaya/cover.jpg" media="(max-width: 576px)">
+              <source srcset="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-13.avif" media="(max-width: 576px)">
               <img class="slide-picture" loading="eager" decoding="async"
                 src="https://roamers.in/assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif"
                 alt="Himalayan Christmas Escape" style="will-change: transform; backface-visibility: hidden;">

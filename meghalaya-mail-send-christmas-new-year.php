@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $mail->isHTML(true);
         $mail->Subject = 'NEW Meghalaya Christmas New Year';
-        $mail->AddEmbeddedImage('assets/img/megalaya/nohkalikali-falls.jpg', 'srilankaimg');
+        $mail->AddEmbeddedImage('assets/img/meghalaya/meghalaya-gallery-27.avif', 'srilankaimg');
 
         $mail->Body = "
         <div style='

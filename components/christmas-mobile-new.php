@@ -127,7 +127,7 @@
                 <div class="event-card-2" onclick="window.open('#','target:_blank')" style="cursor: pointer;">
                     <div class="event-content" style="position: relative;">
                         <div class="event-image-2">
-                            <img src="https://roamers.in/assets/img/megalaya/Front%203.jpg" alt="Pottery WORK SHOP" style="filter: brightness(0.68);">
+                            <img src="https://roamers.in/assets/img/meghalaya/Front%203.jpg" alt="Pottery WORK SHOP" style="filter: brightness(0.68);">
                         </div>
                         <!-- <div class="event-slot-badge">
                             <span class="event-dates-text" style="color: black;">

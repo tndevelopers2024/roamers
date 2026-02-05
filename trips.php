@@ -1657,7 +1657,7 @@
             <div class="swiper-slide">
               <a href="chikmagalur"
                 style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Testimnils/chikmagalur.jpg"
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/testimonials/chikmagalur.avif"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -1821,7 +1821,7 @@
             <div class="swiper-slide">
               <a href="meghalaya"
                 style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/megalaya/Front 3.jpg "
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/meghalaya/meghalaya-gallery-16.avif "
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -2106,7 +2106,7 @@
           <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="#home-form">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/megalaya/Front 3.jpg"
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/meghalaya/meghalaya-gallery-16.avif"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
@@ -2500,7 +2500,7 @@
             <div class="swiper-slide">
               <a href="chikmagalur"
                 style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Testimnils/chikmagalur.jpg"
+                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/testimonials/chikmagalur.avif"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">

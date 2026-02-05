@@ -732,7 +732,7 @@
                     <div class="upcoming-card">
                         <div class="upcoming-content">
                             <div class="upcoming-image">
-                                <img src="assets/img/megalaya/Front%203.jpg" alt="Valley of Flowers">
+                                <img src="assets/img/meghalaya/Front%203.jpg" alt="Valley of Flowers">
                             </div>
                             <div class="upcoming-card-flex">
                                 <div class="upcoming-duration">
@@ -763,7 +763,7 @@
                     <div class="upcoming-card">
                         <div class="upcoming-content">
                             <div class="upcoming-image">
-                                <img src="assets/img/Testimnils/chikmagalur.jpg" alt="Sri Lanka">
+                                <img src="assets/img/testimonials/chikmagalur.avif" alt="Sri Lanka">
                             </div>
                             <div class="upcoming-card-flex">
                                 <div class="upcoming-duration">

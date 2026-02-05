@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta property="og:image:secure_url"
-    content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" width="600" height="600"
+    content="https://www.roamers.in/assets/img/sri-lanka/sri-lanka-gallery-06.avif" width="600" height="600"
     alt="image for ooty" />
   <title>Roamers - Sri Lanka</title>
 
@@ -20,15 +20,15 @@
   <meta property="og:title" content="Roamers - Sri Lanka" />
   <meta property="og:description" content="Discover the beauty of Sri Lanka with our detailed travel guide and tips." />
   <meta property="og:image"
-    content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" />
-  <meta property="og:url" content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" />
+    content="https://www.roamers.in/assets/img/sri-lanka/sri-lanka-gallery-06.avif" />
+  <meta property="og:url" content="https://www.roamers.in/assets/img/sri-lanka/sri-lanka-gallery-06.avif" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Roamers - Sri Lanka" />
   <meta name="twitter:description"
     content="Discover the beauty of Sri Lanka with our detailed travel guide and tips." />
   <meta name="twitter:image"
-    content="https://www.roamers.in/assets/img/Sirlanka/srilanka-images-by-roamers%20(6).webp" />
+    content="https://www.roamers.in/assets/img/sri-lanka/sri-lanka-gallery-06.avif" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -80,7 +80,7 @@
         <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
           SIGIRIYA
           <span class="ms-2">
-            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
+            <span><img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
                 style="width:13px; margin-bottom: 3px;"></span>
           </span>
         </li>
@@ -369,20 +369,20 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (48).webp" , class="img-fluid w-100"
+                  <img src="assets/img/sri-lanka/sri-lanka-gallery-48.avif" , class="img-fluid w-100"
                     alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (46).webp" , class="img-fluid w-100"
+                  <img src="assets/img/sri-lanka/sri-lanka-gallery-46.avif" , class="img-fluid w-100"
                     alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (6).webp" class="img-fluid w-100"
+                  <img src="assets/img/sri-lanka/sri-lanka-gallery-06.avif" class="img-fluid w-100"
                     alt="Ladakh 1" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/Sirlanka/srilanka-images-by-roamers (26).webp" , class="img-fluid w-100"
+                  <img src="assets/img/sri-lanka/sri-lanka-gallery-26.avif" , class="img-fluid w-100"
                     alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
                 </div>
               </div>
@@ -872,7 +872,7 @@
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="assets/img/Sirlanka/srilanka-images-by-roamers (47).webp" alt="Ladakh Banner 3"
+                <img src="assets/img/sri-lanka/sri-lanka-gallery-47.avif" alt="Ladakh Banner 3"
                   style=" object-fit:cover; border-radius: 10px;">
               </div>
 
@@ -950,97 +950,97 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (1).webp" alt="Sri Lanka 1">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-01.avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (2).webp" alt="Sri Lanka 2">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-02.avif" alt="Sri Lanka 2">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (4).webp" alt="Sri Lanka 3">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-04.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (5).webp" alt="Sri Lanka 4">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-05.avif" alt="Sri Lanka 4">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (7).webp" alt="Sri Lanka 5">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-07.avif" alt="Sri Lanka 5">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (8).webp" alt="Sri Lanka 6">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-08.avif" alt="Sri Lanka 6">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (10).webp" alt="Sri Lanka 8">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-10.avif" alt="Sri Lanka 8">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (13).webp" alt="Sri Lanka 9">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-13.avif" alt="Sri Lanka 9">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (17).webp" alt="Sri Lanka 10">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-17.avif" alt="Sri Lanka 10">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (20).webp" alt="Sri Lanka 12">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-20.avif" alt="Sri Lanka 12">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (22).webp" alt="Sri Lanka 13">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-22.avif" alt="Sri Lanka 13">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (23).webp" alt="Sri Lanka 14">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-23.avif" alt="Sri Lanka 14">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (27).webp" alt="Sri Lanka 15">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-27.avif" alt="Sri Lanka 15">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (29).webp" alt="Sri Lanka 16">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-29.avif" alt="Sri Lanka 16">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (30).webp" alt="Sri Lanka 16">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-30.avif" alt="Sri Lanka 16">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (33).webp" alt="Sri Lanka 16">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-33.avif" alt="Sri Lanka 16">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (34).webp" alt="Sri Lanka 16">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-34.avif" alt="Sri Lanka 16">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (41).webp" alt="Sri Lanka 16">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-41.avif" alt="Sri Lanka 16">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (43).webp" alt="Sri Lanka 16">
+            <img src="assets/img/sri-lanka/sri-lanka-gallery-43.avif" alt="Sri Lanka 16">
           </div>
         </div>
       </div>
@@ -1581,8 +1581,8 @@
     const images = [
       "assets/img/Sirlanka/srilanka-images-by-roamers (18).avif",
       "assets/img/Sirlanka/srilanka-images-by-roamers (30).avif",
-      "assets/img/Sirlanka/srilanka-images-by-roamers (3).webp",
-      "assets/img/Sirlanka/srilanka-images-by-roamers (16).webp",
+      "assets/img/sri-lanka/sri-lanka-gallery-03.avif",
+      "assets/img/sri-lanka/sri-lanka-gallery-16.avif",
       "assets/img/Sirlanka/srilanka-images-by-roamers (14).avif",
     ];
 

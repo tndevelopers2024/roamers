@@ -1504,7 +1504,7 @@
           "year": 2024,
           "month": 2,
           "day": 9,
-          "image": "assets/img/Testimnils/chikmagalur.jpg",
+          "image": "assets/img/testimonials/chikmagalur.avif",
           "link": "https://www.roamers.in/chikmagalur"
         },
 

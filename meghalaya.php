@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif" width="600"
-    height="600" alt="image for ooty" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/optimized-images/og-img/megalaya.avif"
+    width="600" height="600" alt="image for ooty" />
   <title>Roamers - Meghalaya</title>
 
   <!-- SEO Meta Description -->
@@ -345,15 +345,14 @@
           <div class="col-md-5 mt-0">
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" , class="img-fluid w-100" alt="Ladakh 3"
-                    style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/megalaya/Guwahati.jpg" class="img-fluid w-100" alt="Ladakh 1"
-                    style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
+                <?php
+                for ($i = 1; $i <= 32; $i++) {
+                  $imgNum = sprintf("%02d", $i);
+                  echo '<div class="swiper-slide">';
+                  echo '  <img src="assets/img/meghalaya/meghalaya-gallery-' . $imgNum . '.avif" class="img-fluid w-100" alt="Meghalaya Gallery Image ' . $i . '" style="border-radius: 10px; height: 350px; object-fit: cover;">';
+                  echo '</div>';
+                }
+                ?>
               </div>
             </div>
           </div>
@@ -397,7 +396,8 @@
                         <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
                             style="font-size: 0.65rem;"></i>
                           Meet the Roamers team & trip captain at the designated point in Guwahati and get ready to
-                          kick-start our journey to Shillong.(Request to plan Arrival before 12:30 Noon for smooth transfers)
+                          kick-start our journey to Shillong.(Request to plan Arrival before 12:30 Noon for smooth
+                          transfers)
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Enjoy the breathtaking views of lush green hills and the mesmerising Umiam Lake while
@@ -706,14 +706,12 @@
             </div>
           </div>
 
-          <!-- >> Side Sticky Section << -->
-
+          <!-- Side Sticky Section -->
           <div class="col-md-4">
-
             <div class="price-sticky" style="position: sticky;">
-              <!-- >> Side Slider Section << -->
+              <!-- Side Slider Section -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery"" alt=" Ladakh Banner 3"
+                <img src="assets/img/meghalaya/meghalaya-gallery-10.avif" alt="Meghalaya Landscape"
                   style=" object-fit:cover; border-radius: 10px;">
               </div>
 
@@ -789,61 +787,16 @@
     </h3>
     <div class="swiper-container two">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Ritymmen-Root-bridge.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/nohkalikali-falls.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <!-- <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/mawsami%20caves.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Mawlynong%20Village.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Guwahati-1.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/krang%20shuri%20waterfalls.jpg" alt="roamers-Gallery">
-          </div>
-        </div> -->
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/lalitum-Canyons.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/double%20deckker.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Wei-Sawdong-Waterfalls.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Umngot%20River%20boat%20ride.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/megalaya/Tyrna%20village.jpg" alt="roamers-Gallery">
-          </div>
-        </div>
+        <?php
+        for ($i = 1; $i <= 32; $i++) {
+          $imgNum = sprintf("%02d", $i); // Formats number to 01, 02, etc.
+          echo '<div class="swiper-slide">';
+          echo '  <div class="slider-image">';
+          echo '    <img src="assets/img/meghalaya/meghalaya-gallery-' . $imgNum . '.avif" alt="Meghalaya Gallery Image ' . $i . '">';
+          echo '  </div>';
+          echo '</div>';
+        }
+        ?>
       </div>
       <div class="swiper-pagination d-none d-md-none"></div>
     </div>
@@ -1021,7 +974,7 @@
 
   <script>
     // Slider 
-    window.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener("DOMContentLoaded", function () {
       const swiper = new Swiper(".swiper-container", {
         slidesPerView: "auto",
         spaceBetween: 10,
@@ -1096,7 +1049,7 @@
   </script>
 
   <script>
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       const scrollSection = document.querySelector('.scroll-section');
       const swiperContainer = document.querySelector('.swiper-container.two');
 
@@ -1119,7 +1072,7 @@
           clickable: true,
         },
         on: {
-          init: function() {
+          init: function () {
             // Add initialization classes after Swiper is ready
             setTimeout(() => {
               scrollSection.classList.add('loaded');
@@ -1134,7 +1087,7 @@
   <script>
     var navbar = document.querySelector("nav");
 
-    window.onscroll = function() {
+    window.onscroll = function () {
       // pageYOffset or scrollY
       if (window.scrollY > 100) {
         navbar.classList.add("scrolled");
@@ -1149,7 +1102,7 @@
 
     // *****Sidebar tab radio content start*****
     var sliders = document.querySelectorAll(".slider");
-    sliders.forEach(function(slider) {
+    sliders.forEach(function (slider) {
       var sliderContainer = slider.querySelector(".slider-container");
       var prevBtn = slider.querySelector(".prev-btn1");
       var nextBtn = slider.querySelector(".next-btn1");
@@ -1243,8 +1196,8 @@
       autoWidth: true,
       loop: true
     });
-    $(document).ready(function() {
-      $(".custom-carousel .item").click(function() {
+    $(document).ready(function () {
+      $(".custom-carousel .item").click(function () {
         $(".custom-carousel .item").not($(this)).removeClass("active");
         $(this).toggleClass("active");
       });
@@ -1381,7 +1334,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "https://roamers.in/assets/img/megalaya/cover.jpg",
+      "assets/img/meghalaya/meghalaya-gallery-13.avif",
     ];
 
     let index = 0;

@@ -480,7 +480,7 @@
           <div class="row align-items-center">
             <div class="col-md-5">
               <div class="blog-img">
-                <img class="img-fluid" src="assets/img/megalaya/nohkalikali-falls.jpg">
+                <img class="img-fluid" src="assets/img/meghalaya/meghalaya-gallery-27.avif">
               </div>
             </div>
             <div style="place-content:center;" class="col-md-7">

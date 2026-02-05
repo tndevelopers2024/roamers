@@ -46,7 +46,7 @@
 $trips_db = [
     'meghalaya' => [
         'title' => 'MAJESTIC MEGHALAYA',
-        'image' => 'assets/img/megalaya/Front%203.jpg',
+        'image' => 'assets/img/meghalaya/meghalaya-gallery-03.avif',
         'duration' => '6D/5N',
         'location' => 'Ex: Guwahati',
         'places' => 'Guwahati, Shillong, Cherrapunjee',
@@ -65,7 +65,7 @@ $trips_db = [
     ],
     'chikmagalur' => [
         'title' => 'CHIKMAGALUR BACKPACKING',
-        'image' => 'assets/img/Testimnils/chikmagalur.jpg',
+        'image' => 'assets/img/testimonials/chikmagalur.avif',
         'duration' => '3D/2N',
         'location' => 'EX: Chennai - Bangalore',
         'places' => 'Chikmagalur, Z point, Hebbe Falls',

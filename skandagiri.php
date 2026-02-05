@@ -1231,7 +1231,7 @@
           <div class="swiper-slide">
             <a href="chikmagalur">
               <!-- <img class="new-year" src="assets/img/bg/New-year.gif" alt=""> -->
-              <img src="assets/img/Testimnils/chikmagalur.jpg" alt="roamers-Gallery">
+              <img src="assets/img/testimonials/chikmagalur.avif" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
