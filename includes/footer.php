@@ -9,7 +9,6 @@
     <!-- SEO Meta Description -->
     <meta name="description" content="" />
     <meta name="author" content="Themeland" />
-
     <!-- Title  -->
     <title>Roamers</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -49,7 +48,7 @@
 
         }
     </style>
-    <!--====== FOOTER START======-->
+    
     <footer class="footer-section">
         <div class="container">
             <div class="footer-content pt-md-5 pt-3 ">
@@ -81,15 +80,9 @@
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Contact us</a></li>
                                 <li><a href="cancellation-policy">Cancellation policy</a></li>
-
-
                             </ul>
                         </div>
                     </div>
-
-
-
-
                     <div class=" col-lg-2 col-md-6 col-6 ">
                         <div class="footer-widget fborder">
                             <div class="footer-widget-heading">
@@ -115,7 +108,6 @@
                                 <li><a href="kodaikanal"> Kodaikanal Trek & Camp</a></li>
                                 <li><a href="chikmagalur"> Chikmagalur Trek
                                     </a></li>
-
                             </ul>
                         </div>
                     </div>
@@ -169,11 +161,12 @@
                 <div class="row">
                     <div class="col-lg-12 text-center text-lg-left">
                         <div class="copyright-text ">
-                            <p class="text-white">Copyright &copy; <script>
-                                document.write(new Date().getFullYear());
-                            </script>, All Right Reserved <a href="#">Roamers</a></p>
+                            <p class="text-white">Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>, All Right Reserved <a href="#">Roamers</a>
+                            </p>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -181,7 +174,6 @@
     </footer>
 
     <!--====== FOOTER END======-->
-
     <!-- ***** All jQuery Plugins ***** -->
 
     <!-- jQuery(necessary for all JavaScript plugins) -->
@@ -194,8 +186,6 @@
     <!-- Plugins js -->
     <script src="assets/js/plugins/plugins.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-
     <!-- Active js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
@@ -205,6 +195,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="/assets/js/active.js"></script>
+
 </body>
 
 </html>

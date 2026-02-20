@@ -1249,7 +1249,7 @@
 
 <body>
 
-    <?php include('includes\loader.php'); ?>
+    <?php include('includes/loader.php'); ?>
     <header>
         <?php include('includes/header.php'); ?>
     </header>
@@ -1257,7 +1257,7 @@
     <main>
         <!-- One -->
         <div class="container event-banner-mobile">
-            <img src="assets\img\event\banner\event-image-by-roamers-8.png" alt="Pool Party" />
+            <img src="assets/img/event/banner/event-image-by-roamers-8.png" alt="Pool Party" />
         </div>
 
         <!-- Main Content -->

@@ -62,7 +62,7 @@
 
   <!-- Banner -->
   <section class="trip-home" class="banner-marigin-section" id="tripSection"
-    style="  padding: 350px 0; color: white; position: relative;  ">
+    style="  padding: 350px 0; color: white; position: relative;  height: 95vh;">
 
 
 
@@ -78,12 +78,11 @@
         <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
           PORT BLAIR
           <span class="ms-2">
-            <span><img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
-                style="width:13px; margin-bottom: 3px;"></span>
-          </span>
+            <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
+                  style="width:13px; margin-bottom: 3px;"></span>
         </li>
 
-  
+
         <li class="mobile-small-text m me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
           HAVELOCK ISLAND <span class="ms-2"><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
@@ -92,13 +91,13 @@
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
           NEIL ISLAND
-              <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
+          <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
                 style="width:13px; margin-bottom: 3px;"></span>
         </li>
-              <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
+        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
 
-          ROSS LAND
-      
+          ROSS ISLAND
+
         </li>
       </ul>
 
@@ -124,17 +123,18 @@
 
   <!-- Banner Below -->
   <div class="container">
-    <div class="row desktop-inform my-4 g-3">
+    <div class="row desktop-inform my-4 g-3 "
+      style="background-image: url('assets/assets/img/andaman/background.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; overflow: visible; border:none !important; padding:60px 0px !important">
       <section class="info-highlights">
         <div class="container p-3">
           <div class="row row-cols-1 row-cols-lg-4 g-4 text-center">
 
             <div class="col">
               <div class="enhanced-box">
-                <div class="icon-circle">
+                <!-- <div class="icon-circle"> -->
                   <!-- <i class='bx  bx-rupee'></i>  -->
-                  <img src="assets/img/icon/rupees.png" alt="">
-                </div>
+                  <img src="assets/assets/img/andaman/elements/ruppes-bubble.png" alt="" style="width:70px">
+                <!-- </div> -->
                 <div>
                   <div class="info-label">Starting Price</div>
                   <div class="info-value"><span>24,990/-</span></div>
@@ -144,10 +144,10 @@
 
             <div class="col">
               <div class="enhanced-box">
-                <div class="icon-circle">
+                <!-- <div class="icon-circle"> -->
                   <!-- <i class='bx  bx-hourglass'></i>  -->
-                  <img src="assets/img/icon/duration.png" style="width:35px" alt="">
-                </div>
+                  <img src="assets/assets/img/andaman/elements/calender-bubble.png" alt="" style="width:70px">
+                <!-- </div> -->
                 <div>
                   <div class="info-label">Duration</div>
                   <div class="info-value">7D / 6N</div>
@@ -157,10 +157,10 @@
 
             <div class="col">
               <div class="enhanced-box">
-                <div class="icon-circle">
+                <!-- <div class="icon-circle"> -->
                   <!-- <i class="fa-solid fa-location-dot"></i> -->
-                  <img src="assets/img/icon/location.png" alt="">
-                </div>
+                  <img src="assets/assets/img/andaman/elements/location-bubble.png" alt="" style="width:70px">
+                <!-- </div> -->
                 <div>
                   <div class="info-label">Pickup & Drop</div>
                   <div class="info-value">Port Blair</div>
@@ -357,11 +357,11 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img src="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" , class="img-fluid w-100"
-                    alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                    alt="Ladakh 3" style="border-radius: 20px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
                   <img src="https://roamers.in/assets/img/andaman/Media/overview-1.jpg" , class="img-fluid w-100"
-                    alt="Ladakh 3" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                    alt="Ladakh 3" style="border-radius: 20px; height: 350px; object-fit: cover;">
                 </div>
               </div>
             </div>
@@ -373,11 +373,18 @@
 
     <!-- >> Itinerary << -->
 
+    <!-- Closing previous container so the background image can be full width -->
+  </div>
+
+  <div class=""
+    style="background-image:url('assets/assets/img/andaman/bg-banner.png'); background-size: cover; background-position: center;">
+
     <section class="ilt-up" id="itinerary">
-      <div class="container cont-fluid">
+      <div class="container">
         <div class="row">
 
           <div class="col-md-8">
+
             <h3 class="mt-5 text-center mt-md-0" style="text-align: start; margin-bottom: 20px; margin-left: 10px;"
               class="text-center head">Trip Itinerary
             </h3>
@@ -821,18 +828,21 @@
           </div>
 
           <!-- >> Side Sticky Section << -->
-
           <div class="col-md-4">
 
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="https://roamers.in/assets/img/andaman/Media/61af5c4e959d8191_28.jpg" alt="Ladakh Banner 3"
-                  style=" object-fit:cover; border-radius: 10px;">
+                <video autoplay loop muted playsinline>
+                  <source src="assets/assets/img/andaman/video/side-bar.mp4" type="video/mp4">
+                </video>
               </div>
 
               <!-- >> Pricing Box Section << -->
-              <div class="price-card shadow p-1" style="border-radius: 10px;">
+              <div class="price-card shadow p-1" style="border-radius: 10px; position: relative;">
+                <img src="assets/assets/img/andaman/elements/umberla.png" alt=""
+                  style="position: absolute; top: -30px; right: -30px; z-index: 999; width: 90px;">
+
                 <div class="p-2">
                   <!-- Inner box with light grey background -->
                   <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
@@ -851,6 +861,9 @@
                     </div>
                   </div>
                 </div>
+
+                <!-- <img src="assets/assets/img/andaman/elements/chair.png" alt=""
+                  style="position: absolute; bottom: -30px; left: -30px; z-index: 999; width: 90px;"> -->
               </div>
 
               <!-- >> Ladakh Form Section << -->
@@ -884,6 +897,8 @@
 
                   </button>
                 </form>
+                 <img src="assets/assets/img/andaman/elements/chair.png" alt=""
+                  style="position: absolute; bottom: -30px; left: -30px; z-index: 999; width: 90px;">
               </div>
 
             </div>
@@ -892,6 +907,8 @@
         </div>
       </div>
     </section>
+
+  </div>
   </div>
 
   <!-- Rewind -->
@@ -1477,7 +1494,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "https://roamers.in/assets/img/andaman/Media/Andaman-cover-min.jpg",
+      "https://images.unsplash.com/photo-1537027947185-4b01b37eeb6d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8",
     ];
 
     let index = 0;
@@ -1546,6 +1563,38 @@
   </script>
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Banner Title Animation
+    gsap.from(".banner-hight-top", {
+      duration: 1.2,
+      y: 50,
+      opacity: 0,
+      ease: "power3.out"
+    });
+
+    // Banner List Items Staggered Animation
+    gsap.from(".banner-hight-bottom li", {
+      duration: 1,
+      y: 30,
+      opacity: 0,
+      stagger: 0.2,
+      delay: 0.5,
+      ease: "power3.out"
+    });
+
+    // Tabs Animation
+    gsap.from(".tab-sections", {
+      duration: 1,
+      y: 30,
+      opacity: 0,
+      delay: 1,
+      ease: "power3.out"
+    });
+  </script>
 </body>
 
 </html>

@@ -223,11 +223,6 @@
         "@type": "Brand",
         "name": "Example Brand"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "24"
-      },
       "offers": {
         "@type": "Offer",
         "url": "https://www.roamers.in/product-page",
@@ -236,30 +231,7 @@
         "itemCondition": "http://schema.org/NewCondition",
         "availability": "http://schema.org/InStock"
       },
-      "review": [{
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John Doe"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "This product is amazing!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jane Smith"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "reviewBody": "Great product but a bit expensive."
-        }
+      
       ]
     }
   </script>
@@ -853,8 +825,9 @@
     <?php include('includes/loader.php'); ?>
 
     <!-- Banner Section-->
-    <?php include('components/banner.php'); ?>
-
+    <div id="staticBanner" class="banner-bg-static">
+      <?php include('components/banner.php'); ?>
+    </div>
     <!-- Banner Below Section -->
     <?php include('components/banner-below.php'); ?>
 
@@ -1296,5 +1269,60 @@
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
 
 </body>
+
+<!--  jQuery Ripples -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    var $el = $(".home");
+    var isMobile = $(window).width() <= 768;
+    var res = isMobile ? 256 : 512;
+    var imageUrl = isMobile ? "assets/img/banner/mobile-banner.avif" : "assets/img/banner/desktop-banner-avif.avif";
+
+    function startRipples() {
+      try {
+        $el.ripples({
+          resolution: res,
+          dropRadius: 20,
+          perturbance: 0.04,
+          interactive: true,
+          imageUrl: imageUrl
+        });
+
+        // Auto-ripple effect
+        setInterval(function () {
+          var x = Math.random() * $el.outerWidth();
+          var y = Math.random() * $el.outerHeight();
+          var dropRadius = 20;
+          var strength = 0.0008 + Math.random() * 0.0004;
+
+          $el.ripples('drop', x, y, dropRadius, strength);
+        }, 1000);
+
+      } catch (e) {
+        console.error("Ripples failed to initialize:", e);
+      }
+    }
+
+    // Robust image loading check
+    var img = new Image();
+    img.onload = function () {
+      startRipples();
+    };
+    img.onerror = function () {
+      console.error("Failed to load background image for ripples:", imageUrl);
+      // Try to initialize anyway as a fallback
+      startRipples();
+    };
+    img.src = imageUrl;
+
+    if (img.complete) {
+      img.onload();
+    }
+  });
+</script>
+
 
 </html>

@@ -4,7 +4,7 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: top !important;
-    height: 140vh;
+    height: 120vh;
   }
 
   .home {

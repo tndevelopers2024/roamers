@@ -84,11 +84,6 @@ session_start();
         "@type": "Brand",
         "name": "Example Brand"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "24"
-      },
       "offers": {
         "@type": "Offer",
         "url": "https://www.roamers.in/product-page",
@@ -97,30 +92,7 @@ session_start();
         "itemCondition": "http://schema.org/NewCondition",
         "availability": "http://schema.org/InStock"
       },
-      "review": [{
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John Doe"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "This product is amazing!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jane Smith"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "reviewBody": "Great product but a bit expensive."
-        }
+      
       ]
     }
   </script>

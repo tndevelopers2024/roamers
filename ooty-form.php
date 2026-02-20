@@ -65,11 +65,6 @@ session_start();
         "@type": "Brand",
         "name": "Example Brand"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "24"
-      },
       "offers": {
         "@type": "Offer",
         "url": "https://www.roamers.in/product-page",
@@ -78,30 +73,7 @@ session_start();
         "itemCondition": "http://schema.org/NewCondition",
         "availability": "http://schema.org/InStock"
       },
-      "review": [{
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John Doe"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "This product is amazing!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jane Smith"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "reviewBody": "Great product but a bit expensive."
-        }
+      
       ]
     }
   </script>
@@ -1146,7 +1118,9 @@ session_start();
                         <div class="input-field mt-4">
                           <select id="pickup" name="pickup" class="form-select mt-4" required>
                             <option value="" disabled selected>Select the Location</option>
-                            <option value="Chennai, Coimbatore">Chennai, Coimbatore</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Coimbatore">Coimbatore</option>
+
                           </select>
                         </div>
                         <span class="span mt-5">Address</span>
@@ -1212,7 +1186,8 @@ session_start();
                     <thead>
                       <tr>
                         <th scope="col">Sharing</th>
-                        <th scope="col">Offer Price</th>
+                        <th scope="col">From Coimbatore</th>
+                        <th scope="col">From Ootty</th>
                       </tr>
                     </thead>
                     <tbody id="costing-table-body">
@@ -1238,30 +1213,60 @@ session_start();
     </div>
   </section>
 
+  <!-- Form Data -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      // Hardcoded Standard Prices
-      const startingPriceElem = document.getElementById("starting-price");
-      if (startingPriceElem) {
-        startingPriceElem.textContent = `Starting Price: ₹6,999/- `;
-      }
+      fetch("./dynamic/varkala-data.json?v=" + new Date().getTime()) // Check this path
+        .then(response => {
+          if (!response.ok) throw new Error("Network response was not ok");
+          return response.json();
+        })
+        .then(data => {
+          const locationKey = "ooty";
+          const locationData = data[locationKey];
 
-      const tableBody = document.getElementById("costing-table-body");
-      if (tableBody) {
-        const prices = [
-          { sharing: "Triple Sharing", offer: "₹6,999", mrp: "₹10,500" },
-          { sharing: "Double Sharing", offer: "₹7,999", mrp: "₹11,500" }
-        ];
 
-        let rows = "";
-        prices.forEach(price => {
-          rows += `<tr>
-                    <td>${price.sharing}</td>
-                    <td>${price.offer} <strike style="margin-left:30px; color:#a3a3a3;"> ${price.mrp}</strike></td>
-                </tr>`;
-        });
-        tableBody.innerHTML = rows;
-      }
+          if (!locationData) {
+            console.error(`No data found for location: ${locationKey}`);
+            return;
+          }
+
+
+          if (!locationData.costing) {
+            console.error("No costing data found for the selected location.");
+            return;
+          }
+
+
+          const startingPriceElem = document.getElementById("starting-price");
+          if (startingPriceElem) {
+            startingPriceElem.textContent = `Starting Price: ${locationData.costing.startingPrice}`;
+          } else {
+            console.warn("Element with id 'starting-price' not found.");
+          }
+
+
+          const tableBody = document.getElementById("costing-table-body");
+          if (!tableBody) {
+            console.error("Element with id 'costing-table-body' not found.");
+            return;
+          }
+
+
+          // Build all rows at once for better performance
+          let rows = "";
+          locationData.costing.prices.forEach(price => {
+            rows += `<tr>
+            <td>${price.sharing || "N/A"}</td>
+            <td>${price.varkala || "N/A"}</td>
+            <td>${price.chennai || "N/A"}</td>
+            </tr>`;
+          });
+
+
+          tableBody.innerHTML = rows;
+        })
+        .catch(error => console.error("Error loading costing data:", error));
     });
   </script>
 
@@ -1513,9 +1518,9 @@ session_start();
           // Set amount using if statements
           let perPersonAmount = 0;
           if (sharing === "Triple Sharing") {
-            perPersonAmount = 6999;
+            perPersonAmount = 6899;
           } else if (sharing === "Double Sharing") {
-            perPersonAmount = 7999;
+            perPersonAmount = 7899;
           }
 
 

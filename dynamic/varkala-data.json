@@ -5,7 +5,7 @@
                 "date": "14 Feb - 16 Feb",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹6,999/-"
+                "price": "₹6,899/-"
             }
         ],
         "March": [
@@ -13,21 +13,21 @@
                 "date": "06 Mar - 08 Mar",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹6,999/-"
+                "price": "₹6,899/-"
             }
         ],
         "costing": {
-            "startingPrice": "₹6,999/-",
+            "startingPrice": "₹6,899/-",
             "prices": [
                 {
                     "sharing": "Triple Sharing",
-                    "chennai": "₹6,999/-",
-                    "coimbatore": "₹6,999/-"
+                    "varkala": "₹6,899/-",
+                    "chennai": "₹8,499/-"
                 },
                 {
                     "sharing": "Double Sharing",
-                    "chennai": "₹7,999/-",
-                    "coimbatore": "₹8,490/-"
+                    "varkala": "₹7,899/-",
+                    "chennai": "₹9,499/-"
                 }
             ]
         }
@@ -506,13 +506,13 @@
                 "date": "14 Jan",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹8,990/-"
+                "price": "₹6,899/-"
             },
             {
                 "date": "24 Jan",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹8,990/-"
+                "price": "₹6,899/-"
             }
         ],
         "February": [
@@ -520,13 +520,13 @@
                 "date": "14 Feb",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹8,990/-"
+                "price": "₹6,899/-"
             },
             {
                 "date": "27 Feb",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹8,990/-"
+                "price": "₹6,899/-"
             }
         ],
         "March": [
@@ -534,27 +534,27 @@
                 "date": "13 Mar",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹8,990/-"
+                "price": "₹6,899/-"
             },
             {
                 "date": "27 Mar",
                 "status": "Available",
                 "statusColor": "green",
-                "price": "₹8,990/-"
+                "price": "₹6,899/-"
             }
         ],
         "costing": {
-            "startingPrice": "₹8,990/-",
+            "startingPrice": "₹6,899/-",
             "prices": [
                 {
                     "sharing": "Triple Sharing",
-                    "offer": "₹8,990/-",
-                    "mrp": "₹12,990/-"
+                    "varkala": "₹6,899/-",
+                    "chennai": "₹8,499/-"
                 },
                 {
                     "sharing": "Double Sharing",
-                    "offer": "₹9,990/-",
-                    "mrp": "₹11,990/-"
+                    "varkala": "₹7,899/-",
+                    "chennai": "₹9,499/-"
                 }
             ]
         }

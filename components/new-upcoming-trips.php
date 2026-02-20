@@ -60,7 +60,7 @@ $trips_db = [
         'duration' => '3D/2N',
         'location' => 'EX: Chennai/Trivandrum',
         'places' => 'Chennai - Trivandrum',
-        'price' => '₹8,990',
+        'price' => '₹6,899',
         'link' => 'varkala-grouptrip'
     ],
     'chikmagalur' => [

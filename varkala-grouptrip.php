@@ -52,6 +52,26 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
+
+
+
+
+    <!-- Google Analytics Code: -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-0MSFD4117B');
+    </script>
+
+
+
 </head>
 
 
@@ -142,7 +162,7 @@
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value "><span>8,990/-</span></div>
+                  <div class="info-value "><span>6,899/-</span></div>
                 </div>
               </div>
             </div>
@@ -648,9 +668,9 @@
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹ 10,000/-</strike>
+                        <strike>₹8,999/-</strike>
                       </span>
-                      <span class="new-price"></span><span class="new-price">8,990/-</span>
+                      <span class="new-price"></span><span class="new-price">6,899/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
@@ -885,7 +905,7 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹8,990/-</span>
+          <span class="price-amount ">₹6,899/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
@@ -1289,7 +1309,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "assets/img/varkala/varkala-bg1.jpg",
+      "https://images.unsplash.com/photo-1587033250628-ed6a72c8cf24?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==",
     ];
 
     let index = 0;

@@ -6,7 +6,6 @@ session_start();
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -59,116 +58,11 @@ session_start();
     <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
 
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Product",
-      "name": "Example Product",
-      "image": "https://www.roamers.in/path-to-product-image.jpg",
-      "description": "Example product description.",
-      "sku": "EX12345",
-      "brand": {
-        "@type": "Brand",
-        "name": "Example Brand"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "24"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.roamers.in/product-page",
-        "priceCurrency": "USD",
-        "price": "99.99",
-        "itemCondition": "http://schema.org/NewCondition",
-        "availability": "http://schema.org/InStock"
-      },
-      "review": [{
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John Doe"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "This product is amazing!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jane Smith"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "reviewBody": "Great product but a bit expensive."
-        }
-      ]
-    }
-  </script>
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-          "@type": "Question",
-          "name": "What is the return policy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can return the product within 30 days of purchase."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this product come with a warranty?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, it comes with a 1-year warranty."
-          }
-        }
-      ]
-    }
-  </script>
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebPage",
-      "mainEntity": {
-        "@type": "Article",
-        "headline": "How to Use the Example Product",
-        "description": "A comprehensive guide on how to use the Example Product.",
-        "author": {
-          "@type": "Person",
-          "name": "Alex Johnson"
-        },
-        "datePublished": "2024-07-09",
-        "mainEntityOfPage": "https://www.roamers.in/how-to-use-example-product"
-      }
-    }
-  </script>
-    <!-- Google Analytics Code: -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-0MSFD4117B');
-    </script>
 
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-
 
         h1,
         h2,
@@ -1191,6 +1085,7 @@ session_start();
                                                     <select id="pickup" name="pickup" class="form-select mt-4" required>
                                                         <option value="" disabled selected>Select the Location</option>
                                                         <option value="Chennai">Chennai </option>
+                                                        <option value="Varkala">Varkala </option>
                                                     </select>
                                                 </div>
                                                 <span class="span mt-5">Address</span>
@@ -1259,11 +1154,12 @@ session_start();
                                         <thead>
                                             <tr>
                                                 <th scope="col">Sharing</th>
-                                                <th scope="col">Offer Price</th>
+                                                <th scope="col">From Varkala</th>
+                                                <th scope="col">From Chennai</th>
+
                                             </tr>
                                         </thead>
                                         <tbody id="costing-table-body">
-                                            <!-- Example static row -->
                                             <tr>
                                                 <td>Double Sharing</td>
                                                 <td>$150</td>
@@ -1285,9 +1181,10 @@ session_start();
         </div>
     </section>
 
+    <!-- Form Data -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("./dynamic/varkala-data.json") // Check this path
+            fetch("./dynamic/varkala-data.json?v=" + new Date().getTime()) // Check this path
                 .then(response => {
                     if (!response.ok) throw new Error("Network response was not ok");
                     return response.json();
@@ -1311,7 +1208,7 @@ session_start();
 
                     const startingPriceElem = document.getElementById("starting-price");
                     if (startingPriceElem) {
-                        startingPriceElem.textContent = `Starting Price: ₹8,990/- `;
+                        startingPriceElem.textContent = `Starting Price: ${locationData.costing.startingPrice}`;
                     } else {
                         console.warn("Element with id 'starting-price' not found.");
                     }
@@ -1329,8 +1226,9 @@ session_start();
                     locationData.costing.prices.forEach(price => {
                         rows += `<tr>
             <td>${price.sharing || "N/A"}</td>
-            <td>${price.offer || "N/A"} <strike style="margin-left:30px; color:#a3a3a3;"> ${price.mrp || "N/A"}</strike></td>
-          </tr>`;
+            <td>${price.varkala || "N/A"}</td>
+            <td>${price.chennai || "N/A"}</td>
+            </tr>`;
                     });
 
 
@@ -1816,10 +1714,18 @@ session_start();
 
                     // Set amount using if statements
                     let perPersonAmount = 0;
-                    if (sharing === "Triple Sharing") {
-                        perPersonAmount = 8990;
-                    } else if (sharing === "Double Sharing") {
-                        perPersonAmount = 9990;
+                    if (pickup === "Chennai") {
+                        if (sharing === "Triple Sharing") {
+                            perPersonAmount = 8499;
+                        } else if (sharing === "Double Sharing") {
+                            perPersonAmount = 9499;
+                        }
+                    } else if (pickup === "Varkala") {
+                        if (sharing === "Triple Sharing") {
+                            perPersonAmount = 6899;
+                        } else if (sharing === "Double Sharing") {
+                            perPersonAmount = 7899;
+                        }
                     }
 
 
