@@ -1,1191 +1,1224 @@
 {
-    "ooty": {
-        "February": [
-            {
-                "date": "14 Feb - 16 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            }
-        ],
-        "March": [
-            {
-                "date": "06 Mar - 08 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹6,899/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "varkala": "₹6,899/-",
-                    "chennai": "₹8,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "varkala": "₹7,899/-",
-                    "chennai": "₹9,499/-"
-                }
-            ]
+  "ooty": {
+    "February": [
+      {
+        "date": "14 Feb - 16 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      }
+    ],
+    "March": [
+      {
+        "date": "06 Mar - 08 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b96,899/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "varkala": "\u20b96,899/-",
+          "chennai": "\u20b98,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "varkala": "\u20b97,899/-",
+          "chennai": "\u20b99,499/-"
         }
-    },
-    "ladakh": {
-        "May": [
-            {
-                "date": "24 May - 31 May",
-                "status": "Fast Filling",
-                "statusColor": "orange",
-                "price": "₹29,990/-"
-            }
-        ],
-        "June": [
-            {
-                "date": "7 Jun - 14 Jun",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            },
-            {
-                "date": "21 Jun - 28 Jun",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            }
-        ],
-        "July": [
-            {
-                "date": "5 Jul - 12 Jul",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            },
-            {
-                "date": "19 Jul - 25 Jul",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            },
-            {
-                "date": "26 Jul - 02 Aug",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            }
-        ],
-        "August": [
-            {
-                "date": "9 Aug - 16 Aug",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            }
-        ],
-        "September": [
-            {
-                "date": "6 Sep - 13 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            },
-            {
-                "date": "13 Sep - 20 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            },
-            {
-                "date": "20 Sep - 27 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            },
-            {
-                "date": "27 Sep - 04 Oct",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹29,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹29,990/-",
-            "prices": [
-                {
-                    "vehicle": "Tempo Traveller",
-                    "sharing": "Triple Sharing",
-                    "price": "₹29,990/-"
-                },
-                {
-                    "vehicle": "Tempo Traveller",
-                    "sharing": "Double Sharing",
-                    "price": "₹32,990/-"
-                },
-                {
-                    "vehicle": "RE Himalayan (Solo)",
-                    "sharing": "Triple Sharing",
-                    "price": "₹42,990/-"
-                },
-                {
-                    "vehicle": "RE Himalayan (Solo)",
-                    "sharing": "Double Sharing",
-                    "price": "₹45,990/-"
-                },
-                {
-                    "vehicle": "RE Himalayan (Dual Rider)",
-                    "sharing": "Triple Sharing",
-                    "price": "₹35,990/-"
-                },
-                {
-                    "vehicle": "RE Himalayan (Dual Rider)",
-                    "sharing": "Double Sharing",
-                    "price": "₹38,990/-"
-                }
-            ]
-        }
-    },
-    "munnar": {
-        "March": [
-            {
-                "date": "6 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            },
-            {
-                "date": "20 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹8,499/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "mrp": "₹10,990/-",
-                    "offer": "₹8,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "mrp": "₹10,990/-",
-                    "offer": "₹9,499/-"
-                }
-            ]
-        }
-    },
-    "andaman": {
-        "January": [
-            {
-                "date": "14 Jan - 19 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹24,990/-"
-            }
-        ],
-        "February": [
-            {
-                "date": "14 Feb ",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹24,990/-"
-            },
-            {
-                "date": "28 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹24,990/-"
-            }
-        ],
-        "March": [
-            {
-                "date": "21 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹24,990/-"
-            },
-            {
-                "date": "28 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹24,990/-"
-            }
-        ],
-        "April": [
-            {
-                "date": "03 Apr - 07 Apr",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹24,990/-"
-            },
-            {
-                "date": "18 Apr - 23 Apr",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹24,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹24,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "mrp": "₹40,990/-",
-                    "offer": "₹24,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "mrp": "₹41,990/-",
-                    "offer": "₹26,990/-"
-                }
-            ]
-        }
-    },
-    "spiti-valley": {
-        "December": [
-            {
-                "date": "6 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "13 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "20 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "January": [
-            {
-                "date": "6 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "13 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "20 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "February": [
-            {
-                "date": "6 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "13 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "20 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "March": [
-            {
-                "date": "6 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "13 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "20 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹21,990",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹21,990",
-                    "mrp": "₹31,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹22,990",
-                    "mrp": "₹32,990/-"
-                }
-            ]
-        }
-    },
-    "spiti-valley-winter": {
-        "December": [
-            {
-                "date": "20 Dec - 28 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "25 Dec - 2 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "27 Dec - 4 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "January": [
-            {
-                "date": "10 Jan - 18 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "15 Jan - 23 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "24 Jan - 1 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "February": [
-            {
-                "date": "14 Feb - 22 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "March": [
-            {
-                "date": "19 Mar - 27 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "28 Mar - 5 Apr",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "April": [
-            {
-                "date": "1 Apr - 9 Apr",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "10 Apr - 18 Apr",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            },
-            {
-                "date": "25 Apr - 3 May",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹21,990"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹21,990",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹21,990",
-                    "mrp": "₹31,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹22,990",
-                    "mrp": "₹32,990/-"
-                }
-            ]
-        }
-    },
-    "srilanka": {
-        "September": [
-            {
-                "date": "6 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹43,990/-"
-            }
-        ],
-        "October": [
-            {
-                "date": "18 Oct",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹43,990/-"
-            }
-        ],
-        "November": [
-            {
-                "date": "15 Nov",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹43,990/-"
-            }
-        ],
-        "December": [
-            {
-                "date": "13 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹43,990/-"
-            },
-            {
-                "date": "20 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹43,990/-"
-            },
-            {
-                "date": "27 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹43,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹43,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹43,990/-",
-                    "mrp": "₹46,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹46,990/-",
-                    "mrp": "₹48,990/-"
-                }
-            ]
-        }
-    },
-    "varkala-new": {
-        "January": [
-            {
-                "date": "14 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            },
-            {
-                "date": "24 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            }
-        ],
-        "February": [
-            {
-                "date": "14 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            },
-            {
-                "date": "27 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            }
-        ],
-        "March": [
-            {
-                "date": "13 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            },
-            {
-                "date": "27 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹6,899/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹6,899/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "varkala": "₹6,899/-",
-                    "chennai": "₹8,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "varkala": "₹7,899/-",
-                    "chennai": "₹9,499/-"
-                }
-            ]
-        }
-    },
-    "pondicherry": {
-        "September": [
-            {
-                "date": "20 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹4,990/-"
-            }
-        ],
-        "October": [
-            {
-                "date": "18 Oct - 24 Oct",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹4,990/-"
-            }
-        ],
-        "November": [
-            {
-                "date": "15 Nov - 21 Nov",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹4,990/-"
-            }
-        ],
-        "December": [
-            {
-                "date": "13 Dec - 19 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹4,990/-"
-            },
-            {
-                "date": "20 Dec - 26 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹4,990/-"
-            },
-            {
-                "date": "27 Dec - 2 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹4,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹4,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹4,990/-",
-                    "mrp": "₹5,500/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹5,500/-",
-                    "mrp": "₹6,990/-"
-                }
-            ]
-        }
-    },
-    "chikmagalur": {
-        "September": [
-            {
-                "date": "6 Sep - 12 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,990/-"
-            },
-            {
-                "date": "20 Sep - 26 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,990/-"
-            },
-            {
-                "date": "27 Sep - 3 Oct",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,990/-"
-            }
-        ],
-        "October": [
-            {
-                "date": "17 Oct - 21 Oct",
-                "status": "Diwali Special",
-                "statusColor": "red",
-                "price": "₹8,990/-"
-            }
-        ],
-        "November": [
-            {
-                "date": "6 Nov - 10 Nov",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,990/-"
-            },
-            {
-                "date": "28 Nov - 2 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹7,990/-"
-            }
-        ],
-        "December": [
-            {
-                "date": "24 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹7,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹7,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹7,990/-",
-                    "mrp": "₹8,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹8,990/-",
-                    "mrp": "₹9,990/-"
-                }
-            ]
-        }
-    },
-    "meghalaya": {
-        "January": [
-            {
-                "date": "14 Jan - 19 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            },
-            {
-                "date": "24 Jan - 29 Jan",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            }
-        ],
-        "February": [
-            {
-                "date": "14 Feb - 19 Feb",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            },
-            {
-                "date": "28 Feb - 05 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            }
-        ],
-        "March": [
-            {
-                "date": "19 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            },
-            {
-                "date": "21 Mar - 26 Mar",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            },
-            {
-                "date": "28 Mar - 02 Apr",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            }
-        ],
-        "April": [
-            {
-                "date": "11 Apr - 16 Apr",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹19,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹19,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹19,990/-",
-                    "mrp": "₹21,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹21,990/-",
-                    "mrp": "₹23,990/-"
-                }
-            ]
-        }
-    },
-    "kerala": {
-        "September": [
-            {
-                "date": "4 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹14,490 /-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹₹14,490 /-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹14,490 /-",
-                    "mrp": "₹16,490 /-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹15,490 /-",
-                    "mrp": "₹17,490 /-"
-                }
-            ]
-        }
-    },
-    "kerala-onam": {
-        "September": [
-            {
-                "date": "4 Sep",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹8,499/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹8,499/-",
-                    "mrp": "₹9,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹9,499/-",
-                    "mrp": "₹10,499/-"
-                }
-            ]
-        }
-    },
-    "kodaikanal1": {
-        "October": [
-            {
-                "date": "1 Oct",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹8,499/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹8,499/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹8,990/-",
-                    "mrp": "₹9,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹9,990/-",
-                    "mrp": "₹10,499/-"
-                }
-            ]
-        }
-    },
-    "wayanad": {
-        "October": [
-            {
-                "date": "17 Oct",
-                "status": "Diwali Special",
-                "statusColor": "red",
-                "price": "₹8,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹8,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹8,990/-",
-                    "mrp": "₹10,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹9,990/-",
-                    "mrp": "₹10,499/-"
-                }
-            ]
-        }
-    },
-    "spiti-valley-winter-christmas-new-year": {
-        "December": [
-            {
-                "date": "20 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹21,990"
-            },
-            {
-                "date": "25 Dec - 2 Jan",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹21,990"
-            },
-            {
-                "date": "27 Dec - 4 Jan",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹21,990"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹21,990",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹21,990",
-                    "mrp": "₹31,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹22,990",
-                    "mrp": "₹32,990/-"
-                }
-            ]
-        }
-    },
-    "kodaikanal1-christmas-new-year": {
-        "December": [
-            {
-                "date": "24 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹9,999/-"
-            },
-            {
-                "date": "29 Dec - 2 Jan",
-                "status": "New Year Special",
-                "statusColor": "red",
-                "price": "₹9,999/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹9,999/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹9,990/-",
-                    "mrp": "₹9,999/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹10,990/-",
-                    "mrp": "₹11,499/-"
-                }
-            ]
-        }
-    },
-    "meghalaya-christmas-new-year": {
-        "December": [
-            {
-                "date": "20 Dec - 25 Dec",
-                "status": "Christmas ",
-                "statusColor": "red",
-                "price": "₹21,990/-"
-            },
-            {
-                "date": "23 Dec - 28 Jan",
-                "status": "Christmas",
-                "statusColor": "red",
-                "price": "₹21,990/-"
-            },
-            {
-                "date": "28 Dec - 02 Jan",
-                "status": "New Year ",
-                "statusColor": "red",
-                "price": "₹21,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹21,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹21,990/-",
-                    "mrp": "₹25,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹23,990/-",
-                    "mrp": "₹27,990/-"
-                }
-            ]
-        }
-    },
-    "chikmagalur-meghalaya-christmas-new-year": {
-        "December": [
-            {
-                "date": "24 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹9,499/-"
-            },
-            {
-                "date": "29 Dec - 01 Jan",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹9,499/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹9,499/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹9,499/-",
-                    "mrp": "₹10,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹10,499/-",
-                    "mrp": "₹12,990/-"
-                }
-            ]
-        }
-    },
-    "kerala-christmas-new-year": {
-        "December": [
-            {
-                "date": "21 Dec - 24 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹16,990 /-"
-            },
-            {
-                "date": "24 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹16,990 /-"
-            },
-            {
-                "date": "28 Dec - 1 Jan",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹16,990 /-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹₹16,990 /-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹16,990 /-",
-                    "mrp": "₹20,000 /-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹18,990 /-",
-                    "mrp": "₹22,000 /-"
-                }
-            ]
-        }
-    },
-    "wayanad-christmas-new-year": {
-        "December": [
-            {
-                "date": "24 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹8,990/-"
-            },
-            {
-                "date": "29 Dec - 01 Jan",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹8,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹9,499/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹8,990/-",
-                    "mrp": "₹9,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹9,990/-",
-                    "mrp": "₹10,990/-"
-                }
-            ]
-        }
-    },
-    "ooty-christmas-new-year": {
-        "December": [
-            {
-                "date": "24 Dec - 28 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹9,499/-"
-            },
-            {
-                "date": "29 Dec - 31 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹9,499/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹9,499/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹9,499/-",
-                    "mrp": "₹10,499/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹10,499/-",
-                    "mrp": "₹10,499/-"
-                }
-            ]
-        }
-    },
-    "pondicherry-christmas-new-year": {
-        "December": [
-            {
-                "date": "24 Dec - 27 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹4,990/-"
-            },
-            {
-                "date": "29 Dec - 02 Jan",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹4,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹4,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹4,990/-",
-                    "mrp": "₹5,500/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹5,500/-",
-                    "mrp": "₹6,990/-"
-                }
-            ]
-        }
-    },
-    "srilanka-christmas-new-year": {
-        "December": [
-            {
-                "date": "13 Dec",
-                "status": "Available",
-                "statusColor": "green",
-                "price": "₹43,990/-"
-            },
-            {
-                "date": "20 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹43,990/-"
-            },
-            {
-                "date": "27 Dec",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹43,990/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹43,990/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "offer": "₹43,990/-",
-                    "mrp": "₹46,990/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "offer": "₹46,990/-",
-                    "mrp": "₹48,990/-"
-                }
-            ]
-        }
-    },
-    "andaman-christmas-new-year": {
-        "December": [
-            {
-                "date": "25 Dec - 1 Jan",
-                "status": "Christmas Special",
-                "statusColor": "red",
-                "price": "₹34,500/-"
-            }
-        ],
-        "costing": {
-            "startingPrice": "₹34,500/-",
-            "prices": [
-                {
-                    "sharing": "Triple Sharing",
-                    "mrp": "₹40,990/-",
-                    "offer": "₹34,500/-"
-                },
-                {
-                    "sharing": "Double Sharing",
-                    "mrp": "₹41,990/-",
-                    "offer": "₹37,500/-"
-                }
-            ]
-        }
+      ]
     }
+  },
+  "ladakh": {
+    "May": [
+      {
+        "date": "24 May - 31 May",
+        "status": "Fast Filling",
+        "statusColor": "orange",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "June": [
+      {
+        "date": "7 Jun - 14 Jun",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "21 Jun - 28 Jun",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "July": [
+      {
+        "date": "5 Jul - 12 Jul",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "19 Jul - 25 Jul",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "26 Jul - 02 Aug",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "August": [
+      {
+        "date": "9 Aug - 16 Aug",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "September": [
+      {
+        "date": "6 Sep - 13 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "13 Sep - 20 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "20 Sep - 27 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "27 Sep - 04 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b929,990/-",
+      "prices": [
+        {
+          "vehicle": "Tempo Traveller",
+          "sharing": "Triple Sharing",
+          "price": "\u20b929,990/-"
+        },
+        {
+          "vehicle": "Tempo Traveller",
+          "sharing": "Double Sharing",
+          "price": "\u20b932,990/-"
+        },
+        {
+          "vehicle": "RE Himalayan (Solo)",
+          "sharing": "Triple Sharing",
+          "price": "\u20b942,990/-"
+        },
+        {
+          "vehicle": "RE Himalayan (Solo)",
+          "sharing": "Double Sharing",
+          "price": "\u20b945,990/-"
+        },
+        {
+          "vehicle": "RE Himalayan (Dual Rider)",
+          "sharing": "Triple Sharing",
+          "price": "\u20b935,990/-"
+        },
+        {
+          "vehicle": "RE Himalayan (Dual Rider)",
+          "sharing": "Double Sharing",
+          "price": "\u20b938,990/-"
+        }
+      ]
+    }
+  },
+  "munnar": {
+    "March": [
+      {
+        "date": "6 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b98,499/-"
+      },
+      {
+        "date": "20 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b98,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b98,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "mrp": "\u20b910,990/-",
+          "offer": "\u20b98,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "mrp": "\u20b910,990/-",
+          "offer": "\u20b99,499/-"
+        }
+      ]
+    }
+  },
+  "andaman": {
+    "January": [
+      {
+        "date": "14 Jan - 19 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      }
+    ],
+    "February": [
+      {
+        "date": "14 Feb ",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      },
+      {
+        "date": "28 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      }
+    ],
+    "March": [
+      {
+        "date": "21 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      },
+      {
+        "date": "28 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      }
+    ],
+    "April": [
+      {
+        "date": "03 Apr - 07 Apr",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      },
+      {
+        "date": "18 Apr - 23 Apr",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b924,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "mrp": "\u20b940,990/-",
+          "offer": "\u20b924,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "mrp": "\u20b941,990/-",
+          "offer": "\u20b926,990/-"
+        }
+      ]
+    }
+  },
+  "spiti-valley": {
+    "December": [
+      {
+        "date": "6 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "13 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "20 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "January": [
+      {
+        "date": "6 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "13 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "20 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "February": [
+      {
+        "date": "6 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "13 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "20 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "March": [
+      {
+        "date": "6 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "13 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "20 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b921,990",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b921,990",
+          "mrp": "\u20b931,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b922,990",
+          "mrp": "\u20b932,990/-"
+        }
+      ]
+    }
+  },
+  "spiti-valley-winter": {
+    "December": [
+      {
+        "date": "20 Dec - 28 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "25 Dec - 2 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "27 Dec - 4 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "January": [
+      {
+        "date": "10 Jan - 18 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "15 Jan - 23 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "24 Jan - 1 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "February": [
+      {
+        "date": "14 Feb - 22 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "March": [
+      {
+        "date": "19 Mar - 27 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "28 Mar - 5 Apr",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "April": [
+      {
+        "date": "1 Apr - 9 Apr",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "10 Apr - 18 Apr",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "25 Apr - 3 May",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b921,990"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b921,990",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b921,990",
+          "mrp": "\u20b931,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b922,990",
+          "mrp": "\u20b932,990/-"
+        }
+      ]
+    }
+  },
+  "srilanka": {
+    "September": [
+      {
+        "date": "6 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b943,990/-"
+      }
+    ],
+    "October": [
+      {
+        "date": "18 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b943,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "15 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b943,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "13 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b943,990/-"
+      },
+      {
+        "date": "20 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b943,990/-"
+      },
+      {
+        "date": "27 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b943,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b943,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b943,990/-",
+          "mrp": "\u20b946,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b946,990/-",
+          "mrp": "\u20b948,990/-"
+        }
+      ]
+    }
+  },
+  "varkala-new": {
+    "January": [
+      {
+        "date": "14 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      },
+      {
+        "date": "24 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      }
+    ],
+    "February": [
+      {
+        "date": "14 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      },
+      {
+        "date": "27 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      }
+    ],
+    "March": [
+      {
+        "date": "13 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      },
+      {
+        "date": "27 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b96,899/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b96,899/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "varkala": "\u20b96,899/-",
+          "chennai": "\u20b98,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "varkala": "\u20b97,899/-",
+          "chennai": "\u20b99,499/-"
+        }
+      ]
+    }
+  },
+  "pondicherry": {
+    "September": [
+      {
+        "date": "20 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b94,990/-"
+      }
+    ],
+    "October": [
+      {
+        "date": "18 Oct - 24 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b94,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "15 Nov - 21 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b94,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "13 Dec - 19 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b94,990/-"
+      },
+      {
+        "date": "20 Dec - 26 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b94,990/-"
+      },
+      {
+        "date": "27 Dec - 2 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b94,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b94,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b94,990/-",
+          "mrp": "\u20b95,500/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b95,500/-",
+          "mrp": "\u20b96,990/-"
+        }
+      ]
+    }
+  },
+  "chikmagalur": {
+    "September": [
+      {
+        "date": "6 Sep - 12 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b97,990/-"
+      },
+      {
+        "date": "20 Sep - 26 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b97,990/-"
+      },
+      {
+        "date": "27 Sep - 3 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b97,990/-"
+      }
+    ],
+    "October": [
+      {
+        "date": "17 Oct - 21 Oct",
+        "status": "Diwali Special",
+        "statusColor": "red",
+        "price": "\u20b98,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "6 Nov - 10 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b97,990/-"
+      },
+      {
+        "date": "28 Nov - 2 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b97,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "24 Dec - 28 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b97,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b97,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b97,990/-",
+          "mrp": "\u20b98,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b98,990/-",
+          "mrp": "\u20b99,990/-"
+        }
+      ]
+    }
+  },
+  "meghalaya": {
+    "January": [
+      {
+        "date": "14 Jan - 19 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "24 Jan - 29 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      }
+    ],
+    "February": [
+      {
+        "date": "14 Feb - 19 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "28 Feb - 05 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      }
+    ],
+    "March": [
+      {
+        "date": "21 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b919,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b919,990/-",
+          "mrp": "\u20b921,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b921,990/-",
+          "mrp": "\u20b923,990/-"
+        }
+      ]
+    }
+  },
+  "kerala": {
+    "September": [
+      {
+        "date": "4 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b914,490 /-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b9\u20b914,490 /-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b914,490 /-",
+          "mrp": "\u20b916,490 /-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b915,490 /-",
+          "mrp": "\u20b917,490 /-"
+        }
+      ]
+    }
+  },
+  "kerala-onam": {
+    "September": [
+      {
+        "date": "4 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b98,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b98,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b98,499/-",
+          "mrp": "\u20b99,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b99,499/-",
+          "mrp": "\u20b910,499/-"
+        }
+      ]
+    }
+  },
+  "kodaikanal1": {
+    "October": [
+      {
+        "date": "1 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b98,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b98,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b98,990/-",
+          "mrp": "\u20b99,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b99,990/-",
+          "mrp": "\u20b910,499/-"
+        }
+      ]
+    }
+  },
+  "wayanad": {
+    "October": [
+      {
+        "date": "17 Oct",
+        "status": "Diwali Special",
+        "statusColor": "red",
+        "price": "\u20b98,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b98,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b98,990/-",
+          "mrp": "\u20b910,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b99,990/-",
+          "mrp": "\u20b910,499/-"
+        }
+      ]
+    }
+  },
+  "spiti-valley-winter-christmas-new-year": {
+    "December": [
+      {
+        "date": "20 Dec - 28 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "25 Dec - 2 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b921,990"
+      },
+      {
+        "date": "27 Dec - 4 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b921,990"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b921,990",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b921,990",
+          "mrp": "\u20b931,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b922,990",
+          "mrp": "\u20b932,990/-"
+        }
+      ]
+    }
+  },
+  "kodaikanal1-christmas-new-year": {
+    "December": [
+      {
+        "date": "24 Dec - 28 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b99,999/-"
+      },
+      {
+        "date": "29 Dec - 2 Jan",
+        "status": "New Year Special",
+        "statusColor": "red",
+        "price": "\u20b99,999/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b99,999/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b99,990/-",
+          "mrp": "\u20b99,999/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b910,990/-",
+          "mrp": "\u20b911,499/-"
+        }
+      ]
+    }
+  },
+  "meghalaya-christmas-new-year": {
+    "December": [
+      {
+        "date": "20 Dec - 25 Dec",
+        "status": "Christmas ",
+        "statusColor": "red",
+        "price": "\u20b921,990/-"
+      },
+      {
+        "date": "23 Dec - 28 Jan",
+        "status": "Christmas",
+        "statusColor": "red",
+        "price": "\u20b921,990/-"
+      },
+      {
+        "date": "28 Dec - 02 Jan",
+        "status": "New Year ",
+        "statusColor": "red",
+        "price": "\u20b921,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b921,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b921,990/-",
+          "mrp": "\u20b925,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b923,990/-",
+          "mrp": "\u20b927,990/-"
+        }
+      ]
+    }
+  },
+  "chikmagalur-meghalaya-christmas-new-year": {
+    "December": [
+      {
+        "date": "24 Dec - 28 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b99,499/-"
+      },
+      {
+        "date": "29 Dec - 01 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b99,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b99,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b99,499/-",
+          "mrp": "\u20b910,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b910,499/-",
+          "mrp": "\u20b912,990/-"
+        }
+      ]
+    }
+  },
+  "kerala-christmas-new-year": {
+    "December": [
+      {
+        "date": "21 Dec - 24 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b916,990 /-"
+      },
+      {
+        "date": "24 Dec - 28 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b916,990 /-"
+      },
+      {
+        "date": "28 Dec - 1 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b916,990 /-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b9\u20b916,990 /-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b916,990 /-",
+          "mrp": "\u20b920,000 /-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b918,990 /-",
+          "mrp": "\u20b922,000 /-"
+        }
+      ]
+    }
+  },
+  "wayanad-christmas-new-year": {
+    "December": [
+      {
+        "date": "24 Dec - 28 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b98,990/-"
+      },
+      {
+        "date": "29 Dec - 01 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b98,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b99,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b98,990/-",
+          "mrp": "\u20b99,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b99,990/-",
+          "mrp": "\u20b910,990/-"
+        }
+      ]
+    }
+  },
+  "ooty-christmas-new-year": {
+    "December": [
+      {
+        "date": "24 Dec - 28 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b99,499/-"
+      },
+      {
+        "date": "29 Dec - 31 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b99,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b99,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b99,499/-",
+          "mrp": "\u20b910,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b910,499/-",
+          "mrp": "\u20b910,499/-"
+        }
+      ]
+    }
+  },
+  "pondicherry-christmas-new-year": {
+    "December": [
+      {
+        "date": "24 Dec - 27 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b94,990/-"
+      },
+      {
+        "date": "29 Dec - 02 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b94,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b94,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b94,990/-",
+          "mrp": "\u20b95,500/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b95,500/-",
+          "mrp": "\u20b96,990/-"
+        }
+      ]
+    }
+  },
+  "srilanka-christmas-new-year": {
+    "December": [
+      {
+        "date": "13 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b943,990/-"
+      },
+      {
+        "date": "20 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b943,990/-"
+      },
+      {
+        "date": "27 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b943,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b943,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "\u20b943,990/-",
+          "mrp": "\u20b946,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b946,990/-",
+          "mrp": "\u20b948,990/-"
+        }
+      ]
+    }
+  },
+  "andaman-christmas-new-year": {
+    "December": [
+      {
+        "date": "25 Dec - 1 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "\u20b934,500/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b934,500/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "mrp": "\u20b940,990/-",
+          "offer": "\u20b934,500/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "mrp": "\u20b941,990/-",
+          "offer": "\u20b937,500/-"
+        }
+      ]
+    }
+  },
+  "tawang": {
+    "March": [
+      {
+        "date": "14 Mar - 20 Mar",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,499/-"
+      }
+    ],
+    "April": [
+      {
+        "date": "03 Apr - 09 Apr",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,499/-"
+      },
+      {
+        "date": "25 Apr - 01 May",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,499/-"
+      }
+    ],
+    "May": [
+      {
+        "date": "23 May - 29 May",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,499/-"
+      }
+    ],
+    "June": [
+      {
+        "date": "20 Jun - 26 Jun",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,499/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b922,499/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "tawang": "\u20b922,499/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "tawang": "\u20b924,499/-"
+        }
+      ]
+    }
+  }
 }

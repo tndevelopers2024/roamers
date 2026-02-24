@@ -15,11 +15,7 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         /* Override style.css */
     }
 
-    nav.scrolled {
-        padding: 15px 0 !important;
-        background: #4ec0db;
-        /* Keep blue on scroll */
-    }
+
 
     nav::before {
         width: 100px;
@@ -43,10 +39,7 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         /* Ensure behind logo */
     }
 
-    nav.scrolled::before {
-        height: 92px;
-        bottom: 20px;
-    }
+
 
     .navbar-brand img {
         width: 80px;
@@ -61,16 +54,21 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         /* Ensure on top */
     }
 
-    nav.scrolled .navbar-brand img {
-        width: 50px !important;
-        margin-top: -1px !important;
-    }
+
 
     @media (max-width: 600px) {
+        body {
+            padding-top: 70px;
+        }
+
+        nav {
+            transition: none !important;
+        }
+
         .navbar-brand img {
             width: 50px !important;
             position: relative;
-            margin-top: -30px !important;
+            margin-top: -10px !important;
             margin-left: 0 !important;
             transform: none;
             left: auto;
@@ -281,14 +279,3 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         </style>
     </div>
 </nav>
-
-<script>
-    window.addEventListener('scroll', function () {
-        const navbar = document.querySelector('nav');
-        if (window.scrollY > 700) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
-    });
-</script>

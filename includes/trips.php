@@ -154,7 +154,8 @@
                                     <div class="inner inner2">
                                         <h3>3 DAYS / 2 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Chennai, Coimbatore
                                         </h4>
                                     </div>
@@ -188,7 +189,8 @@
                                     <div class="inner inner2">
                                         <h3>3 DAYS / 2 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Chennai, Trivandrum
                                         </h4>
                                     </div>
@@ -223,7 +225,8 @@
                                     <div class="inner inner2">
                                         <h3>3 DAYS / 2 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Direct, Chennai
                                         </h4>
                                     </div>
@@ -257,7 +260,8 @@
                                     <div class="inner inner2">
                                         <h3>7 DAYS / 6 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Delhi
                                         </h4>
                                     </div>
@@ -288,7 +292,8 @@
                                     <div class="inner inner2">
                                         <h3>3 DAYS / 2 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Chennai
                                         </h4>
                                     </div>
@@ -322,7 +327,8 @@
                                     <div class="inner inner2">
                                         <h3>3 DAYS / 2 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Direct, Chennai
                                         </h4>
                                     </div>
@@ -356,7 +362,8 @@
                                     <div class="inner inner2">
                                         <h3>3 DAYS / 2 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Bangalore
                                         </h4>
                                     </div>
@@ -381,7 +388,7 @@
                             </div>
                         </a>
                     </div>
-                    
+
                     <div class="swiper-slide trip-card">
                         <a href="kodaikanal">
                             <div class="trip-card-inner">
@@ -390,7 +397,8 @@
                                     <div class="inner inner2">
                                         <h3>3 DAYS / 2 NIGHTS</h3>
                                         <h4>
-                                            <img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">
+                                            <img src="assets/img/images/loc1.svg" class="exicon"
+                                                alt="second location-icon">
                                             EX: Chennai
                                         </h4>
                                     </div>
@@ -423,8 +431,6 @@
         </div>
     </section>
     <style>
-   
-
         .trip-card-inner img {
             height: 200px;
             width: 100%;
@@ -432,7 +438,6 @@
             border-top-left-radius: 18px;
             border-top-right-radius: 18px;
         }
-
     </style>
 
 

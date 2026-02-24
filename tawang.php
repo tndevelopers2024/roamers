@@ -56,19 +56,19 @@
 
 
 
-    <!-- Google Analytics Code: -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <!-- Google Analytics Code: -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-0MSFD4117B');
-    </script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-0MSFD4117B');
+  </script>
 
 
 
@@ -162,7 +162,7 @@
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value "><span>6,899/-</span></div>
+                  <div class="info-value "><span>22,499/-</span></div>
                 </div>
               </div>
             </div>
@@ -175,7 +175,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">3D / 2N</div>
+                  <div class="info-value">7D / 6N</div>
                 </div>
               </div>
             </div>
@@ -188,12 +188,12 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Chennai / Trivandrum</div>
+                  <div class="info-value">Guwahati</div>
                 </div>
               </div>
             </div>
             <div class="col d-flex align-items-center">
-              <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
+              <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 30px;">
                 Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
             </div>
           </div>
@@ -226,7 +226,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">3D / 2N</div>
+                  <div class="info-value">7D / 6N</div>
                 </div>
               </div>
             </div>
@@ -239,13 +239,13 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Chennai / Trivandrum
+                  <div class="info-value">Guwahati
                   </div>
                 </div>
               </div>
             </div>
             <div class="col mt-4">
-              <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
+              <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 30px;">
                 Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
             </div>
           </div>
@@ -314,7 +314,7 @@
     <br><br>
 
     <section class="destination mt-0 mt-lg-5"
-      style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;" id="overview">
+      style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 30px;" id="overview">
 
       <div class="">
         <div class="row g-4 flex-column-reverse flex-md-row align-items-center">
@@ -327,18 +327,29 @@
 
               <!-- Desktop description (full text) -->
               <p style="color: #555;" class="desk-desc d-none d-md-block">
-               Tawang is all about dramatic mountain landscapes, high-altitude passes, ancient monasteries, and soul-stirring Himalayan views. With peaceful valleys, prayer flags fluttering in the wind, and cosy mountain stays, it’s the perfect place to disconnect from chaos and reconnect with nature — and that’s exactly what our itinerary promises.
-               But the thrill never stops! From conquering the iconic Sela Pass and visiting the legendary Bumla Pass near the Indo-China border, to witnessing the surreal beauty of Sangetsar Lake and exploring the majestic Tawang Monastery, this Tawang escape blends adventure, culture, and serenity into one unforgettable Himalayan journey.
+                Tawang is all about dramatic mountain landscapes, high-altitude passes, ancient monasteries, and
+                soul-stirring Himalayan views. With peaceful valleys, prayer flags fluttering in the wind, and cosy
+                mountain stays, it’s the perfect place to disconnect from chaos and reconnect with nature — and that’s
+                exactly what our itinerary promises.
+                But the thrill never stops! From conquering the iconic Sela Pass and visiting the legendary Bumla Pass
+                near the Indo-China border, to witnessing the surreal beauty of Sangetsar Lake and exploring the
+                majestic Tawang Monastery, this Tawang escape blends adventure, culture, and serenity into one
+                unforgettable Himalayan journey.
               </p>
 
               <!-- Mobile description (truncated with toggle) -->
               <p style="color: #555;" class="mob-desc d-block d-md-none">
-               Tawang is all about snow-capped peaks, high-altitude passes, and breathtaking Himalayan views. With peaceful monasteries and serene mountain landscapes, it’s the perfect place to slow down and soak in nature — and that’s exactly what our itinerary has in store for you!
+                Tawang is all about snow-capped peaks, high-altitude passes, and breathtaking Himalayan views. With
+                peaceful monasteries and serene mountain landscapes, it’s the perfect place to slow down and soak in
+                nature — and that’s exactly what our itinerary has in store for you!
 
                 <br>
                 <span id="dots">...</span>
                 <span id="moreText" style="display: none;"><br><br>
-                  But adventure is never far behind! From crossing the iconic Sela Pass and visiting the legendary Bumla Pass, to witnessing the surreal beauty of Sangetsar Lake and exploring the majestic Tawang Monastery, our Tawang itinerary offers the perfect blend of adventure, culture, and unforgettable Himalayan experiences!
+                  But adventure is never far behind! From crossing the iconic Sela Pass and visiting the legendary Bumla
+                  Pass, to witnessing the surreal beauty of Sangetsar Lake and exploring the majestic Tawang Monastery,
+                  our Tawang itinerary offers the perfect blend of adventure, culture, and unforgettable Himalayan
+                  experiences!
                 </span>
               </p>
 
@@ -369,25 +380,10 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/varkala/varkala-1.jpg" class="img-fluid w-100"
-                    alt="Varkala Beach" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                  <img src="assets/img/tawang/tawang-image-6.avif" class="img-fluid w-100" alt="Varkala Beach"
+                    style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
-                <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/varkala/black-beach.jpg" class="img-fluid w-100"
-                    alt="Varkala Black Beach" style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
-                <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/varkala/cliffs.jpg" class="img-fluid w-100"
-                    alt="Varkala Cliffs" style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
-                <div class="swiper-slide">
-                  <img src="https://roamers.in/assets/img/varkala/kappilbeach.jpg" class="img-fluid w-100"
-                    alt="Kappil Beach Varkala" style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/varkala/qxz3xossdn9zmjz8cmrx.avif" class="img-fluid w-100"
-                    alt="Kappil Beach Varkala" style="border-radius: 10px; height: 350px; object-fit: cover;">
-                </div>
+
               </div>
             </div>
           </div>
@@ -407,366 +403,384 @@
               class="text-center head">Trip Itinerary
             </h3>
             <div class="">
-<div class="accordion" id="accordionExample">
+              <div class="accordion" id="accordionExample">
 
-  <!-- Day 1 -->
-  <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button fw-bold text-dark" type="button"
-        data-bs-toggle="collapse" data-bs-target="#collapseOne"
-        aria-expanded="true" aria-controls="collapseOne">
+                <!-- Day 1 -->
+                <div class="accordion-item mb-4 border-0 overflow-hidden ">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
-        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-        Guwahati Arrival → Drive to Bhalukpong (220 km | 6 hrs)
+                      <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
+                      Guwahati Arrival → Drive to Bhalukpong (220 km | 6 hrs)
 
-      </button>
-    </h2>
+                    </button>
+                  </h2>
 
-    <div id="collapseOne" class="accordion-collapse collapse show"
-      aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
 
-      <div class="accordion-body bg-light">
+                    <div class="accordion-body bg-light">
 
-        <ul>
-          <li>Arrive at Guwahati Airport / Railway Station.</li>
+                      <ul>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Arrive at Guwahati Airport / Railway Station.</li>
 
-          <li>Meet your Roamers trip captain, fellow travellers. Quick briefing, intros & we roll.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Meet your Roamers trip captain, fellow travellers. Quick briefing, intros & we roll.</li>
 
-          <li>If time permits, we visit the sacred Kamakhya Temple for a powerful start to the journey.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> If
+                          time permits, we visit the sacred Kamakhya Temple for a powerful start to the journey.</li>
 
-          <li>Let’s start our journey towards Bhalukpong, the official gateway to Arunachal Pradesh.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let’s start our journey towards Bhalukpong, the official gateway to Arunachal Pradesh.</li>
 
-          <li>Complete Inner Line Permit formalities and we continue the scenic drive.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Complete Inner Line Permit formalities and we continue the scenic drive.</li>
 
-          <li>Check in to your hotel and spend time in Leisure with fellow Roamers, a night of games, music, laughter, bonding and whatnot?</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Check in to your hotel and spend time in Leisure with fellow Roamers, a night of games, music,
+                          laughter, bonding and whatnot?</li>
 
-          <li>Let’s Savour Delish Dinner & overnight stay in Bhalukpong.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let’s Savour Delish Dinner & overnight stay in Bhalukpong.</li>
 
-        </ul>
+                      </ul>
 
-      </div>
-    </div>
-  </div>
+                    </div>
+                  </div>
+                </div>
 
 
-  <!-- Day 2 -->
-  <div class="accordion-item mb-4 border overflow-hidden rounded-4">
-    <h2 class="accordion-header" id="headingTwo">
+                <!-- Day 2 -->
+                <div class="accordion-item mb-4 border overflow-hidden rounded-4">
+                  <h2 class="accordion-header" id="headingTwo">
 
-      <button class="accordion-button collapsed fw-bold text-dark"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseTwo"
-        aria-expanded="false"
-        aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 
-        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 2</span>
-        Bhalukpong → Dirang (146 km | 5 hrs)
+                      <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 2</span>
+                      Bhalukpong → Dirang (146 km | 5 hrs)
 
-      </button>
+                    </button>
 
-    </h2>
+                  </h2>
 
-    <div id="collapseTwo"
-      class="accordion-collapse collapse"
-      aria-labelledby="headingTwo"
-      data-bs-parent="#accordionExample">
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
 
-      <div class="accordion-body bg-light">
+                    <div class="accordion-body bg-light">
 
-        <ul>
+                      <ul>
 
-          <li>Wake up to the good day, with good breakfast and a good journey ahead!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Wake up to the good day, with good breakfast and a good journey ahead!</li>
 
-          <li>Enjoy your drive to Dirang with stunning mountain views and forested stretches.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Enjoy your drive to Dirang with stunning mountain views and forested stretches.</li>
 
-          <li>En route, we’ll witness the charming Kameng River, perfect views to capture</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> En
+                          route, we’ll witness the charming Kameng River, perfect views to capture</li>
 
-          <li>Arrive in Dirang, let’s check-in our Hotel & unwind</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Arrive in Dirang, let’s check-in our Hotel & unwind</li>
 
-          <li>Evening at leisure with Team, time for slow walks, local cafés or just unwind</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Evening at leisure with Team, time for slow walks, local cafés or just unwind</li>
 
-          <li>Group Dinner & Overnight stay in Dirang.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Group Dinner & Overnight stay in Dirang.</li>
 
-        </ul>
+                      </ul>
 
-      </div>
+                    </div>
 
-    </div>
-  </div>
+                  </div>
+                </div>
 
 
-  <!-- Day 3 -->
-  <div class="accordion-item mb-4 border overflow-hidden rounded-4">
+                <!-- Day 3 -->
+                <div class="accordion-item mb-4 border overflow-hidden rounded-4">
 
-    <h2 class="accordion-header" id="headingThree">
+                  <h2 class="accordion-header" id="headingThree">
 
-      <button class="accordion-button collapsed fw-bold text-dark"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseThree"
-        aria-expanded="false"
-        aria-controls="collapseThree">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 
-        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 3</span>
-        Dirang → Tawang (130 km | 6–7 hrs)
+                      <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 3</span>
+                      Dirang → Tawang (130 km | 6–7 hrs)
 
-      </button>
+                    </button>
 
-    </h2>
+                  </h2>
 
-    <div id="collapseThree"
-      class="accordion-collapse collapse"
-      aria-labelledby="headingThree"
-      data-bs-parent="#accordionExample">
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
 
-      <div class="accordion-body bg-light">
+                    <div class="accordion-body bg-light">
 
-        <ul>
+                      <ul>
 
-          <li>After breakfast, we’ll continue journey towards our beloved Tawang.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After breakfast, we’ll continue journey towards our beloved Tawang.</li>
 
-          <li>On the way, short halt at the natural hot springs, known for its medicinal properties.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> On
+                          the way, short halt at the natural hot springs, known for its medicinal properties.</li>
 
-          <li>Finally, let’s Cross the iconic Sela Pass (13,700 ft) one of the highest motorable passes in India.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Finally, let’s Cross the iconic Sela Pass (13,700 ft) one of the highest motorable passes in
+                          India.</li>
 
-          <li>Enroute we’ll stop at Jaswantgarh War Memorial, a place that carries real history.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Enroute we’ll stop at Jaswantgarh War Memorial, a place that carries real history.</li>
 
-          <li>Then let’s visit Nuranang Falls, a fascinating waterfalls around Tawang.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Then let’s visit Nuranang Falls, a fascinating waterfalls around Tawang.</li>
 
-          <li>Arrive in Tawang by evening. Check in and rest Roamers! Acclimatisation matters!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Arrive in Tawang by evening. Check in and rest Roamers! Acclimatization matters!</li>
 
-          <li>Let’s savour dinner with team & followed by an overnight stay in Tawang.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let’s savour dinner with team & followed by an overnight stay in Tawang.</li>
 
-        </ul>
+                      </ul>
 
-      </div>
+                    </div>
 
-    </div>
-  </div>
+                  </div>
+                </div>
 
 
-  <!-- Day 4 -->
-  <div class="accordion-item mb-4 border overflow-hidden rounded-4">
+                <!-- Day 4 -->
+                <div class="accordion-item mb-4 border overflow-hidden rounded-4">
 
-    <h2 class="accordion-header" id="headingFour">
+                  <h2 class="accordion-header" id="headingFour">
 
-      <button class="accordion-button collapsed fw-bold text-dark"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseFour"
-        aria-expanded="false"
-        aria-controls="collapseFour">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 
-        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 4</span>
-        Tawang + Bumla Pass Excursion
+                      <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 4</span>
+                      Tawang + Bumla Pass Excursion
 
-      </button>
+                    </button>
 
-    </h2>
+                  </h2>
 
-    <div id="collapseFour"
-      class="accordion-collapse collapse"
-      aria-labelledby="headingFour"
-      data-bs-parent="#accordionExample">
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
 
-      <div class="accordion-body bg-light">
+                    <div class="accordion-body bg-light">
 
-        <ul>
+                      <ul>
 
-          <li>Early breakfast and we’ll proceed for the Bumla excursion (subject to permits & weather).</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Early breakfast and we’ll proceed for the Bumla excursion (subject to permits & weather).</li>
 
-          <li>Let’s begin our drive to Bumla Pass, near the Indo-China border.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let’s begin our drive to Bumla Pass, near the Indo-China border.</li>
 
-          <li>Our quick stop at PT Tso Lake en route.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> Our
+                          quick stop at PT Tso Lake en route.</li>
 
-          <li>Next up, we’ll visit the surreal Sangetsar Lake (Madhuri Lake).</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Next up, we’ll visit the surreal Sangetsar Lake (Madhuri Lake).</li>
 
-          <li>Expect rough roads, dramatic landscapes, and serious mountain energy Roamers!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Expect rough roads, dramatic landscapes, and serious mountain energy Roamers!</li>
 
-          <li>Return to Tawang by evening. Time to relax, warm up, and unwind!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Return to Tawang by evening. Time to relax, warm up, and unwind!</li>
 
-          <li>Good food, some chats, then we switch off, overnight stay in Tawang.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Good food, some chats, then we switch off, overnight stay in Tawang.</li>
 
-        </ul>
+                      </ul>
 
-      </div>
+                    </div>
 
-    </div>
-  </div>
+                  </div>
+                </div>
 
 
-  <!-- Day 5 -->
-  <div class="accordion-item mb-4 border overflow-hidden rounded-4">
+                <!-- Day 5 -->
+                <div class="accordion-item mb-4 border overflow-hidden rounded-4">
 
-    <h2 class="accordion-header" id="headingFive">
+                  <h2 class="accordion-header" id="headingFive">
 
-      <button class="accordion-button collapsed fw-bold text-dark"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseFive"
-        aria-expanded="false"
-        aria-controls="collapseFive">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 
-        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 5</span>
-        Tawang → Sangti Valley (via Dirang) (165 km | 6–7 hrs)
+                      <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 5</span>
+                      Tawang → Sangti Valley (via Dirang) (165 km | 6–7 hrs)
 
-      </button>
+                    </button>
 
-    </h2>
+                  </h2>
 
-    <div id="collapseFive"
-      class="accordion-collapse collapse"
-      aria-labelledby="headingFive"
-      data-bs-parent="#accordionExample">
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
 
-      <div class="accordion-body bg-light">
+                    <div class="accordion-body bg-light">
 
-        <ul>
+                      <ul>
 
-          <li>After breakfast, we’ll explore the majestic Tawang Monastery, the largest monastery in India.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After breakfast, we’ll explore the majestic Tawang Monastery, the largest monastery in India.
+                        </li>
 
-          <li>Next, let's visit the Tawang War Memorial.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Next, let's visit the Tawang War Memorial.</li>
 
-          <li>Further, we’ll begin our descent towards Sangti Valley via Dirang.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Further, we’ll begin our descent towards Sangti Valley via Dirang.</li>
 
-          <li>Scenic valley stretches and alpine landscapes all along the way!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Scenic valley stretches and alpine landscapes all along the way!</li>
 
-          <li>Arrive in Sangti Valley by evening, a serene place which was once in your dream!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Arrive in Sangti Valley by evening, a serene place which was once in your dream!</li>
 
-          <li>Check-in to your beautiful Riverside stay. Stargazing, comfort food & let’s lit the bonfire to make it more fantasy.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Check-in to your beautiful Riverside stay. Stargazing, comfort food & let’s lit the bonfire to
+                          make it more fantasy.</li>
 
-          <li>Overnight stay in the beautiful Sangti Valley.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in the beautiful Sangti Valley.</li>
 
-        </ul>
+                      </ul>
 
-      </div>
+                    </div>
 
-    </div>
-  </div>
+                  </div>
+                </div>
 
 
-  <!-- Day 6 -->
-  <div class="accordion-item mb-4 border overflow-hidden rounded-4">
+                <!-- Day 6 -->
+                <div class="accordion-item mb-4 border overflow-hidden rounded-4">
 
-    <h2 class="accordion-header" id="headingSix">
+                  <h2 class="accordion-header" id="headingSix">
 
-      <button class="accordion-button collapsed fw-bold text-dark"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseSix"
-        aria-expanded="false"
-        aria-controls="collapseSix">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
 
-        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 6</span>
-        Sangti Valley → Tezpur (160 km | 5–6 hrs)
+                      <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 6</span>
+                      Sangti Valley → Tezpur (160 km | 5–6 hrs)
 
-      </button>
+                    </button>
 
-    </h2>
+                  </h2>
 
-    <div id="collapseSix"
-      class="accordion-collapse collapse"
-      aria-labelledby="headingSix"
-      data-bs-parent="#accordionExample">
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample">
 
-      <div class="accordion-body bg-light">
+                    <div class="accordion-body bg-light">
 
-        <ul>
+                      <ul>
 
-          <li>Easy morning in the valley. enjoy riverside walks, Bird spotting!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Easy morning in the valley. enjoy riverside walks, Bird spotting!</li>
 
-          <li>After breakfast, we start our drive towards Tezpur.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After breakfast, we start our drive towards Tezpur.</li>
 
-          <li>Let’s visit Famous Kiwi Garden & Sheep Farm nearby!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let’s visit Famous Kiwi Garden & Sheep Farm nearby!</li>
 
-          <li>Arrive in Tezpur and let’s check in to our property.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Arrive in Tezpur and let’s check in to our property.</li>
+<!-- 
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> If
+                          time permits, we can visit Maha Bhairab Temple by late eve Roamers!</li> -->
 
-          <li>If time permits, we can visit Maha Bhairab Temple by late eve Roamers!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Indulge in Farewell Dinner with your lovely group & Overnight stay in Tezpur.</li>
 
-          <li>Indulge in Farewell Dinner with your lovely group & Overnight stay in Tezpur.</li>
+                      </ul>
 
-        </ul>
+                    </div>
 
-      </div>
+                  </div>
+                </div>
 
-    </div>
-  </div>
 
+                <!-- Day 7 -->
+                <div class="accordion-item mb-4 border overflow-hidden rounded-4">
 
-  <!-- Day 7 -->
-  <div class="accordion-item mb-4 border overflow-hidden rounded-4">
+                  <h2 class="accordion-header" id="headingSeven">
 
-    <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 
-      <button class="accordion-button collapsed fw-bold text-dark"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseSeven"
-        aria-expanded="false"
-        aria-controls="collapseSeven">
+                      <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 7</span>
+                      Tezpur → Guwahati | Departure (185 km | 4–5 hrs)
 
-        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 7</span>
-        Tezpur → Guwahati | Departure (185 km | 4–5 hrs)
+                    </button>
 
-      </button>
+                  </h2>
 
-    </h2>
+                  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#accordionExample">
 
-    <div id="collapseSeven"
-      class="accordion-collapse collapse"
-      aria-labelledby="headingSeven"
-      data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-light">
 
-      <div class="accordion-body bg-light">
+                      <ul>
 
-        <ul>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Group Breakfast. Bags all packed. Time for one last drive!</li>
 
-          <li>Group Breakfast. Bags all packed. Time for one last drive!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Enroute, we can visit Maha Bhairab Temple Roamers!</li>
 
-          <li>After breakfast, we’ll finally drive back to Guwahati with memories & new friends who was strangers once.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After breakfast, we’ll finally drive back to Guwahati with memories & new friends who was
+                          strangers once.</li>
 
-          <li>Bye Bye Roamers! More Hugs!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> Bye
+                          Bye Roamers! More Hugs!</li>
 
-        </ul>
+                      </ul>
 
-      </div>
+                    </div>
 
-    </div>
-  </div>
+                  </div>
+                </div>
 
-</div>
+              </div>
             </div>
 
             <!-- >> Inclusion section << -->
             <section id="inclusion">
-              <div class="important-notes shadow " style="border-radius: 10px; background-color:rgb(245, 255, 246) ;">
-                <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
+              <div class="important-notes shadow " style="border-radius: 30px; background-color:rgb(245, 255, 246) ;">
+                <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusions</h3>
                 <div id="">
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Covers Transportation & Complementary Canoe Ride
+                    Sightseeing Entries as per the itinerary.
                   </p>
 
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Includes Accommodation + Breakfast
+                    Accommodation in the mentioned hotels or similar category
                   </p>
 
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Sightseeing Entries
+                    12 Meals: Breakfast (Day 2 to Day 7) | Dinner (Day 1 to Day 6) Including Farewell Dinner
                   </p>
 
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Experienced Trip Captains who are super friendly & knowledgeable.
-
+                    Tempo Traveller/Similar for all transfers and sightseeing based on group size
                   </p>
+
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Permit, Local tax. No hidden charges.
-
+                    Fun &amp; Knowledgeable Trip Captain
                   </p>
+
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    Local tax, tolls, parking, and driver allowances.
+                  </p>
+
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    A-Z trip assistance from our Travel experts.
+                    Inner Line Permits (ILP)
                   </p><span class="mobile-br"><br></span>
 
                 </div>
@@ -774,30 +788,32 @@
             </section>
 
             <!-- >> Exclusion Section << -->
-            <div class="important-notes shadow" style="border-radius: 10px; background-color: rgb(255, 244, 244);"
+            <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);"
               id="exclusion">
-              <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
+              <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusions</h3>
               <div>
-                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Personal expenses like
-                  shopping and optional activities such as kayaking or ziplining
+                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Meals other than breakfast.
                 </p><span class="mobile-br"><br></span>
 
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Cable Car for Jatayu
-                  (optional)
-                  </a>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Airfare/train tickets.
                 </p>
 
                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Any other costs involved due to a natural calamity or any other forced circumstances that are out of
-                  our control.
+                  Extra vehicle for Bumla Pass (&#8377;5,000 per vehicle &ndash; additional cost shared by the group).
                 </p>
 
                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  GST (5%) is applicable extra.
+                  Personal expenses or shopping
                 </p>
 
                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Anything not mentioned in the above inclusions.
+                  Expenses due to delays, roadblocks, strikes, or other unforeseen situations.
+                </p>
+
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
+                  Any service not mentioned under inclusions.
                 </p>
 
               </div>
@@ -811,28 +827,28 @@
 
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
-              <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="assets/img/varkala/varkalaimg-1.jpg" alt="Varkala Banner"
-                  style=" object-fit:cover; border-radius: 10px;">
+              <div class="priceCard shadow" style="border-radius: 30px;">
+                <img src="assets/img/tawang/twang-image-15.jpeg" alt="Varkala Banner"
+                  style=" object-fit:cover; border-radius: 20px;">
               </div>
 
               <!-- >> Pricing Box Section << -->
-              <div class="price-card shadow p-1" style="border-radius: 10px;">
+              <div class="price-card shadow p-1" style="border-radius: 30px;">
                 <div class="p-2">
                   <!-- Inner box with light grey background -->
-                  <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
+                  <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 30px;">
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹8,999/-</strike>
+                        <strike>₹25,999/-</strike>
                       </span>
-                      <span class="new-price"></span><span class="new-price">6,899/-</span>
+                      <span class="new-price"></span><span class="new-price">22,499/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="varkala-grouptrip-form.php" target="blank" class="btn butn butn__new bg-"
-                        style="border-radius: 10px;">Dates
+                      <a href="tawang-form.php" target="blank" class="btn butn butn__new bg-"
+                        style="border-radius: 30px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -841,7 +857,7 @@
 
               <!-- >> Ladakh Form Section << -->
               <div id="form" class="shadow"
-                style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
+                style="border: 1px solid #00aaff; border-radius: 30px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                 <form>
                   <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                     Let's Map Your Dream Trip</h3>
@@ -849,23 +865,23 @@
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
                     <label for="name" style="font-size: 16px; color: #333;">Name</label>
                     <input placeholder="Your Name" type="text" id="name" name="name" required
-                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 30px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                   </div>
 
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
                     <label for="email" style="font-size: 16px; color: #333;">Email</label>
                     <input placeholder="Your Email" type="email" id="email" name="email" required
-                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                      style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 30px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                   </div>
 
                   <div class="input-field mb-3" style="margin-bottom: 20px;">
                     <label for="phone" style="font-size: 16px; color: #333;">Phone Number</label>
                     <input placeholder="Your Phone Number" type="tel" id="phone" name="phone" required
-                      style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                      style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 30px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                   </div>
 
                   <div class="trip-form p-0">
-                    <a href="" class="btn butn butn__new bg-" style="border-radius: 10px;">Submit</a>
+                    <a href="" class="btn butn butn__new bg-" style="border-radius: 30px;">Submit</a>
                   </div>
 
                   </button>
@@ -891,44 +907,75 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/varkala/kerala-1.jpg" alt="Sri Lanka 1">
+            <img src="assets/img/tawang/tawang-image-1.avif" alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/varkala/Ropecar.png" alt="Sri Lanka 3">
+            <img src="assets/img/tawang/tawang-image-2.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/varkala/bwql5yrfiy4deti8luaq.avif" alt="Sri Lanka 3">
+            <img src="assets/img/tawang/tawang-image-3.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Sri Lanka 3">
+            <img src="assets/img/tawang/tawang-image-4.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/varkala/qxz3xossdn9zmjz8cmrx.avif" alt="Sri Lanka 3">
+            <img src="assets/img/tawang/tawang-image-5.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Sri Lanka 3">
+            <img src="assets/img/tawang/tawang-image-6.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Sri Lanka 3">
+            <img src="assets/img/tawang/tawang-image-7.avif" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="https://roamers.in/assets/img/varkala/black-beach.jpg" alt="Sri Lanka 4">
+            <img src="assets/img/tawang/tawang-image-8.avif" alt="Sri Lanka 4">
           </div>
         </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/tawang/tawang-image-9.avif" alt="Sri Lanka 4">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/tawang/banner/tawang-image-10.avif" alt="Sri Lanka 4">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/tawang/banner/tawang-image-11.avif" alt="Sri Lanka 4">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/tawang/banner/tawang-image-12.avif" alt="Sri Lanka 4">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/tawang/banner/tawang-image-13.avif" alt="Sri Lanka 4">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="assets/img/tawang/tawang-image-14.avif" alt="Sri Lanka 4">
+          </div>
+        </div>
+
       </div>
       <div class="swiper-pagination d-none d-md-none"></div>
     </div>
@@ -943,7 +990,7 @@
       <div class="row">
         <div class="accordion" id="accordionFlushExample">
           <!--| First |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
             <h2 class="accordion-header" id="headingOne">
               <button
                 class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
@@ -965,7 +1012,7 @@
           </div>
 
           <!--| Second |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
             <h2 class="accordion-header" id="headingTwo">
               <button
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -988,7 +1035,7 @@
           </div>
 
           <!--| Third |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
             <h2 class="accordion-header" id="headingThree">
               <button
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1028,7 +1075,7 @@
           </div>
 
           <!--| Five |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
             <h2 class="accordion-header" id="headingFive">
               <button
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1061,11 +1108,11 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹6,899/-</span>
+          <span class="price-amount ">₹22,499/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="varkala-grouptrip-form.php" class="btn-book">Dates & Costing</a>
+      <a href="tawang-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 
@@ -1465,7 +1512,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "https://images.unsplash.com/photo-1587033250628-ed6a72c8cf24?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==",
+      "assets/img/tawang/banner/tawang-image-13.avif",
     ];
 
     let index = 0;

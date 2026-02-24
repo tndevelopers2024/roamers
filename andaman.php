@@ -124,7 +124,7 @@
   <!-- Banner Below -->
   <div class="container">
     <div class="row desktop-inform my-4 g-3 "
-      style="background-image: url('assets/assets/img/andaman/background.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; overflow: visible; border:none !important; padding:60px 0px !important">
+      style="background-image: url('assets/img/andaman/background.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; overflow: visible; border:none !important; padding:60px 0px !important">
       <section class="info-highlights">
         <div class="container p-3">
           <div class="row row-cols-1 row-cols-lg-4 g-4 text-center">
@@ -133,7 +133,7 @@
               <div class="enhanced-box">
                 <!-- <div class="icon-circle"> -->
                   <!-- <i class='bx  bx-rupee'></i>  -->
-                  <img src="assets/assets/img/andaman/elements/ruppes-bubble.png" alt="" style="width:70px">
+                  <img src="assets/img/andaman/elements/ruppes-bubble.png" alt="" style="width:70px">
                 <!-- </div> -->
                 <div>
                   <div class="info-label">Starting Price</div>
@@ -146,7 +146,7 @@
               <div class="enhanced-box">
                 <!-- <div class="icon-circle"> -->
                   <!-- <i class='bx  bx-hourglass'></i>  -->
-                  <img src="assets/assets/img/andaman/elements/calender-bubble.png" alt="" style="width:70px">
+                  <img src="assets/img/andaman/elements/calender-bubble.png" alt="" style="width:70px">
                 <!-- </div> -->
                 <div>
                   <div class="info-label">Duration</div>
@@ -159,7 +159,7 @@
               <div class="enhanced-box">
                 <!-- <div class="icon-circle"> -->
                   <!-- <i class="fa-solid fa-location-dot"></i> -->
-                  <img src="assets/assets/img/andaman/elements/location-bubble.png" alt="" style="width:70px">
+                  <img src="assets/img/andaman/elements/location-bubble.png" alt="" style="width:70px">
                 <!-- </div> -->
                 <div>
                   <div class="info-label">Pickup & Drop</div>
@@ -377,7 +377,7 @@
   </div>
 
   <div class=""
-    style="background-image:url('assets/assets/img/andaman/bg-banner.png'); background-size: cover; background-position: center;">
+    style="background-image:url('assets/img/andaman/Group 1171276364.png'); background-size: cover; background-position: center;">
 
     <section class="ilt-up" id="itinerary">
       <div class="container">
@@ -834,13 +834,13 @@
               <!-- >> Side Slider Section << -->
               <div class="priceCard shadow" style="border-radius: 10px;">
                 <video autoplay loop muted playsinline>
-                  <source src="assets/assets/img/andaman/video/side-bar.mp4" type="video/mp4">
+                  <source src="assets/img/andaman/video/side-bar.mp4" type="video/mp4">
                 </video>
               </div>
 
               <!-- >> Pricing Box Section << -->
               <div class="price-card shadow p-1" style="border-radius: 10px; position: relative;">
-                <img src="assets/assets/img/andaman/elements/umberla.png" alt=""
+                <img src="assets/img/andaman/elements/umberla.png" alt=""
                   style="position: absolute; top: -30px; right: -30px; z-index: 999; width: 90px;">
 
                 <div class="p-2">
@@ -862,7 +862,7 @@
                   </div>
                 </div>
 
-                <!-- <img src="assets/assets/img/andaman/elements/chair.png" alt=""
+                <!-- <img src="assets/img/andaman/elements/chair.png" alt=""
                   style="position: absolute; bottom: -30px; left: -30px; z-index: 999; width: 90px;"> -->
               </div>
 
@@ -897,7 +897,7 @@
 
                   </button>
                 </form>
-                 <img src="assets/assets/img/andaman/elements/chair.png" alt=""
+                 <img src="assets/img/andaman/elements/chair.png" alt=""
                   style="position: absolute; bottom: -30px; left: -30px; z-index: 999; width: 90px;">
               </div>
 

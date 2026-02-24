@@ -189,7 +189,7 @@
                 </div>
               </div>
               <div class="col d-flex align-items-center">
-                <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 30px;">
                   Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
               </div>
             </div>
@@ -251,7 +251,7 @@
       <br><br>
 
       <section class="destination mt-0 mt-lg-5"
-        style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;" id="overview">
+        style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 30px;" id="overview">
 
         <div class="">
           <div class="row g-4 flex-column-reverse flex-md-row align-items-center">
@@ -315,7 +315,7 @@
                   </div> -->
                   <div class="swiper-slide">
                     <img src="assets/img/ladakh/ladakh-img2.jpg" class="img-fluid w-100"
-                      alt="Wayanad" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                      alt="Wayanad" style="border-radius: 30px; height: 350px; object-fit: cover;">
                   </div>
                 </div>
               </div>
@@ -731,7 +731,7 @@
 
               <!-- >> Inclusion section << -->
               <section id="inclusion">
-                <div class="important-notes shadow" style="border-radius: 10px; background-color:rgb(245, 255, 246);">
+                <div class="important-notes shadow" style="border-radius: 30px; background-color:rgb(245, 255, 246);">
                   <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
                   <div>
                     <p>
@@ -821,7 +821,7 @@
               </section>
 
               <!-- >> Exclusion Section << -->
-              <div class="important-notes shadow" style="border-radius: 10px; background-color: rgb(255, 244, 244);" id="exclusion">
+              <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);" id="exclusion">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
                 <div>
                   <p>
@@ -859,13 +859,13 @@
 
               <div class="price-sticky" style="position: sticky;">
                 <!-- >> Side Slider Section << -->
-                <div class="priceCard shadow" style="border-radius: 10px;">
+                <div class="priceCard shadow" style="border-radius: 30px;">
                   <img src="assets/optimized-images/wayand-trip/wayand-img-by-roamers (4).avif" alt="Wayanad Banner"
-                    style="object-fit:cover; border-radius: 10px;">
+                    style="object-fit:cover; border-radius: 30px;">
                 </div>
 
                 <!-- >> Pricing Box Section << -->
-                <div class="price-card shadow p-1" style="border-radius: 10px;">
+                <div class="price-card shadow p-1" style="border-radius: 30px;">
                   <div class="p-2">
                     <!-- Inner box with light grey background -->
                     <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
@@ -880,7 +880,7 @@
                       <p>Perfect for group adventures and shared <br> memories.</p>
                       <div class="trip-form p-0">
                         <a href="ladakh-form.php" class="btn butn butn__new bg-"
-                          style="border-radius: 10px;">Dates
+                          style="border-radius: 30px;">Dates
                           & Costing</a>
                       </div>
                     </div>
@@ -889,7 +889,7 @@
 
                 <!-- >> Ladakh Form Section << -->
                 <div id="form" class="shadow"
-                  style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
+                  style="border: 1px solid #00aaff; border-radius: 30px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                   <form>
                     <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                       Let's Map Your Dream Trip</h3>
@@ -897,23 +897,23 @@
                     <div class="input-field mb-3" style="margin-bottom: 20px;">
                       <label for="name" style="font-size: 16px; color: #333;">Name</label>
                       <input placeholder="Your Name" type="text" id="name" name="name" required
-                        style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                        style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 30px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                     </div>
 
                     <div class="input-field mb-3" style="margin-bottom: 20px;">
                       <label for="email" style="font-size: 16px; color: #333;">Email</label>
                       <input placeholder="Your Email" type="email" id="email" name="email" required
-                        style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                        style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 30px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                     </div>
 
                     <div class="input-field mb-3" style="margin-bottom: 20px;">
                       <label for="phone" style="font-size: 16px; color: #333;">Phone Number</label>
                       <input placeholder="Your Phone Number" type="tel" id="phone" name="phone" required
-                        style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
+                        style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 30px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
                     </div>
 
                     <div class="trip-form p-0">
-                      <button type="submit" class="btn butn butn__new bg-" style="border-radius: 10px;">Submit</button>
+                      <button type="submit" class="btn butn butn__new bg-" style="border-radius: 30px;">Submit</button>
                     </div>
                   </form>
                 </div>

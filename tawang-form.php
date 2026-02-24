@@ -124,7 +124,7 @@ session_start();
             padding: 10px 30px;
             background: #4ec0db;
             color: #fff !important;
-            border-radius: 10px;
+            border-radius: 30px;
             justify-content: space-between;
             transition: background 0.2s linear;
             position: relative;
@@ -159,7 +159,7 @@ session_start();
 
         .price-box {
             border: 1px solid #4ec0db;
-            border-radius: 10px;
+            border-radius: 30px;
             background-color: aliceblue;
 
         }
@@ -645,7 +645,7 @@ session_start();
             display: block;
             padding: 20px 60px;
             border: 1px solid #a3a3a3;
-            border-radius: 8px;
+            border-radius: 30px;
             cursor: pointer;
             font-size: 18px;
             font-weight: 400;
@@ -924,12 +924,12 @@ session_start();
             vertical-align: middle;
             text-align: center;
             border: 1px solid #dee2e6;
-            border-radius: 8px;
+            border-radius: 30px;
         }
 
         .custom-table tbody tr:nth-child(even) {
             background-color: #f8f9fa;
-            border-radius: 8px;
+            border-radius: 30px;
         }
 
         @media (max-width: 576px) {
@@ -971,10 +971,10 @@ session_start();
 
     <section class="">
         <div class="container">
-            <form action="varkala-mail-send.php" method="POST" autocomplete="off">
+            <form action="tawang-mail-send.php" method="POST" autocomplete="off">
                 <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
 
-                    <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
+                    <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:30px">
                         <div id="container" class="container" style="margin-top:30px;">
                             <div class="progress px-1" style="height: 3px;">
                                 <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
@@ -1082,7 +1082,7 @@ session_start();
                                                     placeholder="Traveller Count" min="1" required>
                                                 <span class="span mt-5">PickUp & Drop Location</span>
                                                 <div class="input-field mt-4">
-                                                    <select id="pickup" name="pickup" class="form-select mt-4" required>
+                                                    <select id="pickup" style="border-radius:30px" name="pickup" class="form-select mt-4" required>
                                                         <option value="" disabled selected>Select the Location</option>
                                                         <option value="Chennai">Chennai </option>
                                                         <option value="Tawang">Tawang </option>
@@ -1125,9 +1125,9 @@ session_start();
                         </div>
                     </div>
 
-                    <div class="col order-lg-2 order-1 shadow-lg p-4" style="border-radius:20px">
+                    <div class="col order-lg-2 order-1 shadow-lg p-4" style="border-radius:30px">
                         <div class="row px-2 px-md-4">
-                            <div class="package-info-box" style="border-radius: 10px; display: none;"
+                            <div class="package-info-box" style="border-radius: 30px; display: none;"
                                 id="selected-date-box">
                                 <div class="background-image shadow"></div>
                                 <div class="blur-overlay">
@@ -1137,7 +1137,7 @@ session_start();
                                                 style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Your adventure starts
                                                 : </h5>
                                             <h5 class="fw-bold text-white"
-                                                style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);  border-radius: 5px;"
+                                                style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);  border-radius: 30px !important;"
                                                 id="selected-package-date">Date Not selected</h5>
                                         </div>
                                     </div>
@@ -1145,7 +1145,7 @@ session_start();
                             </div>
 
 
-                            <div class="cost-col mt-3" style="border-radius: 20px;">
+                            <div class="cost-col mt-3" style="border-radius: 30px;">
                                 <h4 class="text-center mb-3 fw-bold">Costing</h4>
 
 
@@ -1154,8 +1154,7 @@ session_start();
                                         <thead>
                                             <tr>
                                                 <th scope="col">Sharing</th>
-                                                <th scope="col">From Tawang</th>
-                                                <th scope="col">From Chennai</th>
+                                                <th scope="col">From Guwahati</th>
 
                                             </tr>
                                         </thead>
@@ -1190,7 +1189,7 @@ session_start();
                     return response.json();
                 })
                 .then(data => {
-                    const locationKey = "varkala-new";
+                    const locationKey = "tawang";
                     const locationData = data[locationKey];
 
 
@@ -1226,8 +1225,7 @@ session_start();
                     locationData.costing.prices.forEach(price => {
                         rows += `<tr>
             <td>${price.sharing || "N/A"}</td>
-            <td>${price.varkala || "N/A"}</td>
-            <td>${price.chennai || "N/A"}</td>
+            <td>${price.tawang || "N/A"}</td>
             </tr>`;
                     });
 
@@ -1238,176 +1236,12 @@ session_start();
         });
     </script>
 
-    <!-- <script>
-  document.addEventListener("DOMContentLoaded", () => {
-  const dateForm = document.querySelector(".dates");
-  const bookBtn = document.querySelector("#book-btn");
-  const nextBtn = document.querySelector("#next-btnn");
-  const nextBtn2 = document.querySelector("#next-btn2")
-  const preBtn = document.querySelector("#pre-btn");
-  const preBtn2 = document.querySelector("#pre-btn2");
-  const confirmBtn = document.querySelector("#confirm-btn")
-  const perDetails = document.querySelector("#per-details");
-  const fullDetails = document.querySelector("#full-details");
- 
-  if (bookBtn && dateForm && perDetails) {
-    bookBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      dateForm.style.display = "none";
-      perDetails.style.display = "block";
-    });
-  }
-
-  if (nextBtn) {
-    nextBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      perDetails.style.display = "none";
-      // Add logic to show the next section if available
-    });
-  }
-
-
-  if (preBtn) {
-    preBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      dateForm.style.display = "block";
-      perDetails.style.display = "none";
-    });
-  }
-  if (preBtn2) {
-    preBtn2.addEventListener("click", (e) => {
-      e.preventDefault();
-      dateForm.style.display = "none";
-      perDetails.style.display = "block";
-      fullDetails.style.display = "none";
-    });
-  }
-
-
-  nextBtn2.addEventListener("click", (e) => {
-    e.preventDefault(); // Prevent form submission if inside a form
-
-
-   
-    // Storing input values in constants
-    const fullName = document.querySelector("#name").value.trim();
-    const email = document.querySelector('input[type="email"]').value.trim();
-    const phone = document.querySelector("#phone").value.trim();
-    const dob = document.querySelector('input[placeholder="D.O.B"]').value.trim();
-    const travellerCount = document.querySelector("#traveller-count").value.trim();
-    const address1 = document.querySelector('input[placeholder="Address 1"]').value.trim();
-    const address2 = document.querySelector('input[placeholder="Address 2"]').value.trim();
-    const city = document.querySelector('input[placeholder="City"]').value.trim();
-    const postCode = document.querySelector('input[placeholder="Post Code"]').value.trim();
-    const gender = document.querySelector('input[name="gender"]:checked')?.value || "";
-    // const sharing = document.querySelector('input[name="sharing"]:checked')?.value || "";
-    const travelDate = document.querySelector("#travel-date").value.trim();
-    const pickup = document.querySelector("#pickup").value.trim();
-    let perPersonAmount = "₹9,990/-";
-
-
-  // if (sharing === "Double Sharing" && pickup === "Chennai") {
-  //   perPersonAmount = "₹9,990/-";
-  // } else if (sharing === "Triple Sharing" && pickup === "Chennai") {
-  //   perPersonAmount = "₹8,990/-";
-  // } else if (sharing === "Double Sharing" && pickup === "Coimbatore") {
-  //   perPersonAmount = "₹8,499/-";
-  // } else if (sharing === "Triple Sharing" && pickup === "Coimbatore") {
-  //   perPersonAmount = "₹7,499/-";
-  // }
-  //   document.addEventListener('DOMContentLoaded', function() {
-  //   document.querySelectorAll('input').forEach(input => {
-  //     input.setAttribute('autocomplete', 'off');
-  //   });
-  // });
-
-
-    // Validation check (Ensuring all fields are filled)
-    if (
-      !travelDate || !fullName || !email || !phone || !dob || !travellerCount ||
-      !address1 || !city || !postCode || !gender || !sharing || !pickup
-    ) {
-      alert("All fields are required! Please fill out all fields before proceeding.");
-      return; // Stop execution if any field is empty
-    }
-
-
-    // Creating an object to store input values
-    const formData = {
-      travelDate,
-      fullName,
-      email,
-      phone,
-      dob,
-      travellerCount,
-      address1,
-      address2,
-      city,
-      postCode,
-      gender,
-      sharing,
-      pickup,
-      perPersonAmount
-    };
-
-
-    // Store the object in local storage (optional)
-    // localStorage.setItem("formData", JSON.stringify(formData));
-
-
-    // Hide previous sections and show full details
-    dateForm.style.display = "none";
-    perDetails.style.display = "none";
-    fullDetails.style.display = "block";
-
-
-    // You can replace the console log with further processing
-    // console.log("Form Data:", formData);
-    const tableHTML = `
-      <h3 class="text-center my-3">Confirm Details</h3>
-      <div><i class="fa-regular fa-user"></i> <p><b>Name :</b>  ${formData.fullName}</p></div>
-      <div><i class="fa-regular fa-envelope"></i> <p><b>Email :</b>  ${formData.email}</p></div>
-      <div><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
-      <div><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
-      <div><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
-      <div><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Valley Of Flowers</p></div>
-      <div><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
-      <div><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
-      <div><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>
-      <div><i class="fa-solid fa-truck-pickup"></i> <p><b>Pickup and Drop :</b> ${formData.pickup}</p></div>
-      <div><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
-      <div class="d-flex justify-content-between">
-        <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
-          <h4 style="text-align:center;font-weight:bold; color:#000;">₹9,990/- (Per Person)</h4>
-        </div>
-        <div class="button-div d-flex justify-content-end mt-4">        
-          <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Cancel</button>
-          <button type="submit" name="submit-btn" class="book-btn" id="confirm-btn">Confirm Booking</button>
-        </div>
-      </div>`;
-
-
-    // Append the table to fullDetails container
-    fullDetails.innerHTML = tableHTML;
-    document.addEventListener("click", function (e) {
-  if (e.target && e.target.id === "confirm-btn") {
-        e.preventDefault();
-        document.querySelector("form").submit();
-      }
-    });
-  });
- });
-
-
-</script> -->
-
-
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             fetch("./dynamic/varkala-data.json") // to change the price ... 
                 .then(response => response.json())
                 .then(data => {
-                    const locationKey = "varkala-new"; // Change to "ooty" if needed
+                    const locationKey = "tawang"; // Change to "ooty" if needed
                     const locationData = data[locationKey];
 
                     if (!locationData) {
@@ -1582,7 +1416,7 @@ session_start();
 
 
                 // Example: Call the function for Tawang or Ooty
-                populateDates('valley'); // or populateDates('ooty');
+                populateDates('tawang'); // or populateDates('ooty');
             })
             .catch(error => console.error('Error fetching data:', error));
     </script>

@@ -2134,8 +2134,8 @@ td {
 
 input,
 textarea {
-  border: 3px solid #3a3a3a;
-  border-radius: 5px;
+  border: 3px solid #4ec0db;
+  border-radius: 30px;
   padding: 20px;
 }
 

@@ -672,7 +672,7 @@
 
   nav {
     background: #4ec0db !important;
-    border-top: 1px solid #fff;
+    /* border-top: 1px solid #fff; */
   }
 
   .footer-section {
@@ -705,8 +705,8 @@
     height: auto;
     padding: 0;
     position: relative;
-    margin-top: -4px !important;
-    margin-left: 32px !important;
+    /* margin-top: -4px !important; */
+    /* margin-left: 32px !important; */
   }
 
   nav::before {

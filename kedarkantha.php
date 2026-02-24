@@ -769,10 +769,10 @@
           <div class="trip-about">
             <div class="row">
               <div class="col-6">
-                <img src="assets/img/kedarkantha/Kedarkantha-1.jpg" alt="roamers-trip" />
+                <img src="assets/img/kedarkantha/Kedarkantha-1.jpg" alt="roamers-trip"style="border-radius: 30px;"  />
               </div>
               <div class="col-6">
-                <img src="assets/img/kedarkantha/img.jpg" alt="roamers-trip" style="margin-top: 70px" />
+                <img src="assets/img/kedarkantha/img.jpg" alt="roamers-trip" style="margin-top: 70px; border-radius: 30px;" />
               </div>
             </div>
           </div>
@@ -796,7 +796,7 @@
               </span>
               <a href="javascript:void(0);" id="readMoreLink" onclick="toggleReadMore()">...Read More</a>
             </p>
-            <a style="width:200px" href="#" class="btn butn butn__new"> <i style="margin-right: 8px"
+            <a style="width:200px; border-radius: 30px;" href="#" class="btn butn butn__new"> <i style="margin-right: 8px"
                 class="fa-solid fa-cloud-arrow-down"></i>Get Itinerary </a>
 
           </div>
@@ -1208,14 +1208,14 @@
 
                 </div> -->
 
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="tab-pane fade" style="border-radius:30px;"  id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 
-                  <div class="upcoming-slot">
+                  <div class="upcoming-slot" style="border-radius:30px;" >
                     <h3>Open Soon</h3>
 
                   </div>
                 </div>
-                <div class="tab-pane fade show active" id="pills-phone" role="tabpanel"
+                <div class="tab-pane fade show active" style="border-radius: 30px;"  id="pills-phone" role="tabpanel"
                   aria-labelledby="pills-phone-tab">
                   <div class="upcoming-slot">
                     <h3>Open Soon</h3>
@@ -1251,14 +1251,14 @@
               </div>
             </div>
 
-            <div class="price">
+            <div class="price"style="border-radius: 30px;" >
               <h4>Price</h4>
               <p style="margin-left: 190px;" id="price">₹8,999 </p><span id="per-person"></span>
             </div>
 
-            <div class="trip-form"> <a href="https://wa.me/message/QYDBK5TO42TGH1"
+            <div class="trip-form"style="border-radius: 30px;" > <a href="https://wa.me/message/QYDBK5TO42TGH1"
                 class="btn inquiry butn butn__new">Send Inquiry</a>
-              <a href="index.php" class="btn butn butn__new">Book Now</a>
+              <a href="index.php" class="btn butn butn__new"style="border-radius: 30px;" >Book Now</a>
             </div>
           </div>
         </div>

@@ -2644,7 +2644,7 @@
                         </div>
                       </div>
                     </div>
-                    <a href="events-nov-26.php" target="_blank" class="event-view">Register</a>
+                    <a href="#" class="event-view">Register</a>
                   </div>
                 </div>
                 <!-- Event Card 3  -->
@@ -2680,7 +2680,7 @@
                         </div>
                       </div>
                     </div>
-                    <a href="events-nov-1.php" target="_blank" class="event-view">Register</a>
+                    <a href="#"  class="event-view">Register</a>
                   </div>
                 </div>
               </div>
