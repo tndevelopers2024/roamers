@@ -122,9 +122,11 @@
   </section>
 
   <!-- Banner Below -->
+  <div class=""
+    style="background-image: url('assets/img/andaman/andaman website background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
   <div class="container">
     <div class="row desktop-inform my-4 g-3 "
-      style="background-image: url('assets/img/andaman/background.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; overflow: visible; border:none !important; padding:60px 0px !important">
+      style="overflow: visible; border:none !important; padding:60px 0px !important">
       <section class="info-highlights">
         <div class="container p-3">
           <div class="row row-cols-1 row-cols-lg-4 g-4 text-center">
@@ -132,12 +134,12 @@
             <div class="col">
               <div class="enhanced-box">
                 <!-- <div class="icon-circle"> -->
-                  <!-- <i class='bx  bx-rupee'></i>  -->
-                  <img src="assets/img/andaman/elements/ruppes-bubble.png" alt="" style="width:70px">
+                <!-- <i class='bx  bx-rupee'></i>  -->
+                <img src="assets/img/andaman/elements/ruppes-bubble.png" alt="" style="width:70px">
                 <!-- </div> -->
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value"><span>24,990/-</span></div>
+                  <div class="info-value"><span class="andaman-price"></span></div>
                 </div>
               </div>
             </div>
@@ -145,8 +147,8 @@
             <div class="col">
               <div class="enhanced-box">
                 <!-- <div class="icon-circle"> -->
-                  <!-- <i class='bx  bx-hourglass'></i>  -->
-                  <img src="assets/img/andaman/elements/calender-bubble.png" alt="" style="width:70px">
+                <!-- <i class='bx  bx-hourglass'></i>  -->
+                <img src="assets/img/andaman/elements/calender-bubble.png" alt="" style="width:70px">
                 <!-- </div> -->
                 <div>
                   <div class="info-label">Duration</div>
@@ -158,8 +160,8 @@
             <div class="col">
               <div class="enhanced-box">
                 <!-- <div class="icon-circle"> -->
-                  <!-- <i class="fa-solid fa-location-dot"></i> -->
-                  <img src="assets/img/andaman/elements/location-bubble.png" alt="" style="width:70px">
+                <!-- <i class="fa-solid fa-location-dot"></i> -->
+                <img src="assets/img/andaman/elements/location-bubble.png" alt="" style="width:70px">
                 <!-- </div> -->
                 <div>
                   <div class="info-label">Pickup & Drop</div>
@@ -188,7 +190,7 @@
                 </div>
                 <div>
                 <div class="info-label">Starting Price</div>
-                <div class="info-value valley-price"><span>/-</span></div>
+                <div class="info-value andaman-price"><span>/-</span></div>
                 </div>
               </div>
             </div> -->
@@ -226,9 +228,6 @@
         </div>
       </section>
     </div>
-
-
-
     <section class="tab-sections desc-tab">
       <div class="row">
         <div class="col-lg-12 col-12">
@@ -377,7 +376,7 @@
   </div>
 
   <div class=""
-    style="background-image:url('assets/img/andaman/Group 1171276364.png'); background-size: cover; background-position: center;">
+    style="">
 
     <section class="ilt-up" id="itinerary">
       <div class="container">
@@ -851,7 +850,7 @@
                       <span class="old-price">
                         <strike>₹ 39,990/-</strike>
                       </span>
-                      <span class="new-price">₹24,990/-</span>
+                      <span class="new-price andaman-price"></span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
@@ -897,7 +896,7 @@
 
                   </button>
                 </form>
-                 <img src="assets/img/andaman/elements/chair.png" alt=""
+                <img src="assets/img/andaman/elements/chair.png" alt=""
                   style="position: absolute; bottom: -30px; left: -30px; z-index: 999; width: 90px;">
               </div>
 
@@ -1100,11 +1099,15 @@
 
 
 
+  </div>
+
   <!-- Trips -->
   <?php include('includes/trips.php'); ?>
 
   <!-- Footer -->
-  <?php include('includes/footer.php'); ?>
+  <footer>
+    <?php include('includes/footer.php'); ?>
+  </footer>
 
   <!-- jQuery(necessary for all JavaScript plugins) -->
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
@@ -1128,7 +1131,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
-  <script src="assets/js/price.js"></script>
 
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 

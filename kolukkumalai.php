@@ -16,13 +16,13 @@
   <meta property="og:image:height" content="500" />
 
   <!-- Title  -->
- 
+
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
   <!-- Favicon  -->
   <!-- <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" /> -->
-  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon"  sizes="192x192" />
-  
+  <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
+
   <!-- ***** All CSS Files ***** -->
   <!-- ***** Font Asesome cdn ***** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -37,10 +37,10 @@
   <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
   <style>
-      .butn:link,
+    .butn:link,
     .butn:visited {
       display: inline-flex;
       align-items: center;
@@ -109,6 +109,7 @@
       left: 150%;
       opacity: 0.6;
     }
+
     .trip-home {
       background: url(assets/img/kolukkumalai-img/Cover.jpg);
       background-position: center;
@@ -154,7 +155,7 @@
       transition: all 0.7s;
       border-radius: 0px !important;
     }
-  
+
 
     .christmas {
       position: absolute;
@@ -254,13 +255,16 @@
       height: 20px;
       background-size: cover;
     }
-    .trip-about img{
+
+    .trip-about img {
       transition: 0.5s all;
       border-radius: 5px;
     }
-    .trip-about img:hover{
-  transform: scale(1.04) !important;
-}
+
+    .trip-about img:hover {
+      transform: scale(1.04) !important;
+    }
+
     .upcoming-slot h4 {
       font-weight: 400;
       padding: 3px 8px 3px 8px;
@@ -283,6 +287,7 @@
         font-size: 14px !important;
         box-shadow: rgb(0 207 264 / 35%) 0px 6px 10px, rgba(0, 0, 0, 0.23) 0px 2px 5px;
       }
+
       .butn:link,
       .butn:visited {
         margin-right: auto !important;
@@ -302,6 +307,7 @@
       .butn__new::before {
         left: -7% !important;
       }
+
       .silder-inner h4 {
         font-size: 12px !important;
 
@@ -403,9 +409,11 @@
       #readMoreLink {
         visibility: visible !important;
       }
+
       #price {
-    margin-left: 105px !important;
-}
+        margin-left: 105px !important;
+      }
+
       .readless {
         display: none;
       }
@@ -682,54 +690,63 @@
     .faq {
       background-image: url(assets/img/images/world2.png) !important;
     }
-    /* dates update */
-.kodai-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
-.andaman-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
 
-.munnar-dates {
+    /* dates update */
+    .kodai-dates {
       color: #5f6c7b !important;
       font-size: 11px !important;
       font-weight: 400 !important;
     }
-.kerala-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
-.ooty-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
-.pondi-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
-.kolukku-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
-.chik-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
-.goa-dates{
-  color: #5f6c7b !important;
-  font-size: 11px !important;
-  font-weight: 400 !important;
-}
-/*  */
+
+    .andaman-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .munnar-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .kerala-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .ooty-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .pondi-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .kolukku-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .chik-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .goa-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    /*  */
   </style>
 </head>
 
@@ -749,7 +766,7 @@
           <div class="trip-inner">
             <h3><i class="fa-solid fa-indian-rupee-sign"></i></h3>
             <p style="color:white !important;">Starting Price</p>
-            <h2>₹5,499 /-</h2>
+            <h2><span class="kolukku-price"></span> /-</h2>
           </div>
         </div>
         <div class="col-md-4 col-4">
@@ -1325,7 +1342,7 @@
             </div>
             <div class="price">
               <h4>Price</h4>
-              <p id="price">₹5,499 <span class="per-person">Per Person</span></p>
+              <p id="price"><span class="kolukku-price"></span> <span class="per-person">Per Person</span></p>
             </div>
 
 
@@ -1661,7 +1678,7 @@
                     <span class="pondi-dates">Nov
                       24, Dec 09, 23 </span>
                   </h4>
-                  <h4><span>₹6,999</span> </h4>
+                  <h4><span class="pondi-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1692,7 +1709,7 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="ooty-dates">Nov 3, 24, Dec 8, 15, 22, Jan 26 </span>
                   </h4>
-                  <h4><span>₹6,999</span> </h4>
+                  <h4><span class="ooty-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1719,12 +1736,12 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="kedar-dates">Open Soon</span>
                   </h4>
-                  <h4><span>₹8,999</span> </h4>
+                  <h4><span class="kedar-price"></span> </h4>
                 </div>
               </div>
             </a>
           </div>
-         
+
           <div class="swiper-slide">
             <a href="wayanad">
               <!-- <img class="new-year" src="assets/img/bg/Pongal-gif.gif" alt=""> -->
@@ -1732,7 +1749,8 @@
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct / Chennai
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="second location-icon">EX: Direct /
+                    Chennai
                   </h4>
                 </div>
                 <h2>Wonders of Wayanad
@@ -1746,7 +1764,7 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="kolukku-dates">Jan 12 </span>
                   </h4>
-                  <h4><span>₹7,999</span> </h4>
+                  <h4><span class="wayanad-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1770,9 +1788,9 @@
                 <div class="inner">
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="munnar-dates">Jan
-                    12, Feb 23 </span>
+                      12, Feb 23 </span>
                   </h4>
-                  <h4><span>₹4,499</span> </h4>
+                  <h4><span class="munnar-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1799,7 +1817,7 @@
                     <span class="chik-dates"> Dec
                       15 </span>
                   </h4>
-                  <h4><span>₹7,999</span> </h4>
+                  <h4><span class="chik-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1852,7 +1870,7 @@
                     <span class="kodai-dates">Jan
                       26, Feb 10 </span>
                   </h4>
-                  <h4><span>₹7,999</span> </h4>
+                  <h4><span class="kodai-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1908,7 +1926,7 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="andaman-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span>₹24,499</span> </h4>
+                  <h4><span class="andaman-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1934,7 +1952,7 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     (Sold Out)
                   </h4>
-                  <h4><span>₹21,999</span> </h4>
+                  <h4><span class="ladakh-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1987,7 +2005,7 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="goa-dates"> Opens Soon </span>
                   </h4>
-                  <h4><span>₹8,499</span> </h4>
+                  <h4><span class="goa-price"></span> </h4>
                 </div>
               </div>
             </a>

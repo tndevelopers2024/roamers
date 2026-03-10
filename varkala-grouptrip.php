@@ -162,7 +162,7 @@
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value "><span>6,899/-</span></div>
+                  <div class="info-value varkala-price"><span>/-</span></div>
                 </div>
               </div>
             </div>
@@ -670,7 +670,7 @@
                       <span class="old-price">
                         <strike>₹8,999/-</strike>
                       </span>
-                      <span class="new-price"></span><span class="new-price">6,899/-</span>
+                      <span class="varkala-price new-price"></span><span class="new-price">/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
@@ -943,7 +943,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
-  <script src="assets/js/price.js"></script>
 
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 

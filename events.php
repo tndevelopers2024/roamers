@@ -1698,7 +1698,7 @@
                         alt="second location-icon">
                       <span class="andaman-dates"> Dec 23 </span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -2077,7 +2077,7 @@
                         alt="second location-icon">
                       <span class="andaman-dates"> Dec 23 </span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -2868,7 +2868,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="assets/js/active.js"></script>
 <script src="assets/js/dates.js"></script>
-<script src="assets/js/price.js"></script>
 
 <script>
   window.addEventListener('DOMContentLoaded', function () {

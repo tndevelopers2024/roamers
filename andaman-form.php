@@ -66,7 +66,7 @@ session_start();
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
-  
+
   <!-- script For SEO -->
   <script type="application/ld+json">
     {
@@ -148,8 +148,6 @@ session_start();
 
 
   <style>
-  
-
     .available-box {
       padding: 20px;
       /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
@@ -1632,7 +1630,7 @@ session_start();
 
 
         // Example: Call the function for Varkala or Ooty
-        populateDates('valley'); // or populateDates('ooty');
+        populateDates('andaman'); // or populateDates('ooty');
       })
       .catch(error => console.error('Error fetching data:', error));
   </script>
@@ -1762,73 +1760,79 @@ session_start();
           }
 
 
-          // Set amount using if statements
+          // Set amount dynamically from varkala-data.json
           let perPersonAmount = 0;
-          if (sharing === "Triple Sharing") {
-            perPersonAmount = 24990;
-          } else if (sharing === "Double Sharing") {
-            perPersonAmount = 26990;
-          }
+          fetch('./dynamic/varkala-data.json')
+            .then(response => response.json())
+            .then(data => {
+              const andamanPrices = data.andaman.costing.prices;
+              const priceObj = andamanPrices.find(p => p.sharing === sharing);
+              if (priceObj) {
+                perPersonAmount = parseInt(priceObj.offer.replace(/[^0-9]/g, ''));
+              } else {
+                // Fallback to old hardcoded values just in case
+                if (sharing === "Triple Sharing") {
+                  perPersonAmount = 24990;
+                } else if (sharing === "Double Sharing") {
+                  perPersonAmount = 26990;
+                }
+              }
 
+              const formData = {
+                travelDate,
+                fullName,
+                email,
+                phone,
+                dob,
+                travellerCount,
+                address1,
+                address2,
+                city,
+                postCode,
+                gender,
+                sharing,
+                pickup,
+                perPersonAmount,
+              };
 
-          const formData = {
-            travelDate,
-            fullName,
-            email,
-            phone,
-            dob,
-            travellerCount,
-            address1,
-            address2,
-            city,
-            postCode,
-            gender,
-            sharing,
-            pickup,
-            perPersonAmount,
-          };
+              dateForm.style.display = "none";
+              perDetails.style.display = "none";
+              fullDetails.style.display = "block";
 
+              const confirmationHTML = `
+                <h3 class="text-center my-3">Confirm Details</h3>
+                <div class="div"><i class="fa-regular fa-user"></i> <p><b>Name :</b>  ${formData.fullName}</p></div>
+                <div class="div"><i class="fa-regular fa-envelope"></i> <p><b>Email :</b>  ${formData.email}</p></div>
+                <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
+                <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
+                <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
+                <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Andaman</p></div>
+                <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
+                <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
+                <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>
+                <div class="div"><i class="fa-solid fa-truck-pickup"></i> <p><b>Pickup and Drop :</b> ${formData.pickup}</p></div>
+                <div class="div"><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
+                <div class="d-flex justify-content-between flex-wrap">
+                  <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
+                    <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/-</h4>
+                  </div>
+                  <div class="button-div d-flex justify-content-end mt-4">
+                    <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Back</button>
+                    <button type="submit" name="submit-btn" class="book-btn" id="confirm-btn">Book Now</button>
+                  </div>
+                </div>`;
 
-          dateForm.style.display = "none";
-          perDetails.style.display = "none";
-          fullDetails.style.display = "block";
+              fullDetails.innerHTML = confirmationHTML;
 
+              currentStep = 3;
+              updateProgressBar();
 
-          const confirmationHTML = `
-            <h3 class="text-center my-3">Confirm Details</h3>
-            <div class="div"><i class="fa-regular fa-user"></i> <p><b>Name :</b>  ${formData.fullName}</p></div>
-            <div class="div"><i class="fa-regular fa-envelope"></i> <p><b>Email :</b>  ${formData.email}</p></div>
-            <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
-            <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
-            <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
-            <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Andaman</p></div>
-            <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
-            <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
-            <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>
-            <div class="div"><i class="fa-solid fa-truck-pickup"></i> <p><b>Pickup and Drop :</b> ${formData.pickup}</p></div>
-            <div class="div"><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
-            <div class="d-flex justify-content-between flex-wrap">
-              <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
-                <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/-</h4>
-              </div>
-              <div class="button-div d-flex justify-content-end mt-4">
-                <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Back</button>
-                <button type="submit" name="submit-btn" class="book-btn" id="confirm-btn">Book Now</button>
-              </div>
-            </div>`;
-
-
-          fullDetails.innerHTML = confirmationHTML;
-
-
-          currentStep = 3;
-          updateProgressBar();
-
-
-          window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-          });
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+              });
+            });
+          return; // The block above is now async
         });
       }
 

@@ -588,7 +588,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -705,7 +705,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -822,7 +822,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -939,7 +939,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>

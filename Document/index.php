@@ -729,7 +729,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" alt="second location-icon">
                     <span class="andaman-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span class="andaman-price">₹24,490</span> </h4>
+                  <h4><span class="andaman-price"></span> </h4>
                 </div>
               </div>
             </a>

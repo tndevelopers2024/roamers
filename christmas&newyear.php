@@ -686,7 +686,7 @@
             </div>
             <div>
               <div class="upcoming-starts">Starts</div>
-              <div class="upcoming-price andaman-price">₹34,500/- </div>
+              <div class="upcoming-price andaman-price"></div>
             </div>
           </div>
           <a href="andaman-christmas&newyear.php" target="_blank" class="upcoming-view">View Trip</a>

@@ -153,7 +153,7 @@
                   </div>
                   <div>
                     <div class="info-label">Starting Price</div>
-                    <div class="info-value "><span>7,990/-</span></div>
+                    <div class="info-value kodaikanal-price"><span>/-</span></div>
                   </div>
                 </div>
               </div>
@@ -259,16 +259,24 @@
 
                 <!-- Desktop description (full text) -->
                 <p style="color: #555;" class="desk-desc d-none d-md-block">
-                  Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints, chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging treks, and getting fully immersed in nature. A ton of good vibes awaits too—experience great team bonding and enjoy fun sessions. <br><br>
-                  It's all about creating unforgettable moments and sharing stories by the bonfire. This trek is going to be pure magic—let's do this Roamers! </p>
+                  Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints,
+                  chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging
+                  treks, and getting fully immersed in nature. A ton of good vibes awaits too—experience great team
+                  bonding and enjoy fun sessions. <br><br>
+                  It's all about creating unforgettable moments and sharing stories by the bonfire. This trek is going
+                  to be pure magic—let's do this Roamers! </p>
 
                 <!-- Mobile description (truncated with toggle) -->
                 <p style="color: #555;" class="mob-desc d-block d-md-none">
-                  Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints, chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging treks, and getting fully immersed in nature. A ton of good vibes awaits too—experience great team bonding and enjoy fun sessions.
+                  Get ready for the ultimate Kodaikanal adventure! We'll be conquering peaks, ticking off viewpoints,
+                  chasing waterfalls, and camping under the stars. Expect epic views, wildlife spotting, challenging
+                  treks, and getting fully immersed in nature. A ton of good vibes awaits too—experience great team
+                  bonding and enjoy fun sessions.
                   <br>
                   <span id="dots">...</span>
                   <span id="moreText" style="display: none;"><br><br>
-                    It's all about creating unforgettable moments and sharing stories by the bonfire. This trek is going to be pure magic—let's do this Roamers! </span>
+                    It's all about creating unforgettable moments and sharing stories by the bonfire. This trek is going
+                    to be pure magic—let's do this Roamers! </span>
                 </p>
 
                 <!-- Positioned Read More Icon -->
@@ -303,7 +311,8 @@
                   </div> -->
                   <div class="swiper-slide">
                     <img src="assets/img/kodaikanal/Perumal%20Peak.jpg" class="img-fluid w-100"
-                      alt=" Kodaikanal Trek with Poombarai Trip" style="border-radius: 10px; height: 350px; object-fit: cover;">
+                      alt=" Kodaikanal Trek with Poombarai Trip"
+                      style="border-radius: 10px; height: 350px; object-fit: cover;">
                   </div>
                 </div>
               </div>
@@ -330,7 +339,8 @@
                   <!-- day 1 -->
                   <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
                     <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
+                      <button
+                        class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                         aria-controls="collapseOne">
                         <div class="d-flex align-items-center">
@@ -347,7 +357,8 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Meet the Roamers team and trip captains in Chennai! Let's kickstart our overnight journey from Chennai to Kodaikanal.
+                            Meet the Roamers team and trip captains in Chennai! Let's kickstart our overnight journey
+                            from Chennai to Kodaikanal.
 
                           </li>
                           <li>
@@ -396,11 +407,13 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Witness the jaw-dropping scenery, conquer the summit, and then descend down (carry some snacks or drinks as our lunch will be after 3 pm)
+                            Witness the jaw-dropping scenery, conquer the summit, and then descend down (carry some
+                            snacks or drinks as our lunch will be after 3 pm)
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Descend down, carry some snacks like nuts and biscuits in your backpack, as our lunch will be after 3 pm.
+                            Descend down, carry some snacks like nuts and biscuits in your backpack, as our lunch will
+                            be after 3 pm.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -412,7 +425,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Get ready for the bonfire, music, dance, and a whole lot of fun with the gang under the stars beside our Campsite. (if weather permits)
+                            Get ready for the bonfire, music, dance, and a whole lot of fun with the gang under the
+                            stars beside our Campsite. (if weather permits)
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -446,7 +460,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Time for an epic hike to Dolphin's Nose. Let's go through the wild, battle with mist and reach the epic view point.
+                            Time for an epic hike to Dolphin's Nose. Let's go through the wild, battle with mist and
+                            reach the epic view point.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -454,7 +469,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Next, we'll head to the Echo Rock viewpoint. Shout your name to get that best echo experience.
+                            Next, we'll head to the Echo Rock viewpoint. Shout your name to get that best echo
+                            experience.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -462,7 +478,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Check into your hotel, have leisure time, enjoy a scrumptious dinner with your team, and have a comfy overnight stay in Kodaikanal
+                            Check into your hotel, have leisure time, enjoy a scrumptious dinner with your team, and
+                            have a comfy overnight stay in Kodaikanal
                           </li>
                         </ul>
                       </div>
@@ -488,19 +505,23 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Post Delish breakfast, let's checkout and start our day with pleasant drive to Poombarai, magical land of kodai.
+                            Post Delish breakfast, let's checkout and start our day with pleasant drive to Poombarai,
+                            magical land of kodai.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            On the way we'll stop at the stunning palani view point for breathtaking views and much needed chai.
+                            On the way we'll stop at the stunning palani view point for breathtaking views and much
+                            needed chai.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Explore the enchanting Poombarai Village view, strolling, interacting with locals, and embracing serenity.
+                            Explore the enchanting Poombarai Village view, strolling, interacting with locals, and
+                            embracing serenity.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let's savor lunch in Poombarai, then head to Mannavanur Lake. Enjoy ziplining, kayaking, or simply relax in the serene atmosphere.
+                            Let's savor lunch in Poombarai, then head to Mannavanur Lake. Enjoy ziplining, kayaking, or
+                            simply relax in the serene atmosphere.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -508,7 +529,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Time to depart Roamers! Farwell to this Princess of hills, by next day morning we'll reach Chennai.
+                            Time to depart Roamers! Farwell to this Princess of hills, by next day morning we'll reach
+                            Chennai.
                           </li>
                         </ul>
                       </div>
@@ -536,7 +558,8 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            We'll aim to arrive in Chennai by 6 am in the morning. Bye for now Roamers. Reunion plans for next year? You bet!
+                            We'll aim to arrive in Chennai by 6 am in the morning. Bye for now Roamers. Reunion plans
+                            for next year? You bet!
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -585,7 +608,8 @@
               </section>
 
               <!-- >> Exclusion Section << -->
-              <div class="important-notes shadow" style="border-radius: 10px; background-color: rgb(255, 244, 244);" id="exclusion">
+              <div class="important-notes shadow" style="border-radius: 10px; background-color: rgb(255, 244, 244);"
+                id="exclusion">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
                 <div>
                   <p>
@@ -594,7 +618,8 @@
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: #ff6b6b;"></i>
-                    Any other costing involved due to natural calamity or any other forced circumstance which are out of our control.
+                    Any other costing involved due to natural calamity or any other forced circumstance which are out of
+                    our control.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: #ff6b6b;"></i>
@@ -630,13 +655,12 @@
                         <span class="old-price">
                           <strike>₹ 10,000/-</strike>
                         </span>
-                        <span class="new-price"></span><span class="new-price">7,990/-</span>
+                        <span class="kodaikanal-price new-price"></span><span class="new-price">/-</span>
                       </h5>
 
                       <p>perfect for group adventures and shared <br> memories.</p>
                       <div class="trip-form p-0">
-                        <a href="#" class="btn butn butn__new bg-"
-                          style="border-radius: 10px;">Dates
+                        <a href="#" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                           & Costing</a>
                       </div>
                     </div>
@@ -753,7 +777,8 @@
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body bg-white px-4 py-3">
-                  <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
+                  <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with
+                    friends,
                     or as a couple, these group trips are
                     designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
                     more items from your bucket list!</p>
@@ -899,7 +924,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
-  <script src="assets/js/price.js"></script>
 
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 
@@ -942,7 +966,7 @@
   </script>
 
   <script>
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       const scrollSection = document.querySelector('.scroll-section');
       const swiperContainer = document.querySelector('.swiper-container.two');
 
@@ -965,7 +989,7 @@
           clickable: true,
         },
         on: {
-          init: function() {
+          init: function () {
             // Add initialization classes after Swiper is ready
             setTimeout(() => {
               scrollSection.classList.add('loaded');

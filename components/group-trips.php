@@ -213,7 +213,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="dates july-month-dates-pondicherry"></span>
                     </h4>
-                    <h4><span class="pondi-price">₹7,990</span> </h4>
+                    <h4><span class="pondi-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -239,7 +239,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="kodai1-dates"></span>
                     </h4>
-                    <h4><span class="kodai1-price">₹8,990</span> </h4>
+                    <h4><span class="kodai1-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -266,7 +266,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="ooty-dates"></span>
                     </h4>
-                    <h4><span id="ooty-price">₹7,490</span> </h4>
+                    <h4><span class="ooty-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -292,7 +292,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="valley-dates"></span>
                     </h4>
-                    <h4><span class="valley-price">₹8,990</span> </h4>
+                    <h4><span class="valley-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -324,7 +324,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="dates aug-month-dates-pondicherry"></span>
                     </h4>
-                    <h4><span class="pondi-price">₹7,990</span> </h4>
+                    <h4><span class="pondi-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -349,7 +349,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="allappey-dates"></span>
                     </h4>
-                    <h4><span id="kodai-back-price">₹7,990</span> </h4>
+                    <h4><span class="munnar-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -377,7 +377,7 @@
                       <img src="assets/img/images/date.svg" alt="second location-icon">
                       <span class="wayanad-dates"></span>
                     </h4>
-                    <h4><span id="wayanad-price">₹7,990</span> </h4>
+                    <h4><span class="wayanad-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -404,7 +404,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="ooty-dates"></span>
                     </h4>
-                    <h4><span id="ooty-price">₹7,490</span> </h4>
+                    <h4><span class="ooty-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -430,7 +430,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="valley-dates"></span>
                     </h4>
-                    <h4><span class="valley-price">₹8,990</span> </h4>
+                    <h4><span class="valley-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -489,7 +489,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="dates sep-month-dates-pondicherry"></span>
                     </h4>
-                    <h4><span class="pondi-price">₹7,990</span> </h4>
+                    <h4><span class="pondi-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -515,7 +515,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="munnar-dates"></span>
                     </h4>
-                    <h4><span class="munnar-price">₹8,490</span> </h4>
+                    <h4><span class="munnar-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -542,7 +542,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="chik-dates"></span>
                     </h4>
-                    <h4><span class="chik-price">₹7,990</span> </h4>
+                    <h4><span class="chik-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -569,7 +569,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -603,7 +603,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="dates oct-month-dates-pondicherry"></span>
                     </h4>
-                    <h4><span class="pondi-price">₹7,990</span> </h4>
+                    <h4><span class="pondi-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -630,7 +630,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="munnar-dates"></span>
                     </h4>
-                    <h4><span class="munnar-price">₹8,490</span> </h4>
+                    <h4><span class="munnar-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -658,7 +658,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="chik-dates"></span>
                     </h4>
-                    <h4><span class="chik-price">₹7,990</span> </h4>
+                    <h4><span class="chik-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -686,7 +686,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -720,7 +720,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="dates nov-month-dates-pondicherry"></span>
                     </h4>
-                    <h4><span class="pondi-price">₹7,990</span> </h4>
+                    <h4><span class="pondi-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -747,7 +747,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="munnar-dates"></span>
                     </h4>
-                    <h4><span class="munnar-price">₹8,490</span> </h4>
+                    <h4><span class="munnar-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -775,7 +775,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="chik-dates"></span>
                     </h4>
-                    <h4><span class="chik-price">₹7,990</span> </h4>
+                    <h4><span class="chik-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -803,7 +803,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -837,7 +837,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="dates dec-month-dates-pondicherry"></span>
                     </h4>
-                    <h4><span class="pondi-price">₹7,990</span> </h4>
+                    <h4><span class="pondi-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -864,7 +864,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="munnar-dates"></span>
                     </h4>
-                    <h4><span class="munnar-price">₹8,490</span> </h4>
+                    <h4><span class="munnar-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -892,7 +892,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="chik-dates"></span>
                     </h4>
-                    <h4><span class="chik-price">₹7,990</span> </h4>
+                    <h4><span class="chik-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -920,7 +920,7 @@
                       <i class="fa-solid fa-calendar-days text-color-from-envoto me-1"></i>
                       <span class="andaman-dates"></span>
                     </h4>
-                    <h4><span class="andaman-price">₹24,490</span> </h4>
+                    <h4><span class="andaman-price"></span> </h4>
                   </div>
                 </div>
               </a>

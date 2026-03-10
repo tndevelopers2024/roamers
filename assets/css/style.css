@@ -880,7 +880,7 @@ img {
 #next-btn {
   position: absolute;
   top: 38%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   padding: 10px;
   background-color: #3330;
   color: #fff;
@@ -995,7 +995,7 @@ transition: opacity 0.3s ease, transform 0.3s ease; */
   position: absolute;
   top: 44%;
   z-index: 11;
-  transform: translateY(-48%);
+  /* transform: translateY(-48%); */
   padding: 6px 18px;
   color: #fff;
   border: none;
@@ -1229,10 +1229,7 @@ ul {
   font-size: 15px;
 }
 
-.footer-content {
-  position: relative;
-  z-index: 2;
-}
+
 
 .footer-pattern img {
   position: absolute;
@@ -1688,7 +1685,7 @@ html {
 }
 
 .cat-cards:hover {
-  transform: translateY(-5%);
+  /* transform: translateY(-5%); */
 }
 
 .cat-cards p {
@@ -1845,7 +1842,7 @@ html {
   height: 20px;
   width: 20px;
   background-color: #4ec0db;
-  transform: translateX(-50%) rotate(45deg);
+  /* transform: translateX(-50%) rotate(45deg); */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -1870,7 +1867,7 @@ html {
   position: absolute;
   z-index: 5;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   height: 40px;
   width: 40px;
   background-color: #fff;
@@ -2192,7 +2189,7 @@ textarea {
 
 .swiper-button-next,
 .swiper-button-prev {
-  transform: translateY(-48%);
+  /* transform: translateY(-48%); */
   opacity: 1 !important;
   padding: 6px 18px;
   color: #fff;
@@ -2612,7 +2609,7 @@ transform: translateY(0%);
   position: absolute;
   top: 42%;
   z-index: 11;
-  transform: translateY(-48%);
+  /* transform: translateY(-48%); */
   padding: 6px 18px;
   color: #fff;
   border: none;
@@ -2628,7 +2625,7 @@ transform: translateY(0%);
   position: absolute;
   top: 42%;
   z-index: 11;
-  transform: translateY(-48%);
+  /* transform: translateY(-48%); */
   padding: 6px 5px;
   color: #fff;
   border: none;
@@ -2983,12 +2980,12 @@ nav::before {
 @keyframes fadeInUp1 {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    /* transform: translateY(10px); */
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    /* transform: translateY(0); */
   }
 }
 
@@ -3005,12 +3002,12 @@ nav::before {
 @keyframes fadeInUp1 {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    /* transform: translateY(20px); */
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
+    /* transform: translateY(0); */
   }
 }
 

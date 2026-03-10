@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" width="600"
-    height="600" alt="image for ooty" />
+  <meta property="og:image:secure_url" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif"
+    width="600" height="600" alt="image for ooty" />
   <title>Roamers - Tawang Group Trip</title>
 
   <!-- SEO Meta Description -->
@@ -17,16 +17,15 @@
 
   <!-- Basic Open Graph tags -->
   <meta property="og:title" content="Roamers - Tawang Group Trip" />
-  <meta property="og:description"
-    content="Join our Tawang group trip for an unforgettable beach adventure, curated experiences, and new friendships." />
-  <meta property="og:image" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif" />
+  <meta property="og:url" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Roamers - Tawang Group Trip" />
   <meta name="twitter:description"
     content="Join our Tawang group trip for an unforgettable beach adventure, curated experiences, and new friendships." />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" />
+  <meta name="twitter:image" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -162,7 +161,7 @@
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value "><span>22,499/-</span></div>
+                  <div class="info-value tawang-price"><span>/-</span></div>
                 </div>
               </div>
             </div>
@@ -688,7 +687,7 @@
 
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Arrive in Tezpur and let’s check in to our property.</li>
-<!-- 
+                        <!-- 
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> If
                           time permits, we can visit Maha Bhairab Temple by late eve Roamers!</li> -->
 
@@ -792,9 +791,6 @@
               id="exclusion">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusions</h3>
               <div>
-                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Meals other than breakfast.
-                </p><span class="mobile-br"><br></span>
 
                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
                   Airfare/train tickets.
@@ -842,7 +838,7 @@
                       <span class="old-price">
                         <strike>₹25,999/-</strike>
                       </span>
-                      <span class="new-price"></span><span class="new-price">22,499/-</span>
+                      <span class="tawang-price new-price"></span><span class="new-price">/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
@@ -1146,7 +1142,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
-  <script src="assets/js/price.js"></script>
 
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 

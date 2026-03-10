@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg" width="600"
-    height="600" alt="image for ooty" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg"
+    width="600" height="600" alt="image for ooty" />
   <title>Roamers - Wayanad Trip</title>
 
   <!-- SEO Meta Description -->
@@ -144,7 +144,7 @@
                   </div>
                   <div>
                     <div class="info-label">Starting Price</div>
-                    <div class="info-value "><span>8,990/-</span></div>
+                    <div class="info-value wayanad-price"><span>/-</span></div>
                   </div>
                 </div>
               </div>
@@ -250,19 +250,27 @@
 
                 <!-- Desktop description (full text) -->
                 <p style="color: #555;" class="desk-desc d-none d-md-block">
-                  Get ready for an exciting Wayanad adventure, Roamers! Picture trekking to Chembra Peak, where the heart-shaped lake unfolds its magic. The trip loaded with adrenaline-pumping Jeep safari, Zipline adventures, nature & wildlife spotting, Waterfall chasing, and surprises at every turn.
+                  Get ready for an exciting Wayanad adventure, Roamers! Picture trekking to Chembra Peak, where the
+                  heart-shaped lake unfolds its magic. The trip loaded with adrenaline-pumping Jeep safari, Zipline
+                  adventures, nature & wildlife spotting, Waterfall chasing, and surprises at every turn.
                   <br><br>
-                  Days are filled with immersive local experiences, scenic exploration, team sessions, exhilarating adventures, and, of course, feasting on Kerala cuisine. Wayanad isn’t just a destination; it's a nature retreat ready to be unlocked. Ready for the ride, Roamers?
+                  Days are filled with immersive local experiences, scenic exploration, team sessions, exhilarating
+                  adventures, and, of course, feasting on Kerala cuisine. Wayanad isn’t just a destination; it's a
+                  nature retreat ready to be unlocked. Ready for the ride, Roamers?
                 </p>
 
                 <!-- Mobile description (truncated with toggle) -->
                 <p style="color: #555;" class="mob-desc d-block d-md-none">
-                  Get ready for an exciting Wayanad adventure, Roamers! Picture trekking to Chembra Peak, where the heart-shaped lake unfolds its magic. The trip loaded with adrenaline-pumping Jeep safari, Zipline adventures, nature & wildlife spotting, Waterfall chasing, and surprises at every turn.
+                  Get ready for an exciting Wayanad adventure, Roamers! Picture trekking to Chembra Peak, where the
+                  heart-shaped lake unfolds its magic. The trip loaded with adrenaline-pumping Jeep safari, Zipline
+                  adventures, nature & wildlife spotting, Waterfall chasing, and surprises at every turn.
 
                   <br>
                   <span id="dots">...</span>
                   <span id="moreText" style="display: none;"><br><br>
-                    Days are filled with immersive local experiences, scenic exploration, team sessions, exhilarating adventures, and, of course, feasting on Kerala cuisine. Wayanad isn’t just a destination; it's a nature retreat ready to be unlocked. Ready for the ride, Roamers?
+                    Days are filled with immersive local experiences, scenic exploration, team sessions, exhilarating
+                    adventures, and, of course, feasting on Kerala cuisine. Wayanad isn’t just a destination; it's a
+                    nature retreat ready to be unlocked. Ready for the ride, Roamers?
                   </span>
                 </p>
 
@@ -297,8 +305,8 @@
                       alt="Wayanad" style="border-radius: 10px; height: 350px; object-fit: cover;">
                   </div> -->
                   <div class="swiper-slide">
-                    <img src="assets/img/wayanad/chembara%20peak.jpg" class="img-fluid w-100"
-                      alt="Wayanad" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                    <img src="assets/img/wayanad/chembara%20peak.jpg" class="img-fluid w-100" alt="Wayanad"
+                      style="border-radius: 30px; height: 350px; object-fit: cover;">
                   </div>
                 </div>
               </div>
@@ -325,7 +333,8 @@
                   <!-- day 1 -->
                   <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
                     <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
+                      <button
+                        class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                         aria-controls="collapseOne">
                         <div class="d-flex align-items-center">
@@ -341,7 +350,8 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Hey Roamers! Meet your team and trip leader at the given point, and let’s kick-start our Wayanad journey.
+                            Hey Roamers! Meet your team and trip leader at the given point, and let’s kick-start our
+                            Wayanad journey.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -349,7 +359,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            We’ll reach Bangalore early in the morning, grab a quick tea, and continue our journey to this amazing hill station.
+                            We’ll reach Bangalore early in the morning, grab a quick tea, and continue our journey to
+                            this amazing hill station.
                           </li>
                         </ul>
                       </div>
@@ -376,7 +387,8 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            We’ll reach Wayanad by morning. On the way, let’s stop at the Jain Temple, famous for its ancient architecture and historical charm.
+                            We’ll reach Wayanad by morning. On the way, let’s stop at the Jain Temple, famous for its
+                            ancient architecture and historical charm.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -384,15 +396,18 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Explore the serene Dam and try the longest zipline, a giant swing, and other thrilling activities or just relax in the scenic surroundings.
+                            Explore the serene Dam and try the longest zipline, a giant swing, and other thrilling
+                            activities or just relax in the scenic surroundings.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Later, we’ll stop at Manjappara Viewpoint to soak in stunning views and capture some beautiful pictures.
+                            Later, we’ll stop at Manjappara Viewpoint to soak in stunning views and capture some
+                            beautiful pictures.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let’s return to the resort, where it’s time for some fun and bonding. Campfire, music, games, and dance.
+                            Let’s return to the resort, where it’s time for some fun and bonding. Campfire, music,
+                            games, and dance.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -422,7 +437,8 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            After a quick freshen-up and breakfast, we’ll begin our day with a hike to the Edakkal Caves.
+                            After a quick freshen-up and breakfast, we’ll begin our day with a hike to the Edakkal
+                            Caves.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -430,15 +446,18 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            After lunch, we’ll jump into a jeep safari and head to the stunning 900 Kandi Glass Bridge. Opt for optional activities nearby for extra fun.
+                            After lunch, we’ll jump into a jeep safari and head to the stunning 900 Kandi Glass Bridge.
+                            Opt for optional activities nearby for extra fun.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            From here, we’ll drive to the campsite in a jeep. If time permits, we can go on a short hike to a hidden waterfall nearby.
+                            From here, we’ll drive to the campsite in a jeep. If time permits, we can go on a short hike
+                            to a hidden waterfall nearby.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let’s gather for a team dinner around the campfire, enjoy music and dance, and camp under the stars.
+                            Let’s gather for a team dinner around the campfire, enjoy music and dance, and camp under
+                            the stars.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -472,7 +491,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Our next stop is the zipline spot, where we can try the thrilling cycle zipline over lush tea estates or simply relax in the peaceful surroundings.
+                            Our next stop is the zipline spot, where we can try the thrilling cycle zipline over lush
+                            tea estates or simply relax in the peaceful surroundings.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -480,15 +500,18 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let’s hop on a speedboat ride for an exhilarating experience and sneak some time for souvenir shopping.
+                            Let’s hop on a speedboat ride for an exhilarating experience and sneak some time for
+                            souvenir shopping.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Finally, we’ll visit the magical Meenmutty Waterfalls, surrounded by rocky green mountains like a paradise setting.
+                            Finally, we’ll visit the magical Meenmutty Waterfalls, surrounded by rocky green mountains
+                            like a paradise setting.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            After quick refreshments, we’ll wrap up this unforgettable Wayanad trip and depart with incredible memories.
+                            After quick refreshments, we’ll wrap up this unforgettable Wayanad trip and depart with
+                            incredible memories.
                           </li>
                         </ul>
                       </div>
@@ -563,7 +586,8 @@
               </section>
 
               <!-- >> Exclusion Section << -->
-              <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);" id="exclusion">
+              <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);"
+                id="exclusion">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
                 <div>
                   <p>
@@ -576,7 +600,8 @@
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: #ff6b6b;"></i>
-                    Any other costing involved due to natural calamity or any other forced circumstance which are out of our control.
+                    Any other costing involved due to natural calamity or any other forced circumstance which are out of
+                    our control.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: #ff6b6b;"></i>
@@ -608,13 +633,12 @@
                         <span class="old-price">
                           <strike>₹ 10,000/-</strike>
                         </span>
-                        <span class="new-price"></span><span class="new-price">8,990/-</span>
+                        <span class="wayanad-price new-price"></span><span class="new-price">/-</span>
                       </h5>
 
                       <p>perfect for group adventures and shared <br> memories.</p>
                       <div class="trip-form p-0">
-                        <a href="wayanad-form.php" class="btn butn butn__new bg-"
-                          style="border-radius: 30px;">Dates
+                        <a href="wayanad-form.php" class="btn butn butn__new bg-" style="border-radius: 30px;">Dates
                           & Costing</a>
                       </div>
                     </div>
@@ -731,7 +755,8 @@
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body bg-white px-4 py-3">
-                  <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
+                  <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with
+                    friends,
                     or as a couple, these group trips are
                     designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
                     more items from your bucket list!</p>
@@ -877,7 +902,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
-  <script src="assets/js/price.js"></script>
 
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 
@@ -920,7 +944,7 @@
   </script>
 
   <script>
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       const scrollSection = document.querySelector('.scroll-section');
       const swiperContainer = document.querySelector('.swiper-container.two');
 
@@ -943,7 +967,7 @@
           clickable: true,
         },
         on: {
-          init: function() {
+          init: function () {
             // Add initialization classes after Swiper is ready
             setTimeout(() => {
               scrollSection.classList.add('loaded');

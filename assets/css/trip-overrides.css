@@ -46,7 +46,7 @@
 }
 
 .swiper-slide:hover {
-  transform: translateY(-8px);
+  /* transform: translateY(-8px); */
   box-shadow: 0 20px 35px -5px rgba(0, 0, 0, 0.12);
   border-color: rgba(76, 185, 211, 0.2);
 }

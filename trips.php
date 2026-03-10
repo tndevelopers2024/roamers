@@ -42,6 +42,8 @@
 
   <!-- Responsive css -->
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/trip-overrides.css?v=1.1" />
+
 
   <!-- Bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -1521,10 +1523,7 @@
         padding: 0;
       }
     }
-
-    .trips-page-images,
   </style>
-  <link rel="stylesheet" href="assets/css/trip-overrides.css?v=1.1" />
 </head>
 
 <header>
@@ -1552,7 +1551,6 @@
   <div id="section1" class="section active mb-5">
     <div class="container">
       <div class="row">
-
         <div class="col-12 mt-5 col-lg-4 col-md-6">
           <div class="swiper-slide">
             <a href="kolukkumalai-trek"
@@ -1579,7 +1577,7 @@
                     <span class="munnar-dates">Jan
                       12, Feb 16 </span>
                   </h4>
-                  <h4><span class="munnar-price">₹7,990</span> </h4>
+                  <h4><span class="munnar-price"></span> </h4>
                 </div>
               </div>
 
@@ -1612,7 +1610,7 @@
                       alt="second location-icon">
                     <span class="wayanad-dates"> Jan 12 </span>
                   </h4>
-                  <h4><span class="wayanad-price">₹7,990</span> </h4>
+                  <h4><span class="wayanad-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1647,7 +1645,7 @@
                       alt="second location-icon">
                     <span class="ooty-dates">Nov 3, 24, Dec 8, 15, 22, Jan 26 </span>
                   </h4>
-                  <h4><span class="ooty-price">₹7,499</span> </h4>
+                  <h4><span class="ooty-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1681,7 +1679,7 @@
                     <span class="chik-dates"> Dec
                       15 </span>
                   </h4>
-                  <h4><span class="chik-price">₹7,990</span> </h4>
+                  <h4><span class="chik-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1716,7 +1714,7 @@
                       alt="second location-icon">
                     <span class="andaman-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span class="andaman-price">₹24,490</span> </h4>
+                  <h4><span class="andaman-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1811,7 +1809,7 @@
                     <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;" alt="second location-icon">
                       <span class="goa-dates">Opens Soon</span>
                     </h4>
-                    <h4><span class="goa-price">₹8,490</span> </h4>
+                    <h4><span class="goa-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -1822,8 +1820,8 @@
           <div class="swiper-slide">
             <a href="meghalaya"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;"
-                src="assets/img/meghalaya/meghalaya-gallery-16.avif " alt="roamers-Gallery">
+              <img class="trips-page-images" style="border-radius:16px; bac"
+                src="assets/img/meghalaya/meghalaya-gallery-03.avif " alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>6 DAYS / 5 NIGHTS</h3>
@@ -1838,7 +1836,7 @@
                   <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
                       alt="second location-icon">
                     Opens Soon</h4>
-                  <h4>Starts at <span class="meghalaya-price">₹19,990</span> </h4>
+                  <h4>Starts at <span class="meghalaya-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1872,7 +1870,7 @@
                       <span class="kodai-dates">Jan
                         26, Feb 10 </span>
                     </h4>
-                    <h4><span class="kodai-price">₹7,990</span> </h4>
+                    <h4><span class="kodai-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -1905,7 +1903,7 @@
                       alt="second location-icon">
                     <span class="kedar-dates">Open Soon</span>
                   </h4>
-                  <h4><span class="kedar-price">₹8,990</span> </h4>
+                  <h4><span class="kedar-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1933,7 +1931,7 @@
                         alt="second location-icon">
                       <span class="kodai1-dates"></span>
                     </h4>
-                    <h4><span class="kodai1-price">₹8,990</span> </h4>
+                    <h4><span class="kodai1-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -1968,7 +1966,7 @@
                     <span class="varkala-dates">Jan
                       12, Feb 16 </span>
                   </h4>
-                  <h4><span class="varkala-price">₹8,490</span> </h4>
+                  <h4><span class="varkala-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -1996,7 +1994,7 @@
                       alt="second location-icon">
                     <span class="spiti-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span class="spiti-price">₹21,990</span> </h4>
+                  <h4><span class="spiti-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2027,7 +2025,7 @@
                       <span class="kerala-dates"> Nov
                         25, Dec 23 </span>
                     </h4>
-                    <h4><span class="kerala-price">₹14,490</span> </h4>
+                    <h4><span class="kerala-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -2065,7 +2063,7 @@
                       <span class="kerala-dates"> Nov
                         25, Dec 23 </span>
                     </h4>
-                    <h4><span class="kerala-price">₹14,490</span> </h4>
+                    <h4><span class="kerala-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -2098,7 +2096,7 @@
                       alt="second location-icon">
                     <span class="andaman-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span class="andaman-price">₹24,490</span> </h4>
+                  <h4><span class="andaman-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2129,7 +2127,7 @@
                       alt="second location-icon">
                     Opens Soon
                   </h4>
-                  <h4><span class="meghalaya-price">₹19,990</span> </h4>
+                  <h4><span class="meghalaya-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2199,7 +2197,7 @@
                     <span class="varkala-dates">Jan
                       12, Feb 16 </span>
                   </h4>
-                  <h4><span class="varkala-price">₹8,490</span> </h4>
+                  <h4><span class="varkala-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2246,7 +2244,7 @@
                       alt="second location-icon">
                     <span class="spiti-dates"> Dec 23 </span>
                   </h4>
-                  <h4><span class="spiti-price">₹21,990</span> </h4>
+                  <h4><span class="spiti-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2322,7 +2320,7 @@
                     <span class="pondi-dates">Nov
                       24, Dec 09, 23 </span>
                   </h4>
-                  <h4><span class="pondi-price">₹6,990</span> </h4>
+                  <h4><span class="pondi-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2354,7 +2352,7 @@
                       alt="second location-icon">
                     <span class="goa-dates">Opens Soon</span>
                   </h4>
-                  <h4><span class="goa-price">₹8,490</span> </h4>
+                  <h4><span class="goa-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2391,7 +2389,7 @@
                     <span class="munnar-dates">Jan
                       12, Feb 16 </span>
                   </h4>
-                  <h4><span class="munnar-price">₹7,990</span> </h4>
+                  <h4><span class="munnar-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2423,7 +2421,7 @@
                       alt="second location-icon">
                     <span class="wayanad-dates"> Jan 12 </span>
                   </h4>
-                  <h4><span class="wayanad-price">₹7,990</span> </h4>
+                  <h4><span class="wayanad-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2457,7 +2455,7 @@
                       <span class="kodai-dates">Jan
                         26, Feb 10 </span>
                     </h4>
-                    <h4><span class="kodai-price">₹7,990</span> </h4>
+                    <h4><span class="kodai-price"></span> </h4>
                   </div>
                 </div>
               </a>
@@ -2490,7 +2488,7 @@
                     <span class="munnar-dates">Jan
                       12, Feb 16 </span>
                   </h4>
-                  <h4><span class="munnar-price">₹7,990</span> </h4>
+                  <h4><span class="munnar-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2524,7 +2522,7 @@
                     <span class="chik-dates"> Dec
                       15 </span>
                   </h4>
-                  <h4><span class="chik-price">₹7,990</span> </h4>
+                  <h4><span class="chik-price"></span> </h4>
                 </div>
               </div>
             </a>
@@ -2867,7 +2865,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="assets/js/active.js"></script>
 <script src="assets/js/dates.js"></script>
-<script src="assets/js/price.js"></script>
 
 <script>
   window.addEventListener('DOMContentLoaded', function () {

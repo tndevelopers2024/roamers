@@ -659,7 +659,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price ">₹8499</div>
+                                    <div class="upcoming-price kerala-price"></div>
                                 </div>
                             </div>
                             <a href="kerala-onam.php" target="_blank" class="upcoming-view"
@@ -690,7 +690,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹4,990</div>
+                                    <div class="upcoming-price pondi-price"></div>
                                 </div>
                             </div>
                             <a href="pondicherry.php" target="_blank" class="upcoming-view"
@@ -721,7 +721,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹8,990</div>
+                                    <div class="upcoming-price varkala-price"></div>
                                 </div>
                             </div>
                             <a href="varkala-grouptrip.php" target="_blank" class="upcoming-view"
@@ -752,7 +752,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹19,990</div>
+                                    <div class="upcoming-price meghalaya-price"></div>
                                 </div>
                             </div>
                             <a href="meghalaya.php" target="_blank" class="upcoming-view"
@@ -783,7 +783,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹7,990</div>
+                                    <div class="upcoming-price chik-price"></div>
                                 </div>
                             </div>
                             <a href="chikmagalur.php" target="_blank" class="upcoming-view"
@@ -845,7 +845,7 @@
                                 </div>
                                 <div>
                                     <div class="upcoming-starts">Starts</div>
-                                    <div class="upcoming-price">₹43,999</div>
+                                    <div class="upcoming-price srilanka-price"></div>
                                 </div>
                             </div>
                             <a href="srilanka.php" target="_blank" class="upcoming-view">View Trip</a>

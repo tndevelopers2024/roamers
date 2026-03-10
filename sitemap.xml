@@ -1,172 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <!-- ========================= -->
+  <!--        HOMEPAGE           -->
+  <!-- ========================= -->
+  <url>
+    <loc>https://www.roamers.in/</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://www.roamers.in/</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/trips</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/backpacking-trips</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/shortbreak-trips</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/index</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kolukkumalai-trek</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/ooty</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/wayanad</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kodaikanal</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/pondicherry</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kedarkantha</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/chikmagalur</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kerala</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/andaman</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/meghalaya</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/cancellation-policy</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kolukkumalai</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kolukkumalai-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/assets/brochures/Ooty-Itinerary.pdf</loc>
-  <lastmod>2024-05-20T17:22:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/ooty-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/wayanad-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kodaikanal-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/pondicherry-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/index.php</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/assets/brochures/Chikmagalur-Itinierary.pdf</loc>
-  <lastmod>2024-05-20T17:22:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/chikmagalur-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/assets/brochures/Kerala-Itinerary.pdf</loc>
-  <lastmod>2024-05-20T17:22:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/kerala-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/assets/brochures/Andaman-Itinerary.pdf</loc>
-  <lastmod>2024-05-20T17:22:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/andaman-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/meghalaya-form</loc>
-  <lastmod>2024-07-09T04:59:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.roamers.in/assets/brochures/Kolukkumalai%202D-1N.pdf</loc>
-  <lastmod>2024-05-20T17:22:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <!-- ========================= -->
+  <!--        CORE PAGES         -->
+  <!-- ========================= -->
+  <url>
+    <loc>https://www.roamers.in/trips</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
+  <url>
+    <loc>https://www.roamers.in/backpacking-trips</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/shortbreak-trips</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================= -->
+  <!--     DESTINATION PAGES     -->
+  <!-- ========================= -->
+  <url>
+    <loc>https://www.roamers.in/kolukkumalai</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/ooty</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/wayanad</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/kodaikanal</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/pondicherry</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/chikmagalur</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/kerala</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/andaman</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/meghalaya</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================= -->
+  <!--        FORM PAGES         -->
+  <!-- ========================= -->
+  <url>
+    <loc>https://www.roamers.in/ooty-form</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/wayanad-form</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.roamers.in/kodaikanal-form</loc>
+    <lastmod>2024-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ========================= -->
+  <!--        PDF FILES          -->
+  <!-- ========================= -->
+  <url>
+    <loc>https://www.roamers.in/assets/brochures/Ooty-Itinerary.pdf</loc>
+    <lastmod>2024-05-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 
 </urlset>

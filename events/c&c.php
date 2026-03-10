@@ -1404,8 +1404,8 @@
                             <i class="fa-regular fa-calendar-days" aria-hidden="true"
                                 style="margin-top: 2px; min-width: 22px; font-size: 1.15em; color: #4ec0db;"></i>
                             <span>
-                                <span style="font-weight: 500;">Fev 28, 2025</span>
-                                <span style="color: #888;"> | Sunday</span>
+                                <span style="font-weight: 500;">Feb 28, 2026</span>
+                                <span style="color: #888;"> | Saturday</span>
                             </span>
                         </div>
                         <div style="display: flex; align-items: flex-start; gap: 14px;">

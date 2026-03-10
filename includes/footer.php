@@ -36,9 +36,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-</head>
 
-<body>
     <style>
         @media (max-width: 600px) {
             .footer-text p {
@@ -47,11 +45,21 @@
             }
 
         }
+
+        .footer-content {
+            position: relative;
+            z-index: 2;
+            padding: 100px 0px !important;
+        }
     </style>
-    
+</head>
+
+<body>
+
+
     <footer class="footer-section">
         <div class="container">
-            <div class="footer-content pt-md-5 pt-3 ">
+            <div class="footer-content ">
                 <div class="row">
                     <div class=" col-lg-4 ">
                         <div class="footer-widget text-center text-md-start py-3 py-md-0" style="margin-top:-15px;">
@@ -194,7 +202,10 @@
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="/assets/js/active.js"></script>
+    <script src="assets/js/dates.js"></script>
+    <script src="assets/js/active.js"></script>
+    <script src="assets/js/price.js"></script>
+    <script src="assets/js/search.js"></script>
 
 </body>
 

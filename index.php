@@ -37,180 +37,6 @@
     <link rel="stylesheet" href="assets/css/color.css">
 
 
-    <!-- Search Bar Toggle -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const searchBarContainerEl = document.querySelector(".search-bar-container");
-            const magnifierEl = document.querySelector(".magnifier");
-            if (searchBarContainerEl && magnifierEl) {
-                magnifierEl.addEventListener("click", function() {
-                    searchBarContainerEl.classList.toggle("active");
-                });
-            }
-        });
-    </script>
-
-    <!-- Client-side Search -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const data = [{
-                    name: 'Andaman Island Hopping',
-                    link: 'https://www.roamers.in/andaman',
-                    image: 'assets/img/kolukkumalai-img/2.jpg',
-                    duration: '5 DAYS / 4 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Munnar With Kolukkumalai',
-                    link: 'https://www.roamers.in/kolukkumalai-trek',
-                    image: 'assets/img/kolukkumalai-img/2.jpg',
-                    duration: '3 DAYS / 2 NIGHT',
-                    location: 'EX: Direct, Chennai'
-                },
-                {
-                    name: 'Chikmagalur',
-                    link: 'https://www.roamers.in/chikmagalur.php',
-                    image: 'https://www.roamers.in/assets/img/chikmangalur/Media/hills.jpg',
-                    duration: '3 DAYS / 2 NIGHT',
-                    location: 'EX: Direct, Chennai-Bangalore'
-                },
-                {
-                    name: 'Wonders of Wayanad',
-                    link: 'https://roamers.in/wayanad',
-                    image: 'assets/img/bg/waya-cover.jpg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Direct, Chennai'
-                },
-                {
-                    name: 'Ooty the queen of hills',
-                    link: 'https://roamers.in/ooty',
-                    image: 'assets/img/bg/ooty-cove.jpeg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai, Coimbatore'
-                },
-                {
-                    name: 'Kerala : To gods own country',
-                    link: 'https://roamers.in/kerala',
-                    image: 'assets/img/Kerala/Kerala photos.jpg',
-                    duration: '5 DAYS / 4 NIGHTS',
-                    location: 'EX: Kochi, Chennai'
-                },
-                {
-                    name: 'Andaman island hopping',
-                    link: 'https://roamers.in/andaman',
-                    image: 'assets/img/backpacking/Andaman hoppers.jpg',
-                    duration: '7 DAYS / 6 NIGHTS',
-                    location: 'EX: Kochi, Chennai'
-                },
-                {
-                    name: 'Pondi Dive-in',
-                    link: 'https://roamers.in/pondicherry',
-                    image: 'assets/img/short-trip/Lead-Auroville.webp',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Majestic Meghalaya',
-                    link: 'https://roamers.in/meghalaya',
-                    image: 'assets/img/meghalaya/meghalaya-gallery-16.avif ',
-                    duration: '6 DAYS / 5 NIGHTS',
-                    location: 'EX: Guwahati'
-                },
-                {
-                    name: 'Kodaikanal trek with poombarai',
-                    link: 'https://roamers.in/kodaikanal',
-                    image: 'assets/img/meghalaya/meghalaya-gallery-16.avif ',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Kedarkantha Trek',
-                    link: 'https://roamers.in/kedarkantha',
-                    image: 'assets/img/kedarkantha/main-sub.jpg ',
-                    duration: '5 DAYS / 4 NIGHTS',
-                    location: 'EX: Dehradun'
-                },
-                {
-                    name: 'Kodaikanal Backpacking',
-                    link: 'https://roamers.in/kodaikanal1',
-                    image: 'assets/img/kodaikanal-backpacking/Gunacav.jpeg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Varkala & Munroe Flashpacking',
-                    link: 'https://roamers.in/varkala-grouptrip',
-                    image: 'assets/img/varkala/kerala-1.jpg',
-                    duration: '3 DAYS / 2 NIGHTS',
-                    location: 'EX: Chennai'
-                },
-                {
-                    name: 'Spiti winter expedition',
-                    link: 'https://roamers.in/spiti-valley',
-                    image: 'assets/img/spiti-valley/spiti-cover.jpg',
-                    duration: '7 DAYS / 6 NIGHTS',
-                    location: 'EX: Delhi'
-                }
-            ];
-
-            const searchInput = document.getElementById('search-input');
-            const searchResults = document.getElementById('search-results');
-            if (!searchInput || !searchResults) return;
-
-            searchInput.addEventListener('input', function() {
-                const query = this.value.trim().toLowerCase();
-                searchResults.innerHTML = '';
-                if (!query) {
-                    searchResults.style.display = 'none';
-                    return;
-                }
-
-                const filteredData = data
-                    .filter(function(item) {
-                        return item.name.toLowerCase().includes(query);
-                    })
-                    .sort(function(a, b) {
-                        const aName = a.name.toLowerCase();
-                        const bName = b.name.toLowerCase();
-                        const aStarts = aName.startsWith(query);
-                        const bStarts = bName.startsWith(query);
-                        if (aStarts && !bStarts) return -1;
-                        if (!aStarts && bStarts) return 1;
-                        return aName.indexOf(query) - bName.indexOf(query);
-                    });
-
-                if (!filteredData.length) {
-                    searchResults.innerHTML = '<div class="col-12">No Trips found for "' + query +
-                        '"</div>';
-                } else {
-                    searchResults.innerHTML = filteredData.map(function(item) {
-                        return (
-                            '<div class="trip-card">' +
-                            '<div class="search-box-con">' +
-                            '<a href="' + item.link + '">' +
-                            '<img src="' + item.image + '" alt="' + item.name + '">' +
-                            '<div class="silder-inner silder-inner1">' +
-                            '<div class="inner inner2">' +
-                            '<h3>' + item.duration + '</h3>' +
-                            '<h4>' +
-                            '<img src="assets/img/images/loc1.svg" class="exicon" alt="location icon">' +
-                            item.location +
-                            '</h4>' +
-                            '</div>' +
-                            '<h2>' + item.name + '</h2>' +
-                            '</div>' +
-                            '</a>' +
-                            '</div>' +
-                            '</div>'
-                        );
-                    }).join('');
-                }
-                searchResults.style.display = 'flex';
-                searchResults.style.flexWrap = 'wrap';
-            });
-        });
-    </script>
-
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
         {
@@ -281,10 +107,10 @@
 
     <!-- WhatsApp Button Handler -->
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             const whatsappButton = document.querySelector('.what-sum');
             if (whatsappButton) {
-                whatsappButton.addEventListener("click", function(event) {
+                whatsappButton.addEventListener("click", function (event) {
                     event.preventDefault();
                     var name1 = document.getElementById("name1") ? document.getElementById("name1").value
                         .trim() : "";
@@ -321,7 +147,7 @@
 
     <!-- Image Slider -->
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             var index = 0;
             var timer;
             var images = document.getElementsByClassName("slide-box");
@@ -339,10 +165,10 @@
             displayImages();
 
             for (var j = 0; j < images.length; j++) {
-                images[j].addEventListener("mouseenter", function() {
+                images[j].addEventListener("mouseenter", function () {
                     clearTimeout(timer);
                 });
-                images[j].addEventListener("mouseleave", function() {
+                images[j].addEventListener("mouseleave", function () {
                     timer = setTimeout(displayImages, 5000);
                 });
             }
@@ -350,7 +176,7 @@
     </script>
 
     <!-- Main JS -->
-    <script src="index.js"></script>
+
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
@@ -364,22 +190,6 @@
         gtag('config', 'G-0MSFD4117B');
     </script>
 
-    <!-- jQuery and Plugins -->
-    <script src="assets/js/dates.js"></script>
-    <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="assets/js/bootstrap/popper.min.js"></script>
-    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-    <script src="assets/js/plugins/plugins.min.js"></script>
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="assets/js/active.js"></script>
-    <script src="assets/js/price.js"></script>
     <link rel="stylesheet" href="assets/css/expert-section.css">
 </head>
 
@@ -815,7 +625,6 @@
         }
     }
 </style>
-
 <!-- Banner Below Section -->
 <style>
     * {
@@ -1750,10 +1559,7 @@
         }
     }
 </style>
-
-
 <!-- Events Section -->
-
 <style>
     html,
 
@@ -2340,6 +2146,7 @@
 
         <!-- Banner Section-->
         <div id="staticBanner" class="banner-bg-static">
+
             <style>
                 .home {
                     padding: 160px 0px 220px 0px;
@@ -2569,7 +2376,6 @@
                 }
             </style>
 
-
             <section class="home">
                 <div class=" home1 before-overlay">
                 </div>
@@ -2618,7 +2424,6 @@
                         document.getElementById("search-input").value = "";
                     }
                 </script>
-
 
                 <div class="margin">
                     <div class="row home-row">
@@ -2785,9 +2590,21 @@
                     'duration' => '7D/6N',
                     'location' => 'Ex: Guwahati',
                     'places' => 'Guwahati',
-                    'price' => '₹22,499',
+                    'price' => '',
+                    'price_class' => 'tawang-price',
                     'original_price' => '',
                     'link' => 'tawang'
+                ],
+                'leh-ladakh' => [
+                    'title' => 'LEH-LADAKH',
+                    'image' => 'assets/img/ladakh/ladakh-mail.jpeg',
+                    'duration' => '8D/7N',
+                    'location' => 'Ex: Leh',
+                    'places' => 'Leh-Ladakh',
+                    'price' => '',
+                    'price_class' => 'ladakh-umlingla-price',
+                    'original_price' => '',
+                    'link' => 'ladakh-umlingla'
                 ],
                 'meghalaya' => [
                     'title' => 'MAJESTIC MEGHALAYA',
@@ -2795,7 +2612,8 @@
                     'duration' => '6D/5N',
                     'location' => 'Ex: Guwahati',
                     'places' => 'Guwahati, Shillong, Cherrapunjee',
-                    'price' => '₹19,990',
+                    'price' => '',
+                    'price_class' => 'meghalaya-price',
                     'original_price' => '',
                     'link' => 'meghalaya'
                 ],
@@ -2805,7 +2623,8 @@
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai/Trivandrum',
                     'places' => 'Chennai - Trivandrum',
-                    'price' => '₹6,899',
+                    'price' => '',
+                    'price_class' => 'varkala-price',
                     'link' => 'varkala-grouptrip'
                 ],
                 'chikmagalur' => [
@@ -2814,7 +2633,8 @@
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai - Bangalore',
                     'places' => 'Chikmagalur, Z point, Hebbe Falls',
-                    'price' => '₹7,990',
+                    'price' => '',
+                    'price_class' => 'chik-price',
                     'link' => 'chikmagalur'
                 ],
                 // munnar with kolukkumalai
@@ -2834,7 +2654,8 @@
                     'duration' => '7D/6N',
                     'location' => 'EX: Colombo',
                     'places' => 'Sigiriya, Kandy, Ella, Galle, Bentota',
-                    'price' => '₹43,999',
+                    'price' => '',
+                    'price_class' => 'srilanka-price',
                     'link' => 'srilanka'
                 ],
                 'pondi' => [
@@ -2843,7 +2664,8 @@
                     'duration' => '2D/1N',
                     'location' => 'EX: Direct, Chennai',
                     'places' => 'Pondicherry',
-                    'price' => '₹4,990',
+                    'price' => '',
+                    'price_class' => 'pondi-price',
                     'link' => 'pondicherry'
                 ],
                 'valley' => [
@@ -2852,7 +2674,8 @@
                     'duration' => '5D/6N',
                     'location' => 'Ex: Rishikesh',
                     'places' => 'Rishikesh, Joshimath, Pulna',
-                    'price' => '₹9,999',
+                    'price' => '',
+                    'price_class' => 'valley-price',
                     'link' => 'valley-of-flowers'
                 ],
                 'andaman' => [
@@ -2861,7 +2684,7 @@
                     'duration' => '7D/6N',
                     'location' => 'EX: Port Blair',
                     'places' => 'Port Blair, Ross Island, Havelock, Neil',
-                    'price' => '₹24,990',
+                    'price' => '',
                     'price_class' => 'andaman-price',
                     'link' => 'andaman'
                 ],
@@ -2871,7 +2694,7 @@
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai',
                     'places' => 'Kodaikanal , Vattakanal , Poombarai',
-                    'price' => '₹',
+                    'price' => '',
                     'price_class' => 'kodaikanal-price',
                     'link' => 'kodaikanal1'
                 ],
@@ -2881,7 +2704,8 @@
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai',
                     'places' => 'Wayanad',
-                    'price' => '₹8,990',
+                    'price' => '',
+                    'price_class' => 'wayanad-price',
                     'link' => 'wayanad'
                 ],
                 'kerala_onam' => [
@@ -2890,7 +2714,8 @@
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai',
                     'places' => 'Munnar , Alappuzha',
-                    'price' => '₹8499',
+                    'price' => '',
+                    'price_class' => 'kerala-onam-price',
                     'link' => 'kerala-onam'
                 ],
                 'ooty' => [
@@ -2899,7 +2724,8 @@
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai, Coimbatore',
                     'places' => 'Ooty, Pykara, Coonoor, Isha',
-                    'price' => '₹6,999',
+                    'price' => '',
+                    'price_class' => 'ooty-price',
                     'link' => 'ooty'
                 ]
             ];
@@ -2919,17 +2745,18 @@
                     ['trip_id' => 'ooty', 'dates' => 'Feb 14'],
                 ],
                 'mar' => [
+                    ['trip_id' => 'leh-ladakh', 'dates' => 'Mar 14,28'],
                     ['trip_id' => 'tawang', 'dates' => 'Mar 14'],
                     ['trip_id' => 'meghalaya', 'dates' => 'Mar 21'],
                     ['trip_id' => 'varkala', 'dates' => 'Mar 13,27'],
                     ['trip_id' => 'andaman', 'dates' => 'Mar 21,28'],
-                    ['trip_id' => 'munnar', 'dates' => 'Mar 6,20'],
+                    ['trip_id' => 'munnar', 'dates' => 'Mar 20'],
                     ['trip_id' => 'ooty', 'dates' => 'Mar 6'],
                 ],
                 'apr' => [
                     // ['trip_id' => 'meghalaya', 'dates' => 'Apr 11'],
-                                        ['trip_id' => 'tawang', 'dates' => 'Apr 03, 25'],
-
+                    ['trip_id' => 'leh-ladakh', 'dates' => 'Apr 11,25'],
+                    ['trip_id' => 'tawang', 'dates' => 'Apr 03, 25'],
                     ['trip_id' => 'andaman', 'dates' => 'Apr 03,18'],
                     ['trip_id' => 'munnar', 'dates' => 'Apr 14'],
                 ],
@@ -3000,7 +2827,6 @@
             ];
             ?>
 
-
             <div class="upcoming-container">
                 <h2 class="upcoming-header head bbb">
                     <i class="fa-solid fa-calendar-days upcoming-header-icon"></i>
@@ -3012,7 +2838,7 @@
                     <?php
                     foreach ($months_config as $key => $config):
                         $isActive = ($key === 'feb') ? 'active' : '';
-                    ?>
+                        ?>
                         <button class="upcoming-tab-btn <?php echo $isActive; ?>" data-tab="<?php echo $key; ?>">
                             <span class="tab-icon"><i class="fa-solid <?php echo $config['icon']; ?>"></i></span>
                             <?php echo $config['name']; ?>
@@ -3031,7 +2857,7 @@
                 <?php
                 foreach ($months_config as $key => $config):
                     $isActive = ($key === 'feb') ? 'active' : '';
-                ?>
+                    ?>
                     <div class="upcoming-tab-content <?php echo $isActive; ?>" id="tab-<?php echo $key; ?>">
                         <div class="upcoming-slider-wrapper">
                             <button class="upcoming-slider-arrow left" aria-label="Scroll to previous trip" type="button">
@@ -3041,7 +2867,7 @@
                                 <?php
                                 // Check if schedule is empty
                                 if (!isset($month_schedules[$key]) || empty($month_schedules[$key])):
-                                ?>
+                                    ?>
                                     <div class="upcoming-card"
                                         style="width: 100%; max-width: 400px; margin: 0 auto; cursor: default; border: none; background: transparent; box-shadow: none;">
                                         <div class="upcoming-content"
@@ -3073,7 +2899,7 @@
                                         } elseif (isset($trip['price_class']) && !empty($trip['price_class'])) {
                                             $price_html = '<div class="upcoming-price ' . $trip['price_class'] . '"></div>';
                                         }
-                                    ?>
+                                        ?>
                                         <div class="upcoming-card" style="cursor: pointer;"
                                             onclick="window.location.href='<?php echo $trip['link']; ?>'">
                                             <div class="upcoming-content">
@@ -3115,7 +2941,7 @@
                                                     Trip</a>
                                             </div>
                                         </div>
-                                <?php
+                                        <?php
                                     endforeach;
                                 endif;
                                 ?>
@@ -3172,15 +2998,17 @@
                 </div>
 
             </div>
+
             <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
+
             <script>
-                document.addEventListener('DOMContentLoaded', function() {
+                document.addEventListener('DOMContentLoaded', function () {
                     const tabsContainer = document.getElementById('upcoming-tabs');
                     const tabContents = document.querySelectorAll('.upcoming-tab-content');
                     const tabBtns = document.querySelectorAll('.upcoming-tab-btn'); // Keep for class manipulation
 
                     if (tabsContainer) {
-                        tabsContainer.addEventListener('click', function(e) {
+                        tabsContainer.addEventListener('click', function (e) {
                             const btn = e.target.closest('.upcoming-tab-btn');
                             if (!btn) return; // Clicked outside a button
 
@@ -3281,14 +3109,14 @@
                             return cardLeft - (containerWidth - cardWidth) / 2;
                         }
 
-                        leftArrow.addEventListener('click', function() {
+                        leftArrow.addEventListener('click', function () {
                             const currentIndex = getCurrentIndex();
                             const targetIndex = Math.max(0, currentIndex - 1);
                             const scrollPosition = getCenteredPosition(targetIndex);
                             smoothScrollTo(scrollPosition);
                         });
 
-                        rightArrow.addEventListener('click', function() {
+                        rightArrow.addEventListener('click', function () {
                             const cards = getVisibleCards();
                             const currentIndex = getCurrentIndex();
                             const targetIndex = Math.min(cards.length - 1, currentIndex + 1);
@@ -3481,7 +3309,6 @@
                 });
             </script>
             <!-- <script src="assets/js/upcoming-dates.js"></script> -->
-            <!-- <script src="assets/js/price.js"></script> -->
         </div>
 
         <!-- Events Section -->
@@ -3699,7 +3526,7 @@
 
                 <script>
                     // Touch slider: swipe smoothly moves to next/prev card (like a carousel)
-                    document.addEventListener('DOMContentLoaded', function() {
+                    document.addEventListener('DOMContentLoaded', function () {
                         const slider = document.getElementById('event-slider-august');
                         const leftBtn = document.getElementById('event-slider-prev');
                         const rightBtn = document.getElementById('event-slider-next');
@@ -3746,11 +3573,11 @@
 
                         // Button click handlers
                         if (leftBtn && rightBtn && slider && cards.length > 0) {
-                            leftBtn.addEventListener('click', function() {
+                            leftBtn.addEventListener('click', function () {
                                 const idx = getCurrentIndex();
                                 if (idx > 0) scrollToCard(idx - 1);
                             });
-                            rightBtn.addEventListener('click', function() {
+                            rightBtn.addEventListener('click', function () {
                                 const idx = getCurrentIndex();
                                 if (idx < cards.length - 1) scrollToCard(idx + 1);
                             });
@@ -3789,7 +3616,7 @@
                                 lastMove = Date.now();
                             }
 
-                            slider.addEventListener('touchstart', function(e) {
+                            slider.addEventListener('touchstart', function (e) {
                                 isTouching = true;
                                 startX = e.touches[0].pageX;
                                 scrollLeftStart = slider.scrollLeft;
@@ -3820,7 +3647,7 @@
                                 passive: false
                             });
 
-                            slider.addEventListener('touchend', function(e) {
+                            slider.addEventListener('touchend', function (e) {
                                 if (!isTouching) return;
                                 isTouching = false;
                                 if (rafId) {
@@ -3851,14 +3678,14 @@
                             let mouseStartX = 0;
                             let mouseScrollLeft = 0;
 
-                            slider.addEventListener('mousedown', function(e) {
+                            slider.addEventListener('mousedown', function (e) {
                                 isDragging = true;
                                 mouseStartX = e.pageX;
                                 mouseScrollLeft = slider.scrollLeft;
                                 slider.classList.add('dragging');
                             });
 
-                            slider.addEventListener('mousemove', function(e) {
+                            slider.addEventListener('mousemove', function (e) {
                                 if (!isDragging) return;
                                 e.preventDefault();
                                 const x = e.pageX;
@@ -3866,7 +3693,7 @@
                                 slider.scrollLeft = mouseScrollLeft + walk;
                             });
 
-                            slider.addEventListener('mouseup', function(e) {
+                            slider.addEventListener('mouseup', function (e) {
                                 if (isDragging) {
                                     isDragging = false;
                                     slider.classList.remove('dragging');
@@ -3886,7 +3713,7 @@
                                 }
                             });
 
-                            slider.addEventListener('mouseleave', function(e) {
+                            slider.addEventListener('mouseleave', function (e) {
                                 if (isDragging) {
                                     isDragging = false;
                                     slider.classList.remove('dragging');
@@ -4151,7 +3978,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         var $el = $(".home");
         var isMobile = $(window).width() <= 768;
         var res = isMobile ? 256 : 512;
@@ -4169,7 +3996,7 @@
                 });
 
                 // Auto-ripple effect
-                setInterval(function() {
+                setInterval(function () {
                     var x = Math.random() * $el.outerWidth();
                     var y = Math.random() * $el.outerHeight();
                     var dropRadius = 20;
@@ -4185,10 +4012,10 @@
 
         // Robust image loading check
         var img = new Image();
-        img.onload = function() {
+        img.onload = function () {
             startRipples();
         };
-        img.onerror = function() {
+        img.onerror = function () {
             console.error("Failed to load background image for ripples:", imageUrl);
             // Try to initialize anyway as a fallback
             startRipples();

@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg" width="600"
-    height="600" alt="image for ooty" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg"
+    width="600" height="600" alt="image for ooty" />
   <title>Roamers - Ooty Trip</title>
 
   <!-- SEO Meta Description -->
@@ -144,7 +144,7 @@
                   </div>
                   <div>
                     <div class="info-label">Starting Price</div>
-                    <div class="info-value "><span>6,899/-</span></div>
+                    <div class="info-value ooty-price"><span>/-</span></div>
                   </div>
                 </div>
               </div>
@@ -250,18 +250,26 @@
 
                 <!-- Desktop description (full text) -->
                 <p style="color: #555;" class="desk-desc d-none d-md-block">
-                  Hey there, team! Welcome to Ooty, the Queen of Hills! This trip isn't just about ticking off tourist spots; it's about soaking up the mountain paradise vibes. We're talking about wandering through the magical pine forests, feeling the mist at Pykara Falls, and cruising on Ooty Lake.
+                  Hey there, team! Welcome to Ooty, the Queen of Hills! This trip isn't just about ticking off tourist
+                  spots; it's about soaking up the mountain paradise vibes. We're talking about wandering through the
+                  magical pine forests, feeling the mist at Pykara Falls, and cruising on Ooty Lake.
                   <br><br>
-                  Of course, we can't forget about Doddabetta Peak, Lamb's Rock, and camping on hilltops. And let's not kid ourselves; we're here for some epic South Indian feasting too. So, let's dive into this adventure and make the most of our time in this mountain haven! 🏞️🚣‍♂️🏕🍛
+                  Of course, we can't forget about Doddabetta Peak, Lamb's Rock, and camping on hilltops. And let's not
+                  kid ourselves; we're here for some epic South Indian feasting too. So, let's dive into this adventure
+                  and make the most of our time in this mountain haven! 🏞️🚣‍♂️🏕🍛
                 </p>
 
                 <!-- Mobile description (truncated with toggle) -->
                 <p style="color: #555;" class="mob-desc d-block d-md-none">
-                  Hey there, team! Welcome to Ooty, the Queen of Hills! This trip isn't just about ticking off tourist spots; it's about soaking up the mountain paradise vibes. We're talking about wandering through the magical pine forests, feeling the mist at Pykara Falls, and cruising on Ooty Lake.
+                  Hey there, team! Welcome to Ooty, the Queen of Hills! This trip isn't just about ticking off tourist
+                  spots; it's about soaking up the mountain paradise vibes. We're talking about wandering through the
+                  magical pine forests, feeling the mist at Pykara Falls, and cruising on Ooty Lake.
                   <br>
                   <span id="dots">...</span>
                   <span id="moreText" style="display: none;"><br><br>
-                    Of course, we can't forget about Doddabetta Peak, Lamb's Rock, and camping on hilltops. And let's not kid ourselves; we're here for some epic South Indian feasting too. So, let's dive into this adventure and make the most of our time in this mountain haven! 🏞️🚣‍♂️🏕🍛
+                    Of course, we can't forget about Doddabetta Peak, Lamb's Rock, and camping on hilltops. And let's
+                    not kid ourselves; we're here for some epic South Indian feasting too. So, let's dive into this
+                    adventure and make the most of our time in this mountain haven! 🏞️🚣‍♂️🏕🍛
                   </span>
                 </p>
 
@@ -296,8 +304,8 @@
                       alt="Wayanad" style="border-radius: 30px; height: 350px; object-fit: cover;">
                   </div> -->
                   <div class="swiper-slide">
-                    <img src="assets/img/Ooty/2.JPG" class="img-fluid w-100"
-                      alt="Wayanad" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                    <img src="assets/img/Ooty/2.JPG" class="img-fluid w-100" alt="Wayanad"
+                      style="border-radius: 30px; height: 350px; object-fit: cover;">
                   </div>
                 </div>
               </div>
@@ -324,7 +332,8 @@
                   <!-- day 1 -->
                   <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
                     <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
+                      <button
+                        class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                         aria-controls="collapseOne">
                         <div class="d-flex align-items-center">
@@ -341,11 +350,13 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Hey there, Roamers! Meet your team and trip captain at a designated point in Chennai, and our journey to the Queen of Hills begins!
+                            Hey there, Roamers! Meet your team and trip captain at a designated point in Chennai, and
+                            our journey to the Queen of Hills begins!
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            For those joining from Coimbatore, we'll see you in the morning at the assigned spot. Get ready for an epic adventure gang
+                            For those joining from Coimbatore, we'll see you in the morning at the assigned spot. Get
+                            ready for an epic adventure gang
                           </li>
                         </ul>
                       </div>
@@ -373,7 +384,8 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Enjoy the scenic drive, and upon reaching Coonoor, let’s visit the largest tea estate, a fresh start for an exhilarating adventure.
+                            Enjoy the scenic drive, and upon reaching Coonoor, let’s visit the largest tea estate, a
+                            fresh start for an exhilarating adventure.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -385,7 +397,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Next, we'll visit the magical Ooty Lake. Revel in its scenic surroundings and engage in boating, paddle boating, and other adventurous activities with your team.
+                            Next, we'll visit the magical Ooty Lake. Revel in its scenic surroundings and engage in
+                            boating, paddle boating, and other adventurous activities with your team.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -393,7 +406,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Back to the hotel, relish a delicious dinner, and enjoy the night with a campfire, music, games, dance, and lots of fun with the whole gang.
+                            Back to the hotel, relish a delicious dinner, and enjoy the night with a campfire, music,
+                            games, dance, and lots of fun with the whole gang.
                           </li>
                         </ul>
                       </div>
@@ -424,15 +438,19 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            In the morning, we'll head to Doddabetta Peak, the highest point in the Nilgiri Mountains, offering panoramic views that will leave us spellbound.
+                            In the morning, we'll head to Doddabetta Peak, the highest point in the Nilgiri Mountains,
+                            offering panoramic views that will leave us spellbound.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            After lunch, let’s take a leisurely stroll through the enchanting Pine Forests. Immerse yourself in the serene surroundings and relish the tranquility of nature.
+                            After lunch, let’s take a leisurely stroll through the enchanting Pine Forests. Immerse
+                            yourself in the serene surroundings and relish the tranquility of nature.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Explore Pykara's charm! Witness the beautiful Pykara Falls and stunning landscapes. Then let's head to Pykara Lake, relax in this peaceful atmosphere, or opt for an exhilarating speed boat ride.
+                            Explore Pykara's charm! Witness the beautiful Pykara Falls and stunning landscapes. Then
+                            let's head to Pykara Lake, relax in this peaceful atmosphere, or opt for an exhilarating
+                            speed boat ride.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -464,11 +482,13 @@
                         <ul class="ps-lg-3 ps-0">
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Wake up to the breathtaking landscape, and relish breakfast. We're heading to beautiful Coonoor, team!
+                            Wake up to the breathtaking landscape, and relish breakfast. We're heading to beautiful
+                            Coonoor, team!
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Our first stop is Lamb's Rock. Go on a short hike surrounded by nature and witness the stunning viewpoint.
+                            Our first stop is Lamb's Rock. Go on a short hike surrounded by nature and witness the
+                            stunning viewpoint.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -476,7 +496,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Alright, Roamers, let's bid farewell to these queenly hills and head back to Coimbatore to visit our last point, Isha.
+                            Alright, Roamers, let's bid farewell to these queenly hills and head back to Coimbatore to
+                            visit our last point, Isha.
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -484,7 +505,8 @@
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            We'll reach our first drop point in Coimbatore, and we'll arrive in Chennai by morning. Bye for now, Roamers. Reunion plans for next year? You bet!
+                            We'll reach our first drop point in Coimbatore, and we'll arrive in Chennai by morning. Bye
+                            for now, Roamers. Reunion plans for next year? You bet!
                           </li>
                           <li>
                             <i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -532,7 +554,8 @@
               </section>
 
               <!-- >> Exclusion Section << -->
-              <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);" id="exclusion">
+              <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);"
+                id="exclusion">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
                 <div>
                   <p>
@@ -541,7 +564,8 @@
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: #ff6b6b;"></i>
-                    Any other costing involved due to natural calamity or any other forced circumstance which are out of our control.
+                    Any other costing involved due to natural calamity or any other forced circumstance which are out of
+                    our control.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: #ff6b6b;"></i>
@@ -577,7 +601,7 @@
                         <span class="old-price">
                           <strike>₹ 10,000/-</strike>
                         </span>
-                        <span class="new-price"></span><span class="new-price">6,899/-</span>
+                        <span class="ooty-price new-price"></span><span class="new-price">/-</span>
                       </h5>
 
                       <p>perfect for group adventures and shared <br> memories.</p>
@@ -720,7 +744,8 @@
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body bg-white px-4 py-3">
-                  <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
+                  <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with
+                    friends,
                     or as a couple, these group trips are
                     designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
                     more items from your bucket list!</p>
@@ -866,7 +891,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
-  <script src="assets/js/price.js"></script>
 
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 
@@ -909,7 +933,7 @@
   </script>
 
   <script>
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       const scrollSection = document.querySelector('.scroll-section');
       const swiperContainer = document.querySelector('.swiper-container.two');
 
@@ -932,7 +956,7 @@
           clickable: true,
         },
         on: {
-          init: function() {
+          init: function () {
             // Add initialization classes after Swiper is ready
             setTimeout(() => {
               scrollSection.classList.add('loaded');
