@@ -855,7 +855,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    fetch("./dynamic/varkala-data.json")
+    fetch("./dynamic/database.json")
       .then(response => response.json())
       .then(data => {
         const locationKey = "ooty"; // Change to "ooty" if needed
@@ -1043,7 +1043,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    fetch("./dynamic/varkala-data.json")
+    fetch("./dynamic/database.json")
       .then(response => response.json())
       .then(data => {
         const locationKey = "ooty"; // Change to "ooty" if needed
@@ -1202,7 +1202,7 @@
   </script>
 <!-- Date populate -->
     <script>
-      fetch('./dynamic/varkala-data.json')
+      fetch('./dynamic/database.json')
       .then(response => response.json())
       .then(data => {
         function populateDates(location) {

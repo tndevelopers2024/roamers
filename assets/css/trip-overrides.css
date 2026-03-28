@@ -34,7 +34,7 @@
   border-radius: 20px;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.07);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  margin-bottom: 20px;
+ 
   /* Space for shadow */
   overflow: hidden;
   /* For image rounded corners */
@@ -45,11 +45,6 @@
   flex-direction: column;
 }
 
-.swiper-slide:hover {
-  /* transform: translateY(-8px); */
-  box-shadow: 0 20px 35px -5px rgba(0, 0, 0, 0.12);
-  border-color: rgba(76, 185, 211, 0.2);
-}
 
 .trips-page-images {
   border-radius: 20px 20px 0 0 !important;
@@ -59,10 +54,6 @@
   /* Enforce height */
   object-fit: cover;
   transition: transform 0.6s ease;
-}
-
-.swiper-slide:hover .trips-page-images {
-  transform: scale(1.05);
 }
 
 .silder-inner {

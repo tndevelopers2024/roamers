@@ -736,7 +736,7 @@
 
                                         <p>Let's Plan Your Dream Journey.</p>
                                         <div class="trip-form p-0">
-                                            <a href="https://wa.me/message/QYDBK5TO42TGH1" target="blank"
+                                            <a href="https://wa.me/message/QYDBK5TO42TGH1"
                                                 class="btn butn butn__new bg-"
                                                 style="border-radius: 10px; background-color: light-green !imortant;">ENQUIRY
                                                 NOW</a>

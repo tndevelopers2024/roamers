@@ -58,7 +58,7 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
 
     @media (max-width: 600px) {
         body {
-            padding-top: 70px;
+            /* padding-top: 70px; */
         }
 
         nav {

@@ -287,7 +287,7 @@
   display: block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 991px) {
   .kerala-overview {
     font-size: 20px !important;
   }
@@ -300,7 +300,6 @@
 
   .silder-inner h4 {
     font-size: 12px !important;
-
   }
 
   .acc-container {
@@ -311,14 +310,20 @@
     font-size: 11px;
   }
 
-  .trip-home {
-    height: 100%;
-  }
-
-
   .accordion-button {
     font-size: 10px !important;
     /* padding: 10px 20px !important; */
+  }
+
+  .trip-home {
+    height: 80vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 80px 0 0 0 !important; /* Padding for header */
+    margin-top: 0;
+    background-attachment: scroll !important;
+    background-position: center !important;
   }
 
   .days {
@@ -755,19 +760,66 @@
   }
 }
 
-/* Mobile Price  */
+@media screen and (max-width: 991px) {
+  .mobile-bottom-bar {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 10px 0;
+  }
 
-.mobile-bottom-bar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
-  animation: slideUp 0.6s ease-out forwards;
-  transform: translateY(100%);
-  z-index: 1000;
+  .bottom-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+
+  .price-box .label {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .price-info {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+
+  .price-amount {
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    color: #4ec0db !important;
+  }
+
+  .per-person {
+    font-size: 11px;
+    color: #777;
+  }
+
+  .btn-book {
+    background-color: #4ec0db !important;
+    color: white !important;
+    padding: 10px 24px !important;
+    border-radius: 30px !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 15px rgba(78, 192, 219, 0.4) !important;
+    white-space: nowrap;
+  }
 }
 
+/* Mobile Price  */
+/* Animations for the mobile bottom bar */
 @keyframes slideUp {
   to {
     transform: translateY(0);
@@ -775,10 +827,6 @@
 }
 
 .bottom-bar-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 20px;
   animation: fadeIn 0.8s ease-in;
 }
 
@@ -809,94 +857,6 @@
     transform: translateY(-4px);
   }
 }
-
-.price-amount {
-  font-size: 18px;
-  font-weight: bold;
-  color: #e63946;
-}
-
-.per-person {
-  font-size: 12px;
-  color: #555;
-  display: block;
-}
-
-.btn-book {
-  background-color: transparent !important;
-  color: #fff;
-  padding: 0;
-  border-radius: 0;
-  font-weight: 600;
-  text-decoration: none;
-  transition: transform 0.2s ease;
-}
-
-.btn-book:hover {
-  background-color: transparent !important;
-  transform: scale(1.05);
-}
-
-.mobile-bottom-bar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.1);
-  padding: 12px 16px;
-  z-index: 1000;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-.bottom-bar-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.price-box .label {
-  margin: 0;
-  font-size: 12px;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-}
-
-.price-info {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 6px;
-}
-
-.price-amount {
-  font-size: 20px;
-  font-weight: bolder;
-  color: #4ec0db;
-}
-
-.per-person {
-  font-size: 12px;
-  color: #777;
-}
-
-.btn-book {
-  background-color: transparent !important;
-  color: white;
-  padding: 0;
-  border-radius: 0;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  box-shadow: none;
-  transition: background-color 0.3s ease;
-}
-
-.btn-book:hover {
-  background-color: transparent !important;
-  color: white;
-}
-
 
 /* Modal Box */
 
@@ -1159,12 +1119,15 @@
 /* for mobile */
 @media (max-width: 768px) {
   .banner-hight-top {
-    margin-top: 180px;
+    margin-top: 0 !important;
+    font-size: 30px !important;
+    text-align: center !important;
+    width: 100% !important;
   }
 
-  .banner-hight-bottom {
+  /* .banner-hight-bottom {
     margin-bottom: 180px;
-  }
+  } */
 }
 
 @media screen and (max-width:700px) {

@@ -12,23 +12,23 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta property="og:image:secure_url" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" width="600"
         height="600" alt="image for ooty" />
-    <title>Roamers - Tawang Group Trip - Form</title>
+    <title>Roamers - The Tawang Escape</title>
 
     <!-- SEO Meta Description -->
-    <meta name="description" content="Roamers - Tawang Group Trip" />
+    <meta name="description" content="Roamers - The Tawang Escape" />
     <meta name="author" content="Themeland" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="500" />
 
     <!-- Basic Open Graph tags -->
-    <meta property="og:title" content="Roamers - Tawang Group Trip" />
+    <meta property="og:title" content="Roamers - The Tawang Escape" />
     <meta property="og:description"
         content="Join our Tawang group trip for an unforgettable adventure, curated experiences, and new friendships." />
     <meta property="og:image" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" />
     <meta property="og:url" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Roamers - Tawang Group Trip" />
+    <meta name="twitter:title" content="Roamers - The Tawang Escape" />
     <meta name="twitter:description"
         content="Join our Tawang group trip for an unforgettable adventure, curated experiences, and new friendships." />
     <meta name="twitter:image" content="https://roamers.in/assets/img/varkala/varkala-bg1.jpg" />
@@ -1055,12 +1055,23 @@ session_start();
                                             </div>
                                             <div class="row">
                                                 <div class="col">
+                                                    <span class="span mt-5">Trip Package</span>
+                                                    <div class="radio-item"><input name="package" id="pkg-basic"
+                                                            type="radio" value="Standard" checked><label
+                                                            for="pkg-basic">Standard Trip</label></div>
+                                                    <div class="radio-item"><input name="package" id="pkg-kaziranga"
+                                                            type="radio" value="With Kaziranga"><label
+                                                            for="pkg-kaziranga">With Kaziranga (Add-on)</label></div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
                                                     <span class="span mt-5">Sharing</span>
                                                     <div class="radio-item"><input name="sharing" id="radio4"
                                                             type="radio" value="Double Sharing"><label
                                                             for="radio4">Double Sharing</label></div>
                                                     <div class="radio-item"><input name="sharing" id="radio5"
-                                                            type="radio" value="Triple Sharing"><label
+                                                            type="radio" value="Triple Sharing" checked><label
                                                             for="radio5">Triple Sharing</label></div>
                                                 </div>
                                             </div>
@@ -1082,10 +1093,11 @@ session_start();
                                                     placeholder="Traveller Count" min="1" required>
                                                 <span class="span mt-5">PickUp & Drop Location</span>
                                                 <div class="input-field mt-4">
-                                                    <select id="pickup" style="border-radius:30px" name="pickup" class="form-select mt-4" required>
+                                                    <select id="pickup" style="border-radius:30px" name="pickup"
+                                                        class="form-select mt-4" required>
                                                         <option value="" disabled selected>Select the Location</option>
-                                                        <option value="Chennai">Chennai </option>
-                                                        <option value="Tawang">Tawang </option>
+                                                        <!-- <option value="Chennai">Chennai</option> -->
+                                                        <option value="Guwahati">Guwahati</option>
                                                     </select>
                                                 </div>
                                                 <span class="span mt-5">Address</span>
@@ -1146,34 +1158,54 @@ session_start();
 
 
                             <div class="cost-col mt-3" style="border-radius: 30px;">
-                                <h4 class="text-center mb-3 fw-bold">Costing</h4>
+                                <h4 class="text-center mb-3 fw-bold">Trip Costing</h4>
 
-
-                                <div class="table-responsive">
-                                    <table class="table custom-table">
+                                <!-- Standard Trip Table -->
+                                <p class="text-center fw-bold mb-1" style="font-size: 13px; color: #4ec0db;">Standard
+                                    Expedition</p>
+                                <div class="table-responsive px-2 mb-4">
+                                    <table class="table custom-table mb-0">
                                         <thead>
                                             <tr>
-                                                <th scope="col">Sharing</th>
-                                                <th scope="col">From Guwahati</th>
-
+                                                <th scope="col" style="font-size: 11px;">Sharing</th>
+                                                <th scope="col" style="font-size: 11px;">Guwahati</th>
+                                                <th scope="col" style="font-size: 11px;">Chennai</th>
                                             </tr>
                                         </thead>
-                                        <tbody id="costing-table-body">
-                                            <tr>
-                                                <td>Double Sharing</td>
-                                                <td>$150</td>
-                                            </tr>
+                                        <tbody id="costing-table-body-standard">
+                                            <!-- Standard Prices -->
                                         </tbody>
                                     </table>
                                 </div>
 
-                                <div class="justify-content-center starting-price-box px-3">
-                                    <p id="starting-price" class="starting-price"></p>
+                                <!-- Kaziranga Add-on Table -->
+                                <p class="text-center fw-bold mb-1" style="font-size: 13px; color: #4ec0db;">Expedition
+                                    with Kaziranga</p>
+                                <div class="table-responsive px-2 mb-3">
+                                    <table class="table custom-table mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" style="font-size: 11px;">Sharing</th>
+                                                <th scope="col" style="font-size: 11px;">Guwahati</th>
+                                                <th scope="col" style="font-size: 11px;">Chennai</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="costing-table-body-kaziranga">
+                                            <!-- Kaziranga Prices -->
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="justify-content-center starting-price-box px-3 mt-3">
+                                    <p id="starting-price" class="starting-price"
+                                        style="font-size: 16px; font-weight: bold;"></p>
+                                </div>
+                                <div class="px-3 pb-3" style="text-align:center;">
+                                    <p style="font-size:12px; color:#666;">*Prices are per person and exclude GST.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
         </div>
         </form>
@@ -1183,7 +1215,7 @@ session_start();
     <!-- Form Data -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("./dynamic/varkala-data.json?v=" + new Date().getTime()) // Check this path
+            fetch("./dynamic/database.json?v=" + new Date().getTime()) // Check this path
                 .then(response => {
                     if (!response.ok) throw new Error("Network response was not ok");
                     return response.json();
@@ -1208,29 +1240,36 @@ session_start();
                     const startingPriceElem = document.getElementById("starting-price");
                     if (startingPriceElem) {
                         startingPriceElem.textContent = `Starting Price: ${locationData.costing.startingPrice}`;
-                    } else {
-                        console.warn("Element with id 'starting-price' not found.");
                     }
 
 
-                    const tableBody = document.getElementById("costing-table-body");
-                    if (!tableBody) {
-                        console.error("Element with id 'costing-table-body' not found.");
-                        return;
+                    // Population for Standard Prices
+                    const tableStandard = document.getElementById("costing-table-body-standard");
+                    if (tableStandard && locationData.costing.prices) {
+                        let rows = "";
+                        locationData.costing.prices.forEach(price => {
+                            rows += `<tr>
+                                <td>${price.sharing || "N/A"}</td>
+                                <td>${price.guwahati || "N/A"}</td>
+                                <td>${price.chennai || "N/A"}</td>
+                            </tr>`;
+                        });
+                        tableStandard.innerHTML = rows;
                     }
 
-
-                    // Build all rows at once for better performance
-                    let rows = "";
-                    locationData.costing.prices.forEach(price => {
-                        rows += `<tr>
-            <td>${price.sharing || "N/A"}</td>
-            <td>${price.tawang || "N/A"}</td>
-            </tr>`;
-                    });
-
-
-                    tableBody.innerHTML = rows;
+                    // Population for Kaziranga Prices
+                    const tableKaziranga = document.getElementById("costing-table-body-kaziranga");
+                    if (tableKaziranga && locationData.costing.prices_with_kaziranga) {
+                        let rows = "";
+                        locationData.costing.prices_with_kaziranga.forEach(price => {
+                            rows += `<tr>
+                                <td>${price.sharing || "N/A"}</td>
+                                <td>${price.guwahati || "N/A"}</td>
+                                <td>${price.chennai || "N/A"}</td>
+                            </tr>`;
+                        });
+                        tableKaziranga.innerHTML = rows;
+                    }
                 })
                 .catch(error => console.error("Error loading costing data:", error));
         });
@@ -1238,7 +1277,7 @@ session_start();
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("./dynamic/varkala-data.json") // to change the price ... 
+            fetch("./dynamic/database.json") // to change the price ... 
                 .then(response => response.json())
                 .then(data => {
                     const locationKey = "tawang"; // Change to "ooty" if needed
@@ -1388,7 +1427,7 @@ session_start();
   </script> -->
     <!-- Date populate -->
     <script>
-        fetch('./dynamic/varkala-data.json')
+        fetch('./dynamic/database.json')
             .then(response => response.json())
             .then(data => {
                 function populateDates(location) {
@@ -1546,22 +1585,23 @@ session_start();
                     }
 
 
+                    const packageChoice = document.querySelector('input[name="package"]:checked')?.value || "Standard";
+
                     // Set amount using if statements
                     let perPersonAmount = 0;
-                    if (pickup === "Chennai") {
-                        if (sharing === "Triple Sharing") {
-                            perPersonAmount = 8499;
-                        } else if (sharing === "Double Sharing") {
-                            perPersonAmount = 9499;
+                    if (packageChoice === "Standard") {
+                        if (pickup === "Chennai") {
+                            perPersonAmount = sharing === "Triple Sharing" ? 21990 : 23990;
+                        } else {
+                            perPersonAmount = sharing === "Triple Sharing" ? 19990 : 21990;
                         }
-                    } else if (pickup === "TAWANG") {
-                        if (sharing === "Triple Sharing") {
-                            perPersonAmount = 6899;
-                        } else if (sharing === "Double Sharing") {
-                            perPersonAmount = 7899;
+                    } else if (packageChoice === "With Kaziranga") {
+                        if (pickup === "Chennai") {
+                            perPersonAmount = sharing === "Triple Sharing" ? 24500 : 26500;
+                        } else {
+                            perPersonAmount = sharing === "Triple Sharing" ? 22500 : 24500;
                         }
                     }
-
 
                     const formData = {
                         travelDate,
@@ -1576,6 +1616,7 @@ session_start();
                         postCode,
                         gender,
                         sharing,
+                        packageChoice,
                         pickup,
                         perPersonAmount,
                     };
@@ -1601,7 +1642,7 @@ session_start();
             <div class="div"><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
             <div class="d-flex justify-content-between flex-wrap">
               <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
-                <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/-</h4>
+                <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/- (Per Person)</h4>
               </div>
               <div class="button-div d-flex justify-content-end mt-4">
                 <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Back</button>

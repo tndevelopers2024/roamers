@@ -1187,7 +1187,7 @@ session_start();
                       <tr>
                         <th scope="col">Sharing</th>
                         <th scope="col">From Coimbatore</th>
-                        <th scope="col">From Ootty</th>
+                        <th scope="col">From Chennai</th>
                       </tr>
                     </thead>
                     <tbody id="costing-table-body">
@@ -1216,7 +1216,7 @@ session_start();
   <!-- Form Data -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      fetch("./dynamic/varkala-data.json?v=" + new Date().getTime()) // Check this path
+      fetch("./dynamic/database.json?v=" + new Date().getTime()) // Check this path
         .then(response => {
           if (!response.ok) throw new Error("Network response was not ok");
           return response.json();
@@ -1272,7 +1272,7 @@ session_start();
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      fetch("./dynamic/varkala-data.json") // to change the price ... 
+      fetch("./dynamic/database.json") // to change the price ... 
         .then(response => response.json())
         .then(data => {
           const locationKey = "ooty"; // Change to "ooty" if needed
@@ -1358,7 +1358,7 @@ session_start();
 
   <!-- Date populate -->
   <script>
-    fetch('./dynamic/varkala-data.json')
+    fetch('./dynamic/database.json')
       .then(response => response.json())
       .then(data => {
         function populateDates(location) {
@@ -1515,12 +1515,27 @@ session_start();
           }
 
 
-          // Set amount using if statements
+          // Set amount based on pickup location and sharing
           let perPersonAmount = 0;
-          if (sharing === "Triple Sharing") {
-            perPersonAmount = 6899;
-          } else if (sharing === "Double Sharing") {
-            perPersonAmount = 7899;
+          if (pickup === "Coimbatore") {
+            if (sharing === "Triple Sharing") {
+              perPersonAmount = 7299;
+            } else if (sharing === "Double Sharing") {
+              perPersonAmount = 8299;
+            }
+          } else if (pickup === "Chennai") {
+            if (sharing === "Triple Sharing") {
+              perPersonAmount = 8499;
+            } else if (sharing === "Double Sharing") {
+              perPersonAmount = 9499;
+            }
+          } else {
+            // Default/Fallback
+            if (sharing === "Triple Sharing") {
+              perPersonAmount = 7299;
+            } else if (sharing === "Double Sharing") {
+              perPersonAmount = 8299;
+            }
           }
 
 

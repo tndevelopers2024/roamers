@@ -2246,7 +2246,7 @@
     </div>
 
     <!-- Short Break Trips -->
-    <div id="section3" class="section mb-5">
+    <div id="section3" class="section mb-5 ">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4 col-md-4">
@@ -2314,7 +2314,7 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-md-4 mt-5">
+          <div class="col-12 col-lg-4 col-md-4 ">
             <div class="swiper-slide">
               <a href="#home-form">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Kerala/goa-cover.jpeg"
@@ -2691,7 +2691,7 @@
                           </div>
                         </div>
                       </div>
-                      <a href="events-nov-1.php" target="_blank" class="event-view">Register</a>
+                      <a href="events-nov-1.php"  class="event-view">Register</a>
                     </div>
                   </div>
                 </div>

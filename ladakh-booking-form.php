@@ -796,10 +796,10 @@
 
   <script>
   document.addEventListener("DOMContentLoaded", function () {
-    fetch("./dynamic/varkala-data.json")
+    fetch("./dynamic/database.json")
       .then(response => response.json())
       .then(data => {
-        const locationKey = "ladakh";
+        const locationKey = "ladakh_umingla";
         const locationData = data[locationKey];
 
         if (!locationData?.costing) {
@@ -904,17 +904,17 @@
     let perPersonAmount = "";
 
     if (vehicle === "Tempo Traveller" && sharing === "Triple Sharing") {
-      perPersonAmount = "₹29,990/-";
+      perPersonAmount = "₹24,990/-";
     } else if (vehicle === "Tempo Traveller" && sharing === "Double Sharing") {
-      perPersonAmount = "₹32,990/-";
+      perPersonAmount = "₹27,990/-";
     } else if (vehicle === "RE Himalayan (Solo)" && sharing === "Triple Sharing") {
-      perPersonAmount = "₹42,990/-";
+      perPersonAmount = "₹35,500/-";
     } else if (vehicle === "RE Himalayan (Solo)" && sharing === "Double Sharing") {
-      perPersonAmount = "₹45,990/-";
+      perPersonAmount = "₹38,500/-";
     } else if (vehicle === "RE Himalayan (Dual Rider)" && sharing === "Triple Sharing") {
-      perPersonAmount = "₹35,990/-";
+      perPersonAmount = "₹29,990/-";
     } else if (vehicle === "RE Himalayan (Dual Rider)" && sharing === "Double Sharing") {
-      perPersonAmount = "₹38,990/-";
+      perPersonAmount = "₹32,990/-";
     }
 
     // Validation check (Ensuring all fields are filled)
@@ -994,10 +994,10 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    fetch("./dynamic/varkala-data.json")
+    fetch("./dynamic/database.json")
       .then(response => response.json())
       .then(data => {
-        const locationKey = "ladakh"; // Change to "ooty" if needed
+        const locationKey = "ladakh_umingla"; // Change to "ooty" if needed
         const locationData = data[locationKey];
 
         if (!locationData) {
@@ -1153,7 +1153,7 @@
   </script>
 <!-- Date populate -->
     <script>
-      fetch('./dynamic/varkala-data.json')
+      fetch('./dynamic/database.json')
       .then(response => response.json())
       .then(data => {
         function populateDates(location) {
@@ -1178,10 +1178,10 @@
         }
 
         // Example: Call the function for Varkala or Ooty
-        populateDates('ladakh'); // or populateDates('ooty');
+        populateDates('ladakh_umingla'); // or populateDates('ooty');
       })
       .catch(error => console.error('Error fetching data:', error));
-    </script>
+  </script>
 </body>
 
 

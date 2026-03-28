@@ -1233,7 +1233,7 @@ session_start();
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      fetch("./dynamic/varkala-data.json") // Check this path
+      fetch("./dynamic/database.json") // Check this path
         .then(response => {
           if (!response.ok) throw new Error("Network response was not ok");
           return response.json();
@@ -1452,7 +1452,7 @@ session_start();
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      fetch("./dynamic/varkala-data.json") // to change the price ... 
+      fetch("./dynamic/database.json") // to change the price ... 
         .then(response => response.json())
         .then(data => {
           const locationKey = "andaman"; // Change to "ooty" if needed
@@ -1602,7 +1602,7 @@ session_start();
   </script> -->
   <!-- Date populate -->
   <script>
-    fetch('./dynamic/varkala-data.json')
+    fetch('./dynamic/database.json')
       .then(response => response.json())
       .then(data => {
         function populateDates(location) {
@@ -1760,9 +1760,9 @@ session_start();
           }
 
 
-          // Set amount dynamically from varkala-data.json
+          // Set amount dynamically from database.json
           let perPersonAmount = 0;
-          fetch('./dynamic/varkala-data.json')
+          fetch('./dynamic/database.json')
             .then(response => response.json())
             .then(data => {
               const andamanPrices = data.andaman.costing.prices;

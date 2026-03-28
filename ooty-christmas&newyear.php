@@ -669,7 +669,7 @@
 
                                             <p>perfect for group adventures and shared <br> memories.</p>
                                             <div class="trip-form p-0">
-                                                <a href="ooty-form-christmas&newyear-special.php" target="blank"
+                                                <a href="ooty-form-christmas&newyear-special.php"
                                                     class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                                                     & Costing</a>
                                             </div>

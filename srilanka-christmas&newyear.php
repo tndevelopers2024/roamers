@@ -932,7 +932,7 @@
                                 </p><span class="mobile-br"><br></span>
 
                                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>E Visa (
-                                    Please visit ➪ <a class="ms-1" target="_blank" href="https://eta.gov.lk/slvisa/">
+                                    Please visit ➪ <a class="ms-1"  href="https://eta.gov.lk/slvisa/">
                                         Here</a>)
                                 </p>
 

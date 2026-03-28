@@ -1543,7 +1543,7 @@
       <li><a class="trip-1 active rounded-pill me-3 shadow" href="#section1">ALL</a></li>
       <li><a class="trip-2 rounded-pill me-3 shadow" href="#section2">Backpacking Trips</a></li>
       <li><a class="trip-3 rounded-pill me-3 shadow" href="#section3">Short Break Trips</a></li>
-      <li><a class="trip-4 rounded-pill shadow" href="#section4">Events</a></li>
+      <li><a class="trip-4 rounded-pill  shadow" href="#section4">Events</a></li>
     </ul>
   </div>
 
@@ -1552,27 +1552,28 @@
     <div class="container">
       <div class="row">
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="kolukkumalai-trek"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kolukkumalai-img/2.jpg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kolukkumalai-img/2.jpg"
                 alt="roamers-Gallery">
+           
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Chennai
                   </h4>
                 </div>
                 <h2>Munnar with Kolukkumalai
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Munnar</p>
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Munnar</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="munnar-dates">Jan
                       12, Feb 16 </span>
@@ -1586,27 +1587,27 @@
         </div>
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="wayanad"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/bg/waya-cover.jpg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/bg/waya-cover.jpg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Direct, Chennai
                   </h4>
                 </div>
                 <h2>Wonders of Wayanad
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Wayanad</p>
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Wayanad</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="wayanad-dates"> Jan 12 </span>
                   </h4>
@@ -1618,15 +1619,15 @@
         </div>
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="ooty"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/bg/ooty-cove.jpeg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/bg/ooty-cove.jpeg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3 class="text-decoration-none">3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon"> EX: Chennai,
                     Coimbatore
                   </h4>
@@ -1634,14 +1635,14 @@
                 <h2>Ooty the Queen of Hills
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Nilgiri,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Nilgiri,
                     Coonoor, Coimbatore
                   </p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="ooty-dates">Nov 3, 24, Dec 8, 15, 22, Jan 26 </span>
                   </h4>
@@ -1653,28 +1654,28 @@
         </div>
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="chikmagalur"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/testimonials/chikmagalur.avif"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/testimonials/chikmagalur.avif"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX : Bangalore
                   </h4>
                 </div>
                 <h2>Chikmagalur Trek
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Chikmagalur,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Chikmagalur,
                     Z point, Hebbe Falls</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="chik-dates"> Dec
                       15 </span>
@@ -1687,22 +1688,22 @@
         </div>
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="andaman"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;"
+              <img class="trips-page-images" style="border-radius:20px !important;"
                 src="assets/img/backpacking/Andaman hoppers.jpg" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX : Port Blair
                   </h4>
                 </div>
                 <h2>Andaman Island Hopping
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Havelock
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Havelock
                     Island, Neil Island, Port
                     Blair
                   </p>
@@ -1710,7 +1711,7 @@
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="andaman-dates"> Dec 23 </span>
                   </h4>
@@ -1722,28 +1723,28 @@
         </div>
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="ladakh-umlingla.php"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/ladakh/ladakh-mail.jpeg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/ladakh/ladakh-mail.jpeg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>8 DAYS / 7 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX : Leh
                   </h4>
                 </div>
                 <h2>Leh Ladakh with Umling la
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon"> Leh, Nubra,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon"> Leh, Nubra,
                     Pangong, Hanle, Umling la</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     (Open Soon)
                   </h4>
@@ -1755,28 +1756,28 @@
         </div>
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="pondicherry"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/short-trip/Lead-Auroville.webp"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/short-trip/Lead-Auroville.webp"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>2D / 1N</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon"> EX : Direct, Chennai
                   </h4>
                 </div>
                 <h2>Pondi Dive-in
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Pondicherry
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Pondicherry
                   </p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="pondi-dates">Nov
                       24, Dec 09, 23 </span>
@@ -1791,22 +1792,22 @@
         <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="#home-form">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Kerala/goa-cover.jpeg" alt="roamers-Gallery">
+                <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/Kerala/goa-cover.jpeg" alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;" alt="second location-icon">EX : Direct, Bangalore
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;" alt="second location-icon">EX : Direct, Bangalore
                     </h4>
                   </div>
                   <h2>Goa Escape
                   </h2>
                   <div class="inner">
-                    <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">North Goa, South Goa </p>
+                    <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">North Goa, South Goa </p>
                     <h4 class="sta">Starts at </h4>
                   </div>
 
                   <div class="inner">
-                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;" alt="second location-icon">
+                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;" alt="second location-icon">
                       <span class="goa-dates">Opens Soon</span>
                     </h4>
                     <h4><span class="goa-price"></span> </h4>
@@ -1817,23 +1818,23 @@
           </div> -->
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="meghalaya"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px; bac"
+              <img class="trips-page-images" style="border-radius:20px !important;"
                 src="assets/img/meghalaya/meghalaya-gallery-03.avif " alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>6 DAYS / 5 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Guwahati
                   </h4>
                 </div>
                 <h2>Majestic Meghalaya</h2>
-                <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Guwahati,
+                <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Guwahati,
                   Shillong, Cherrapunjee</p>
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     Opens Soon</h4>
                   <h4>Starts at <span class="meghalaya-price"></span> </h4>
@@ -1846,26 +1847,26 @@
         <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kodaikanal/Kodai.jpg"" alt="
+                <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kodaikanal/Kodai.jpg"" alt="
                   roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                         alt="second location-icon">EX: Chennai
                     </h4>
                   </div>
                   <h2>Kodaikanal Trek with Poombarai
                   </h2>
                   <div class="inner">
-                    <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Perumal
+                    <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Perumal
                       peak, Vattakanal, Poombarai
                     </p>
                     <h4 class="sta">Starts at </h4>
                   </div>
 
                   <div class="inner">
-                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                         alt="second location-icon">
                       <span class="kodai-dates">Jan
                         26, Feb 10 </span>
@@ -1878,28 +1879,28 @@
           </div> -->
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="kedarkantha"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kedarkantha/main-sub.avif "
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kedarkantha/main-sub.avif "
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>5 DAYS / 4 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon"> EX: Dehradun
                   </h4>
                 </div>
                 <h2>Kedarkantha Trek
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Kedarkantha
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Kedarkantha
                   </p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="kedar-dates">Open Soon</span>
                   </h4>
@@ -1913,21 +1914,21 @@
         <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal1">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kodaikanal/perumal-peak.jpg"
+                <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kodaikanal/perumal-peak.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2 inner-home">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                         alt="second location-icon">EX: Chennai
                     </h4>
                   </div>
                   <h2>Kodaikanal Backpacking</h2>
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Kodaikanal,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Kodaikanal,
                     Vattakanal, Poombarai
                   </p>
                   <div class="inner">
-                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                         alt="second location-icon">
                       <span class="kodai1-dates"></span>
                     </h4>
@@ -1939,15 +1940,15 @@
           </div> -->
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="varkala-grouptrip"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;"
+              <img class="trips-page-images" style="border-radius:20px !important;"
                 src="assets/img/valley-of-flowers/avif/img-4.avif" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Chennai,
                     Trivandrum
                   </h4>
@@ -1955,13 +1956,13 @@
                 <h2>Varkala & Munroe Flashpacking
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Varkala,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Varkala,
                     Munroe Island, Trivandrum</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="varkala-dates">Jan
                       12, Feb 16 </span>
@@ -1974,23 +1975,23 @@
         </div>
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="spiti-valley"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/spiti-valley/spiti-cover.jpg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/spiti-valley/spiti-cover.jpg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Delhi
                   </h4>
                 </div>
                 <h2>Spiti Winter Expedition</h2>
-                <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Spiti Valley
+                <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Spiti Valley
                 </p>
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="spiti-dates"> Dec 23 </span>
                   </h4>
@@ -2070,21 +2071,21 @@
             </div>
           </div> -->
         <div class="col-12 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-2">
             <a href="andaman">
-              <img class="trips-page-images" style="border-radius:16px;"
+              <img class="trips-page-images" style="border-radius:20px !important;"
                 src="assets/img/backpacking/Andaman hoppers.jpg" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX : Port Blair
                   </h4>
                 </div>
                 <h2>Andaman Island Hopping
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Havelock
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Havelock
                     Island, Neil Island, Port
                     Blair
                   </p>
@@ -2092,7 +2093,7 @@
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="andaman-dates"> Dec 23 </span>
                   </h4>
@@ -2103,27 +2104,27 @@
           </div>
         </div>
         <div class="col-12 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-2">
             <a href="#home-form">
-              <img class="trips-page-images" style="border-radius:16px;"
-                src="assets/img/meghalaya/meghalaya-gallery-16.avif" alt="roamers-Gallery">
+              <img class="trips-page-images" style="border-radius:20px !important;"
+                src="assets/img/meghalaya/meghalaya-gallery-03.avif" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>6 DAYS / 5 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX : Guwahati
                   </h4>
                 </div>
                 <h2>Majestic Meghalaya
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Guwahati,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Guwahati,
                     Shillong, Cherrapunjee</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     Opens Soon
                   </h4>
@@ -2140,27 +2141,27 @@
       <div class="row justify-content-center">
 
         <div class="col-12 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="ladakh-umlingla.php">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/ladakh/ladakh-mail.jpeg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/ladakh/ladakh-mail.jpeg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>8 DAYS / 7 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX : Leh
                   </h4>
                 </div>
                 <h2>Leh Ladakh with Umling la
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon"> Leh, Nubra,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon"> Leh, Nubra,
                     Pangong, Hanle, Umling la</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     (Open Soon)
                   </h4>
@@ -2171,14 +2172,14 @@
           </div>
         </div>
         <div class="col-12 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="varkala-grouptrip">
-              <img class="trips-page-images" style="border-radius:16px;"
+              <img class="trips-page-images" style="border-radius:20px !important;"
                 src="assets/img/valley-of-flowers/avif/img-4.avif" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Chennai,
                     Trivandrum
                   </h4>
@@ -2186,13 +2187,13 @@
                 <h2>Varkala & Munroe Flashpacking
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Varkala,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Varkala,
                     Munroe Island, Trivandrum</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="varkala-dates">Jan
                       12, Feb 16 </span>
@@ -2225,22 +2226,22 @@
     <div style="margin-bottom: 6rem;" class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-4 col-md-6">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="spiti-valley">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/spiti-valley/spiti-cover.jpg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/spiti-valley/spiti-cover.jpg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>7 DAYS / 6 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg " class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Delhi
                   </h4>
                 </div>
                 <h2>Spiti Winter Expedition</h2>
-                <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Spiti Valley
+                <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Spiti Valley
                 </p>
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="spiti-dates"> Dec 23 </span>
                   </h4>
@@ -2261,33 +2262,25 @@
       <div class="row">
         <div class="col-12 col-lg-4 col-md-4">
           <div class="swiper-slide">
-            <a href="ooty"
-              style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/bg/ooty-cove.jpeg"
-                alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
+            <a href="ooty">
+              <img class="trips-page-images" src="assets/img/bg/ooty-cove.jpeg" alt="roamers-Gallery">
+              <div class="silder-inner">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
-                      alt="second location-icon"> EX :Chennai,
-                    Coimbatore
-                  </h4>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="loc-icon"> EX :Chennai, Coimbatore</h4>
                 </div>
-                <h2>Ooty the Queen of Hills
-                </h2>
+                <h2>Ooty the Queen of Hills</h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Nilgiri,
-                    Coonoor, Coimbatore
-                  </p>
-                  <h4 class="sta">Starts at </h4>
+                  <p><img src="assets/img/images/loc.svg" alt="loc-icon">Nilgiri, Coonoor, Coimbatore</p>
                 </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
-                      alt="second location-icon">
-                    <span class="ooty-dates">Nov 3, 24, Dec 8, 15, 22, Jan 26 </span>
-                  </h4>
-                  <h4><span class="ooty-price"></span> </h4>
+                <div class="price-row">
+                  <div class="price-left">
+                    <img src="assets/img/images/date.svg" alt="date-icon"> Customise it!
+                  </div>
+                  <div class="price-right">
+                    <span class="sta">Starts at</span>
+                    <span class="price ooty-price"></span>
+                  </div>
                 </div>
               </div>
             </a>
@@ -2295,64 +2288,51 @@
         </div>
         <div class="col-12 col-lg-4 col-md-4">
           <div class="swiper-slide">
-            <a href="pondicherry"
-              style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/short-trip/Lead-Auroville.webp"
-                alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
+            <a href="pondicherry">
+              <img class="trips-page-images" src="assets/img/short-trip/Lead-Auroville.webp" alt="roamers-Gallery">
+              <div class="silder-inner">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
-                      alt="second location-icon"> EX : Direct, Chennai
-                  </h4>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="loc-icon"> EX : Direct, Chennai</h4>
                 </div>
-                <h2>Pondi Dive-in
-                </h2>
+                <h2>Pondi Dive-in</h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Pondicherry
-                  </p>
-                  <h4 class="sta">Starts at </h4>
+                  <p><img src="assets/img/images/loc.svg" alt="loc-icon">Pondicherry</p>
                 </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
-                      alt="second location-icon">
-                    <span class="pondi-dates">Nov
-                      24, Dec 09, 23 </span>
-                  </h4>
-                  <h4><span class="pondi-price"></span> </h4>
+                <div class="price-row">
+                  <div class="price-left">
+                    <img src="assets/img/images/date.svg" alt="date-icon"> Customise it!
+                  </div>
+                  <div class="price-right">
+                    <span class="sta">Starts at</span>
+                    <span class="price pondi-price"></span>
+                  </div>
                 </div>
               </div>
             </a>
           </div>
         </div>
-        <div class="col-12 col-lg-4 col-md-4 mt-5">
+        <div class="col-12 col-lg-4 col-md-4">
           <div class="swiper-slide">
-            <a href="#home-form"
-              style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/Kerala/goa-cover.jpeg"
-                alt="roamers-Gallery">
-              <div class="silder-inner silder-inner1">
+            <a href="#home-form">
+              <img class="trips-page-images" src="assets/img/Kerala/goa-cover.jpeg" alt="roamers-Gallery">
+              <div class="silder-inner">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
-                      alt="second location-icon">EX : Direct, Bangalore
-                  </h4>
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" alt="loc-icon"> EX : Direct, Bangalore</h4>
                 </div>
-                <h2>Goa Escape
-                </h2>
+                <h2>Goa Escape</h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">North Goa,
-                    South Goa </p>
-                  <h4 class="sta">Starts at </h4>
+                  <p><img src="assets/img/images/loc.svg" alt="loc-icon">North Goa, South Goa </p>
                 </div>
-
-                <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
-                      alt="second location-icon">
-                    <span class="goa-dates">Opens Soon</span>
-                  </h4>
-                  <h4><span class="goa-price"></span> </h4>
+                <div class="price-row">
+                  <div class="price-left">
+                    <img src="assets/img/images/date.svg" alt="date-icon"> Customise it!
+                  </div>
+                  <div class="price-right">
+                    <span class="sta">Starts at</span>
+                    <span class="price goa-price"></span>
+                  </div>
                 </div>
               </div>
             </a>
@@ -2364,27 +2344,27 @@
     <div style="margin-bottom: 6rem;" class="container mt-5">
       <div class="row">
         <div class="col-12 col-lg-4 col-md-4">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1 ">
             <a href="kolukkumalai-trek">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/munnar/Cover.jpg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/munnar/Cover.jpg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>2 DAYS / 1 NIGHT</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX :Direct, Chennai
                   </h4>
                 </div>
                 <h2>Munnar with Kolukkumalai
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Kolukkumalai,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Kolukkumalai,
                     Munnar </p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="munnar-dates">Jan
                       12, Feb 16 </span>
@@ -2397,27 +2377,27 @@
         </div>
 
         <div class="col-12 col-lg-4 col-md-4">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="wayanad">
               <!-- <img class="new-year" src="assets/img/bg/Pongal-gif.gif" alt=""> -->
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/bg/waya-cover.jpg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/bg/waya-cover.jpg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX: Direct, Chennai
                   </h4>
                 </div>
                 <h2>Wonders of Wayanad
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Wayanad</p>
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Wayanad</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="wayanad-dates"> Jan 12 </span>
                   </h4>
@@ -2431,26 +2411,26 @@
         <!-- <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal">
-                <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kodaikanal/perumal-peak.jpg"
+                <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kodaikanal/perumal-peak.jpg"
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
                   <div class="inner inner2">
                     <h3>3 DAYS / 2 NIGHTS</h3>
-                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                    <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                         alt="second location-icon">EX: Chennai
                     </h4>
                   </div>
                   <h2>Kodaikanal Trek with Poombarai
                   </h2>
                   <div class="inner">
-                    <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Perumal
+                    <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Perumal
                       peak, Vattakanal, Poombarai
                     </p>
                     <h4 class="sta">Starts at </h4>
                   </div>
 
                   <div class="inner">
-                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                    <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                         alt="second location-icon">
                       <span class="kodai-dates">Jan
                         26, Feb 10 </span>
@@ -2463,27 +2443,27 @@
           </div> -->
 
         <div class="col-12 col-lg-4 col-md-6 mt-5">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="kolukkumalai-trek"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kolukkumalai-img/2.jpg"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kolukkumalai-img/2.jpg"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX:Direct, Chennai
                   </h4>
                 </div>
                 <h2>Munnar with Kolukkumalai
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Munnar</p>
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Munnar</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="munnar-dates">Jan
                       12, Feb 16 </span>
@@ -2496,28 +2476,28 @@
         </div>
 
         <div class="col-12 col-lg-4 col-md-6 mt-5">
-          <div class="swiper-slide">
+          <div class="swiper-slide p-md-2 p-1">
             <a href="chikmagalur"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
-              <img class="trips-page-images" style="border-radius:16px;" src="assets/img/testimonials/chikmagalur.avif"
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/testimonials/chikmagalur.avif"
                 alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
-                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:16px;"
+                  <h4><img src="assets/img/images/loc1.svg" class="exicon" style="border-radius:20px !important;"
                       alt="second location-icon">EX : Bangalore
                   </h4>
                 </div>
                 <h2>Chikmagalur Trek
                 </h2>
                 <div class="inner">
-                  <p><img src="assets/img/images/loc.svg" style="border-radius:16px;" alt="location-icon">Chikmagalur,
+                  <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Chikmagalur,
                     Z point, Hebbe Falls</p>
                   <h4 class="sta">Starts at </h4>
                 </div>
 
                 <div class="inner">
-                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:16px;"
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
                       alt="second location-icon">
                     <span class="chik-dates"> Dec
                       15 </span>
@@ -2664,7 +2644,7 @@
                       </div>
                     </div>
                   </div>
-                  <a href="events-nov-26.php" target="_blank" class="event-view">Register</a>
+                  <a href="events-nov-26.php" class="event-view">Register</a>
                 </div>
               </div>
               <!-- Event Card 3  -->
@@ -2700,7 +2680,7 @@
                       </div>
                     </div>
                   </div>
-                  <a href="events-nov-1.php" target="_blank" class="event-view">Register</a>
+                  <a href="events-nov-1.php" class="event-view">Register</a>
                 </div>
               </div>
             </div>

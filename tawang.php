@@ -7,22 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta property="og:image:secure_url" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif"
     width="600" height="600" alt="image for ooty" />
-  <title>Roamers - Tawang Group Trip</title>
+  <title>Roamers - The Tawang Escape</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers -Tawang Group Trip" />
+  <meta name="description" content="Roamers -The Tawang Escape" />
   <meta name="author" content="Themeland" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Tawang Group Trip" />
+  <meta property="og:title" content="Roamers - The Tawang Escape" />
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif" />
   <meta property="og:url" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Tawang Group Trip" />
+  <meta name="twitter:title" content="Roamers - The Tawang Escape" />
   <meta name="twitter:description"
     content="Join our Tawang group trip for an unforgettable beach adventure, curated experiences, and new friendships." />
   <meta name="twitter:image" content="https://www.roamers.in/assets/img/tawang/cards/up-comming-card.avif" />
@@ -84,8 +84,8 @@
 
 
   <!-- Banner -->
-  <section class="trip-home" class="banner-marigin-section" id="tripSection"
-    style="  padding: 350px 0; color: white; position: relative;  ">
+  <section class="trip-home banner-marigin-section" id="tripSection"
+    style="padding: 390px 0; color: white; position: relative;">
 
 
 
@@ -96,34 +96,48 @@
         The Tawang Escape
       </h2>
 
-      <ul class="banner-hight-bottom p-0"
-        style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
-        <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
-
-          <span class="ms-2">
-            <span>
-            </span>
+      <!-- <ul class="banner-hight-bottom p-0"
+        style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center;">
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Bumla Pass<span class="ms-2">|</span>
         </li>
-
-        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Madhuri Lake<span class="ms-2">|</span>
         </li>
-        <li class="mobile-small-text  me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Giant Buddha Statue<span class="ms-2">|</span>
         </li>
-        <li class="mobile-small-text  me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Sangti Valley<span class="ms-2">|</span>
         </li>
-        <li class="mobile-small-text me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Tawang Monastery<span class="ms-2">|</span>
         </li>
-        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Tawang Chagzam Bridge<span class="ms-2">|</span>
         </li>
-      </ul>
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Sela Pass<span class="ms-2">|</span>
+        </li>
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Tawang War Memorial<span class="ms-2">|</span>
+        </li>
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Nuranang Waterfalls<span class="ms-2">|</span>
+        </li>
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Jaswant Garh War Memorial<span class="ms-2">|</span>
+        </li>
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Tipi Orchid Research Center<span class="ms-2">|</span>
+        </li>
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Bomdila Monastery<span class="ms-2">|</span>
+        </li>
+        <li class="me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800; margin-bottom: 5px;">
+          Kaziranga National Park
+        </li>
+      </ul> -->
 
       <!-- this is the dot pagination for the slider -->
       <div id="dotPagination">
@@ -403,15 +417,14 @@
             </h3>
             <div class="">
               <div class="accordion" id="accordionExample">
-
                 <!-- Day 1 -->
-                <div class="accordion-item mb-4 border-0 overflow-hidden ">
+                <div class="accordion-item mb-4 border overflow-hidden rounded-4">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                      Guwahati Arrival → Drive to Bhalukpong (220 km | 6 hrs)
+                      Arrival in Guwahati → Transfer to Bomdila (256 km | 7 hrs)
 
                     </button>
                   </h2>
@@ -424,26 +437,25 @@
                       <ul>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Arrive at Guwahati Airport / Railway Station.</li>
-
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Meet your Roamers trip captain, fellow travellers. Quick briefing, intros & we roll.</li>
-
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> If
-                          time permits, we visit the sacred Kamakhya Temple for a powerful start to the journey.</li>
-
+                          Meet and greet by a Roamers representative & your Travel Squad</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let’s start our journey towards Bhalukpong, the official gateway to Arunachal Pradesh.</li>
-
+                          By 10 am, arrive at the meetup point near airport and by 11 am sharp we will start our Journey
+                        </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Complete Inner Line Permit formalities and we continue the scenic drive.</li>
-
+                          Drive towards Bhalukpong, the entry point of Arunachal Pradesh and complete inner line permit
+                          formalities</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Check in to your hotel and spend time in Leisure with fellow Roamers, a night of games, music,
-                          laughter, bonding and whatnot?</li>
-
+                          Enjoy your drive to Bomdila with stunning mountain views, landscapes, and forested stretches.
+                        </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let’s Savour Delish Dinner & overnight stay in Bhalukpong.</li>
-
+                          En route, you will witness the beautiful Kameng River, perfect views to capture.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Arrive and check in at the hotel in Bomdila by late evening</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Indulge in Group Dinner, night full of games, music, stories & laughter</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Bomdila.</li>
                       </ul>
 
                     </div>
@@ -459,7 +471,7 @@
                       data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 2</span>
-                      Bhalukpong → Dirang (146 km | 5 hrs)
+                      Bomdila → Tawang (146 km | 5–6 hrs)
 
                     </button>
 
@@ -471,25 +483,22 @@
                     <div class="accordion-body bg-light">
 
                       <ul>
-
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Wake up to the good day, with good breakfast and a good journey ahead!</li>
-
+                          Wake up to a delightful morning and enjoy breakfast.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Enjoy your drive to Dirang with stunning mountain views and forested stretches.</li>
-
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> En
-                          route, we’ll witness the charming Kameng River, perfect views to capture</li>
-
+                          Check out and let's make our first stop to Bomdila Monastery and we'll continue our journey
+                          towards Tawang.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Arrive in Dirang, let’s check-in our Hotel & unwind</li>
-
+                          Stop at the breathtaking Sela Pass, one of the highest motorable passes (13,700 ft) Feel the
+                          thrill.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Evening at leisure with Team, time for slow walks, local cafés or just unwind</li>
-
+                          Let's pause at the prettiest lake, Sela Lake. Time to take those instagrammable shots :)</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Group Dinner & Overnight stay in Dirang.</li>
-
+                          Next, let's visit Jaswantgarh War Memorial.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Arrive in Tawang by evening and check in to your Hotel and savour delish dinner</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in beautiful Tawang.</li>
                       </ul>
 
                     </div>
@@ -507,7 +516,7 @@
                       data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 3</span>
-                      Dirang → Tawang (130 km | 6–7 hrs)
+                      Tawang Local Sightseeing
 
                     </button>
 
@@ -519,29 +528,16 @@
                     <div class="accordion-body bg-light">
 
                       <ul>
-
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After breakfast, we’ll continue journey towards our beloved Tawang.</li>
-
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> On
-                          the way, short halt at the natural hot springs, known for its medicinal properties.</li>
-
+                          After breakfast, visit the magnificent Tawang Monastery.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Finally, let’s Cross the iconic Sela Pass (13,700 ft) one of the highest motorable passes in
-                          India.</li>
-
+                          Up next, we'll head to iconic Tawang Giant Buddha</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Enroute we’ll stop at Jaswantgarh War Memorial, a place that carries real history.</li>
-
+                          Visit the Tawang Chakzam Bridge & Hot Springs</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Then let’s visit Nuranang Falls, a fascinating waterfalls around Tawang.</li>
-
+                          Explore Tawang Old & New market to get Souvenirs to your loved ones</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Arrive in Tawang by evening. Check in and rest Roamers! Acclimatization matters!</li>
-
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let’s savour dinner with team & followed by an overnight stay in Tawang.</li>
-
+                          Overnight stay in Tawang</li>
                       </ul>
 
                     </div>
@@ -559,7 +555,7 @@
                       data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 4</span>
-                      Tawang + Bumla Pass Excursion
+                      Tawang – Bumla Pass Excursion
 
                     </button>
 
@@ -571,28 +567,18 @@
                     <div class="accordion-body bg-light">
 
                       <ul>
-
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Early breakfast and we’ll proceed for the Bumla excursion (subject to permits & weather).</li>
-
+                          Early breakfast and proceed for the Bumla excursion (subject to permits & weather).</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let’s begin our drive to Bumla Pass, near the Indo-China border.</li>
-
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> Our
-                          quick stop at PT Tso Lake en route.</li>
-
+                          Drive to Bumla Pass near the Indo China border.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next up, we’ll visit the surreal Sangetsar Lake (Madhuri Lake).</li>
-
+                          Visit PT Tso Lake en route.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Expect rough roads, dramatic landscapes, and serious mountain energy Roamers!</li>
-
+                          Explore the serene Sangetsar Lake (Madhuri Lake).</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Return to Tawang by evening. Time to relax, warm up, and unwind!</li>
-
+                          Return to Tawang by evening.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Good food, some chats, then we switch off, overnight stay in Tawang.</li>
-
+                          Overnight stay in Tawang.</li>
                       </ul>
 
                     </div>
@@ -610,7 +596,7 @@
                       data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 5</span>
-                      Tawang → Sangti Valley (via Dirang) (165 km | 6–7 hrs)
+                      Tawang → Sangti Valley (via Dirang) (165 km approx | 6 hrs)
 
                     </button>
 
@@ -622,30 +608,21 @@
                     <div class="accordion-body bg-light">
 
                       <ul>
-
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After breakfast, we’ll explore the majestic Tawang Monastery, the largest monastery in India.
-                        </li>
-
+                          Rise & Shine team, let's savour delish Breakfast & kickstart our journey</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next, let's visit the Tawang War Memorial.</li>
-
+                          Begin your drive towards India's beautiful Valley, Sangti Valley via Dirang.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Further, we’ll begin our descent towards Sangti Valley via Dirang.</li>
-
+                          Enjoy scenic valley views and stop by to visit enchanting Nuranang waterfall (Jang falls)</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Scenic valley stretches and alpine landscapes all along the way!</li>
-
+                          Arrive in Sangti Valley and check in to your riverside/valley stay.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Arrive in Sangti Valley by evening, a serene place which was once in your dream!</li>
-
+                          Time to relax, go on a nature walk, enjoy sunset and relish local dinner and layback</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Check-in to your beautiful Riverside stay. Stargazing, comfort food & let’s lit the bonfire to
-                          make it more fantasy.</li>
-
+                          Let's lit the Bonfire, music and Dance under the stars, beside the mountains & river valley in
+                          front. Could you imagine the place?</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Overnight stay in the beautiful Sangti Valley.</li>
-
+                          Overnight stay in Riverside Sangti Valley.</li>
                       </ul>
 
                     </div>
@@ -663,7 +640,7 @@
                       data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 6</span>
-                      Sangti Valley → Tezpur (160 km | 5–6 hrs)
+                      Sangti Valley → Kaziranga (160 km approx | 5–6 hrs)
 
                     </button>
 
@@ -675,25 +652,18 @@
                     <div class="accordion-body bg-light">
 
                       <ul>
-
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Easy morning in the valley. enjoy riverside walks, Bird spotting!</li>
-
+                          After breakfast, enjoy a relaxed morning in Sangti Valley.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After breakfast, we start our drive towards Tezpur.</li>
-
+                          Start your drive towards Kaziranga</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let’s visit Famous Kiwi Garden & Sheep Farm nearby!</li>
-
+                          Visit the Sheep farm, Fruit Orchids (season based) in Sangti</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Arrive in Tezpur and let’s check in to our property.</li>
-                        <!-- 
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> If
-                          time permits, we can visit Maha Bhairab Temple by late eve Roamers!</li> -->
-
+                          Stop at Tipi Orchid Research Centre & if time permits visit Maha Bhairab Temple.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Indulge in Farewell Dinner with your lovely group & Overnight stay in Tezpur.</li>
-
+                          Arrive in Kaziranga by late evening and check in at the hotel.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Kaziranga.</li>
                       </ul>
 
                     </div>
@@ -711,7 +681,7 @@
                       data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 7</span>
-                      Tezpur → Guwahati | Departure (185 km | 4–5 hrs)
+                      Kaziranga → Guwahati | National Park Jeep Safari
 
                     </button>
 
@@ -723,20 +693,21 @@
                     <div class="accordion-body bg-light">
 
                       <ul>
-
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Group Breakfast. Bags all packed. Time for one last drive!</li>
-
+                          After breakfast, check out from the hotel.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Enroute, we can visit Maha Bhairab Temple Roamers!</li>
-
+                          Go on a Jeep Safari into Kaziranga's famous National Park</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After breakfast, we’ll finally drive back to Guwahati with memories & new friends who was
-                          strangers once.</li>
-
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> Bye
-                          Bye Roamers! More Hugs!</li>
-
+                          Thrilling ride into forest and witness rare animals like Rhino, Wild Elephants, animals like
+                          Tiger and more if we're lucky</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Begin your final journey back to Guwahati.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Drop at Guwahati Airport / Railway Station. (Shuttle Drop)</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          If time permits, visit the sacred Kamakhya Temple in Guwahati</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Goodbye Roamers, will see you soon. Bye bye more hugs!</li>
                       </ul>
 
                     </div>
@@ -762,7 +733,7 @@
                   </p>
 
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    12 Meals: Breakfast (Day 2 to Day 7) | Dinner (Day 1 to Day 6) Including Farewell Dinner
+                    10 Meals: Breakfast (Day 2 to Day 7) | Dinner (Day 1, Day 2, Day 5, Day 6) Including Farewell Dinner
                   </p>
 
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
@@ -770,10 +741,11 @@
                   </p>
 
                   <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Fun &amp; Knowledgeable Trip Captain
+                    Fun & Knowledgeable Trip Captain
                   </p>
 
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
                     Local tax, tolls, parking, and driver allowances.
                   </p>
 
@@ -794,10 +766,6 @@
 
                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
                   Airfare/train tickets.
-                </p>
-
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Extra vehicle for Bumla Pass (&#8377;5,000 per vehicle &ndash; additional cost shared by the group).
                 </p>
 
                 <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
@@ -835,15 +803,13 @@
                   <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 30px;">
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
-                      <span class="old-price">
-                        <strike>₹25,999/-</strike>
-                      </span>
-                      <span class="tawang-price new-price"></span><span class="new-price">/-</span>
+                      <span class="tawang-price new-price" style="font-size:24px;">₹19,990</span><span
+                        class="new-price">/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="tawang-form.php" target="blank" class="btn butn butn__new bg-"
+                      <a href="tawang-form.php" class="btn butn butn__new bg-"
                         style="border-radius: 30px;">Dates
                         & Costing</a>
                     </div>
@@ -1099,12 +1065,24 @@
   </section>
 
   <!-- Mobile Price -->
+  <style>
+    .mobile-bottom-bar .btn-book {
+      background-color: #4ec0db !important;
+      color: #fff !important;
+      padding: 10px 20px !important;
+      border-radius: 50px !important;
+      font-size: 14px !important;
+      font-weight: 700 !important;
+      text-decoration: none !important;
+      display: inline-block !important;
+    }
+  </style>
   <div class="mobile-bottom-bar">
     <div class="bottom-bar-content">
-      <div class="price-box ">
+      <div class="price-box">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹22,499/-</span>
+          <span class="price-amount">₹19,990/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>

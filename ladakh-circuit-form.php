@@ -12,8 +12,7 @@ session_start();
     <meta property="og:image:secure_url" content="https://roamers.in/assets/img/ladakh/ladakh-img3.jpg" width="600"
         height="600" alt="image for ooty" />
     <title>Roamers - Ultimate Ladakh Circuit - 7 Days</title>
-
-    <!-- SEO Meta Description -->
+    <!--  SEO Meta Description -->
     <meta name="description" content="Roamers - Ultimate Ladakh Circuit - 7 Days" />
     <meta name="author" content="Themeland" />
     <meta property="og:image:width" content="700" />
@@ -973,23 +972,62 @@ session_start();
         }
 
         /* Custom table styles */
+        .custom-table {
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid #dee2e6;
+        }
+
         .custom-table thead {
             background-color: #4ec0db;
             color: #fff;
-
         }
 
         .custom-table th,
         .custom-table td {
+            padding: 15px 20px;
             vertical-align: middle;
-            text-align: center;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
+            border-bottom: 1px solid #dee2e6;
+            border-right: none;
         }
 
-        .custom-table tbody tr:nth-child(even) {
-            background-color: #f8f9fa;
-            border-radius: 8px;
+        .custom-table th:last-child,
+        .custom-table td:last-child {
+            border-right: none;
+        }
+
+        .custom-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .custom-table th {
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .custom-table td {
+            text-align: left;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .custom-table th:nth-child(2),
+        .custom-table td:nth-child(2),
+        .custom-table th:nth-child(3),
+        .custom-table td:nth-child(3) {
+            text-align: center;
+        }
+
+        .custom-table strike {
+            color: #333;
+            font-weight: 500;
+        }
+
+        .custom-table td:nth-child(3) {
+            font-weight: 600;
         }
 
         @media (max-width: 576px) {
@@ -1213,8 +1251,9 @@ session_start();
                                     <table class="table custom-table">
                                         <thead>
                                             <tr>
-                                                <th scope="col">Sharing</th>
-                                                <th scope="col">Offer Price</th>
+                                                <th scope="col">Mode of Transport</th>
+                                                <th scope="col">Selling Cost</th>
+                                                <th scope="col">Discounted Cost</th>
                                             </tr>
                                         </thead>
                                         <tbody id="costing-table-body">
@@ -1230,6 +1269,15 @@ session_start();
                                 <div class="justify-content-center starting-price-box px-3">
                                     <p id="starting-price" class="starting-price"></p>
                                 </div>
+
+                                <div class="mt-5">
+                                   <p> NOTE: INR 2,000/- extra per person for double sharing</p> <br>
+
+
+                                   <p> INR 5,000/- needs to be submitted as security for the bike before the start of the
+                                    trip. Any damage to the bike, except engine damage, has to be borne directly by the
+                                    client.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1242,13 +1290,13 @@ session_start();
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("./dynamic/varkala-data.json") // Check this path
+            fetch("./dynamic/database.json") // Check this path
                 .then(response => {
                     if (!response.ok) throw new Error("Network response was not ok");
                     return response.json();
                 })
                 .then(data => {
-                    const locationKey = "ladakh";
+                    const locationKey = "ladakh_circuit";
                     const locationData = data[locationKey];
 
 
@@ -1266,7 +1314,7 @@ session_start();
 
                     const startingPriceElem = document.getElementById("starting-price");
                     if (startingPriceElem) {
-                        startingPriceElem.textContent = `Starting Price: ₹29,990/- `;
+                        startingPriceElem.textContent = `Starting Price: ${locationData.costing.startingPrice}`;
                     } else {
                         console.warn("Element with id 'starting-price' not found.");
                     }
@@ -1284,7 +1332,8 @@ session_start();
                     locationData.costing.prices.forEach(price => {
                         rows += `<tr>
             <td>${price.sharing || "N/A"}</td>
-            <td>${price.offer || "N/A"} <strike style="margin-left:30px; color:#a3a3a3;"> ${price.mrp || "N/A"}</strike></td>
+            <td><strike> ${price.mrp || "N/A"}</strike></td>
+            <td>${price.offer || "N/A"}</td>
           </tr>`;
                     });
 
@@ -1461,10 +1510,10 @@ session_start();
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("./dynamic/varkala-data.json") // to change the price ... 
+            fetch("./dynamic/database.json") // to change the price ... 
                 .then(response => response.json())
                 .then(data => {
-                    const locationKey = "ladakh"; // Change to "ooty" if needed
+                    const locationKey = "ladakh_circuit"; // Change to "ooty" if needed
                     const locationData = data[locationKey];
 
                     if (!locationData) {
@@ -1611,7 +1660,7 @@ session_start();
   </script> -->
     <!-- Date populate -->
     <script>
-        fetch('./dynamic/varkala-data.json')
+        fetch('./dynamic/database.json')
             .then(response => response.json())
             .then(data => {
                 function populateDates(location) {
@@ -1639,7 +1688,7 @@ session_start();
 
 
                 // Example: Call the function for Varkala or Ooty
-                populateDates('valley'); // or populateDates('ooty');
+                populateDates('ladakh_circuit'); // or populateDates('ooty');
             })
             .catch(error => console.error('Error fetching data:', error));
     </script>

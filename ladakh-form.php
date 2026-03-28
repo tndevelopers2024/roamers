@@ -9,8 +9,8 @@ session_start();
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/ladakh/ladakh-img3.jpg" width="600" height="600"
-        alt="image for ooty" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/ladakh/ladakh-img3.jpg" width="600"
+        height="600" alt="image for ooty" />
     <title>Roamers - Ladakh </title>
 
     <!-- SEO Meta Description -->
@@ -20,16 +20,14 @@ session_start();
     <meta property="og:image:height" content="500" />
 
     <!-- Basic Open Graph tags -->
-      <meta property="og:title" content="Roamers - Ladakh" />
-    <meta property="og:description"
-        content="Discover the beauty of Ladakh with our detailed travel guide and tips." />
+    <meta property="og:title" content="Roamers - Ladakh" />
+    <meta property="og:description" content="Discover the beauty of Ladakh with our detailed travel guide and tips." />
     <meta property="og:image" content="https://roamers.in/assets/img/ladakh/ladakh-img3.jpg" />
     <meta property="og:url" content="https://roamers.in/assets/img/ladakh/ladakh-img3.jpg" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Roamers - Ladakh" />
-    <meta name="twitter:description"
-        content="Discover the beauty of Ladakh with our detailed travel guide and tips." />
+    <meta name="twitter:description" content="Discover the beauty of Ladakh with our detailed travel guide and tips." />
     <meta name="twitter:image" content="https://roamers.in/assets/img/ladakh/ladakh-img3.jpg" />
 
 
@@ -147,8 +145,6 @@ session_start();
 
 
     <style>
-
-
         .available-box {
             padding: 20px;
             /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
@@ -378,28 +374,11 @@ session_start();
             align-items: center
         }
 
-        /* 
-    .price-box .row {
-      margin-bottom: 10px;
-    }
-
-
-    .price-box {
-      padding-bottom: 10px;
-    } */
-
-
         .price-box h5,
         p,
         h4 {
             margin-bottom: 0px !important;
         }
-
-
-        /*.payment-banner {
-      margin-top: 100px
-    }*/
-
 
         .price-col {
             display: flex;
@@ -412,25 +391,6 @@ session_start();
             gap: 20px;
         }
 
-
-        /* .glowing-text {
-      color: green;
-      font-size: 15px;
-      font-weight: 600;
-      text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 10px #00ff00;
-      animation: glow 1.5s infinite alternate;
-    } */
-
-
-        /* .glowing-text{
-      font-size:16px !important;
-      background: #094067;
-      color:#fff;
-      position:absolute;
-      left: 10px;
-      top:-40px;
-      padding:3px 6px;
-    } */
         .glowing-text {
             font-size: 16px !important;
             background: #f857a6;
@@ -561,8 +521,6 @@ session_start();
             margin: 0;
         }
 
-
-        /* Hide number input arrows in Firefox */
         input[type="number"] {
             -moz-appearance: textfield;
         }
@@ -793,9 +751,6 @@ session_start();
         }
 
         @media (max-width: 600px) {
-            /* .payment-banner {
-        margin-top: 60px !important;
-      } */
 
             .starting-price-box {
                 display: flex;
@@ -818,10 +773,6 @@ session_start();
                 text-align: center !important;
             }
 
-
-            /* .available-box{
-        height:auto;
-      } */
             .available-box h3 {
                 text-align: center !important;
             }
@@ -831,12 +782,6 @@ session_start();
                 padding: 20px 10px !important;
                 height: 40vh;
             }
-
-
-            /* .price-box {
-        padding: 10px 10px !important;
-      } */
-
 
             .price-col p {
                 font-size: 12px !important;
@@ -1012,7 +957,6 @@ session_start();
 
 <body>
 
-
     <!--====== Preloader Area End ======-->
     <!--====== whatapp Area Start ======-->
 
@@ -1028,7 +972,7 @@ session_start();
     <!-- ***** Welcome Area Start ***** -->
     <div class="text-center mb-4">
         <h1 class="booking-form-head">
-        Ladakh</h1>
+            Ladakh</h1>
         <!-- <p>Explore the lush wonders of Sri Lanka's Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with vibrant biodiversity and tropical charm.
     </p> -->
     </div>
@@ -1038,7 +982,7 @@ session_start();
             <form action="ladakh-mail-send.php" method="POST" autocomplete="off">
                 <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
 
-                    <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
+                    <div class="col order-lg-1 order-2 p-3" style="border-radius:20px">
                         <div id="container" class="container" style="margin-top:30px;">
                             <div class="progress px-1" style="height: 3px;">
                                 <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
@@ -1189,19 +1133,17 @@ session_start();
                         </div>
                     </div>
 
-                    <div class="col order-lg-2 order-1 shadow-lg p-4" style="border-radius:20px">
+                    <div class="col order-lg-2 order-1 p-4" style="border-radius:20px">
                         <div class="row px-2 px-md-4">
                             <div class="package-info-box" style="border-radius: 10px; display: none;"
                                 id="selected-date-box">
-                                <div class="background-image shadow"></div>
+                                <div class="background-image "></div>
                                 <div class="blur-overlay">
                                     <div class="package-date">
                                         <div class="d-flex align-items-center justify-content-center border rounded">
-                                            <h5 class="text-white fw-bold py-2 me-2"
-                                                style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Your
+                                            <h5 class="text-white fw-bold py-2 me-2">Your
                                                 adventure starts : </h5>
-                                            <h5 class="fw-bold text-white"
-                                                style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);  border-radius: 5px;"
+                                            <h5 class="fw-bold text-white" style="border-radius: 5px;"
                                                 id="selected-package-date">Date Not selected</h5>
                                         </div>
                                     </div>
@@ -1220,6 +1162,7 @@ session_start();
                                                 <th scope="col">Sharing</th>
                                                 <th scope="col">Offer Price</th>
                                             </tr>
+
                                         </thead>
                                         <tbody id="costing-table-body">
                                             <!-- Example static row -->
@@ -1246,13 +1189,13 @@ session_start();
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("./dynamic/varkala-data.json") // Check this path
+            fetch("./dynamic/database.json") // Check this path
                 .then(response => {
                     if (!response.ok) throw new Error("Network response was not ok");
                     return response.json();
                 })
                 .then(data => {
-                    const locationKey = "ladakh";
+                    const locationKey = "ladakh_umingla";
                     const locationData = data[locationKey];
 
 
@@ -1270,7 +1213,7 @@ session_start();
 
                     const startingPriceElem = document.getElementById("starting-price");
                     if (startingPriceElem) {
-                        startingPriceElem.textContent = `Starting Price: ₹29,990/- `;
+                        startingPriceElem.textContent = `Starting Price: ₹24,990/- `;
                     } else {
                         console.warn("Element with id 'starting-price' not found.");
                     }
@@ -1465,10 +1408,10 @@ session_start();
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("./dynamic/varkala-data.json") // to change the price ... 
+            fetch("./dynamic/database.json") // to change the price ... 
                 .then(response => response.json())
                 .then(data => {
-                    const locationKey = "ladakh"; // Change to "ooty" if needed
+                    const locationKey = "ladakh_umingla"; // Change to "ooty" if needed
                     const locationData = data[locationKey];
 
                     if (!locationData) {
@@ -1615,7 +1558,7 @@ session_start();
   </script> -->
     <!-- Date populate -->
     <script>
-        fetch('./dynamic/varkala-data.json')
+        fetch('./dynamic/database.json')
             .then(response => response.json())
             .then(data => {
                 function populateDates(location) {
@@ -1643,7 +1586,7 @@ session_start();
 
 
                 // Example: Call the function for Varkala or Ooty
-                populateDates('valley'); // or populateDates('ooty');
+                populateDates('ladakh_umingla'); // or populateDates('ooty');
             })
             .catch(error => console.error('Error fetching data:', error));
     </script>
@@ -1778,7 +1721,7 @@ session_start();
                     if (sharing === "Triple Sharing") {
                         perPersonAmount = 29990;
                     } else if (sharing === "Double Sharing") {
-                        perPersonAmount = 32990 ;
+                        perPersonAmount = 32990;
                     }
 
 

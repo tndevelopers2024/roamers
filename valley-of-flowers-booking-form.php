@@ -142,8 +142,6 @@ session_start();
 
 
   <style>
-
-
     .available-box {
       padding: 20px;
       /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
@@ -265,6 +263,7 @@ session_start();
 
     /* Mobile optimization */
     @media (max-width: 768px) {
+
       .costing-table th,
       .costing-table td {
         font-size: 14px;
@@ -304,6 +303,7 @@ session_start();
     }
 
     @media (max-width: 576px) {
+
       .costing-table th,
       .costing-table td {
         font-size: 12px;
@@ -989,7 +989,8 @@ session_start();
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
             <div id="container" class="container" style="margin-top:30px;">
               <div class="progress px-1" style="height: 3px;">
-                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                  aria-valuemax="100"></div>
               </div>
               <div class="step-container d-flex justify-content-between">
                 <div class="step-circle" onclick="displayStep(1)">1</div>
@@ -1021,7 +1022,8 @@ session_start();
                       <div class="row row-cols-1 g-3">
                         <div class="col">
                           <div class="input-field">
-                            <input type="text" id="name" placeholder="Full Name" name="name" autocomplete="off" required>
+                            <input type="text" id="name" placeholder="Full Name" name="name" autocomplete="off"
+                              required>
                           </div>
                         </div>
                         <div class="col">
@@ -1031,8 +1033,8 @@ session_start();
                         </div>
                         <div class="col">
                           <div class="input-field">
-                            <input type="number" class="phone" id="phone" name="phone" placeholder="Phone Number" required
-                              oninput="this.value = this.value.slice(0, 10).replace(/[^0-9]/g, '');">
+                            <input type="number" class="phone" id="phone" name="phone" placeholder="Phone Number"
+                              required oninput="this.value = this.value.slice(0, 10).replace(/[^0-9]/g, '');">
                           </div>
                         </div>
                         <span class="span mt-5">Date Of Birth</span>
@@ -1049,16 +1051,21 @@ session_start();
                         <div class="col">
                           <span class="span mt-5">Gender</span>
 
-                          <div class="radio-item"><input name="gender" id="radio1" type="radio" value="Male"><label for="radio1">Male</label></div>
-                          <div class="radio-item"><input name="gender" id="radio2" type="radio" value="Female"><label for="radio2">Female</label></div>
-                          <div class="radio-item"><input name="gender" id="radio3" type="radio" value="Others"><label for="radio3">Others</label></div>
+                          <div class="radio-item"><input name="gender" id="radio1" type="radio" value="Male"><label
+                              for="radio1">Male</label></div>
+                          <div class="radio-item"><input name="gender" id="radio2" type="radio" value="Female"><label
+                              for="radio2">Female</label></div>
+                          <div class="radio-item"><input name="gender" id="radio3" type="radio" value="Others"><label
+                              for="radio3">Others</label></div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
                           <span class="span mt-5">Sharing</span>
-                          <div class="radio-item"><input name="sharing" id="radio4" type="radio" value="Double Sharing"><label for="radio4">Double Sharing</label></div>
-                          <div class="radio-item"><input name="sharing" id="radio5" type="radio" value="Triple Sharing"><label for="radio5">Triple Sharing</label></div>
+                          <div class="radio-item"><input name="sharing" id="radio4" type="radio"
+                              value="Double Sharing"><label for="radio4">Double Sharing</label></div>
+                          <div class="radio-item"><input name="sharing" id="radio5" type="radio"
+                              value="Triple Sharing"><label for="radio5">Triple Sharing</label></div>
                         </div>
                       </div>
                       <div class="row">
@@ -1074,7 +1081,8 @@ session_start();
                         </div>
                       </div>
                       <div class="input-field mt-4">
-                        <input type="number" id="traveller-count" name="person-count" placeholder="Traveller Count" min="1" required>
+                        <input type="number" id="traveller-count" name="person-count" placeholder="Traveller Count"
+                          min="1" required>
                         <span class="span mt-5">PickUp & Drop Location</span>
                         <div class="input-field mt-4">
                           <select id="pickup" name="pickup" class="form-select mt-4" required>
@@ -1097,7 +1105,8 @@ session_start();
                           </div>
                           <div class="col">
                             <div class="input-field">
-                              <input type="text" placeholder="Post Code" name="post-code" required oninput="this.value = this.value.slice(0, 6).replace(/[^0-9]/g, '');">
+                              <input type="text" placeholder="Post Code" name="post-code" required
+                                oninput="this.value = this.value.slice(0, 6).replace(/[^0-9]/g, '');">
                             </div>
                           </div>
                         </div>
@@ -1158,8 +1167,8 @@ session_start();
   </section>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      fetch("./dynamic/varkala-data.json") // Check this path
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch("./dynamic/database.json") // Check this path
         .then(response => {
           if (!response.ok) throw new Error("Network response was not ok");
           return response.json();
@@ -1377,8 +1386,8 @@ session_start();
 
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      fetch("./dynamic/varkala-data.json")
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch("./dynamic/database.json")
         .then(response => response.json())
         .then(data => {
           const locationKey = "valley"; // Change to "ooty" if needed
@@ -1528,7 +1537,7 @@ session_start();
   </script> -->
   <!-- Date populate -->
   <script>
-    fetch('./dynamic/varkala-data.json')
+    fetch('./dynamic/database.json')
       .then(response => response.json())
       .then(data => {
         function populateDates(location) {
@@ -1823,7 +1832,8 @@ session_start();
 
   <script src="assets/js/dates.js"></script>
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

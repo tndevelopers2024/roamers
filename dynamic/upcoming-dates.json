@@ -22,20 +22,29 @@
     "apr": {
         "meghalaya": "Apr 11",
         "andaman": "Apr 03,18",
-        "kolukkumalai-trek": "Apr 14"
+        "kolukkumalai-trek": "Apr 14",
+        "ooty": "Apr 25"
     },
-    "may": {},
-    "jun": {},
-    "jul": {},
+    "may": {
+        "ooty": "May 01, 15, 29"
+    },
+    "jun": {
+        "valley-of-flowers": "Jun 27",
+        "ooty": "Jun 12, 26"
+    },
+    "jul": {
+        "valley-of-flowers": "Jul 04, 11, 18, 25"
+    },
     "august": {
         "pondicherry": "Aug 16, 22",
-        "valley-of-flowers": "Aug 2, 15, 23, 29",
+        "valley-of-flowers": "Aug 01, 08, 15, 22, 29",
         "srilanka": "Aug 17",
         "varkala-grouptrip": "Aug 15, 29",
         "kolukkumalai-trek": "Sep 6, 19, 26",
         "andaman": "Customise it!"
     },
     "sep": {
+        "valley-of-flowers": "Sep 05",
         "kerala-onam": "Sep 4",
         "pondicherry": "Sep 20",
         "varkala-grouptrip": "Sep 12",

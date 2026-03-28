@@ -221,11 +221,11 @@
                     <div class="upcoming-price-section" style="margin: 0px 20px 20px 15px">
                         <div class="upcoming-dates" style="display: flex; align-items: center; justify-content: center; ">
                             <span class="icon" style="display: flex; align-items: center;"><img src="asstes\test\calander.png" alt="" style="margin-right: 5px;"></span>
-                            <span style="font-weight: 800;">May 10, 24, June 07, 21, 28, July 05,06, 12, 13, 18, 19</span>
+                            <span style="font-weight: 800;">Apr 25, May 01, 15, 29, Jun 12, 26</span>
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,499</div>
+                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,299</div>
                         </div>
                     </div>
                     <a href="#" class="upcoming-view">View Trip</a>
@@ -257,7 +257,7 @@
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,499</div>
+                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,299</div>
                         </div>
                     </div>
                     <a href="#" class="upcoming-view">View Trip</a>
@@ -289,7 +289,7 @@
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,499</div>
+                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,299</div>
                         </div>
                     </div>
                     <a href="#" class="upcoming-view">View Trip</a>
@@ -321,7 +321,7 @@
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,499</div>
+                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,299</div>
                         </div>
                     </div>
                     <a href="#" class="upcoming-view">View Trip</a>
@@ -353,7 +353,7 @@
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,499</div>
+                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,299</div>
                         </div>
                     </div>
                     <a href="#" class="upcoming-view">View Trip</a>
@@ -385,7 +385,7 @@
                         </div>
                         <div>
                             <div class="upcoming-starts">Starts</div>
-                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,499</div>
+                            <div class="upcoming-price" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">₹7,299</div>
                         </div>
                     </div>
                     <a href="#" class="upcoming-view">View Trip</a>

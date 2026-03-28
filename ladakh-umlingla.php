@@ -296,7 +296,7 @@
                     </div>
                     <div>
                       <div class="info-label">Starting Price</div>
-                      <div class="info-value "><span>₹29,990/-</span></div>
+                      <div class="info-value "><span>₹24,990/-</span></div>
                     </div>
                   </div>
                 </div>
@@ -1136,9 +1136,9 @@
                       <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                       <h5 class="special-offer">
                         <span class="old-price">
-                          <strike>₹ 30,000/-</strike>
+                          <strike>₹ 29,990/-</strike>
                         </span>
-                        <span class="new-price">₹29,990/-</span>
+                        <span class="new-price">₹24,990/-</span>
                       </h5>
 
                       <p>Perfect for group adventures and shared <br> memories.</p>
@@ -1373,7 +1373,7 @@
         <div class="price-box ">
           <h6 class="label">Starts at</h6>
           <div class="price-info">
-            <span class="price-amount ">₹29,990/-</span>
+            <span class="price-amount ">₹24,990/-</span>
             <span class="per-person">(Per Person)</span>
           </div>
         </div>

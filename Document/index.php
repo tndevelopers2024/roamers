@@ -1357,7 +1357,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
             "Message: " + mess + "%0a";
 
           // Open WhatsApp page
-          window.open(url, '_blank').focus();
+          window.open(url).focus();
         } else {
           // If required fields are not filled, you can display an alert or handle it in some way
           alert("Please fill in all required fields (Name, Email, and Phone Number).");

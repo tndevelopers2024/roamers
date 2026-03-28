@@ -133,7 +133,7 @@
                             "Message: " + mess
                         ].join("%0a");
                         var url = "https://wa.me/+918122121066?text=" + encodeURIComponent(params);
-                        var win = window.open(url, '_blank');
+                        var win = window.open(url);
                         if (win) {
                             win.focus();
                         }
@@ -2585,7 +2585,7 @@
             $trips_db = [
 
                 'tawang' => [
-                    'title' => 'TAWANG',
+                    'title' => 'THE TAWANG ESCAPE',
                     'image' => 'assets/img/tawang/cards/up-comming-card.avif',
                     'duration' => '7D/6N',
                     'location' => 'Ex: Guwahati',
@@ -2597,14 +2597,14 @@
                 ],
                 'leh-ladakh' => [
                     'title' => 'LEH-LADAKH',
-                    'image' => 'assets/img/ladakh/ladakh-mail.jpeg',
+                    'image' => 'assets/img/ladakh/card-image/ladakh-card-image.avif',
                     'duration' => '8D/7N',
                     'location' => 'Ex: Leh',
                     'places' => 'Leh-Ladakh',
                     'price' => '',
                     'price_class' => 'ladakh-umlingla-price',
                     'original_price' => '',
-                    'link' => 'ladakh-umlingla'
+                    'link' => 'ladakh-circuit'
                 ],
                 'meghalaya' => [
                     'title' => 'MAJESTIC MEGHALAYA',
@@ -2731,22 +2731,21 @@
             ];
             // Month schedules we have to add the trips here based on the month for the upcoming trips
             $month_schedules = [
-                'jan' => [
-                    ['trip_id' => 'meghalaya', 'dates' => 'Jan 14,24'],
-                    ['trip_id' => 'varkala', 'dates' => 'Jan 14,24'],
-                    ['trip_id' => 'andaman', 'dates' => 'Jan 14'],
-                    ['trip_id' => 'munnar', 'dates' => 'Jan 14'],
-                ],
-                'feb' => [
-                    ['trip_id' => 'meghalaya', 'dates' => 'Feb 14,19'],
-                    ['trip_id' => 'varkala', 'dates' => 'Feb 14,27'],
-                    ['trip_id' => 'andaman', 'dates' => 'Feb 14,28'],
-                    ['trip_id' => 'munnar', 'dates' => 'Feb 14'],
-                    ['trip_id' => 'ooty', 'dates' => 'Feb 14'],
-                ],
+                // 'jan' => [
+                //     ['trip_id' => 'meghalaya', 'dates' => 'Jan 14,24'],
+                //     ['trip_id' => 'varkala', 'dates' => 'Jan 14,24'],
+                //     ['trip_id' => 'andaman', 'dates' => 'Jan 14'],
+                //     ['trip_id' => 'munnar', 'dates' => 'Jan 14'],
+                // ],
+                // 'feb' => [
+                //     ['trip_id' => 'meghalaya', 'dates' => 'Feb 14,19'],
+                //     ['trip_id' => 'varkala', 'dates' => 'Feb 14,27'],
+                //     ['trip_id' => 'andaman', 'dates' => 'Feb 14,28'],
+                //     ['trip_id' => 'munnar', 'dates' => 'Feb 14'],
+                //     ['trip_id' => 'ooty', 'dates' => 'Feb 14'],
+                // ],
                 'mar' => [
-                    ['trip_id' => 'leh-ladakh', 'dates' => 'Mar 14,28'],
-                    ['trip_id' => 'tawang', 'dates' => 'Mar 14'],
+                    ['trip_id' => 'tawang', 'dates' => 'Mar 14, 20'],
                     ['trip_id' => 'meghalaya', 'dates' => 'Mar 21'],
                     ['trip_id' => 'varkala', 'dates' => 'Mar 13,27'],
                     ['trip_id' => 'andaman', 'dates' => 'Mar 21,28'],
@@ -2755,35 +2754,46 @@
                 ],
                 'apr' => [
                     // ['trip_id' => 'meghalaya', 'dates' => 'Apr 11'],
-                    ['trip_id' => 'leh-ladakh', 'dates' => 'Apr 11,25'],
                     ['trip_id' => 'tawang', 'dates' => 'Apr 03, 25'],
                     ['trip_id' => 'andaman', 'dates' => 'Apr 03,18'],
                     ['trip_id' => 'munnar', 'dates' => 'Apr 14'],
+                    ['trip_id' => 'ooty', 'dates' => 'Apr 25'],
                 ],
                 'may' => [
-                    ['trip_id' => 'tawang', 'dates' => 'May 23'],
+                    ['trip_id' => 'leh-ladakh', 'dates' => 'May 02, 09, 16, 23, 30'],
+                    ['trip_id' => 'tawang', 'dates' => 'May 01, 06'],
+                    ['trip_id' => 'ooty', 'dates' => 'May 01, 15, 29'],
                 ],
                 'jun' => [
-                    ['trip_id' => 'tawang', 'dates' => 'Jun 20'],
+                    ['trip_id' => 'leh-ladakh', 'dates' => 'Jun 06, 13, 20, 27'],
+                    ['trip_id' => 'tawang', 'dates' => 'Jun 20, 26'],
+                    ['trip_id' => 'valley', 'dates' => 'Jun 27'],
+                    ['trip_id' => 'ooty', 'dates' => 'Jun 12, 26'],
                 ],
-                'jul' => [],
+                'jul' => [
+                    ['trip_id' => 'leh-ladakh', 'dates' => 'Jul 04, 11, 18, 25'],
+                    ['trip_id' => 'valley', 'dates' => 'Jul 04, 11, 18, 25'],
+                ],
                 'august' => [
-                    ['trip_id' => 'pondi', 'dates' => 'Aug 16, 22'],
-                    ['trip_id' => 'valley', 'dates' => 'Aug 2, 15, 23, 29'],
-                    ['trip_id' => 'srilanka', 'dates' => 'Aug 17'],
-                    ['trip_id' => 'varkala', 'dates' => 'Aug 15, 29'],
-                    ['trip_id' => 'munnar', 'dates' => 'Sep 6, 19, 26'],
-                    ['trip_id' => 'andaman', 'dates' => 'Customise it!'],
+                    ['trip_id' => 'leh-ladakh', 'dates' => 'Aug 01, 08, 15, 22, 29'],
+                    ['trip_id' => 'valley', 'dates' => 'Aug 01, 08, 15, 22, 29'],
+                    // ['trip_id' => 'pondi', 'dates' => 'Aug 16, 22'],
+                    // ['trip_id' => 'srilanka', 'dates' => 'Aug 17'],
+                    // ['trip_id' => 'varkala', 'dates' => 'Aug 15, 29'],
+                    // ['trip_id' => 'munnar', 'dates' => 'Sep 6, 19, 26'],
+                    // ['trip_id' => 'andaman', 'dates' => 'Customise it!'],
                 ],
                 'sep' => [
-                    ['trip_id' => 'kerala_onam', 'dates' => 'Sep 4'],
-                    ['trip_id' => 'pondi', 'dates' => 'Sep 20'],
-                    ['trip_id' => 'varkala', 'dates' => 'Sep 12'],
-                    ['trip_id' => 'meghalaya', 'dates' => 'Sep 20'],
-                    ['trip_id' => 'chikmagalur', 'dates' => 'Sep 6'],
-                    ['trip_id' => 'munnar', 'dates' => 'Sep 26'],
-                    ['trip_id' => 'srilanka', 'dates' => 'Sep 6'],
-                    ['trip_id' => 'wayanad', 'dates' => ''],
+                    ['trip_id' => 'leh-ladakh', 'dates' => 'Sep 05, 12, 19, 26'],
+                    ['trip_id' => 'valley', 'dates' => 'Sep 05'],
+                    // ['trip_id' => 'kerala_onam', 'dates' => 'Sep 4'],
+                    // ['trip_id' => 'pondi', 'dates' => 'Sep 20'],
+                    // ['trip_id' => 'varkala', 'dates' => 'Sep 12'],
+                    // ['trip_id' => 'meghalaya', 'dates' => 'Sep 20'],
+                    // ['trip_id' => 'chikmagalur', 'dates' => 'Sep 6'],
+                    // ['trip_id' => 'munnar', 'dates' => 'Sep 26'],
+                    // ['trip_id' => 'srilanka', 'dates' => 'Sep 6'],
+                    // ['trip_id' => 'wayanad', 'dates' => ''],
                 ],
                 'oct' => [
                     ['trip_id' => 'munnar', 'dates' => 'Sep 26'],
@@ -2812,15 +2822,15 @@
             ];
             // Months config we have to add the months here for the upcoming trips
             $months_config = [
-                'jan' => ['name' => 'January', 'icon' => 'fa-snowflake'],
-                'feb' => ['name' => 'February', 'icon' => 'fa-heart'],
-                'mar' => ['name' => 'March', 'icon' => 'fa-sun'],
+                // 'jan' => ['name' => 'January', 'icon' => 'fa-snowflake'],
+                // 'feb' => ['name' => 'February', 'icon' => 'fa-heart'],
+                // 'mar' => ['name' => 'March', 'icon' => 'fa-sun'],
                 'apr' => ['name' => 'April', 'icon' => 'fa-cloud-sun'],
                 'may' => ['name' => 'May', 'icon' => 'fa-sun'],
                 'jun' => ['name' => 'June', 'icon' => 'fa-cloud-sun-rain'],
                 'jul' => ['name' => 'July', 'icon' => 'fa-cloud-showers-heavy'],
-                // 'august' => ['name' => 'August', 'icon' => 'fa-cloud-sun'],
-                // 'sep' => ['name' => 'September', 'icon' => 'fa-cloud-sun-rain'],
+                'august' => ['name' => 'August', 'icon' => 'fa-cloud-sun'],
+                'sep' => ['name' => 'September', 'icon' => 'fa-cloud-sun-rain'],
                 // 'oct' => ['name' => 'October', 'icon' => 'fa-cloud-showers-heavy'],
                 // 'nov' => ['name' => 'November', 'icon' => 'fa-cloud-bolt'],
                 // 'dec' => ['name' => 'December', 'icon' => 'fa-cloud-sun'],
@@ -2837,7 +2847,7 @@
                 <div class="upcoming-tabs" id="upcoming-tabs">
                     <?php
                     foreach ($months_config as $key => $config):
-                        $isActive = ($key === 'feb') ? 'active' : '';
+                        $isActive = ($key === 'apr') ? 'active' : '';
                         ?>
                         <button class="upcoming-tab-btn <?php echo $isActive; ?>" data-tab="<?php echo $key; ?>">
                             <span class="tab-icon"><i class="fa-solid <?php echo $config['icon']; ?>"></i></span>
@@ -2856,7 +2866,7 @@
                 <!-- Tab Contents -->
                 <?php
                 foreach ($months_config as $key => $config):
-                    $isActive = ($key === 'feb') ? 'active' : '';
+                    $isActive = ($key === 'apr') ? 'active' : '';
                     ?>
                     <div class="upcoming-tab-content <?php echo $isActive; ?>" id="tab-<?php echo $key; ?>">
                         <div class="upcoming-slider-wrapper">

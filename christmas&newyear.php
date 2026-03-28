@@ -385,7 +385,7 @@
 
     <div class="d-flex flex-wrap justify-content-center align-items-center m-0 p-0">
       <!-- SPITI WINTER EXPEDITION -->
-      <div class="upcoming-card mt-3" onclick="window.open('spitivalley-winter-christmas&newyear.php','_blank')"
+      <div class="upcoming-card mt-3" onclick="window.open('spitivalley-winter-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -412,11 +412,11 @@
               <div class="upcoming-price">₹21,990 /-</div>
             </div>
           </div>
-          <a href="spitivalley-winter-christmas-new-year.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="spitivalley-winter-christmas-new-year.php" class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- MEGHALAYA -->
-      <div class="upcoming-card mt-3" onclick="window.open('meghalaya-christmas-new-year.php','_blank')"
+      <div class="upcoming-card mt-3" onclick="window.open('meghalaya-christmas-new-year.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -443,11 +443,11 @@
               <div class="upcoming-price">₹21,990/-</div>
             </div>
           </div>
-          <a href="meghalaya-christmas-new-year.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="meghalaya-christmas-new-year.php"  class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- CHIKMAGALUR -->
-      <div class="upcoming-card mt-3" onclick="window.open('chikmagalur-christmas&newyear.php','_blank') "
+      <div class="upcoming-card mt-3" onclick="window.open('chikmagalur-christmas&newyear.php') "
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -474,11 +474,11 @@
               <div class="upcoming-price">₹9,499/-</div>
             </div>
           </div>
-          <a href="chikmagalur-christmas-new-year.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="chikmagalur-christmas-new-year.php" class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- KERALA -->
-      <div class="upcoming-card mt-3" onclick="window.open('kerala-chritsmas&newyear.php','_blank')"
+      <div class="upcoming-card mt-3" onclick="window.open('kerala-chritsmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -505,11 +505,11 @@
               <div class="upcoming-price">₹16,990/-</div>
             </div>
           </div>
-          <a href="kerala-chritsmas-newyear.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="kerala-chritsmas-newyear.php"  class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- Kodaikanal -->
-      <div class="upcoming-card mt-5" onclick="window.open('kodaikanal1-christmas&newyear.php','_blank')"
+      <div class="upcoming-card mt-5" onclick="window.open('kodaikanal1-christmas&newyear.php')"
         style="cursor:pointer">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -536,11 +536,11 @@
               <div class="upcoming-price kodaikanal-price">₹9,990/-</div>
             </div>
           </div>
-          <a href="kodaikanal1-christmas-new-year.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="kodaikanal1-christmas-new-year.php"  class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- Wayanad Card -->
-      <div class="upcoming-card mt-5" onclick="window.open('wayanad-christmas&newyear.php','_blank')"
+      <div class="upcoming-card mt-5" onclick="window.open('wayanad-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -567,7 +567,7 @@
               <div class="upcoming-price">₹9,499/-</div>
             </div>
           </div>
-          <a href="wayanad-christmas-newyear.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="wayanad-christmas-newyear.php"  class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- Ooty Card -->
@@ -597,7 +597,7 @@
               <div class="upcoming-price">₹9,499/-</div>
             </div>
           </div>
-          <a href="ooty-christmas&newyear-special.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="ooty-christmas&newyear-special.php"  class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- Pondi Dive-in -->
@@ -631,7 +631,7 @@
         </div>
       </div>
       <!-- Sri Lanka -->
-      <div class="upcoming-card mt-5" onclick="window.open('srilanka-christmas&newyear.php','_blank')"
+      <div class="upcoming-card mt-5" onclick="window.open('srilanka-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -658,11 +658,11 @@
               <div class="upcoming-price">₹43,999</div>
             </div>
           </div>
-          <a href="srilanka-christmas&newyear-special.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="srilanka-christmas&newyear-special.php"  class="upcoming-view">View Trip</a>
         </div>
       </div>
       <!-- Andaman Island Hopping -->
-      <div class="upcoming-card mt-5" onclick="window.open('andaman-christmas&newyear.php','_blank')"
+      <div class="upcoming-card mt-5" onclick="window.open('andaman-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -689,7 +689,7 @@
               <div class="upcoming-price andaman-price"></div>
             </div>
           </div>
-          <a href="andaman-christmas&newyear.php" target="_blank" class="upcoming-view">View Trip</a>
+          <a href="andaman-christmas&newyear.php"  class="upcoming-view">View Trip</a>
         </div>
       </div>
     </div>
@@ -882,7 +882,7 @@
   </footer>
 
   <!-- WhatsApp Button -->
-    <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1" target="_blank" aria-label="Chat on WhatsApp">
+    <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1" aria-label="Chat on WhatsApp">
       <img src="assets/img/icon/whatsapp.svg" alt="WhatsApp">
     </a>
 

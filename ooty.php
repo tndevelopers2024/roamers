@@ -59,7 +59,6 @@
   <!-- Whats app  -->
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
 
-  <!-- Header -->
   <header>
     <?php include('includes/header.php'); ?>
   </header>
@@ -74,14 +73,14 @@
 
       <div class="container-lg" style="position: relative; text-align: center;">
 
-        <h2 class="banner-hight-top ms-2"
+        <h2 class="banner-hight-top"
           style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
           OOTY THE QUEEN OF HILLS
         </h2>
 
         <ul class="banner-hight-bottom p-0"
           style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
-          <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
+          <li class="mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
 
             <span class="ms-2">
               <span>
@@ -606,7 +605,7 @@
 
                       <p>perfect for group adventures and shared <br> memories.</p>
                       <div class="trip-form p-0">
-                        <a href="ooty-form.php" target="blank" class="btn butn butn__new bg-"
+                        <a href="ooty-form.php" class="btn butn butn__new bg-"
                           style="border-radius: 30px;">Dates
                           & Costing</a>
                       </div>
@@ -850,11 +849,11 @@
         <div class="price-box ">
           <h6 class="label">Starts at</h6>
           <div class="price-info">
-            <span class="price-amount ">₹6,899/-</span>
+            <span class="price-amount ">₹7,299/-</span>
             <span class="per-person">(Per Person)</span>
           </div>
         </div>
-        <a href="#" class="btn-book">Dates & Costing</a>
+        <a href="ooty-form.php" class="btn-book">Dates & Costing</a>
       </div>
     </div>
 
@@ -1044,7 +1043,5 @@
 
 
 </body>
-
-</html>
 
 </html>

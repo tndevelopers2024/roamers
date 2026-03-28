@@ -54,78 +54,78 @@
     <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
     <style>
-    .about-img {
-      border-radius: 30px;
-      height: 350px !important;
-      object-fit: cover;
-    }
+        .about-img {
+            border-radius: 30px;
+            height: 350px !important;
+            object-fit: cover;
+        }
 
-    .scroll-section {
-      background-image: url('assets/img/ladakh/elements/rewind-bg.avif');
-      background-size: cover;
-      background-position: center;
-      padding: 80px 0;
-    }
+        .scroll-section {
+            background-image: url('assets/img/ladakh-circuit/rewind-bg2.avif');
+            background-size: cover;
+            background-position: center;
+            padding: 180px 0;
+        }
 
-    html,
-    body {
-      overflow-x: clip !important;
-      width: 100% !important;
-      position: relative !important;
-    }
+        html,
+        body {
+            overflow-x: clip !important;
+            width: 100% !important;
+            position: relative !important;
+        }
 
-    @media (min-width: 601px) {
-      .main-content {
-        padding-top: 85px;
-      }
-    }
+        @media (min-width: 601px) {
+            .main-content {
+                padding-top: 85px;
+            }
+        }
 
-    .ladakh-full-bg {
-      background-image: url('assets/img/ladakh/dektop-bg.avif');
-      background-size: 100% auto;
-      background-position: top;
-      background-repeat: no-repeat;
-      /* top: 50px; */
-    }
+        .ladakh-full-bg {
+            background-image: url('assets/img/ladakh-circuit/full-bg.avif');
+            background-size: 100% auto;
+            background-position: top;
+            background-repeat: no-repeat;
+            /* top: 50px; */
+        }
 
-    @media (max-width: 767px) {
-      .ladakh-full-bg {
-        background-image: url('assets/img/ladakh/mobile-bg.avif');
-        /* background-size: 100% auto; */
-        top: 0px;
-      }
-    }
+        @media (max-width: 767px) {
+            .ladakh-full-bg {
+                background-image: url('assets/img/ladakh/mobile-bg.avif');
+                /* background-size: 100% auto; */
+                top: 0px;
+            }
+        }
 
-    .ladakh-banner-section {
-      aspect-ratio: 5760 / 2808;
-      margin-top: 68px;
-    }
+        .ladakh-banner-section {
+            aspect-ratio: 5760 / 2808;
+            margin-top: 68px;
+        }
 
-    .banner-hight-top {
-      font-size: 49px;
-      font-weight: 900;
-      color: #fff;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-      letter-spacing: 1px;
-    }
+        .banner-hight-top {
+            font-size: 49px;
+            font-weight: 900;
+            color: #fff;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            letter-spacing: 1px;
+        }
 
-    @media (max-width: 768px) {
-      .ladakh-banner-section {
-        aspect-ratio: 2236 / 2464;
-        margin-top: 0px !important;
-      }
+        @media (max-width: 768px) {
+            .ladakh-banner-section {
+                aspect-ratio: 2236 / 2464;
+                margin-top: 0px !important;
+            }
 
-      .banner-hight-top {
-        font-size: 20px;
-      }
-    }
+            .banner-hight-top {
+                font-size: 20px;
+            }
+        }
 
-    @media (max-width: 768px) {
-      #accordionExample .accordion-item {
-        margin-bottom: 16px !important;
-      }
-    }
-  </style>
+        @media (max-width: 768px) {
+            #accordionExample .accordion-item {
+                margin-bottom: 16px !important;
+            }
+        }
+    </style>
 
 </head>
 
@@ -202,7 +202,7 @@
 
                     <h2 class="banner-hight-top ms-2">
 
-                        Leh Ladakh with Umling la
+                        LEH LADAKH GRAND CIRCUIT
 
                     </h2>
 
@@ -267,14 +267,14 @@
                                         style="width:13px; margin-bottom: 3px;"></span>
                             </span>
                         </li>
-  <li class="mobile-small-text m me-2"
+                        <li class="mobile-small-text m me-2"
                             style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-                             Tso Moriri
+                            Tso Moriri
                         </li>
 
 
 
-                      
+
                     </ul>
 
                     <!-- this is the dot pagination for the slider -->
@@ -304,7 +304,7 @@
             <!-- Desktop Information -->
             <div class="container">
                 <div class="desktop-inform my-4">
-                    <img src="assets/img/ladakh/elements/speedometer-1.svg" style="margin-bottom:10px" alt="">
+                    <!-- <img src="assets/img/ladakh/elements/speedometer-1.svg" style="margin-bottom:10px" alt=""> -->
                     <section class="info-highlights py-2">
                         <div class="container-fluid">
                             <div class="row align-items-center">
@@ -316,7 +316,7 @@
                                         </div>
                                         <div>
                                             <div class="info-label">Starting Price</div>
-                                            <div class="info-value "><span>₹29,990/-</span></div>
+                                            <div class="info-value "><span>₹24,990/-</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1043,7 +1043,7 @@
                                     <div>
                                         <p>
                                             <i class="fa-solid fa-circle-check me-2 pulse" style="color: #1fa463;"></i>
-                                            Bike rental for 7 days for those opting for the biking experience
+                                            Bike rental for 6 days for those opting for the biking experience
                                         </p>
                                         <p>
                                             <i class="fa-solid fa-circle-check me-2 pulse" style="color: #1fa463;"></i>
@@ -1114,7 +1114,7 @@
                                         <p>
                                             <i class="fa-solid fa-circle-check me-2 pulse" style="color: #1fa463;"></i>
                                             Riding safety gear provided including helmets (standard size 58-60 cm),
-                                            riding jackets, gloves
+                                            gloves
                                             (for riders), and knee guards
                                             <br>
                                             <span style="font-size: 0.95em; color: #555;">
@@ -1213,14 +1213,15 @@
                                             <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                                             <h5 class="special-offer">
                                                 <span class="old-price">
-                                                    <strike>₹ 30,000/-</strike>
+                                                    <strike>₹ 29,990/-</strike>
                                                 </span>
-                                                <span class="new-price">₹29,990/-</span>
+                                                <span class="new-price">₹24,990/-</span>
                                             </h5>
 
                                             <p>Perfect for group adventures and shared <br> memories.</p>
                                             <div class="trip-form p-0">
-                                                <a href="ladakh-circuit-form.php" class="p-0 border-0 text-center d-block"
+                                                <a href="ladakh-circuit-form.php"
+                                                    class="p-0 border-0 text-center d-block"
                                                     style="background: transparent !important; border-radius: 30px;"><img
                                                         src="assets/img/ladakh/icons/date&costing.svg"
                                                         alt="Dates & Costing"
@@ -1275,58 +1276,58 @@
 
         </div>
 
-         <!-- Rewind -->
-    <section class="scroll-section">
-      <h3 class="head" style="text-align: center; margin-bottom: 50px;"> <img
-          src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
-          class="align-start me-2">Roamers Rewind <img src="assets/img/valley-of-flowers/fast-backward.png"
-          alt="rewind icon" style="width: 25px;" class="align-start"></h3>
-      <div class="swiper-container two">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladakh-img3.jpg" alt="ladakh-img-1">
+        <!-- Rewind -->
+        <section class="scroll-section">
+            <h3 class="head" style="text-align: center; margin-bottom: 50px;"> <img
+                    src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
+                    class="align-start me-2">Roamers Rewind <img src="assets/img/valley-of-flowers/fast-backward.png"
+                    alt="rewind icon" style="width: 25px;" class="align-start"></h3>
+            <div class="swiper-container two">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladakh-img3.jpg" alt="ladakh-img-1">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladak-img1.jpg" alt="ladakh-img-2">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladakh-img5.jpg" alt="ladakh-img-3">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladakh-img6.jpg" alt="ladakh-img-4">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladakh-img4.jpeg" alt="ladakh-img-5">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladakh-img10.webp" alt="ladakh-img-6">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladakh-img6.jpeg" alt="ladakh-img-7">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img src="assets/img/ladakh/ladakh-image12.jpg" alt="ladakh-img-8">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladak-img1.jpg" alt="ladakh-img-2">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladakh-img5.jpg" alt="ladakh-img-3">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladakh-img6.jpg" alt="ladakh-img-4">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladakh-img4.jpeg" alt="ladakh-img-5">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladakh-img10.webp" alt="ladakh-img-6">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladakh-img6.jpeg" alt="ladakh-img-7">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-image">
-              <img src="assets/img/ladakh/ladakh-image12.jpg" alt="ladakh-img-8">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-pagination d-none d-md-none"></div>
-    </section>
+            <div class="swiper-pagination d-none d-md-none"></div>
+        </section>
 
         <!-- Faq Seciton -->
         <section class="faq" id="notes">
@@ -1466,7 +1467,7 @@
                 <div class="price-box ">
                     <h6 class="label">Starts at</h6>
                     <div class="price-info">
-                        <span class="price-amount ">₹29,990/-</span>
+                        <span class="price-amount ">₹24,990/-</span>
                         <span class="per-person">(Per Person)</span>
                     </div>
                 </div>
@@ -1654,6 +1655,26 @@
         updateDots();
         startInterval();
     </script>
+
+</body>
+
+</html> changeImage(nextIndex);
+}
+
+function startInterval() {
+interval = setInterval(nextImage, 5000); // Slightly longer for breathing space
+}
+
+function resetInterval() {
+clearInterval(interval);
+startInterval();
+}
+
+// Init
+section.style.backgroundImage = `url('${images[index]}')`;
+updateDots();
+startInterval();
+</script>
 
 </body>
 
