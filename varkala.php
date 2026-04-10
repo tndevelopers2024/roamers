@@ -5,19 +5,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Roamers - Andaman</title>
+    <title>Roamers - Varkala</title>
 
     <!-- SEO Meta Description -->
-    <meta name="description" content="andaman" />
+    <meta name="description" content="varkala" />
     <meta name="author" content="Themeland" />
-    <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
-    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
+    <meta property="og:image" content="https://roamers.in/assets/img/varkala/kappilbeach.jpg" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/varkala/kappilbeach.jpg" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="500" />
-    <meta property="og:title" content="Andaman Packages" />
+    <meta property="og:title" content="Varkala Packages" />
     <meta property="og:description"
-        content="Discover the best Andaman packages with Roamers. Explore stunning beaches, coral reefs, and cultural experiences. Book your Andaman trip today!" />
-    <meta property="og:url" content="https://roamers.in/andaman-packages.php" />
+        content="Discover the best Varkala packages with Roamers. Explore stunning beaches, cliffs, and cultural experiences. Book your Varkala trip today!" />
+    <meta property="og:url" content="https://roamers.in/varkala-packages.php" />
     <meta property="og:type" content="website" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -840,7 +840,7 @@
 
         /* Refactored Utility Classes */
         .banner-bg-static {
-            background-image: url('https://roamers.in/assets/img/andaman/Media/overview-2.jpg');
+            background-image: url('https://irisholidays.com/keralatourism/wp-content/uploads/2023/12/varkala-beach-kerala-1.jpg');
             height: 90vh;
             padding: 0;
             position: relative;
@@ -902,9 +902,9 @@
         <div class="banner-overlay dark-overlay-flex">
             <div class="banner-content centered-white-text">
                 <h2 class="banner-title">
-                    Andaman Tour Packages</h2>
-                <p class="banner-subtitle hero-subtitle-medium">Explore 
-                    the pristine beaches and coral reefs</p>
+                    Varkala Tour Packages</h2>
+                <p class="banner-subtitle hero-subtitle-medium">Experience
+                    the magic of cliffs and waves</p>
             </div>
         </div>
     </section>
@@ -1132,8 +1132,8 @@
                     <div class="about-img-wrapper">
                         <!-- Main Image -->
                         <div class="about-img-1">
-                            <img src="https://roamers.in/assets/img/andaman/Media/overview-1.jpg"
-                                alt="Andaman Adventure">
+                            <img src="https://www.bluebirdtravels.in/wp-content/uploads/varkala/kerala/Places-to-Visit-in-Varkala-1200x900-cropped.jpg"
+                                alt="Varkala Adventure">
                         </div>
                     </div>
                 </div>
@@ -1141,37 +1141,40 @@
                 <!-- Right Content -->
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <span class="section-subtitle">Explore Andaman</span>
-                        <h2 class="section-title">Highlights of Andaman</h2>
+                        <span class="section-subtitle">Explore Varkala</span>
+                        <h2 class="section-title">Highlights of Varkala</h2>
 
                         <ul class="feature-list">
+                            <li class="feature-item animate">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-mountain-sun" style="font-size:24px; color:#fff;"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Majestic Cliff</h4>
+                                    <p>The only place in southern Kerala where cliffs are found adjacent to the Arabian
+                                        Sea.</p>
+                                </div>
+                            </li>
+
                             <li class="feature-item animate">
                                 <div class="icon-box">
                                     <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
                                 </div>
                                 <div class="feature-text">
                                     <h4>Pristine Beaches</h4>
-                                    <p>Discover Radhanagar Beach, once voted the best in Asia, and enjoy its crystal-clear waters.</p>
+                                    <p>Relax on the golden sands of Papanasam Beach, known for its holy waters and
+                                        stunning sunsets.</p>
                                 </div>
                             </li>
 
                             <li class="feature-item animate">
                                 <div class="icon-box">
-                                    <i class="fa-solid fa-water" style="font-size:24px; color:#fff;"></i>
+                                    <i class="fa-solid fa-om" style="font-size:24px; color:#fff;"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Underwater Adventures</h4>
-                                    <p>Experience world-class scuba diving and snorkeling among vibrant coral reefs and marine life.</p>
-                                </div>
-                            </li>
-
-                            <li class="feature-item animate">
-                                <div class="icon-box">
-                                    <i class="fa-solid fa-monument" style="font-size:24px; color:#fff;"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Historical Landmarks</h4>
-                                    <p>Explore the historic Cellular Jail and the ruins of Ross Island, telling tales of India's past.</p>
+                                    <h4>Spiritual &amp; Cultural Hub</h4>
+                                    <p>Home to the ancient Janardanaswamy Temple and the Sivagiri Mutt, inviting peace
+                                        and wellness.</p>
                                 </div>
                             </li>
                         </ul>
@@ -1183,26 +1186,27 @@
     <!-- About Us Section End -->
 
     <section
-        style="padding: 80px 0; background-image: url('assets/img/andaman/andaman-website-background.jpg') ; background-size: cover; background-position: center; background-repeat: no-repeat;">
-        <h2 class="head">ANDAMAN TOUR PACKAGES</h2>
+        style="padding: 80px 0; background-image: url('https://ex-coders.com/html/turmet/assets/img/about/about-bg.jpg') ; background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <h2 class="head">VARKALA TOUR PACKAGES</h2>
         <div class="container">
 
             <div class="row packages-scroll-row">
                 <div class="col-lg-3">
                     <div class="package-card-wrap">
-                        <a href="andaman.php" class="card-modern">
+                        <a href="varkala-3days-2nights-2.php" class="card-modern">
                             <div class="card-badge">Group Trip</div>
-                            <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Island Hopping"
+                            <img src="assets/img/varkala/Munroesland.jpg" alt="Varkala and Munroe"
                                 class="card-img img-brightness-dim">
                             <div class="card-gradient"></div>
                             <div class="card-content">
                                 <div class="card-meta">
-                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 7D / 6N</span>
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 3D / 2N</span>
                                 </div>
                                 <div class="card-meta meta-spacing">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                                <h3 class="card-title">Andaman Island<br> Hopping</h3>
+                                <h3 class="card-title">Varkala and Munroe<br> Flashpacking</h3>
                             </div>
                         </a>
                         <!-- <button class="btn-custom-book w-100">
@@ -1217,11 +1221,11 @@
                 <!-- <div class="col-lg-3">
           <div class="swiper-container2">
             <div class="swiper-slide">
-              <a href="andaman-3days-2nights-1.php">
+              <a href="varkala-3days-2nights-1.php">
                 <div class="picture">
                   <h4>Private Trip</h4>
                 </div>
-                <img class="img" src="assets/img/andaman/andaman-bg1.jpg" alt="Image 1">
+                <img class="img" src="assets/img/varkala/varkala-bg1.jpg" alt="Image 1">
                 <div class="slide-bg">
                   <div class="slide-text">
                     <div class="inner">
@@ -1231,7 +1235,7 @@
                         Kochi
                       </h4>
                     </div>
-                    <h5 class="fw-bold">Classic Andaman with<br> Trivandrum</h5>
+                    <h5 class="fw-bold">Classic Varkala with<br> Trivandrum</h5>
                   </div>
                 </div>
               </a>
@@ -1241,19 +1245,20 @@
 
                 <div class="col-lg-3">
                     <div class="package-card-wrap">
-                        <a href="andaman.php" class="card-modern">
+                        <a href="varkala-4days-3nights-1.php" class="card-modern">
                             <div class="card-badge">Private Trip</div>
-                            <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg" alt="Extended Andaman" class="card-img"
+                            <img src="assets/img/varkala/kerala-1.jpg" alt="Adventurous Varkala" class="card-img"
                                 style="filter:brightness(0.9)">
                             <div class="card-gradient"></div>
                             <div class="card-content">
                                 <div class="card-meta">
-                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 8D / 7N</span>
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 4D / 3N</span>
                                 </div>
                                 <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                                <h3 class="card-title">Extended Andaman<br> Exploration</h3>
+                                <h3 class="card-title">Adventurous Varkala with<br> Trivandrum</h3>
                             </div>
                         </a>
                         <!-- <button class="btn-custom-book w-100">
@@ -1263,23 +1268,27 @@
                             </span>
                         </button> -->
                     </div>
+
                 </div>
+
+
 
                 <div class="col-lg-3">
                     <div class="package-card-wrap">
-                        <a href="andaman.php" class="card-modern">
-                            <div class="card-badge">Seasonal</div>
-                            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Andaman Festive" class="card-img"
+                        <a href="varkala-4days-3nights-2.php" class="card-modern">
+                            <div class="card-badge">Private Trip</div>
+                            <img src="assets/img/varkala/varkala-bg1.jpg" alt="Magical Varkala" class="card-img"
                                 style="filter:brightness(0.9)">
                             <div class="card-gradient"></div>
                             <div class="card-content">
                                 <div class="card-meta">
-                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 7D / 6N</span>
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 4D / 3N</span>
                                 </div>
                                 <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                                <h3 class="card-title">Andaman Christmas<br> & New Year</h3>
+                                <h3 class="card-title">Magical Varkala with<br> Munroe Island</h3>
                             </div>
                         </a>
                         <!-- <button class="btn-custom-book w-100">
@@ -1289,13 +1298,14 @@
                             </span>
                         </button> -->
                     </div>
+
                 </div>
 
                 <div class="col-lg-3">
                     <div class="package-card-wrap">
-                        <a href="andaman.php" class="card-modern">
+                        <a href="varkala-5days-4nights.php" class="card-modern">
                             <div class="card-badge">Private Trip</div>
-                            <img src="https://roamers.in/assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg" alt="Scenic Andaman" class="card-img"
+                            <img src="assets/img/varkala/black-beach.jpg" alt="Varkala All-In-One" class="card-img"
                                 style="filter:brightness(0.9)">
                             <div class="card-gradient"></div>
                             <div class="card-content">
@@ -1303,9 +1313,10 @@
                                     <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 5D / 4N</span>
                                 </div>
                                 <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                                <h3 class="card-title">Scenic Andaman<br> Getaway</h3>
+                                <h3 class="card-title">Varkala All-In-One</h3>
                             </div>
                         </a>
                         <!-- <button class="btn-custom-book w-100">
@@ -1315,6 +1326,7 @@
                             </span>
                         </button> -->
                     </div>
+
                 </div>
 
             </div>
@@ -1323,11 +1335,11 @@
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
-            <a href="andaman-3days-2nights-2.php">
+            <a href="varkala-3days-2nights-2.php">
               <div class="picture">
                 <h4>Group Trip</h4>
               </div>
-              <img class="img" src="assets/img/andaman/Munroesland.jpg" alt="Image 1">
+              <img class="img" src="assets/img/varkala/Munroesland.jpg" alt="Image 1">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1337,18 +1349,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Andaman and Munroe<br> Flashpacking</h5>
+                  <h5>Varkala and Munroe<br> Flashpacking</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-grouptrip.php">
+            <a href="varkala-grouptrip.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="assets/img/andaman/black-beach.jpg" alt="Image 2">
+              <img class="img" src="assets/img/varkala/black-beach.jpg" alt="Image 2">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1358,18 +1370,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Vibrant Andaman with<br> Munroe</h5>
+                  <h5>Vibrant Varkala with<br> Munroe</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-3days-2nights-1.php">
+            <a href="varkala-3days-2nights-1.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="assets/img/andaman/andaman-bg1.jpg" alt="Image 1">
+              <img class="img" src="assets/img/varkala/varkala-bg1.jpg" alt="Image 1">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1379,17 +1391,17 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Classic Andaman with<br> Trivandrum</h5>
+                  <h5>Classic Varkala with<br> Trivandrum</h5>
                 </div>
               </div>
             </a>
           </div>
           <div class="swiper-slide">
-            <a href="andaman-4days-3nights-1.php">
+            <a href="varkala-4days-3nights-1.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="assets/img/andaman/kerala-1.jpg" alt="Image 3">
+              <img class="img" src="assets/img/varkala/kerala-1.jpg" alt="Image 3">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1399,18 +1411,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Adventurous Andaman with<br> Trivandrum</h5>
+                  <h5>Adventurous Varkala with<br> Trivandrum</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-4days-3nights-2.php">
+            <a href="varkala-4days-3nights-2.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" alt="Image 4">
+              <img class="img" src="assets/img/varkala/4days-3nights.jpg" alt="Image 4">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1420,18 +1432,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Holiday in Andaman</h5>
+                  <h5>Magical Varkala with<br> Munroe Island</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-5days-4nights.php">
+            <a href="varkala-5days-4nights.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="assets/img/andaman/5days-4nights.jpg" alt="Image 4">
+              <img class="img" src="assets/img/varkala/5days-4nights.jpg" alt="Image 4">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1441,7 +1453,7 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Scenic Andaman Getaway</h5>
+                  <h5>Varkala All-In-One</h5>
                 </div>
               </div>
             </a>
@@ -1458,7 +1470,7 @@
     <!--====== Highlights Section Start ======-->
     <!-- <section class="highlights-section">
         <div class="container">
-            <h2 class="head">Highlights of Andaman</h2>
+            <h2 class="head">Highlights of Varkala</h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12 mb-4 d-flex">
                     <div class="highlight-card w-100">
@@ -1509,58 +1521,82 @@
     <!--====== Gallery Section Start ======-->
     <section class="gallery-section">
         <div class="container">
-            <h2 class="head">Glimpses of Andaman</h2>
+            <h2 class="head">Glimpses of Varkala</h2>
             <div class="swiper-container-gallery">
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Andaman Beach">
-                        <div class="gallery-overlay">
-                            <h5>Bharatpur Beach</h5>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg" alt="Cellular Jail">
-                        <div class="gallery-overlay">
-                            <h5>Cellular Jail</h5>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Andaman Markets">
-                        <div class="gallery-overlay">
-                            <h5>Local Markets</h5>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/Portblair-group-min.jpg" alt="Group Fun">
-                        <div class="gallery-overlay">
-                            <h5>Group Moments</h5>
-                        </div>
-                    </div>
-
-
-
-                    <!-- Duplicated Slides for Loop Stability 2 -->
-                    <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/610a5c749433a121_images-anthropological3-500x500.jpeg" alt="Black Beach">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Black Sand Beach</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/61af5c4e959d8191_28.jpg" alt="Black Beach">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
                         <div class="gallery-overlay">
-                            <h5>Andaman Cliff</h5>
+                            <h5>Varkala Cliff</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg" alt="Black Beach">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Sunset Views</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg" alt="Black Beach">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Palm Groves</h5>
+                        </div>
+                    </div>
+
+                    <!-- Duplicated Slides for Loop Stability -->
+                    <div class="swiper-slide">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Black Sand Beach</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Varkala Cliff</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Sunset Views</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Palm Groves</h5>
+                        </div>
+                    </div>
+
+                    <!-- Duplicated Slides for Loop Stability 2 -->
+                    <div class="swiper-slide">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Black Sand Beach</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Varkala Cliff</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Sunset Views</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Palm Groves</h5>
                         </div>

@@ -1280,12 +1280,6 @@
   "ladakh_circuit": {
     "May": [
       {
-        "date": "02 May - 08 May",
-        "status": "Fast Filling",
-        "statusColor": "orange",
-        "price": "\u20b924,990/-"
-      },
-      {
         "date": "09 May - 15 May",
         "status": "Available",
         "statusColor": "green",

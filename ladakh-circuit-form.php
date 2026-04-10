@@ -236,7 +236,7 @@ session_start();
 
 
         .price-box h5 {
-            font-size: 14px
+            font-size: 11px
         }
 
 
@@ -365,7 +365,7 @@ session_start();
 
 
         .price-col h4 {
-            font-size: 16px;
+            font-size: 11px;
         }
 
 
@@ -839,12 +839,12 @@ session_start();
 
 
             .price-box h5 {
-                font-size: 14px !important;
+                font-size: 11px !important;
             }
 
 
             .price-col h4 {
-                font-size: 16px !important;
+                font-size: 11px !important;
             }
 
 
@@ -1272,6 +1272,7 @@ session_start();
 
                                 <div class="mt-5">
                                    <p> NOTE: INR 2,000/- extra per person for double sharing</p> <br>
+                                   
 
 
                                    <p> INR 5,000/- needs to be submitted as security for the bike before the start of the

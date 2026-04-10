@@ -237,7 +237,7 @@ session_start();
 
 
         .price-box h5 {
-            font-size: 14px
+            font-size: 11px
         }
 
 
@@ -789,7 +789,7 @@ session_start();
 
 
             .price-box h5 {
-                font-size: 14px !important;
+                font-size: 11px !important;
             }
 
 

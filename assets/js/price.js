@@ -27,6 +27,8 @@ const tripPrices = {
   ".ladakh-price": "₹29,990",
   ".valley-price": "₹9,990",
   ".srilanka-price": "₹43,990",
+  ".thailand-price": "₹39,990",
+  ".kedarkantha-price": "₹8,990",
   ".kolukku-price": "₹5,499"
 };
 
