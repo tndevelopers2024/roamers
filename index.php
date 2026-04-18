@@ -2596,7 +2596,7 @@
                     'link' => 'tawang'
                 ],
                 'leh-ladakh' => [
-                    'title' => 'LEH-LADAKH',
+                    'title' => 'LEH LADAKH GRAND CIRCUIT',
                     'image' => 'assets/img/ladakh/card-image/ladakh-card-image.avif',
                     'duration' => '8D/7N',
                     'location' => 'Ex: Leh',
@@ -2730,13 +2730,13 @@
                 ],
                 'spiti' => [
                     'title' => 'SPITI (WITH CHANDRATAL)',
-                    'image' => 'assets/img/spiti-valley/spiti-cover.jpg',
+                    'image' => 'assets/img/spiti-valley/cover/spiti-chandratal-trek.avif',
                     'duration' => '7D/6N',
                     'location' => 'Ex: Delhi',
                     'places' => 'Kalpa, Kaza, Chandratal',
                     'price' => '',
                     'price_class' => 'spiti-price',
-                    'link' => 'spiti-valley'
+                    'link' => '#'
                 ],
                 'thailand' => [
                     'title' => 'THAILAND BACKPACKING',
@@ -2746,7 +2746,7 @@
                     'places' => 'Bangkok, Pattaya, Coral Island',
                     'price' => '',
                     'price_class' => 'thailand-price',
-                    'link' => 'thailand'
+                    'link' => '#'
                 ],
                 'kerala' => [
                     'title' => 'KERALA BACKPACKING',
@@ -2807,7 +2807,7 @@
                     ['trip_id' => 'leh-ladakh', 'dates' => 'May 09, 16, 23, 30'],
                     ['trip_id' => 'tawang', 'dates' => 'May 01, 06'],
                     ['trip_id' => 'ooty', 'dates' => 'May 01, 15, 29'],
-                    ['trip_id' => 'kodaikanal', 'dates' => 'May 02, 16, 30'],
+                    ['trip_id' => 'kodaikanal', 'dates' => 'May 15, 30'],
                 ],
                 'jun' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Jun 06, 13, 20, 27'],

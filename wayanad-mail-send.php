@@ -162,9 +162,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <meta charset="UTF-8">
             <title>Thank You for Booking!</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
             <style>
                 body {
+                    font-family: 'Poppins', sans-serif;
                     background: #4ec0db;
                     padding: 20px;
                     min-height: 100vh;
@@ -208,7 +209,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     height: 80px;
                     margin-bottom: 18px;
                     border-radius: 50%;
-                    background: linear-gradient(120deg, #4ec0db 0%, #1e90ff 100%);
+                    background: #4ec0db;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -225,7 +226,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 .thankyou-title {
                     font-size: 2.1rem;
                     font-weight: 700;
-                    color: #1e90ff;
+                    color: #4ec0db;
                     margin-bottom: 10px;
                     letter-spacing: 1px;
                 }
@@ -252,7 +253,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 .thankyou-btn {
-                    background: linear-gradient(90deg, #4ec0db 0%, #1e90ff 100%);
+                    background: #4ec0db;
                     color: #fff;
                     border: none;
                     border-radius: 8px;
@@ -268,7 +269,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 .thankyou-btn:hover {
-                    background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%);
+                    /* background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%); */
                 }
 
                 @media (max-width: 600px) {
@@ -282,19 +283,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <body>
             <div class="thankyou-container">
                 <div class="thankyou-icon">
-                    <img src="https://img.icons8.com/fluency/96/checked-checkbox.png" alt="Success">
+                    <img src="assets/img/Logo/Logo mark-01.png" alt="Success">
                 </div>
                 <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
-                    Your Wayanad booking has been received.<br>
+                    Your Ultimate Ladakh Circuit - 7 Days booking has been received.<br>
                     We can't wait to see you on your adventure!
                 </div>
                 <div class="thankyou-details">
-                    <div><strong>Name:</strong> <?php echo htmlspecialchars($name); ?></div>
-                    <div><strong>Email:</strong> <?php echo htmlspecialchars($email); ?></div>
-                    <div><strong>Phone:</strong> <?php echo htmlspecialchars($phone); ?></div>
-                    <div><strong>Travel Date:</strong> <?php echo htmlspecialchars($date); ?></div>
-                    <div><strong>No. of Travellers:</strong> <?php echo htmlspecialchars($person_count); ?></div>
+                    <div><strong style="margin-right: 10px;">Name :</strong> <?php echo htmlspecialchars($name); ?></div>
+                    <div><strong style="margin-right: 10px;">Email :</strong> <?php echo htmlspecialchars($email); ?></div>
+                    <div><strong style="margin-right: 10px;">Phone :</strong> <?php echo htmlspecialchars($phone); ?></div>
+                    <div><strong style="margin-right: 10px;">Travel Date :</strong> <?php echo htmlspecialchars($date); ?></div>
+                    <div><strong style="margin-right: 10px;">No. of Travellers :</strong> <?php echo htmlspecialchars($person_count); ?></div>
                 </div>
                 <a href="index.php" class="thankyou-btn">Back to Home</a>
             </div>

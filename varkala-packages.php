@@ -5,22 +5,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Roamers - Bali Tour Packages</title>
+    <title>Roamers - Varkala</title>
 
     <!-- SEO Meta Description -->
-    <meta name="description"
-        content="Explore Bali with Roamers. Discover the best Bali tour packages featuring Ubud, Canggu, Nusa Penida, and more. Experience the Island of Gods today!" />
+    <meta name="description" content="varkala" />
     <meta name="author" content="Themeland" />
-    <meta property="og:image"
-        content="https://hanhhuonghoasen.com.vn/thumbs/748x706x1/upload/product/du-lich-bali-indonesia-9184.jpg" />
-    <meta property="og:image:secure_url"
-        content="https://hanhhuonghoasen.com.vn/thumbs/748x706x1/upload/product/du-lich-bali-indonesia-9184.jpg" />
+    <meta property="og:image" content="https://roamers.in/assets/img/varkala/kappilbeach.jpg" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/varkala/kappilbeach.jpg" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="500" />
-    <meta property="og:title" content="Bali Tour Packages" />
+    <meta property="og:title" content="Varkala Packages" />
     <meta property="og:description"
-        content="Dive into the tropical paradise of Bali. From ancient temples to vibrant beach clubs, find your perfect Bali getaway with Roamers. Book now!" />
-    <meta property="og:url" content="https://roamers.in/bali-packages.php" />
+        content="Discover the best Varkala packages with Roamers. Explore stunning beaches, cliffs, and cultural experiences. Book your Varkala trip today!" />
+    <meta property="og:url" content="https://roamers.in/varkala-packages.php" />
     <meta property="og:type" content="website" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -474,7 +471,7 @@
             /* Remove blur */
             opacity: 1 !important;
             /* Full visibility */
-            transition: filter 0.5s ease, opacity 0.5s ease, box-shadow 0.5s ease;
+            transition: all 0.5s ease;
             /* margin-top: 30px; Removed manual margin, let swiper handle it */
         }
 
@@ -843,7 +840,7 @@
 
         /* Refactored Utility Classes */
         .banner-bg-static {
-            background-image: url('https://plus.unsplash.com/premium_photo-1661955632358-85564b2810b2?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFsaSUyMHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D');
+            background-image: url('https://irisholidays.com/keralatourism/wp-content/uploads/2023/12/varkala-beach-kerala-1.jpg');
             height: 90vh;
             padding: 0;
             position: relative;
@@ -857,7 +854,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.1);
+            background: rgba(0, 0, 0, 0.4);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -905,8 +902,9 @@
         <div class="banner-overlay dark-overlay-flex">
             <div class="banner-content centered-white-text">
                 <h2 class="banner-title">
-                    Bali Tour Packages.</h2>
-                <p class="banner-subtitle hero-subtitle-medium">Beyond Beaches & Ancient Temples</p>
+                    Varkala Tour Packages</h2>
+                <p class="banner-subtitle hero-subtitle-medium">Experience
+                    the magic of cliffs and waves</p>
             </div>
         </div>
     </section>
@@ -1134,8 +1132,8 @@
                     <div class="about-img-wrapper">
                         <!-- Main Image -->
                         <div class="about-img-1">
-                            <img src="https://media.istockphoto.com/id/1783754915/photo/young-woman-standing-in-temple-gates-at-lempuyang-luhur-temple-in-bali-indonesia.jpg?s=612x612&w=0&k=20&c=xS9FReSyK4_ZYc06RlCrFwRrPPMHKRqdYmhfXOULjVw="
-                                alt="Bali Adventure">
+                            <img src="https://www.bluebirdtravels.in/wp-content/uploads/varkala/kerala/Places-to-Visit-in-Varkala-1200x900-cropped.jpg"
+                                alt="Varkala Adventure">
                         </div>
                     </div>
                 </div>
@@ -1143,40 +1141,40 @@
                 <!-- Right Content -->
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <span class="section-subtitle">Discover Bali</span>
-                        <h2 class="section-title">Highlights of Bali</h2>
+                        <span class="section-subtitle">Explore Varkala</span>
+                        <h2 class="section-title">Highlights of Varkala</h2>
 
                         <ul class="feature-list">
                             <li class="feature-item animate">
                                 <div class="icon-box">
-                                    <i class="fa-solid fa-gopuram" style="font-size:24px; color:#fff;"></i>
+                                    <i class="fa-solid fa-mountain-sun" style="font-size:24px; color:#fff;"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Ancient Temples</h4>
-                                    <p>Visit Tanah Lot and Uluwatu, iconic sea temples offering spectacular sunset views
-                                        and rich cultural history.</p>
+                                    <h4>Majestic Cliff</h4>
+                                    <p>The only place in southern Kerala where cliffs are found adjacent to the Arabian
+                                        Sea.</p>
                                 </div>
                             </li>
 
                             <li class="feature-item animate">
                                 <div class="icon-box">
-                                    <i class="fa-solid fa-leaf" style="font-size:24px; color:#fff;"></i>
+                                    <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Lush Rice Terraces</h4>
-                                    <p>Explore the emerald-green terraces of Tegalalang in Ubud, a testament to Bali's
-                                        unique irrigation system.</p>
+                                    <h4>Pristine Beaches</h4>
+                                    <p>Relax on the golden sands of Papanasam Beach, known for its holy waters and
+                                        stunning sunsets.</p>
                                 </div>
                             </li>
 
                             <li class="feature-item animate">
                                 <div class="icon-box">
-                                    <i class="fa-solid fa-martini-glass-citrus" style="font-size:24px; color:#fff;"></i>
+                                    <i class="fa-solid fa-om" style="font-size:24px; color:#fff;"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Vibrant Beach Clubs</h4>
-                                    <p>Experience the world-famous beach club culture in Seminyak and Canggu with
-                                        stunning oceanfront settings.</p>
+                                    <h4>Spiritual &amp; Cultural Hub</h4>
+                                    <p>Home to the ancient Janardanaswamy Temple and the Sivagiri Mutt, inviting peace
+                                        and wellness.</p>
                                 </div>
                             </li>
                         </ul>
@@ -1187,83 +1185,28 @@
     </section>
     <!-- About Us Section End -->
 
-    <!-- Cards Section Start -->
     <section
-        style="padding: 80px 0; background-size: cover; background-position: center; background-repeat: no-repeat;">
-        <h2 class="head">BALI TOUR PACKAGES</h2>
+        style="padding: 80px 0; background-image: url('https://ex-coders.com/html/turmet/assets/img/about/about-bg.jpg') ; background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <h2 class="head">VARKALA TOUR PACKAGES</h2>
         <div class="container">
+
             <div class="row packages-scroll-row">
                 <div class="col-lg-3">
                     <div class="package-card-wrap">
-                        <a href="bali-6days-5nights-1.php" class="card-modern">
-                            <div class="card-badge">Private Trip</div>
-                            <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800"
-                                alt="Bali Essence" class="card-img img-brightness-dim">
+                        <a href="varkala-3days-2nights-2.php" class="card-modern">
+                            <div class="card-badge">Group Trip</div>
+                            <img src="assets/img/varkala/Munroesland.jpg" alt="Varkala and Munroe"
+                                class="card-img img-brightness-dim">
                             <div class="card-gradient"></div>
                             <div class="card-content">
                                 <div class="card-meta">
-                                    <span class="meta-item mb-2"><i class="fa-solid fa-calendar-days"></i> 6D /
-                                        5N</span>
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 3D / 2N</span>
                                 </div>
                                 <div class="card-meta meta-spacing">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Ubud &
-                                        Seminyak</span>
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                                <h3 class="card-title">BALI BEYOND</h3>
-                            </div>
-                        </a>
-                        <!-- <button class="btn-custom-book w-100">
-                           <a href="bali-6days-5nights-1.php"> Book Now</a>
-                            <span class="icon-circle">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </button> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <div class="package-card-wrap">
-                        <a href="bali-6days-5nights-2.php" class="card-modern">
-                            <div class="card-badge">Private Trip</div>
-                            <img src="https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?auto=format&fit=crop&q=80&w=800"
-                                alt="Nusa Penida" class="card-img" style="filter:brightness(0.9)">
-                            <div class="card-gradient"></div>
-                            <div class="card-content">
-                                <div class="card-meta">
-                                    <span class="meta-item mb-2"><i class="fa-solid fa-calendar-days"></i> 7D /
-                                        6N</span>
-                                </div>
-                                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Nusa Penida &
-                                        Gili</span>
-                                </div>
-                                <h3 class="card-title">BALI HONEYMOONERS</h3>
-                            </div>
-                        </a>
-                        <!-- <button class="btn-custom-book w-100">
-                            Book Now
-                            <span class="icon-circle">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </button> -->
-                    </div>
-                </div>
-                <!-- 
-                <div class="col-lg-3">
-                    <div class="package-card-wrap">
-                        <a href="#" class="card-modern">
-                            <div class="card-badge">Adventure</div>
-                            <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800" alt="Lombok Explorer" class="card-img" style="filter:brightness(0.9)">
-                            <div class="card-gradient"></div>
-                            <div class="card-content">
-                                <div class="card-meta">
-                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 8D / 7N</span>
-                                </div>
-                                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Bali &
-                                        Lombok</span>
-                                </div>
-                                <h3 class="card-title">Ultimate Bali & Lombok Trip</h3>
+                                <h3 class="card-title">Varkala and Munroe<br> Flashpacking</h3>
                             </div>
                         </a>
                         <button class="btn-custom-book w-100">
@@ -1275,21 +1218,105 @@
                     </div>
                 </div>
 
+                <!-- <div class="col-lg-3">
+          <div class="swiper-container2">
+            <div class="swiper-slide">
+              <a href="varkala-3days-2nights-1.php">
+                <div class="picture">
+                  <h4>Private Trip</h4>
+                </div>
+                <img class="img" src="assets/img/varkala/varkala-bg1.jpg" alt="Image 1">
+                <div class="slide-bg">
+                  <div class="slide-text">
+                    <div class="inner">
+                      <h3><i class="fa-solid fa-calendar-days"> </i>3D / 2N</h3>
+                      <h4><i class="fa-solid fa-location-dot"></i>
+                        EX: Trivandrum,
+                        Kochi
+                      </h4>
+                    </div>
+                    <h5 class="fw-bold">Classic Varkala with<br> Trivandrum</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div> -->
+
                 <div class="col-lg-3">
                     <div class="package-card-wrap">
-                        <a href="#" class="card-modern">
+                        <a href="varkala-4days-3nights-1.php" class="card-modern">
                             <div class="card-badge">Private Trip</div>
-                            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800" alt="Bali Spiritual" class="card-img" style="filter:brightness(0.9)">
+                            <img src="assets/img/varkala/kerala-1.jpg" alt="Adventurous Varkala" class="card-img"
+                                style="filter:brightness(0.9)">
+                            <div class="card-gradient"></div>
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 4D / 3N</span>
+                                </div>
+                                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
+                                </div>
+                                <h3 class="card-title">Adventurous Varkala with<br> Trivandrum</h3>
+                            </div>
+                        </a>
+                        <button class="btn-custom-book w-100">
+                            Book Now
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-3">
+                    <div class="package-card-wrap">
+                        <a href="varkala-4days-3nights-2.php" class="card-modern">
+                            <div class="card-badge">Private Trip</div>
+                            <img src="assets/img/varkala/varkala-bg1.jpg" alt="Magical Varkala" class="card-img"
+                                style="filter:brightness(0.9)">
+                            <div class="card-gradient"></div>
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 4D / 3N</span>
+                                </div>
+                                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
+                                </div>
+                                <h3 class="card-title">Magical Varkala with<br> Munroe Island</h3>
+                            </div>
+                        </a>
+                        <button class="btn-custom-book w-100">
+                            Book Now
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="package-card-wrap">
+                        <a href="varkala-5days-4nights.php" class="card-modern">
+                            <div class="card-badge">Private Trip</div>
+                            <img src="assets/img/varkala/black-beach.jpg" alt="Varkala All-In-One" class="card-img"
+                                style="filter:brightness(0.9)">
                             <div class="card-gradient"></div>
                             <div class="card-content">
                                 <div class="card-meta">
                                     <span class="meta-item"><i class="fa-solid fa-calendar-days"></i> 5D / 4N</span>
                                 </div>
                                 <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Ubud &
-                                        Uluwatu</span>
+                                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> EX: Trivandrum,
+                                        Kochi</span>
                                 </div>
-                                <h3 class="card-title">Bali Spiritual & Cultural Retreat</h3>
+                                <h3 class="card-title">Varkala All-In-One</h3>
                             </div>
                         </a>
                         <button class="btn-custom-book w-100">
@@ -1299,20 +1326,20 @@
                             </span>
                         </button>
                     </div>
-                </div> -->
+
+                </div>
+
             </div>
 
-        </div>
-
-        <!-- <div class="swiper-container swiper-container2">
+            <!-- <div class="swiper-container swiper-container2">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
-            <a href="andaman-3days-2nights-2.php">
+            <a href="varkala-3days-2nights-2.php">
               <div class="picture">
                 <h4>Group Trip</h4>
               </div>
-              <img class="img" src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80&w=800" alt="Bali Villa">
+              <img class="img" src="assets/img/varkala/Munroesland.jpg" alt="Image 1">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1322,18 +1349,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Andaman and Munroe<br> Flashpacking</h5>
+                  <h5>Varkala and Munroe<br> Flashpacking</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-grouptrip.php">
+            <a href="varkala-grouptrip.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&q=80&w=800" alt="Bali Temple">
+              <img class="img" src="assets/img/varkala/black-beach.jpg" alt="Image 2">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1343,18 +1370,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Vibrant Andaman with<br> Munroe</h5>
+                  <h5>Vibrant Varkala with<br> Munroe</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-3days-2nights-1.php">
+            <a href="varkala-3days-2nights-1.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800" alt="Bali Rice Terrace">
+              <img class="img" src="assets/img/varkala/varkala-bg1.jpg" alt="Image 1">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1364,17 +1391,17 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Classic Andaman with<br> Trivandrum</h5>
+                  <h5>Classic Varkala with<br> Trivandrum</h5>
                 </div>
               </div>
             </a>
           </div>
           <div class="swiper-slide">
-            <a href="andaman-4days-3nights-1.php">
+            <a href="varkala-4days-3nights-1.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&q=80&w=800" alt="Bali Beach">
+              <img class="img" src="assets/img/varkala/kerala-1.jpg" alt="Image 3">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1384,18 +1411,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Adventurous Andaman with<br> Trivandrum</h5>
+                  <h5>Adventurous Varkala with<br> Trivandrum</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-4days-3nights-2.php">
+            <a href="varkala-4days-3nights-2.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?auto=format&fit=crop&q=80&w=800" alt="Bali Nusa Penida">
+              <img class="img" src="assets/img/varkala/4days-3nights.jpg" alt="Image 4">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1405,18 +1432,18 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Holiday in Andaman</h5>
+                  <h5>Magical Varkala with<br> Munroe Island</h5>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="swiper-slide">
-            <a href="andaman-5days-4nights.php">
+            <a href="varkala-5days-4nights.php">
               <div class="picture">
                 <h4>Private Trip</h4>
               </div>
-              <img class="img" src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800" alt="Bali Sunset">
+              <img class="img" src="assets/img/varkala/5days-4nights.jpg" alt="Image 4">
               <div class="slide-bg">
                 <div class="slide-text">
                   <div class="inner">
@@ -1426,7 +1453,7 @@
                       Kochi
                     </h4>
                   </div>
-                  <h5>Scenic Andaman Getaway</h5>
+                  <h5>Varkala All-In-One</h5>
                 </div>
               </div>
             </a>
@@ -1443,7 +1470,7 @@
     <!--====== Highlights Section Start ======-->
     <!-- <section class="highlights-section">
         <div class="container">
-            <h2 class="head">Highlights of Andaman</h2>
+            <h2 class="head">Highlights of Varkala</h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12 mb-4 d-flex">
                     <div class="highlight-card w-100">
@@ -1491,7 +1518,6 @@
     </section> -->
     <!--====== Highlights Section End ======-->
 
-
     <!--====== Gallery Section Start ======-->
     <section class="gallery-section">
         <div class="container">
@@ -1499,119 +1525,82 @@
             <div class="swiper-container-gallery">
                 <div class="swiper-wrapper">
 
-                    <!-- Loacl Images -->
                     <div class="swiper-slide">
-                        <img src="assets/img/bali/rewind/bali-1.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/bali/rewind/bali-2.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/bali/rewind/bali-3.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/bali/rewind/bali-4.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/bali/rewind/bali-5.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/bali/rewind/bali-6.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
-                    </div>
-
-                        
-                    <!-- <div class="swiper-slide">
-                        <img src="https://www.pelago.com/img/products/ID-Indonesia/bali-s-spiritual-pillars-uluwatu-temple-and-kecak-dance-tour/219d1e90-9914-480f-8758-43154d2c642e_bali-s-spiritual-pillars-uluwatu-temple-and-kecak-dance-tour-xlarge.webp" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Black Sand Beach</h5>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&q=80&w=800" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Varkala Cliff</h5>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=800" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Sunset Views</h5>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Palm Groves</h5>
-                        </div>
-                    </div> -->
-                    <!-- Duplicated Slides for Loop Stability -->
-                    <!-- <div class="swiper-slide">
                         <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Black Sand Beach</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&q=80&w=800" alt="Black Beach">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Varkala Cliff</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?auto=format&fit=crop&q=80&w=800" alt="Black Beach">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Sunset Views</h5>
                         </div>
-                    </div> -->
-                    <!-- <div class="swiper-slide">
-                        <img src="https://finnsbeachclub.com/wp-content/uploads/2025/01/beautiful-aerial-view-of-the-blue-point-beach-in-b-2023-11-27-04-49-42-utc-uluwatu-scaled.jpg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Palm Groves</h5>
-                        </div>
-                    </div> -->
-                    <!-- Duplicated Slides for Loop Stability 2 -->
-                    <!-- <div class="swiper-slide">
-                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Black Sand Beach</h5>
-                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://m.economictimes.com/thumb/msid-123035581,width-1200,height-1200,resizemode-4,imgsize-88872/bali.jpg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Varkala Cliff</h5>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://www.shutterstock.com/shutterstock/videos/3786615147/thumb/1.jpg?ip=x480" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <h5>Sunset Views</h5>
-                        </div>
-                    </div> -->
-                    <!-- <div class="swiper-slide">
                         <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Palm Groves</h5>
                         </div>
-                    </div> -->
+                    </div>
+
+                    <!-- Duplicated Slides for Loop Stability -->
+                    <div class="swiper-slide">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Black Sand Beach</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Varkala Cliff</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Sunset Views</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Palm Groves</h5>
+                        </div>
+                    </div>
+
+                    <!-- Duplicated Slides for Loop Stability 2 -->
+                    <div class="swiper-slide">
+                        <img src="assets/img/varkala/black-beach.jpg" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Black Sand Beach</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/sj85swlb1csyjykhdjgm.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Varkala Cliff</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ulfpgvgabz40euavr1ij.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Sunset Views</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://roamers.in/assets/img/varkala/ooac61kytcqedoqitres.avif" alt="Black Beach">
+                        <div class="gallery-overlay">
+                            <h5>Palm Groves</h5>
+                        </div>
+                    </div>
 
                 </div>
             </div>
