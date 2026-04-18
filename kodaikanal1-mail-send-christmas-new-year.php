@@ -168,28 +168,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <head>
             <meta charset="UTF-8">
-            <title>Merry Christmas - Booking Success!</title>
+            <title>Thank You for Booking!</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
             <style>
                 body {
-                    background: #C51A1A;
+                    font-family: 'Poppins', sans-serif;
+                    background: #4ec0db;
                     padding: 20px;
                     min-height: 100vh;
                     margin: 0;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    position: relative;
                 }
 
                 .thankyou-container {
                     background: #fff;
                     border-radius: 22px;
-                    box-shadow: 0 8px 50px 0 rgba(197, 26, 26, 0.16), 0 2px 16px #C51A1A1a;
-                    max-width: 440px;
-                    width: 96%;
-                    padding: 54px 30px 39px 30px;
+                    box-shadow: 0 8px 40px rgba(30, 144, 255, 0.13);
+                    max-width: 430px;
+                    width: 95%;
+                    padding: 48px 32px 38px 32px;
                     text-align: center;
                     position: relative;
                     animation: popUp 0.7s cubic-bezier(.23, 1.12, .32, 1.01);
@@ -213,141 +213,100 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 .thankyou-icon {
-                    width: 92px;
-                    height: 92px;
-                    margin-bottom: 17px;
+                    width: 80px;
+                    height: 80px;
+                    margin-bottom: 18px;
                     border-radius: 50%;
-                    background: #fff;
-                    border: 4px solid #ffd700;
+                    background: #4ec0db;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     margin-left: auto;
                     margin-right: auto;
-                    box-shadow: 0 2px 18px rgba(197, 26, 26, 0.20);
-                    position: relative;
+                    box-shadow: 0 2px 16px rgba(30, 144, 255, 0.13);
                 }
 
                 .thankyou-icon img {
-                    width: 58px;
-                    height: 58px;
+                    width: 48px;
+                    height: 48px;
                 }
 
                 .thankyou-title {
-                    font-size: 2rem;
+                    font-size: 2.1rem;
                     font-weight: 700;
-                    color: #C51A1A;
-                    margin-bottom: 8px;
+                    color: #4ec0db;
+                    margin-bottom: 10px;
                     letter-spacing: 1px;
-                    text-shadow: 0 1.5px 0 #fff;
-                }
-
-                .thankyou-title span {
-                    font-size: 1.37em;
-                    margin-left: 7px;
                 }
 
                 .thankyou-msg {
-                    font-size: 1.14rem;
-                    color: #C51A1A;
-                    margin-bottom: 18px;
+                    font-size: 1.15rem;
+                    color: #333;
+                    margin-bottom: 22px;
                 }
 
                 .thankyou-details {
-                    background: #FFF9F2;
+                    background: #f8fcff;
                     border-radius: 12px;
-                    padding: 17px 15px 9px 15px;
+                    padding: 18px 16px 10px 16px;
                     margin-bottom: 18px;
-                    font-size: 1.06rem;
-                    color: #333;
+                    font-size: 1.01rem;
+                    color: #444;
                     text-align: left;
-                    box-shadow: 0 1px 11px rgba(197, 26, 26, 0.09);
+                    box-shadow: 0 1px 8px rgba(78, 192, 219, 0.06);
                 }
 
                 .thankyou-details strong {
-                    color: #C51A1A;
+                    color: #4ec0db;
                 }
 
                 .thankyou-btn {
-                    background: #C51A1A;
+                    background: #4ec0db;
                     color: #fff;
                     border: none;
-                    border-radius: 10px;
+                    border-radius: 8px;
                     padding: 12px 38px;
-                    font-size: 1.09rem;
+                    font-size: 1.08rem;
                     font-weight: 600;
                     cursor: pointer;
-                    box-shadow: 0 2px 9px rgba(197, 26, 26, 0.13);
+                    box-shadow: 0 2px 8px rgba(78, 192, 219, 0.08);
                     transition: background 0.2s;
-                    margin-top: 9px;
+                    margin-top: 10px;
                     text-decoration: none;
                     display: inline-block;
                 }
 
                 .thankyou-btn:hover {
-                    background: #ae1818;
-                }
-
-                .christmas-top {
-                    position: absolute;
-                    left: 0;
-                    right: 0;
-                    top: 0;
-                    padding-top: 6px;
-                    font-size: 23px;
-                    width: 100%;
-                    text-align: center;
-                    pointer-events: none;
-                    user-select: none;
-                    color: #fff;
-                    text-shadow: 0 2px 8px #C51A1A6b;
-                }
-
-                .christmas-bottom {
-                    position: absolute;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    font-size: 22px;
-                    width: 100%;
-                    text-align: center;
-                    pointer-events: none;
-                    user-select: none;
-                    color: #fff;
-                    text-shadow: 0 2px 8px #C51A1A6b;
+                    /* background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%); */
                 }
 
                 @media (max-width: 600px) {
                     .thankyou-container {
-                        padding: 33px 5px 23px 5px;
+                        padding: 32px 8px 24px 8px;
                     }
                 }
             </style>
         </head>
 
         <body>
-            <div class="christmas-top">🎄🌟🎅 Merry Christmas & Happy New Year! 🎅🌟🎄</div>
             <div class="thankyou-container">
                 <div class="thankyou-icon">
-                    <img src="https://img.icons8.com/color/96/christmas-star.png" alt="Christmas Success">
+                    <img src="assets/img/Logo/Logo mark-01.png" alt="Success">
                 </div>
-                <div class="thankyou-title">
-                    Thank You for Booking! <span>🎄</span>
-                </div>
+                <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
-                    Your Christmas Kodaikanal booking has been received.<br>
-                    Wishing you a <strong style='color:#C51A1A;'>magical holiday adventure!</strong>
+                    Your Ultimate Ladakh Circuit - 7 Days booking has been received.<br>
+                    We can't wait to see you on your adventure!
                 </div>
                 <div class="thankyou-details">
-                    <div><strong>Name:</strong> <?php echo htmlspecialchars($name); ?></div>
-                    <div><strong>Email:</strong> <?php echo htmlspecialchars($email); ?></div>
-                    <div><strong>Phone:</strong> <?php echo htmlspecialchars($phone); ?></div>
-                    <div><strong>Travel Date:</strong> <?php echo htmlspecialchars($date); ?></div>
-                    <div><strong>No. of Travellers:</strong> <?php echo htmlspecialchars($person_count); ?></div>
+                    <div><strong style="margin-right: 10px;">Name :</strong> <?php echo htmlspecialchars($name); ?></div>
+                    <div><strong style="margin-right: 10px;">Email :</strong> <?php echo htmlspecialchars($email); ?></div>
+                    <div><strong style="margin-right: 10px;">Phone :</strong> <?php echo htmlspecialchars($phone); ?></div>
+                    <div><strong style="margin-right: 10px;">Travel Date :</strong> <?php echo htmlspecialchars($date); ?></div>
+                    <div><strong style="margin-right: 10px;">No. of Travellers :</strong> <?php echo htmlspecialchars($person_count); ?></div>
                 </div>
                 <a href="index.php" class="thankyou-btn">Back to Home</a>
             </div>
-            <div class="christmas-bottom">⛄❄️ Enjoy the magic of the season! 🎁🌟</div>
         </body>
 
         </html>
