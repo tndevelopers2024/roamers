@@ -1789,7 +1789,7 @@
           </div>
         </div>
 
-        <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
+         <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="#home-form">
                 <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/Kerala/goa-cover.jpeg" alt="roamers-Gallery">
@@ -1815,7 +1815,7 @@
                 </div>
               </a>
             </div>
-          </div> -->
+          </div> 
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
           <div class="swiper-slide p-md-2 p-1">
@@ -1844,7 +1844,7 @@
           </div>
         </div>
 
-        <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
+         <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal">
                 <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kodaikanal/Kodai.jpg"" alt="
@@ -1876,7 +1876,7 @@
                 </div>
               </a>
             </div>
-          </div> -->
+          </div> 
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
           <div class="swiper-slide p-md-2 p-1">
@@ -1911,7 +1911,7 @@
           </div>
         </div>
 
-        <!-- <div class="col-12 mt-5 col-lg-4 col-md-6">
+        <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kodaikanal1">
                 <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/kodaikanal/perumal-peak.jpg"
@@ -1937,7 +1937,7 @@
                 </div>
               </a>
             </div>
-          </div> -->
+          </div> 
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
           <div class="swiper-slide p-md-2 p-1">
@@ -2002,7 +2002,35 @@
           </div>
         </div>
 
-        <!-- <div class="col-12 col-lg-4 col-md-6">
+        <div class="col-12 mt-5 col-lg-4 col-md-6">
+          <div class="swiper-slide p-md-2 p-1">
+            <a href="#"
+              style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
+              <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/spiti-valley/cover/spiti-chandratal-trek.avif"
+                alt="roamers-Gallery">
+              <div class="silder-inner silder-inner1">
+                <div class="inner inner2">
+                  <h3>7 DAYS / 6 NIGHTS</h3>
+                  <h4><img src="assets/img/images/loc1.svg " class="exicon" style="border-radius:20px !important;"
+                      alt="second location-icon">EX: Delhi
+                  </h4>
+                </div>
+                <h2>Spiti Chandratal Trek</h2>
+                <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Spiti Valley
+                </p>
+                <div class="inner">
+                  <h4 style="padding-right: 20px;"><img src="assets/img/images/date.svg" style="border-radius:20px !important;"
+                      alt="second location-icon">
+                    <span class="spiti-dates"> Dec 23 </span>
+                  </h4>
+                  <h4><span class="spiti-price"></span> </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+         <!-- <div class="col-12 col-lg-4 col-md-6">
             <div class="swiper-slide">
               <a href="kerala">
                 <img src="assets/img/Kerala/Kerala photos.jpg" alt="roamers-Gallery">
@@ -2031,7 +2059,7 @@
                 </div>
               </a>
             </div>
-          </div> -->
+          </div>  -->
       </div>
     </div>
   </div>
@@ -2442,7 +2470,7 @@
             </div>
           </div> -->
 
-        <div class="col-12 col-lg-4 col-md-6 mt-5">
+        <div class="col-12 col-lg-4 col-md-6 ">
           <div class="swiper-slide p-md-2 p-1">
             <a href="kolukkumalai-trek"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">

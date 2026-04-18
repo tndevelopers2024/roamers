@@ -71,8 +71,8 @@
         <div class="container-lg" style="position: relative; text-align: center;">
 
             <h2 class="banner-hight-top ms-2"
-                style="font-size:49px; font-weight: 900; color: #fff; 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-                BALI
+                style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+                BALI HONEYMOONERS <span class="fa-beat" style="display: inline-block;">❤️💖</span>
             </h2>
 
             <ul class="banner-hight-bottom p-0"
@@ -328,13 +328,18 @@
                     <div class="col-md-5 mt-0">
                         <div class="swiper miniSlider px-px-md-0 py-3">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=800"
                                         class="img-fluid w-100" alt="Bali Beach"
                                         style="border-radius: 10px; height: 350px; object-fit: cover;">
-                                </div>
-                                <div class="swiper-slide">
+                                </div> -->
+                                <!-- <div class="swiper-slide">
                                     <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80&w=800" class="img-fluid w-100"
+                                        alt="Bali Pool"
+                                        style="border-radius: 10px; height: 350px; object-fit: cover;">
+                                </div> -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/bali/rewind/bali-6.jpeg" class="img-fluid w-100"
                                         alt="Bali Pool"
                                         style="border-radius: 10px; height: 350px; object-fit: cover;">
                                 </div>
@@ -749,7 +754,7 @@
                                 <div class="p-2">
                                     <div class="inner-box"
                                         style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
-                                        <h3 style="text-align: center; margin-bottom: 0px;">Bali TRIP</h3>
+                                        <h3 style="text-align: center; margin-bottom: 0px;">Bali TRIP <span class="fa-beat" style="display: inline-block;">❤️</span></h3>
                                         <h5 class="special-offer">
                                             <span class="old-price">
                                                 <!-- <strike>₹ 10,000/-</strike> -->
@@ -819,59 +824,52 @@
         </h3>
         <div class="swiper-container two">
             <div class="swiper-wrapper">
-                <!-- Local Images -->
                 <div class="swiper-slide">
                     <div class="slider-image">
-                        <img src="assets/img/bali/rewind/bali-1.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&q=80&w=800" alt="Bali Temple">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slider-image">
-                        <img src="assets/img/bali/rewind/bali-2.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1528641938875-af617155cd9a?auto=format&fit=crop&q=80&w=800" alt="Bali Nature">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slider-image">
-                        <img src="assets/img/bali/rewind/bali-3.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=800" alt="Bali Monkey Forest">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slider-image">
-                        <img src="assets/img/bali/rewind/bali-4.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?auto=format&fit=crop&q=80&w=800" alt="Bali Nusa Penida">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slider-image">
-                        <img src="assets/img/bali/rewind/bali-5.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&q=80&w=800" alt="Bali Surf">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slider-image">
-                        <img src="assets/img/bali/rewind/bali-6.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
-                            <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&q=80&w=800" alt="Bali Sunset">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&q=80&w=800" alt="Bali Water">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800" alt="Bali Rice Terrace">
                     </div>
                 </div>
             </div>
             <div class="swiper-pagination d-none d-md-none"></div>
         </div>
     </section>
+
+
 
     <!-- Faq Seciton -->
     <section class="faq" id="notes">

@@ -5,1125 +5,1462 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" width="600"
-    height="600" alt="image for ooty" />
   <title>Roamers - Andaman</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Andaman" />
+  <meta name="description" content="andaman" />
   <meta name="author" content="Themeland" />
+  <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
-
-  <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Andaman" />
+  <meta property="og:title" content="Andaman Packages" />
   <meta property="og:description"
-    content="Explore the Andaman Islands with Roamers – your ultimate guide to pristine beaches, adventure activities, and unforgettable group travel experiences." />
-  <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
+    content="Discover the best Andaman packages with Roamers. Explore stunning beaches, coral reefs, and cultural experiences. Book your Andaman trip today!" />
+  <meta property="og:url" content="https://roamers.in/andaman.php" />
   <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Andaman" />
-  <meta name="twitter:description"
-    content="Explore the Andaman Islands with Roamers – your ultimate guide to pristine beaches, adventure activities, and unforgettable group travel experiences." />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title  -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="assets/css/valley-of-flowers.css" />
+
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
 
   <!-- Favicon  -->
-  <link rel="shortcut icon" href="assets/img/Logo/Logo mark-01.png" type="image/x-icon">
+  <!-- <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" /> -->
   <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- ***** All CSS Files ***** -->
-  <link rel="stylesheet" href="assets/css/srilanka.css">
   <!-- ***** Font Asesome cdn ***** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Style css -->
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Damion&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
-  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <!-- Responsive css -->
+
+  <link rel="stylesheet" href="assets/css/responsive.css">
   <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      overflow-x: hidden;
+      font-family: 'Lato', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .section-title,
+    .head,
+    .banner-title,
+    .card-title,
+    .accordion-button {
+      font-family: 'Montserrat', sans-serif;
+      color: #094067;
+    }
+
+    .head {
+      color: #094067 !important;
+      position: relative;
+      padding-bottom: 15px;
+      text-align: center !important;
+    }
+
+    /* Centered expanding bar */
+    .head::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      /* background-color: #094067; */
+      border-radius: 2px;
+      animation: expandBar 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes expandBar {
+      0% {
+        width: 40px;
+        opacity: 0.7;
+      }
+
+      100% {
+        width: 90px;
+        opacity: 1;
+      }
+    }
+
+
+    .banner-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.7) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+
+    .banner-content {
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      max-width: 800px;
+      z-index: 10;
+    }
+
+    .banner-title {
+      font-size: 3.5rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+      /* opacity: 0; */
+      /* transform: translateY(30px); */
+      /* animation: fadeInUp 1s ease forwards 0.5s; */
+      color: #fff !important;
+      position: relative;
+      z-index: 20;
+    }
+
+    .banner-subtitle {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+      /* opacity: 0; */
+      /* transform: translateY(20px); */
+      /* animation: fadeInUp 1s ease forwards 0.8s; */
+      color: #fff !important;
+      position: relative;
+      z-index: 20;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .banner-nav-btn {
+      color: rgba(255, 255, 255, 0.7);
+      transition: all 0.3s ease;
+    }
+
+    /* .banner-nav-btn:hover {
+      color: #4EC0DB;
+      transform: scale(1.1);
+    } */
+
+    @media (max-width: 768px) {
+      nav::before {
+        display: none;
+      }
+
+      .banner-slider {
+        height: 70vh;
+        min-height: 500px;
+      }
+
+      .banner-title {
+        font-size: 2rem !important;
+        padding: 0 15px;
+      }
+
+      .banner-subtitle {
+        font-size: 1rem !important;
+        padding: 0 15px;
+      }
+    }
+
+    .swiper-container2 {
+      width: 100%;
+      height: 500px !important;
+    }
+
+    .swiper-slide {
+      height: 100% !important;
+    }
+
+    .swiper-slide a {
+      height: 85% !important;
+      position: relative;
+      border-radius: 10px !important;
+      overflow: hidden;
+      transform: scale(100%) !important;
+    }
+
+    /* .swiper-slide a:hover {
+      transform: scale(100%) !important;
+    } */
+
+    .swiper-slide a .slide-bg {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding: 10px;
+      width: 100%;
+      height: 100% !important;
+      background: linear-gradient(rgba(0, 0, 0, 0) 46.67%, rgb(0 0 0 / 50%) 86.21%);
+    }
+
+    .slide-text h5 {
+      text-align: left !important;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .slide-text p {
+      color: #fff !important;
+      margin-bottom: 10px !important;
+    }
+
+    .slide-text span {
+      color: #fff !important;
+    }
+/* 
+    .swiper-slide a:hover {
+      box-shadow: rgba(48, 212, 245, 0.24) 0px 6px 8px;
+    } */
+
+
+    .swiper-slide a {
+      width: 97% !important;
+    }
+
+    .swiper-slide a .img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover;
+      border-radius: 0 !important;
+    }
+
+    .slide-text {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .trip-home h1 {
+        margin: 90px 0px 27px !important;
+      }
+
+      .swiper-slide {
+        height: 100% !important;
+      }
+
+      .swiper-container2 {
+        height: auto !important;
+        margin-bottom: 20px !important;
+      }
+
+      .swiper-slide img {
+        min-height: 400px !important;
+      }
+
+      .swiper-slide a .slide-bg {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 10px;
+        width: 100%;
+        height: 100% !important;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.1) 50%) !important;
+      }
+
+      .slide-text h5 {
+        text-align: left !important;
+        font-size: 16px;
+        color: #fff;
+      }
+
+      .swiper-slide a .img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        border-radius: 0 !important;
+      }
+
+      .slide-text {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        padding: 20px;
+      }
+    }
+
+    .inner {
+      display: flex;
+      padding-top: 5px;
+      margin-bottom: 5px;
+      gap: 20px;
+    }
+
+    .fa-calendar-days,
+    .fa-location-dot {
+      color: #4EC0DB;
+      margin-right: 6px;
+    }
+
+    .exicon {
+      width: 12px !important;
+      height: 14px !important;
+      margin: 0;
+      padding-top: 3px;
+    }
+
+    .inner h3 {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .inner h4 {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .picture h4 {
+      background-color: #4da7bbff;
+      color: #ffffffff;
+      position: absolute;
+      border: 0px solid #fff;
+      z-index: 99 !important;
+      top: 3%;
+      right: 4%;
+      font-size: 12px;
+      padding: 3px 10px 3px 10px;
+      border-radius: 5px;
+      margin-bottom: 0px !important;
+      overflow: hidden;
+
+    }
+
+    .picture h4::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+      transform: skewX(-30deg);
+      animation: shine 2s infinite linear;
+      z-index: 10;
+    }
+
+    /* Keyframes for shine effect */
+    @keyframes shine {
+      0% {
+        left: -100%;
+      }
+
+      100% {
+        left: 100%;
+      }
+    }
+
+    /* Highlights Section Styles */
+    .highlights-section {
+      background-color: #f9f9f9;
+      padding: 60px 0;
+      margin-top: 50px;
+    }
+
+    .highlight-card {
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      height: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* .highlight-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    } */
+
+    .highlight-icon {
+      width: 70px;
+      height: 70px;
+      background: #e0f7fa;
+      color: #4EC0DB;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      margin: 0 auto 20px;
+      transition: all 0.3s ease;
+    }
+
+    /* .highlight-card:hover .highlight-icon {
+      background: #4EC0DB;
+      color: #fff;
+    } */
+
+    .highlight-card h4 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .highlight-card p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    /* Gallery Section Styles */
+    .gallery-section {
+      padding: 60px 0;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .swiper-container-gallery {
+      width: 100%;
+      padding-top: 60px;
+      /* More space for top elements */
+      padding-bottom: 70px;
+      /* More space for shadows */
+      overflow: visible !important;
+      /* Allow shadows to bleed */
+    }
+
+    .swiper-container-gallery .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 450px !important;
+      /* Slightly reduced height for better aspect ratio */
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+      filter: none !important;
+      /* Remove blur */
+      opacity: 1 !important;
+      /* Full visibility */
+      transition: all 0.5s ease;
+      /* margin-top: 30px; Removed manual margin, let swiper handle it */
+    }
+
+    @media (max-width: 600px) {
+      .swiper-container-gallery .swiper-slide {
+        width: 75vw !important;
+        height: 350px !important;
+      }
+
+      .section-title {
+        font-size: 28px !important;
+      }
+    }
+
+    .swiper-container-gallery .swiper-slide-active {
+      filter: blur(0px);
+      opacity: 1;
+      /* transform: scale(1.1); Removed to prevent conflict with Swiper */
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .swiper-container-gallery .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+      color: #fff;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .swiper-container-gallery .swiper-slide-active .gallery-overlay {
+      transform: translateY(0);
+    }
+
+    .gallery-overlay h5 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Custom Book Now Button Styles */
+    .btn-custom-book {
+      background-color: #4EC0DB;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 10px 10px 30px;
+      font-size: 18px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+/* 
+    .btn-custom-book:hover,
+    .package-card-wrap:hover .btn-custom-book {
+      background-color: #094067;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      color: #fff;
+    } */
+
+    .btn-custom-book .icon-circle {
+      background-color: #fff;
+      color: #000;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    /* .btn-custom-book:hover .icon-circle,
+    .package-card-wrap:hover .icon-circle {
+      transform: rotate(45deg);
+      color: #4EC0DB;
+    } */
+
+    /* Modern Package Card Styles */
+    .package-card-wrap {
+      display: block;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .card-modern {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      height: 450px;
+      margin-bottom: 20px;
+      display: block;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      /* Glass Border */
+    }
+
+    /* Glossy Sheen Overlay */
+    .card-modern::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(125deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 60%);
+      z-index: 6;
+      /* Above gradient */
+      pointer-events: none;
+    }
+
+    /* .card-modern:hover,
+    .package-card-wrap:hover .card-modern {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    } */
+
+    .card-modern .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    /* .card-modern:hover .card-img,
+    .package-card-wrap:hover .card-img {
+      transform: scale(1.1);
+    } */
+
+    .card-badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(5px);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #4EC0DB;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      z-index: 10;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-gradient {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 70%;
+      background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
+      z-index: 5;
+    }
+
+    .card-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 25px;
+      z-index: 10;
+    }
+
+    @media (max-width: 991px) {
+      .card-meta {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+    }
+
+    /* Stronger Overrides for Mobile FAQ */
+    @media (max-width: 768px) {
+      .faq {
+        padding: 40px 15px !important;
+        margin: 0 !important;
+        background-image: none !important;
+      }
+
+      .faq .accordion-item {
+        border-radius: 16px !important;
+        margin-bottom: 15px !important;
+      }
+
+      .faq .accordion-button {
+        border-radius: 16px !important;
+        font-size: 16px !important;
+        /* Restore readable font size */
+        padding: 20px !important;
+      }
+
+      .accordion-flush .accordion-item .accordion-button {
+        border-radius: 16px !important;
+        /* Override responsive.css */
+      }
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .meta-item i {
+      color: #4EC0DB;
+      margin-right: 6px;
+    }
+
+    .card-title {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 800;
+      margin: 0;
+      line-height: 1.3;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* FAQ Section Styles - Premium Modern */
+    .faq .accordion-item {
+      border: none !important;
+      margin-bottom: 20px !important;
+      border-radius: 16px !important;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
+      overflow: hidden !important;
+      background: #fff !important;
+      transition: all 0.3s ease !important;
+    }
+
+    /* .faq .accordion-item:hover {
+      transform: translateY(-3px);
+    } */
+
+    .faq .accordion-button {
+      border-radius: 16px !important;
+      font-weight: 700 !important;
+      font-size: 1.15rem !important;
+      font-size: 1.15rem !important;
+      color: #2c3e50 !important;
+      background-color: #fff !important;
+      box-shadow: none !important;
+      padding: 25px 30px !important;
+      text-transform: capitalize;
+      transition: all 0.3s ease !important;
+    }
+
+    .faq .accordion-button:not(.collapsed) {
+      background-color: transparent !important;
+      background: transparent !important;
+      color: #4EC0DB !important;
+      box-shadow: none !important;
+      border: 0 !important;
+      border-bottom: 0 !important;
+    }
+
+    .faq .accordion-button:focus,
+    .faq .accordion-button:active {
+      background-color: transparent !important;
+      background: transparent !important;
+      box-shadow: none !important;
+      border-color: transparent !important;
+      outline: none !important;
+      color: #4EC0DB !important;
+
+    }
+
+    .faq .accordion-collapse {
+      border: 0 !important;
+      border-width: 0 !important;
+      box-shadow: none !important;
+    }
+
+    .faq .accordion-button:focus {
+      box-shadow: none !important;
+      border-color: transparent !important;
+    }
+
+    .faq .accordion-body {
+      padding: 30px !important;
+      color: #555 !important;
+      line-height: 1.7 !important;
+      background-color: #fff !important;
+      font-size: 1rem !important;
+      border-top: 0 !important;
+    }
+
+    /* Modern Plus/Minus Icon */
+    .faq .accordion-button::after {
+      width: 40px;
+      height: 40px;
+      background-position: center;
+      background-size: 16px !important;
+      background-color: #fff;
+      border-radius: 50%;
+      transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='12' y1='5' x2='12' y2='19'%3e%3c/line%3e%3cline x1='5' y1='12' x2='19' y2='12'%3e%3c/line%3e%3c/svg%3e") !important;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 2px;
+
+    }
+
+    @media (max-width: 768px) {
+      .faq .accordion-button:not(.collapsed)::after {
+        background-color: #4EC0DB;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='5' y1='12' x2='19' y2='12'%3e%3c/line%3e%3c/svg%3e") !important;
+        transform: rotate(180deg) !important;
+        box-shadow: 0 6px 20px rgba(78, 192, 219, 0.4);
+        border-color: transparent;
+        padding: 2px;
+      }
+    }
+
+    .faq .accordion-button:not(.collapsed)::after {
+      background-color: #4EC0DB;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='5' y1='12' x2='19' y2='12'%3e%3c/line%3e%3c/svg%3e") !important;
+      transform: rotate(180deg) !important;
+      box-shadow: 0 6px 20px rgba(78, 192, 219, 0.4);
+      border-color: transparent;
+      padding: 7px;
+    }
+
+    /* Mobile List View for Packages */
+    @media (max-width: 991px) {
+      .packages-scroll-row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        /* Enable wrapping */
+        overflow-x: visible !important;
+        /* Disable scroll */
+        padding-bottom: 0px;
+        gap: 20px;
+        /* Vertical gap */
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .packages-scroll-row>.col-lg-3 {
+        flex: 0 0 100% !important;
+        /* Full width */
+        max-width: 100% !important;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* Refactored Utility Classes */
+    .banner-bg-static {
+      background-image: url('assets/img/andaman/andaman-bg.avif');
+      height: 90vh;
+      padding: 0;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .dark-overlay-flex {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .centered-white-text {
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero-title-large {
+      font-size: 3.5rem;
+      font-weight: 800;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      margin-bottom: 15px;
+    }
+
+    .hero-subtitle-medium {
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .img-brightness-dim {
+      filter: brightness(0.9);
+    }
+
+    .meta-spacing {
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 
 <body>
-  <!-- Whats app  -->
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1"><img src="assets/img/icon/whatsapp.svg" alt=""></a>
-
-  <!-- Header -->
+  <!-- ***** Header Start ***** -->
   <?php include('includes/header.php'); ?>
+  <!-- ***** Header End -->
 
   <!-- Banner -->
-  <section class="trip-home" class="banner-marigin-section" id="tripSection"
-    style="  padding: 350px 0; color: white; position: relative;  height: 95vh;">
-
-
-
-    <div class="container-lg" style="position: relative; text-align: center;">
-
-      <h2 class="banner-hight-top ms-2"
-        style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        ANDAMAN ISLAND HOPPING
-      </h2>
-
-      <ul class="banner-hight-bottom p-0"
-        style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
-        <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
+  <section id="banner"
+    style=" height: 110vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 350px 0; background-image: url('assets/img/andaman/andaman-bg.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; "></div>
+    <div style="position: relative; z-index: 1; text-align: center; color: white; width: 100%;">
+      <h2
+        style="font-size: 49px; font-weight: 900; margin: 0; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+        ANDAMAN TRIPS </h2>
+      <!-- <ul style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; padding: 0;">
+        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           PORT BLAIR
-          <span class="ms-2">
-            <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-                  style="width:13px; margin-bottom: 3px;"></span>
+          <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
         </li>
-
-
-        <li class="mobile-small-text m me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-          HAVELOCK ISLAND <span class="ms-2"><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-              style="width:13px; margin-bottom: 3px;"></span>
+        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
+          HAVELOCK ISLAND
+          <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
         </li>
-        <li class="mobile-small-text  me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
+        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           NEIL ISLAND
-          <span class="ms-2"> <span><img src="assets\img\Sirlanka\arrow-icon-by-roamers.png" alt=""
-                style="width:13px; margin-bottom: 3px;"></span>
+          <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
         </li>
-        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
+        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; font-size: 16px;">
           ROSS ISLAND
-
         </li>
-      </ul>
-
-      <!-- this is the dot pagination for the slider -->
-      <div id="dotPagination">
-
-      </div>
-
-  </section>
-  <!-- Tab -->
-  <section class="tab-sections mob-tab">
-    <div class="">
-      <div class="">
-        <div class="tab-contentt">
-          <a href="#overview" class="tab-box  active">Overview <span></span></a>
-          <a href="#itinerary" class="tab-box ">Itinerary <span></span></a>
-          <a href="#inclusion" class="tab-box ">Inclusion <span></span></a>
-          <a href="#exclusion" class="tab-box ">Exclusion <span></span></a>
-        </div>
-      </div>
+      </ul> -->
     </div>
   </section>
+  <!-- Banner Slider End -->
 
-  <!-- Banner Below -->
-  <div class=""
-    style="background-image: url(''); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <!-- About Us Section Start -->
+  <style>
+    .about-area {
+      position: relative;
+      z-index: 1;
+      padding: 120px 0 60px;
+      background-color: #f9f9f9;
+      overflow: hidden;
+    }
+
+    .about-img-wrapper {
+      position: relative;
+      z-index: 1;
+      /* padding-right: 30px;
+            padding-bottom: 30px; */
+    }
+
+    .about-img-1 {
+      width: 85%;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .about-img-1 img {
+      width: 100%;
+      transition: all 0.4s ease;
+    }
+
+    .about-img-2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 55%;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 5px solid #fff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-img-2 img {
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .about-img-1 {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .about-img-2 {
+        position: relative;
+        width: 90%;
+        margin: -40px auto 0;
+        right: auto;
+        bottom: auto;
+        display: block;
+      }
+
+      .about-img-wrapper {
+        padding-bottom: 0;
+        text-align: center;
+      }
+
+      .experience-badge {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin: -30px auto 20px;
+        width: fit-content;
+        right: auto;
+      }
+    }
+
+    .experience-badge {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      background: #4EC0DB;
+      padding: 20px 25px;
+      border-radius: 15px;
+      color: #fff;
+      box-shadow: 0 10px 20px rgba(78, 192, 219, 0.3);
+      text-align: center;
+      z-index: 2;
+    }
+
+    .experience-badge h3 {
+      font-size: 35px;
+      font-weight: 800;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .experience-badge p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 500;
+      opacity: 0.9;
+    }
+
+    .video-btn-wrap {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+    }
+
+    .about-content {
+      padding-left: 30px;
+    }
+
+    .section-subtitle {
+      color: #4EC0DB;
+      font-family: 'Damion', cursive;
+      /* Assuming handwriting font */
+      font-size: 24px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .section-title {
+      font-size: 42px;
+      font-weight: 800;
+      color: #2c3e50;
+      line-height: 1.2;
+      margin-bottom: 40px;
+    }
+
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      position: relative;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 35px;
+      position: relative;
+    }
+
+    /* Connecting Dotted Line */
+    .feature-item:not(:last-child)::before {
+      content: "";
+      position: absolute;
+      left: 32px;
+      top: 65px;
+      height: calc(100% - 30px);
+      border-left: 2px dashed #e0e0e0;
+    }
+
+    .icon-box {
+      width: 65px;
+      height: 65px;
+      background: #4EC0DB;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 25px;
+      flex-shrink: 0;
+      box-shadow: 0 8px 20px rgba(78, 192, 219, 0.2);
+      transition: all 0.3s ease;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* White ring effect */
+    .icon-box::after {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      border: 1px solid rgba(78, 192, 219, 0.3);
+      border-radius: 50%;
+    }
+
+    /* .feature-item:hover .icon-box {
+      transform: translateY(-5px);
+    } */
+
+    .icon-box img {
+      width: 32px;
+      filter: brightness(0) invert(1);
+    }
+
+    .feature-text h4 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 8px;
+      color: #2c3e50;
+    }
+
+    .feature-text p {
+      font-size: 15px;
+      color: #777;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .travel-bg-figure {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      opacity: 0.1;
+      width: 300px;
+    }
+  </style>
+
+<section
+    style="height:50vh !important;background-image: url('') ; background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <h2 class="head">ANDAMAN TOUR PACKAGES</h2>
     <div class="container">
-      <div class="row desktop-inform my-4 g-3 "
-        style="overflow: visible; border:none !important; padding:60px 0px !important">
-        <section class="info-highlights">
-          <div class="container p-3">
-            <div class="row row-cols-1 row-cols-lg-4 g-4 text-center">
 
-              <div class="col">
-                <div class="enhanced-box">
-                  <!-- <div class="icon-circle"> -->
-                  <!-- <i class='bx  bx-rupee'></i>  -->
-                  <img src="assets/img/andaman/elements/ruppes-bubble.png" alt="" style="width:70px">
-                  <!-- </div> -->
-                  <div>
-                    <div class="info-label">Starting Price</div>
-                    <div class="info-value"><span class="andaman-price"></span></div>
-                  </div>
+      <div class="row packages-scroll-row">
+        <div class="col-lg-3">
+          <div class="package-card-wrap">
+            <a href="andaman-group-trip.php" class="card-modern">
+              <div class="card-badge bg-success !important text-white !important">Group Trip</div>
+              <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Island Hopping"
+                class="card-img img-brightness-dim">
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 7D / 6N</span>
                 </div>
-              </div>
-
-              <div class="col">
-                <div class="enhanced-box">
-                  <!-- <div class="icon-circle"> -->
-                  <!-- <i class='bx  bx-hourglass'></i>  -->
-                  <img src="assets/img/andaman/elements/calender-bubble.png" alt="" style="width:70px">
-                  <!-- </div> -->
-                  <div>
-                    <div class="info-label">Duration</div>
-                    <div class="info-value">7D / 6N</div>
-                  </div>
+                <div class="card-meta meta-spacing">
+                  <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
                 </div>
+                <h3 class="card-title">Andaman Island<br> Hopping</h3>
               </div>
-
-              <div class="col">
-                <div class="enhanced-box">
-                  <!-- <div class="icon-circle"> -->
-                  <!-- <i class="fa-solid fa-location-dot"></i> -->
-                  <img src="assets/img/andaman/elements/location-bubble.png" alt="" style="width:70px">
-                  <!-- </div> -->
-                  <div>
-                    <div class="info-label">Pickup & Drop</div>
-                    <div class="info-value">Port Blair</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col d-flex align-items-center">
-                <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
-                  Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
-              </div>
-            </div>
+            </a>
           </div>
-        </section>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="package-card-wrap">
+            <a href="andaman-8D.php" class="card-modern">
+              <div class="card-badge">Private Trip</div>
+              <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg"
+                alt="Extended Andaman" class="card-img" style="filter:brightness(0.9)">
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 8D / 7N</span>
+                </div>
+                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                  <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
+                </div>
+                <h3 class="card-title">Extended Andaman<br> Exploration</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="package-card-wrap">
+            <a href="#" class="card-modern">
+              <div class="card-badge">Seasonal Trip</div>
+              <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Andaman Festive"
+                class="card-img" style="filter:brightness(0.9)">
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 7D / 6N</span>
+                </div>
+                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                  <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
+                </div>
+                <h3 class="card-title">Andaman Christmas<br> & New Year</h3>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3">
+          <div class="package-card-wrap">
+            <a href="#" class="card-modern">
+              <div class="card-badge">Private Trip</div>
+              <img src="https://roamers.in/assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg"
+                alt="Scenic Andaman" class="card-img" style="filter:brightness(0.9)">
+              <div class="card-gradient"></div>
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 5D / 4N</span>
+                </div>
+                <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
+                  <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
+                </div>
+                <h3 class="card-title">Scenic Andaman<br> Getaway</h3>
+              </div>
+            </a>
+          </div>
+
+        </div>
       </div>
-      <div class="row mobile-inform mt-4">
-        <section class="info-highlights">
-          <div class="">
-            <div class="row text-center">
-
-              <!-- <div class="col">
-              <div class="enhanced-box">
-                <div class="icon-circle">
-                  
-                   <img src="assets/img/icon/rupees.png" alt="">
-                </div>
-                <div>
-                <div class="info-label">Starting Price</div>
-                <div class="info-value andaman-price"><span>/-</span></div>
-                </div>
-              </div>
-            </div> -->
-
-              <div class="col-5 px-0">
-                <div class="enhanced-box">
-                  <div class="icon-circle">
-                    <!-- <i class='bx  bx-hourglass'></i>  -->
-                    <img src="assets/img/icon/duration.png" style="width:35px" alt="">
-                  </div>
-                  <div>
-                    <div class="info-label">Duration</div>
-                    <div class="info-value">7D / 6N</div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-7 px-0" style="border-left:1px solid #cbc9c9;">
-                <div class="enhanced-box">
-                  <div class="icon-circle">
-                    <!-- <i class="fa-solid fa-location-dot"></i> -->
-                    <img src="assets/img/icon/location.png" alt="">
-                  </div>
-                  <div>
-                    <div class="info-label">Pickup & Drop</div>
-                    <div class="info-value">Port Blair</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col mt-4">
-                <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
-                  Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <section class="tab-sections desc-tab">
-        <div class="row">
-          <div class="col-lg-12 col-12">
-            <div class="tab-contentt">
-              <a href="#overview" class="tab-box  active">Overview <span></span></a>
-              <a href="#itinerary" class="tab-box ">Itinerary <span></span></a>
-              <a href="#inclusion" class="tab-box ">Inclusion <span></span></a>
-              <a href="#exclusion" class="tab-box ">Exclusion <span></span></a>
-              <!-- <a href="#notes" class="tab-box border-end-0">Notes</a> -->
-            </div>
-          </div>
-        </div>
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const tabs = document.querySelectorAll('.tab-box');
-            const sections = Array.from(tabs)
-              .map(tab => document.querySelector(tab.getAttribute('href')))
-              .filter(Boolean); // Skip nulls
-
-            function updateActiveTabOnScroll() {
-              let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-              let bestMatchIndex = -1;
-
-              sections.forEach((section, i) => {
-                const rect = section.getBoundingClientRect();
-                const sectionTop = rect.top + scrollTop;
-                const sectionBottom = sectionTop + section.offsetHeight;
-
-                // Trigger active tab if section is at least halfway visible
-                if (scrollTop + window.innerHeight / 2 >= sectionTop && scrollTop < sectionBottom) {
-                  bestMatchIndex = i;
-                }
-              });
-
-              if (bestMatchIndex !== -1) {
-                tabs.forEach(tab => tab.classList.remove('active'));
-                tabs[bestMatchIndex].classList.add('active');
-              }
-            }
-
-            // Throttle scroll events for performance
-            let ticking = false;
-            window.addEventListener('scroll', () => {
-              if (!ticking) {
-                window.requestAnimationFrame(() => {
-                  updateActiveTabOnScroll();
-                  ticking = false;
-                });
-                ticking = true;
-              }
-            });
-
-            // Run once on load
-            updateActiveTabOnScroll();
-          });
-        </script>
-
-
-
-      </section>
-      <br><br>
-
-      <section class="destination mt-0 mt-lg-5"
-        style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;" id="overview">
-
-        <div class="">
-          <div class="row g-4 flex-column-reverse flex-md-row align-items-center">
-
-            <!-- Text Section -->
-            <div class="col-md-7">
-              <div class="travel-des p-3 p-md-4">
-                <h2 class="mb-3 pt-3">Let’s Rule the King of Beaches!</h2>
-
-                <!-- Desktop description (full text) -->
-                <p style="color: #555;" class="desk-desc d-none d-md-block">
-                  Hey, adventure squad! Get ready to unwind in the Andaman Islands. We're talking endless beaches,
-                  jaw-dropping coral reefs, and sunsets that'll leave you speechless. No rushing here – it's all about
-                  that laid-back island life. Grab your swim suits and let's dive into paradise, one beach at a time!
-                  haha
-
-                  <br> <br>Imagine scuba diving, snorkeling, parasailing, glass-bottom Boats, treks, and bucket list
-                  moments. Plus, get ready for seafood feasts that'll tantalise your taste buds. It's not just a trip;
-                  it's a nature-filled retreat where we'll chill, explore, and create unforgettable memories together.
-                  Andaman, here we come!
-                </p>
-
-                <!-- Mobile description (truncated with toggle) -->
-                <p style="color: #555;" class="mob-desc d-block d-md-none">
-                  Hey, adventure squad! Get ready to unwind in the Andaman Islands. We're talking endless beaches,
-                  jaw-dropping coral reefs, and sunsets that'll leave you speechless. No rushing here – it's all about
-                  that laid-back island life. Grab your swim suits and let's dive into paradise, one beach at a time!
-                  haha<br>
-                  <span id="dots">...</span>
-                  <span id="moreText" style="display: none;"><br><br>
-                    Imagine scuba diving, snorkeling, parasailing, glass-bottom Boats, treks, and bucket list
-                    moments. Plus, get ready for seafood feasts that'll tantalise your taste buds. It's not just a trip;
-                    it's a nature-filled retreat where we'll chill, explore, and create unforgettable memories together.
-                    Andaman, here we come!
-                  </span>
-                </p>
-
-                <!-- Positioned Read More Icon -->
-                <div onclick="toggleReadMore()"
-                  class="position-absolute bottom-1 start-50 translate-middle-x d-block d-md-none">
-                  <span id="readMoreBtn" class="read-more-icon" style="cursor: pointer;">
-                    <i class="fa-solid fa-circle-chevron-down shadow" style="
-     color: #4ec0db; 
-       background-color:rgb(255, 255, 255); 
-     font-size: 16px;
-     width: 30px;
-     height: 30px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     border-radius: 50%;
-     margin-top: 5px;">
-                    </i>
-
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Image Section -->
-            <div class="col-md-5 mt-0">
-              <div class="swiper miniSlider px-px-md-0 py-3">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" , class="img-fluid w-100"
-                      alt="Ladakh 3" style="border-radius: 20px; height: 350px; object-fit: cover;">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://roamers.in/assets/img/andaman/Media/overview-1.jpg" , class="img-fluid w-100"
-                      alt="Ladakh 3" style="border-radius: 20px; height: 350px; object-fit: cover;">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- >> Itinerary << -->
-
-      <!-- Closing previous container so the background image can be full width -->
-    </div>
-
-    <div class="" style="">
-
-      <section class="ilt-up" id="itinerary">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-md-8">
-
-              <h3 class="mt-5 text-center mt-md-0" style="text-align: start; margin-bottom: 20px; margin-left: 10px;"
-                class="text-center head">Trip Itinerary
-              </h3>
-              <div class="">
-
-                <div class="accordion" id="accordionExample">
-                  <!-- day 1 -->
-                  <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
-                    <h2 class="accordion-header" id="headingOne">
-                      <button
-                        class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                        aria-controls="collapseOne">
-                        <div class="d-flex align-items-center">
-                          <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                          <span>Arrival at Port Blair | Cellular Jail & Light Show
-                          </span>
-                        </div>
-                        <i class="bi bi-chevron-down ms-auto transition-all"></i>
-                      </button>
-                    </h2>
-
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body" style="background-color: #f5fdff;">
-
-                        <ul class="ps-lg-3 ps-0">
-                          <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                              style="font-size: 0.65rem;"></i>Feel the thrill as you touch down in Port Blair, the
-                            lively
-                            gateway to the Andaman Islands.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Meet
-                            <b>Roamers representative</b>
-                            at Veer Savarkar Airport Port Blair) who’ll guide you along.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            (Airport Shuttle will be provided 9:00 am - 12 Noon, inform the arrival time to Roamers
-                            team)
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Check into our comfy hotel, freshen up, and meet your team captains & co-travellers. And
-                            let’s
-                            take a breezy island walk to soak in the vibe.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            By evening, we head to the
-                            <b>famous Cellular Jail</b>
-                            for the
-                            <b>Sound & Light Show</b>
-                            , reliving the
-                            heroic saga of India’s freedom struggle.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Return to our hotel for dinner, fun icebreaker games, music, and bonding with your Roamers
-                            fam.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Port Blair.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- day 2 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px !important;">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                        aria-controls="collapseTwo">
-
-                        <div class="d-flex align-items-center w-100">
-                          <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                          <span> Ross Island & North Bay | Historic Ruins & Ocean Thrills </span>
-                          <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                        </div>
-                      </button>
-                    </h2>
-
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body" style="background-color: #f5fdff;">
-                        <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
-                        </div>
-                        <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Savour a Delicious Breakfast & get fueled up team, our Island adventure begins!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Start the morning with a ferry to the marvelous
-                            <b>Ross Island</b>
-                            ,
-                            where history meets nature.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Stroll past crumbling
-                            <b>colonial ruins</b>
-                            now claimed by giant roots and deer wandering freely.
-                            Every ruin holds a story, a rare sight!
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Later, let’s sail across to
-                            <b>North Bay Island</b>
-                            , famous for water activities. Try your hand at
-                            snorkelling, glass-bottom rides, or just chill by the blue waters.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Back to Port Blair in the evening for dinner, laughter, and a cozy night’s rest.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Port Blair.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- day 3 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
-                        aria-controls="collapse3">
-
-                        <div class="d-flex align-items-center w-100">
-                          <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                          <span>Havelock Island | Radhanagar Beach, Cafes & Sunset Magic
-                          </span>
-                          <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                        </div>
-                      </button>
-                    </h2>
-                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body bg-white px-4 py-3">
-                        <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let's start our day with a delightful breakfast and depart from Port Blair to
-                            <b>Havelock Island</b>
-                            on a scenic Ferry ride
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let's return back to our campsite, and after hearty
-                            breakfast, let's check out and head to explore Munnar.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                              style="font-size: 0.65rem;"></i>Upon
-                            reaching Havelock Island, we'll check-in to our beachside resort and settle into our
-                            accommodation, allowing the island vibes to embrace us.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Roamers, let's head out to explore the renowned
-                            <b>Radhanagar Beach</b>
-                            ‘Touted as the best beach in
-                            Asia’ known for its pristine white sands and crystal-clear waters.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                              style="font-size: 0.65rem;"></i>Go
-                            for a swim or stroll along the beach, discover charming & lnstagram-worthy cafes and treat
-                            yourself enjoying the coastal ambience.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Capture the breathtaking sunset views and immerse in the serene atmosphere of the island.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Go back to the resort and let's get ready for an
-                            <b>island-style Moon lit Party</b>
-                            with the squad.
-                            Loose, dance, and create unforgettable memories under the enchanting moon light
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Havelock Island
-
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- day 4 -->
-                  <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
-                    <h2 class="accordion-header" id="headingFour">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
-                        aria-controls="collapse4">
-
-                        <div class="d-flex align-items-center w-100">
-                          <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                          <span>Elephant Beach & Kalapathar | Adventure & Serenity</span>
-                          <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                        </div>
-                      </button>
-                    </h2>
-                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body bg-white px-4 py-3">
-                        <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Post breakfast, let's venture out to the blissful
-                            <b>Kalapathar Beach</b>
-                            and get ready to explore
-                            its breathtaking views and sports adventures.
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Experience the thrill of
-                            <b>scuba diving, snorkelling or sea walk.</b>
-                            Immerse yourself into
-                            crystal-clear water and discover a vibrant underwater world.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Don't forget to say hi to our sea friend 'Nemo' and make your coral adventure unforgettable!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            For those who aren't into sporty activities, take a leisurely stroll along the shoreline.
-                            Find
-                            a cozy spot on the beach and soak yourself in the tranquil atmosphere. You're in a paradise!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            After, let's make our way to uncover the secluded
-                            <b>Elephant Beach</b>
-                            , where you can ride on a
-                            glass bottom boat ride and other
-                            <b>water adventures.</b>
-                            It's an absolute sight on our journey.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Return to our comfortable resort after a satisfying dinner with the team and an overnight
-                            stay.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- day 5 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                    <h2 class="accordion-header" id="headingFive">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
-                        aria-controls="collapse5">
-
-                        <div class="d-flex align-items-center w-100">
-                          <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                          <span> Neil Island | Quiet Beaches & Laidback Vibes
-                          </span>
-                          <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                        </div>
-                      </button>
-                    </h2>
-
-                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body bg-white px-4 py-3">
-                        <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                            After our last breakfast in Havelock, we sail to
-                            <b>Neil Island – a hidden gem many travellers miss, but not us Roamers!</b>
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Check into the resort and soak in the calm island. Our first stop is the famous
-                            <b>Natural Rock Formation (Howrah Bridge)</b>
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            A stunning arch sculpted by the sea, a true wonder of Neil. you’ll get to see the sea
-                            creatures nearby, everything here is natural and un disturbed!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Later, head to
-                            <b>Laxmanpur Beach</b>
-                            , a peaceful beach perfect for evening walks, golden sunsets,
-                            and stargazing by the shore (stargazing on additional)
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Back at the resort, the night is all about games, music, and
-                            <b>group bonding. A fun group poll
-                              with team captains</b>
-                            will decide tomorrow’s surprise activity.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Neil Island.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- day 6 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                    <h2 class="accordion-header" id="headingFive">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
-                        aria-controls="collapse6">
-
-                        <div class="d-flex align-items-center w-100">
-                          <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 6</span>
-                          <span> Bharatpur Beach & Return to Port Blair | Farewell night
-
-                          </span>
-                          <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                        </div>
-                      </button>
-                    </h2>
-
-                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body bg-white px-4 py-3">
-                        <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                            Wake up to the island breeze and savour scrumptious Breakfast and let’s set off to
-                            <b>Bharatpur Beach</b>
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Famous for its coral views, shallow waters, and palm-lined shore. Last Beach on our Pipeline
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Chill, click those Instagram-worthy shots, or just float away in the blue. By afternoon,
-                            we’ll
-                            ferry back to Port Blair.
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Get time to go
-                            <b>shopping</b>
-                            and buy souvenirs to your loved ones, and in Andaman there's plenty
-                            you can buy home
-                            (trip captains will guide you to the best spots).
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Tonight, a
-                            <b>special Roamers surprise</b>
-                            awaits to celebrate our final farewell night together
-                            Travellers
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Port Blair.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- day 7 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
-                    <h2 class="accordion-header" id="headingFive">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
-                        aria-controls="collapse7">
-
-                        <div class="d-flex align-items-center w-100">
-                          <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 7</span>
-                          <span> Departure | Bye all & Back to home
-
-
-                          </span>
-                          <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                        </div>
-                      </button>
-                    </h2>
-
-                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body bg-white px-4 py-3">
-                        <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                            In just 7 days, we shared thrills, spills, and countless good times. Let's plan a reunion
-                            trip
-                            next year to continue the adventure. 100% guaranteed!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Goodbyes are never easy, but what a ride it has been! See you guys, more Hugs!
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- >> Inclusion section << -->
-              <section id="inclusion">
-                <div class="important-notes shadow " style="border-radius: 10px; background-color:rgb(245, 255, 246) ;">
-                  <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
-                  <div id="">
-                    <p>
-                      <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      Covers all the Local Transportations including Airport Pick up & Drop off.
-                    </p>
-                    <p>
-                      <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      Resorts or Hotels on Twin share basis. Solo travellers can share with a person of same gender
-                      travellers.
-                    </p>
-                    <p>
-                      <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      6 Breakfast & '2 Dinner(Including Farewell Dinner).
-                    </p>
-                    <p>
-                      <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      Experienced Team Leaders who are super friendly & knowledge.
-                    </p>
-                    <p>
-                      <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      Entry fees for the Spots, Local Tax and Port charges. No hidden charges.
-                    </p>
-                    <p>
-                      <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      A-Z Trip assistance from our Travel Experts.
-                    </p>
-
-
-                  </div>
-                </div>
-              </section>
-
-              <!-- >> Exclusion Section << -->
-              <div class="important-notes shadow" style="border-radius: 10px; background-color: rgb(255, 244, 244);"
-                id="exclusion">
-                <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
-                <div>
-
-
-                  <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                    Flights to Port Blair & Return. You can book flights personally by yourself or through our services
-                    seperately.
-                  </p>
-                  <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                    Personal expenses like shopping and for optional activities such as Scuba diving, Bike rental etc.
-                  </p>
-                  <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                    Any other costing involved due to natural calamity or any other forced circumstances which are out
-                    of
-                    our control.
-                  </p>
-                  <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                    GST(5%) is applicable extra.
-                  </p>
-                  <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                    Anything which is not mentioned in inclusions
-                  </p>
-
-                </div>
-              </div>
-
-
-            </div>
-
-            <!-- >> Side Sticky Section << -->
-            <div class="col-md-4">
-
-              <div class="price-sticky" style="position: sticky;">
-                <!-- >> Side Slider Section << -->
-                <div class="priceCard shadow" style="border-radius: 10px;">
-                  <video autoplay loop muted playsinline>
-                    <source src="assets/img/andaman/video/side-bar.mp4" type="video/mp4">
-                  </video>
-                </div>
-
-                <!-- >> Pricing Box Section << -->
-                <div class="price-card shadow p-1" style="border-radius: 10px; position: relative;">
-                  <img src="assets/img/andaman/elements/umberla.png" alt=""
-                    style="position: absolute; top: -30px; right: -30px; z-index: 999; width: 90px;">
-
-                  <div class="p-2">
-                    <!-- Inner box with light grey background -->
-                    <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
-                      <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
-                      <h5 class="special-offer">
-                        <span class="old-price">
-                          <strike>₹ 39,990/-</strike>
-                        </span>
-                        <span class="new-price andaman-price"></span>
-                      </h5>
-
-                      <p>perfect for group adventures and shared <br> memories.</p>
-                      <div class="trip-form p-0">
-                        <a href="andaman-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
-                          & Costing</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- <img src="assets/img/andaman/elements/chair.png" alt=""
-                  style="position: absolute; bottom: -30px; left: -30px; z-index: 999; width: 90px;"> -->
-                </div>
-
-                <!-- >> Ladakh Form Section << -->
-                <div id="form" class="shadow"
-                  style="border: 1px solid #00aaff; border-radius: 10px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
-                  <form>
-                    <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
-                      Let's Map Your Dream Trip</h3>
-
-                    <div class="input-field mb-3" style="margin-bottom: 20px;">
-                      <label for="name" style="font-size: 16px; color: #333;">Name</label>
-                      <input placeholder="Your Name" type="text" id="name" name="name" required
-                        style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
-                    </div>
-
-                    <div class="input-field mb-3" style="margin-bottom: 20px;">
-                      <label for="email" style="font-size: 16px; color: #333;">Email</label>
-                      <input placeholder="Your Email" type="email" id="email" name="email" required
-                        style="width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
-                    </div>
-
-                    <div class="input-field mb-3" style="margin-bottom: 20px;">
-                      <label for="phone" style="font-size: 16px; color: #333;">Phone Number</label>
-                      <input placeholder="Your Phone Number" type="tel" id="phone" name="phone" required
-                        style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc; font-size: 14px; transition: border 0.3s ease;">
-                    </div>
-
-                    <div class="trip-form p-0">
-                      <a href="" class="btn butn butn__new bg-" style="border-radius: 10px;">Submit</a>
-                    </div>
-
-                    </button>
-                  </form>
-                  <img src="assets/img/andaman/elements/chair.png" alt=""
-                    style="position: absolute; bottom: -30px; left: -30px; z-index: 999; width: 90px;">
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-    </div>
-  </div>
-
-  <!-- Rewind -->
-  <section class="scroll-section">
-    <h3 class="head" style="text-align: center; margin-bottom: 20px;"> <img
-        src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
-        class="align-start me-2">Roamers Rewind <img src="assets/img/valley-of-flowers/fast-backward.png"
-        alt="rewind icon" style="width: 25px;" class="align-start">
-    </h3>
-    <div class="swiper-container two">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg" alt="Sri Lanka 1">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg"
-              alt="Sri Lanka 2">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
-              alt="Sri Lanka 3">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Sri Lanka 4">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/andaman/Media/Portblair-group-min.jpg" alt="Sri Lanka 5">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/andaman/Media/610a5c749433a121_images-anthropological3-500x500.jpeg"
-              alt="Sri Lanka 6">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="slider-image">
-            <img src="https://roamers.in/assets/img/andaman/Media/61af5c4e959d8191_28.jpg" alt="Sri Lanka 8">
-          </div>
-        </div>
-
-      </div>
-      <div class="swiper-pagination d-none d-md-none"></div>
     </div>
   </section>
 
+  <section class="about-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Image Composition -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="about-img-wrapper">
+            <!-- Main Image -->
+            <div class="about-img-1">
+              <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Adventure">
+            </div>
+          </div>
+        </div>
 
-  <!-- Faq Seciton -->
-  <section class="faq" id="notes">
+        <!-- Right Content -->
+        <div class="col-lg-6">
+          <div class="about-content">
+            <span class="section-subtitle">Explore Andaman</span>
+            <h2 class="section-title">Highlights of Andaman</h2>
+
+            <ul class="feature-list">
+              <li class="feature-item animate">
+                <div class="icon-box">
+                  <i class="fa-solid fa-water" style="font-size:24px; color:#fff;"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Crystal Clear Waters</h4>
+                  <p>Pristine turquoise waters perfect for diving, snorkeling and underwater exploration.</p>
+                </div>
+              </li>
+
+              <li class="feature-item animate">
+                <div class="icon-box">
+                  <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Radhanagar Beach</h4>
+                  <p>Visit Asia's best beach, known for its stunning sunset views and sparkling white sands.</p>
+                </div>
+              </li>
+
+              <li class="feature-item animate">
+                <div class="icon-box">
+                  <i class="fa-solid fa-ship" style="font-size:24px; color:#fff;"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Island Hopping</h4>
+                  <p>Explore the unique vibes of Havelock, Neil, and Ross islands for a complete tropical retreat.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Us Section End -->
+
+
+  <!--====== Gallery Section Start ======-->
+  <section class="gallery-section">
+    <div class="container">
+      <h2 class="head">Glimpses of Andaman</h2>
+      <div class="swiper-container-gallery">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <img src="assets/img/andaman/Media/overview-1.jpg" alt="Andaman Beach">
+            <div class="gallery-overlay">
+              <h5>Radhanagar Beach</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg" alt="Cellular Jail">
+            <div class="gallery-overlay">
+              <h5>Cellular Jail</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/andaman/Media/bharatpur-beach-neil-island.jpg" alt="Neil Island">
+            <div class="gallery-overlay">
+              <h5>Neil Island</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/andaman/Media/Portblair-group-min.jpg" alt="Port Blair">
+            <div class="gallery-overlay">
+              <h5>Port Blair</h5>
+            </div>
+          </div>
+
+          <!-- Duplicated Slides for Loop Stability -->
+          <div class="swiper-slide">
+            <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Sunset">
+            <div class="gallery-overlay">
+              <h5>Island Sunset</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/andaman/Media/elephant beach.jpg" alt="Elephant Beach">
+            <div class="gallery-overlay">
+              <h5>Elephant Beach</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
+              alt="Coral Reef">
+            <div class="gallery-overlay">
+              <h5>Coral Reefs</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Local Market">
+            <div class="gallery-overlay">
+              <h5>Local Markets</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--====== Gallery Section End ======-->
+
+  <!--====== faq Start ======-->
+  <section class="faq">
     <h2 class="head">FAQ</h2>
     <div class="container">
-      <div class="row">
-        <div class="accordion" id="accordionFlushExample">
-          <!--| First |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                aria-controls="collapseOne">
-                <span class="ms-3" style="font-size: 1rem;">Can I Join solo ?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
-                  or as a couple, these group trips are
-                  designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
-                  more items from your bucket list!</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-12">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item acc-item">
+              <h2 class="accordion-header acco-head" id="flush-headingOne">
+                <button class="accordion-button acc-btn collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Can I Join solo?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Absolutely! Whether you're joining solo, with friends, or as a couple, these group
+                  trips
+                  are designed to
+                  accommodate all types of travelers. Join us for budget-friendly adventures and check
+                  off
+                  more items from
+                  your bucket list! </div>
+              </div>
+            </div>
+            <div class="accordion-item acc-item">
+              <h2 class="accordion-header acco-head" id="flush-headingTwo">
+                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  How about a safety for female Travellers?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Yes, female solo travelers can confidently join our group trips. We prioritize their
+                  safety by ensuring
+                  a secure environment with trusted trip captains, verified hosts, and reliable
+                  transport
+                  vendors. Your
+                  safety is our top priority any safety concerns during the trip will be promptly
+                  addressed by our team.
+                  So relax and make the most of your journey!</div>
+              </div>
+            </div>
+            <div class="accordion-item acc-item">
+              <h2 class="accordion-header  acco-head" id="flush-headingThree">
+                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What is the age requirement to Join?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  The trips is for 18-35 year olds
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc-item">
+              <h2 class="accordion-header acco-head" id="flush-headingFour">
+                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  How do I confirm my booking?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Send the payment screenshot to info@roamers.in and you’ll get the confirmation email
+                  within 24 hours.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc-item">
+              <h2 class="accordion-header acco-head" id="flush-headingFive">
+                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  How do I trust Roamers?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  You can absolutely trust us! We've nailed over 500 awesome trips. Check out the
+                  great
+                  reviews, speak to
+                  our travel consultants, and check the website for further details. Our offices are
+                  in
+                  Chennai and Delhi
+                  – we're all about being upfront and reliable all the way… Feel free to connect.
+                </div>
               </div>
             </div>
           </div>
-
-          <!--| Second |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
-            <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                aria-controls="collapseTwo">
-                <span class="ms-3" style="font-size: 1rem;">How about safety for female travelers?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Yes, female solo travelers can confidently join our
-                  group trips. We prioritize their safety by
-                  ensuring a secure environment with trusted trip captains, verified hosts, and reliable transport
-                  vendors. Your safety is our top priority; any concerns during the trip will be promptly addressed by
-                  our team. So relax and make the most of your journey!</p>
-              </div>
-            </div>
-          </div>
-
-          <!--| Third |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
-            <h2 class="accordion-header" id="headingThree">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                aria-controls="collapseThree">
-                <span class="ms-3" style="font-size: 1rem;">What is the age requirement to Join?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">The trips is for 18-39 year olds</p>
-              </div>
-            </div>
-          </div>
-
-          <!--| Four |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
-            <h2 class="accordion-header" id="headingFour">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                aria-controls="collapseFour">
-                <span class="ms-3" style="font-size: 1rem;">How do confirm my bookings ?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Send the payment screenshot to info@roamers.in and
-                  you'll get the confirmation email within 24
-                  hours.</p>
-              </div>
-            </div>
-          </div>
-
-          <!--| Five |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
-            <h2 class="accordion-header" id="headingFive">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                aria-controls="collapseFive">
-                <span class="ms-3" style="font-size: 1rem;">How do trust Roamers?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">You can absolutely trust us! We've nailed over 500
-                  awesome trips. Check out the great reviews,
-                  speak to our travel consultants, and check the website for further details. Our offices are in
-                  Chennai and Delhi – we're all about being upfront and reliable all the way… Feel free to connect.
-                </p>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
-    </div>
   </section>
-
-  <!-- Mobile Price -->
-  <div class="mobile-bottom-bar">
-    <div class="bottom-bar-content">
-      <div class="price-box ">
-        <h6 class="label">Starts at</h6>
-        <div class="price-info">
-          <span class="price-amount ">₹24,990/-</span>
-          <span class="per-person">(Per Person)</span>
-        </div>
-      </div>
-      <a href="andaman-form.php" class="btn-book">Dates & Costing</a>
-    </div>
-  </div>
+  <!--====== faq END ======-->
 
 
 
-  </div>
+  <!--====== FOOTER START======-->
+  <?php include('includes/footer.php'); ?>
+  <!--====== FOOTER END======-->
 
-  <!-- Trips -->
-  <?php include('includes/trips.php'); ?>
-
-  <!-- Footer -->
-  <footer>
-    <?php include('includes/footer.php'); ?>
-  </footer>
+  <!-- ***** All jQuery Plugins ***** -->
 
   <!-- jQuery(necessary for all JavaScript plugins) -->
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 
   <!-- Bootstrap js -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
@@ -1131,146 +1468,20 @@
 
   <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
   <!-- Active js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- <script src="assets/js/main.js"></script> -->
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
   <script src="assets/js/dates.js"></script>
 
-  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
-
   <script>
-    // Slider 
-    window.addEventListener("DOMContentLoaded", function () {
-      const swiper = new Swiper(".swiper-container", {
-        slidesPerView: "auto",
-        spaceBetween: 10,
-        loop: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          1300: {
-            slidesPerView: 4,
-          },
-          640: {
-            slidesPerView: 3,
-          },
-          240: {
-            slidesPerView: 1.1,
-          },
-        },
-      });
-    });
-
-
-
-
-
-    var selectElements = document.getElementById("price-occ");
-    var selectElements1 = document.getElementById("price-occ1");
-    var price = document.getElementById('price');
-    var perperson = document.getElementById('per-person');
-    var bbb = document.getElementById('withtravel');
-
-    selectElements.addEventListener("change", updatePrice);
-
-    function updatePrice() {
-      var selectedValue = selectElements.value;
-      var selectedValue1 = selectElements1.value;
-
-      if (selectedValue == "double" && selectedValue1 == "chennai") {
-        price.innerHTML = "₹10,490";
-        perperson.innerHTML = " per person";
-        perperson.style.fontSize = "14px";
-        perperson.style.fontWeight = "500";
-        perperson.style.color = "#7c7c7c";
-        bbb.style.display = "block";
-      } else if (selectedValue == "triple" && selectedValue1 == "coimbatore") {
-        price.innerHTML = "₹7,490";
-        perperson.innerHTML = " per person";
-        perperson.style.fontSize = "14px";
-        perperson.style.fontWeight = "500";
-        perperson.style.color = "#7c7c7c";
-        bbb.style.display = "none";
-      } else if (selectedValue == "triple" && selectedValue1 == "chennai") {
-        price.innerHTML = "₹9,490";
-        perperson.innerHTML = " per person";
-        perperson.style.fontSize = "14px";
-        perperson.style.fontWeight = "500";
-        perperson.style.color = "#7c7c7c";
-        bbb.style.display = "block";
-      } else if (selectedValue == "double" && selectedValue1 == "coimbatore") {
-        price.innerHTML = "₹8,490";
-        perperson.innerHTML = " per person";
-        perperson.style.fontSize = "14px";
-        perperson.style.fontWeight = "500";
-        perperson.style.color = "#7c7c7c";
-        bbb.style.display = "none ";
-      }
-    }
-
-    // Initial price update when the page loads
-    updatePrice();
-  </script>
-
-  <script>
-    window.addEventListener('load', function () {
-      const scrollSection = document.querySelector('.scroll-section');
-      const swiperContainer = document.querySelector('.swiper-container.two');
-
-      // Initialize Swiper
-      const swiper = new Swiper('.swiper-container.two', {
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        initialSlide: 2,
-        loop: true,
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        on: {
-          init: function () {
-            // Add initialization classes after Swiper is ready
-            setTimeout(() => {
-              scrollSection.classList.add('loaded');
-              swiperContainer.classList.add('initialized');
-            }, 100);
-          }
-        }
-      });
-    });
-  </script>
-
-  <script>
-    var navbar = document.querySelector("nav");
-
-    window.onscroll = function () {
-      // pageYOffset or scrollY
-      if (window.scrollY > 100) {
-        navbar.classList.add("scrolled");
-      } else {
-        navbar.classList.remove("scrolled");
-      }
-    };
-
-
-
-    // *****Sidebar tab content end*****    
+    // *****Sidebar tab content end*****        
 
     // *****Sidebar tab radio content start*****
     var sliders = document.querySelectorAll(".slider");
@@ -1355,260 +1566,72 @@
           nextBtn.style.display = "none";
         } else {
           prevBtn.style.display = "none";
-          nextBtn.style.display = "none";
+          nextBtn.style.display = "none ";
         }
       }
     });
   </script>
-
-
-
   <script>
-    $(".custom-carousel").owlCarousel({
-      autoWidth: true,
-      loop: true
-    });
-    $(document).ready(function () {
-      $(".custom-carousel .item").click(function () {
-        $(".custom-carousel .item").not($(this)).removeClass("active");
-        $(this).toggleClass("active");
-      });
-    });
-  </script>
+    var navbar = document.querySelector('nav')
 
-  <script>
-    var ladakhSlider = new Swiper(".ladakhSwiper", {
-      loop: true,
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
-  <!-- >> Banner Below << -->
+    window.onscroll = function () {
 
-  <script>
-    var swiper = new Swiper(".miniSlider", {
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
-
-
-  <!-- >> Featured Page << -->
-
-  <script>
-    const cardSwiper = new Swiper(".custom-swiper-container", {
-      loop: true,
-      slidesPerView: 4,
-      spaceBetween: 30,
-      navigation: {
-        nextEl: ".custom-swiper-button-next",
-        prevEl: ".custom-swiper-button-prev",
-      },
-      breakpoints: {
-        0: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-        1024: {
-          slidesPerView: 4, // Optional: scale up at larger screen sizes
-        },
-
+      // pageYOffset or scrollY
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled')
+      } else {
+        navbar.classList.remove('scrolled')
       }
-    });
-  </script>
+    }
+    const selectElements = document.getElementsByClassName("price-occupancy1");
 
+    // Get the price element
+    const price = document.getElementById('price');
+    const person = document.querySelector('.per-person');
+
+    // Add a change event listener to each select element
+    for (const select of selectElements) {
+      select.addEventListener("change", function () {
+        // Get the selected option
+        const selectedOption = select.options[select.selectedIndex];
+
+        // Update the value
+        const selectedValue = parseInt(selectedOption.value); // Parse as an integer
+
+        // You can do something with the selected value here
+        price.innerHTML = `₹${selectedValue.toLocaleString()} <span class="per-person">Per Person</span>`;
+      });
+    }
+
+
+
+  </script>
   <script>
-    var swiper = new Swiper('.swiper-container.two', {
-      pagination: '.swiper-pagination',
-      paginationClickable: true,
+    var gallerySwiper = new Swiper('.swiper-container-gallery', {
       effect: 'coverflow',
-      loop: true,
+      grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
-      coverflow: {
-        rotate: 0,
-        stretch: 100,
+      spaceBetween: 40, /* Add spacing between slides */
+      loop: true, /* Enable infinite loop */
+      loopedSlides: 6, /* Essential for smooth loop with auto slides */
+      coverflowEffect: {
+        rotate: 0, /* Flat coverflow for cleaner look */
+        stretch: 0,
         depth: 150,
         modifier: 1.5,
-        slideShadows: false,
-      }
-    });
-  </script>
-
-
-  <script>
-    function toggleReadMore() {
-      const moreText = document.getElementById('moreText');
-      const readMoreBtn = document.getElementById('readMoreBtn');
-
-      if (moreText.style.display === 'none' || moreText.style.display === '') {
-        moreText.style.display = 'inline';
-        readMoreBtn.innerHTML = `
-  <i class="fa-solid fa-circle-chevron-up shadow"
-     style="
-        color: #4ec0db; 
-       background-color:rgb(255, 255, 255); 
-       font-size: 16px; 
-      width: 30px; 
-       height: 30px; 
-       display: flex; 
-       align-items: center; 
-       justify-content: center; 
-       border-radius: 50%; 
-       margin-top: 0px;">
-  </i>`;
-
-      } else {
-        moreText.style.display = 'none';
-        readMoreBtn.innerHTML = `
-  <i class="fa-solid fa-circle-chevron-down shadow" 
-     style="
-          color: #4ec0db; 
-       background-color:rgb(255, 255, 255); 
-     font-size: 16px;
-     width: 30px;
-     height: 30px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     border-radius: 50%;
-     margin-top: 0px;">
-  </i>`;
-
-      }
-    }
-  </script>
-
-  <script>
-    const section = document.getElementById("tripSection");
-    const dotContainer = document.getElementById("dotPagination");
-
-    const images = [
-      "https://images.unsplash.com/photo-1537027947185-4b01b37eeb6d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8",
-    ];
-
-    let index = 0;
-    let interval;
-
-    // Create dots
-    images.forEach((_, i) => {
-      const dot = document.createElement("span");
-      dot.classList.add("dot");
-      dot.style.opacity = "0";
-      dot.addEventListener("click", () => {
-        changeImage(i);
-        resetInterval();
-      });
-      dotContainer.appendChild(dot);
-      setTimeout(() => {
-        dot.style.transition = "opacity 0.3s ease";
-        dot.style.opacity = "1";
-      }, i * 100);
-    });
-
-    const dots = document.querySelectorAll(".dot");
-
-    function changeImage(newIndex) {
-      if (newIndex === index) return; // Prevent unnecessary change
-
-      section.classList.add("fade-in");
-
-      // Preload image before applying for smoother transition
-      const img = new Image();
-      img.src = images[newIndex];
-      img.onload = () => {
-        requestAnimationFrame(() => {
-          section.style.backgroundImage = `url('${images[newIndex]}')`;
-          section.classList.remove("fade-in");
-          index = newIndex;
-          updateDots();
-        });
-      };
-    }
-
-    function updateDots() {
-      dots.forEach((dot, i) => {
-        dot.classList.toggle("active", i === index);
-      });
-    }
-
-    function nextImage() {
-      const nextIndex = (index + 1) % images.length;
-      changeImage(nextIndex);
-    }
-
-    function startInterval() {
-      interval = setInterval(nextImage, 5000); // Slightly longer for breathing space
-    }
-
-    function resetInterval() {
-      clearInterval(interval);
-      startInterval();
-    }
-
-    // Init
-    section.style.backgroundImage = `url('${images[index]}')`;
-    updateDots();
-    startInterval();
-  </script>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script>
-    gsap.registerPlugin(ScrollTrigger);
-
-    // Banner Title Animation
-    gsap.from(".banner-hight-top", {
-      duration: 1.2,
-      y: 50,
-      opacity: 0,
-      ease: "power3.out"
-    });
-
-    // Banner List Items Staggered Animation
-    gsap.from(".banner-hight-bottom li", {
-      duration: 1,
-      y: 30,
-      opacity: 0,
-      stagger: 0.2,
-      delay: 0.5,
-      ease: "power3.out"
-    });
-
-    // Tabs Animation
-    gsap.from(".tab-sections", {
-      duration: 1,
-      y: 30,
-      opacity: 0,
-      delay: 1,
-      ease: "power3.out"
+        slideShadows: false, /* Remove heavy shadows for cleaner UI */
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
     });
   </script>
 </body>
-
-</html>
 
 </html>

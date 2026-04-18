@@ -47,7 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             border-radius: 18px;
             box-shadow: 0 6px 32px rgba(0,0,0,0.13);
             overflow: hidden;
-
             border: 1px solid #e0e7ef;
         '>
             <div style='background: linear-gradient(90deg, #4ec0db 0%, #1e90ff 100%); padding: 32px 0 18px 0; text-align: center;'>
@@ -162,9 +161,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <meta charset="UTF-8">
             <title>Thank You for Booking!</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
             <style>
                 body {
+                    font-family: 'Poppins', sans-serif;
                     background: #4ec0db;
                     padding: 20px;
                     min-height: 100vh;
@@ -208,7 +208,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     height: 80px;
                     margin-bottom: 18px;
                     border-radius: 50%;
-                    background: linear-gradient(120deg, #4ec0db 0%, #1e90ff 100%);
+                    background: #4ec0db;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -225,7 +225,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 .thankyou-title {
                     font-size: 2.1rem;
                     font-weight: 700;
-                    color: #1e90ff;
+                    color: #4ec0db;
                     margin-bottom: 10px;
                     letter-spacing: 1px;
                 }
@@ -252,7 +252,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 .thankyou-btn {
-                    background: linear-gradient(90deg, #4ec0db 0%, #1e90ff 100%);
+                    background: #4ec0db;
                     color: #fff;
                     border: none;
                     border-radius: 8px;
@@ -268,7 +268,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 .thankyou-btn:hover {
-                    background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%);
+                    /* background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%); */
                 }
 
                 @media (max-width: 600px) {
@@ -282,7 +282,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <body>
             <div class="thankyou-container">
                 <div class="thankyou-icon">
-                    <img src="https://img.icons8.com/fluency/96/checked-checkbox.png" alt="Success">
+                    <img src="assets/img/Logo/Logo mark-01.png" alt="Success">
                 </div>
                 <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
@@ -290,11 +290,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     We can't wait to see you on your adventure!
                 </div>
                 <div class="thankyou-details">
-                    <div><strong>Name:</strong> <?php echo htmlspecialchars($name); ?></div>
-                    <div><strong>Email:</strong> <?php echo htmlspecialchars($email); ?></div>
-                    <div><strong>Phone:</strong> <?php echo htmlspecialchars($phone); ?></div>
-                    <div><strong>Travel Date:</strong> <?php echo htmlspecialchars($date); ?></div>
-                    <div><strong>No. of Travellers:</strong> <?php echo htmlspecialchars($person_count); ?></div>
+                    <div><strong style="margin-right: 10px;">Name :</strong> <?php echo htmlspecialchars($name); ?></div>
+                    <div><strong style="margin-right: 10px;">Email :</strong> <?php echo htmlspecialchars($email); ?></div>
+                    <div><strong style="margin-right: 10px;">Phone :</strong> <?php echo htmlspecialchars($phone); ?></div>
+                    <div><strong style="margin-right: 10px;">Travel Date :</strong> <?php echo htmlspecialchars($date); ?></div>
+                    <div><strong style="margin-right: 10px;">No. of Travellers :</strong> <?php echo htmlspecialchars($person_count); ?></div>
                 </div>
                 <a href="index.php" class="thankyou-btn">Back to Home</a>
             </div>
@@ -307,7 +307,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "<script>
             document.body.innerHTML += `<div id='srilanka-modal-error' style=\"
                 position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:99999;
-                background:rgba(0,0,0,0.32);display:flex;align-items:center;justify-content:center;\">
+                background:rgba(0,0,0,0.32);display:flex;align-items:center;justify-content:center;
+                font-family: 'Poppins', sans-serif;\">
                 <div style=\"
                     background:#fff;
                     border-radius:18px;
@@ -316,7 +317,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     max-width:350px;
                     text-align:center;
                     position:relative;
-
                 \">
                     <div style='margin-bottom:18px;'>
                         <img src='https://img.icons8.com/fluency/64/high-importance.png' style='width:54px;' alt='Error'/>
