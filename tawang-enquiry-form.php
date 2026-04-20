@@ -5,6 +5,7 @@ include('includes/header.php');
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,9 @@ include('includes/header.php');
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #4ec0db;
@@ -23,7 +26,7 @@ include('includes/header.php');
             --white: #ffffff;
             --glass: rgba(255, 255, 255, 0.92);
             --border: rgba(78, 192, 219, 0.2);
-            --shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+            /* --shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1); */
             --glow: 0 0 15px rgba(78, 192, 219, 0.3);
         }
 
@@ -36,7 +39,7 @@ include('includes/header.php');
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: #f8fbff;
-            background-image: 
+            background-image:
                 radial-gradient(at 0% 0%, rgba(78, 192, 219, 0.08) 0px, transparent 50%),
                 radial-gradient(at 100% 0%, rgba(9, 64, 103, 0.05) 0px, transparent 50%),
                 radial-gradient(at 50% 100%, rgba(78, 192, 219, 0.05) 0px, transparent 50%);
@@ -46,8 +49,10 @@ include('includes/header.php');
             overflow-x: hidden;
         }
 
+
+
         .page-wrapper {
-            padding: 160px 20px 100px;
+            padding: 80px  80px;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -70,8 +75,15 @@ include('includes/header.php');
         }
 
         @keyframes containerReveal {
-            from { opacity: 0; transform: translateY(40px) scale(0.98); }
-            to { opacity: 1; transform: translateY(0) scale(1); }
+            from {
+                opacity: 0;
+                transform: translateY(40px) scale(0.98);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
         }
 
         .side-info {
@@ -96,14 +108,19 @@ include('includes/header.php');
             top: -25%;
             left: -25%;
             background: radial-gradient(circle at 70% 20%, rgba(78, 192, 219, 0.2) 0%, transparent 40%),
-                        radial-gradient(circle at 20% 80%, rgba(78, 192, 219, 0.15) 0%, transparent 40%);
+                radial-gradient(circle at 20% 80%, rgba(78, 192, 219, 0.15) 0%, transparent 40%);
             animation: meshMove 15s ease-in-out infinite alternate;
             pointer-events: none;
         }
 
         @keyframes meshMove {
-            0% { transform: rotate(0deg) scale(1); }
-            100% { transform: rotate(10deg) scale(1.1); }
+            0% {
+                transform: rotate(0deg) scale(1);
+            }
+
+            100% {
+                transform: rotate(10deg) scale(1.1);
+            }
         }
 
         .side-info h2 {
@@ -141,10 +158,10 @@ include('includes/header.php');
             transition: all 0.3s;
         }
 
-        .benefit-item:hover {
+        /* .benefit-item:hover {
             background: rgba(255, 255, 255, 0.1);
             transform: translateX(8px);
-        }
+        } */
 
         .benefit-item i {
             width: 36px;
@@ -188,6 +205,7 @@ include('includes/header.php');
             margin: 0;
             color: var(--text);
             opacity: 0.6;
+            text-align: center;
         }
 
         .form-group {
@@ -205,6 +223,15 @@ include('includes/header.php');
 
         .input-wrapper {
             position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 52px;
+            background: #ffffff;
+            border: 1.5px solid #cbd5e1;
+            border-radius: 16px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
         }
 
         .input-wrapper i {
@@ -216,51 +243,91 @@ include('includes/header.php');
             transition: all 0.3s;
             font-size: 16px;
             pointer-events: none;
+            z-index: 2;
         }
 
-        .input-wrapper input, 
-        .input-wrapper select, 
-        .input-wrapper textarea {
-            width: 100%;
-            padding: 15px 20px 15px 52px;
-            border: 1.5px solid #f0f4f8;
-            border-radius: 16px;
+        .input-wrapper input,
+        .input-wrapper select {
+            width: 100% !important;
+            height: 100% !important;
+            padding: 0 45px 0 52px; /* Increased right padding for select arrow */
+            border: none !important;
+            border-radius: 0 !important;
             font-size: 15px;
             font-weight: 500;
-            /* color: var(--primary); */
-            background: #fbfdfe;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            outline: none;
+            background: transparent !important;
+            outline: none !important;
+            color: var(--text);
+            position: relative;
+            z-index: 1;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
         }
 
-        .input-wrapper textarea {
-            padding-left: 20px;
-            min-height: 120px;
-            resize: vertical;
+        .input-wrapper .dropdown-icon {
+            position: absolute;
+            right: 20px;
+            left: auto;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #b0bec5;
+            font-size: 14px;
+            pointer-events: none;
+            z-index: 2;
+            transition: all 0.3s;
         }
 
-        .input-wrapper input:focus, 
-        .input-wrapper select:focus, 
-        .input-wrapper textarea:focus {
+        .input-wrapper:focus-within .dropdown-icon {
+            color: var(--secondary);
+            transform: translateY(-50%) rotate(180deg);
+        }
+
+        .input-wrapper:focus-within {
             border-color: var(--secondary);
-            background: #fff;
             box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow);
         }
 
-        .input-wrapper input:focus + i,
-        .input-wrapper select:focus + i {
+        .input-wrapper:focus-within i {
             color: var(--secondary);
             transform: translateY(-50%) scale(1.1);
         }
 
+        .input-wrapper-textarea {
+            width: 100% !important;
+            padding: 15px 20px;
+            border: 1.5px solid #cbd5e1;
+            border-radius: 16px;
+            font-size: 15px;
+            font-weight: 500;
+            background: #ffffff;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            outline: none;
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .input-wrapper-textarea:focus {
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow);
+        }
+
+
+
         /* WhatsApp Input Group */
         .whatsapp-wrapper {
             display: flex;
-            border: 1.5px solid #f0f4f8;
+            align-items: center;
+            border: 1.5px solid #cbd5e1;
             border-radius: 16px;
             overflow: hidden;
-            background: #fbfdfe;
+            background: #ffffff;
             transition: all 0.3s;
+            height: 52px;
+        }
+
+        .whatsapp-wrapper input {
+            width: 95% !important;
         }
 
         .whatsapp-wrapper:focus-within {
@@ -272,10 +339,10 @@ include('includes/header.php');
             display: flex;
             align-items: center;
             padding: 0 18px;
-            background: #f8fafc;
-            border-right: 1.5px solid #f0f4f8;
+            height: 52px;
+            background: #fdfdfd;
+            border-right: 1.5px solid #cbd5e1;
             font-weight: 700;
-            /* color: var(--primary); */
             font-size: 14px;
         }
 
@@ -286,13 +353,18 @@ include('includes/header.php');
         }
 
         .whatsapp-wrapper input {
-            border: none;
-            padding-left: 18px;
-            background: transparent;
+            flex: 1;
+            border: none !important;
+            padding: 15px 20px;
+            background: transparent !important;
+            font-size: 15px;
+            font-weight: 500;
+            outline: none;
+            height: 52px;
         }
 
         .whatsapp-wrapper input:focus {
-            box-shadow: none;
+            box-shadow: none !important;
         }
 
         /* Radio Group */
@@ -322,7 +394,7 @@ include('includes/header.php');
             justify-content: center;
             padding: 20px 10px;
             background: #fff;
-            border: 1.5px solid #f0f4f8;
+            border: 1.5px solid #cbd5e1;
             border-radius: 18px;
             text-align: center;
             transition: all 0.3s ease;
@@ -344,23 +416,24 @@ include('includes/header.php');
             transition: all 0.3s;
         }
 
-        .radio-card:hover .radio-box {
+        /* .radio-card:hover .radio-box {
             border-color: var(--secondary);
             background: rgba(78, 192, 219, 0.02);
             transform: translateY(-2px);
-        }
+        } */
 
-        .radio-card input:checked + .radio-box {
+        .radio-card input:checked+.radio-box {
             border-color: var(--secondary);
             background: rgba(78, 192, 219, 0.06);
             box-shadow: var(--glow);
         }
 
-        .radio-card input:checked + .radio-box i {
+        .radio-card input:checked+.radio-box i {
             color: var(--secondary);
             transform: scale(1.2);
         }
-/* 
+
+        /* 
         .radio-card input:checked + .radio-box span {
             color: var(--primary);
         } */
@@ -385,11 +458,11 @@ include('includes/header.php');
             font-family: 'Outfit', sans-serif;
         }
 
-        .submit-btn:hover {
+        /* .submit-btn:hover {
             transform: translateY(-4px) scale(1.01);
             box-shadow: 0 20px 40px rgba(9, 64, 103, 0.35);
             background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
-        }
+        } */
 
         .submit-btn:active {
             transform: translateY(-1px) scale(1);
@@ -399,18 +472,20 @@ include('includes/header.php');
             transition: transform 0.4s ease;
         }
 
-        .submit-btn:hover i {
+        /* .submit-btn:hover i {
             transform: translateX(6px) rotate(-10deg);
-        }
+        } */
 
         @media (max-width: 950px) {
             .enquiry-container {
                 flex-direction: column;
                 max-width: 600px;
             }
+
             .side-info {
                 padding: 50px 40px;
             }
+
             .form-section {
                 padding: 45px 35px;
             }
@@ -420,19 +495,215 @@ include('includes/header.php');
             .page-wrapper {
                 padding: 100px 15px 50px;
             }
+
             .form-section {
                 padding: 35px 20px;
             }
+
             .radio-group {
                 grid-template-columns: 1fr 1fr;
             }
+
             .side-info h2 {
                 font-size: 28px;
             }
         }
+
+        /* Rewind Section Redesign */
+        .rewind-section {
+            padding: 30px 20px 100px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .rewind-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+            gap: 20px;
+        }
+
+        .rewind-title-area h2 {
+            font-size: 34px;
+            font-weight: 800;
+            color: #094067;
+            margin: 0 0 30px 0;
+            font-family: 'Outfit', sans-serif;
+            text-align: center;
+        }
+
+        .rewind-title-area p {
+            font-size: 16px;
+            color: var(--text);
+            margin: 0;
+            opacity: 0.7;
+        }
+
+        .rewind-nav {
+            position: absolute;
+            top: 40%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+            z-index: 100;
+            padding: 0 10px;
+        }
+
+        .rewind-nav-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #fff;
+            color: #4ec0db;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            pointer-events: auto;
+            border: none;
+        }
+
+
+
+        /* .rewind-nav-btn:hover {
+            background: #4ec0db;
+            color: #fff;
+            transform: scale(1.1);
+        } */
+
+        .prev-btn {
+            margin-left: -20px;
+        }
+
+        .next-btn {
+            margin-right: -20px;
+        }
+
+        .rewind-swiper .swiper-wrapper {
+            height: 400px !important;
+        }
+
+        .rewind-swiper {
+            overflow: hidden !important;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        .rewind-card {
+            position: relative;
+            height: 400px;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            background: #f0f0f0;
+        }
+
+        .rewind-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: none;
+            /* Removed heavy transition for better performance */
+        }
+
+        /* Removed glass panel styles */
+
+        .card-overlay-top {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .arrow-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        /* .rewind-card:hover .arrow-icon {
+            background: #4ec0db;
+            border-color: #4ec0db;
+            transform: rotate(45deg);
+        } */
+
+        @media (max-width: 768px) {
+            .rewind-nav {
+                padding: 0 5px;
+            }
+
+            .prev-btn {
+                margin-left: -10px;
+            }
+
+            .next-btn {
+                margin-right: -10px;
+            }
+
+            .rewind-nav-btn {
+                width: 40px;
+                height: 40px;
+            }
+
+            .rewind-card {
+                height: 350px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .rewind-header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .rewind-title-area h2 {
+                font-size: 28px;
+            }
+
+            .rewind-card {
+                height: 380px;
+            }
+        }
     </style>
 </head>
+
 <body>
+
+    <section>
+
+        <!-- <img src="assets/img/ladakh/banner-4.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: top; z-index: 0; opacity: 1;"> -->
+        <!-- mobile -->
+
+        <!-- Banner Foreground Image -->
+        <!-- <img src="assets/img/ladakh/banner-4.jpg" alt="Ladakh Banner" class="d-none d-md-block"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;"> 
+                <img src="assets/img/ladakh/mobile-banner.avif" alt="Ladakh Banner Mobile" class="d-block d-md-none"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;">  -->
+        <img src="assets/img/tawang/banner/tawang-image-13.avif" alt=""
+            style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
+    </section>
+
+
+
+
+
 
     <div class="page-wrapper">
         <div class="enquiry-container">
@@ -474,28 +745,28 @@ include('includes/header.php');
             <!-- Main Form Section -->
             <div class="form-section">
                 <div class="section-header">
-                    <h1>Plan Your Trip</h1>
-                    <p>Start your journey with a few simple details.</p>
+                    <h1>Tawang Plan Your Trip</h1>
+                    <!-- <p>Start your journey with a few simple details.</p> -->
                 </div>
 
-                <form action="enquiry-mail.send.php" method="POST">
-                    
+                <form action="tawang-enquiry-mail.send.php" method="POST">
+
                     <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 0;">
                         <!-- Full Name -->
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Full Name</label>
                             <div class="input-wrapper">
                                 <i class="fa-regular fa-user"></i>
-                                <input type="text" name="name" placeholder="Meena" required>
+                                <input type="text" name="name" placeholder="Enter Your Full Name" required>
                             </div>
                         </div>
 
                         <!-- Email -->
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Email Address</label>
-                            <div class="input-wrapper">
+                            <div class="input-wrapper ">
                                 <i class="fa-regular fa-envelope"></i>
-                                <input type="email" name="email" placeholder="meena@example.com" required>
+                                <input type="email" name="email" placeholder="Enter Your Email Address" required>
                             </div>
                         </div>
                     </div>
@@ -508,9 +779,7 @@ include('includes/header.php');
                                 <img src="https://flagcdn.com/w40/in.png" alt="India Flag">
                                 <span>+91</span>
                             </div>
-                            <div class="input-wrapper" style="flex: 1;">
-                                <input type="tel" name="phone" placeholder="Whatapp number" required style="padding-left: 20px;">
-                            </div>
+                            <input type="tel" name="phone" placeholder="Enter WhatsApp Number" required>
                         </div>
                     </div>
 
@@ -520,24 +789,9 @@ include('includes/header.php');
                         <div class="input-wrapper">
                             <i class="fa-solid fa-earth-asia"></i>
                             <select name="destination" required>
-                                <option value="" disabled selected>Select Destination</option>
-                                <option value="Andaman Island Hopping">Andaman Island Hopping</option>
-                                <option value="Munnar with Kolukkumalai">Munnar with Kolukkumalai</option>
-                                <option value="Wonders of Wayanad">Wonders of Wayanad</option>
-                                <option value="Ooty the Queen of Hills">Ooty the Queen of Hills</option>
-                                <option value="Kodaikanal Trek with Poombarai">Kodaikanal Trek with Poombarai</option>
-                                <option value="Chikmagalur Trek">Chikmagalur Trek</option>
-                                <option value="Varkala & Munroe Flashpacking">Varkala & Munroe Flashpacking</option>
-                                <option value="Leh Ladakh with Umling la">Leh Ladakh with Umling la</option>
-                                <option value="Pondi Dive-in">Pondi Dive-in</option>
-                                <option value="Goa Escape">Goa Escape</option>
-                                <option value="Majestic Meghalaya">Majestic Meghalaya</option>
-                                <option value="Kedarkantha Trek">Kedarkantha Trek</option>
-                                <option value="Spiti Winter Expedition">Spiti Winter Expedition</option>
-                                <option value="Spiti Chandratal Trek">Spiti Chandratal Trek</option>
-                                <option value="Not Sure / Help Me Choose">Not Sure / Help Me Choose</option>
-                                <option value="Others">Others</option>
+                                <option value="tawanh">Tawang</option>
                             </select>
+                            <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                         </div>
                     </div>
 
@@ -577,8 +831,8 @@ include('includes/header.php');
                     </div>
 
                     <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap;">
-                         <!-- Type of Trip -->
-                         <div class="form-group" style="flex: 1; min-width: 220px;">
+                        <!-- Type of Trip -->
+                        <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Trip Preference</label>
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-suitcase"></i>
@@ -586,6 +840,7 @@ include('includes/header.php');
                                     <option value="Group Trip">Group Trip / Fixed Departure</option>
                                     <option value="Private Trip">Private / Customized Trip</option>
                                 </select>
+                                <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                             </div>
                         </div>
 
@@ -609,17 +864,17 @@ include('includes/header.php');
                                     <option value="November">November</option>
                                     <option value="December">December</option>
                                 </select>
+                                <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                             </div>
                         </div>
                     </div>
 
                     <!-- Message -->
-                    <div class="form-group">
-                        <label>Additional Information (Optional)</label>
-                        <div class="input-wrapper">
-                            <textarea name="message" placeholder="Any specific requirements or travel goals?"></textarea>
+                        <div class="form-group">
+                            <label>Additional Information (Optional)</label>
+                            <textarea class="input-wrapper-textarea" name="message"
+                                placeholder="Any specific requirements or travel goals?"></textarea>
                         </div>
-                    </div>
 
                     <!-- Submit -->
                     <button type="submit" class="submit-btn" name="submit">
@@ -632,11 +887,175 @@ include('includes/header.php');
         </div>
     </div>
 
+    <!-- Rewind Section Redesign -->
+    <section class="rewind-section" style="position: relative;">
+        <div class="rewind-header" style="margin-bottom: 20px;">
+            <div class="rewind-title-area">
+                <h2>Roamers Rewind</h2>
+                <!-- <p>Capturing the essence of adventure from our previous trips</p> -->
+            </div>
+        </div>
+
+        <div style="position: relative;">
+            <div class="swiper rewind-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-1.avif" alt="Ladakh Adventure">
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-2.avif" alt="Ladakh Trip">
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-3.avif" alt="Ladakh Scenic">
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-4.avif" alt="Ladakh Journey">
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-5.avif" alt="Ladakh Beauty">
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-6.avif" alt="Ladakh Vibes">
+                        </div>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-7.avif" alt="Ladakh Memories">
+                        </div>
+                    </div>
+
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-8.avif" alt="Ladakh Group">
+                        </div>
+                    </div>
+
+                    <!-- Slide 9 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-9.avif" alt="Ladakh Group">
+                        </div>
+                    </div>
+
+                    <!-- Slide 10 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/banner/tawang-image-10.avif" alt="Ladakh Group">
+                        </div>
+                    </div>
+
+                    <!-- Slide 11 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/banner/tawang-image-11.avif" alt="Ladakh Group">
+                        </div>
+                    </div>
+
+                    <!-- Slide 12 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/banner/tawang-image-12.avif" alt="Ladakh Group">
+                        </div>
+                    </div>
+
+                    <!-- Slide 13 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/banner/tawang-image-13.avif" alt="Ladakh Group">
+                        </div>
+                    </div>
+
+                    <!-- Slide 14 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/tawang/tawang-image-14.avif" alt="Ladakh Group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons - Positioned Outside/Overlap -->
+            <div class="rewind-nav">
+                <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </div>
+    </section>
+
+
+
     <?php include('includes/footer.php'); ?>
 
     <script>
-        // Subtle entrance staggered animations for benefit items
         document.addEventListener('DOMContentLoaded', () => {
+            // Form benefit items animation
             const items = document.querySelectorAll('.benefit-item');
             items.forEach((item, index) => {
                 item.style.opacity = '0';
@@ -647,8 +1066,37 @@ include('includes/header.php');
                     item.style.transform = 'translateX(0)';
                 }, 400 + (index * 100));
             });
+
+            // Rewind Swiper Initialization
+            const rewindSwiper = new Swiper('.rewind-swiper', {
+                slidesPerView: 1.2,
+                spaceBetween: 15,
+                loop: true,
+                speed: 600,
+                grabCursor: true,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.next-btn',
+                    prevEl: '.prev-btn',
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2.2,
+                        spaceBetween: 20,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                }
+            });
         });
     </script>
 
+
 </body>
+
 </html>
