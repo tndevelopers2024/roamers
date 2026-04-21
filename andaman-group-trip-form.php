@@ -1035,7 +1035,7 @@ session_start();
 
   <section class="">
     <div class="container">
-      <form action="andaman-mail.send.php" method="POST" autocomplete="off">
+      <form action="andaman-group-trip-mail.send.php" method="POST" autocomplete="off">
         <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
 
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">

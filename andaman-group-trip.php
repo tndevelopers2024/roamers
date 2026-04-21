@@ -842,7 +842,7 @@
 
                       <p>perfect for group adventures and shared <br> memories.</p>
                       <div class="trip-form p-0">
-                        <a href="andaman-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
+                        <a href="andaman-group-trip-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
                           & Costing</a>
                       </div>
                     </div>
@@ -1080,7 +1080,7 @@
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="andaman-form.php" class="btn-book">Dates & Costing</a>
+      <a href="andaman-group-trip-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 
