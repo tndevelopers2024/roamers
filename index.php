@@ -2766,8 +2766,19 @@
                     'places' => 'Sankri, Juda Ka Talab, Kedarkantha Peak',
                     'price' => '',
                     'price_class' => 'kedarkantha-price',
-                    'link' => 'kedarkantha'
-                ]
+                    'link' => 'kedarkantha-old'
+                ],
+                // Yelagiri
+                'yelagiri' => [
+                    'title' => 'YELAGIRI ALL-IN-ONE',
+                    'image' => 'assets/img/yelagiri/yelagiri-014.jpg',
+                    'duration' => '2D/1N',
+                    'location' => 'Ex: Chennai',
+                    'places' => 'Yelagiri',
+                    'price' => '',
+                    'price_class' => 'yelagiri-price',
+                    'link' => 'yelagiri'
+                ],
             ];
             // Month schedules we have to add the trips here based on the month for the upcoming trips
             $month_schedules = [
@@ -2776,7 +2787,7 @@
                     ['trip_id' => 'andaman', 'dates' => 'Jan 14, 21'],
                     ['trip_id' => 'thailand', 'dates' => 'Jan 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Jan 14, 27'],
-                    ['trip_id' => 'kedarkantha', 'dates' => 'Jan 15, 29'],
+                    ['trip_id' => 'kedarkantha-old', 'dates' => 'Jan 15, 29'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Jan 14, 28'],
                 ],
                 'feb' => [
@@ -2784,7 +2795,7 @@
                     ['trip_id' => 'andaman', 'dates' => 'Feb 14, 21'],
                     ['trip_id' => 'thailand', 'dates' => 'Feb 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Feb 07, 21'],
-                    ['trip_id' => 'kedarkantha', 'dates' => 'Feb 07, 21'],
+                    ['trip_id' => 'kedarkantha-old', 'dates' => 'Feb 07, 21'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Feb 14, 28'],
                 ],
                 'mar' => [
@@ -2808,6 +2819,7 @@
                     ['trip_id' => 'tawang', 'dates' => 'May 01, 06'],
                     ['trip_id' => 'ooty', 'dates' => 'May 01, 15, 29'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'May 15, 30'],
+                    ['trip_id' => 'yelagiri', 'dates' => 'May 02, 27'],
                 ],
                 'jun' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Jun 06, 13, 20, 27'],
@@ -2816,6 +2828,7 @@
                     ['trip_id' => 'ooty', 'dates' => 'Jun 12, 26'],
                     ['trip_id' => 'spiti', 'dates' => 'Jun 20, 27'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Jun 13, 27'],
+                    ['trip_id' => 'yelagiri', 'dates' => 'Jun 02, 27'],
                 ],
                 'jul' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Jul 04, 11, 18, 25'],
@@ -2823,6 +2836,7 @@
                     ['trip_id' => 'ooty', 'dates' => 'Jul 11, 25'],
                     ['trip_id' => 'spiti', 'dates' => 'Jul 04, 18'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Jul 12, 26'],
+                    ['trip_id' => 'yelagiri', 'dates' => 'Jul 02, 27'],
                 ],
                 'august' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Aug 01, 08, 15, 22, 29'],
@@ -2864,7 +2878,7 @@
                     ['trip_id' => 'andaman', 'dates' => 'Dec 14, 28'],
                     ['trip_id' => 'thailand', 'dates' => 'Dec 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Dec 07, 21'],
-                    ['trip_id' => 'kedarkantha', 'dates' => 'Dec 15, 29'],
+                    ['trip_id' => 'kedarkantha-old', 'dates' => 'Dec 15, 29'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Dec 14, 28'],
                 ]
             ];

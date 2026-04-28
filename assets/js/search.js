@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             name: 'Kedarkantha Trek',
-            link: 'https://roamers.in/kedarkantha',
+            link: 'https://roamers.in/kedarkantha-old',
             image: 'assets/img/kedarkantha/main-sub.jpg ',
             duration: '5 DAYS / 4 NIGHTS',
             location: 'EX: Dehradun',

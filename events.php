@@ -1860,7 +1860,7 @@
 
           <div class="col-12 mt-5 col-lg-4 col-md-6">
             <div class="swiper-slide">
-              <a href="kedarkantha">
+              <a href="kedarkantha-old">
                 <img class="trips-page-images" style="border-radius:16px;" src="assets/img/kedarkantha/main-sub.avif "
                   alt="roamers-Gallery">
                 <div class="silder-inner silder-inner1">
