@@ -3,7 +3,7 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
 ?>
 <style>
     nav {
-        transition: all 0.3s ease;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         position: fixed;
         width: 100%;
         top: 0;
@@ -11,8 +11,16 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         background: #4ec0db;
         /* Set blue background */
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        padding: 15px 0 !important;
+        padding: 20px 0 !important;
         /* Override style.css */
+    }
+
+    nav.scrolled {
+        padding: 10px 0 !important;
+        background: rgba(78, 192, 219, 0.95);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        /* height: 80px; */
     }
 
 
@@ -30,7 +38,7 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         margin: 0 !important;
         /* Reset style.css override */
         border-radius: 10px 0 10px;
-        transition: all 0.3s ease;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         transform: translateX(-50%) rotate(45deg) !important;
         /* Force transform */
         /* Create V shape */
@@ -39,12 +47,18 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         /* Ensure behind logo */
     }
 
+    nav.scrolled::before {
+        bottom: 20px;
+        opacity: 0;
+        transform: translateX(-50%) rotate(45deg) scale(0.5) !important;
+    }
+
 
 
     .navbar-brand img {
         width: 80px;
         height: auto;
-        transition: all 0.3s ease;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         position: absolute;
         left: 50% !important;
         transform: translateX(-50%);
@@ -52,6 +66,11 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         /* Adjust top position */
         z-index: 1001;
         /* Ensure on top */
+    }
+
+    nav.scrolled .navbar-brand img {
+        width: 60px;
+        top: -5px;
     }
 
 
@@ -157,7 +176,7 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
         <script>
             function toggleMenuIcon(btn) {
                 var iconSpan = btn.querySelector('#menu-icon');
-                var nav = document.getElementById('navbarNav');
+                var nav = document.querySelector('.animated-mobile-menu');
                 // Animate icon with rotation
                 iconSpan.style.transform = 'rotate(180deg)';
                 setTimeout(function () {
@@ -170,6 +189,16 @@ $pathPrefix = isset($pathPrefix) ? $pathPrefix : '';
                     iconSpan.style.transform = 'rotate(0deg)';
                 }, 350); // Bootstrap collapse transition duration
             }
+
+            // Scroll effect
+            window.addEventListener('scroll', function() {
+                const nav = document.getElementById('mynav');
+                if (window.scrollY > 30) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            });
         </script>
 
         <div class="collapse navbar-collapse animated-mobile-menu" id="navbarNav">

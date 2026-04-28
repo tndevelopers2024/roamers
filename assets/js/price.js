@@ -29,7 +29,8 @@ const tripPrices = {
   ".srilanka-price": "₹43,990",
   ".thailand-price": "₹39,990",
   ".kedarkantha-price": "₹8,990",
-  ".kolukku-price": "₹5,499"
+  ".kolukku-price": "₹5,499",
+  ".yelagiri-price": "₹4,990"
 };
 
 /**

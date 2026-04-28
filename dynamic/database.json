@@ -1525,5 +1525,44 @@
         }
       ]
     }
+  },
+  "yelagiri": {
+    "May": [
+      {
+        "date": "02 May - 27 May",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      }
+    ],
+    "June": [
+      {
+        "date": "02 June - 27 June",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      }
+    ],
+    "July": [
+      {
+        "date": "02 July - 27 July",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹4,990/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹4,990/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "offer": "₹5,990/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "₹4,990/-"
+        }
+      ]
+    }
   }
 }
