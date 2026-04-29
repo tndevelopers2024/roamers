@@ -10,6 +10,10 @@ include('includes/header.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquiry Form - Roamers | Plan Your Adventure</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" />
+    <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
@@ -52,7 +56,7 @@ include('includes/header.php');
 
 
         .page-wrapper {
-            padding: 80px  80px;
+            padding: 80px 80px;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -65,9 +69,9 @@ include('includes/header.php');
             background: var(--glass);
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
-            border-radius: 40px;
+            border-radius: 30px;
             overflow: hidden;
-            box-shadow: var(--shadow);
+            /* box-shadow: var(--shadow); */
             border: 1px solid var(--border);
             display: flex;
             flex-direction: row;
@@ -250,7 +254,8 @@ include('includes/header.php');
         .input-wrapper select {
             width: 100% !important;
             height: 100% !important;
-            padding: 0 45px 0 52px; /* Increased right padding for select arrow */
+            padding: 0 45px 0 52px;
+            /* Increased right padding for select arrow */
             border: none !important;
             border-radius: 0 !important;
             font-size: 15px;
@@ -285,7 +290,7 @@ include('includes/header.php');
 
         .input-wrapper:focus-within {
             border-color: var(--secondary);
-            box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow);
+            /* box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow); */
         }
 
         .input-wrapper:focus-within i {
@@ -309,7 +314,7 @@ include('includes/header.php');
 
         .input-wrapper-textarea:focus {
             border-color: var(--secondary);
-            box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow);
+            /* box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow); */
         }
 
 
@@ -332,7 +337,7 @@ include('includes/header.php');
 
         .whatsapp-wrapper:focus-within {
             border-color: var(--secondary);
-            box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow);
+            /* box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow); */
         }
 
         .country-code {
@@ -361,10 +366,6 @@ include('includes/header.php');
             font-weight: 500;
             outline: none;
             height: 52px;
-        }
-
-        .whatsapp-wrapper input:focus {
-            box-shadow: none !important;
         }
 
         /* Radio Group */
@@ -425,7 +426,7 @@ include('includes/header.php');
         .radio-card input:checked+.radio-box {
             border-color: var(--secondary);
             background: rgba(78, 192, 219, 0.06);
-            box-shadow: var(--glow);
+            /* box-shadow: var(--glow); */
         }
 
         .radio-card input:checked+.radio-box i {
@@ -450,7 +451,7 @@ include('includes/header.php');
             cursor: pointer;
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             margin-top: 10px;
-            box-shadow: 0 12px 30px rgba(9, 64, 103, 0.25);
+            /* box-shadow: 0 12px 30px rgba(9, 64, 103, 0.25); */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -511,62 +512,58 @@ include('includes/header.php');
 
         /* Rewind Section Redesign */
         .rewind-section {
-            padding: 30px 20px 100px;
+            padding: 60px 20px 100px;
             max-width: 1200px;
             margin: 0 auto;
         }
 
-        .rewind-header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 40px;
-            gap: 20px;
+        .rewind-title-area {
+            text-align: center;
+            width: 100%;
         }
 
         .rewind-title-area h2 {
-            font-size: 34px;
+            font-size: 32px;
             font-weight: 800;
-            color: #094067;
-            margin: 0 0 30px 0;
+            color: #1a1a1a;
+            margin: 0 0 8px 0;
             font-family: 'Outfit', sans-serif;
-            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .rewind-title-area p {
             font-size: 16px;
-            color: var(--text);
+            color: #666;
             margin: 0;
-            opacity: 0.7;
+            font-weight: 500;
         }
 
-        .rewind-nav {
-            position: absolute;
-            top: 40%;
-            left: 0;
-            right: 0;
-            transform: translateY(-50%);
-            display: flex;
-            justify-content: space-between;
-            pointer-events: none;
-            z-index: 100;
-            padding: 0 10px;
-        }
+
 
         .rewind-nav-btn {
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background: #fff;
-            color: #4ec0db;
+            background: #4ec0db;
+            color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
             pointer-events: auto;
             border: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 110;
+        }
+
+        .rewind-nav-btn:hover {
+            background: #094067;
+            transform: translateY(-50%) scale(1.1);
         }
 
 
@@ -578,39 +575,47 @@ include('includes/header.php');
         } */
 
         .prev-btn {
-            margin-left: -20px;
+            left: -25px;
+            left: auto !important;
+            background-color: #4ec0db !important;
+            color: white !important;
         }
 
         .next-btn {
-            margin-right: -20px;
+            right: -25px;
+            background-color: #4ec0db !important;
+            color: white !important;
         }
 
         .rewind-swiper .swiper-wrapper {
-            height: 400px !important;
+            height: 520px !important;
         }
 
         .rewind-swiper {
-            overflow: hidden !important;
+            overflow: visible !important;
             padding: 20px 0;
             width: 100%;
         }
 
         .rewind-card {
             position: relative;
-            height: 400px;
-            border-radius: 24px;
+            height: 500px;
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-            background: #f0f0f0;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background: #fff;
         }
 
         .rewind-card img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: none;
-            /* Removed heavy transition for better performance */
+            transition: transform 0.5s ease;
+        }
+
+        .rewind-card:hover img {
+            transform: scale(1.1);
         }
 
         /* Removed glass panel styles */
@@ -700,12 +705,8 @@ include('includes/header.php');
             style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
     </section>
 
-
-
-
-
-
     <div class="page-wrapper">
+
         <div class="enquiry-container">
             <!-- Side Information Area -->
             <!-- <div class="side-info">
@@ -742,11 +743,20 @@ include('includes/header.php');
                 </div>
             </div> -->
 
+
             <!-- Main Form Section -->
             <div class="form-section">
                 <div class="section-header">
-                    <h1>Ladakh Plan Your Trip</h1>
+                    <!-- <h1>Ladakh</h1>
+                    <p> Plan Your Trip</p> -->
                     <!-- <p>Start your journey with a few simple details.</p> -->
+
+                    <div class="rewind-header">
+                        <div class="rewind-title-area">
+                            <h2>Ladakh</h2>
+                            <p>Plan Your Trip</p>
+                        </div>
+                    </div>
                 </div>
 
                 <form action="ladakh-enquiry-mail.send.php" method="POST">
@@ -761,27 +771,10 @@ include('includes/header.php');
                             </div>
                         </div>
 
-                        <!-- Email -->
-                        <div class="form-group" style="flex: 1; min-width: 220px;">
-                            <label>Email Address</label>
-                            <div class="input-wrapper ">
-                                <i class="fa-regular fa-envelope"></i>
-                                <input type="email" name="email" placeholder="Enter Your Email Address" required>
-                            </div>
-                        </div>
+
                     </div>
 
-                    <!-- WhatsApp Number -->
-                    <div class="form-group">
-                        <label>WhatsApp Number</label>
-                        <div class="whatsapp-wrapper">
-                            <div class="country-code">
-                                <img src="https://flagcdn.com/w40/in.png" alt="India Flag">
-                                <span>+91</span>
-                            </div>
-                            <input type="tel" name="phone" placeholder="Enter WhatsApp Number" required>
-                        </div>
-                    </div>
+
 
                     <!-- Destination interested -->
                     <div class="form-group">
@@ -830,8 +823,8 @@ include('includes/header.php');
                         </div>
                     </div>
 
+                    <!-- Trip Preference -->
                     <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap;">
-                        <!-- Type of Trip -->
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Trip Preference</label>
                             <div class="input-wrapper">
@@ -869,12 +862,33 @@ include('includes/header.php');
                         </div>
                     </div>
 
-                    <!-- Message -->
-                        <div class="form-group">
-                            <label>Additional Information (Optional)</label>
-                            <textarea class="input-wrapper-textarea" name="message"
-                                placeholder="Any specific requirements or travel goals?"></textarea>
+                    <!-- Email -->
+                    <div class="form-group" style="flex: 1; min-width: 220px;">
+                        <label>Email Address</label>
+                        <div class="input-wrapper ">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" name="email" placeholder="Enter Your Email Address" required>
                         </div>
+                    </div>
+
+                    <!-- WhatsApp Number -->
+                    <div class="form-group">
+                        <label>WhatsApp Number</label>
+                        <div class="whatsapp-wrapper">
+                            <div class="country-code">
+                                <img src="https://flagcdn.com/w40/in.png" alt="India Flag">
+                                <span>+91</span>
+                            </div>
+                            <input type="tel" name="phone" placeholder="Enter WhatsApp Number" required>
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <label>Additional Information (Optional)</label>
+                        <textarea class="input-wrapper-textarea" name="message"
+                            placeholder="Any specific requirements or travel goals?"></textarea>
+                    </div>
 
                     <!-- Submit -->
                     <button type="submit" class="submit-btn" name="submit">
@@ -887,24 +901,20 @@ include('includes/header.php');
         </div>
     </div>
 
-    <!-- Rewind Section Redesign -->
-    <section class="rewind-section" style="position: relative;">
-        <div class="rewind-header" style="margin-bottom: 20px;">
+    <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
+        <div class="rewind-header" style="margin-bottom: 50px;">
             <div class="rewind-title-area">
-                <h2>Roamers Rewind</h2>
-                <!-- <p>Capturing the essence of adventure from our previous trips</p> -->
+                <h2>JOURNEY IN FRAMES</h2>
+                <p>Pictures Perfect Moments</p>
             </div>
         </div>
 
         <div style="position: relative;">
-            <div class="swiper rewind-swiper">
+            <div class="swiper rewind-swiper" style="overflow: visible !important;">
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladakh-img3.jpg" alt="Ladakh Adventure">
                         </div>
                     </div>
@@ -912,9 +922,6 @@ include('includes/header.php');
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladak-img1.jpg" alt="Ladakh Trip">
                         </div>
                     </div>
@@ -922,9 +929,6 @@ include('includes/header.php');
                     <!-- Slide 3 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladakh-img5.jpg" alt="Ladakh Scenic">
                         </div>
                     </div>
@@ -932,9 +936,6 @@ include('includes/header.php');
                     <!-- Slide 4 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladakh-img6.jpg" alt="Ladakh Journey">
                         </div>
                     </div>
@@ -942,9 +943,6 @@ include('includes/header.php');
                     <!-- Slide 5 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladakh-img4.jpeg" alt="Ladakh Beauty">
                         </div>
                     </div>
@@ -952,9 +950,6 @@ include('includes/header.php');
                     <!-- Slide 6 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladakh-img10.webp" alt="Ladakh Vibes">
                         </div>
                     </div>
@@ -962,9 +957,6 @@ include('includes/header.php');
                     <!-- Slide 7 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladakh-img6.jpeg" alt="Ladakh Memories">
                         </div>
                     </div>
@@ -972,17 +964,12 @@ include('includes/header.php');
                     <!-- Slide 8 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
                             <img src="assets/img/ladakh/ladakh-image12.jpg" alt="Ladakh Group">
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Navigation Buttons - Positioned Outside/Overlap -->
-            <div class="rewind-nav">
+                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
                 <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
                 <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
             </div>
@@ -1009,28 +996,39 @@ include('includes/header.php');
 
             // Rewind Swiper Initialization
             const rewindSwiper = new Swiper('.rewind-swiper', {
-                slidesPerView: 1.2,
-                spaceBetween: 15,
-                loop: true,
-                speed: 600,
+                effect: 'coverflow',
                 grabCursor: true,
+                centeredSlides: true,
+                loop: true,
+                speed: 1000,
                 autoplay: {
-                    delay: 4000,
+                    delay: 3500,
                     disableOnInteraction: false,
+                },
+                coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: false,
                 },
                 navigation: {
                     nextEl: '.next-btn',
                     prevEl: '.prev-btn',
                 },
                 breakpoints: {
-                    640: {
-                        slidesPerView: 2.2,
+                    320: {
+                        slidesPerView: 1.2,
                         spaceBetween: 20,
+                    },
+                    640: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 30,
                     },
                     1024: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
-                    },
+                        spaceBetween: 50,
+                    }
                 }
             });
         });

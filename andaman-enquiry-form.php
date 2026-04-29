@@ -511,62 +511,58 @@ include('includes/header.php');
 
         /* Rewind Section Redesign */
         .rewind-section {
-            padding: 30px 20px 100px;
+            padding: 60px 20px 100px;
             max-width: 1200px;
             margin: 0 auto;
         }
 
-        .rewind-header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 40px;
-            gap: 20px;
+        .rewind-title-area {
+            text-align: center;
+            width: 100%;
         }
 
         .rewind-title-area h2 {
-            font-size: 34px;
+            font-size: 32px;
             font-weight: 800;
-            color: #094067;
-            margin: 0 0 30px 0;
+            color: #1a1a1a;
+            margin: 0 0 8px 0;
             font-family: 'Outfit', sans-serif;
-            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .rewind-title-area p {
             font-size: 16px;
-            color: var(--text);
+            color: #666;
             margin: 0;
-            opacity: 0.7;
+            font-weight: 500;
         }
 
-        .rewind-nav {
-            position: absolute;
-            top: 40%;
-            left: 0;
-            right: 0;
-            transform: translateY(-50%);
-            display: flex;
-            justify-content: space-between;
-            pointer-events: none;
-            z-index: 100;
-            padding: 0 10px;
-        }
+
 
         .rewind-nav-btn {
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background: #fff;
-            color: #4ec0db;
+            background: #4ec0db;
+            color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
             pointer-events: auto;
             border: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 110;
+        }
+
+        .rewind-nav-btn:hover {
+            background: #094067;
+            transform: translateY(-50%) scale(1.1);
         }
 
 
@@ -578,39 +574,47 @@ include('includes/header.php');
         } */
 
         .prev-btn {
-            margin-left: -20px;
+            left: -25px;
+            left: auto !important;
+            background-color: #4ec0db !important;
+            color: white !important;
         }
 
         .next-btn {
-            margin-right: -20px;
+            right: -25px;
+            background-color: #4ec0db !important;
+            color: white !important;
         }
 
         .rewind-swiper .swiper-wrapper {
-            height: 400px !important;
+            height: 520px !important;
         }
 
         .rewind-swiper {
-            overflow: hidden !important;
+            overflow: visible !important;
             padding: 20px 0;
             width: 100%;
         }
 
         .rewind-card {
             position: relative;
-            height: 400px;
-            border-radius: 24px;
+            height: 500px;
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-            background: #f0f0f0;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background: #fff;
         }
 
         .rewind-card img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: none;
-            /* Removed heavy transition for better performance */
+            transition: transform 0.5s ease;
+        }
+
+        .rewind-card:hover img {
+            transform: scale(1.1);
         }
 
         /* Removed glass panel styles */
@@ -888,16 +892,16 @@ include('includes/header.php');
     </div>
 
     <!-- Rewind Section Redesign -->
-    <section class="rewind-section" style="position: relative;">
-        <div class="rewind-header" style="margin-bottom: 20px;">
+    <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
+        <div class="rewind-header" style="margin-bottom: 50px;">
             <div class="rewind-title-area">
-                <h2>Roamers Rewind</h2>
-                <!-- <p>Capturing the essence of adventure from our previous trips</p> -->
+                <h2>JOURNEY IN FRAMES</h2>
+                <p>Pictures Perfect Moments</p>
             </div>
         </div>
 
         <div style="position: relative;">
-            <div class="swiper rewind-swiper">
+            <div class="swiper rewind-swiper" style="overflow: visible !important;">
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
@@ -979,10 +983,8 @@ include('includes/header.php');
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Navigation Buttons - Positioned Outside/Overlap -->
-            <div class="rewind-nav">
+                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
                 <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
                 <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
             </div>
@@ -1009,28 +1011,39 @@ include('includes/header.php');
 
             // Rewind Swiper Initialization
             const rewindSwiper = new Swiper('.rewind-swiper', {
-                slidesPerView: 1.2,
-                spaceBetween: 15,
-                loop: true,
-                speed: 600,
+                effect: 'coverflow',
                 grabCursor: true,
+                centeredSlides: true,
+                loop: true,
+                speed: 1000,
                 autoplay: {
-                    delay: 4000,
+                    delay: 3500,
                     disableOnInteraction: false,
+                },
+                coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: false,
                 },
                 navigation: {
                     nextEl: '.next-btn',
                     prevEl: '.prev-btn',
                 },
                 breakpoints: {
-                    640: {
-                        slidesPerView: 2.2,
+                    320: {
+                        slidesPerView: 1.2,
                         spaceBetween: 20,
+                    },
+                    640: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 30,
                     },
                     1024: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
-                    },
+                        spaceBetween: 50,
+                    }
                 }
             });
         });
