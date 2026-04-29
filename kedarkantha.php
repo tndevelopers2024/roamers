@@ -5,28 +5,28 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="#" width="600"
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" width="600"
     height="600" alt="image for ooty" />
-  <title>Roamers - Yelagiri Group Trip</title>
+  <title>Roamers - Kedarkantha Trek</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Yelagiri Group Trip" />
+  <meta name="description" content="Kedarkantha Trek - 5 Days 4 Nights winter snow trek through the Himalayas with Roamers" />
   <meta name="author" content="Themeland" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Yelagiri Group Trip" />
+  <meta property="og:title" content="Kedarkantha Trek - Roamers" />
   <meta property="og:description"
-    content="Join our Yelagiri group trip for an unforgettable mountain adventure, curated experiences, and new friendships." />
-  <meta property="og:image" content="#" />
-  <meta property="og:url" content="#" />
+    content="Trek through snow-covered forests to a stunning Himalayan summit at 12,500 ft. Book your Kedarkantha Trek with Roamers!" />
+  <meta property="og:image" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" />
+  <meta property="og:url" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Yelagiri Group Trip" />
+  <meta name="twitter:title" content="Roamers - Sri Lanka" />
   <meta name="twitter:description"
-    content="Join our Yelagiri group trip for an unforgettable mountain adventure, curated experiences, and new friendships." />
-  <meta name="twitter:image" content="#" />
+    content="Trek through snow-covered forests to a stunning Himalayan summit at 12,500 ft. Book your Kedarkantha Trek with Roamers!" />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -52,28 +52,38 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
-
-
-
-
-  <!-- Google Analytics Code: -->
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MSFD4117B"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-
-    function gtag() {
-      dataLayer.push(arguments);
+  <style>
+     /* Gallery Section */
+    .gallery-section { padding: 60px 0; background: #fff; overflow: hidden; }
+    .swiper-container-gallery {
+      width: 100%; padding-top: 60px; padding-bottom: 70px; overflow: visible !important;
     }
-    gtag('js', new Date());
-    gtag('config', 'G-0MSFD4117B');
-  </script>
+    .swiper-container-gallery .swiper-slide {
+      background-position: center; background-size: cover; width: 300px; height: 450px !important;
+      border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+      filter: none !important; opacity: 1 !important; transition: all 0.5s ease;
+    }
+    @media (max-width: 600px) {
+      .swiper-container-gallery .swiper-slide { width: 75vw !important; height: 350px !important; }
+    }
+    .swiper-container-gallery .swiper-slide-active {
+      filter: blur(0px); opacity: 1; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .swiper-container-gallery .swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .gallery-overlay {
+      position: absolute; bottom: 0; left: 0; width: 100%; padding: 20px;
+      background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+      color: #fff; transform: translateY(100%); transition: transform 0.3s ease;
+    }
+    .swiper-container-gallery .swiper-slide-active .gallery-overlay { transform: translateY(0); }
+    .gallery-overlay h5 { margin: 0; font-size: 20px; font-weight: 600; color: #fff; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
 
-
-
+    .swiper-container-gallery .swiper-slide{
+      padding: 0 !important;
+    }
+    
+  </style>
 </head>
-
 
 <body>
 
@@ -83,54 +93,15 @@
   <!-- Header -->
   <?php include('includes/header.php'); ?>
 
-
   <!-- Banner -->
-  <section class="trip-home" class="banner-marigin-section" id="tripSection"
-    style="  padding: 350px 0; color: white; position: relative;  ">
-
-
-
-    <div class="container-lg" style="position: relative; text-align: center;">
-
-      <h2 class="banner-hight-top ms-2"
-        style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        MAGICAL YELAGIRI
-      </h2>
-
-      <ul class="banner-hight-bottom p-0"
-        style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
-        <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
-
-          <span class="ms-2">
-            <span>
-            </span>
-        </li>
-
-        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
-        </li>
-        <li class="mobile-small-text  me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
-        </li>
-        <li class="mobile-small-text  me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
-        </li>
-        <li class="mobile-small-text me-2"
-          style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-
-        </li>
-        <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-
-        </li>
-      </ul>
-
-      <!-- this is the dot pagination for the slider -->
-      <div id="dotPagination">
-
-      </div>
-
+  <section id="banner"
+    style="height: 110vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 350px 0; background-image: url('assets/img/kedarkantha/Swargrohini_Oodari.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+    <div style="position: relative; z-index: 1; text-align: center; color: white; width: 100%;">
+      <h2
+        style="font-size: 49px; font-weight: 900; margin: 0; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+        KEDARKANTHA TREK</h2>
+    </div>
   </section>
 
   <!-- Tab -->
@@ -158,11 +129,11 @@
               <div class="enhanced-box">
                 <div class="icon-circle">
                   <!-- <i class='bx  bx-rupee'></i>  -->
-                  <img src="assets/img/icon/rupees.png" alt="">
+                  <img src="assets/img/kedarkantha/Swargrohini_Oodari.jpg" alt="">
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value yelagiri-price"><span>/-</span></div>
+                  <div class="info-value kedar-price"><span>/-</span></div>
                 </div>
               </div>
             </div>
@@ -175,7 +146,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">3D / 2N</div>
+                  <div class="info-value">5D / 4N</div>
                 </div>
               </div>
             </div>
@@ -188,7 +159,7 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Chennai (Kathipara)</div>
+                  <div class="info-value">Dehradun</div>
                 </div>
               </div>
             </div>
@@ -239,8 +210,7 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Chennai (Kathipara)
-                  </div>
+                  <div class="info-value">Chennai</div>
                 </div>
               </div>
             </div>
@@ -253,6 +223,8 @@
       </section>
     </div>
 
+
+
     <section class="tab-sections desc-tab">
       <div class="row">
         <div class="col-lg-12 col-12">
@@ -261,7 +233,7 @@
             <a href="#itinerary" class="tab-box ">Itinerary <span></span></a>
             <a href="#inclusion" class="tab-box ">Inclusion <span></span></a>
             <a href="#exclusion" class="tab-box ">Exclusion <span></span></a>
-            <a href="#notes" class="tab-box border-end-0">Notes</a>
+            <!-- <a href="#notes" class="tab-box border-end-0">Notes</a> -->
           </div>
         </div>
       </div>
@@ -309,8 +281,10 @@
           updateActiveTabOnScroll();
         });
       </script>
-    </section>
 
+
+
+    </section>
     <br><br>
 
     <section class="destination mt-0 mt-lg-5"
@@ -322,30 +296,16 @@
           <!-- Text Section -->
           <div class="col-md-7">
             <div class="travel-des p-3 p-md-4">
-              <h2 class="mb-3 pt-3">Welcome to the world of Yelagiri!
-              </h2>
+              <h2 class="mb-3 pt-3">Snowy Kedarkantha Trek: Winter Magic Awaits!</h2>
 
               <!-- Desktop description (full text) -->
               <p style="color: #555;" class="desk-desc d-none d-md-block">
-                This isn’t about ticking places off a list.
-                It’s about staying in the beautiful mountains with our gang!
-                Yelagiri Trip has limited sightseeing only, its mostly chill out trip with Strangers, who are
-                going to be your future travel buddies 
+                Hey Team, our Kedarkantha Snow Trek is set! Imagine trekking through a snow-covered forest, creating a magical soundtrack with each step. At the summit, catch a sunrise painting the Himalayas in unseen hues. Back at base camp, lunch feels like a victory feast. Our last night calls for a bonfire and stories under the stars. Stargazing isn't a bonus; it's a cosmic spectacle. Get ready for frosty fun and unforgettable views! 
               </p>
 
               <!-- Mobile description (truncated with toggle) -->
               <p style="color: #555;" class="mob-desc d-block d-md-none">
-                Yelagiri is all about breathtaking views, peaceful mountain air, and epic landscapes. With laid-back vibes and
-                cozy stays, it’s the perfect place to relax and unwind – and that’s exactly what our itinerary has
-                in store for you!
-
-                <br>
-                <span id="dots">...</span>
-                <span id="moreText" style="display: none;"><br><br>
-                  Adventure is never far behind! From visiting the famous Fundera Bird Park to peaceful walks in Nature Park, enjoying a serene
-                  boat ride on Punganoor Lake, and savoring local flavors, our Yelagiri itinerary offers
-                  the best of both worlds for an unforgettable getaway!
-                </span>
+                Hey Team, our Kedarkantha Snow Trek is set! Imagine trekking through a snow-covered forest, creating a magical soundtrack with each step. At the summit, catch a sunrise painting the Himalayas in unseen hues. Back at base camp, lunch feels like a victory feast. Our last night calls for a bonfire and stories under the stars. Stargazing isn't a bonus; it's a cosmic spectacle. Get ready for frosty fun and unforgettable views! 
               </p>
 
               <!-- Positioned Read More Icon -->
@@ -375,24 +335,13 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/yelagiri/yelagiri-new/yelagir-new1.jpeg" class="img-fluid w-100"
-                    alt="Varkala Beach" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                  <img src="assets/img/kedarkantha/sankri-village.jpg" , class="img-fluid w-100"
+                    alt="Ladakh 3" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/yelagiri/yelagiri-new/yelagir-new2.jpeg" class="img-fluid w-100"
-                    alt="Varkala Black Beach" style="border-radius: 30px; height: 350px; object-fit: cover;">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/yelagiri/yelagiri-new/yelagir-new3.jpeg" class="img-fluid w-100"
-                    alt="Varkala Cliffs" style="border-radius: 30px; height: 350px; object-fit: cover;">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/yelagiri/yelagiri-new/yelagir-new4.webp" class="img-fluid w-100"
-                    alt="Kappil Beach Varkala" style="border-radius: 30px; height: 350px; object-fit: cover;">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/yelagiri/yelagiri-new/yelagir-new5.jpeg" class="img-fluid w-100"
-                    alt="Kappil Beach Varkala" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                  <img src="assets/img/kedarkantha/lake.jpg" ,
+                    class="img-fluid w-100" alt="Ladakh 3"
+                    style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
               </div>
             </div>
@@ -423,7 +372,7 @@
                       aria-controls="collapseOne">
                       <div class="d-flex align-items-center">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                        <span> Yelagiri Arrival | Fundera park & Lake</span>
+                        <span>DRIVE FROM DEHRADUN TO SANKRI BASE VILLAGE. (198KM, 8H DRIVE)</span>
                       </div>
                       <i class="bi bi-chevron-down ms-auto transition-all"></i>
                     </button>
@@ -432,27 +381,18 @@
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
-
                       <ul class="ps-lg-3 ps-0">
                         <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Hey Roamers, meet your Co-travellers and Trip Captain at <span class="fw-bold">Guindy Kathipara Urban Square</span> by 7:00 am & let’s kickstart the trip
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Enjoy the <span class="fw-bold">scenic views, music, games</span> and more and let the fun begin. See strangers slowly turning into travel buddies
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>After a <span class="fw-bold">scenic hill drive</span>, we reach Yelagiri and <span class="fw-bold">check in</span> to our stay & Freshen up, relax a bit... you’re officially in mountain mode
+                            style="font-size: 0.65rem;"></i>Meet your fellow travelers and trip captains at the pickup point at 6:00 AM at Dehradun Railway Station (Tentative).
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Next up, let's head to the most famous <span class="fw-bold">Fundera Birds park</span>, enjoy the evening feeding birds and get to see the exotic birds with different species
+                            style="font-size: 0.65rem;"></i>Our journey begins as we drive towards Sankri village, the starting point for the Kedarkantha Trek.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Let's head to <span class="fw-bold">Nature Park Yelagiri</span>. Easy walks, greenery, and just unwinding together
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>The drive will take Upon reaching Sankri Village, let's settle into our homestay. The rest of the day is at leisure.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Then we moved to <span class="fw-bold">Punganoor Lake</span>. Boating for those who are up for it Or just sit, chill, vibe, and enjoy the moment
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>As the evening sets in, we head back to our stay
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Now comes the best part. Night filled with <span class="fw-bold">bonfire, music, games, random conversations</span>, and lots of laughter. This is where the trip really begins
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Savour Dinner and <span class="fw-bold">overnight stay in Yelagiri</span>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>In the evening, let's savor dinner, followed by a comfortable overnight stay in Sankri Village.
                         </li>
                       </ul>
                     </div>
@@ -468,8 +408,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                        <span>Thrill Valley adventures & Farewell | Return
-                        </span>
+                        <span> Sankri to Juda Ka Taal Trek (4KM, 4H Trek)</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -481,26 +420,24 @@
                       <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
                       </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Wake up to <span class="fw-bold">fresh mountain air</span> and have delish breakfast with Co-travellers.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Start the day with an early morning breakfast and a briefing from team captains.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Let’s head to <span class="fw-bold">Thrill Valley</span>, time to bring out the adventure side - zipline, ATV rides, paintball, Slingshots, Shooting and more.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>After all the action, let’s have lunch and we <span class="fw-bold">bid Farewell</span> to this lovely hills and get ready to leave.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Trek through the picturesque lush green forests filled with pine trees, with the majestic Swargrohini Massif on the backdrop.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>On the way down, we stop at <span class="fw-bold">viewpoints</span>. One last time to soak in the hills, click memories, and just pause.
+                            style="font-size: 0.65rem;"></i>After a five-hour trek, we'll reach Juda Ka Taal. Lunch awaits at our campsite.
+
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Then, we’ll <span class="fw-bold">drive back to Chennai</span> and reach by 7pm approx.
-                        </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Bye Bye Roamers. Same people... but not the same anymore you guys are no more strangers, <span class="fw-bold">it's a family!</span>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Dinner in the evening, followed by an overnight stay at Juda Ka Taal campsite.
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <!-- day 3 -->
-                <!-- <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -509,7 +446,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Temples, Black Sands & Goodbyes</span>
+                        <span>Juda Ka Taal to Kedarkantha Base Camp (3KM, 3H Trek)</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -519,39 +456,124 @@
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>It's a lazy morning, enjoy breakfast and chill vibes.
+                            style="font-size: 0.65rem;"></i>Rise and shine team! The day will be started with morning tea, followed by breakfast.
                         </li>
-                        <li>
-                          <i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Pay a
-                          peaceful visit to the <span class="fw-bold">Janardanaswamy Temple</span>, a spiritual spot
-                          believed to cleanse one’s sins.
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>After a quick briefing, we'll embark on the trek towards the Kedarkantha base camp (3-4 hours).
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Take a serene stroll at <span class="fw-bold">Papanasam Beach</span> , known for mysteries and
-                          stories.
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Upon reaching, let's check in to our new campsite, followed by warm lunch.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Spend the rest of the day at leisure – play games, snowball fights, music and dance!
 
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Explore the <span class="fw-bold">Anjengo Fort (Anchuthengu Fort)</span> a historic
-                          colonial-era site with sea views,
-                          perfect for photos and reflection.
-
-
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Before we leave, visit the <span class="fw-bold">Black Beach </span>where dark volcanic sands
-                          meet crashing waves, a rare
-                          sight to bookmark your trip.
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>In the evening, dinner at the campsite followed by stargazing.
                         </li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>And
-                          finally, it’s time for <span class="fw-bold">Farewell</span> – but remember, in Roamers, every
-                          ending is a new beginning.
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 4 -->
+                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
+                      aria-controls="collapse4">
+
+                      <div class="d-flex align-items-center w-100">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
+                        <span>Trek to Kedarkantha Peak & Back to Juda Ka Taal (9KM, 8H Trek)</span>
+                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                      </div>
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-white px-4 py-3">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>The time has come! We'll rise early at 2:00 AM for a prompt start to the summit.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Trek up to the Kedarkantha Summit, catching the sunrise from the top.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Take in the stunning 360-degree view of Gangotri, Swargarohini, Banderpooch, Kinner Kailash, and more.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Descend back to the base camp. Lunch will be served upon return.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Last night at the campsite – celebrate with a farewell bash. Overnight stay at Juda Ka Taal.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 5 -->
+                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px;">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
+                      aria-controls="collapse4">
+
+                      <div class="d-flex align-items-center w-100">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
+                        <span>Juda Ka Taal to Sankri (4KM, 4H Trek) & Back to Dehradun (8H Drive)</span>
+                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                      </div>
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-white px-4 py-3">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>After a delightful breakfast, we'll descend to Sankri Village from Juda Ka Taal.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Upon reaching Sankri, we'll freshen up and have a satisfying lunch.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Set our course for Dehradun, aiming to arrive by late evening.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>As we conclude our journey, it's time to depart. Goodbyes are never easy but what a ride it has been!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- day 6 -->
+                <!-- <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
+                      aria-controls="collapse5">
+
+                      <div class="d-flex align-items-center w-100">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
+                        <span>Bye all and back to home!</span>
+                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                      </div>
+                    </button>
+                  </h2>
+
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-white px-4 py-3">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>We'll
+                          aim to arrive in Chennai by 8 am in the morning. Bye for now Roamers. Reunion plans for next
+                          year? You bet!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Goodbyes are never easy, but what ride it has been! See you
+                          guys, more Hugs!
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div> -->
-
-
               </div>
             </div>
 
@@ -562,29 +584,24 @@
                 <div id="">
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Transportation from Chennai to Yelagiri and back
+                    Cover all Transportation as mentioned in itinerary.
                   </p>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Local travel throughout the trip
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Includes Hotels & Camps. Solo travellers can share with persons of same gender.
                   </p>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    1 Night accommodation in the hills
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>All Meals from Day 1 Dinner to Day 5 Lunch are included.
                   </p>
-
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Entry tickets to planned spots
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Light snacks and soup while on the trek.
                   </p>
-                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                     3 Meals: Day 1 ( Dinner), Day 2 (Breakfast & Farewell Lunch)
-
+                  <p> <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Experienced Trek Leaders who are super friendly & knowledgeable.
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    Bonfire night with music
+                    Entry fees for included places and local tax. No hidden charges.
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
+                    A-Z Trip assistance from our Travel Experts.
                   </p><span class="mobile-br"><br></span>
-
                 </div>
               </div>
             </section>
@@ -594,23 +611,18 @@
               id="exclusion">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
               <div>
-                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Activities at Thrill Valley (zipline, paintball, etc will be self pay.)
+                <p> <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Personal Expenses like shopping and optional activities.
                 </p><span class="mobile-br"><br></span>
-
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i> Boating at Punganoor Lake (you can share with other travellers)
+                <p>
+                  <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any other costing due to natural calamity or forced circumstances out of our control.
                 </p>
-
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Any personal expenses (snacks, shopping, etc.)
+                <p>
+                  <i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>GST (5%) is applicable extra.
                 </p>
-
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>
-                  Anything not mentioned in inclusions
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Anything which is not mentioned in the above Inclusions.
                 </p>
-
               </div>
             </div>
-
           </div>
 
           <!-- >> Side Sticky Section << -->
@@ -619,9 +631,9 @@
 
             <div class="price-sticky" style="position: sticky;">
               <!-- >> Side Slider Section << -->
-              <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="assets/img/varkala/varkalaimg-1.jpg" alt="Yelagiri Banner"
-                  style=" object-fit:cover; border-radius: 10px;">
+              <div class="priceCard shadow" style="border-radius: 30px;">
+                <img src="https://www.roamers.in/assets/img/kolukkumalai-img/Jungle-Safari4.jpg" alt="Ladakh Banner 3"
+                  style=" object-fit:cover; border-radius: 30px;">
               </div>
 
               <!-- >> Pricing Box Section << -->
@@ -632,15 +644,14 @@
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹8,999/-</strike>
+                        <strike>₹ 9,990/-</strike>
                       </span>
-                      <span class="yelagiri-price new-price"></span><span class="new-price">/-</span>
+                      <span class="kedar-price new-price"></span><span class="new-price">/-</span>
                     </h5>
 
                     <p>perfect for group adventures and shared <br> memories.</p>
                     <div class="trip-form p-0">
-                      <a href="yelagiri-grouptrip-form.php" class="btn butn butn__new bg-"
-                        style="border-radius: 30px;">Dates
+                      <a href="kedarkantha-form.php" class="btn butn butn__new bg-" style="border-radius: 30px;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -689,7 +700,7 @@
   </div>
 
   <!-- Rewind -->
-  <section class="scroll-section">
+  <!-- <section class="scroll-section">
     <h3 class="head" style="text-align: center; margin-bottom: 20px;"> <img
         src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
         class="align-start me-2">Roamers Rewind <img src="assets/img/valley-of-flowers/fast-backward.png"
@@ -699,46 +710,106 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new1.jpeg" alt="Sri Lanka 1">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/sunrise%20trek%20compress.jpg"
+              alt="Sri Lanka 1">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new2.jpeg" alt="Sri Lanka 3">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/Camp-site.jpg" alt="Sri Lanka 2">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new3.jpeg" alt="Sri Lanka 3">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/zip%20line.jpg" alt="Sri Lanka 3">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new4.webp" alt="Sri Lanka 3">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/Top-station.jpg" alt="Sri Lanka 4">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new5.jpeg" alt="Sri Lanka 3">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/Jungle-Safari4.jpg" alt="Sri Lanka 5">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new6.jpeg" alt="Sri Lanka 3">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/chinnakanal-falls.jpg" alt="Sri Lanka 6">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new7.jpeg" alt="Sri Lanka 3">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/sunset%20trek.jpg" alt="Sri Lanka 8">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="slider-image">
-            <img src="assets/img/yelagiri/yelagiri-new/yelagir-new8.webp" alt="Sri Lanka 4">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/Kolukkumalai-tea-estate.jpeg"
+              alt="Sri Lanka 9">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/Mattupetty-Dam.jpg" alt="Sri Lanka 10">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/Kundala-lake.jpg" alt="Sri Lanka 12">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="https://www.roamers.in/assets/img/kolukkumalai-img/2.jpg" alt="Sri Lanka 13">
           </div>
         </div>
       </div>
       <div class="swiper-pagination d-none d-md-none"></div>
+    </div>
+  </section> -->
+
+   <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <h2 class="head">Glimpses of Kedarkantha</h2>
+      <div class="swiper-container-gallery">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/sankri-village.jpg" alt="Sankri Village">
+            <div class="gallery-overlay"><h5>Sankri Village</h5></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/lake.jpg" alt="Juda Ka Taal">
+            <div class="gallery-overlay"><h5>Juda Ka Taal</h5></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/camp.jpg" alt="Campsite">
+            <div class="gallery-overlay"><h5>Juda Ka Taal Campsite</h5></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/peak-k.jpg" alt="Kedarkantha Peak">
+            <div class="gallery-overlay"><h5>Kedarkantha Peak</h5></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/Swargrohini_Oodari.jpg" alt="Swargrohini Massif">
+            <div class="gallery-overlay"><h5>Swargrohini Massif</h5></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/kedar-camp.jpeg" alt="Kedarkantha Base Camp">
+            <div class="gallery-overlay"><h5>Kedarkantha Base Camp</h5></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/Kedarkantha-1.jpg" alt="Kedarkantha Trail">
+            <div class="gallery-overlay"><h5>Kedarkantha Trail</h5></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/kedarkantha/img.jpg" alt="Snow Trek">
+            <div class="gallery-overlay"><h5>Snow Trek</h5></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -757,17 +828,15 @@
                 class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                 aria-controls="collapseOne">
-                <span class="ms-3" style="font-size: 1rem;">Can I Join solo ?</span>
+                <span class="ms-3" style="font-size: 1rem;">
+                  Can I Join solo?</span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends,
-                  or as a couple, these group trips are
-                  designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off
-                  more items from your bucket list!</p>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Absolutely! Whether you're joining solo, with friends, or as a couple, these group trips are designed to accommodate all types of travelers. Join us for budget-friendly adventures and check off more items from your bucket list!</p>
               </div>
             </div>
           </div>
@@ -779,18 +848,16 @@
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                 aria-controls="collapseTwo">
-                <span class="ms-3" style="font-size: 1rem;">How about safety for female travelers?</span>
+                <span class="ms-3" style="font-size: 1rem;">
+                  How about safety for female Travellers?
+                </span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Yes, female solo travelers can confidently join our
-                  group trips. We prioritize their safety by
-                  ensuring a secure environment with trusted trip captains, verified hosts, and reliable transport
-                  vendors. Your safety is our top priority; any concerns during the trip will be promptly addressed by
-                  our team. So relax and make the most of your journey!</p>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Yes, female solo travelers can confidently join our group trips. We prioritize their safety by ensuring a secure environment with trusted trip captains, verified hosts, and reliable transport vendors. Your safety is our top priority – any safety concerns during the trip will be promptly addressed by our team. So relax and make the most of your journey!</p>
               </div>
             </div>
           </div>
@@ -802,14 +869,16 @@
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                 aria-controls="collapseThree">
-                <span class="ms-3" style="font-size: 1rem;">What is the age requirement to Join?</span>
+                <span class="ms-3" style="font-size: 1rem;">
+                  What is the age requirement to Join?
+                </span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">The trips is for 18-39 year olds</p>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">The trips is for 18-35 year olds</p>
               </div>
             </div>
           </div>
@@ -821,16 +890,16 @@
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                 aria-controls="collapseFour">
-                <span class="ms-3" style="font-size: 1rem;">How do confirm my bookings ?</span>
+                <span class="ms-3" style="font-size: 1rem;">
+                  How do I confirm my booking?
+                </span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">Send the payment screenshot to info@roamers.in and
-                  you'll get the confirmation email within 24
-                  hours.</p>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">Send the payment screenshot to info@roamers.in and you'll get the confirmation email within 24 hours.</p>
               </div>
             </div>
           </div>
@@ -842,17 +911,16 @@
                 class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
                 aria-controls="collapseFive">
-                <span class="ms-3" style="font-size: 1rem;">How do trust Roamers?</span>
+                <span class="ms-3" style="font-size: 1rem;">
+                  How do I trust Roamers?
+                </span>
                 <i class="fa-solid fa-chevron-down d-block"></i>
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">You can absolutely trust us! We've nailed over 500
-                  awesome trips. Check out the great reviews,
-                  speak to our travel consultants, and check the website for further details. Our offices are in
-                  Chennai and Delhi – we're all about being upfront and reliable all the way… Feel free to connect.
+                <p style="font-size: 0.875rem; margin-bottom: 0;">You can absolutely trust us! We've nailed over 500 awesome trips. Check out the great reviews, speak to our travel consultants, and check the website for further details. Our offices are in Chennai and Delhi – we're all about being upfront and reliable all the way… Feel free to connect.
                 </p>
               </div>
             </div>
@@ -869,11 +937,11 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹6,899/-</span>
+          <span class="price-amount kedar-price">/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="yelagiri-grouptrip-form.php" class="btn-book">Dates & Costing</a>
+      <a href="kolukkumalai-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 
@@ -1272,7 +1340,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "assets/img/yelagiri/yelagiri-new/yelagir-new1.jpeg",
+      "https://www.roamers.in/assets/img/kolukkumalai-img/Cover.jpg",
     ];
 
     let index = 0;
@@ -1314,9 +1382,6 @@
       };
     }
 
-
-
-
     function updateDots() {
       dots.forEach((dot, i) => {
         dot.classList.toggle("active", i === index);
@@ -1341,6 +1406,38 @@
     section.style.backgroundImage = `url('${images[index]}')`;
     updateDots();
     startInterval();
+  </script>
+
+  <script>
+    var navbar = document.querySelector('nav');
+    window.onscroll = function () {
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    };
+
+    var gallerySwiper = new Swiper('.swiper-container-gallery', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      spaceBetween: 40,
+      loop: true,
+      loopedSlides: 6,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 150,
+        modifier: 1.5,
+        slideShadows: false,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
   </script>
 
 
