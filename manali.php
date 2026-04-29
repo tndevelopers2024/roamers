@@ -1589,7 +1589,7 @@
             </a>
           </div>
           <div class="swiper-slide swiper-slide-image">
-            <a href="kedarkantha-old">
+            <a href="kedarkantha">
               <img src="assets/img/kedarkantha/main-sub.jpg " alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">

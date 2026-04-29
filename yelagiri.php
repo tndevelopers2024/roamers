@@ -840,7 +840,7 @@
 
         /* Refactored Utility Classes */
         .banner-bg-static {
-            background-image: url('assets/img/yelagiri/yelagiri-002.avif');
+            background-image: url('assets/img/yelagiri/banner/yelagiri-banner.jpeg');
             height: 90vh;
             padding: 0;
             position: relative;
@@ -1529,25 +1529,25 @@
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-013.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new1.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Black Sand Beach</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-018.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new2.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Yelagiri Cliff</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-006.webp" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new3.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Sunset Views</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-015.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new4.webp" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Palm Groves</h5>
                         </div>
@@ -1555,25 +1555,25 @@
 
                     <!-- Duplicated Slides for Loop Stability -->
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-013.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new1.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Black Sand Beach</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-018.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new2.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Yelagiri Cliff</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-006.webp" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new3.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Sunset Views</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-015.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new4.webp" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Palm Groves</h5>
                         </div>
@@ -1581,25 +1581,25 @@
 
                     <!-- Duplicated Slides for Loop Stability 2 -->
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-013.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new1.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Black Sand Beach</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-018.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new2.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Varkala Cliff</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-006.webp" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new3.jpeg" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Sunset Views</h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets\img\yelagiri\yelagiri-015.jpg" alt="Black Beach">
+                        <img src="assets/img/yelagiri/yelagiri-new/yelagir-new4.webp" alt="Black Beach">
                         <div class="gallery-overlay">
                             <h5>Palm Groves</h5>
                         </div>

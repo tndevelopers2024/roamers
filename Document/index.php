@@ -758,7 +758,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
           </div>
 
           <div class="swiper-slide">
-            <a href="kedarkantha-old">
+            <a href="kedarkantha">
               <img src="assets/img/kedarkantha/main-sub.jpg" class="backpacking-img" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
@@ -1172,7 +1172,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
 
           <div class="swiper-slide swiper-slide-image">
-            <a href="kedarkantha-old">
+            <a href="kedarkantha">
               <img src="assets/img/kedarkantha/main-sub.jpg " alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
@@ -1499,7 +1499,7 @@ that bring travelers together. Explore destinations, meet people, and make memor
 
       {
         name: 'Kedarkantha Trek',
-        link: 'https://roamers.in/kedarkantha-old',
+        link: 'https://roamers.in/kedarkantha',
         image: 'assets/img/kedarkantha/main-sub.jpg ',
         duration: '5 DAYS / 4 NIGHTS',
         location: 'EX: Dehradun'
