@@ -50,6 +50,186 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
 
+    <style>
+        
+     /* Rewind Section Redesign */
+        .rewind-section {
+            padding: 60px 20px 100px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .rewind-title-area {
+            text-align: center;
+            width: 100%;
+        }
+
+        .rewind-title-area h2 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin: 0 0 8px 0;
+            font-family: 'Outfit', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .rewind-title-area p {
+            font-size: 16px;
+            color: #666;
+            margin: 0;
+            font-weight: 500;
+        }
+
+
+
+        .rewind-nav-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #4ec0db;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
+            pointer-events: auto;
+            border: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 110;
+        }
+
+        .rewind-nav-btn:hover {
+            background: #094067;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+
+
+        /* .rewind-nav-btn:hover {
+            background: #4ec0db;
+            color: #fff;
+            transform: scale(1.1);
+        } */
+
+        .prev-btn {
+            left: -25px;
+            left: auto !important;
+            background-color: #4ec0db !important;
+            color: white !important;
+        }
+
+        .next-btn {
+            right: -25px;
+            background-color: #4ec0db !important;
+            color: white !important;
+        }
+
+        .rewind-swiper .swiper-wrapper {
+            height: 520px !important;
+        }
+
+        .rewind-swiper {
+            overflow: visible !important;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        .rewind-card {
+            position: relative;
+            height: 500px;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background: #fff;
+        }
+
+        .rewind-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .rewind-card:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Removed glass panel styles */
+
+        .card-overlay-top {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .arrow-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        /* .rewind-card:hover .arrow-icon {
+            background: #4ec0db;
+            border-color: #4ec0db;
+            transform: rotate(45deg);
+        } */
+
+        @media (max-width: 768px) {
+            .rewind-nav {
+                padding: 0 5px;
+            }
+
+            .prev-btn {
+                margin-left: -10px;
+            }
+
+            .next-btn {
+                margin-right: -10px;
+            }
+
+            .rewind-nav-btn {
+                width: 40px;
+                height: 40px;
+            }
+
+            .rewind-card {
+                height: 350px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .rewind-header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .rewind-title-area h2 {
+                font-size: 28px;
+            }
+
+            .rewind-card {
+                height: 380px;
+            }
+        }
+    </style>
+
 </head>
 
 
@@ -816,7 +996,7 @@
     </div>
 
     <!-- Rewind -->
-    <section class="scroll-section">
+    <!-- <section class="scroll-section">
         <h3 class="head" style="text-align: center; margin-bottom: 20px;"> 
             <i class="fa-solid fa-backward-step me-2" style="color: #4EC0DB; font-size: 20px;"></i>
             Roamers Rewind 
@@ -866,6 +1046,92 @@
                 </div>
             </div>
             <div class="swiper-pagination d-none d-md-none"></div>
+        </div>
+    </section> -->
+
+     <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
+        <div class="rewind-header" style="margin-bottom: 50px;">
+            <div class="rewind-title-area">
+                <h3 class="head" style="text-align: center; margin-bottom: 20px;">
+                    <i class="fa-solid fa-backward-step me-2" style="color: #4EC0DB; font-size: 20px;"></i>
+                    Roamers Rewind
+                    <i class="fa-solid fa-backward-step ms-2" style="color: #4EC0DB; font-size: 20px;"></i>
+                </h3>
+            </div>
+        </div>
+
+        <div style="position: relative;">
+            <div class="swiper rewind-swiper" style="overflow: visible !important;">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&q=80&w=800"
+                            alt="Bali Temple">
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://cdn.audleytravel.com/2478/1770/79/16027396-pura-ulun-danu-bratan-bali.jpg"
+                            alt="Bali Nature">
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=800"
+                            alt="Bali Monkey Forest">
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?auto=format&fit=crop&q=80&w=800"
+                            alt="Bali Nusa Penida">
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&q=80&w=800"
+                            alt="Bali Surf">
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&q=80&w=800"
+                            alt="Bali Sunset">
+                        </div>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&q=80&w=800"
+                            alt="Bali Water">
+                        </div>
+                    </div>
+
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800"
+                            alt="Bali Rice Terrace">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
+                <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
         </div>
     </section>
 
@@ -1475,6 +1741,61 @@
         updateDots();
         startInterval();
     </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Form benefit items animation
+            const items = document.querySelectorAll('.benefit-item');
+            items.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateX(-20px)';
+                setTimeout(() => {
+                    item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateX(0)';
+                }, 400 + (index * 100));
+            });
+
+            // Rewind Swiper Initialization
+            const rewindSwiper = new Swiper('.rewind-swiper', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                loop: true,
+                speed: 1000,
+                autoplay: {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                },
+                coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: false,
+                },
+                navigation: {
+                    nextEl: '.next-btn',
+                    prevEl: '.prev-btn',
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1.2,
+                        spaceBetween: 20,
+                    },
+                    640: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    }
+                }
+            });
+        });
+    </script>
+
 
 
 </body>

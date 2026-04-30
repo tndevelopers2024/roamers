@@ -890,6 +890,183 @@
             margin-top: -10px;
             margin-bottom: 10px;
         }
+
+        /* Rewind Section Redesign */
+        .rewind-section {
+            padding: 60px 20px 100px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .rewind-title-area {
+            text-align: center;
+            width: 100%;
+        }
+
+        .rewind-title-area h2 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin: 0 0 8px 0;
+            font-family: 'Outfit', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .rewind-title-area p {
+            font-size: 16px;
+            color: #666;
+            margin: 0;
+            font-weight: 500;
+        }
+
+
+
+        .rewind-nav-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #4ec0db;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
+            pointer-events: auto;
+            border: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 110;
+        }
+
+        .rewind-nav-btn:hover {
+            background: #094067;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+
+
+        /* .rewind-nav-btn:hover {
+            background: #4ec0db;
+            color: #fff;
+            transform: scale(1.1);
+        } */
+
+        .prev-btn {
+            left: -25px;
+            left: auto !important;
+            background-color: #4ec0db !important;
+            color: white !important;
+        }
+
+        .next-btn {
+            right: -25px;
+            background-color: #4ec0db !important;
+            color: white !important;
+        }
+
+        .rewind-swiper .swiper-wrapper {
+            height: 520px !important;
+        }
+
+        .rewind-swiper {
+            overflow: visible !important;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        .rewind-card {
+            position: relative;
+            height: 500px;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background: #fff;
+        }
+
+        .rewind-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .rewind-card:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Removed glass panel styles */
+
+        .card-overlay-top {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .arrow-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        /* .rewind-card:hover .arrow-icon {
+            background: #4ec0db;
+            border-color: #4ec0db;
+            transform: rotate(45deg);
+        } */
+
+        @media (max-width: 768px) {
+            .rewind-nav {
+                padding: 0 5px;
+            }
+
+            .prev-btn {
+                margin-left: -10px;
+            }
+
+            .next-btn {
+                margin-right: -10px;
+            }
+
+            .rewind-nav-btn {
+                width: 40px;
+                height: 40px;
+            }
+
+            .rewind-card {
+                height: 350px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .rewind-header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .rewind-title-area h2 {
+                font-size: 28px;
+            }
+
+            .rewind-card {
+                height: 380px;
+            }
+        }
     </style>
 </head>
 
@@ -1493,49 +1670,49 @@
 
 
     <!--====== Gallery Section Start ======-->
-    <section class="gallery-section">
+    <!-- <section class="gallery-section">
         <div class="container">
             <h2 class="head">Glimpses of Varkala</h2>
             <div class="swiper-container-gallery">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper"> -->
 
                     <!-- Loacl Images -->
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide">
                         <img src="assets/img/bali/rewind/bali-1.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
+                        <div class="gallery-overlay"> -->
                             <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <!-- </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/img/bali/rewind/bali-2.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
+                        <div class="gallery-overlay"> -->
                             <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <!-- </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/img/bali/rewind/bali-3.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
+                        <div class="gallery-overlay"> -->
                             <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <!-- </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/img/bali/rewind/bali-4.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
+                        <div class="gallery-overlay"> -->
                             <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <!-- </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/img/bali/rewind/bali-5.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
+                        <div class="gallery-overlay"> -->
                             <!-- <h5>Palm Groves</h5> -->
-                        </div>
+                        <!-- </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/img/bali/rewind/bali-6.jpeg" alt="Black Beach">
-                        <div class="gallery-overlay">
+                        <div class="gallery-overlay"> -->
                             <!-- <h5>Palm Groves</h5> -->
-                        </div>
-                    </div>
+                        <!-- </div>
+                    </div> -->
 
                         
                     <!-- <div class="swiper-slide">
@@ -1612,10 +1789,73 @@
                             <h5>Palm Groves</h5>
                         </div>
                     </div> -->
-
+<!-- 
                 </div>
             </div>
+    </section> -->
+
+
+    <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
+        <div class="rewind-header" style="margin-bottom: 50px;">
+            <div class="rewind-title-area">
+                <h2 class="head">Glimpses of Bali</h2>
+            </div>
+        </div>
+
+        <div style="position: relative;">
+            <div class="swiper rewind-swiper" style="overflow: visible !important;">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/bali/rewind/bali-1.jpeg" alt="Black Beach">
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/bali/rewind/bali-2.jpeg" alt="Black Beach">
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/bali/rewind/bali-3.jpeg" alt="Black Beach">
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/bali/rewind/bali-4.jpeg" alt="Black Beach">
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/bali/rewind/bali-5.jpeg" alt="Black Beach">
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/bali/rewind/bali-6.jpeg" alt="Black Beach">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
+                <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </div>
     </section>
+
     <!--====== Gallery Section End ======-->
 
     <!--====== faq Start ======-->
@@ -1905,6 +2145,62 @@
             },
         });
     </script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Form benefit items animation
+            const items = document.querySelectorAll('.benefit-item');
+            items.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateX(-20px)';
+                setTimeout(() => {
+                    item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateX(0)';
+                }, 400 + (index * 100));
+            });
+
+            // Rewind Swiper Initialization
+            const rewindSwiper = new Swiper('.rewind-swiper', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                loop: true,
+                speed: 1000,
+                autoplay: {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                },
+                coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: false,
+                },
+                navigation: {
+                    nextEl: '.next-btn',
+                    prevEl: '.prev-btn',
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1.2,
+                        spaceBetween: 20,
+                    },
+                    640: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    }
+                }
+            });
+        });
+    </script>
+
+
 </body>
 
 </html>
