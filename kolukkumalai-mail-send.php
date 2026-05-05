@@ -311,7 +311,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } catch (Exception $e) {
         // Fix: $mail may not be defined if exception is thrown before $mail is created
         $errorInfo = isset($mail) && isset($mail->ErrorInfo) ? htmlspecialchars($mail->ErrorInfo) : htmlspecialchars($e->getMessage());
-        echo "<script>
+        echo "<!DOCTYPE html><html><head><title>Error</title></head><body>
+        <script>
             document.body.innerHTML += `<div id='srilanka-modal-error' style=\"
                 position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:99999;
                 background:rgba(0,0,0,0.32);display:flex;align-items:center;justify-content:center;\">
@@ -344,7 +345,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     \">Go to Home</button>
                 </div>
             </div>`;
-        </script>";
+        </script>
+        </body></html>";
     }
 } else {
     echo "Invalid Request.";

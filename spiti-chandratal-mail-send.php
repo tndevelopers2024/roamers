@@ -37,8 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addAddress('info@roamers.in');
 
         $mail->isHTML(true);
-        $mail->Subject = 'SPITI CHANDRATAL TREK BOOKED';
-        $mail->AddEmbeddedImage('assets/img/spiti/spiti1.jpg', 'spitiimg');
+        $mail->Subject = 'SPITI CHANDRATAL BOOKED';
+        $mail->AddEmbeddedImage('assets/img/spiti-chandratal/Spiti-chandaratal.jpg', 'spitiimg');
 
         $mail->Body = "
         <div style='
@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <img src='cid:spitiimg' alt='spitiimg' style='width: 100%; max-width: 420px; height: 180px; object-fit: cover; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); margin-bottom: 18px;' />
                 <h2 style='color: #fff; font-size: 2.1rem; margin: 0 0 6px 0; letter-spacing: 1px; font-weight: 700;'>
                     <span style=\"vertical-align:middle; margin-right:8px;\"><img src='https://img.icons8.com/ios-filled/40/ffffff/mountain.png' style='width:32px;vertical-align:middle;'/></span>
-                    SPITI CHANDRATAL TREK
+                    SPITI CHANDRATAL
                 </h2>
                 <div style='color: #e0f7fa; font-size: 1.1rem; margin-bottom: 8px; letter-spacing: 0.5px;'>
                     <span style=\"vertical-align:middle; margin-right:6px;\"><img src='https://img.icons8.com/ios-filled/20/ffffff/calendar--v1.png' style='width:18px;vertical-align:middle;'/></span>
@@ -162,9 +162,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <meta charset="UTF-8">
             <title>Thank You for Booking!</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
             <style>
                 body {
+                    font-family: 'Poppins', sans-serif;
                     background: #4ec0db;
                     padding: 20px;
                     min-height: 100vh;
@@ -187,44 +188,95 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 @keyframes popUp {
-                    0%   { transform: scale(0.7) translateY(60px); opacity: 0; }
-                    80%  { transform: scale(1.05) translateY(-8px); opacity: 1; }
-                    100% { transform: scale(1) translateY(0); opacity: 1; }
+                    0% {
+                        transform: scale(0.7) translateY(60px);
+                        opacity: 0;
+                    }
+
+                    80% {
+                        transform: scale(1.05) translateY(-8px);
+                        opacity: 1;
+                    }
+
+                    100% {
+                        transform: scale(1) translateY(0);
+                        opacity: 1;
+                    }
                 }
 
                 .thankyou-icon {
-                    width: 80px; height: 80px;
+                    width: 80px;
+                    height: 80px;
                     margin-bottom: 18px;
                     border-radius: 50%;
-                    background: linear-gradient(120deg, #4ec0db 0%, #1e90ff 100%);
-                    display: flex; align-items: center; justify-content: center;
-                    margin-left: auto; margin-right: auto;
+                    background: #4ec0db;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: auto;
+                    margin-right: auto;
                     box-shadow: 0 2px 16px rgba(30, 144, 255, 0.13);
                 }
-                .thankyou-icon img { width: 48px; height: 48px; }
 
-                .thankyou-title { font-size: 2.1rem; font-weight: 700; color: #1e90ff; margin-bottom: 10px; letter-spacing: 1px; font-family: 'Montserrat', sans-serif; }
-                .thankyou-msg   { font-size: 1.15rem; color: #333; margin-bottom: 22px; font-family: 'Montserrat', sans-serif; }
+                .thankyou-icon img {
+                    width: 48px;
+                    height: 48px;
+                }
+
+                .thankyou-title {
+                    font-size: 2.1rem;
+                    font-weight: 700;
+                    color: #4ec0db;
+                    margin-bottom: 10px;
+                    letter-spacing: 1px;
+                }
+
+                .thankyou-msg {
+                    font-size: 1.15rem;
+                    color: #333;
+                    margin-bottom: 22px;
+                }
 
                 .thankyou-details {
-                    background: #f8fcff; border-radius: 12px; padding: 18px 16px 10px 16px;
-                    margin-bottom: 18px; font-size: 1.01rem; color: #444; text-align: left;
+                    background: #f8fcff;
+                    border-radius: 12px;
+                    padding: 18px 16px 10px 16px;
+                    margin-bottom: 18px;
+                    font-size: 1.01rem;
+                    color: #444;
+                    text-align: left;
                     box-shadow: 0 1px 8px rgba(78, 192, 219, 0.06);
                 }
-                .thankyou-details strong { color: #4ec0db; }
+
+                .thankyou-details strong {
+                    color: #4ec0db;
+                }
 
                 .thankyou-btn {
-                    background: linear-gradient(90deg, #4ec0db 0%, #1e90ff 100%);
-                    color: #fff; border: none; border-radius: 8px;
-                    padding: 12px 38px; font-size: 1.08rem; font-weight: 600;
-                    cursor: pointer; box-shadow: 0 2px 8px rgba(78, 192, 219, 0.08);
-                    transition: background 0.2s; margin-top: 10px;
-                    text-decoration: none; display: inline-block;
-                    font-family: 'Montserrat', sans-serif;
+                    background: #4ec0db;
+                    color: #fff;
+                    border: none;
+                    border-radius: 8px;
+                    padding: 12px 38px;
+                    font-size: 1.08rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    box-shadow: 0 2px 8px rgba(78, 192, 219, 0.08);
+                    transition: background 0.2s;
+                    margin-top: 10px;
+                    text-decoration: none;
+                    display: inline-block;
                 }
-                .thankyou-btn:hover { background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%); }
 
-                @media (max-width: 600px) { .thankyou-container { padding: 32px 8px 24px 8px; } }
+                .thankyou-btn:hover {
+                    /* background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%); */
+                }
+
+                @media (max-width: 600px) {
+                    .thankyou-container {
+                        padding: 32px 8px 24px 8px;
+                    }
+                }
             </style>
         </head>
 
@@ -235,7 +287,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
                 <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
-                    Your Spiti Chandratal Trek booking has been received.<br>
+                    Your Spiti Chandratal booking has been received.<br>
                     We can't wait to see you on your mountain adventure!
                 </div>
                 <div class="thankyou-details">
@@ -253,7 +305,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <?php
         exit;
     } catch (Exception $e) {
-        echo "<script>
+        echo "<!DOCTYPE html><html><head><title>Error</title></head><body>
+        <script>
             document.body.innerHTML += `<div id='spiti-modal-error' style=\"
                 position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:99999;
                 background:rgba(0,0,0,0.32);display:flex;align-items:center;justify-content:center;\">
@@ -284,8 +337,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         transition:background 0.2s;
                     \">Go to Home</button>
                 </div>
-            </div>`
-        </script>";
+            </div>`;
+        </script>
+        </body></html>";
     }
 } else {
     echo "Invalid Request.";

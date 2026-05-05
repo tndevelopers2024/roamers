@@ -22,7 +22,7 @@ const tripPrices = {
   ".kodaikanal1-price": "₹8,990",
   ".kedar-price": "₹8,990",
   ".varkala-price": "₹8,490",
-  ".spiti-price": "₹21,990",
+  ".spiti-price": "₹22,990",
   ".spiti-valley-winter": "₹21,990",
   ".ladakh-price": "₹29,990",
   ".valley-price": "₹9,990",

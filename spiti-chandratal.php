@@ -6,23 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta property="og:image:secure_url" content="#" width="600" height="600" alt="image for spiti chandratal" />
-  <title>Roamers - Spiti Chandratal Trek</title>
+  <title>Roamers - Spiti Chandratal</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Join the ultimate Spiti Chandratal Trek with Roamers. Experience high-altitude passes, ancient monasteries, and the stunning Chandratal Lake." />
+  <meta name="description" content="Join the ultimate Spiti Chandratal with Roamers. Experience high-altitude passes, ancient monasteries, and the stunning Chandratal Lake." />
   <meta name="author" content="Roamers" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Spiti Chandratal Trek" />
-  <meta property="og:description" content="Join our Spiti Chandratal Trek for an unforgettable high-altitude adventure, ancient monasteries, and the mesmerizing Chandratal Lake." />
+  <meta property="og:title" content="Roamers - Spiti Chandratal" />
+  <meta property="og:description" content="Join our Spiti Chandratal for an unforgettable high-altitude adventure, ancient monasteries, and the mesmerizing Chandratal Lake." />
   <meta property="og:image" content="#" />
   <meta property="og:url" content="#" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Spiti Chandratal Trek" />
-  <meta name="twitter:description" content="Join our Spiti Chandratal Trek for an unforgettable high-altitude adventure, ancient monasteries, and the mesmerizing Chandratal Lake." />
+  <meta name="twitter:title" content="Roamers - Spiti Chandratal" />
+  <meta name="twitter:description" content="Join our Spiti Chandratal for an unforgettable high-altitude adventure, ancient monasteries, and the mesmerizing Chandratal Lake." />
   <meta name="twitter:image" content="#" />
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -252,7 +252,7 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        SPITI CHANDRATAL TREK
+        SPITI CHANDRATAL
       </h2>
 
       <ul class="banner-hight-bottom p-0"
@@ -308,7 +308,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">9D / 8N</div>
+                  <div class="info-value">8D / 7N</div>
                 </div>
               </div>
             </div>
@@ -446,7 +446,7 @@
 
               <!-- Mobile description -->
               <p style="color: #555;" class="mob-desc d-block d-md-none">
-                Spiti Chandratal Trek is all about high-altitude deserts, turquoise lakes, and ancient monasteries. A
+                Spiti Chandratal is all about high-altitude deserts, turquoise lakes, and ancient monasteries. A
                 journey that transforms strangers into lifelong travel buddies!
                 <br>
                 <span id="dots">...</span>
@@ -473,23 +473,23 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti/spiti1.jpg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/2e1f8a0a508565e7461b992d68650c33.gif" class="img-fluid w-100"
                     alt="Spiti Valley" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti/spiti2.jpg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/c17f9e66-a305-4a2d-927d-f66b3b169a37.jpeg" class="img-fluid w-100"
                     alt="Chandratal Lake" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti/spiti3.jpg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/sj0bv5phscyw2faear9mxtt491ww_1578921609_shutterstock_1543848932.webp" class="img-fluid w-100"
                     alt="Key Monastery" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti/spiti4.jpg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/9c568156-5deb-4705-9f42-b5aec08bc023.jpeg" class="img-fluid w-100"
                     alt="Kaza Town Spiti" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti/spiti5.jpg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/dhankar.jpg" class="img-fluid w-100"
                     alt="Rohtang Pass" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
               </div>
@@ -512,6 +512,30 @@
             <div class="">
               <div class="accordion" id="accordionExample">
 
+                  <!-- Day 0 -->
+                <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
+                  <h2 class="accordion-header" id="headingDay0">
+                    <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay0" aria-expanded="true"
+                      aria-controls="collapseDay0">
+                      <div class="d-flex align-items-center">
+                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 0</span>
+                        <span> Delhi to Shimla departure by evening. Overnight journey in Volvo.</span>
+                      </div>
+                    </button>
+                  </h2>
+                  <div id="collapseDay0" class="accordion-collapse collapse show" aria-labelledby="headingDay0"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: #f5fdff;">
+                      <ul class="ps-lg-3 ps-0">
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Meet your fellow travellers and Trip <span class="fw-bold">Leader</span> in the assigned spot and settle in for the journey ahead</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Departure from Delhi in the evening via <span class="fw-bold">Volvo bus</span></li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Begin overnight drive towards the best mountains</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
                 <!-- Day 1 -->
                 <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
                   <h2 class="accordion-header" id="headingDay1">
@@ -520,18 +544,33 @@
                       aria-controls="collapseDay1">
                       <div class="d-flex align-items-center">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                        <span>Delhi Departure | Arrival at Shimla</span>
+                        <span>Shimla to Sangla / Chitkul</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay1" class="accordion-collapse collapse show" aria-labelledby="headingDay1"
+                  <div id="collapseDay1" class="accordion-collapse collapse" aria-labelledby="headingDay1"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex flex-wrap gap-3 mb-3 px-lg-3">
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-route me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Distance:</strong> Approx. 230 km</span>
+                        </div>
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-clock me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Duration:</strong> 10–11 hours</span>
+                        </div>
+                      </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Meet your Co-travellers and Trip Captain at <span class="fw-bold">Delhi</span> in the evening and board the overnight Volvo bus to Shimla.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Enjoy scenic views as you drive through the foothills of the Himalayas.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Arrive at <span class="fw-bold">Shimla</span> early morning, freshen up and have breakfast.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore Mall Road and the Colonial-era architecture before heading towards <span class="fw-bold">Narkanda</span> and onward to Karcham. Overnight stay.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Arrive in <span class="fw-bold">Shimla</span> early in the morning</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Switch to <span class="fw-bold">Tempo Traveller</span> and freshen up before continuing</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Start the journey towards <span class="fw-bold">Kinnaur Valley</span>, gradually moving deeper into the mountains</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Today’s drive is long but very scenic, following the <span class="fw-bold">Sutlej River</span> throughout the route</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Pass through <span class="fw-bold">pine forests</span>, cliffside roads, and changing mountain landscapes</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Cross <span class="fw-bold">Kufri</span> and <span class="fw-bold">Narkanda</span> and Pass through the iconic <span class="fw-bold">Kinnaur Gate</span></li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Reach <span class="fw-bold">Sangla / Chitkul</span> by evening, located near the Indo-Tibet border</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Check-in to the stay and <span class="fw-bold">relax</span> after the long journey</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Savour group <span class="fw-bold">Dinner</span> & overnight stay in Sangla/Chitkul</li>
                       </ul>
                     </div>
                   </div>
@@ -540,25 +579,35 @@
                 <!-- Day 2 -->
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingDay2">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay2" aria-expanded="false"
-                      aria-controls="collapseDay2">
+                    <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay2" aria-expanded="false" aria-controls="collapseDay2">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                        <span>Karcham to Sangla Valley | Chitkul Village</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                        <span>Explore Chitkul & Transfer to Nako</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay2" class="accordion-collapse collapse" aria-labelledby="headingDay2"
-                    data-bs-parent="#accordionExample">
+                  <div id="collapseDay2" class="accordion-collapse collapse" aria-labelledby="headingDay2" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex flex-wrap gap-3 mb-3 px-lg-3">
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-route me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Distance:</strong> Approx. 150 km</span>
+                        </div>
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-clock me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Duration:</strong> 6-7 hours</span>
+                        </div>
+                      </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Wake up to fresh Himalayan air and have a hearty breakfast.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Drive through the breathtaking <span class="fw-bold">Sangla Valley</span> along the Baspa River.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <span class="fw-bold">Chitkul</span> — the last inhabited village near the Indo-Tibetan border. Experience the surreal landscape and the ancient Chitkul Mata Temple.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight stay in Sangla.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Wake up to a fresh mountain morning and have breakfast</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Spend time exploring <span class="fw-bold">Chitkul</span> village</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Walk around the village or sit by the Baspa River</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Optional stop at Hindustan Ka Aakhri Dhaba</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Begin drive towards <span class="fw-bold">Nako</span> by afternoon</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Observe the gradual change in landscape from green valleys to rugged terrain</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Stop at <span class="fw-bold">Khab Sangam</span> (confluence of Sutlej & Spiti rivers) a scenic spot</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Reach Nako village by evening</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Check-in to the comfy hotel and relax. Dinner and overnight stay in Nako.</li>
                       </ul>
                     </div>
                   </div>
@@ -567,25 +616,34 @@
                 <!-- Day 3 -->
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingDay3">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay3" aria-expanded="false"
-                      aria-controls="collapseDay3">
+                    <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay3" aria-expanded="false" aria-controls="collapseDay3">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Sangla to Kalpa | Roghi Village</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                        <span>Nako to Kaza via Tabo & Dhankar</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay3" class="accordion-collapse collapse" aria-labelledby="headingDay3"
-                    data-bs-parent="#accordionExample">
+                  <div id="collapseDay3" class="accordion-collapse collapse" aria-labelledby="headingDay3" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex flex-wrap gap-3 mb-3 px-lg-3">
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-route me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Distance:</strong> Approx. 110 km</span>
+                        </div>
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-clock me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Duration:</strong> 7-8 hours</span>
+                        </div>
+                      </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>After breakfast, drive to <span class="fw-bold">Kalpa</span> with stunning views of the Kinner Kailash range.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit the scenic <span class="fw-bold">Roghi Village</span> and explore the apple orchards.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore Kalpa town, the ancient Hu-Bu-lan-Kar monastery, and enjoy panoramic Himalayan views.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight stay in Kalpa.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Start the day with breakfast and check-out</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Begin drive towards <span class="fw-bold">Kaza</span></li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Enter Spiti Valley with noticeable change in terrain and road conditions</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <span class="fw-bold">Tabo Monastery</span> known for its ancient structure</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Stop at <span class="fw-bold">Dhankar Monastery & Fort</span> for valley views</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Continue drive through wide valleys and barren mountains</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Reach Kaza by evening</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Check-in to the stay and relax. 👉 Dinner and overnight stay in Kaza.</li>
                       </ul>
                     </div>
                   </div>
@@ -594,25 +652,33 @@
                 <!-- Day 4 -->
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingDay4">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay4" aria-expanded="false"
-                      aria-controls="collapseDay4">
+                    <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay4" aria-expanded="false" aria-controls="collapseDay4">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Kalpa to Tabo | Nako Lake</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                        <span>Kaza Local Sightseeing</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay4" class="accordion-collapse collapse" aria-labelledby="headingDay4"
-                    data-bs-parent="#accordionExample">
+                  <div id="collapseDay4" class="accordion-collapse collapse" aria-labelledby="headingDay4" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex flex-wrap gap-3 mb-3 px-lg-3">
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-route me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Distance:</strong> Approx. 80 km</span>
+                        </div>
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-clock me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Duration:</strong> 6-7 hours</span>
+                        </div>
+                      </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Drive along the Spiti River crossing into the high-altitude Spiti Valley.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Stop at the magical <span class="fw-bold">Nako Lake</span> — a small high-altitude lake with stunning reflections.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Arrive at <span class="fw-bold">Tabo</span>, home to the famous 1000-year-old Tabo Monastery — a UNESCO World Heritage Site candidate.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight stay in Tabo.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Start after breakfast and head out for local exploration</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <span class="fw-bold">Key Monastery</span> overlooking the valley</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Stop at <span class="fw-bold">Chicham Bridge</span>, one of the highest suspension bridges</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore <span class="fw-bold">Komik village</span>, Highest village in Asia</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <span class="fw-bold">Hikkim</span>, home to a high-altitude post office, send postcards from the world's highest post office</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Head to <span class="fw-bold">Langza</span>, known for its Buddha statue and open landscapes with old fossils</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Return to Kaza by evening. 👉 Dinner and overnight stay in Kaza.</li>
                       </ul>
                     </div>
                   </div>
@@ -621,25 +687,34 @@
                 <!-- Day 5 -->
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingDay5">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay5" aria-expanded="false"
-                      aria-controls="collapseDay5">
+                    <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay5" aria-expanded="false" aria-controls="collapseDay5">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                        <span>Tabo to Kaza | Dhankar & Pin Valley</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                        <span>Kaza to Chandratal</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay5" class="accordion-collapse collapse" aria-labelledby="headingDay5"
-                    data-bs-parent="#accordionExample">
+                  <div id="collapseDay5" class="accordion-collapse collapse" aria-labelledby="headingDay5" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex flex-wrap gap-3 mb-3 px-lg-3">
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-route me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Distance:</strong> Approx. 95 km</span>
+                        </div>
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-clock me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Duration:</strong> 5-6 hours</span>
+                        </div>
+                      </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Drive to <span class="fw-bold">Dhankar Monastery</span> perched dramatically on a cliff overlooking the Spiti and Pin river confluence.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Trek to the stunning <span class="fw-bold">Dhankar Lake</span> (optional, ~2 hrs trek).</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <span class="fw-bold">Pin Valley National Park</span> — home to Snow Leopards and Siberian Ibex.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Arrive at <span class="fw-bold">Kaza</span> — the headquarters of Spiti. Explore the local market and Sakya Tangyud Monastery. Overnight stay.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Start early after breakfast and check-out</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Begin drive towards <span class="fw-bold">Chandratal</span></li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Drive through rough patches and high-altitude terrain</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Pass through Kunzum Pass (subject to road and weather conditions)</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Optional short halt at Losar village</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Reach camps near Chandratal by evening</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Walk towards the lake if time and weather permit</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>👉 Dinner and overnight stay in camps near Chandratal. <br> <span class="fw-bold mt-2 d-inline-block text-dark">Note: If road to Chandratal is closed, alternate stay will be arranged at Batal/Kaza/Manali</span></li>
                       </ul>
                     </div>
                   </div>
@@ -648,25 +723,33 @@
                 <!-- Day 6 -->
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingDay6">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay6" aria-expanded="false"
-                      aria-controls="collapseDay6">
+                    <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay6" aria-expanded="false" aria-controls="collapseDay6">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 6</span>
-                        <span>Kaza Exploration | Key Monastery & Kibber Village</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                        <span>Chandratal to Manali</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay6" class="accordion-collapse collapse" aria-labelledby="headingDay6"
-                    data-bs-parent="#accordionExample">
+                  <div id="collapseDay6" class="accordion-collapse collapse" aria-labelledby="headingDay6" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex flex-wrap gap-3 mb-3 px-lg-3">
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-route me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Distance:</strong> Approx. 110 km</span>
+                        </div>
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-clock me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Duration:</strong> 6-7 hours</span>
+                        </div>
+                      </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit the iconic <span class="fw-bold">Key Monastery</span> (Ki Gompa) — the largest monastery in Spiti, perched at 4,166m.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Drive to <span class="fw-bold">Kibber Village</span> — one of the world's highest motorable villages.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore <span class="fw-bold">Komic Village</span> — the highest village in Asia with a motorable road.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Return to Kaza for an evening of bonfire, stargazing, and group conversations. Overnight stay.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Start early after breakfast</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Begin drive towards <span class="fw-bold">Manali</span> via Batal</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Experience rough roads, water crossings, and changing landscapes</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Cross Atal Tunnel before entering Manali</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Reach Manali by evening and check-in to the hotel</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Free time to explore Old Manali cafes or nearby areas (optional)</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>👉 Dinner and overnight stay in Manali.</li>
                       </ul>
                     </div>
                   </div>
@@ -675,25 +758,31 @@
                 <!-- Day 7 -->
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingDay7">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay7" aria-expanded="false"
-                      aria-controls="collapseDay7">
+                    <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay7" aria-expanded="false" aria-controls="collapseDay7">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 7</span>
-                        <span>Kaza to Chandratal Lake Camp</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                        <span>Manali to Delhi (Overnight Journey)</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay7" class="accordion-collapse collapse" aria-labelledby="headingDay7"
-                    data-bs-parent="#accordionExample">
+                  <div id="collapseDay7" class="accordion-collapse collapse" aria-labelledby="headingDay7" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
+                      <div class="d-flex flex-wrap gap-3 mb-3 px-lg-3">
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-route me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Distance:</strong> Approx. 510 km</span>
+                        </div>
+                        <div class="d-flex align-items-center shadow-sm" style="background: #fff; padding: 8px 15px; border-radius: 10px; border: 1px solid #e0e0e0;">
+                          <i class="fa-solid fa-clock me-2 pulse" style="color: #4ec0db;"></i>
+                          <span style="font-size: 13.5px; color: #555;"><strong class="text-dark">Duration:</strong> 10-11 hours</span>
+                        </div>
+                      </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>The most awaited day! Drive towards the <span class="fw-bold">Kunzum Pass</span> (4,590m) — one of the highest motorable passes in the world.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Trek to the legendary <span class="fw-bold">Chandratal Lake</span> — the "Moon Lake" at 4,300m — its turquoise waters are nothing short of magical.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i><span class="fw-bold">Camp overnight</span> beside Chandratal Lake under a canopy of a million stars.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Enjoy bonfire, hot soup, and the unmatched silence of the Himalayas.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Wake up and have breakfast</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Free time for self-exploration in Manali</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit nearby attractions, cafes, or Mall Road</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Regroup by evening and begin return journey to Delhi</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>👉 Overnight journey.</li>
                       </ul>
                     </div>
                   </div>
@@ -702,51 +791,18 @@
                 <!-- Day 8 -->
                 <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
                   <h2 class="accordion-header" id="headingDay8">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay8" aria-expanded="false"
-                      aria-controls="collapseDay8">
+                    <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay8" aria-expanded="false" aria-controls="collapseDay8">
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 8</span>
-                        <span>Chandratal to Manali | Rohtang Pass</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
+                        <span>Arrival in Delhi</span>
                       </div>
                     </button>
                   </h2>
-                  <div id="collapseDay8" class="accordion-collapse collapse" aria-labelledby="headingDay8"
-                    data-bs-parent="#accordionExample">
+                  <div id="collapseDay8" class="accordion-collapse collapse" aria-labelledby="headingDay8" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Wake up to the breathtaking sunrise over <span class="fw-bold">Chandratal Lake</span> — an experience of a lifetime.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Drive through the majestic <span class="fw-bold">Rohtang Pass</span> (3,978m) with snow-capped peaks all around.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Arrive at <span class="fw-bold">Manali</span>, check in and freshen up.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore Mall Road, Hadimba Temple, and indulge in local Himachali cuisine. Farewell dinner. Overnight in Manali.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Day 9 -->
-                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 10px !important;">
-                  <h2 class="accordion-header" id="headingDay9">
-                    <button
-                      class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay9" aria-expanded="false"
-                      aria-controls="collapseDay9">
-                      <div class="d-flex align-items-center w-100">
-                        <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 9</span>
-                        <span>Manali Departure | Trip Ends</span>
-                        <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
-                      </div>
-                    </button>
-                  </h2>
-                  <div id="collapseDay9" class="accordion-collapse collapse" aria-labelledby="headingDay9"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body" style="background-color: #f5fdff;">
-                      <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>After breakfast, depart from Manali for your onward journey.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Board the Volvo bus back to <span class="fw-bold">Delhi</span> or onward flights.</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Bye Bye Roamers! Same people... but not the same anymore. <span class="fw-bold">You're a family now!</span></li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i> Reach Delhi by morning</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Trip concludes with travel memories</li>
                       </ul>
                     </div>
                   </div>
@@ -760,13 +816,16 @@
               <div class="important-notes shadow" style="border-radius: 30px; background-color:rgb(245, 255, 246);">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
                 <div>
-                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Transportation (Delhi → Shimla → Spiti → Manali → Delhi)</p>
-                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>8 Nights accommodation (Hotels + Guesthouses + Camp at Chandratal)</p>
-                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>All meals included (Breakfast, Lunch & Dinner)</p>
-                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Entry tickets to monasteries and national parks</p>
-                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Experienced Trek Captain & local guide</p>
-                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Bonfire at Chandratal Lake camp</p>
-                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Inner Line Permit for Spiti Valley</p>
+                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Delhi to Shimla & Manali to Delhi travel in Volvo bus</p>
+                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Transportation for complete trip in Tempo Traveller (Shimla to Manali)</p>
+                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Accommodation for 6 nights (Hotel/Camps as per itinerary)</p>
+                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Meals:<br>
+                    <span style="margin-left: 28px;">– Breakfast from Day 2 to Day 7</span><br>
+                    <span style="margin-left: 28px;">– Dinner from Day 1 to Day 6</span>
+                  </p>
+                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Local sightseeing as per itinerary</p>
+                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>Experienced trip captain for the entire journey</p>
+                  <p><i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>All driver charges, toll taxes, parking, and fuel</p>
                   <span class="mobile-br"><br></span>
                 </div>
               </div>
@@ -776,12 +835,11 @@
             <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);" id="exclusion">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
               <div>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Adventure activities at Manali (paragliding, ATV, etc. — self pay)</p>
-                <span class="mobile-br"><br></span>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>5% GST on total bill</p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any personal expenses (shopping, tips, etc.)</p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Travel insurance</p>
-                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Anything not mentioned in inclusions</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Lunch and any meals not mentioned in inclusions</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Entry fees to monasteries, monuments, or any sightseeing spots</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Personal expenses (shopping, snacks, laundry, etc.)</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Any kind of insurance</p>
+                <p><i class="fa-solid fa-circle-xmark me-2 pulse" style="color: red;"></i>Additional costs due to weather conditions, road blockage, or delays</p>
               </div>
             </div>
 
@@ -789,11 +847,11 @@
 
           <!-- Sticky Side Section -->
           <div class="col-md-4">
-            <div class="price-sticky" style="position: sticky;">
+            <div class="price-sticky" style="position: sticky; margin-top:55px">
 
               <!-- Side Image -->
               <div class="priceCard shadow" style="border-radius: 10px;">
-                <img src="assets/img/spiti/spiti1.jpg" alt="Spiti Chandratal Banner"
+                <img src="assets/img/spiti-chandratal/Manali-Travel-Guide.webp" alt="Spiti Chandratal Banner"
                   style="object-fit:cover; border-radius: 10px;">
               </div>
 
@@ -803,12 +861,12 @@
                   <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 30px;">
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
-                      <span class="old-price"><strike>₹24,999/-</strike></span>
+                      <span class="old-price"><strike>₹24,990/-</strike></span>
                       <span class="spiti-price new-price"></span><span class="new-price">/-</span>
                     </h5>
                     <p>Perfect for group adventures and shared <br> memories in the Himalayas.</p>
                     <div class="trip-form p-0">
-                      <a href="spiti-chandratal-trek-form.php" class="btn butn butn__new"
+                      <a href="spiti-chandratal-form.php" class="btn butn butn__new"
                         style="border-radius: 30px;">Dates & Costing</a>
                     </div>
                   </div>
@@ -886,58 +944,59 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladakh-img3.jpg" alt="Ladakh Adventure">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0000_1.jpg" alt="Ladakh Adventure">
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladak-img1.jpg" alt="Ladakh Trip">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0001_2.jpg" alt="Ladakh Trip">
                         </div>
                     </div>
 
                     <!-- Slide 3 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladakh-img5.jpg" alt="Ladakh Scenic">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0002_3.jpg" alt="Ladakh Scenic">
                         </div>
                     </div>
 
                     <!-- Slide 4 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladakh-img6.jpg" alt="Ladakh Journey">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0003_5.jpg" alt="Ladakh Journey">
                         </div>
                     </div>
 
                     <!-- Slide 5 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladakh-img4.jpeg" alt="Ladakh Beauty">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0004_6.jpg" alt="Ladakh Beauty">
                         </div>
                     </div>
 
                     <!-- Slide 6 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladakh-img10.webp" alt="Ladakh Vibes">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0005_7.jpg" alt="Ladakh Vibes">
                         </div>
                     </div>
 
                     <!-- Slide 7 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladakh-img6.jpeg" alt="Ladakh Memories">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0006_8.jpg" alt="Ladakh Memories">
                         </div>
                     </div>
 
-                    <!-- Slide 8 -->
+                     <!-- Slide 8 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/ladakh/ladakh-image12.jpg" alt="Ladakh Group">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti_0007_9.jpg" alt="Ladakh Memories">
                         </div>
                     </div>
+
                 </div>
 
                 <!-- Navigation Buttons - Now Inside Swiper for better sync -->
@@ -982,7 +1041,7 @@
             <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo"
               data-bs-parent="#accordionFlushExample">
               <div class="accordion-body bg-white px-4 py-3">
-                <p style="font-size: 0.875rem; margin-bottom: 0;">The Spiti Chandratal Trek is a moderate-level trek. Basic fitness is required. We recommend regular walks and some cardio exercises prior to the trip. Our Trek Captain will ensure everyone's safety throughout the journey.</p>
+                <p style="font-size: 0.875rem; margin-bottom: 0;">The Spiti Chandratal is a moderate-level trek. Basic fitness is required. We recommend regular walks and some cardio exercises prior to the trip. Our Trek Captain will ensure everyone's safety throughout the journey.</p>
               </div>
             </div>
           </div>
@@ -1046,11 +1105,11 @@
       <div class="price-box">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount">₹21,999/-</span>
+          <span class="price-amount">₹22,990/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
-      <a href="spiti-chandratal-trek-form.php" class="btn-book">Dates & Costing</a>
+      <a href="spiti-chandratal-form.php" class="btn-book">Dates & Costing</a>
     </div>
   </div>
 
@@ -1142,7 +1201,7 @@
     // Banner Background Slider
     const section = document.getElementById("tripSection");
     const dotContainer = document.getElementById("dotPagination");
-    const images = ["assets/img/spiti/spiti1.jpg"];
+    const images = ["assets/img/spiti-chandratal/Manali-Travel-Guide.webp"];
     let index = 0;
     let interval;
 

@@ -10,23 +10,23 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta property="og:image:secure_url" content="" width="600" height="600" alt="image for spiti chandratal" />
-    <title>Roamers - Spiti Chandratal Trek - Form</title>
+    <title>Roamers - Spiti Chandratal - Form</title>
 
     <!-- SEO Meta Description -->
-    <meta name="description" content="Book your Spiti Chandratal Trek with Roamers. Fill in your details and select your preferred travel dates." />
+    <meta name="description" content="Book your Spiti Chandratal with Roamers. Fill in your details and select your preferred travel dates." />
     <meta name="author" content="Roamers" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="500" />
 
     <!-- Basic Open Graph tags -->
-    <meta property="og:title" content="Roamers - Spiti Chandratal Trek" />
-    <meta property="og:description" content="Book your Spiti Chandratal Trek with Roamers. High altitude adventure, ancient monasteries and Chandratal Lake." />
+    <meta property="og:title" content="Roamers - Spiti Chandratal" />
+    <meta property="og:description" content="Book your Spiti Chandratal with Roamers. High altitude adventure, ancient monasteries and Chandratal Lake." />
     <meta property="og:image" content="" />
     <meta property="og:url" content="" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Roamers - Spiti Chandratal Trek" />
-    <meta name="twitter:description" content="Book your Spiti Chandratal Trek with Roamers." />
+    <meta name="twitter:title" content="Roamers - Spiti Chandratal" />
+    <meta name="twitter:description" content="Book your Spiti Chandratal with Roamers." />
     <meta name="twitter:image" content="" />
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -167,6 +167,16 @@ session_start();
 
         #per-details { display: none; }
         #full-details { display: none; }
+        #full-details .div {
+            color: #000;
+            font-size: 18px !important;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px !important;
+        }
+        #full-details .div i { font-size: 24px !important; color: #4ec0db; width: 20px !important; }
+        #full-details .div p { color: #000; font-size: 18px; margin-bottom: 0px !important; }
 
         .input-field input { border: 1px solid #a3a3a3; outline: none !important; box-shadow: none !important; }
         .phone[type="number"]::-webkit-outer-spin-button,
@@ -209,7 +219,7 @@ session_start();
 
         .package-info-box { position: relative; overflow: hidden; min-height: 120px; transition: all 0.3s ease-in-out; opacity: 0; transform: translateY(-20px); }
         .package-info-box.show { opacity: 1; transform: translateY(0); }
-        .background-image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('assets/img/spiti/spiti1.jpg'); background-size: cover; background-position: center; filter: blur(4px); transform: scale(1.1); }
+        .background-image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('assets/img/spiti-chandratal/Spiti-chandaratal.jpg'); background-size: cover; background-position: center; filter: blur(4px); transform: scale(1.1); }
         .blur-overlay { position: relative; z-index: 1; border-radius: 15px; }
         .package-date { border-radius: 15px; padding: 1rem; margin-top: 1rem; text-align: center; }
         .date-label { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 0; }
@@ -252,12 +262,12 @@ session_start();
 
     <!-- Page Heading -->
     <div class="text-center mb-4">
-        <h1 class="booking-form-head" style="margin-bottom: 50px;">Spiti Chandratal Trek</h1>
+        <h1 class="booking-form-head" style="margin-bottom: 50px;">Spiti Chandratal</h1>
     </div>
 
     <section class="">
         <div class="container">
-            <form action="spiti-chandratal-trek-mail-send.php" method="POST" autocomplete="off">
+            <form action="spiti-chandratal-mail-send.php" method="POST" autocomplete="off">
                 <div class="row row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 pb-5 px-md-5" id="date-form">
 
                     <!-- Left: Form Steps -->
@@ -424,11 +434,11 @@ session_start();
                                         <tbody id="costing-table-body">
                                             <tr>
                                                 <td>Triple Sharing</td>
-                                                <td>₹21,999/- &nbsp;<strike style="color:#999;">₹28,999/-</strike></td>
+                                                <td>₹22,990/- &nbsp;<strike style="color:#999;">₹24,990/-</strike></td>
                                             </tr>
                                             <tr>
                                                 <td>Double Sharing</td>
-                                                <td>₹23,999/- &nbsp;<strike style="color:#999;">₹30,999/-</strike></td>
+                                                <td>₹24,990/- &nbsp;<strike style="color:#999;">₹26,990/-</strike></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -601,11 +611,99 @@ session_start();
     <!-- Back Button & Nav Scroll -->
     <script>
         document.addEventListener('click', function (e) {
+            // Step 2 to Step 1
             if (e.target && e.target.id === 'pre-btn') {
                 e.preventDefault();
                 document.getElementById('per-details').style.display = 'none';
                 document.getElementById('dates').style.display = 'block';
                 document.querySelector('.progress-bar').style.width = '0%';
+                
+                const dateBox = document.getElementById("selected-date-box");
+                if (dateBox) {
+                    dateBox.classList.remove("show");
+                    setTimeout(() => { dateBox.style.display = "none"; }, 300);
+                }
+            }
+
+            // Step 2 to Step 3
+            if (e.target && e.target.id === 'next-btn2') {
+                e.preventDefault();
+
+                const travelDate = document.querySelector("#travel-date")?.value.trim() || "";
+                const fullName = document.querySelector("#name")?.value.trim() || "";
+                const email = document.querySelector('input[type="email"]')?.value.trim() || "";
+                const phone = document.querySelector("#phone")?.value.trim() || "";
+                const dob = document.querySelector('input[placeholder="D.O.B"]')?.value.trim() || "";
+                const travellerCount = document.querySelector("#traveller-count")?.value.trim() || "";
+                const address1 = document.querySelector('input[placeholder="Address 1"]')?.value.trim() || "";
+                const address2 = document.querySelector('input[placeholder="Address 2"]')?.value.trim() || "";
+                const city = document.querySelector('input[placeholder="City"]')?.value.trim() || "";
+                const postCode = document.querySelector('input[placeholder="Post Code"]')?.value.trim() || "";
+                const gender = document.querySelector('input[name="gender"]:checked')?.value || "";
+                const sharing = document.querySelector('input[name="sharing"]:checked')?.value || "";
+                const pickup = document.querySelector("#pickup")?.value.trim() || "";
+
+                if (!travelDate || !fullName || !email || !phone || !dob || !travellerCount || !address1 || !address2 || !city || !postCode || !gender || !sharing || !pickup) {
+                    alert("All fields are required! Please fill out all fields before proceeding.");
+                    return;
+                }
+
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailPattern.test(email)) {
+                    alert("Please enter a valid email address.");
+                    return;
+                }
+
+                if (!/^\d{7,15}$/.test(phone.replace(/\D/g, ""))) {
+                    alert("Please enter a valid phone number (7-15 digits).");
+                    return;
+                }
+
+                let perPersonAmount = sharing === 'Triple Sharing' ? 22990 : 24990;
+
+                document.getElementById('per-details').style.display = 'none';
+                document.getElementById('full-details').style.display = 'block';
+                document.querySelector('.progress-bar').style.width = '100%';
+
+                document.getElementById('full-details').innerHTML = `
+                    <h3 class="text-center my-3">Confirm Details</h3>
+                    <div class="div"><i class="fa-regular fa-user"></i> <p><b>Name :</b> ${fullName}</p></div>
+                    <div class="div"><i class="fa-regular fa-envelope"></i> <p><b>Email :</b> ${email}</p></div>
+                    <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b> ${phone}</p></div>
+                    <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${dob}</p></div>
+                    <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${gender}</p></div>
+                    <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Spiti Chandratal</p></div>
+                    <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${travelDate}</p></div>
+                    <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${sharing}</p></div>
+                    <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${travellerCount}</p></div>
+                    <div class="div"><i class="fa-solid fa-truck-pickup"></i> <p><b>Pickup and Drop :</b> ${pickup}</p></div>
+                    <div class="div"><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${address1}, ${address2}, ${city}, ${postCode}</p></div>
+                    <div class="d-flex justify-content-between flex-wrap">
+                      <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
+                        <h4 style="text-align:center;font-weight:bold; color:#000;">₹${perPersonAmount.toLocaleString()}/-</h4>
+                      </div>
+                      <div class="button-div d-flex justify-content-end mt-4">
+                        <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Back</button>
+                        <button type="submit" name="submit-btn" class="book-btn" id="confirm-btn">Book Now</button>
+                      </div>
+                    </div>`;
+
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+
+            // Step 3 to Step 2
+            if (e.target && e.target.id === 'pre-btn2') {
+                e.preventDefault();
+                document.getElementById('full-details').style.display = 'none';
+                document.getElementById('per-details').style.display = 'block';
+                document.querySelector('.progress-bar').style.width = '50%';
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+
+            // Confirm submission
+            if (e.target && e.target.id === 'confirm-btn') {
+                e.preventDefault();
+                document.querySelector('form').submit();
             }
         });
 

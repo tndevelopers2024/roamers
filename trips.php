@@ -2004,7 +2004,7 @@
 
         <div class="col-12 mt-5 col-lg-4 col-md-6">
           <div class="swiper-slide p-md-2 p-1">
-            <a href="#"
+            <a href="spiti-chandratal.php"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
               <img class="trips-page-images" style="border-radius:20px !important;" src="assets/img/spiti-valley/cover/spiti-chandratal-trek.avif"
                 alt="roamers-Gallery">
@@ -2015,7 +2015,7 @@
                       alt="second location-icon">EX: Delhi
                   </h4>
                 </div>
-                <h2>Spiti Chandratal Trek</h2>
+                <h2>Spiti Chandratal</h2>
                 <p><img src="assets/img/images/loc.svg" style="border-radius:20px !important;" alt="location-icon">Spiti Valley
                 </p>
                 <div class="inner">
