@@ -1050,6 +1050,11 @@
         }
 
         @media (max-width: 768px) {
+
+          .rewind-section{
+            padding: 60px 0 0 !important;
+;
+          }
             .rewind-header {
                 flex-direction: column;
                 align-items: center;
@@ -1073,12 +1078,58 @@
   <!-- ***** Header End -->
 
   <!-- Banner -->
-  <section id="banner"
-    style=" height: 110vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 350px 0; background-image: url('assets/img/andaman/andaman-bg.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; "></div>
+  <style>
+    .andaman-banner {
+      height: 125vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 350px 0;
+      background-image: url('assets/img/andaman/andaman-bg.avif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .andaman-banner-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .andaman-banner-title {
+      font-size: 49px;
+      font-weight: 900;
+      margin: 0;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 768px) {
+      .andaman-banner {
+        background-image: url('https://muddyshoe.in/wp-content/uploads/2025/03/IMG_2613-1024x768.jpg') !important;
+        height: 80vh !important;
+        padding: 150px 0 !important;
+        background-position: center !important;
+      }
+      .andaman-banner-title {
+        font-size: 38px !important;
+        padding: 0 15px;
+      }
+      .andaman-banner-overlay {
+        background: rgba(0,0,0,0.3); /* Adds a slight darkening overlay on mobile for better text readability */
+      }
+    }
+  </style>
+
+  <section id="banner" class="andaman-banner">
+    <div class="andaman-banner-overlay"></div>
     <div style="position: relative; z-index: 1; text-align: center; color: white; width: 100%;">
-      <h2
-        style="font-size: 49px; font-weight: 900; margin: 0; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
+      <h2 class="andaman-banner-title">
         ANDAMAN TRIPS </h2>
       <!-- <ul style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; padding: 0;">
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
@@ -1106,7 +1157,7 @@
     .about-area {
       position: relative;
       z-index: 1;
-      padding: 120px 0 60px;
+      padding: 200px 0 60px;
       background-color: #f9f9f9;
       overflow: hidden;
     }
@@ -1148,6 +1199,9 @@
       .about-img-1 {
         width: 100%;
         margin-bottom: 20px;
+      }
+      .about-area{
+        padding: 0 !important;
       }
 
       .about-img-2 {
@@ -1312,11 +1366,39 @@
       opacity: 0.1;
       width: 300px;
     }
+
+    @media (max-width: 468px) {
+      .about-area {
+        padding: 0 !important;
+      }
+      .about-content {
+        padding-left: 0;
+      }
+      .section-title, .section-subtitle{
+        text-align: center;
+      }
+    }
   </style>
 
-<section
-    style="height:50vh !important;background-image: url('') ; background-size: cover; background-position: center; background-repeat: no-repeat;">
-    <h2 class="head">ANDAMAN TOUR PACKAGES</h2>
+  <style>
+    .andaman-packages-section {
+        height: 50vh;
+        background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    @media (max-width: 991px) {
+        .andaman-packages-section {
+            height: auto !important;
+            padding: 25px 0;
+        }
+    }
+  </style>
+
+  <section class="andaman-packages-section">
+    <h2 class="head" style="margin-bottom: 40px;">ANDAMAN TOUR PACKAGES</h2>
     <div class="container">
 
       <div class="row packages-scroll-row">
@@ -1342,7 +1424,7 @@
 
         <div class="col-lg-3">
           <div class="package-card-wrap">
-            <a href="andaman-8D.php" class="card-modern">
+            <a href="#" class="card-modern">
               <div class="card-badge">Private Trip</div>
               <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg"
                 alt="Extended Andaman" class="card-img" style="filter:brightness(0.9)">

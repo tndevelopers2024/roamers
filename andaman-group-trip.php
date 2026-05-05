@@ -240,10 +240,59 @@
   <?php include('includes/header.php'); ?>
 
   <!-- Banner -->
-  <section id="banner" style=" height: 110vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 350px 0; background-image: url('assets/img/andaman/andaman-bg.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; "></div>
+  <style>
+    .andaman-banner {
+      height: 110vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 350px 0;
+      background-image: url('assets/img/andaman/andaman-bg.avif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .andaman-banner-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .andaman-banner-title {
+      font-size: 49px;
+      font-weight: 900;
+      margin: 0;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      letter-spacing: 1px;
+    }
+
+    /* Target mobile view */
+    @media (max-width: 768px) {
+      .andaman-banner {
+        background-image: url('https://muddyshoe.in/wp-content/uploads/2025/03/IMG_2613-1024x768.jpg') !important;
+        height: 85vh !important;
+        padding: 150px 0 !important;
+        background-position: center !important;
+      }
+      .andaman-banner-title {
+        font-size: 34px !important;
+        padding: 0 15px;
+      }
+      .andaman-banner-overlay {
+        background: rgba(0,0,0,0.3); /* Subtle darkening for text readability on mobile */
+      }
+    }
+  </style>
+
+  <section id="banner" class="andaman-banner">
+    <div class="andaman-banner-overlay"></div>
     <div style="position: relative; z-index: 1; text-align: center; color: white; width: 100%;">
-      <h2 style="font-size: 49px; font-weight: 900; margin: 0; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">ANDAMAN ISLAND HOPPING</h2>
+      <h2 class="andaman-banner-title">ANDAMAN ISLAND HOPPING</h2>
       <ul style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; padding: 0;">
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           PORT BLAIR

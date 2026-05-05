@@ -2736,7 +2736,7 @@
                     'places' => 'Kalpa, Kaza, Chandratal',
                     'price' => '',
                     'price_class' => 'spiti-price',
-                    'link' => '#'
+                    'link' => 'spiti-chandratal'
                 ],
                 'thailand' => [
                     'title' => 'THAILAND BACKPACKING',
@@ -2818,6 +2818,7 @@
                     ['trip_id' => 'leh-ladakh', 'dates' => 'May 09, 16, 23, 30'],
                     ['trip_id' => 'tawang', 'dates' => 'May 01, 06'],
                     ['trip_id' => 'ooty', 'dates' => 'May 01, 15, 29'],
+                    ['trip_id' => 'spiti', 'dates' => 'May 06'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'May 15, 30'],
                     ['trip_id' => 'yelagiri', 'dates' => 'May 02, 27'],
                 ],
@@ -2826,7 +2827,6 @@
                     ['trip_id' => 'tawang', 'dates' => 'Jun 20, 26'],
                     ['trip_id' => 'valley', 'dates' => 'Jun 27'],
                     ['trip_id' => 'ooty', 'dates' => 'Jun 12, 26'],
-                    ['trip_id' => 'spiti', 'dates' => 'Jun 20, 27'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Jun 13, 27'],
                     ['trip_id' => 'yelagiri', 'dates' => 'Jun 02, 27'],
                 ],
@@ -2834,7 +2834,6 @@
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Jul 04, 11, 18, 25'],
                     ['trip_id' => 'valley', 'dates' => 'Jul 04, 11, 18, 25'],
                     ['trip_id' => 'ooty', 'dates' => 'Jul 11, 25'],
-                    ['trip_id' => 'spiti', 'dates' => 'Jul 04, 18'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Jul 12, 26'],
                     ['trip_id' => 'yelagiri', 'dates' => 'Jul 02, 27'],
                 ],
@@ -2842,7 +2841,6 @@
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Aug 01, 08, 15, 22, 29'],
                     ['trip_id' => 'valley', 'dates' => 'Aug 01, 08, 15, 22, 29'],
                     ['trip_id' => 'ooty', 'dates' => 'Aug 15, 29'],
-                    ['trip_id' => 'spiti', 'dates' => 'Aug 01, 15, 29'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Aug 08, 22'],
                     ['trip_id' => 'srilanka', 'dates' => 'Aug 17'],
                     ['trip_id' => 'andaman', 'dates' => 'Aug 15, 22'],
@@ -2851,7 +2849,6 @@
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Sep 05, 12, 19, 26'],
                     ['trip_id' => 'valley', 'dates' => 'Sep 05'],
                     ['trip_id' => 'ooty', 'dates' => 'Sep 05, 19'],
-                    ['trip_id' => 'spiti', 'dates' => 'Sep 05, 19'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Sep 12, 26'],
                     ['trip_id' => 'srilanka', 'dates' => 'Sep 06'],
                     ['trip_id' => 'andaman', 'dates' => 'Sep 12, 26'],
@@ -2887,7 +2884,7 @@
                 // 'jan' => ['name' => 'January', 'icon' => 'fa-snowflake'],
                 // 'feb' => ['name' => 'February', 'icon' => 'fa-heart'],
                 // 'mar' => ['name' => 'March', 'icon' => 'fa-sun'],
-                'apr' => ['name' => 'April', 'icon' => 'fa-cloud-sun'],
+                // 'apr' => ['name' => 'April', 'icon' => 'fa-cloud-sun'],
                 'may' => ['name' => 'May', 'icon' => 'fa-sun'],
                 'jun' => ['name' => 'June', 'icon' => 'fa-cloud-sun-rain'],
                 'jul' => ['name' => 'July', 'icon' => 'fa-cloud-showers-heavy'],
@@ -2909,7 +2906,7 @@
                 <div class="upcoming-tabs" id="upcoming-tabs">
                     <?php
                     foreach ($months_config as $key => $config):
-                        $isActive = ($key === 'apr') ? 'active' : '';
+                        $isActive = ($key === 'may') ? 'active' : '';
                         ?>
                         <button class="upcoming-tab-btn <?php echo $isActive; ?>" data-tab="<?php echo $key; ?>">
                             <span class="tab-icon"><i class="fa-solid <?php echo $config['icon']; ?>"></i></span>
@@ -2928,7 +2925,7 @@
                 <!-- Tab Contents -->
                 <?php
                 foreach ($months_config as $key => $config):
-                    $isActive = ($key === 'apr') ? 'active' : '';
+                    $isActive = ($key === 'may') ? 'active' : '';
                     ?>
                     <div class="upcoming-tab-content <?php echo $isActive; ?>" id="tab-<?php echo $key; ?>">
                         <div class="upcoming-slider-wrapper">

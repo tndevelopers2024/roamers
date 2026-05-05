@@ -1566,75 +1566,26 @@
     }
   },
   "spiti-chandratal": {
-    "June": [
+    "May": [
       {
-        "date": "06 Jun - 14 Jun",
+        "date": "06 May - 06 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "₹21,999/-"
-      },
-      {
-        "date": "20 Jun - 28 Jun",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹21,999/-"
-      }
-    ],
-    "July": [
-      {
-        "date": "04 Jul - 12 Jul",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹21,999/-"
-      },
-      {
-        "date": "18 Jul - 26 Jul",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹21,999/-"
-      }
-    ],
-    "August": [
-      {
-        "date": "01 Aug - 09 Aug",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹21,999/-"
-      },
-      {
-        "date": "15 Aug - 23 Aug",
-        "status": "Independence Day Special",
-        "statusColor": "red",
-        "price": "₹21,999/-",
-        "special": "Independence Day"
-      }
-    ],
-    "September": [
-      {
-        "date": "05 Sep - 13 Sep",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹21,999/-"
-      },
-      {
-        "date": "19 Sep - 27 Sep",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹21,999/-"
+        "price": "₹22,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "₹21,999/-",
+      "startingPrice": "₹22,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "₹21,999/-",
-          "mrp": "₹28,999/-"
+          "offer": "₹22,990/-",
+          "mrp": "₹24,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "₹23,999/-",
-          "mrp": "₹30,999/-"
+          "offer": "₹24,990/-",
+          "mrp": "₹26,990/-"
         }
       ]
     }
