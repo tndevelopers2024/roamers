@@ -229,7 +229,7 @@
             }
 
             .rewind-card {
-                height: 380px;
+                height: 420px;
             }
         }
   </style>
@@ -473,23 +473,23 @@
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti-chandratal/2e1f8a0a508565e7461b992d68650c33.gif" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/about-silde/starter 1.jpg.jpeg" class="img-fluid w-100"
                     alt="Spiti Valley" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti-chandratal/c17f9e66-a305-4a2d-927d-f66b3b169a37.jpeg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/about-silde/starter 2.jpg.jpeg" class="img-fluid w-100"
                     alt="Chandratal Lake" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti-chandratal/sj0bv5phscyw2faear9mxtt491ww_1578921609_shutterstock_1543848932.webp" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/about-silde/starter 3.jpg.jpeg" class="img-fluid w-100"
                     alt="Key Monastery" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti-chandratal/9c568156-5deb-4705-9f42-b5aec08bc023.jpeg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/about-silde/starter 4.jpg.jpeg" class="img-fluid w-100"
                     alt="Kaza Town Spiti" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/spiti-chandratal/dhankar.jpg" class="img-fluid w-100"
+                  <img src="assets/img/spiti-chandratal/2e1f8a0a508565e7461b992d68650c33.gif" class="img-fluid w-100"
                     alt="Rohtang Pass" style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
               </div>
@@ -944,14 +944,14 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0000_1.jpg" alt="Ladakh Adventure">
+                            <img src="assets/img/spiti-chandratal/SnapInsta.to_608664771_18344659423239707_7928058349127373431_n.jpg" alt="Ladakh Adventure">
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0001_2.jpg" alt="Ladakh Trip">
+                            <img src="assets/img/spiti-chandratal/for carcosuel/spiti _0000_1.jpg" alt="Ladakh Trip">
                         </div>
                     </div>
 
@@ -994,6 +994,13 @@
                     <div class="swiper-slide">
                         <div class="rewind-card">
                             <img src="assets/img/spiti-chandratal/for carcosuel/spiti_0007_9.jpg" alt="Ladakh Memories">
+                        </div>
+                    </div>
+
+                    <!-- Slide 9 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/spiti-chandratal/Spiti-chandaratal.jpg" alt="Ladakh Memories">
                         </div>
                     </div>
 
