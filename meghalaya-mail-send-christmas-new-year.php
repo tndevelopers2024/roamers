@@ -157,11 +157,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <meta charset="UTF-8">
             <title>Thank You for Booking!</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
             <style>
                 body {
-                    font-family: 'Poppins', sans-serif;
-                    background: #4ec0db;
+                    background: #e74c3c;
                     padding: 20px;
                     min-height: 100vh;
                     margin: 0;
@@ -173,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 .thankyou-container {
                     background: #fff;
                     border-radius: 22px;
-                    box-shadow: 0 8px 40px rgba(30, 144, 255, 0.13);
+                    box-shadow: 0 8px 40px rgba(231, 76, 60, 0.13);
                     max-width: 430px;
                     width: 95%;
                     padding: 48px 32px 38px 32px;
@@ -204,13 +203,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     height: 80px;
                     margin-bottom: 18px;
                     border-radius: 50%;
-                    background: #4ec0db;
+                    background: linear-gradient(120deg, #e74c3c 0%, #ff4d4f 100%);
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     margin-left: auto;
                     margin-right: auto;
-                    box-shadow: 0 2px 16px rgba(30, 144, 255, 0.13);
+                    box-shadow: 0 2px 16px rgba(231, 76, 60, 0.13);
                 }
 
                 .thankyou-icon img {
@@ -221,7 +220,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 .thankyou-title {
                     font-size: 2.1rem;
                     font-weight: 700;
-                    color: #4ec0db;
+                    color: #e74c3c;
                     margin-bottom: 10px;
                     letter-spacing: 1px;
                 }
@@ -233,22 +232,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 .thankyou-details {
-                    background: #f8fcff;
+                    background: #fff6f6;
                     border-radius: 12px;
                     padding: 18px 16px 10px 16px;
                     margin-bottom: 18px;
                     font-size: 1.01rem;
                     color: #444;
                     text-align: left;
-                    box-shadow: 0 1px 8px rgba(78, 192, 219, 0.06);
+                    box-shadow: 0 1px 8px rgba(231, 76, 60, 0.06);
                 }
 
                 .thankyou-details strong {
-                    color: #4ec0db;
+                    color: #e74c3c;
                 }
 
                 .thankyou-btn {
-                    background: #4ec0db;
+                    background: linear-gradient(90deg, #e74c3c 0%, #ff4d4f 100%);
                     color: #fff;
                     border: none;
                     border-radius: 8px;
@@ -256,7 +255,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     font-size: 1.08rem;
                     font-weight: 600;
                     cursor: pointer;
-                    box-shadow: 0 2px 8px rgba(78, 192, 219, 0.08);
+                    box-shadow: 0 2px 8px rgba(231, 76, 60, 0.08);
                     transition: background 0.2s;
                     margin-top: 10px;
                     text-decoration: none;
@@ -264,7 +263,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
 
                 .thankyou-btn:hover {
-                    /* background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%); */
+                    background: linear-gradient(90deg, #ff4d4f 0%, #e74c3c 100%);
                 }
 
                 @media (max-width: 600px) {
@@ -278,19 +277,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <body>
             <div class="thankyou-container">
                 <div class="thankyou-icon">
-                    <img src="assets/img/Logo/Logo mark-01.png" alt="Success">
+                    <img src="https://img.icons8.com/fluency/96/checked-checkbox.png" alt="Success">
                 </div>
                 <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
-                    Your Ultimate Ladakh Circuit - 7 Days booking has been received.<br>
+                    Your MEGHALAYA booking has been received.<br>
                     We can't wait to see you on your adventure!
                 </div>
                 <div class="thankyou-details">
-                    <div><strong style="margin-right: 10px;">Name :</strong> <?php echo htmlspecialchars($name); ?></div>
-                    <div><strong style="margin-right: 10px;">Email :</strong> <?php echo htmlspecialchars($email); ?></div>
-                    <div><strong style="margin-right: 10px;">Phone :</strong> <?php echo htmlspecialchars($phone); ?></div>
-                    <div><strong style="margin-right: 10px;">Travel Date :</strong> <?php echo htmlspecialchars($date); ?></div>
-                    <div><strong style="margin-right: 10px;">No. of Travellers :</strong> <?php echo htmlspecialchars($person_count); ?></div>
+                    <div><strong>Name:</strong> <?php echo htmlspecialchars($name); ?></div>
+                    <div><strong>Email:</strong> <?php echo htmlspecialchars($email); ?></div>
+                    <div><strong>Phone:</strong> <?php echo htmlspecialchars($phone); ?></div>
+                    <div><strong>Travel Date:</strong> <?php echo htmlspecialchars($date); ?></div>
+                    <div><strong>No. of Travellers:</strong> <?php echo htmlspecialchars($person_count); ?></div>
                 </div>
                 <a href="index.php" class="thankyou-btn">Back to Home</a>
             </div>

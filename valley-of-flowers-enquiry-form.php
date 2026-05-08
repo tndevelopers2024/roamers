@@ -153,7 +153,7 @@ include('includes/header.php');
             margin-bottom: 24px;
             background: rgba(255, 255, 255, 0.05);
             padding: 12px 18px;
-            border-radius: 16px;
+            border-radius: 30px;
             border: 1px solid rgba(255, 255, 255, 0.08);
             transition: all 0.3s;
         }
@@ -229,7 +229,7 @@ include('includes/header.php');
             height: 52px;
             background: #ffffff;
             border: 1.5px solid #cbd5e1;
-            border-radius: 16px;
+            border-radius: 30px;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
         }
@@ -252,7 +252,7 @@ include('includes/header.php');
             height: 100% !important;
             padding: 0 45px 0 52px; /* Increased right padding for select arrow */
             border: none !important;
-            border-radius: 0 !important;
+            border-radius: 30px !important;
             font-size: 15px;
             font-weight: 500;
             background: transparent !important;
@@ -297,7 +297,7 @@ include('includes/header.php');
             width: 100% !important;
             padding: 15px 20px;
             border: 1.5px solid #cbd5e1;
-            border-radius: 16px;
+            border-radius: 30px;
             font-size: 15px;
             font-weight: 500;
             background: #ffffff;
@@ -319,7 +319,7 @@ include('includes/header.php');
             display: flex;
             align-items: center;
             border: 1.5px solid #cbd5e1;
-            border-radius: 16px;
+            border-radius: 30px;
             overflow: hidden;
             background: #ffffff;
             transition: all 0.3s;
@@ -395,7 +395,7 @@ include('includes/header.php');
             padding: 20px 10px;
             background: #fff;
             border: 1.5px solid #cbd5e1;
-            border-radius: 18px;
+            border-radius: 30px !important;
             text-align: center;
             transition: all 0.3s ease;
             height: 100%;
@@ -440,11 +440,11 @@ include('includes/header.php');
 
         .submit-btn {
             width: 100%;
-            padding: 20px;
+            padding: 15px 20px;
             background: #4ec0db;
             color: var(--white);
             border: none;
-            border-radius: 20px;
+            border-radius: 30px !important;
             font-size: 18px;
             font-weight: 800;
             cursor: pointer;
@@ -599,7 +599,7 @@ include('includes/header.php');
         .rewind-card {
             position: relative;
             height: 500px;
-            border-radius: 20px;
+            border-radius: 30px;
             overflow: hidden;
             transition: all 0.4s ease;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -700,13 +700,9 @@ include('includes/header.php');
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;"> 
                 <img src="assets/img/ladakh/mobile-banner.avif" alt="Ladakh Banner Mobile" class="d-block d-md-none"
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;">  -->
-        <img src="assets/img/valley-of-flowers/valley-bg3.avif" alt=""
+        <img src="assets/img/valley-of-flowers/banner/roamers-image-1.avif" alt=""
             style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
     </section>
-
-
-
-
 
 
     <div class="page-wrapper">
@@ -766,13 +762,13 @@ include('includes/header.php');
                         </div>
 
                         <!-- Email -->
-                        <div class="form-group" style="flex: 1; min-width: 220px;">
+                        <!-- <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Email Address</label>
                             <div class="input-wrapper ">
                                 <i class="fa-regular fa-envelope"></i>
                                 <input type="email" name="email" placeholder="Enter Your Email Address" required>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <!-- WhatsApp Number -->
@@ -788,7 +784,7 @@ include('includes/header.php');
                     </div>
 
                     <!-- Destination interested -->
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label>Which destination are you interested in?</label>
                         <div class="input-wrapper">
                             <i class="fa-solid fa-earth-asia"></i>
@@ -797,7 +793,7 @@ include('includes/header.php');
                             </select>
                             <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Number of People -->
                     <div class="form-group">
@@ -855,18 +851,18 @@ include('includes/header.php');
                                 <i class="fa-regular fa-calendar-days"></i>
                                 <select name="month" required>
                                     <option value="" disabled selected>Select Month</option>
-                                    <option value="January">January</option>
+                                    <!-- <option value="January">January</option>
                                     <option value="February">February</option>
                                     <option value="March">March</option>
                                     <option value="April">April</option>
-                                    <option value="May">May</option>
-                                    <option value="June">June</option>
+                                    <option value="May">May</option> -->
+                                    <!-- <option value="June">June</option> -->
                                     <option value="July">July</option>
                                     <option value="August">August</option>
                                     <option value="September">September</option>
                                     <option value="October">October</option>
-                                    <option value="November">November</option>
-                                    <option value="December">December</option>
+                                    <!-- <option value="November">November</option>
+                                    <option value="December">December</option> -->
                                 </select>
                                 <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                             </div>
@@ -874,94 +870,22 @@ include('includes/header.php');
                     </div>
 
                     <!-- Message -->
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label>Additional Information (Optional)</label>
                             <textarea class="input-wrapper-textarea" name="message"
                                 placeholder="Any specific requirements or travel goals?"></textarea>
-                        </div>
+                        </div> -->
 
                     <!-- Submit -->
                     <button type="submit" class="submit-btn" name="submit">
-                        <span>Send My Enquiry</span>
-                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>Submit</span>
+                        <!-- <i class="fa-solid fa-paper-plane"></i> -->
                     </button>
 
                 </form>
             </div>
         </div>
     </div>
-
-    <!-- Rewind Section Redesign -->
-    <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
-        <div class="rewind-header" style="margin-bottom: 50px;">
-            <div class="rewind-title-area">
-                <h2>JOURNEY IN FRAMES</h2>
-                <p>Pictures Perfect Moments</p>
-            </div>
-        </div>
-
-        <div style="position: relative;">
-            <div class="swiper rewind-swiper" style="overflow: visible !important;">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img3.jpg" alt="Ladakh Adventure">
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img14.jpg" alt="Ladakh Trip">
-                        </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img18.jpg" alt="Ladakh Scenic">
-                        </div>
-                    </div>
-
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img15.jpg" alt="Ladakh Journey">
-                        </div>
-                    </div>
-
-                    <!-- Slide 5 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img13.jpg" alt="Ladakh Beauty">
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
-                <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
-                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
-            </div>
-        </div>
-    </section>
-
 
 
     <?php include('includes/footer.php'); ?>
