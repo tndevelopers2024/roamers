@@ -5,22 +5,28 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/img3.jpg" width="600"
-    height="600" alt="image for ooty" />
-  <title>Roamers - Valley of Flowers</title>
+  <title>Roamers - Valley of Flowers Trek: Experience Himalayan Beauty & Alpine Meadows</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Valley of Flowers" />
+  <meta name="description" content="Embark on an unforgettable Valley of Flowers trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/valley-of-flowers/img3.jpg" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/img3.jpg" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
+  <!-- Basic Open Graph tags -->
+  <meta property="og:title" content="Roamers - Valley of Flowers Trek: Experience Himalayan Beauty & Alpine Meadows" />
+  <meta property="og:description" content="Embark on an unforgettable Valley of Flowers trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
+  <meta property="og:image" content="https://roamers.in/assets/img/valley-of-flowers/avif/img-1.avif" />
+  <meta property="og:url" content="https://roamers.in/valley-of-flowers.php" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Roamers - Valley of Flowers Trek: Experience Himalayan Beauty & Alpine Meadows" />
+  <meta name="twitter:description" content="Embark on an unforgettable Valley of Flowers trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/valley-of-flowers/avif/img-1.avif" />
+
 
   <!-- Title  -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="assets/css/valley-of-flowers.css" />
+
 
 
   <!-- Favicon  -->
@@ -42,8 +48,7 @@
   <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
-
+  <link rel="stylesheet" href="assets/css/valley-of-flowers.css" />
   <style>
     .accordion-bg {
       background-color: rgb(245, 245, 245);
@@ -239,14 +244,7 @@
       background-image: url(assets/img/images/line.svg) !important;
     }
 
-    .accordion-button::after {
-      background-image: url(assets/img/images/arrow-down.svg) !important;
-    }
 
-    .accordion-button:not(.collapsed)::after {
-      background-image: url(assets/img/images/arrow-up.svg) !important;
-      transform: rotate(-360deg) !important;
-    }
 
     .why-us {
       background: url(assets/img/images/sea-travel.jpg);
@@ -355,10 +353,7 @@
         font-size: 52px !important;
       }
 
-      .accordion-button {
-        font-size: 10px !important;
-        /* padding: 10px 20px !important; */
-      }
+
 
       .days {
         font-size: 10px !important;
@@ -554,10 +549,7 @@
       margin-bottom: 43px;
     }
 
-    .accordion-button:not(.collapsed) {
-      color: #0c63e4;
-      background-color: #094067 !important;
-    }
+
 
     .whatapp {
       position: fixed;
@@ -722,63 +714,124 @@
       opacity: 1;
     }
 
-    @media screen and (max-width:732px) {
+    /* @media screen and (max-width: 991px) {
+    .bottom-bar-content {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 5px 10px !important;
+    }
+} */
+
+    @media screen and (max-width: 768px) {
       .mobile-bottom-bar {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        z-index: 999;
-        /* ensure it's above other elements */
-        background-color: #fff;
-        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-        overflow: hidden !important;
+        display: block !important;
+        position: fixed !important;
+        bottom: 15px !important;
+        left: 5% !important;
+        right: 5% !important;
+        width: 90% !important;
+        background: #fff !important;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2) !important;
+        z-index: 2147483647 !important;
+        border-radius: 120px !important;
+        padding: 8px 0px 5px 10px !important;
+        border: 1px solid rgba(0, 0, 0, 0.08) !important;
+        animation: none !important;
+        /* Removed animation */
       }
 
-      .mobile-bottom-bar .btn {
-        background-color: #4ec0db !important;
-        border-radius: 2rem;
-        padding: 8px 12px !important;
-        color: #fff !important;
+      .bottom-bar-content {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+        max-width: 600px;
+        margin: 0 auto;
+        animation: none !important;
+        /* Removed animation */
+
       }
 
-      .mob-price {
+      .price-box {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        background: #fff;
-        gap: 10px;
-        padding: 10px;
+        animation: none !important;
+        /* Removed animation */
+
       }
 
-      .mob-price .price-box {
-        flex: 2;
+      .price-box .label {
+        margin: 0 !important;
+        font-size: 13px !important;
+        color: #333 !important;
+        font-weight: 700 !important;
+        line-height: 1.1 !important;
+        text-transform: none !important;
       }
 
-      .price-box h6 {
-        font-size: 16px !important;
-        margin-bottom: 0 !important;
+      .price-info {
+        display: flex !important;
+        flex-direction: column !important;
+        /* Stack price and per-person */
+        align-items: flex-start !important;
+        gap: 0 !important;
+        margin-top: 1px !important;
       }
 
-      .mob-price .butn {
-        flex: 2;
-        border-radius: 2rem !important;
-        padding: 10px 4px !important;
+      .price-amount {
+        font-size: clamp(20px, 5.5vw, 24px) !important;
+        font-weight: 900 !important;
+        color: #4ec0db !important;
+        margin: 0 !important;
+        line-height: 1 !important;
       }
 
-      .mob-price .price-amount {
-        margin-bottom: 0 !important;
-        font-size: 25px;
-        font-weight: 700;
-        color: #4ec0db;
-        margin-right: 4px;
+      .per-person {
+        font-size: 9px !important;
+        /* Made it smaller */
+        color: #777 !important;
+        font-weight: 500 !important;
+        margin-top: 2px !important;
+        white-space: nowrap !important;
       }
 
-      .mob-price .price-amount span {
-        font-size: 14px;
-        font-weight: 400;
-        color: #000;
+      .btn-book {
+        background-color: #4ec0db !important;
+        color: #fff !important;
+        padding: 12px clamp(15px, 4vw, 28px) !important;
+        border-radius: 100px !important;
+        font-weight: 800 !important;
+        text-decoration: none !important;
+        font-size: clamp(14px, 4vw, 15px) !important;
+        transition: all 0.3s ease !important;
+        box-shadow: 0 4px 15px rgba(78, 192, 219, 0.4) !important;
+        border: none !important;
+        white-space: nowrap !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+      }
+
+      .whatapp {
+        bottom: 100px !important;
+        z-index: 2147483646 !important;
+      }
+
+      @media (max-height: 450px) {
+        .mobile-bottom-bar {
+          bottom: 10px !important;
+          padding: 6px 15px !important;
+        }
+
+        .price-amount {
+          font-size: 18px !important;
+        }
+
+        .btn-book {
+          padding: 8px 20px !important;
+        }
       }
 
       .desk-desc {
@@ -794,147 +847,19 @@
       }
     }
 
-    /* Mobile Price  */
-
-    .mobile-bottom-bar {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background: #fff;
-      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
-      animation: slideUp 0.6s ease-out forwards;
-      transform: translateY(100%);
-      z-index: 1000;
-    }
-
-    @keyframes slideUp {
-      to {
-        transform: translateY(0);
-      }
-    }
-
-    .bottom-bar-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 12px 20px;
-      animation: fadeIn 0.8s ease-in;
-    }
-
-    @keyframes fadeIn {
+    @keyframes slideUpBottom {
       from {
+        transform: translateY(100px);
         opacity: 0;
-        transform: translateY(10px);
       }
 
       to {
-        opacity: 1;
         transform: translateY(0);
+        opacity: 1;
       }
     }
 
-    .price-box {
-      animation: float 3s ease-in-out infinite;
-    }
 
-    @keyframes float {
-
-      0%,
-      100% {
-        transform: translateY(0px);
-      }
-
-      50% {
-        transform: translateY(-4px);
-      }
-    }
-
-    .price-amount {
-      font-size: 18px;
-      font-weight: bold;
-      color: #e63946;
-    }
-
-    .per-person {
-      font-size: 12px;
-      color: #555;
-      display: block;
-    }
-
-    .btn-book {
-      background-color: #1d3557;
-      color: #fff;
-      padding: 10px 16px;
-      border-radius: 6px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-
-    }
-
-    .btn-book:hover {
-      background-color: #457b9d;
-      transform: scale(1.05);
-    }
-
-    .mobile-bottom-bar {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background: #fff;
-      box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.1);
-      padding: 12px 16px;
-      z-index: 1000;
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px;
-    }
-
-    .bottom-bar-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .price-box .label {
-      margin: 0;
-      font-size: 12px;
-      color: rgb(0, 0, 0);
-      font-weight: bold;
-    }
-
-    .price-info {
-      display: flex;
-      align-items: baseline;
-      gap: 6px;
-    }
-
-    .price-amount {
-      font-size: 20px;
-      font-weight: bolder;
-      color: #4ec0db;
-    }
-
-    .per-person {
-      font-size: 12px;
-      color: #777;
-    }
-
-    .btn-book {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 16px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-      transition: background-color 0.3s ease;
-    }
-
-    .btn-book:hover {
-      background-color: #43a047;
-      color: white;
-    }
 
     /* Modal Box */
 
@@ -1005,7 +930,7 @@
       color: white;
       width: 40px;
       height: 40px;
-      border-radius: 50%;
+      border-radius: 100% !important;
       text-align: center;
       font-size: 28px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -1050,15 +975,9 @@
       background-image: none;
     }
 
-    .accordion-button:not(.collapsed) {
-      background: #094067 !important;
-      color: #fff !important;
-    }
 
-    .accordion-button:focus {
-      box-shadow: none !important;
-      border: none !important;
-    }
+
+
 
     .accordion-button::after {
       background-color: #fff;
@@ -1078,7 +997,20 @@
       .animated-badge {
         font-size: 14px !important;
       }
+
+
+      .swiper-3d {
+        perspective: 100px !important;
+      }
+
     }
+
+    /* Perspective of Journey in Frames  */
+
+    .swiper-3d {
+      perspective: 1400px !important;
+    }
+
 
     .scroll-section {
       opacity: 0;
@@ -1131,183 +1063,182 @@
       object-fit: cover;
     }
 
-    
-     /* Rewind Section Redesign */
-        .rewind-section {
-            padding: 60px 20px 100px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
 
-        .rewind-title-area {
-            text-align: center;
-            width: 100%;
-        }
+    /* Rewind Section Redesign */
+    .rewind-section {
+      padding: 60px 20px 100px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
 
-        .rewind-title-area h2 {
-            font-size: 32px;
-            font-weight: 800;
-            color: #1a1a1a;
-            margin: 0 0 8px 0;
-            font-family: 'Outfit', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+    .rewind-title-area {
+      text-align: center;
+      width: 100%;
+    }
 
-        .rewind-title-area p {
-            font-size: 16px;
-            color: #666;
-            margin: 0;
-            font-weight: 500;
-        }
+    .rewind-title-area h2 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin: 0 0 8px 0;
+      font-family: 'Outfit', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
-
-
-        .rewind-nav-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #4ec0db;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
-            pointer-events: auto;
-            border: none;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 110;
-        }
-
-        .rewind-nav-btn:hover {
-            background: #094067;
-            transform: translateY(-50%) scale(1.1);
-        }
+    .rewind-title-area p {
+      font-size: 16px;
+      color: #666;
+      margin: 0;
+      font-weight: 500;
+    }
 
 
 
-        /* .rewind-nav-btn:hover {
-            background: #4ec0db;
-            color: #fff;
-            transform: scale(1.1);
-        } */
+    .journey-nav-container {
+      display: flex !important;
+      justify-content: center !important;
+      gap: 20px !important;
+      margin-top: 40px !important;
+      width: 100% !important;
+      position: relative !important;
+      z-index: 1000 !important;
+      padding-bottom: 20px !important;
+    }
 
-        .prev-btn {
-            left: -25px;
-            left: auto !important;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
+    .journey-nav-btn {
+      width: 50px !important;
+      height: 50px !important;
+      border-radius: 50% !important;
+      background: #4ec0db !important;
+      color: #fff !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: all 0.3s ease !important;
+      box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3) !important;
+      border: none !important;
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+      transform: none !important;
+    }
 
-        .next-btn {
-            right: -25px;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
+    /* .journey-nav-btn:hover {
+      background: #094067 !important;
+      color: #fff !important;
+      transform: scale(1.1) !important;
+    } */
 
-        .rewind-swiper .swiper-wrapper {
-            height: 520px !important;
-        }
+    /* Hide any possible ghost buttons */
+    .rewind-nav-btn {
+      display: none !important;
+    }
 
-        .rewind-swiper {
-            overflow: visible !important;
-            padding: 20px 0;
-            width: 100%;
-        }
+    .rewind-swiper .swiper-wrapper {
+      height: 520px;
+    }
 
-        .rewind-card {
-            position: relative;
-            height: 500px;
-            border-radius: 20px;
-            overflow: hidden;
-            transition: all 0.4s ease;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            background: #fff;
-        }
+    .rewind-swiper {
+      overflow: visible !important;
+      padding: 20px 0;
+      width: 100%;
+    }
 
-        .rewind-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
+    .rewind-card {
+      position: relative;
+      height: 500px;
+      border-radius: 30px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      background: #fff;
+    }
 
-        .rewind-card:hover img {
-            transform: scale(1.1);
-        }
+    .rewind-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
 
-        /* Removed glass panel styles */
+    /* .rewind-card:hover img {
+      transform: scale(1.1);
+    } */
 
-        .card-overlay-top {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 10;
-        }
+    /* Removed glass panel styles */
 
-        .arrow-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.4);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            transition: all 0.3s ease;
-            font-size: 14px;
-        }
+    .card-overlay-top {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 10;
+    }
 
-        /* .rewind-card:hover .arrow-icon {
+    .arrow-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      transition: all 0.3s ease;
+      font-size: 14px;
+    }
+
+    /* .rewind-card:hover .arrow-icon {
             background: #4ec0db;
             border-color: #4ec0db;
             transform: rotate(45deg);
         } */
 
-        @media (max-width: 768px) {
-            .rewind-nav {
-                padding: 0 5px;
-            }
+    @media (max-width: 768px) {
+      .rewind-nav {
+        padding: 0 5px;
+      }
 
-            .prev-btn {
-                margin-left: -10px;
-            }
+      .prev-btn {
+        margin-left: -10px;
+      }
 
-            .next-btn {
-                margin-right: -10px;
-            }
+      .next-btn {
+        margin-right: -10px;
+      }
 
-            .rewind-nav-btn {
-                width: 40px;
-                height: 40px;
-            }
+      .journey-nav-container {
+        display: none !important;
+      }
 
-            .rewind-card {
-                height: 350px;
-            }
-        }
+      .journey-nav-btn {
+        width: 40px !important;
+        height: 40px !important;
+      }
 
-        @media (max-width: 768px) {
-            .rewind-header {
-                flex-direction: column;
-                align-items: center;
-            }
+      .rewind-card {
+        height: 380px;
+      }
 
-            .rewind-title-area h2 {
-                font-size: 28px;
-            }
+      .rewind-swiper .swiper-wrapper {
+        height: 400px !important;
+      }
 
-            .rewind-card {
-                height: 380px;
-            }
-        }
+      .rewind-header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .rewind-title-area h2 {
+        font-size: 28px;
+      }
+    }
   </style>
 </head>
 
@@ -1329,22 +1260,22 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-      
+
         VALLEY OF FLOWERS TREK
-      
+
       </h2>
 
       <ul class="banner-hight-bottom p-0"
         style="list-style: none; ; display: flex; flex-wrap: wrap; justify-content: center;">
         <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
-          
+
           <span class="ms-2">
             <span></span>
           </span>
         </li>
 
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-           <span class="ms-2"> 
+          <span class="ms-2">
         </li>
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
@@ -1352,14 +1283,14 @@
         </li>
         <li class="mobile-small-text  me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-        
+
         </li>
         <li class="mobile-small-text me-2"
           style="display: flex; align-items: center; font-weight: 800; margin-bottom: 2px;">
-        
+
         </li>
         <li class="mobile-small-text me-2" style="display: flex; align-items: center; font-weight: 800;">
-          
+
         </li>
       </ul>
 
@@ -1412,7 +1343,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">5D - 6N</div>
+                  <div class="info-value">6D - 5N</div>
                 </div>
               </div>
             </div>
@@ -1430,7 +1361,7 @@
               </div>
             </div>
             <div class="col d-flex align-items-center">
-              <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
+              <a href="#map-trip" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 30px; text-decoration: none !important;">
                 Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
             </div>
           </div>
@@ -1463,7 +1394,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">5D - 6N</div>
+                  <div class="info-value">6D - 5N</div>
                 </div>
               </div>
             </div>
@@ -1481,7 +1412,7 @@
               </div>
             </div>
             <div class="col mt-4">
-              <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
+              <a href="#map-trip" class="get-iti-btn" style="width: 100%; border-radius: 30px; text-decoration: none !important;">
                 Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
             </div>
           </div>
@@ -1504,11 +1435,11 @@
         </div>
       </div>
       <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
           const tabs = document.querySelectorAll('.tab-box');
 
           tabs.forEach(tab => {
-            tab.addEventListener('click', function (e) {
+            tab.addEventListener('click', function(e) {
 
               // Remove 'active' class from all tabs
               tabs.forEach(t => t.classList.remove('active'));
@@ -1531,7 +1462,7 @@
     </section>
     <br><br>
     <section class="destination mt-0 mt-lg-5"
-      style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 20px;" id="overview">
+      style="background-color: white; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); border-radius: 30px;" id="overview">
 
       <div class="">
         <div class="row g-4 flex-column-reverse flex-md-row align-items-center">
@@ -1597,20 +1528,19 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img src="assets/img/valley-of-flowers/img1.jpg" class="img-fluid w-100" alt="Ladakh 1"
-                    style="border-radius: 20px; height: 350px; object-fit: cover;">
+                    style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
                   <img src="assets/img/valley-of-flowers/img2.jpg" class="img-fluid w-100" alt="Ladakh 2"
-                    style="border-radius: 20px; height: 350px; object-fit: cover;">
+                    style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
                 <div class="swiper-slide">
                   <img src="assets/img/valley-of-flowers/img3.jpg" class="img-fluid w-100" alt="Ladakh 3"
-                    style="border-radius: 20px; height: 350px; object-fit: cover;">
+                    style="border-radius: 30px; height: 350px; object-fit: cover;">
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -1624,7 +1554,7 @@
 
 
           <div class="col-md-8">
-            <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px;" class="text-center head">Trip
+            <h3 style="text-align: start; margin-bottom: 20px; margin-left: 10px" class="text-center head mt-5">Trip
               Itinerary
             </h3>
             <div class="">
@@ -1632,7 +1562,7 @@
               <div class="accordion" id="accordionExample">
 
 
-                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingSeven">
                     <button
                       class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
@@ -1705,7 +1635,7 @@
                   </div>
                 </div>
 
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingTwo">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1742,7 +1672,7 @@
                   </div>
                 </div>
 
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1776,7 +1706,7 @@
                   </div>
                 </div>
 
-                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingFour">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1811,7 +1741,7 @@
                   </div>
                 </div>
 
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingFive">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1845,7 +1775,7 @@
                   </div>
                 </div>
 
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 20px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingSix">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -1882,7 +1812,7 @@
 
             <!-- >> Inclusion section << -->
             <section id="inclusion">
-              <div class="important-notes shadow " style="border-radius: 15px; background-color:rgb(245, 255, 246) ;">
+              <div class="important-notes shadow " style="border-radius: 30px; background-color:rgb(245, 255, 246) ;">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Inclusion</h3>
                 <div id="">
                   <p>
@@ -1916,7 +1846,7 @@
 
             <!-- >> Exclusion Section << -->
 
-            <div class="important-notes shadow" style="border-radius: 15px; background-color: rgb(255, 244, 244);"
+            <div class="important-notes shadow" style="border-radius: 30px; background-color: rgb(255, 244, 244);"
               id="exclusion">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Exclusion</h3>
               <div>
@@ -1940,8 +1870,7 @@
             </div>
 
             <!-- >> Important Notes Section << -->
-
-            <div class="important-notes shadow" style="border-radius: 15px;" id="notes">
+            <div class="important-notes shadow" style="border-radius: 30px;" id="notes">
               <h3 class="head" style="text-align: center; margin-bottom: 20px; margin-left: 10px;">Important Notes</h3>
               <div>
                 <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Group trips are designed
@@ -1972,16 +1901,16 @@
 
               <!-- >> Side Slider Section << -->
 
-              <div class="priceCard shadow " style="border-radius: 20px;">
-                <img src="assets/img/valley-of-flowers/valley-bg3.avif" alt="Ladakh Banner 3" style=" object-fit:cover;">
+              <div class="priceCard shadow " style="border-radius: 30px;">
+                <img src="https://www.enlivetrips.com/_next/image?url=https%3A%2F%2Fdashboard.enlivetrips.com%2Fstorage%2Fpackage-banner%2Fbd05f45c4a.jpg&w=3840&q=75" alt="Valley of Flowers Banner 3" style="border-radius: 30px; object-fit:cover;">
               </div>
 
               <!-- >> Pricing Box Section << -->
 
-              <div class="price-card shadow p-1" style="border-radius: 20px;">
+              <div class="price-card shadow p-1" style="border-radius: 30px;">
                 <div class="p-2">
                   <!-- Inner box with light grey background -->
-                  <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 15px;">
+                  <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 30px;">
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
@@ -1993,7 +1922,7 @@
                     <p>Catch the Blooms before it fades, Book your slots now!</p>
                     <div class="trip-form p-0">
                       <a href="valley-of-flowers-booking-form.php" class="btn butn butn__new bg-"
-                        style="border-radius: 15px;">Dates
+                        style="border-radius: 30px; text-decoration: none !important;">Dates
                         & Costing</a>
                     </div>
                   </div>
@@ -2001,10 +1930,10 @@
               </div>
 
 
-              <!-- >> Ladakh Form Section << -->
+              <!-- >> Valley of Flowers Form Section << -->
 
-              <div class="shadow"
-                style="border: 1px solid #00aaff; border-radius: 20px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
+              <div class="shadow" id="map-trip"
+                style="border: 1px solid #00aaff; border-radius: 30px; padding: 20px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 450px; background-color: #fff;">
                 <form>
                   <h3 style="text-align: center; margin-bottom: 30px; color: #333;">
                     Let's Map Your Dream Trip</h3>
@@ -2028,14 +1957,14 @@
                   </div>
 
                   <div class="trip-form p-0">
-                    <a href="" class="btn butn butn__new bg-" style="border-radius: 15px;">Submit</a>
+                    <a href="" class="btn butn butn__new bg-" style="border-radius: 30px; text-decoration: none !important;">Submit</a>
                   </div>
 
                 </form>
               </div>
 
 
-              <!-- >> Ladakh Form Section End << -->
+              <!-- >> Valley of Flowers Form Section End << -->
 
             </div>
           </div>
@@ -2083,75 +2012,102 @@
     </div>
   </section> -->
 
-   <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
-        <div class="rewind-header" style="margin-bottom: 50px;">
-            <div class="rewind-title-area">
-                <h2>JOURNEY IN FRAMES</h2>
-                <p>Pictures Perfect Moments</p>
+  <section class="rewind-section" style="position: relative; overflow: hidden; padding: 0px 0px 0px 0px ;">
+     <div class="rewind-header" style="margin-bottom: 50px;">
+      <div class="rewind-title-area">
+        <h3 class="head" style="text-align: center; margin-bottom: 20px;">
+          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start me-2">
+          Roamers Rewind
+          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start">
+        </h3>
+      </div>
+    </div>
+
+    <div style="position: relative;">
+      <div class="swiper rewind-swiper" style="overflow: visible !important;">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="https://reviews-thrillophilia.com/content/images/2024/10/VAL.jpg" alt="Valley of Flowers Beauty">
             </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/valley-of-flowers/img14.jpg" alt="Valley of Flowers Trip">
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/valley-of-flowers/img18.jpg" alt="Valley of Flowers Scenic">
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/valley-of-flowers/img15.jpg" alt="Valley of Flowers Journey">
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/valley-of-flowers/img13.jpg" alt="Valley of Flowers Beauty">
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="https://cvsqtgaxsa.cloudimg.io/https://images.prismic.io/indiahike/aAiSWPIqRLdaBfud_Valleyofflowers_NagasaiAnudeep_July2024_trekkerontrail_florafauna_valley_greenery_monsoon.JPG?w=6096&h=4064&q=50&org_if_sml=1" alt="Valley of Flowers Beauty">
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="https://himtrek.co.in/wp-content/uploads/2025/09/Valley-Of-Flowers-Trek.webp" alt="Valley of Flowers Beauty">
+            </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <!-- <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="https://himtrek.co.in/wp-content/uploads/2025/09/Valley-Of-Flowers-Trek.webp" alt="Valley of Flowers Beauty">
+            </div>
+          </div> -->
+
+          <!-- Slide 9 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/09/02113956/Floral-Wonders-Of-The-Valley-Of-Flowers-Trek.jpg" alt="Valley of Flowers Beauty">
+            </div>
+          </div>
+
+          <!-- Slide 10 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/valley-of-flowers/img3.jpg" alt="Valley of Flowers Adventure">
+            </div>
+          </div>
+
         </div>
 
-        <div style="position: relative;">
-            <div class="swiper rewind-swiper" style="overflow: visible !important;">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img3.jpg" alt="Ladakh Adventure">
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img14.jpg" alt="Ladakh Trip">
-                        </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img18.jpg" alt="Ladakh Scenic">
-                        </div>
-                    </div>
-
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img15.jpg" alt="Ladakh Journey">
-                        </div>
-                    </div>
-
-                    <!-- Slide 5 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <!-- <div class="card-overlay-top">
-                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
-                            </div> -->
-                            <img src="assets/img/valley-of-flowers/img13.jpg" alt="Ladakh Beauty">
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
-                <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
-                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
-            </div>
-        </div>
-    </section>
+      </div>
+    </div>
+    <!-- Navigation Buttons - Relocated to bottom center with unique classes -->
+    <div class="journey-nav-container">
+      <div class="journey-nav-btn journey-prev"><i class="fa-solid fa-chevron-left"></i></div>
+      <div class="journey-nav-btn journey-next"><i class="fa-solid fa-chevron-right"></i></div>
+    </div>
+    </div>
+  </section>
 
   <!-- Faq Seciton -->
   <section class="faq" id="notes">
@@ -2160,14 +2116,11 @@
       <div class="row">
         <div class="accordion" id="accordionFlushExample">
           <!--| First |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button collapsed text-dark fw-bold d-flex justify-content-between align-items-center"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                aria-controls="collapseOne">
-                <span class="ms-3" style="font-size: 1rem;">Can I Join solo ?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <span class="ms-3">Can I Join solo ?</span>
+                <i class="fa-solid fa-chevron-down"></i>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -2182,14 +2135,11 @@
           </div>
 
           <!--| Second |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                aria-controls="collapseTwo">
-                <span class="ms-3" style="font-size: 1rem;">How about safety for female travelers?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="ms-3">How about safety for female travelers?</span>
+                <i class="fa-solid fa-chevron-down"></i>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -2205,14 +2155,11 @@
           </div>
 
           <!--| Third |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingThree">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                aria-controls="collapseThree">
-                <span class="ms-3" style="font-size: 1rem;">What is the age requirement to Join?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span class="ms-3">What is the age requirement to Join?</span>
+                <i class="fa-solid fa-chevron-down"></i>
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -2224,14 +2171,11 @@
           </div>
 
           <!--| Four |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingFour">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                aria-controls="collapseFour">
-                <span class="ms-3" style="font-size: 1rem;">How do confirm my bookings ?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <span class="ms-3">How do confirm my bookings ?</span>
+                <i class="fa-solid fa-chevron-down"></i>
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -2245,14 +2189,11 @@
           </div>
 
           <!--| Five |-->
-          <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 20px;">
+          <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingFive">
-              <button
-                class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                aria-controls="collapseFive">
-                <span class="ms-3" style="font-size: 1rem;">How do trust Roamers?</span>
-                <i class="fa-solid fa-chevron-down d-block"></i>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <span class="ms-3">How do trust Roamers?</span>
+                <i class="fa-solid fa-chevron-down"></i>
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
@@ -2278,7 +2219,7 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹9,990/-</span>
+          <span class="price-amount"><span class="valley-price">₹9,990</span>/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>
@@ -2319,7 +2260,7 @@
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 
   <script>
-    window.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("DOMContentLoaded", function() {
       const swiper = new Swiper(".swiper-container", {
         slidesPerView: "auto",
         spaceBetween: 10,
@@ -2396,9 +2337,9 @@
 
 
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       // Initialize Swiper with a slight delay to ensure proper positioning
-      setTimeout(function () {
+      setTimeout(function() {
         var swiper = new Swiper('.swiper-container.two', {
           effect: 'coverflow',
           grabCursor: true,
@@ -2417,7 +2358,7 @@
             clickable: true
           },
           on: {
-            init: function () {
+            init: function() {
               document.querySelector('.scroll-section').classList.add('initialized');
               document.querySelector('.swiper-container.two').classList.add('initialized');
             }
@@ -2430,7 +2371,7 @@
   <script>
     var navbar = document.querySelector("nav");
 
-    window.onscroll = function () {
+    window.onscroll = function() {
       // pageYOffset or scrollY
       if (window.scrollY > 100) {
         navbar.classList.add("scrolled");
@@ -2445,7 +2386,7 @@
 
     // *****Sidebar tab radio content start*****
     var sliders = document.querySelectorAll(".slider");
-    sliders.forEach(function (slider) {
+    sliders.forEach(function(slider) {
       var sliderContainer = slider.querySelector(".slider-container");
       var prevBtn = slider.querySelector(".prev-btn1");
       var nextBtn = slider.querySelector(".next-btn1");
@@ -2537,9 +2478,7 @@
     const dotContainer = document.getElementById("dotPagination");
 
     const images = [
-      "assets/img/valley-of-flowers/valley-bg.avif",
-      "assets/img/valley-of-flowers/valley-bg2.avif",
-      "assets/img/valley-of-flowers/valley-bg3.avif"
+      "assets/img/valley-of-flowers/banner/roamers-image-1.avif",
     ];
 
     let index = 0;
@@ -2609,8 +2548,8 @@
       autoWidth: true,
       loop: true
     });
-    $(document).ready(function () {
-      $(".custom-carousel .item").click(function () {
+    $(document).ready(function() {
+      $(".custom-carousel .item").click(function() {
         $(".custom-carousel .item").not($(this)).removeClass("active");
         $(this).toggleClass("active");
       });
@@ -2738,61 +2677,81 @@
   </script>
 
   <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Form benefit items animation
-            const items = document.querySelectorAll('.benefit-item');
-            items.forEach((item, index) => {
-                item.style.opacity = '0';
-                item.style.transform = 'translateX(-20px)';
-                setTimeout(() => {
-                    item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
-                    item.style.opacity = '1';
-                    item.style.transform = 'translateX(0)';
-                }, 400 + (index * 100));
-            });
+    document.addEventListener('DOMContentLoaded', () => {
+      // Form benefit items animation
+      const items = document.querySelectorAll('.benefit-item');
+      items.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(-20px)';
+        setTimeout(() => {
+          item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+          item.style.opacity = '1';
+          item.style.transform = 'translateX(0)';
+        }, 400 + (index * 100));
+      });
 
-            // Rewind Swiper Initialization
-            const rewindSwiper = new Swiper('.rewind-swiper', {
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: true,
-                loop: true,
-                speed: 1000,
-                autoplay: {
-                    delay: 3500,
-                    disableOnInteraction: false,
-                },
-                coverflowEffect: {
-                    rotate: 20,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: false,
-                },
-                navigation: {
-                    nextEl: '.next-btn',
-                    prevEl: '.prev-btn',
-                },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 20,
-                    },
-                    640: {
-                        slidesPerView: 2.5,
-                        spaceBetween: 30,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 50,
-                    }
-                }
-            });
-        });
-    </script>
+      // Rewind Swiper Initialization
+      const rewindSwiper = new Swiper('.rewind-swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slideToClickedSlide: true,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        navigation: {
+          nextEl: '.journey-next',
+          prevEl: '.journey-prev',
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1.4,
+            spaceBetween: 1,
+            coverflowEffect: {
+              rotate: 15,
+              depth: 150,
+              modifier: 1,
+            }
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          }
+        }
+      });
+    });
+  </script>
+
+  <style>
+    .rewind-swiper .swiper-slide {
+      cursor: pointer;
+    }
+  </style>
 
 </body>
-
-</html>
 
 </html>
