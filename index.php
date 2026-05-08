@@ -2670,8 +2670,8 @@
                 ],
                 'valley' => [
                     'title' => 'Valley of Flowers Trek',
-                    'image' => 'assets/img/valley-of-flowers/avif/img-1.avif',
-                    'duration' => '5D/6N',
+                    'image' => 'assets/img/valley-of-flowers/card/roamers-image-1.jpg',
+                    'duration' => '6D/5N',
                     'location' => 'Ex: Rishikesh',
                     'places' => 'Rishikesh, Joshimath, Pulna',
                     'price' => '',

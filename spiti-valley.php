@@ -5,27 +5,23 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/spiti-valley/p5.jpg"
-    width="600" height="600" alt="image for ooty" />
-  <title>Roamers - Spiti Valley Trip</title>
+  <title>Roamers - Spiti Valley Winter Expedition: Explore Himalayan Monasteries & Cold Desert Beauty</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Spiti Valley Trip" />
+  <meta name="description" content="Join Roamers for an unforgettable Spiti Valley winter expedition. Discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh. Experience adventure, culture, and breathtaking views in one of India's most remote regions." />
   <meta name="author" content="Themeland" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Spiti Valley Trip" />
-  <meta property="og:description"
-    content="Join our Spiti Valley Trip for an unforgettable adventure, curated experiences, and new friendships." />
+  <meta property="og:title" content="Roamers - Spiti Valley Winter Expedition: Explore Himalayan Monasteries & Cold Desert Beauty" />
+  <meta property="og:description" content="Join Roamers for an unforgettable Spiti Valley winter expedition. Discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh. Experience adventure, culture, and breathtaking views in one of India's most remote regions." />
   <meta property="og:image" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
+  <meta property="og:url" content="https://roamers.in/spiti-valley.php" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Spiti Valley Trip" />
-  <meta name="twitter:description"
-    content="Join our Spiti Valley Trip for an unforgettable adventure, curated experiences, and new friendships." />
+  <meta name="twitter:title" content="Roamers - Spiti Valley Winter Expedition: Explore Himalayan Monasteries & Cold Desert Beauty" />
+  <meta name="twitter:description" content="Join Roamers for an unforgettable Spiti Valley winter expedition. Discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh. Experience adventure, culture, and breathtaking views in one of India's most remote regions." />
   <meta name="twitter:image" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
 
   <!-- Title  -->

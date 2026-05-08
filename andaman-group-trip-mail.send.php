@@ -152,40 +152,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $mail->send();
 
-        // --- NEW: GOOGLE SHEETS INTEGRATION ---
-        $google_webhook_url = 'https://script.google.com/macros/s/AKfycby3nEnw8ya-450Fm_y_Ynx77TgNPse_g7FaaQyH5dhMZv5-Cf5dQUoLJqb1T7EQ9Ztbpg/exec'; // REPLACE THIS WITH YOUR DEPLOYED WEB APP URL
-        
-        $post_data = [
-            'sheetName'    => 'Website', // Explicitly telling the script to use the Website tab
-            'name'         => $name,
-            'email'        => $email,
-            'phone'        => $phone,
-            'dob'          => $dob,
-            'gender'       => $gender,
-            'date'         => $date,
-            'sharing'      => $sharing,
-            'person-count' => $person_count,
-            'pickup'       => $pickup,
-            'address1'     => $address1,
-            'address2'     => $address2,
-            'city'         => $city,
-            'post-code'    => $postcode,
-            'timestamp'    => date('Y-m-d H:i:s')
-        ];
-
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $google_webhook_url);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_data));
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-        curl_setopt($ch, CURLOPT_USERAGENT, 'RoamersWebsite/1.0');
-        
-        $result = curl_exec($ch);
-        curl_close($ch);
-
         // Show impressive thank you page after booking
         ?>
         <!DOCTYPE html>
@@ -195,7 +161,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <meta charset="UTF-8">
             <title>Thank You for Booking!</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+                rel="stylesheet">
             <style>
                 body {
                     font-family: 'Poppins', sans-serif;
@@ -320,7 +287,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
                 <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
-                    Your Andaman Island Hopping - 7 Days booking has been received.<br>
+                    Your Ultimate Ladakh Circuit - 7 Days booking has been received.<br>
                     We can't wait to see you on your adventure!
                 </div>
                 <div class="thankyou-details">
@@ -328,7 +295,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div><strong style="margin-right: 10px;">Email :</strong> <?php echo htmlspecialchars($email); ?></div>
                     <div><strong style="margin-right: 10px;">Phone :</strong> <?php echo htmlspecialchars($phone); ?></div>
                     <div><strong style="margin-right: 10px;">Travel Date :</strong> <?php echo htmlspecialchars($date); ?></div>
-                    <div><strong style="margin-right: 10px;">No. of Travellers :</strong> <?php echo htmlspecialchars($person_count); ?></div>
+                    <div><strong style="margin-right: 10px;">No. of Travellers :</strong>
+                        <?php echo htmlspecialchars($person_count); ?></div>
                 </div>
                 <a href="index.php" class="thankyou-btn">Back to Home</a>
             </div>
