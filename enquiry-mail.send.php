@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
         'message'     => $_POST['message'] ?? ''
     ];
 
-    // 2. YOUR GOOGLE WEBHOOK URL
+    // 2. YOUR GOOGLE WEBHOOK URL 
     $google_webhook_url = 'https://script.google.com/macros/s/AKfycby3nEnw8ya-450Fm_y_Ynx77TgNPse_g7FaaQyH5dhMZv5-Cf5dQUoLJqb1T7EQ9Ztbpg/exec';
 
     // 3. --- DUAL STORAGE ACTION ---

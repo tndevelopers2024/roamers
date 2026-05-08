@@ -1944,7 +1944,7 @@
             <a href="varkala-grouptrip"
               style="text-decoration: none !important; border: 0 !important; outline: none !important; box-shadow: none !important;">
               <img class="trips-page-images" style="border-radius:20px !important;"
-                src="assets/img/valley-of-flowers/avif/img-4.avif" alt="roamers-Gallery">
+                src="assets/img/varkala/varkala-bg.jpg" alt="roamers-Gallery">
               <div class="silder-inner silder-inner1">
                 <div class="inner inner2">
                   <h3>3 DAYS / 2 NIGHTS</h3>
