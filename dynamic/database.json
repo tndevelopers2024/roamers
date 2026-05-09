@@ -712,14 +712,14 @@
     "December": [
       {
         "date": "05 Dec - 10 Dec",
-        "status": "Available",
-        "statusColor": "green",
+        "status": "CHRISTMAS SPECIAL",
+        "statusColor": "red",
         "price": "\u20b919,990/-"
       },
       {
         "date": "12 Dec - 17 Dec",
-        "status": "Available",
-        "statusColor": "green",
+        "status": "NEW YEAR SPECIAL",
+        "statusColor": "red",
         "price": "\u20b919,990/-"
       }
     ],
