@@ -611,37 +611,113 @@
     }
   },
   "meghalaya": {
-    "January": [
+    "August": [
       {
-        "date": "14 Jan - 19 Jan",
+        "date": "15 Aug - 20 Aug",
         "status": "Available",
         "statusColor": "green",
         "price": "\u20b919,990/-"
       },
       {
-        "date": "24 Jan - 29 Jan",
+        "date": "22 Aug - 27 Aug",
         "status": "Available",
         "statusColor": "green",
         "price": "\u20b919,990/-"
       }
     ],
-    "February": [
+    "September": [
       {
-        "date": "14 Feb - 19 Feb",
+        "date": "05 Sep - 10 Sep",
         "status": "Available",
         "statusColor": "green",
         "price": "\u20b919,990/-"
       },
       {
-        "date": "28 Feb - 05 Mar",
+        "date": "12 Sep - 17 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "19 Sep - 24 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "26 Sep - 01 Oct",
         "status": "Available",
         "statusColor": "green",
         "price": "\u20b919,990/-"
       }
     ],
-    "March": [
+    "October": [
       {
-        "date": "21 Mar",
+        "date": "02 Oct - 07 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "10 Oct - 15 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "17 Oct - 22 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "24 Oct - 29 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "31 Oct - 05 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "07 Nov - 12 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "14 Nov - 19 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "21 Nov - 26 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "28 Nov - 03 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "05 Dec - 10 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b919,990/-"
+      },
+      {
+        "date": "12 Dec - 17 Dec",
         "status": "Available",
         "statusColor": "green",
         "price": "\u20b919,990/-"
@@ -653,12 +729,12 @@
         {
           "sharing": "Triple Sharing",
           "offer": "\u20b919,990/-",
-          "mrp": "\u20b921,990/-"
+          "mrp": "\u20b920,990/-"
         },
         {
           "sharing": "Double Sharing",
           "offer": "\u20b921,990/-",
-          "mrp": "\u20b923,990/-"
+          "mrp": "\u20b922,990/-"
         }
       ]
     }

@@ -554,7 +554,7 @@
 
               <div class="accordion" id="accordionExample">
                 <!-- day 1 -->
-                <div class="accordion-item mb-4 border-0 overflow-hidden rounded-4">
+                <div class="accordion-item mb-4 border-0 overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
                       type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
@@ -575,8 +575,7 @@
                         <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
                             style="font-size: 0.65rem;"></i>
                           Meet the Roamers team & trip captain at the designated point in Guwahati and get ready to
-                          kick-start our journey to Shillong.(Request to plan Arrival before 12:30 Noon for smooth
-                          transfers)
+                          kick-start our journey to Shillong.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Enjoy the breathtaking views of lush green hills and the mesmerising Umiam Lake while
@@ -599,7 +598,7 @@
                   </div>
                 </div>
                 <!-- day 2 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px !important;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingTwo">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -631,20 +630,17 @@
                           Upon arrival check-in to our cozy hotel
                         </li> -->
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          We'll visit the majestic Wei Sawdong Waterfall which is a three-tiered waterfall, one of
-                          Meghalaya's gems.
+                          Upon arrival check-in to our cozy hotel
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Up next, let’s make our way to Nohkalikai Falls view point (the tallest plunge
-                          waterfall in India)
+                          Next, we'll visit the majestic Wei Sawdong Waterfall which is a threetiered waterfall, one of Meghalaya's gems.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Upon arrival check-in to our cozy hotel, prepare for an evening of pure fun and loads
-                          of unforgettable memories
+                          Overnight Stay in Cherrapunjee, team extravaganza! Prepare for a night of pure fun and loads of unforgettable memories
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight Stay in Cherrapunjee.
-                        </li>
+                        </li> -->
                         <!-- <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight Stay in Cherrapunjee, team extravaganza! Prepare for a night of pure fun and loads
                           of unforgettable memories
@@ -654,7 +650,7 @@
                   </div>
                 </div>
                 <!-- day 3 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -663,7 +659,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Trek to Living Root Bridges of Meghalaya | Rainbow Falls</span>
+                        <span>Trek Living Root Bridges of Meghalaya</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -684,20 +680,19 @@
                           those insta-worthy moments.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Further, we’ll trek to reach Rainbow Falls, one of the most picturesque falls in
-                          Meghalaya
+                          In the evening, we'll return to our comfy Cherrapunjee accommodation for some well-deserved leisure. Overnight stay at Cherrapunjeе!!!
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>In
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>In
                           the evening, we'll return to our comfy Cherrapunjee accommodation for some well-deserved
                           leisure.
                           Overnight stay at Cherrapunjee!!!
-                        </li>
+                        </li> -->
                       </ul>
                     </div>
                   </div>
                 </div>
                 <!-- day 4 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -706,7 +701,7 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Cherrapunji to Shnongpdeng (Dawki)</span>
+                        <span>Nohkalikai Falls | Mawsmai Caves | Dawki</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -716,29 +711,26 @@
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Rise and shine again! We're diving into the picturesque beauty of
-                          Meghalaya’s Seven Sister Falls
+                          Rise and shine again! We're diving into the picturesque beauty of Meghalaya, starting with Nohkalikai Falls (the tallest plunge waterfall in India) and Seven Sister Falls.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next up, we'll head to the majestic Mawsmai Caves. Let's stroll and explore
-                          the marvels
+                          Next up, we'll head to the majestic Mawsmai Caves. Let's stroll inside and explore.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Visit the pristine Mawlynnong village, known as Asia’s cleanest village, take a
-                          relaxing walk through its beautiful surroundings
+                          After a fantastic exploration day, we'll begin our drive towards Dawki.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After a fantastic exploration day, we'll begin our drive towards Dawki
+                          Visit the pristine Mawlynnong village, know as Asia's cleanest village, take a relaxing walk through its beautiful surroundings
                         </li>
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Gather for a delicious group Dinner & Overnight Camping in Dawki
-                        </li>
+                        </li> -->
                       </ul>
                     </div>
                   </div>
                 </div>
                 <!-- day 5 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -777,7 +769,7 @@
                   </div>
                 </div>
                 <!-- day 6 -->
-                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 10px;">
+                <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
                   <h2 class="accordion-header" id="headingThree">
                     <button
                       class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
@@ -807,6 +799,9 @@
                           Our fantastic trip ends, leaving us with hearts full of joy and adventure! Until next time,
                           team!
                         </li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Goodbyes are never easy, but what ride it has been! See you guys, more Hugs!
+                        </li>
                         <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           We'll reach our first drop point Coimbatore at 7 PM, and we'll arrive at Chennai by 6 AM. Bye
                           for now, Roamers. Reunion plans for next year? You bet!
@@ -833,7 +828,7 @@
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                    6 Meals, 5 Breakfast & 1 Dinner
+                    6 Meals - 5 Breakfast & 1 Farewell Dinner
                   </p>
                   <p>
                     <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
@@ -902,7 +897,7 @@
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹ 22,000/-</strike>
+                        <strike>₹ 20,990/-</strike>
                       </span>
                       <span class="meghalaya-price new-price"></span><span class="new-price">/-</span>
                     </h5>

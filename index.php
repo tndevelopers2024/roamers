@@ -2840,6 +2840,7 @@
                 'august' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Aug 01, 08, 15, 22, 29'],
                     ['trip_id' => 'valley', 'dates' => 'Aug 01, 08, 15, 22, 29'],
+                    ['trip_id' => 'meghalaya', 'dates' => 'Aug 15, 22'],
                     ['trip_id' => 'ooty', 'dates' => 'Aug 15, 29'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Aug 08, 22'],
                     ['trip_id' => 'srilanka', 'dates' => 'Aug 17'],
@@ -2849,6 +2850,7 @@
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Sep 05, 12, 19, 26'],
                     ['trip_id' => 'valley', 'dates' => 'Sep 05'],
                     ['trip_id' => 'ooty', 'dates' => 'Sep 05, 19'],
+                    ['trip_id' => 'meghalaya', 'dates' => 'Sep 05,12, 19,26'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Sep 12, 26'],
                     ['trip_id' => 'srilanka', 'dates' => 'Sep 06'],
                     ['trip_id' => 'andaman', 'dates' => 'Sep 12, 26'],
@@ -2858,12 +2860,14 @@
                 'oct' => [
                     ['trip_id' => 'ooty', 'dates' => 'Oct 10, 24'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Oct 01, 15, 29'],
+                    ['trip_id' => 'meghalaya', 'dates' => 'Oct 02,10, 17,24,31'],
                     ['trip_id' => 'srilanka', 'dates' => 'Oct 10, 24'],
                     ['trip_id' => 'andaman', 'dates' => 'Oct 14, 28'],
                     ['trip_id' => 'kerala', 'dates' => 'Oct 07, 21'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Oct 06, 20'],
                 ],
                 'nov' => [
+                    ['trip_id' => 'meghalaya', 'dates' => 'Nov 07,14, 21,28'],
                     ['trip_id' => 'srilanka', 'dates' => 'Nov 07, 21'],
                     ['trip_id' => 'andaman', 'dates' => 'Nov 14, 28'],
                     ['trip_id' => 'thailand', 'dates' => 'Nov 10, 24'],
@@ -2871,6 +2875,7 @@
                     ['trip_id' => 'chikmagalur', 'dates' => 'Nov 14, 28'],
                 ],
                 'dec' => [
+                    ['trip_id' => 'meghalaya', 'dates' => 'Dec 05,12'],
                     ['trip_id' => 'srilanka', 'dates' => 'Dec 14, 28'],
                     ['trip_id' => 'andaman', 'dates' => 'Dec 14, 28'],
                     ['trip_id' => 'thailand', 'dates' => 'Dec 10, 24'],
