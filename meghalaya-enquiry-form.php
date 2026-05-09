@@ -700,7 +700,7 @@ include('includes/header.php');
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;"> 
                 <img src="assets/img/ladakh/mobile-banner.avif" alt="Ladakh Banner Mobile" class="d-block d-md-none"
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;">  -->
-        <img src="assets/img/meghalaya/banner/roamers-image-1.avif" alt=""
+        <img src="assets/img/meghalaya/meghalaya-gallery-13.avif" alt=""
             style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
     </section>
 
