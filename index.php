@@ -2650,7 +2650,7 @@
                 ],
                 'srilanka' => [
                     'title' => 'Sri Lanka',
-                    'image' => 'assets/img/valley-of-flowers/avif/img-2.avif',
+                    'image' => 'assets/img/spiti-valley/Sirlanka/srilanka-images-by-roamers (16).webp',
                     'duration' => '7D/6N',
                     'location' => 'EX: Colombo',
                     'places' => 'Sigiriya, Kandy, Ella, Galle, Bentota',

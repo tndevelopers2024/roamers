@@ -310,6 +310,128 @@
                 height: 380px;
             }
         }
+
+        /* ===== MOBILE FLOATING BOTTOM BAR ===== */
+        .mobile-bottom-bar {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .mobile-bottom-bar {
+                display: block !important;
+                position: fixed !important;
+                bottom: 15px !important;
+                left: 5% !important;
+                right: 5% !important;
+                width: 90% !important;
+                background: #fff !important;
+                box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2) !important;
+                z-index: 2147483647 !important;
+                border-radius: 120px !important;
+                padding: 8px 0px 5px 10px !important;
+                border: 1px solid rgba(0, 0, 0, 0.08) !important;
+                animation: none !important;
+            }
+
+            .bottom-bar-content {
+                display: flex !important;
+                justify-content: space-between !important;
+                align-items: center !important;
+                width: 100% !important;
+                max-width: 600px;
+                margin: 0 auto;
+                animation: none !important;
+            }
+
+            .price-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                animation: none !important;
+            }
+
+            .price-box .label {
+                margin: 0 !important;
+                font-size: 13px !important;
+                color: #333 !important;
+                font-weight: 700 !important;
+                line-height: 1.1 !important;
+                text-transform: none !important;
+            }
+
+            .price-info {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 0 !important;
+                margin-top: 1px !important;
+            }
+
+            .price-amount {
+                font-size: clamp(20px, 5.5vw, 24px) !important;
+                font-weight: 900 !important;
+                color: #4ec0db !important;
+                margin: 0 !important;
+                line-height: 1 !important;
+            }
+
+            .per-person {
+                font-size: 9px !important;
+                color: #777 !important;
+                font-weight: 500 !important;
+                margin-top: 2px !important;
+                white-space: nowrap !important;
+            }
+
+            .btn-book {
+                background-color: #4ec0db !important;
+                color: #fff !important;
+                padding: 12px clamp(15px, 4vw, 28px) !important;
+                border-radius: 100px !important;
+                font-weight: 800 !important;
+                text-decoration: none !important;
+                font-size: clamp(14px, 4vw, 15px) !important;
+                transition: all 0.3s ease !important;
+                box-shadow: 0 4px 15px rgba(78, 192, 219, 0.4) !important;
+                border: none !important;
+                white-space: nowrap !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+            }
+
+            .whatapp {
+                bottom: 100px !important;
+                z-index: 2147483646 !important;
+            }
+
+            @media (max-height: 450px) {
+                .mobile-bottom-bar {
+                    bottom: 10px !important;
+                    padding: 6px 15px !important;
+                }
+
+                .price-amount {
+                    font-size: 18px !important;
+                }
+
+                .btn-book {
+                    padding: 8px 20px !important;
+                }
+            }
+
+            .desk-desc {
+                display: none !important;
+            }
+
+            .mob-desc {
+                display: block !important;
+            }
+
+            #dotPagination {
+                display: none !important;
+            }
+        }
     </style>
 
 </head>
@@ -1734,10 +1856,7 @@
                         <span class="per-person">(Per Person)</span>
                     </div>
                 </div>
-                <a href="ladakh-circuit-form.php" class="p-0 border-0 text-center d-block"
-                    style="background: transparent !important; border-radius: 30px; width: 100%; max-width: 180px;"><img
-                        src="assets/img/ladakh/icons/date&costing.svg" alt="Dates & Costing"
-                        style="height: 38px; width: 100%; object-fit: contain;"></a>
+                <a href="ladakh-circuit-form.php" class="btn-book">Dates & Costing</a>
             </div>
         </div>
 
@@ -1845,42 +1964,42 @@
         });
     </script>
 
-    <!-- Banner -->
     <script>
         const section = document.getElementById("tripSection");
         const dotContainer = document.getElementById("dotPagination");
 
-        // const images = [
-        //   "assets/img/ladakh/banner.png",
-        // ];
+        const images = [
+            "assets/img/ladakh/ladakh-banner.png",
+        ];
 
         let index = 0;
         let interval;
 
         // Create dots
-        images.forEach((_, i) => {
-            const dot = document.createElement("span");
-            dot.classList.add("dot");
-            dot.style.opacity = "0";
-            dot.addEventListener("click", () => {
-                changeImage(i);
-                resetInterval();
+        if (dotContainer) {
+            images.forEach((_, i) => {
+                const dot = document.createElement("span");
+                dot.classList.add("dot");
+                dot.style.opacity = "0";
+                dot.addEventListener("click", () => {
+                    changeImage(i);
+                    resetInterval();
+                });
+                dotContainer.appendChild(dot);
+                setTimeout(() => {
+                    dot.style.transition = "opacity 0.3s ease";
+                    dot.style.opacity = "1";
+                }, i * 100);
             });
-            dotContainer.appendChild(dot);
-            setTimeout(() => {
-                dot.style.transition = "opacity 0.3s ease";
-                dot.style.opacity = "1";
-            }, i * 100);
-        });
+        }
 
         const dots = document.querySelectorAll(".dot");
 
         function changeImage(newIndex) {
-            if (newIndex === index) return; // Prevent unnecessary change
+            if (newIndex === index || !section) return;
 
             section.classList.add("fade-in");
 
-            // Preload image before applying for smoother transition
             const img = new Image();
             img.src = images[newIndex];
             img.onload = () => {
@@ -1905,7 +2024,9 @@
         }
 
         function startInterval() {
-            interval = setInterval(nextImage, 5000); // Slightly longer for breathing space
+            if (images.length > 1) {
+                interval = setInterval(nextImage, 5000);
+            }
         }
 
         function resetInterval() {
@@ -1913,46 +2034,13 @@
             startInterval();
         }
 
-        // Init
-        section.style.backgroundImage = `url('${images[index]}')`;
-        updateDots();
-        startInterval();
-    </script>
+        if (section && images.length > 0) {
+            section.style.backgroundImage = `url('${images[index]}')`;
+            updateDots();
+            startInterval();
+        }
 
-</body>
-
-</html> changeImage(nextIndex);
-}
-
-function startInterval() {
-interval = setInterval(nextImage, 5000); // Slightly longer for breathing space
-}
-
-function resetInterval() {
-clearInterval(interval);
-startInterval();
-}
-
-// Init
-section.style.backgroundImage = `url('${images[index]}')`;
-updateDots();
-startInterval();
-</script>
-
-<script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Form benefit items animation
-            const items = document.querySelectorAll('.benefit-item');
-            items.forEach((item, index) => {
-                item.style.opacity = '0';
-                item.style.transform = 'translateX(-20px)';
-                setTimeout(() => {
-                    item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
-                    item.style.opacity = '1';
-                    item.style.transform = 'translateX(0)';
-                }, 400 + (index * 100));
-            });
-
             // Rewind Swiper Initialization
             const rewindSwiper = new Swiper('.rewind-swiper', {
                 effect: 'coverflow',
@@ -1992,8 +2080,6 @@ startInterval();
             });
         });
     </script>
-
-
 </body>
 
 </html>

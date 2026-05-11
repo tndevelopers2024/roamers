@@ -246,7 +246,129 @@
                 height: 380px;
             }
         }
-</style>
+
+        /* ===== MOBILE FLOATING BOTTOM BAR ===== */
+        .mobile-bottom-bar {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .mobile-bottom-bar {
+                display: block !important;
+                position: fixed !important;
+                bottom: 15px !important;
+                left: 5% !important;
+                right: 5% !important;
+                width: 90% !important;
+                background: #fff !important;
+                box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2) !important;
+                z-index: 2147483647 !important;
+                border-radius: 120px !important;
+                padding: 8px 0px 5px 10px !important;
+                border: 1px solid rgba(0, 0, 0, 0.08) !important;
+                animation: none !important;
+            }
+
+            .bottom-bar-content {
+                display: flex !important;
+                justify-content: space-between !important;
+                align-items: center !important;
+                width: 100% !important;
+                max-width: 600px;
+                margin: 0 auto;
+                animation: none !important;
+            }
+
+            .price-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                animation: none !important;
+            }
+
+            .price-box .label {
+                margin: 0 !important;
+                font-size: 13px !important;
+                color: #333 !important;
+                font-weight: 700 !important;
+                line-height: 1.1 !important;
+                text-transform: none !important;
+            }
+
+            .price-info {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 0 !important;
+                margin-top: 1px !important;
+            }
+
+            .price-amount {
+                font-size: clamp(20px, 5.5vw, 24px) !important;
+                font-weight: 900 !important;
+                color: #4ec0db !important;
+                margin: 0 !important;
+                line-height: 1 !important;
+            }
+
+            .per-person {
+                font-size: 9px !important;
+                color: #777 !important;
+                font-weight: 500 !important;
+                margin-top: 2px !important;
+                white-space: nowrap !important;
+            }
+
+            .btn-book {
+                background-color: #4ec0db !important;
+                color: #fff !important;
+                padding: 12px clamp(15px, 4vw, 28px) !important;
+                border-radius: 100px !important;
+                font-weight: 800 !important;
+                text-decoration: none !important;
+                font-size: clamp(14px, 4vw, 15px) !important;
+                transition: all 0.3s ease !important;
+                box-shadow: 0 4px 15px rgba(78, 192, 219, 0.4) !important;
+                border: none !important;
+                white-space: nowrap !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+            }
+
+            .whatapp {
+                bottom: 100px !important;
+                z-index: 2147483646 !important;
+            }
+
+            @media (max-height: 450px) {
+                .mobile-bottom-bar {
+                    bottom: 10px !important;
+                    padding: 6px 15px !important;
+                }
+
+                .price-amount {
+                    font-size: 18px !important;
+                }
+
+                .btn-book {
+                    padding: 8px 20px !important;
+                }
+            }
+
+            .desk-desc {
+                display: none !important;
+            }
+
+            .mob-desc {
+                display: block !important;
+            }
+
+            #dotPagination {
+                display: none !important;
+            }
+        }
+    </style>
 
 
 </head>
@@ -353,7 +475,7 @@
                 </div>
                 <div>
                   <div class="info-label">Starting Price</div>
-                  <div class="info-value tawang-price"><span>/-</span></div>
+                  <div class="info-value tawang-price"><span>₹19,990/-</span></div>
                 </div>
               </div>
             </div>
@@ -1405,18 +1527,6 @@
   </section>
 
   <!-- Mobile Price -->
-  <style>
-    .mobile-bottom-bar .btn-book {
-      background-color: #4ec0db !important;
-      color: #fff !important;
-      padding: 10px 20px !important;
-      border-radius: 50px !important;
-      font-size: 14px !important;
-      font-weight: 700 !important;
-      text-decoration: none !important;
-      display: inline-block !important;
-    }
-  </style>
   <div class="mobile-bottom-bar">
     <div class="bottom-bar-content">
       <div class="price-box">

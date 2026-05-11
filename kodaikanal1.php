@@ -141,6 +141,47 @@
             width: 100%;
         }
 
+        /* Mobile css */
+    @media (max-width: 768px) {
+      .rewind-nav {
+        padding: 0 5px;
+      }
+
+      .prev-btn {
+        margin-left: -10px;
+      }
+
+      .next-btn {
+        margin-right: -10px;
+      }
+
+      .journey-nav-container {
+        display: none !important;
+      }
+
+      .journey-nav-btn {
+        width: 40px !important;
+        height: 40px !important;
+      }
+
+      .rewind-card {
+        height: 380px;
+      }
+
+      .rewind-swiper .swiper-wrapper {
+        height: 400px !important;
+      }
+
+      .rewind-header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .rewind-title-area h2 {
+        font-size: 28px;
+      }
+    }
+
         .rewind-card {
             position: relative;
             height: 500px;
@@ -230,6 +271,116 @@
                 height: 380px;
             }
         }
+
+    /* ===== MOBILE FLOATING BOTTOM BAR ===== */
+    .mobile-bottom-bar {
+      display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      .mobile-bottom-bar {
+        display: block !important;
+        position: fixed !important;
+        bottom: 15px !important;
+        left: 5% !important;
+        right: 5% !important;
+        width: 90% !important;
+        background: #fff !important;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2) !important;
+        z-index: 2147483647 !important;
+        border-radius: 120px !important;
+        padding: 8px 0px 5px 10px !important;
+        border: 1px solid rgba(0, 0, 0, 0.08) !important;
+        animation: none !important;
+      }
+
+      .bottom-bar-content {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+        max-width: 600px;
+        margin: 0 auto;
+        animation: none !important;
+      }
+
+      .price-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        animation: none !important;
+      }
+
+      .price-box .label {
+        margin: 0 !important;
+        font-size: 13px !important;
+        color: #333 !important;
+        font-weight: 700 !important;
+        line-height: 1.1 !important;
+        text-transform: none !important;
+      }
+
+      .price-info {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0 !important;
+        margin-top: 1px !important;
+      }
+
+      .price-amount {
+        font-size: clamp(20px, 5.5vw, 24px) !important;
+        font-weight: 900 !important;
+        color: #4ec0db !important;
+        margin: 0 !important;
+        line-height: 1 !important;
+      }
+
+      .per-person {
+        font-size: 9px !important;
+        color: #777 !important;
+        font-weight: 500 !important;
+        margin-top: 2px !important;
+        white-space: nowrap !important;
+      }
+
+      .btn-book {
+        background-color: #4ec0db !important;
+        color: #fff !important;
+        padding: 12px clamp(15px, 4vw, 28px) !important;
+        border-radius: 100px !important;
+        font-weight: 800 !important;
+        text-decoration: none !important;
+        font-size: clamp(14px, 4vw, 15px) !important;
+        transition: all 0.3s ease !important;
+        box-shadow: 0 4px 15px rgba(78, 192, 219, 0.4) !important;
+        border: none !important;
+        white-space: nowrap !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+      }
+
+      .whatapp {
+        bottom: 100px !important;
+        z-index: 2147483646 !important;
+      }
+
+      @media (max-height: 450px) {
+        .mobile-bottom-bar {
+          bottom: 10px !important;
+          padding: 6px 15px !important;
+        }
+
+        .price-amount {
+          font-size: 18px !important;
+        }
+
+        .btn-book {
+          padding: 8px 20px !important;
+        }
+      }
+    }
   </style>
 </head>
 
@@ -1649,45 +1800,76 @@
             });
 
             // Rewind Swiper Initialization
-            const rewindSwiper = new Swiper('.rewind-swiper', {
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: true,
-                loop: true,
-                speed: 1000,
-                autoplay: {
-                    delay: 3500,
-                    disableOnInteraction: false,
-                },
-                coverflowEffect: {
-                    rotate: 20,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: false,
-                },
-                navigation: {
-                    nextEl: '.next-btn',
-                    prevEl: '.prev-btn',
-                },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 20,
-                    },
-                    640: {
-                        slidesPerView: 2.5,
-                        spaceBetween: 30,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 50,
-                    }
-                }
-            });
+             // Rewind Swiper Initialization
+      const rewindSwiper = new Swiper('.rewind-swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slideToClickedSlide: true,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        navigation: {
+          nextEl: '.journey-next',
+          prevEl: '.journey-prev',
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1.4,
+            spaceBetween: 1,
+            coverflowEffect: {
+              rotate: 15,
+              depth: 150,
+              modifier: 1,
+            }
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          }
+        }
+      });
         });
     </script>
 
+
+  <!-- Mobile Price Floating Bar -->
+  <div class="mobile-bottom-bar">
+    <div class="bottom-bar-content">
+      <div class="price-box">
+        <h6 class="label">Starts at</h6>
+        <div class="price-info">
+          <span class="price-amount"><span class="kodaikanal1-price">₹9,990</span>/-</span>
+          <span class="per-person">(Per Person)</span>
+        </div>
+      </div>
+      <a href="kodaikanal1-form.php" class="btn-book">Dates &amp; Costing</a>
+    </div>
+  </div>
 
 </body>
 
