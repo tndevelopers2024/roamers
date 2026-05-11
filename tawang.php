@@ -70,304 +70,1195 @@
   </script>
 
 <style>
-  /* Rewind Section Redesign */
-        .rewind-section {
-            padding: 60px 20px 100px;
-            max-width: 1200px;
-            margin: 0 auto;
+ .accordion-bg {
+      background-color: rgb(245, 245, 245);
+    }
+
+    .butn:link,
+    .butn:visited {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      text-decoration: none;
+      background-color: #5e16bd;
+      background-image: linear-gradient(90deg, #501aa8, #870de8);
+      padding: 1rem 2.5rem;
+      width: 25.1rem;
+      margin-right: 13px;
+      border-radius: 4px;
+      border: none;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .per-person {
+      color: #7c7c7c;
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    .butn::before {
+      background: #fff;
+      content: "";
+      height: 55px;
+      opacity: 0;
+      position: absolute;
+      top: 0px;
+      transform: rotate(35deg);
+      width: 20px;
+      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .butn::after {
+      background: #fff;
+      content: "";
+      height: 8rem;
+      opacity: 0;
+      position: absolute;
+      top: -50px;
+      transform: rotate(35deg);
+      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+      width: 2rem;
+    }
+
+    .butn__new::before {
+      left: -50%;
+    }
+
+    .butn__new::after {
+      left: -100%;
+    }
+
+    .butn:hover,
+    .butn:active {
+      transform: translateY(-3px);
+      color: #fff;
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .butn__new:hover::before {
+      left: 50%;
+      opacity: 0.5s;
+    }
+
+    .butn__new:hover::after {
+      left: 150%;
+      opacity: 0.6;
+    }
+
+    /* .trip-home {
+      background-position: center !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      position: relative !important;
+      background-attachment: fixed !important;
+    } */
+
+    .new-year {
+      position: absolute;
+      height: 28px !important;
+      width: 160px;
+      transition: all 0.7s;
+      border-radius: 0px !important;
+    }
+
+    .christmas {
+      position: absolute;
+      height: 28px !important;
+      width: 160px;
+      transition: all 0.7s;
+      border-radius: 0px !important;
+    }
+
+    .itinerary-logo-content p {
+      font-size: 14px;
+      background: #d8eefe !important;
+      margin: 4px;
+      color: black !important;
+      border-radius: 31px;
+      padding: 5px 10px;
+      text-transform: capitalize;
+    }
+
+    .acc-inner li::before {
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-left: 10px solid #4ec0db !important;
+      border-bottom: 5px solid transparent;
+      position: absolute;
+      left: 0;
+      content: "";
+      margin-top: 5px;
+    }
+
+    .acc-inner li:hover::before {
+      border-left: 10px solid #555 !important;
+    }
+
+    .with-travel {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 25px;
+      display: none;
+    }
+
+    .with-travel-price {
+      color: #4ec0db;
+      font-weight: 800;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+
+    .travel-des {
+      padding: 30px !important;
+    }
+
+    .travel-des a {
+      max-width: 200px;
+    }
+
+    .price-occupancy {
+      padding: 10px 21px;
+      background: #fff;
+      border: 1px solid #eee;
+      margin: 5px;
+      border-radius: 5px;
+    }
+
+    .price-occupancy1 {
+      border: none;
+    }
+
+    .price-occupancy1:focus {
+      outline: 0px solid !important;
+      border: 2px solid #4ec1db0d !important;
+      /* -moz-outline-style: none !important; */
+      border-color: none !important;
+      background-color: #4ec0db0f;
+      box-shadow: none !important;
+    }
+
+    .upcoming-slot h4 {
+      font-weight: 400;
+      padding: 3px 8px 3px 8px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: rgb(255 255 255 / 30%) 0px 1px 2px 0px, rgb(125 128 130 / 15%) 0px 2px 6px !important;
+      font-size: 14px !important;
+      line-height: 26px;
+      color: #878686 !important;
+      margin: 0;
+    }
+
+    .occupancy {
+      display: flex;
+      justify-content: center;
+    }
+
+    .ai1::before {
+      background-image: url(assets/img/images/line.svg) !important;
+    }
+
+
+
+    .why-us {
+      background: url(assets/img/images/sea-travel.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      padding: 60px 0px;
+    }
+
+    .why-us::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .why-para {
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 60px;
+    }
+
+    .why-us .trip-inner>h3 {
+      margin-bottom: 30px;
+      padding: 20px 24px;
+    }
+
+    .silder-inner h3 {
+      font-size: 11px;
+      color: #4EC0DB;
+      font-weight: 700;
+    }
+
+    .silder-inner h2 {
+      color: #094067;
+      font-size: 20px;
+      margin-bottom: 0.7rem;
+    }
+
+    .silder-inner h4 {
+      display: flex;
+      align-items: center;
+      color: #5F6C7B;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .silder-inner h4>img {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: -7px;
+    }
+
+    .inquiry i {
+      margin-left: 20px;
+      font-size: 24px;
+    }
+
+    .price-sticky {
+      position: sticky;
+      top: 100px;
+      margin-top: 65px;
+    }
+
+    .desktop-inform {
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      .kerala-overview {
+        font-size: 20px !important;
+      }
+
+      .price-occupancy {
+        padding: 10px 18px !important;
+        font-size: 14px !important;
+        box-shadow: rgb(0 207 264 / 35%) 0px 6px 10px, rgba(0, 0, 0, 0.23) 0px 2px 5px;
+      }
+
+      .silder-inner h4 {
+        font-size: 12px !important;
+
+      }
+
+      .acc-container {
+        padding: 0px 0px 0px 6px !important;
+      }
+
+      #tab1 p {
+        font-size: 11px;
+      }
+
+      .trip-home {
+        height: 100%;
+      }
+
+      .trip-home h1 {
+        margin: 230px 90px !important;
+        font-size: 52px !important;
+      }
+
+
+
+      .days {
+        font-size: 10px !important;
+      }
+
+      .butn:link,
+      .butn:visited {
+        margin-right: auto !important;
+        width: auto !important;
+      }
+
+      .butn::after {
+        top: -21px !important;
+        width: 1rem !important;
+      }
+
+
+      .butn__new::after {
+        left: 6% !important;
+      }
+
+      .butn__new::before {
+        left: -7% !important;
+      }
+
+      #price {
+        margin-left: 105px !important;
+      }
+
+      .readless {
+        display: none;
+      }
+
+      #tab2 p {
+        font-size: 11px;
+      }
+
+      #moreText {
+        visibility: visible !important;
+      }
+
+      #readMoreLink {
+        visibility: visible !important;
+      }
+
+      .travel-des1 p {
+        text-align: justify;
+        margin-bottom: 1.2rem !important;
+        font-size: 14px !important;
+      }
+
+      .occupancy {
+        font-size: 10px !important;
+      }
+
+      .slider-item2 {
+        flex: 0 0 calc(96%) !important;
+        padding: 15px;
+      }
+
+      .slider-item2 img {
+        height: 380px !important;
+      }
+
+      .slider-item2-image {
+        margin-left: 0px !important;
+      }
+
+      .trek-sec {
+        display: block !important;
+      }
+
+      .diff-sec {
+        display: none !important;
+      }
+
+      .desktop-inform {
+        display: none !important;
+      }
+    }
+
+    .silder-inner1 p {
+      border: none !important;
+      margin-bottom: 0px !important;
+      font-size: 12px;
+      font-weight: 400;
+      color: #5F6C7B;
+      padding-bottom: 10px;
+    }
+
+    .silder-inner span {
+      display: flex;
+      align-items: center;
+      color: #4EC0DB;
+      font-size: 16px;
+      margin-left: 5px;
+      font-weight: 600;
+    }
+
+    .silder-inner {
+      padding: 30px 20px;
+      background: #ffff;
+    }
+
+    .short-trips {
+      background: none;
+      padding-bottom: 60px;
+    }
+
+    .container-fluid {
+      width: 96%;
+      padding-right: var(--bs-gutter-x, .75rem);
+      padding-left: var(--bs-gutter-x, .75rem);
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .acc-btn::after {
+      background-image: url(assets/img/images/arroww\ Black.svg) !important;
+    }
+
+    .acc-btn:not(.collapsed)::after {
+      background-image: url(assets/img/images/arroww\ white.svg) !important;
+      transform: rotate(-360deg) !important;
+    }
+
+    .trip-nav {
+      grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    #tab1 p {
+      padding-left: 30px;
+      position: relative;
+    }
+
+    #tab1 p::before {
+      content: "";
+      position: absolute;
+      font-size: 20px;
+      background: url(assets/img/icon/chexh\ 1.png);
+      left: 0;
+      width: 20px;
+      margin-top: 3px;
+      background-position: center;
+      height: 20px;
+      background-size: cover;
+    }
+
+    #tab2 p {
+      padding-left: 30px;
+      position: relative;
+    }
+
+    #tab2 p::before {
+      content: "";
+      position: absolute;
+      font-size: 20px;
+      background: url(assets/img/icon/Close\ 1.png);
+      left: 0;
+      width: 20px;
+      margin-top: 3px;
+      background-position: center;
+      height: 20px;
+      background-size: cover;
+    }
+
+    /* .trip-home {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+    } */
+
+    #moreText {
+      visibility: hidden;
+    }
+
+    #readMoreLink {
+      visibility: hidden;
+    }
+
+    .arrow-right {
+      height: 20px;
+      width: 30px;
+      margin-left: 10px;
+    }
+
+    .des-sub {
+      display: flex;
+      justify-content: center;
+      /* margin-left: -43px !important; */
+      margin-bottom: 43px;
+    }
+
+
+
+    .whatapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      animation: fadeInUp1 0.5s ease-in-out forwards;
+      display: block !important;
+    }
+
+    .whatapp img {
+      width: 50px;
+    }
+
+    .faq {
+      background-image: url(assets/img/images/world2.png) !important;
+    }
+
+    /* dates update */
+    .kodai-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .andaman-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .kerala-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .ooty-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .munnar-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .pondi-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .wayanad-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .chik-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .goa-dates {
+      color: #5f6c7b !important;
+      font-size: 11px !important;
+      font-weight: 400 !important;
+    }
+
+    .diff i {
+      padding: 0 6px 0 0px;
+      color: #4ec0db;
+      text-shadow: -1.3px 1px #000;
+    }
+
+    .difficulty {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .sub-diff {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .diff {
+      padding-bottom: 10px;
+    }
+
+    .diff-sec {
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+
+    .trek-sec {
+      display: none;
+    }
+
+    .trek {
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border-radius: 10px;
+    }
+
+    .trip-form a {
+      width: 100% !important;
+      background: #094067 !important;
+      color: #fff !important;
+    }
+
+    .mobile-bottom-bar {
+      display: none;
+    }
+
+    .desk-desc {
+      display: block !important;
+      line-height: 1.7rem;
+    }
+
+    .mob-desc {
+      display: none !important;
+    }
+
+    #dotPagination {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      margin-top: 20px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 150px);
+      z-index: 10;
+      padding: 0;
+      align-items: center;
+      /* Added to vertically align dots of different sizes */
+    }
+
+    .dot {
+      width: 3px;
+      /* Smaller inactive dots */
+      height: 3px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.4);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin: 0;
+      padding: 0;
+    }
+
+    .dot.active {
+      background-color: #fff;
+      width: 6px;
+      /* Larger active dot */
+      height: 6px;
+      opacity: 1;
+    }
+
+    /* @media screen and (max-width: 991px) {
+    .bottom-bar-content {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 5px 10px !important;
+    }
+} */
+
+    @media screen and (max-width: 768px) {
+      .mobile-bottom-bar {
+        display: block !important;
+        position: fixed !important;
+        bottom: 15px !important;
+        left: 5% !important;
+        right: 5% !important;
+        width: 90% !important;
+        background: #fff !important;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2) !important;
+        z-index: 2147483647 !important;
+        border-radius: 120px !important;
+        padding: 8px 0px 5px 10px !important;
+        border: 1px solid rgba(0, 0, 0, 0.08) !important;
+        animation: none !important;
+        /* Removed animation */
+      }
+
+      .bottom-bar-content {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+        max-width: 600px;
+        margin: 0 auto;
+        animation: none !important;
+        /* Removed animation */
+
+      }
+
+      .price-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        animation: none !important;
+        /* Removed animation */
+
+      }
+
+      .price-box .label {
+        margin: 0 !important;
+        font-size: 13px !important;
+        color: #333 !important;
+        font-weight: 700 !important;
+        line-height: 1.1 !important;
+        text-transform: none !important;
+      }
+
+      .price-info {
+        display: flex !important;
+        flex-direction: column !important;
+        /* Stack price and per-person */
+        align-items: flex-start !important;
+        gap: 0 !important;
+        margin-top: 1px !important;
+      }
+
+      .price-amount {
+        font-size: clamp(20px, 5.5vw, 24px) !important;
+        font-weight: 900 !important;
+        color: #4ec0db !important;
+        margin: 0 !important;
+        line-height: 1 !important;
+      }
+
+      .per-person {
+        font-size: 9px !important;
+        /* Made it smaller */
+        color: #777 !important;
+        font-weight: 500 !important;
+        margin-top: 2px !important;
+        white-space: nowrap !important;
+      }
+
+      .btn-book {
+        background-color: #4ec0db !important;
+        color: #fff !important;
+        padding: 12px clamp(15px, 4vw, 28px) !important;
+        border-radius: 100px !important;
+        font-weight: 800 !important;
+        text-decoration: none !important;
+        font-size: clamp(14px, 4vw, 15px) !important;
+        transition: all 0.3s ease !important;
+        box-shadow: 0 4px 15px rgba(78, 192, 219, 0.4) !important;
+        border: none !important;
+        white-space: nowrap !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+      }
+
+      .whatapp {
+        bottom: 100px !important;
+        z-index: 2147483646 !important;
+      }
+
+      @media (max-height: 450px) {
+        .mobile-bottom-bar {
+          bottom: 10px !important;
+          padding: 6px 15px !important;
         }
 
-        .rewind-title-area {
-            text-align: center;
-            width: 100%;
+        .price-amount {
+          font-size: 18px !important;
         }
 
-        .rewind-title-area h2 {
-            font-size: 32px;
-            font-weight: 800;
-            color: #1a1a1a;
-            margin: 0 0 8px 0;
-            font-family: 'Outfit', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        .btn-book {
+          padding: 8px 20px !important;
         }
+      }
 
-        .rewind-title-area p {
-            font-size: 16px;
-            color: #666;
-            margin: 0;
-            font-weight: 500;
-        }
+      .desk-desc {
+        display: none !important;
+      }
 
+      .mob-desc {
+        display: block !important;
+      }
 
+      #dotPagination {
+        display: none !important;
+      }
+    }
 
-        .rewind-nav-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #4ec0db;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
-            pointer-events: auto;
-            border: none;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 110;
-        }
+    @keyframes slideUpBottom {
+      from {
+        transform: translateY(100px);
+        opacity: 0;
+      }
 
-        .rewind-nav-btn:hover {
-            background: #094067;
-            transform: translateY(-50%) scale(1.1);
-        }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
 
 
 
-        /* .rewind-nav-btn:hover {
-            background: #4ec0db;
-            color: #fff;
-            transform: scale(1.1);
-        } */
+    /* Modal Box */
 
-        .prev-btn {
-            left: -25px;
-            left: auto !important;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
+    .popup-modal {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 400px;
+      position: relative;
+      text-align: center;
+      animation: fadeInUp 0.3s ease-out;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
 
-        .next-btn {
-            right: -25px;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
+    .close-btn {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      background: none;
+      border: none;
+      font-size: 22px;
+      cursor: pointer;
+    }
 
-        .rewind-swiper .swiper-wrapper {
-            height: 520px !important;
-        }
+    .popup-modal h3 {
+      margin-bottom: 16px;
+    }
 
-        .rewind-swiper {
-            overflow: visible !important;
-            padding: 20px 0;
-            width: 100%;
-        }
+    .popup-list {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+      text-align: left;
+    }
 
-        .rewind-card {
-            position: relative;
-            height: 500px;
-            border-radius: 20px;
-            overflow: hidden;
-            transition: all 0.4s ease;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            background: #fff;
-        }
+    .popup-list li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
 
-        .rewind-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
 
-        .rewind-card:hover img {
-            transform: scale(1.1);
-        }
+    .btn-book.full {
+      display: inline-block;
+      width: 100%;
+      margin-top: 10px;
+    }
 
-        /* Removed glass panel styles */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
 
-        .card-overlay-top {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 10;
-        }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 
-        .arrow-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.4);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            transition: all 0.3s ease;
-            font-size: 14px;
-        }
 
-        /* .rewind-card:hover .arrow-icon {
+    /* fab button  */
+    .whatsapp-fab {
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 100% !important;
+      text-align: center;
+      font-size: 28px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .whatsapp-fab:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+    }
+
+    .swiper-container.two {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-container.two .swiper-slide {
+      width: 300px;
+      height: 400px;
+      position: relative;
+    }
+
+    .swiper-container.two .slider-image {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .swiper-container.two .slider-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-container.two .swiper-slide-shadow-left,
+    .swiper-container.two .swiper-slide-shadow-right {
+      background-image: none;
+    }
+
+
+
+
+
+    .accordion-button::after {
+      background-color: #fff;
+      border-radius: 100%;
+      background-size: 75%;
+    }
+
+    .animated-badge {
+      transition: all 0.3s ease;
+    }
+
+    .accordion-button:hover .animated-badge {
+      transform: scale(1.02);
+    }
+
+    @media (max-width: 768px) {
+      .animated-badge {
+        font-size: 14px !important;
+      }
+
+
+      .swiper-3d {
+        perspective: 100px !important;
+      }
+
+    }
+
+    /* Perspective of Journey in Frames  */
+
+    .swiper-3d {
+      perspective: 1400px !important;
+    }
+
+
+    .scroll-section {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s;
+    }
+
+    .scroll-section.initialized {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .swiper-container.two {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s;
+    }
+
+    .swiper-container.two.initialized {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .swiper-container.two .swiper-slide {
+      width: 300px;
+      height: 400px;
+      position: relative;
+      opacity: 0;
+      transform: scale(0.8);
+      transition: all 0.5s ease;
+    }
+
+    .swiper-container.two.initialized .swiper-slide {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .swiper-container.two .slider-image {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .swiper-container.two .slider-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+    /* Rewind Section Redesign */
+    .rewind-section {
+      padding: 60px 20px 100px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .rewind-title-area {
+      text-align: center;
+      width: 100%;
+    }
+
+    .rewind-title-area h2 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin: 0 0 8px 0;
+      font-family: 'Outfit', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .rewind-title-area p {
+      font-size: 16px;
+      color: #666;
+      margin: 0;
+      font-weight: 500;
+    }
+
+
+
+    .journey-nav-container {
+      display: flex !important;
+      justify-content: center !important;
+      gap: 20px !important;
+      margin-top: 40px !important;
+      width: 100% !important;
+      position: relative !important;
+      z-index: 1000 !important;
+      padding-bottom: 20px !important;
+    }
+
+    .journey-nav-btn {
+      width: 50px !important;
+      height: 50px !important;
+      border-radius: 50% !important;
+      background: #4ec0db !important;
+      color: #fff !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: all 0.3s ease !important;
+      box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3) !important;
+      border: none !important;
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+      transform: none !important;
+    }
+
+    /* .journey-nav-btn:hover {
+      background: #094067 !important;
+      color: #fff !important;
+      transform: scale(1.1) !important;
+    } */
+
+    /* Hide any possible ghost buttons */
+    .rewind-nav-btn {
+      display: none !important;
+    }
+
+    .rewind-swiper .swiper-wrapper {
+      height: 520px;
+    }
+
+    .rewind-swiper {
+      overflow: visible !important;
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    .rewind-card {
+      position: relative;
+      height: 500px;
+      border-radius: 30px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      background: #fff;
+    }
+
+    .rewind-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    /* .rewind-card:hover img {
+      transform: scale(1.1);
+    } */
+
+    /* Removed glass panel styles */
+
+    .card-overlay-top {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 10;
+    }
+
+    .arrow-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      transition: all 0.3s ease;
+      font-size: 14px;
+    }
+
+    /* .rewind-card:hover .arrow-icon {
             background: #4ec0db;
             border-color: #4ec0db;
             transform: rotate(45deg);
         } */
 
-        @media (max-width: 768px) {
-            .rewind-nav {
-                padding: 0 5px;
-            }
+    @media (max-width: 768px) {
+      .rewind-nav {
+        padding: 0 5px;
+      }
 
-            .prev-btn {
-                margin-left: -10px;
-            }
+      .prev-btn {
+        margin-left: -10px;
+      }
 
-            .next-btn {
-                margin-right: -10px;
-            }
+      .next-btn {
+        margin-right: -10px;
+      }
 
-            .rewind-nav-btn {
-                width: 40px;
-                height: 40px;
-            }
+      .journey-nav-container {
+        display: none !important;
+      }
 
-            .rewind-card {
-                height: 350px;
-            }
-        }
+      .journey-nav-btn {
+        width: 40px !important;
+        height: 40px !important;
+      }
 
-        @media (max-width: 768px) {
-            .rewind-header {
-                flex-direction: column;
-                align-items: center;
-            }
+      .rewind-card {
+        height: 380px;
+      }
 
-            .rewind-title-area h2 {
-                font-size: 28px;
-            }
+      .rewind-swiper .swiper-wrapper {
+        height: 400px !important;
+      }
 
-            .rewind-card {
-                height: 380px;
-            }
-        }
+      .rewind-header {
+        flex-direction: column;
+        align-items: center;
+      }
 
-        /* ===== MOBILE FLOATING BOTTOM BAR ===== */
-        .mobile-bottom-bar {
-            display: none;
-        }
-
-        @media screen and (max-width: 768px) {
-            .mobile-bottom-bar {
-                display: block !important;
-                position: fixed !important;
-                bottom: 15px !important;
-                left: 5% !important;
-                right: 5% !important;
-                width: 90% !important;
-                background: #fff !important;
-                box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2) !important;
-                z-index: 2147483647 !important;
-                border-radius: 120px !important;
-                padding: 8px 0px 5px 10px !important;
-                border: 1px solid rgba(0, 0, 0, 0.08) !important;
-                animation: none !important;
-            }
-
-            .bottom-bar-content {
-                display: flex !important;
-                justify-content: space-between !important;
-                align-items: center !important;
-                width: 100% !important;
-                max-width: 600px;
-                margin: 0 auto;
-                animation: none !important;
-            }
-
-            .price-box {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                animation: none !important;
-            }
-
-            .price-box .label {
-                margin: 0 !important;
-                font-size: 13px !important;
-                color: #333 !important;
-                font-weight: 700 !important;
-                line-height: 1.1 !important;
-                text-transform: none !important;
-            }
-
-            .price-info {
-                display: flex !important;
-                flex-direction: column !important;
-                align-items: flex-start !important;
-                gap: 0 !important;
-                margin-top: 1px !important;
-            }
-
-            .price-amount {
-                font-size: clamp(20px, 5.5vw, 24px) !important;
-                font-weight: 900 !important;
-                color: #4ec0db !important;
-                margin: 0 !important;
-                line-height: 1 !important;
-            }
-
-            .per-person {
-                font-size: 9px !important;
-                color: #777 !important;
-                font-weight: 500 !important;
-                margin-top: 2px !important;
-                white-space: nowrap !important;
-            }
-
-            .btn-book {
-                background-color: #4ec0db !important;
-                color: #fff !important;
-                padding: 12px clamp(15px, 4vw, 28px) !important;
-                border-radius: 100px !important;
-                font-weight: 800 !important;
-                text-decoration: none !important;
-                font-size: clamp(14px, 4vw, 15px) !important;
-                transition: all 0.3s ease !important;
-                box-shadow: 0 4px 15px rgba(78, 192, 219, 0.4) !important;
-                border: none !important;
-                white-space: nowrap !important;
-                display: flex !important;
-                align-items: center !important;
-                justify-content: center !important;
-            }
-
-            .whatapp {
-                bottom: 100px !important;
-                z-index: 2147483646 !important;
-            }
-
-            @media (max-height: 450px) {
-                .mobile-bottom-bar {
-                    bottom: 10px !important;
-                    padding: 6px 15px !important;
-                }
-
-                .price-amount {
-                    font-size: 18px !important;
-                }
-
-                .btn-book {
-                    padding: 8px 20px !important;
-                }
-            }
-
-            .desk-desc {
-                display: none !important;
-            }
-
-            .mob-desc {
-                display: block !important;
-            }
-
-            #dotPagination {
-                display: none !important;
-            }
-        }
+      .rewind-title-area h2 {
+        font-size: 28px;
+      }
+    }
     </style>
 
 
@@ -724,7 +1615,7 @@
                       data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                      Arrival in Guwahati → Transfer to Bomdila (256 km | 7 hrs)
+                      <span style="font-size: 14px;">Arrival in Guwahati → Transfer to Bomdila (256 km | 7 hrs)</span>
 
                     </button>
                   </h2>
@@ -771,7 +1662,7 @@
                       data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 2</span>
-                      Bomdila → Tawang (146 km | 5–6 hrs)
+                      <span style="font-size: 14px;">Bomdila → Tawang (146 km | 5–6 hrs)</span>
 
                     </button>
 
@@ -816,7 +1707,7 @@
                       data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 3</span>
-                      Tawang Local Sightseeing
+                      <span style="font-size: 14px;">Tawang Local Sightseeing</span>
 
                     </button>
 
@@ -855,7 +1746,7 @@
                       data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 4</span>
-                      Tawang – Bumla Pass Excursion
+                      <span style="font-size: 14px;">Tawang – Bumla Pass Excursion</span>
 
                     </button>
 
@@ -896,7 +1787,7 @@
                       data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 5</span>
-                      Tawang → Sangti Valley (via Dirang) (165 km approx | 6 hrs)
+                      <span style="font-size: 14px;">Tawang → Sangti Valley (via Dirang) (165 km approx | 6 hrs)</span>
 
                     </button>
 
@@ -940,7 +1831,7 @@
                       data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 6</span>
-                      Sangti Valley → Kaziranga (160 km approx | 5–6 hrs)
+                      <span style="font-size: 14px;">Sangti Valley → Kaziranga (160 km approx | 5–6 hrs)</span>
 
                     </button>
 
@@ -981,7 +1872,7 @@
                       data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 
                       <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 7</span>
-                      Kaziranga → Guwahati | National Park Jeep Safari
+                      <span style="font-size: 14px;">Kaziranga → Guwahati | National Park Jeep Safari</span>
 
                     </button>
 
@@ -1399,8 +2290,13 @@
                 </div>
 
                 <!-- Navigation Buttons - Now Inside Swiper for better sync -->
-                <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
-                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
+                <!-- <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div> -->
+            </div>
+            <!-- Navigation Buttons - Relocated to bottom center with unique classes -->
+            <div class="journey-nav-container">
+              <div class="journey-nav-btn journey-prev"><i class="fa-solid fa-chevron-left"></i></div>
+              <div class="journey-nav-btn journey-next"><i class="fa-solid fa-chevron-right"></i></div>
             </div>
         </div>
     </section>
@@ -2004,58 +2900,80 @@
   </script>
 
   <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Form benefit items animation
-            const items = document.querySelectorAll('.benefit-item');
-            items.forEach((item, index) => {
-                item.style.opacity = '0';
-                item.style.transform = 'translateX(-20px)';
-                setTimeout(() => {
-                    item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
-                    item.style.opacity = '1';
-                    item.style.transform = 'translateX(0)';
-                }, 400 + (index * 100));
-            });
+    document.addEventListener('DOMContentLoaded', () => {
+      // Form benefit items animation
+      const items = document.querySelectorAll('.benefit-item');
+      items.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(-20px)';
+        setTimeout(() => {
+          item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+          item.style.opacity = '1';
+          item.style.transform = 'translateX(0)';
+        }, 400 + (index * 100));
+      });
 
-            // Rewind Swiper Initialization
-            const rewindSwiper = new Swiper('.rewind-swiper', {
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: true,
-                loop: true,
-                speed: 1000,
-                autoplay: {
-                    delay: 3500,
-                    disableOnInteraction: false,
-                },
-                coverflowEffect: {
-                    rotate: 20,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: false,
-                },
-                navigation: {
-                    nextEl: '.next-btn',
-                    prevEl: '.prev-btn',
-                },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 20,
-                    },
-                    640: {
-                        slidesPerView: 2.5,
-                        spaceBetween: 30,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 50,
-                    }
-                }
-            });
-        });
-    </script>
+      // Rewind Swiper Initialization
+      const rewindSwiper = new Swiper('.rewind-swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slideToClickedSlide: true,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        navigation: {
+          nextEl: '.journey-next',
+          prevEl: '.journey-prev',
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1.4,
+            spaceBetween: 1,
+            coverflowEffect: {
+              rotate: 15,
+              depth: 150,
+              modifier: 1,
+            }
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          }
+        }
+      });
+    });
+  </script>
+
+  <style>
+    .rewind-swiper .swiper-slide {
+      cursor: pointer;
+    }
+  </style>
 
 
 </body>

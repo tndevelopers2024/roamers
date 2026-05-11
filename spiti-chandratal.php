@@ -1543,8 +1543,8 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color: #f5fdff;">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Meet your fellow travellers and Trip <span class="fw-bold">Leader</span> in the assigned spot and settle in for the journey ahead</li>
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Departure from Delhi in the evening via <span class="fw-bold">Volvo bus</span></li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Meet your fellow travellers and Trip Captain in the assigned spot and settle in for the journey ahead</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Departure from <span class="fw-bold">Delhi</span> in the evening via Volvo bus</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Begin overnight drive towards the best mountains</li>
                       </ul>
                     </div>

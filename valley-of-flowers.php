@@ -10,19 +10,26 @@
   <!-- SEO Meta Description -->
   <meta name="description" content="Embark on an unforgettable Valley of Flowers trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
   <meta name="author" content="Themeland" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
 
-  <!-- Basic Open Graph tags -->
+  <!-- Open Graph tags (Instagram, Facebook, LinkedIn, Discord, WhatsApp) -->
+  <meta property="og:site_name" content="Roamers" />
   <meta property="og:title" content="Roamers - Valley of Flowers Trek: Experience Himalayan Beauty & Alpine Meadows" />
   <meta property="og:description" content="Embark on an unforgettable Valley of Flowers trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
-  <meta property="og:image" content="https://roamers.in/assets/img/valley-of-flowers/avif/img-1.avif" />
-  <meta property="og:url" content="https://roamers.in/valley-of-flowers.php" />
+  <meta property="og:image" content="https://roamers.in/assets/img/valley-of-flowers/open-grap-img/valley-of-flowers-og.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/open-grap-img/valley-of-flowers-og.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Valley of Flowers Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
+  <meta property="og:url" content="https://roamers.in/valley-of-flowers" />
   <meta property="og:type" content="website" />
+
+  <!-- Twitter / X Card tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Roamers - Valley of Flowers Trek: Experience Himalayan Beauty & Alpine Meadows" />
   <meta name="twitter:description" content="Embark on an unforgettable Valley of Flowers trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/valley-of-flowers/avif/img-1.avif" />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/valley-of-flowers/open-grap-img/valley-of-flowers-og.jpg" />
+  <meta name="twitter:image:alt" content="Valley of Flowers Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
 
 
   <!-- Title  -->
@@ -2096,6 +2103,13 @@
               <img src="assets/img/valley-of-flowers/img3.jpg" alt="Valley of Flowers Adventure">
             </div>
           </div>
+
+          <!-- Slide 11 -->
+          <!-- <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/valley-of-flowers/open-grap-img/roamers-image-1.jpg" alt="Valley of Flowers Adventure">
+            </div>
+          </div> -->
 
         </div>
 

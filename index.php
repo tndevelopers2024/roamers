@@ -2686,7 +2686,7 @@
                     'places' => 'Port Blair, Ross Island, Havelock, Neil',
                     'price' => '',
                     'price_class' => 'andaman-price',
-                    'link' => 'andaman'
+                    'link' => 'andaman-group-trip'
                 ],
                 'kodaikanal' => [
                     'title' => 'KODAIKANAL BACKPACKING',
