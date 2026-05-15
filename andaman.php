@@ -887,187 +887,169 @@
       margin-bottom: 10px;
     }
 
-        /* Rewind Section Redesign */
-        .rewind-section {
-            padding: 60px 20px 100px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+    /* Rewind Section Redesign */
+    .rewind-section {
+      padding: 60px 20px 100px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
 
-        .rewind-title-area {
-            text-align: center;
-            width: 100%;
-        }
+    .rewind-title-area {
+      text-align: center;
+      width: 100%;
+    }
 
-        .rewind-title-area h2 {
-            font-size: 32px;
-            font-weight: 800;
-            color: #1a1a1a;
-            margin: 0 0 8px 0;
-            font-family: 'Outfit', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+    .rewind-title-area h2 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin: 0 0 8px 0;
+      font-family: 'Outfit', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
-        .rewind-title-area p {
-            font-size: 16px;
-            color: #666;
-            margin: 0;
-            font-weight: 500;
-        }
-
-
-
-        .rewind-nav-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #4ec0db;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
-            pointer-events: auto;
-            border: none;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 110;
-        }
-
-        .rewind-nav-btn:hover {
-            background: #094067;
-            transform: translateY(-50%) scale(1.1);
-        }
+    .rewind-title-area p {
+      font-size: 16px;
+      color: #666;
+      margin: 0;
+      font-weight: 500;
+    }
 
 
 
-        /* .rewind-nav-btn:hover {
-            background: #4ec0db;
-            color: #fff;
-            transform: scale(1.1);
-        } */
+    .journey-nav-container {
+      display: flex !important;
+      justify-content: center !important;
+      gap: 20px !important;
+      margin-top: 40px !important;
+      width: 100% !important;
+      position: relative !important;
+      z-index: 1000 !important;
+      padding-bottom: 20px !important;
+    }
 
-        .prev-btn {
-            left: -25px;
-            left: auto !important;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
+    .journey-nav-btn {
+      width: 50px !important;
+      height: 50px !important;
+      border-radius: 50% !important;
+      background: #4ec0db !important;
+      color: #fff !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: all 0.3s ease !important;
+      box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3) !important;
+      border: none !important;
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+      transform: none !important;
+    }
 
-        .next-btn {
-            right: -25px;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
+    /* Hide any possible ghost buttons */
+    .rewind-nav-btn {
+      display: none !important;
+    }
 
-        .rewind-swiper .swiper-wrapper {
-            height: 520px !important;
-        }
+    .rewind-swiper .swiper-wrapper {
+      height: 520px;
+    }
 
-        .rewind-swiper {
-            overflow: visible !important;
-            padding: 20px 0;
-            width: 100%;
-        }
+    .rewind-swiper {
+      overflow: visible !important;
+      padding: 20px 0;
+      width: 100%;
+    }
 
-        .rewind-card {
-            position: relative;
-            height: 500px;
-            border-radius: 20px;
-            overflow: hidden;
-            transition: all 0.4s ease;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            background: #fff;
-        }
+    .rewind-card {
+      position: relative;
+      height: 500px;
+      border-radius: 30px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      background: #fff;
+    }
 
-        .rewind-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
+    .rewind-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
 
-        .rewind-card:hover img {
-            transform: scale(1.1);
-        }
+    /* Removed glass panel styles */
 
-        /* Removed glass panel styles */
+    .card-overlay-top {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 10;
+    }
 
-        .card-overlay-top {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 10;
-        }
+    .arrow-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      transition: all 0.3s ease;
+      font-size: 14px;
+    }
 
-        .arrow-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.4);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            transition: all 0.3s ease;
-            font-size: 14px;
-        }
+    @media (max-width: 768px) {
+      .rewind-nav {
+        padding: 0 5px;
+      }
 
-        /* .rewind-card:hover .arrow-icon {
-            background: #4ec0db;
-            border-color: #4ec0db;
-            transform: rotate(45deg);
-        } */
+      .prev-btn {
+        margin-left: -10px;
+      }
 
-        @media (max-width: 768px) {
-            .rewind-nav {
-                padding: 0 5px;
-            }
+      .next-btn {
+        margin-right: -10px;
+      }
 
-            .prev-btn {
-                margin-left: -10px;
-            }
+      .journey-nav-container {
+        display: none !important;
+      }
 
-            .next-btn {
-                margin-right: -10px;
-            }
+      .journey-nav-btn {
+        width: 40px !important;
+        height: 40px !important;
+      }
 
-            .rewind-nav-btn {
-                width: 40px;
-                height: 40px;
-            }
+      .rewind-card {
+        height: 380px;
+      }
 
-            .rewind-card {
-                height: 350px;
-            }
-        }
+      .rewind-swiper .swiper-wrapper {
+        height: 400px !important;
+      }
 
-        @media (max-width: 768px) {
+      .rewind-header {
+        flex-direction: column;
+        align-items: center;
+      }
 
-          .rewind-section{
-            padding: 60px 0 0 !important;
-;
-          }
-            .rewind-header {
-                flex-direction: column;
-                align-items: center;
-            }
+      .rewind-title-area h2 {
+        font-size: 28px;
+      }
 
-            .rewind-title-area h2 {
-                font-size: 28px;
-            }
-
-            .rewind-card {
-                height: 380px;
-            }
-        }
+      .rewind-section {
+        padding: 20px 0 !important;
+      }
+    }
   </style>
 </head>
 
@@ -1157,7 +1139,7 @@
     .about-area {
       position: relative;
       z-index: 1;
-      padding: 200px 0 60px;
+      padding: 60px 0 60px;
       background-color: #f9f9f9;
       overflow: hidden;
     }
@@ -1201,7 +1183,7 @@
         margin-bottom: 20px;
       }
       .about-area{
-        padding: 0 !important;
+        padding-bottom: 0 !important;
       }
 
       .about-img-2 {
@@ -1369,7 +1351,7 @@
 
     @media (max-width: 468px) {
       .about-area {
-        padding: 0 !important;
+        padding-bottom: 0 !important;
       }
       .about-content {
         padding-left: 0;
@@ -1396,6 +1378,63 @@
         }
     }
   </style>
+
+  <section class="about-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Image Composition -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="about-img-wrapper">
+            <!-- Main Image -->
+            <div class="about-img-1">
+              <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Adventure">
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-6">
+          <div class="about-content">
+            <span class="section-subtitle">Explore Andaman</span>
+            <h2 class="section-title">Highlights of Andaman</h2>
+
+            <ul class="feature-list">
+              <li class="feature-item animate">
+                <div class="icon-box">
+                  <i class="fa-solid fa-water" style="font-size:24px; color:#fff;"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Crystal Clear Waters</h4>
+                  <p>Pristine turquoise waters perfect for diving, snorkeling and underwater exploration.</p>
+                </div>
+              </li>
+
+              <li class="feature-item animate">
+                <div class="icon-box">
+                  <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Radhanagar Beach</h4>
+                  <p>Visit Asia's best beach, known for its stunning sunset views and sparkling white sands.</p>
+                </div>
+              </li>
+
+              <li class="feature-item animate">
+                <div class="icon-box">
+                  <i class="fa-solid fa-ship" style="font-size:24px; color:#fff;"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Island Hopping</h4>
+                  <p>Explore the unique vibes of Havelock, Neil, and Ross islands for a complete tropical retreat.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Us Section End -->
 
   <section class="andaman-packages-section">
     <h2 class="head" style="margin-bottom: 40px;">ANDAMAN TOUR PACKAGES</h2>
@@ -1487,63 +1526,6 @@
     </div>
   </section>
 
-  <section class="about-area">
-    <div class="container">
-      <div class="row align-items-center">
-        <!-- Left Image Composition -->
-        <div class="col-lg-6 mb-5 mb-lg-0">
-          <div class="about-img-wrapper">
-            <!-- Main Image -->
-            <div class="about-img-1">
-              <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Adventure">
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Content -->
-        <div class="col-lg-6">
-          <div class="about-content">
-            <span class="section-subtitle">Explore Andaman</span>
-            <h2 class="section-title">Highlights of Andaman</h2>
-
-            <ul class="feature-list">
-              <li class="feature-item animate">
-                <div class="icon-box">
-                  <i class="fa-solid fa-water" style="font-size:24px; color:#fff;"></i>
-                </div>
-                <div class="feature-text">
-                  <h4>Crystal Clear Waters</h4>
-                  <p>Pristine turquoise waters perfect for diving, snorkeling and underwater exploration.</p>
-                </div>
-              </li>
-
-              <li class="feature-item animate">
-                <div class="icon-box">
-                  <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
-                </div>
-                <div class="feature-text">
-                  <h4>Radhanagar Beach</h4>
-                  <p>Visit Asia's best beach, known for its stunning sunset views and sparkling white sands.</p>
-                </div>
-              </li>
-
-              <li class="feature-item animate">
-                <div class="icon-box">
-                  <i class="fa-solid fa-ship" style="font-size:24px; color:#fff;"></i>
-                </div>
-                <div class="feature-text">
-                  <h4>Island Hopping</h4>
-                  <p>Explore the unique vibes of Havelock, Neil, and Ross islands for a complete tropical retreat.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- About Us Section End -->
-
 
   <!--====== Gallery Section Start ======-->
   <!-- <section class="gallery-section">
@@ -1608,80 +1590,88 @@
     </div>
   </section> -->
 
-  <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
-        <div class="rewind-header" style="margin-bottom: 50px;">
-            <div class="rewind-title-area">
-                <h2 class="head">Glimpses of Andaman</h2>
+  <section class="rewind-section" style="position: relative; overflow: hidden; padding: 250px 0px 0px 0px;">
+     <div class="rewind-header" style="margin-bottom: 50px;">
+      <div class="rewind-title-area">
+        <h3 class="head" style="text-align: center; margin-bottom: 20px;">
+          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start me-2">
+          Roamers Rewind
+          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start">
+        </h3>
+      </div>
+    </div>
+
+    <div style="position: relative;">
+      <div class="swiper rewind-swiper" style="overflow: visible !important;">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/andaman/Media/overview-1.jpg" alt="Andaman Beach">
             </div>
-        </div>
+          </div>
 
-        <div style="position: relative;">
-            <div class="swiper rewind-swiper" style="overflow: visible !important;">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/andaman/Media/overview-1.jpg" alt="Andaman Beach">
-                        </div>
-                    </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg" alt="Cellular Jail">
+            </div>
+          </div>
 
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg" alt="Cellular Jail">
-                        </div>
-                    </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/andaman/Media/bharatpur-beach-neil-island.jpg" alt="Neil Island">
+            </div>
+          </div>
 
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/andaman/Media/bharatpur-beach-neil-island.jpg" alt="Neil Island">
-                        </div>
-                    </div>
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/andaman/Media/Portblair-group-min.jpg" alt="Port Blair">
+            </div>
+          </div>
 
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/andaman/Media/Portblair-group-min.jpg" alt="Port Blair">
-                        </div>
-                    </div>
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Sunset">
+            </div>
+          </div>
 
-                    <!-- Slide 5 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Sunset">
-                        </div>
-                    </div>
+          <!-- Slide 6 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/andaman/Media/elephant beach.jpg" alt="Elephant Beach">
+            </div>
+          </div>
 
-                    <!-- Slide 6 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/andaman/Media/elephant beach.jpg" alt="Elephant Beach">
-                        </div>
-                    </div>
-
-                    <!-- Slide 7 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
+          <!-- Slide 7 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
               alt="Coral Reef">
-                        </div>
-                    </div>
-
-                    <!-- Slide 8 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Local Market">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
-                <div class="rewind-nav-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
-                <div class="rewind-nav-btn next-btn"><i class="fa-solid fa-chevron-right"></i></div>
             </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Local Market">
+            </div>
+          </div>
         </div>
-    </section>
+
+      </div>
+    </div>
+    <!-- Navigation Buttons - Relocated to bottom center with unique classes -->
+    <div class="journey-nav-container">
+      <div class="journey-nav-btn journey-prev"><i class="fa-solid fa-chevron-left"></i></div>
+      <div class="journey-nav-btn journey-next"><i class="fa-solid fa-chevron-right"></i></div>
+    </div>
+    </div>
+  </section>
 
   <!--====== Gallery Section End ======-->
 
@@ -1987,6 +1977,7 @@
                 effect: 'coverflow',
                 grabCursor: true,
                 centeredSlides: true,
+                slideToClickedSlide: true,
                 loop: true,
                 speed: 1000,
                 autoplay: {
@@ -2001,26 +1992,52 @@
                     slideShadows: false,
                 },
                 navigation: {
-                    nextEl: '.next-btn',
-                    prevEl: '.prev-btn',
+                    nextEl: '.journey-next',
+                    prevEl: '.journey-prev',
                 },
                 breakpoints: {
                     320: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 20,
+                        slidesPerView: 1.4,
+                        spaceBetween: 1,
+                        coverflowEffect: {
+                            rotate: 15,
+                            depth: 150,
+                            modifier: 1,
+                        }
                     },
                     640: {
                         slidesPerView: 2.5,
                         spaceBetween: 30,
+                        coverflowEffect: {
+                            rotate: 20,
+                            depth: 100,
+                            modifier: 1,
+                        }
                     },
                     1024: {
                         slidesPerView: 3,
                         spaceBetween: 50,
+                        coverflowEffect: {
+                            rotate: 20,
+                            depth: 100,
+                            modifier: 1,
+                        }
                     }
                 }
             });
         });
     </script>
+
+  <style>
+    .rewind-swiper .swiper-slide {
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      .rewind-swiper .swiper-slide {
+        padding: 0 15px;
+      }
+    }
+  </style>
 
 </body>
 

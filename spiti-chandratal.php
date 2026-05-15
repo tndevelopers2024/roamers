@@ -14,13 +14,13 @@
   <meta property="og:image:height" content="500" />
 
   <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Spiti Chandratal Trek: High-Altitude Adventure to Chandratal Lake" />
+  <meta property="og:title" content="Roamers - Spiti Chandratal: High-Altitude Adventure to Chandratal Lake" />
   <meta property="og:description" content="Embark on the ultimate Spiti Chandratal trek with Roamers. Experience high-altitude passes, ancient monasteries, and the mesmerizing Chandratal Lake in Himachal Pradesh. Join our curated adventure for an unforgettable Himalayan journey." />
   <meta property="og:image" content="https://roamers.in/assets/img/spiti-valley/cover/spiti-chandratal-trek.avif" />
   <meta property="og:url" content="https://roamers.in/spiti-chandratal.php" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Spiti Chandratal Trek: High-Altitude Adventure to Chandratal Lake" />
+  <meta name="twitter:title" content="Roamers - Spiti Chandratal: High-Altitude Adventure to Chandratal Lake" />
   <meta name="twitter:description" content="Embark on the ultimate Spiti Chandratal trek with Roamers. Experience high-altitude passes, ancient monasteries, and the mesmerizing Chandratal Lake in Himachal Pradesh. Join our curated adventure for an unforgettable Himalayan journey." />
   <meta name="twitter:image" content="https://roamers.in/assets/img/spiti-valley/cover/spiti-chandratal-trek.avif" />
 

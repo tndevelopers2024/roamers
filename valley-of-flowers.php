@@ -1884,7 +1884,7 @@
                   for
                   ages 18 to 40 due to high packed adventure. Custom trips can be arranged for other age groups.</p>
                 <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>This is a high-altitude
-                  trip. Please consult your doctor before travelling. Limited medical facilities are available in remote
+                  trek. Please consult your doctor before travelling. Limited medical facilities are available in remote
                   areas.</p>
                 <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Itinerary may be subjected
                   to change due to weather, road conditions, or health concerns. Changes will be made keeping your
@@ -1892,9 +1892,9 @@
                   and comfort in mind.</p>
                 <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>Inform us of any
                   pre-existing health conditions in advance.</p>
-                <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>A ₹7,000 refundable
+                <!-- <p><i class="fa-solid fa-circle-exclamation me-2" style="color: #00aaff;"></i>A ₹7,000 refundable
                   security
-                  deposit is required per bike. Damages (excluding engine issues) are chargeable.</p>
+                  deposit is required per bike. Damages (excluding engine issues) are chargeable.</p> -->
               </div>
             </div>
 
@@ -1909,7 +1909,7 @@
               <!-- >> Side Slider Section << -->
 
               <div class="priceCard shadow " style="border-radius: 30px;">
-                <img src="https://www.enlivetrips.com/_next/image?url=https%3A%2F%2Fdashboard.enlivetrips.com%2Fstorage%2Fpackage-banner%2Fbd05f45c4a.jpg&w=3840&q=75" alt="Valley of Flowers Banner 3" style="border-radius: 30px; object-fit:cover;">
+                <img src="assets/img/valley-of-flowers/img3.jpg" alt="Valley of Flowers Banner 3" style="border-radius: 30px; object-fit:cover;">
               </div>
 
               <!-- >> Pricing Box Section << -->
