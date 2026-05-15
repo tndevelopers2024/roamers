@@ -9,7 +9,30 @@ include('includes/header.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry Form - Roamers | Spiti Valley</title>
+    <title>Enquire Now: Spiti Valley Winter Expedition - Roamers</title>
+    <!-- SEO Meta Description -->
+    <meta name="description" content="Book your Spiti Valley winter expedition with Roamers. Fill out the enquiry form to discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh." />
+    <meta name="author" content="Roamers" />
+
+    <!-- Open Graph tags -->
+    <meta property="og:site_name" content="Roamers" />
+    <meta property="og:title" content="Enquire Now: Spiti Valley Winter Expedition - Roamers" />
+    <meta property="og:description" content="Book your Spiti Valley winter expedition with Roamers. Fill out the enquiry form to discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh." />
+    <meta property="og:image" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Spiti Valley Winter Expedition - Ancient monasteries and stunning cold desert landscapes" />
+    <meta property="og:url" content="https://roamers.in/spiti-valley-enquiry-form.php" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X Card tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Enquire Now: Spiti Valley Winter Expedition - Roamers" />
+    <meta name="twitter:description" content="Book your Spiti Valley winter expedition with Roamers. Fill out the enquiry form to discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh." />
+    <meta name="twitter:image" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
+    <meta name="twitter:image:alt" content="Spiti Valley Winter Expedition - Ancient monasteries and stunning cold desert landscapes" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
@@ -26,7 +49,6 @@ include('includes/header.php');
             --white: #ffffff;
             --glass: rgba(255, 255, 255, 0.92);
             --border: rgba(78, 192, 219, 0.2);
-            /* --shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1); */
             --glow: 0 0 15px rgba(78, 192, 219, 0.3);
         }
 
@@ -65,7 +87,6 @@ include('includes/header.php');
             -webkit-backdrop-filter: blur(15px);
             border-radius: 40px;
             overflow: hidden;
-            box-shadow: var(--shadow);
             border: 1px solid var(--border);
             display: flex;
             flex-direction: row;
@@ -123,7 +144,7 @@ include('includes/header.php');
             height: 52px;
             background: #ffffff;
             border: 1.5px solid #cbd5e1;
-            border-radius: 16px;
+            border-radius: 30px;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
         }
@@ -146,7 +167,7 @@ include('includes/header.php');
             height: 100% !important;
             padding: 0 45px 0 52px;
             border: none !important;
-            border-radius: 0 !important;
+            border-radius: 30px !important;
             font-size: 15px;
             font-weight: 500;
             background: transparent !important;
@@ -187,38 +208,16 @@ include('includes/header.php');
             transform: translateY(-50%) scale(1.1);
         }
 
-        .input-wrapper-textarea {
-            width: 100% !important;
-            padding: 15px 20px;
-            border: 1.5px solid #cbd5e1;
-            border-radius: 16px;
-            font-size: 15px;
-            font-weight: 500;
-            background: #ffffff;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            outline: none;
-            min-height: 120px;
-            resize: vertical;
-        }
-
-        .input-wrapper-textarea:focus {
-            border-color: var(--secondary);
-            box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow);
-        }
-
+        /* WhatsApp Input Group */
         .whatsapp-wrapper {
             display: flex;
             align-items: center;
             border: 1.5px solid #cbd5e1;
-            border-radius: 16px;
+            border-radius: 30px;
             overflow: hidden;
             background: #ffffff;
             transition: all 0.3s;
             height: 52px;
-        }
-
-        .whatsapp-wrapper input {
-            width: 95% !important;
         }
 
         .whatsapp-wrapper:focus-within {
@@ -258,6 +257,7 @@ include('includes/header.php');
             box-shadow: none !important;
         }
 
+        /* Radio Group */
         .radio-group {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -285,7 +285,7 @@ include('includes/header.php');
             padding: 20px 10px;
             background: #fff;
             border: 1.5px solid #cbd5e1;
-            border-radius: 18px;
+            border-radius: 30px !important;
             text-align: center;
             transition: all 0.3s ease;
             height: 100%;
@@ -319,11 +319,11 @@ include('includes/header.php');
 
         .submit-btn {
             width: 100%;
-            padding: 20px;
+            padding: 15px 20px;
             background: #4ec0db;
             color: var(--white);
             border: none;
-            border-radius: 20px;
+            border-radius: 30px !important;
             font-size: 18px;
             font-weight: 800;
             cursor: pointer;
@@ -369,20 +369,25 @@ include('includes/header.php');
 </head>
 
 <body>
+
     <section>
         <img src="assets/img/spiti-valley/spiti-cover.jpg" alt="Spiti Valley Banner"
             style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
     </section>
 
+
     <div class="page-wrapper">
         <div class="enquiry-container">
+            <!-- Main Form Section -->
             <div class="form-section">
                 <div class="section-header">
                     <h1>Spiti Valley Plan Your Trip</h1>
                 </div>
 
                 <form action="spiti-valley-enquiry-mail.send.php" method="POST">
+
                     <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 0;">
+                        <!-- Full Name -->
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Full Name</label>
                             <div class="input-wrapper">
@@ -390,16 +395,9 @@ include('includes/header.php');
                                 <input type="text" name="name" placeholder="Enter Your Full Name" required>
                             </div>
                         </div>
-
-                        <div class="form-group" style="flex: 1; min-width: 220px;">
-                            <label>Email Address</label>
-                            <div class="input-wrapper ">
-                                <i class="fa-regular fa-envelope"></i>
-                                <input type="email" name="email" placeholder="Enter Your Email Address" required>
-                            </div>
-                        </div>
                     </div>
 
+                    <!-- WhatsApp Number -->
                     <div class="form-group">
                         <label>WhatsApp Number</label>
                         <div class="whatsapp-wrapper">
@@ -411,17 +409,7 @@ include('includes/header.php');
                         </div>
                     </div>
 
-                    <div class="form-group">
-                        <label>Which destination are you interested in?</label>
-                        <div class="input-wrapper">
-                            <i class="fa-solid fa-earth-asia"></i>
-                            <select name="destination" required>
-                                <option value="Spiti Valley">Spiti Valley</option>
-                            </select>
-                            <i class="fa-solid fa-chevron-down dropdown-icon"></i>
-                        </div>
-                    </div>
-
+                    <!-- Number of People -->
                     <div class="form-group">
                         <label>Number of People</label>
                         <div class="radio-group">
@@ -457,6 +445,7 @@ include('includes/header.php');
                     </div>
 
                     <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap;">
+                        <!-- Type of Trip -->
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Trip Preference</label>
                             <div class="input-wrapper">
@@ -469,6 +458,7 @@ include('includes/header.php');
                             </div>
                         </div>
 
+                        <!-- Month -->
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Travel Month</label>
                             <div class="input-wrapper">
@@ -493,23 +483,19 @@ include('includes/header.php');
                         </div>
                     </div>
 
-                    <div class="form-group">
-                        <label>Additional Information (Optional)</label>
-                        <textarea class="input-wrapper-textarea" name="message"
-                            placeholder="Any specific requirements or travel goals?"></textarea>
-                    </div>
-
+                    <!-- Submit -->
                     <button type="submit" class="submit-btn" name="submit">
-                        <span>Send My Enquiry</span>
-                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>Submit</span>
                     </button>
+
                 </form>
             </div>
         </div>
     </div>
 
+
     <?php include('includes/footer.php'); ?>
+
 </body>
 
 </html>
-

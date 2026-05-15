@@ -9,7 +9,30 @@ include('includes/header.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry Form - Roamers | Plan Your Adventure</title>
+    <title>Enquire Now: Valley of Flowers Trek - Roamers</title>
+    <!-- SEO Meta Description -->
+    <meta name="description" content="Book your Valley of Flowers trek with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India." />
+    <meta name="author" content="Roamers" />
+
+    <!-- Open Graph tags -->
+    <meta property="og:site_name" content="Roamers" />
+    <meta property="og:title" content="Enquire Now: Valley of Flowers Trek - Roamers" />
+    <meta property="og:description" content="Book your Valley of Flowers trek with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India." />
+    <meta property="og:image" content="https://roamers.in/assets/img/valley-of-flowers/open-grap-img/valley-of-flowers-og.jpg" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/valley-of-flowers/open-grap-img/valley-of-flowers-og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Valley of Flowers Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
+    <meta property="og:url" content="https://roamers.in/valley-of-flowers-enquiry-form.php" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X Card tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Enquire Now: Valley of Flowers Trek - Roamers" />
+    <meta name="twitter:description" content="Book your Valley of Flowers trek with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India." />
+    <meta name="twitter:image" content="https://roamers.in/assets/img/valley-of-flowers/open-grap-img/valley-of-flowers-og.jpg" />
+    <meta name="twitter:image:alt" content="Valley of Flowers Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->

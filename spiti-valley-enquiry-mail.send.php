@@ -5,14 +5,11 @@ if (isset($_POST['submit'])) {
     // 1. Collect Data
     $date = date('Y-m-d H:i:s');
     $post_data = [
-        'name'        => $_POST['name'] ?? '',
-        'email'       => $_POST['email'] ?? '',
-        'phone'       => $_POST['phone'] ?? '',
-        'destination' => $_POST['destination'] ?? '',
-        'pax'         => $_POST['pax'] ?? '',
-        'trip_type'   => $_POST['trip_type'] ?? '',
-        'month'       => $_POST['month'] ?? '',
-        'message'     => $_POST['message'] ?? ''
+        'name'        => trim($_POST['name'] ?? ''),
+        'phone'       => trim($_POST['phone'] ?? ''),
+        'pax'         => trim($_POST['pax'] ?? ''),
+        'trip_type'   => trim($_POST['trip_type'] ?? ''),
+        'month'       => trim($_POST['month'] ?? '')
     ];
 
     // 2. YOUR GOOGLE WEBHOOK URL
@@ -27,7 +24,7 @@ if (isset($_POST['submit'])) {
     $fp = fopen($local_file, 'a');
     if ($fp) {
         if ($is_new) {
-            fputcsv($fp, ['Date', 'Name', 'Email', 'Phone', 'Destination', 'Pax', 'Trip Type', 'Month', 'Message']);
+            fputcsv($fp, ['Date', 'Name', 'Phone', 'Pax', 'Trip Type', 'Month']);
         }
         fputcsv($fp, array_merge([$date], array_values($post_data)));
         fclose($fp);

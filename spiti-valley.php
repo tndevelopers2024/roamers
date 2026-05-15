@@ -9,22 +9,27 @@
 
   <!-- SEO Meta Description -->
   <meta name="description" content="Join Roamers for an unforgettable Spiti Valley winter expedition. Discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh. Experience adventure, culture, and breathtaking views in one of India's most remote regions." />
-  <meta name="author" content="Themeland" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
+  <meta name="author" content="Roamers" />
 
-  <!-- Basic Open Graph tags -->
+  <!-- Open Graph tags (Instagram, Facebook, LinkedIn, Discord, WhatsApp) -->
+  <meta property="og:site_name" content="Roamers" />
   <meta property="og:title" content="Roamers - Spiti Valley Winter Expedition: Explore Himalayan Monasteries & Cold Desert Beauty" />
   <meta property="og:description" content="Join Roamers for an unforgettable Spiti Valley winter expedition. Discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh. Experience adventure, culture, and breathtaking views in one of India's most remote regions." />
   <meta property="og:image" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Spiti Valley Winter Expedition - Ancient monasteries and stunning cold desert landscapes" />
   <meta property="og:url" content="https://roamers.in/spiti-valley.php" />
   <meta property="og:type" content="website" />
+
+  <!-- Twitter / X Card tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Roamers - Spiti Valley Winter Expedition: Explore Himalayan Monasteries & Cold Desert Beauty" />
   <meta name="twitter:description" content="Join Roamers for an unforgettable Spiti Valley winter expedition. Discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh. Experience adventure, culture, and breathtaking views in one of India's most remote regions." />
   <meta name="twitter:image" content="https://roamers.in/assets/img/spiti-valley/p5.jpg" />
-
-  <!-- Title  -->
+  <meta name="twitter:image:alt" content="Spiti Valley Winter Expedition - Ancient monasteries and stunning cold desert landscapes" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/valley-of-flowers.css" />
 
