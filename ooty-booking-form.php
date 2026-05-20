@@ -19,8 +19,8 @@
   <meta name="keywords" content="travel, travel destinations, travel tips, travel guides,
     vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
+  <meta property="og:image" content="https://roamers.in/assets/img/Ooty/Ooty%20pic%201.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Ooty/Ooty%20pic%201.jpg" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
   <!-- Title  -->

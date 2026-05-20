@@ -5,28 +5,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg"
-        width="600" height="600" alt="image for ooty" />
     <title>Roamers - Ooty Trip</title>
 
     <!-- SEO Meta Description -->
     <meta name="description" content="Roamers - Ooty Trip" />
     <meta name="author" content="Themeland" />
-    <meta property="og:image:width" content="700" />
-    <meta property="og:image:height" content="500" />
-
-    <!-- Basic Open Graph tags -->
-    <meta property="og:title" content="Roamers - Ooty Trip" />
-    <meta property="og:description"
-        content="Join our Ooty trip for an unforgettable adventure, curated experiences, and new friendships." />
-    <meta property="og:image" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg" />
-    <meta property="og:url" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg" />
+    <!-- Open Graph tags (Instagram, Facebook, LinkedIn, Discord, WhatsApp) -->
+    <meta property="og:site_name" content="Roamers" />
+    <meta property="og:title" content="Roamers - Ooty-christmas&newyear Trip" />
+    <meta property="og:description" content="Join our Ooty trip for an unforgettable adventure, curated experiences, and new friendships." />
+    <meta property="og:image" content="https://roamers.in/assets/img/Ooty/Ooty%20pic%201.jpg" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Ooty/Ooty%20pic%201.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Roamers Ooty Trip Adventure" />
+    <meta property="og:url" content="https://roamers.in/ooty" />
     <meta property="og:type" content="website" />
+
+    <!-- Twitter / X Card tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Roamers - Ooty Trip" />
-    <meta name="twitter:description"
-        content="Join our Ooty trip for an unforgettable adventure, curated experiences, and new friendships." />
-    <meta name="twitter:image" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg" />
+    <meta name="twitter:title" content="Roamers - Ooty-christmas&newyear Trip" />
+    <meta name="twitter:description" content="Join our Ooty trip for an unforgettable adventure, curated experiences, and new friendships." />
+    <meta name="twitter:image" content="https://roamers.in/assets/img/Ooty/Ooty%20pic%201.jpg" />
+    <meta name="twitter:image:alt" content="Roamers Ooty Trip Adventure" />
 
     <!-- Title  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

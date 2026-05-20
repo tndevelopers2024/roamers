@@ -19,8 +19,8 @@ session_start();
   <meta name="description" content="Roamers - Ooty Trip" />
   <meta name="keywords" content="Roamers - Ooty Trip,">
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
+  <meta property="og:image" content="https://roamers.in/assets/img/Ooty/Ooty%20pic%201.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Ooty/Ooty%20pic%201.jpg" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
