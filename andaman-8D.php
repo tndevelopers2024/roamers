@@ -5,24 +5,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways,
-and group travel experiences. Explore, connect, and create unforgettable memories with
-like-minded travelers!
-">
-  <title>Roamers - Andaman 8Days 7Nights</title>
-  <meta name="title" content="Roamers - Andaman 8Days 7Nights" />
-  <!-- SEO Meta Description -->
-  <meta name="description" content="Join Roamers, a social travel agency offering exciting solo trip packages, weekend getaways,
-and group travel experiences. Explore, connect, and create unforgettable memories with
-like-minded travelers!
-" />
-  <meta name="keywords" content="travel, travel destinations, travel tips, travel guides,
-    vacation, explore, adventure, travel experiences, travel inspiration, Roamers">
+  <title>Roamers - Andaman 8 Days 7 Nights Tour Package</title>
+  <meta name="description" content="Explore the Andaman Islands in 8 days with Roamers. Snorkel at Havelock Island, visit Cellular Jail, trek through rainforests, and relax on pristine beaches. Book your Andaman 8D/7N package today!" />
+  <meta name="keywords" content="Andaman 8 days tour, Andaman trip package, Havelock Island, Cellular Jail, Andaman Nicobar, Roamers travel" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/dubai/1.jpg" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/dubai/1.jpg" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
+  <!-- Open Graph tags -->
+  <meta property="og:site_name" content="Roamers" />
+  <meta property="og:title" content="Roamers - Andaman 8 Days 7 Nights Tour Package" />
+  <meta property="og:description" content="Explore the Andaman Islands in 8 days with Roamers. Snorkel at Havelock Island, visit Cellular Jail, trek through rainforests, and relax on pristine beaches." />
+  <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/Andaman-cover-min.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/Andaman-cover-min.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Andaman Islands – crystal-clear turquoise waters and white-sand beaches" />
+  <meta property="og:url" content="https://roamers.in/andaman-8D.php" />
+  <meta property="og:type" content="website" />
   <!-- Title  -->
 
   <!-- Title  -->

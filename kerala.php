@@ -5,27 +5,26 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Kerala/Kerala%20photos.jpg" width="600"
-    height="600" alt="image for ooty" />
-  <title>Roamers - Kerala Trip</title>
+  <title>Roamers - Kerala Trip Packages | Backwaters, Hills & Beaches</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Kerala  Trip" />
+  <meta name="description" content="Explore Kerala with Roamers – houseboat backwaters in Alleppey, tea estates of Munnar, beaches of Varkala, and lush Wayanad forests. Book your Kerala trip package today!" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
-
-  <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Kerala  Trip" />
-  <meta property="og:description"
-    content="Join our Kerala  trip for an unforgettable adventure, curated experiences, and new friendships." />
+  <!-- Open Graph tags -->
+  <meta property="og:site_name" content="Roamers" />
+  <meta property="og:title" content="Roamers - Kerala Trip Packages | Backwaters, Hills & Beaches" />
+  <meta property="og:description" content="Explore Kerala with Roamers – houseboat backwaters in Alleppey, tea estates of Munnar, beaches of Varkala, and lush Wayanad forests. Book your Kerala trip package today!" />
   <meta property="og:image" content="https://roamers.in/assets/img/Kerala/Kerala%20photos.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/Kerala/Kerala%20photos.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Kerala/Kerala%20photos.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Kerala – tranquil backwaters with houseboats and lush green coconut groves" />
+  <meta property="og:url" content="https://roamers.in/kerala.php" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Kerala  Trip" />
-  <meta name="twitter:description"
-    content="Join our Kerala  trip for an unforgettable adventure, curated experiences, and new friendships." />
+  <meta name="twitter:title" content="Roamers - Kerala Trip Packages | Backwaters, Hills & Beaches" />
+  <meta name="twitter:description" content="Explore Kerala with Roamers – houseboat backwaters in Alleppey, tea estates of Munnar, beaches of Varkala, and lush Wayanad forests. Book your Kerala trip package today!" />
   <meta name="twitter:image" content="https://roamers.in/assets/img/Kerala/Kerala%20photos.jpg" />
 
   <!-- Title  -->

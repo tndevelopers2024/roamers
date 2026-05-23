@@ -75,7 +75,7 @@ include('includes/header.php');
 
 
         .page-wrapper {
-            padding: 80px  80px;
+            padding: 80px 80px;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -273,7 +273,8 @@ include('includes/header.php');
         .input-wrapper select {
             width: 100% !important;
             height: 100% !important;
-            padding: 0 45px 0 52px; /* Increased right padding for select arrow */
+            padding: 0 45px 0 52px;
+            /* Increased right padding for select arrow */
             border: none !important;
             border-radius: 30px !important;
             font-size: 15px;
@@ -723,13 +724,15 @@ include('includes/header.php');
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;"> 
                 <img src="assets/img/ladakh/mobile-banner.avif" alt="Ladakh Banner Mobile" class="d-block d-md-none"
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;">  -->
-        <img src="assets/img/valley-of-flowers/banner/roamers-image-1.avif" alt=""
-            style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
+
+        <img src="assets/img/valley-of-flowers/banner/roamers-image-1.avif" alt="" style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
+
     </section>
 
 
     <div class="page-wrapper">
         <div class="enquiry-container">
+            
             <!-- Side Information Area -->
             <!-- <div class="side-info">
                 <div>
@@ -893,7 +896,7 @@ include('includes/header.php');
                     </div>
 
                     <!-- Message -->
-                        <!-- <div class="form-group">
+                    <!-- <div class="form-group">
                             <label>Additional Information (Optional)</label>
                             <textarea class="input-wrapper-textarea" name="message"
                                 placeholder="Any specific requirements or travel goals?"></textarea>

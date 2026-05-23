@@ -5,32 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <!-- SEO Meta Description -->
     <meta name="description" content="" />
-    <meta name="author" content="Themeland" />
-    <!-- Title  -->
+    <meta name="author" content="Roamers" />
     <title>Roamers</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!-- slider css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png" />
-
-    <!-- ***** All CSS Files ***** -->
-    <!-- ***** Font Asesome cdn ***** -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!-- Responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -38,567 +26,511 @@
         crossorigin="anonymous"></script>
 
     <style>
-        :root {
-            --footer-bg: #4ec0db;
-            --footer-dark: #3fb3cf;
-            --footer-bottom: #35a5c1;
-            --text-white: #ffffff;
-            --text-light: rgba(255, 255, 255, 0.85);
+        /* ===== FOOTER ===== */
+        .roamers-footer {
+            background: #ffffff;
+            padding: 36px 28px 0;
+            font-family: 'Plus Jakarta Sans', 'Heebo', sans-serif;
         }
 
-        .footer-section {
-            background-color: var(--footer-bg);
-            color: var(--text-white);
-            font-family: 'Heebo', sans-serif;
+        /* Blue liquid glass card */
+        .f-card {
+            background: linear-gradient(135deg, #4ec0db 0%, #3aafca 100%);
+            border-radius: 28px;
+            padding: 74px 76px 76px;
             position: relative;
-            padding: 0;
+            overflow: hidden;
+            box-shadow:
+                0 20px 60px rgba(78,192,219,0.35),
+                0 4px 20px rgba(0,0,0,0.08),
+                inset 0 1px 0 rgba(255,255,255,0.45),
+                inset 0 -1px 0 rgba(0,0,0,0.06);
+            border: 1px solid rgba(255,255,255,0.35);
+            max-width: 1400px;
+            margin: 0 auto;
         }
 
-        /* Top Features Bar */
-        .footer-features {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 40px 0;
+        /* Glass sheen overlay */
+        .f-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                145deg,
+                rgba(255,255,255,0.18) 0%,
+                rgba(255,255,255,0.04) 40%,
+                rgba(0,0,0,0.03) 100%
+            );
+            border-radius: inherit;
+            pointer-events: none;
         }
 
-        .feature-item {
-            display: flex;
-            align-items: center;
-            gap: 15px;
+        /* Subtle glow blob top-right */
+        .f-card::after {
+            content: '';
+            position: absolute;
+            top: -60px;
+            right: -60px;
+            width: 280px;
+            height: 280px;
+            background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 65%);
+            pointer-events: none;
         }
 
-        .feature-item i {
-            font-size: 24px;
-            color: rgba(255, 255, 255, 0.5);
+        /* ── Col 1: Brand ── */
+        .f-logo-wrap {
+            margin-bottom: 18px;
         }
 
-        .feature-content h4 {
-            font-size: 14px;
-            font-weight: 700;
-            margin: 0;
-            color: var(--text-white);
-            letter-spacing: 0.5px;
+        .f-logo-wrap img {
+            max-width: 130px;
         }
 
-        .feature-content p {
-            font-size: 11px;
-            margin: 0;
-            color: var(--text-light);
-        }
-
-        /* Main Footer */
-        .footer-main {
-            padding: 80px 0 60px;
-        }
-
-        .footer-brand-col .footer-logo img {
-            max-width: 180px;
-            margin-bottom: 25px;
-        }
-
-        .footer-brand-col p {
+        .f-tagline {
             font-size: 13px;
-            line-height: 1.6;
-            color: var(--text-light);
-            margin-bottom: 20px;
+            font-weight: 500;
+            line-height: 1.75;
+            color: rgba(255,255,255,0.78);
+            margin-bottom: 18px;
         }
 
-        .location-info {
+        .f-location-line {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 7px;
             font-size: 12px;
-            margin-bottom: 25px;
+            font-weight: 600;
+            color: rgba(255,255,255,0.65);
+            margin-bottom: 22px;
         }
 
-        .social-links {
-            display: flex;
-            gap: 15px;
-        }
+        .f-location-line i { color: #fff; font-size: 12px; }
 
-        .social-links a {
-            width: 35px;
-            height: 35px;
-            background: rgba(255, 255, 255, 0.1);
+        .f-socials { display: flex; gap: 10px; }
+
+        .f-socials a {
+            width: 36px;
+            height: 36px;
             border-radius: 50%;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
             display: flex;
             align-items: center;
             justify-content: center;
+            color: rgba(255,255,255,0.85);
+            font-size: 13px;
+            transition: all 0.22s;
+        }
+
+        .f-socials a:hover {
+            background: rgba(255,255,255,0.3);
             color: #fff;
-            font-size: 14px;
-            transition: 0.3s;
+            transform: translateY(-2px);
         }
 
-        .social-links a:hover {
-            background: #fff;
-            color: var(--footer-bg);
+        /* ── Col headings ── */
+        .f-col-heading {
+            font-size: 15px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.25);
+            letter-spacing: 0.2px;
         }
 
-        .footer-widget-heading h3 {
-            font-size: 16px;
-            font-weight: 700;
-            margin-bottom: 30px;
-            color: var(--text-white);
-        }
+        .f-nav-list { list-style: none; padding: 0; margin: 0; }
+        .f-nav-list li { margin-bottom: 11px; }
 
-        .footer-links-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .footer-links-list li {
-            margin-bottom: 12px;
-        }
-
-        .footer-links-list a {
-            color: var(--text-light);
+        .f-nav-list a {
+            font-size: 13.5px;
+            font-weight: 600;
+            color: rgba(255,255,255,0.78);
             text-decoration: none;
-            font-size: 13px;
-            transition: 0.2s;
+            transition: color 0.2s;
         }
 
-        .footer-links-list a:hover {
-            color: #fff;
-            padding-left: 5px;
-        }
+        .f-nav-list a:hover { color: #fff; }
 
-        /* Stay Updated & Trip Support */
-        .newsletter-form {
-            position: relative;
-            margin-bottom: 30px;
-        }
+        /* ── Contact Info ── */
+        .f-contact-list { display: flex; flex-direction: column; gap: 18px; }
 
-        .newsletter-form input {
-            width: 100%;
-            background: #fff;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 4px;
-            font-size: 13px;
-        }
+        .f-ci { display: flex; align-items: flex-start; gap: 14px; }
 
-        .newsletter-form button {
-            position: absolute;
-            right: 0;
-            top: 0;
-            height: 100%;
-            background: transparent;
-            border: none;
-            padding: 0 15px;
-            color: #ccc;
-        }
-
-        .trip-support-card {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 20px;
-        }
-
-        .support-header {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-
-        .support-header h4 {
-            font-size: 13px;
-            font-weight: 700;
-            margin: 0;
-            color: var(--text-light);
-            text-transform: uppercase;
-        }
-
-        .support-hours {
-            font-size: 12px;
-        }
-
-        .hour-row {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 12px;
-            color: var(--text-light);
-        }
-
-        .booking-status {
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding-top: 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .status-label {
-            font-size: 12px;
-            font-weight: 700;
-        }
-
-        .status-value {
-            font-size: 10px;
-            font-weight: 700;
-            color: #fff;
-            text-transform: uppercase;
-        }
-
-        /* Contact Details Bar */
-        .footer-contact-bar {
-            background: var(--footer-dark);
-            padding: 30px 0;
-        }
-
-        .contact-item-bar {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .contact-item-bar i {
-            font-size: 20px;
-            color: rgba(255, 255, 255, 0.5);
-        }
-
-        .contact-content-bar span {
-            display: block;
-            font-size: 10px;
-            color: var(--text-light);
-            text-transform: uppercase;
-            font-weight: 700;
-            margin-bottom: 2px;
-        }
-
-        .contact-content-bar h5 {
-            font-size: 13px;
-            font-weight: 700;
-            margin: 0;
-            color: #fff;
-        }
-
-        /* Copyright Bar */
-        .footer-bottom-bar {
-            background: var(--footer-bottom);
-            padding: 20px 0;
-            font-size: 12px;
-            color: var(--text-light);
-        }
-
-        .payment-icons {
-            display: flex;
-            justify-content: flex-end;
-            gap: 15px;
-            opacity: 0.7;
-        }
-
-        /* Brand Badge */
-        .footer-badge {
-            position: absolute;
-            top: -30px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 60px;
-            background: #fff;
+        .f-ci-icon {
+            width: 38px;
+            height: 38px;
+            flex-shrink: 0;
             border-radius: 50%;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.45);
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            z-index: 10;
         }
 
-        .footer-badge img {
-            width: 35px;
-            height: auto;
+        .f-ci-icon i { font-size: 14px; color: #fff; }
+
+        .f-ci-title {
+            font-size: 13px;
+            font-weight: 800;
+            color: #fff;
+            margin: 0 0 3px;
+            line-height: 1.2;
         }
 
+        .f-ci-detail {
+            font-size: 12px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.7);
+            margin: 0;
+            line-height: 1.5;
+            text-decoration: none;
+        }
+
+        .f-ci-detail:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        /* ── Divider ── */
+        .f-divider {
+            border: none;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            margin: 36px 0 0;
+        }
+
+        /* ── Bottom bar ── */
+        .f-bottom {
+            background: #ffffff;
+            padding: 16px 20px;
+        }
+
+        .f-bottom-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .f-copyright {
+            font-size: 12px;
+            font-weight: 600;
+            color: #9ca3af;
+            margin: 0;
+        }
+
+        .f-bottom-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .f-bottom-links a {
+            font-size: 12px;
+            font-weight: 600;
+            color: #6b7280;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .f-bottom-links a:hover { color: #4ec0db; }
+
+        .f-bottom-sep {
+            color: #d1d5db;
+            font-size: 12px;
+        }
+
+        /* ===================================================
+           TABLET
+        =================================================== */
         @media (max-width: 991px) {
-            .footer-badge { width: 50px; height: 50px; top: -25px; }
-            .footer-badge img { width: 28px; }
-            .footer-features { padding: 40px 0 10px; }
-            .footer-features .row > div { margin-bottom: 30px; }
-            .footer-main { padding: 50px 0 20px; }
-            .main-row > div { margin-bottom: 40px; }
-            .contact-item-bar { margin-bottom: 25px; }
-            .payment-icons { justify-content: center; margin-top: 20px; }
-            .text-lg-left { text-align: center !important; }
+            .f-card { padding: 48px 36px 40px; }
         }
 
+        /* ===================================================
+           MOBILE
+        =================================================== */
         @media (max-width: 767px) {
-            .footer-features .row { display: flex; flex-wrap: wrap; }
-            .footer-features .row > div { width: 50%; margin-bottom: 30px; }
-            .feature-item { 
-                flex-direction: column; 
-                text-align: center; 
-                gap: 8px;
-            }
-            .feature-item i { font-size: 20px; margin: 0; }
-            .feature-content h4 { font-size: 11px; }
-            .feature-content p { font-size: 9px; }
+            .roamers-footer { padding: 20px 14px 0; }
+            .f-card { padding: 36px 24px 36px; border-radius: 22px; }
 
-            .footer-brand-col { text-align: center; margin-bottom: 50px; }
-            .footer-brand-col .footer-logo img { max-width: 150px; margin: 0 auto 20px; }
-            .footer-brand-col p { font-size: 12px; }
-            .location-info { justify-content: center; font-size: 11px; }
-            .social-links { justify-content: center; gap: 10px; }
-            .social-links a { width: 32px; height: 32px; font-size: 12px; }
-            
-            .footer-widget-heading { text-align: center; margin-bottom: 20px; }
-            .footer-widget-heading h3 { font-size: 14px; }
-            .footer-links-list { text-align: center; margin-bottom: 40px; }
-            .footer-links-list a { font-size: 12px; }
-            
-            .newsletter-form { max-width: 280px; margin: 0 auto 25px; }
-            .newsletter-form input { padding: 10px 15px; font-size: 12px; }
-            .trip-support-card { max-width: 300px; margin: 0 auto; padding: 15px; }
-            .support-header h4 { font-size: 11px; }
-            .hour-row { font-size: 11px; }
-            
-            .footer-contact-bar { padding: 40px 0 10px; }
-            .contact-item-bar { flex-direction: row; justify-content: flex-start; text-align: left; padding: 0 15px; margin-bottom: 25px; width: 100%; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 15px; }
-            .contact-item-bar i { font-size: 18px; width: 30px; }
-            .contact-content-bar h5 { font-size: 12px; }
-            
-            .footer-bottom-bar { text-align: center; padding: 25px 0; }
-            .footer-bottom-bar p { font-size: 11px; margin-bottom: 15px; }
+            .f-logo-wrap img { max-width: 110px; }
+            .f-tagline { font-size: 13px; }
+
+            .f-brand-col { text-align: center; margin-bottom: 28px; }
+            .f-brand-col .f-socials { justify-content: center; }
+            .f-brand-col .f-location-line { justify-content: center; }
+
+            /* 2-col top link grid on mobile */
+            .f-links-mobile {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+            /* Service + Contact side by side on mobile */
+            .f-mobile-bottom-row {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                margin-bottom: 28px;
+            }
+
+            .f-col-heading { font-size: 13px; margin-bottom: 14px; color: #fff; }
+            .f-nav-list a { font-size: 13px; color: rgba(255,255,255,0.78); }
+            .f-nav-list li { margin-bottom: 9px; }
+
+            /* Contact list: 2-col grid */
+            .f-contact-list {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .f-ci { gap: 10px; }
+            .f-ci-icon { width: 34px; height: 34px; }
+            .f-ci-icon i { font-size: 13px; }
+            .f-ci-title { font-size: 12px; }
+            .f-ci-detail { font-size: 11px; }
+
+            .f-divider { margin: 24px 0 0; }
+
+            /* Bottom bar */
+            .f-bottom { padding: 14px 12px; }
+            .f-bottom-inner { flex-direction: column; align-items: center; padding: 0; gap: 8px; }
+            .f-copyright { font-size: 11px; text-align: center; }
+            .f-bottom-links { gap: 10px 16px; flex-wrap: wrap; justify-content: center; }
+            .f-bottom-links a { font-size: 11px; white-space: nowrap; }
+            .f-bottom-sep { display: none; }
+        }
+
+        @media (max-width: 480px) {
+            .f-mobile-bottom-row { grid-template-columns: 1fr 1fr; }
+            .f-contact-list { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 
 <body>
 
-    <footer class="footer-section">
-        <!-- Top Features Bar -->
-        <div class="footer-features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="feature-item">
-                            <i class="fa-solid fa-users"></i>
-                            <div class="feature-content">
-                                <h4>SOCIAL COMMUNITY</h4>
-                                <p>Adventure with travelers</p>
-                            </div>
-                        </div>
+<footer class="roamers-footer">
+
+    <!-- ── Rounded Card ─────────────────────────────── -->
+    <div class="container-fluid px-0">
+        <div class="f-card mx-auto" style="max-width: 1480px;">
+            <div class="row g-4 g-lg-5 position-relative">
+
+                <!-- Brand -->
+                <div class="col-lg-3 col-12 f-brand-col">
+                    <div class="f-logo-wrap">
+                        <a href="index">
+                            <img src="assets/img/Logo/Roamers.png" alt="Roamers">
+                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="feature-item">
-                            <i class="fa-solid fa-map-location-dot"></i>
-                            <div class="feature-content">
-                                <h4>CURATED TRIPS</h4>
-                                <p>Handcrafted itineraries</p>
-                            </div>
-                        </div>
+                    <p class="f-tagline">
+                        Looking for a unique travel experience beyond just tourist spots? Join Roamers — the ultimate travel community that ignites your sense of adventure.
+                    </p>
+                    <div class="f-location-line">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Chennai, Delhi, India</span>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="feature-item">
-                            <i class="fa-solid fa-user-tie"></i>
-                            <div class="feature-content">
-                                <h4>EXPERT CAPTAINS</h4>
-                                <p>Safe & professional lead</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="feature-item">
-                            <i class="fa-solid fa-shield-check"></i>
-                            <div class="feature-content">
-                                <h4>VERIFIED STAYS</h4>
-                                <p>Reliable accommodations</p>
-                            </div>
-                        </div>
+                    <div class="f-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/roamers.in/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Main Footer Section -->
-        <div class="footer-main">
-            <div class="container">
-                <div class="row main-row">
-                    <div class="col-lg-3 footer-brand-col">
-                        <div class="footer-logo">
-                            <a href="index"><img src="assets/img/Logo/Roamers.png" class="img-fluid" alt="logo"></a>
+                <!-- Backpacking — desktop -->
+                <div class="col-lg-2 d-none d-lg-block">
+                    <p class="f-col-heading">Backpacking</p>
+                    <ul class="f-nav-list">
+                        <li><a href="kerala">Kerala</a></li>
+                        <li><a href="#">Leh Ladakh</a></li>
+                        <li><a href="andaman">Andaman Island</a></li>
+                        <li><a href="meghalaya">Meghalaya</a></li>
+                        <li><a href="#">Spiti Valley</a></li>
+                    </ul>
+                </div>
+
+                <!-- Short Breaks — desktop -->
+                <div class="col-lg-2 d-none d-lg-block">
+                    <p class="f-col-heading">Short Breaks</p>
+                    <ul class="f-nav-list">
+                        <li><a href="ooty">Ooty</a></li>
+                        <li><a href="pondicherry">Pondicherry</a></li>
+                        <li><a href="kolukkumalai">Kolukkumalai</a></li>
+                        <li><a href="kodaikanal">Kodaikanal</a></li>
+                        <li><a href="chikmagalur">Chikmagalur</a></li>
+                    </ul>
+                </div>
+
+                <!-- Service — desktop -->
+                <div class="col-lg-2 d-none d-lg-block">
+                    <p class="f-col-heading">Service</p>
+                    <ul class="f-nav-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="cancellation-policy">Cancellation Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Mobile: links grid -->
+                <div class="col-12 d-lg-none">
+                    <!-- Backpacking + Short Breaks -->
+                    <div class="f-links-mobile">
+                        <div>
+                            <p class="f-col-heading">Backpacking</p>
+                            <ul class="f-nav-list">
+                                <li><a href="kerala">Kerala</a></li>
+                                <li><a href="#">Leh Ladakh</a></li>
+                                <li><a href="andaman">Andaman Island</a></li>
+                                <li><a href="meghalaya">Meghalaya</a></li>
+                                <li><a href="#">Spiti Valley</a></li>
+                            </ul>
                         </div>
-                        <p>
-                            Looking for a unique travel experience that goes beyond just tourist spots? Join
-                            Roamers - the ultimate Travel community that ignites your sense of adventure and
-                            encourages social travel.
-                        </p>
-                        <div class="location-info">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Chennai, Delhi, India</span>
-                        </div>
-                        <div class="social-links">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/roamers.in/"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <div>
+                            <p class="f-col-heading">Short Breaks</p>
+                            <ul class="f-nav-list">
+                                <li><a href="ooty">Ooty</a></li>
+                                <li><a href="pondicherry">Pondicherry</a></li>
+                                <li><a href="kolukkumalai">Kolukkumalai</a></li>
+                                <li><a href="kodaikanal">Kodaikanal</a></li>
+                                <li><a href="chikmagalur">Chikmagalur</a></li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="footer-widget-heading">
-                            <h3>Backpacking</h3>
+                    <!-- Service + Contact Info side by side -->
+                    <div class="f-mobile-bottom-row">
+                        <div>
+                            <p class="f-col-heading">Service</p>
+                            <ul class="f-nav-list">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="cancellation-policy">Cancellation Policy</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
                         </div>
-                        <ul class="footer-links-list">
-                            <li><a href="kerala">Kerala</a></li>
-                            <li><a href="#">Leh Ladakh</a></li>
-                            <li><a href="andaman">Andaman Island</a></li>
-                            <li><a href="meghalaya">Meghalaya</a></li>
-                            <li><a href="#">Spiti Valley</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="footer-widget-heading">
-                            <h3>Short Breaks</h3>
-                        </div>
-                        <ul class="footer-links-list">
-                            <li><a href="ooty">Ooty</a></li>
-                            <li><a href="pondicherry">Pondicherry</a></li>
-                            <li><a href="kolukkumalai">Kolukkumalai</a></li>
-                            <li><a href="kodaikanal">Kodaikanal</a></li>
-                            <li><a href="chikmagalur">Chikmagalur</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="footer-widget-heading">
-                            <h3>Service</h3>
-                        </div>
-                        <ul class="footer-links-list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="cancellation-policy">Cancellation Policy</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget-heading">
-                            <h3>Stay Updated</h3>
-                        </div>
-                        <p style="font-size: 11px; color: var(--text-light); margin-bottom: 15px;">Join our circle for exclusive trip updates and offers.</p>
-                        <div class="newsletter-form">
-                            <input type="email" placeholder="Your email address">
-                            <button><i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-                        
-                        <div class="trip-support-card">
-                            <div class="support-header">
-                                <i class="fa-solid fa-headset" style="color: rgba(255,255,255,0.3);"></i>
-                                <h4>TRIP SUPPORT</h4>
-                            </div>
-                            <div class="support-hours">
-                                <div class="hour-row">
-                                    <span>Mon - Sat</span>
-                                    <span>10 AM - 8 PM</span>
+                        <div>
+                            <p class="f-col-heading">Contact Info</p>
+                            <div class="f-contact-list" style="grid-template-columns:1fr;">
+                                <div class="f-ci">
+                                    <div>
+                                        <p class="f-ci-title">Support Line</p>
+                                        <a class="f-ci-detail" href="tel:+918122121066">+91 81221 21066</a>
+                                    </div>
                                 </div>
-                                <div class="hour-row">
-                                    <span>Sunday</span>
-                                    <span>10 AM - 2 PM</span>
+                                <div class="f-ci">
+                                    <div>
+                                        <p class="f-ci-title">WhatsApp Us</p>
+                                        <a class="f-ci-detail" href="https://wa.me/918122121066" target="_blank" rel="noopener">+91 81221 21066</a>
+                                    </div>
+                                </div>
+                                <div class="f-ci">
+                                    <div>
+                                        <p class="f-ci-title">Email Us</p>
+                                        <a class="f-ci-detail" href="mailto:info@roamers.in">info@roamers.in</a>
+                                    </div>
+                                </div>
+                                <div class="f-ci">
+                                    <div>
+                                        <p class="f-ci-title">Our Offices</p>
+                                        <a class="f-ci-detail" href="https://maps.google.com/?q=Chennai,India" target="_blank" rel="noopener">Chennai &amp; Delhi, India</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="booking-status">
-                                <span class="status-label">BOOKING STATUS</span>
-                                <span class="status-value" style="color: #fff; font-size: 10px;">OPEN DAILY</span>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Contact Details Bar -->
-        <div class="footer-contact-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="contact-item-bar">
-                            <i class="fa-solid fa-phone-volume"></i>
-                            <div class="contact-content-bar">
-                                <span>SUPPORT LINE</span>
-                                <h5>+91 81221 21066</h5>
+                <!-- Contact Info — desktop only -->
+                <div class="col-lg-3 d-none d-lg-block">
+                    <p class="f-col-heading">Contact Info</p>
+                    <div class="f-contact-list">
+
+                        <div class="f-ci">
+                            <div>
+                                <p class="f-ci-title">Support Line</p>
+                                <a class="f-ci-detail" href="tel:+918122121066">+91 81221 21066</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="contact-item-bar">
-                            <i class="fa-solid fa-envelope-open-text"></i>
-                            <div class="contact-content-bar">
-                                <span>EMAIL US</span>
-                                <h5>info@roamers.in</h5>
+
+                        <div class="f-ci">
+                            <div>
+                                <p class="f-ci-title">WhatsApp Us</p>
+                                <a class="f-ci-detail" href="https://wa.me/918122121066" target="_blank" rel="noopener">+91 81221 21066</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="contact-item-bar">
-                            <i class="fa-solid fa-store"></i>
-                            <div class="contact-content-bar">
-                                <span>OUR STORE</span>
-                                <h5>Chennai & Delhi, India</h5>
+
+                        <div class="f-ci">
+                            <div>
+                                <p class="f-ci-title">Email Us</p>
+                                <a class="f-ci-detail" href="mailto:info@roamers.in">info@roamers.in</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="contact-item-bar">
-                            <i class="fa-solid fa-award"></i>
-                            <div class="contact-content-bar">
-                                <span>QUALITY ASSURED</span>
-                                <h5>Travel Excellence</h5>
+
+                        <div class="f-ci">
+                            <div>
+                                <p class="f-ci-title">Our Offices</p>
+                                <a class="f-ci-detail" href="https://maps.google.com/?q=Chennai,India" target="_blank" rel="noopener">Chennai &amp; Delhi, India</a>
                             </div>
                         </div>
+
                     </div>
                 </div>
+
+            </div>
+
+            <hr class="f-divider">
+        </div>
+    </div>
+
+    <!-- ── Bottom Bar ───────────────────────────────── -->
+    <div class="f-bottom">
+        <div class="f-bottom-inner">
+            <p class="f-copyright">
+                &copy; <script>document.write(new Date().getFullYear());</script> Roamers Travel Community. All Rights Reserved.
+            </p>
+            <div class="f-bottom-links">
+                <a href="#">About Us</a>
+                <span class="f-bottom-sep">|</span>
+                <a href="cancellation-policy">Cancellation Policy</a>
+                <span class="f-bottom-sep">|</span>
+                <a href="#">FAQs</a>
+                <span class="f-bottom-sep">|</span>
+                <a href="#">Terms &amp; Conditions</a>
             </div>
         </div>
+    </div>
 
-        <!-- Bottom Copyright Bar -->
-        <div class="footer-bottom-bar">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 ">
-                        <p style="margin: 0; color: var(--text-light); ">&copy; <script>document.write(new Date().getFullYear());</script> Roamers Travel Community. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="payment-icons">
-                            <i class="fa-brands fa-cc-visa"></i>
-                            <i class="fa-brands fa-cc-mastercard"></i>
-                            <i class="fa-brands fa-cc-amex"></i>
-                            <i class="fa-brands fa-cc-paypal"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+</footer>
 
-    <!--====== FOOTER END======-->
-    <!-- ***** All jQuery Plugins ***** -->
-
-    <!-- jQuery(necessary for all JavaScript plugins) -->
-    <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
-
-    <!-- Bootstrap js -->
-    <script src="assets/js/bootstrap/popper.min.js"></script>
-    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-
-    <!-- Plugins js -->
-    <script src="assets/js/plugins/plugins.min.js"></script>
-
-    <!-- Active js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- <script src="assets/js/main.js"></script> -->
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="assets/js/dates.js"></script>
-    <script src="assets/js/active.js"></script>
-    <script src="assets/js/price.js"></script>
-    <script src="assets/js/search.js"></script>
+<!--====== FOOTER END ======-->
+<script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
+<script src="assets/js/bootstrap/popper.min.js"></script>
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/plugins/plugins.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="assets/js/dates.js"></script>
+<script src="assets/js/active.js"></script>
+<script src="assets/js/price.js"></script>
+<script src="assets/js/search.js"></script>
 
 </body>
-
 </html>

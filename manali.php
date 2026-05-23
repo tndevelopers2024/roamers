@@ -5,15 +5,26 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Roamers</title>
+  <title>Roamers - Manali Trip Packages | Himalayan Adventure</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Manali" />
+  <meta name="description" content="Discover Manali with Roamers – snow-capped peaks, Solang Valley, Rohtang Pass, river rafting, and cozy café culture. Book your Manali trip package today!" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/kedarkantha/peak-k.jpg" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/kedarkantha/peak-k.jpg" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
+  <!-- Open Graph tags -->
+  <meta property="og:site_name" content="Roamers" />
+  <meta property="og:title" content="Roamers - Manali Trip Packages | Himalayan Adventure" />
+  <meta property="og:description" content="Discover Manali with Roamers – snow-capped peaks, Solang Valley, Rohtang Pass, river rafting, and cozy café culture. Book your Manali trip package today!" />
+  <meta property="og:image" content="https://roamers.in/assets/img/testimonials/manali.avif" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/testimonials/manali.avif" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Manali – snow-covered mountains and lush valleys in Himachal Pradesh" />
+  <meta property="og:url" content="https://roamers.in/manali.php" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Roamers - Manali Trip Packages | Himalayan Adventure" />
+  <meta name="twitter:description" content="Discover Manali with Roamers – snow-capped peaks, Solang Valley, Rohtang Pass, river rafting, and cozy café culture. Book your Manali trip package today!" />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/testimonials/manali.avif" />
 
   <!-- Title  -->
  

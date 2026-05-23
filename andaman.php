@@ -5,21 +5,23 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Roamers - Andaman</title>
+  <title>Roamers - Andaman Tour Packages | Beaches, Islands & Adventure</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="andaman" />
+  <meta name="description" content="Explore the Andaman Islands with Roamers. Pristine beaches, snorkelling at Havelock, glass-bottom boat rides, Cellular Jail, and lush rainforests. Book your Andaman tour package today!" />
   <meta name="author" content="Themeland" />
+  <!-- Open Graph tags -->
+  <meta property="og:site_name" content="Roamers" />
+  <meta property="og:title" content="Roamers - Andaman Tour Packages | Beaches, Islands & Adventure" />
+  <meta property="og:description" content="Explore the Andaman Islands with Roamers. Pristine beaches, snorkelling at Havelock, glass-bottom boat rides, Cellular Jail, and lush rainforests. Book your Andaman tour package today!" />
   <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
   <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
-  <meta property="og:title" content="Andaman Packages" />
-  <meta property="og:description"
-    content="Discover the best Andaman packages with Roamers. Explore stunning beaches, coral reefs, and cultural experiences. Book your Andaman trip today!" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Andaman Islands – turquoise waters and white-sand beaches" />
   <meta property="og:url" content="https://roamers.in/andaman.php" />
   <meta property="og:type" content="website" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title  -->
 

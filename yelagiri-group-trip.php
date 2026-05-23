@@ -5,28 +5,27 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="#" width="600"
-    height="600" alt="image for ooty" />
-  <title>Roamers - Yelagiri Group Trip</title>
+  <title>Roamers - Yelagiri Group Trip | Weekend Hill Escape</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Yelagiri Group Trip" />
+  <meta name="description" content="Join Roamers' Yelagiri group trip – a perfect weekend hill escape with treks, waterfalls, bonfires, and new friendships. Book your spot now!" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
-
-  <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Roamers - Yelagiri Group Trip" />
-  <meta property="og:description"
-    content="Join our Yelagiri group trip for an unforgettable mountain adventure, curated experiences, and new friendships." />
-  <meta property="og:image" content="#" />
-  <meta property="og:url" content="#" />
+  <!-- Open Graph tags -->
+  <meta property="og:site_name" content="Roamers" />
+  <meta property="og:title" content="Roamers - Yelagiri Group Trip | Weekend Hill Escape" />
+  <meta property="og:description" content="Join Roamers' Yelagiri group trip – a perfect weekend hill escape with treks, waterfalls, bonfires, and new friendships. Book your spot now!" />
+  <meta property="og:image" content="https://roamers.in/assets/img/yelagiri/banner/yelagiri-banner.jpeg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/yelagiri/banner/yelagiri-banner.jpeg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Yelagiri group trip – trekkers enjoying scenic hilltop views" />
+  <meta property="og:url" content="https://roamers.in/yelagiri-group-trip.php" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Yelagiri Group Trip" />
-  <meta name="twitter:description"
-    content="Join our Yelagiri group trip for an unforgettable mountain adventure, curated experiences, and new friendships." />
-  <meta name="twitter:image" content="#" />
+  <meta name="twitter:title" content="Roamers - Yelagiri Group Trip | Weekend Hill Escape" />
+  <meta name="twitter:description" content="Join Roamers' Yelagiri group trip – a perfect weekend hill escape with treks, waterfalls, bonfires, and new friendships. Book your spot now!" />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/yelagiri/banner/yelagiri-banner.jpeg" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

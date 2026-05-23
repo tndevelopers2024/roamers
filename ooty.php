@@ -1240,7 +1240,6 @@
       }
     }
   </style>
-<meta property="og:image:secure_url" content="https://roamers.in/assets/img/wayanad/Chembra-Peak-Wayanad.jpg">
 </head>
 
 <body>

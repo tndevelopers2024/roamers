@@ -5,28 +5,27 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" width="600"
-    height="600" alt="image for ooty" />
-  <title>Roamers - Kedarkantha Trek</title>
+  <title>Roamers - Kedarkantha Trek | Winter Snow Trek in Himalayas</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Kedarkantha Trek - 5 Days 4 Nights winter snow trek through the Himalayas with Roamers" />
+  <meta name="description" content="Conquer the Kedarkantha summit at 12,500 ft with Roamers. A 5-day winter snow trek through pine forests, frozen lakes, and breathtaking Himalayan panoramas. Book your Kedarkantha Trek!" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="500" />
-
-  <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="Kedarkantha Trek - Roamers" />
-  <meta property="og:description"
-    content="Trek through snow-covered forests to a stunning Himalayan summit at 12,500 ft. Book your Kedarkantha Trek with Roamers!" />
-  <meta property="og:image" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" />
-  <meta property="og:url" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" />
+  <!-- Open Graph tags -->
+  <meta property="og:site_name" content="Roamers" />
+  <meta property="og:title" content="Roamers - Kedarkantha Trek | Winter Snow Trek in Himalayas" />
+  <meta property="og:description" content="Conquer the Kedarkantha summit at 12,500 ft with Roamers. A 5-day winter snow trek through pine forests, frozen lakes, and breathtaking Himalayan panoramas." />
+  <meta property="og:image" content="https://roamers.in/assets/img/kedarkantha/peak-k.jpg" />
+  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/kedarkantha/peak-k.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Kedarkantha Trek – snow-covered peak with panoramic Himalayan views" />
+  <meta property="og:url" content="https://roamers.in/kedarkantha.php" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Sri Lanka" />
-  <meta name="twitter:description"
-    content="Trek through snow-covered forests to a stunning Himalayan summit at 12,500 ft. Book your Kedarkantha Trek with Roamers!" />
-  <meta name="twitter:image" content="https://roamers.in/assets/img/kolukkumalai-img/Cover.jpg" />
+  <meta name="twitter:title" content="Roamers - Kedarkantha Trek | Winter Snow Trek in Himalayas" />
+  <meta name="twitter:description" content="Conquer the Kedarkantha summit at 12,500 ft with Roamers. A 5-day winter snow trek through pine forests, frozen lakes, and breathtaking Himalayan panoramas." />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/kedarkantha/peak-k.jpg" />
 
   <!-- Title  -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

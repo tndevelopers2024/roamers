@@ -2020,7 +2020,7 @@
   </section> -->
 
   <section class="rewind-section" style="position: relative; overflow: hidden; padding: 0px 0px 0px 0px ;">
-     <div class="rewind-header" style="margin-bottom: 50px;">
+    <div class="rewind-header">
       <div class="rewind-title-area">
         <h3 class="head" style="text-align: center; margin-bottom: 20px;">
           <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start me-2">

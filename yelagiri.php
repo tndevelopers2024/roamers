@@ -5,21 +5,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Roamers - Yelagiri</title>
+    <title>Roamers - Yelagiri Trip Packages | Hill Station Getaway</title>
 
     <!-- SEO Meta Description -->
-    <meta name="description" content="Yelagiri" />
+    <meta name="description" content="Explore Yelagiri with Roamers – a serene hill station getaway with scenic treks, Jalagamparai waterfalls, Punganur lake, and lush nature trails. Book your Yelagiri trip today!" />
     <meta name="author" content="Themeland" />
-    <meta property="og:image" content="#" />
-    <meta property="og:image:secure_url" content="#" />
-    <meta property="og:image:width" content="700" />
-    <meta property="og:image:height" content="500" />
-    <meta property="og:title" content="Yelagiri Packages" />
-    <meta property="og:description"
-        content="Discover the best Yelagiri packages with Roamers. Explore stunning beaches, cliffs, and cultural experiences. Book your Yelagiri trip today!" />
-    <meta property="og:url" content="#" />
+    <!-- Open Graph tags -->
+    <meta property="og:site_name" content="Roamers" />
+    <meta property="og:title" content="Yelagiri Trip Packages | Hill Station Getaway – Roamers" />
+    <meta property="og:description" content="Explore Yelagiri with Roamers – a serene hill station getaway with scenic treks, Jalagamparai waterfalls, Punganur lake, and lush nature trails. Book your Yelagiri trip today!" />
+    <meta property="og:image" content="https://roamers.in/assets/img/yelagiri/banner/yelagiri-banner.jpeg" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/yelagiri/banner/yelagiri-banner.jpeg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Yelagiri Hill Station – scenic view with lush green valleys" />
+    <meta property="og:url" content="https://roamers.in/yelagiri.php" />
     <meta property="og:type" content="website" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title  -->
 

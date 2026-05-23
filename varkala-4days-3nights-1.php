@@ -247,8 +247,6 @@
     <section class="trip-home" class="banner-marigin-section" id="tripSection"
         style="  padding: 350px 0; color: white; position: relative;  ">
 
-
-
         <div class="container-lg" style="position: relative; text-align: center;">
 
             <h2 class="banner-hight-top ms-2"

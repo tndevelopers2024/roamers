@@ -1,0 +1,16 @@
+Enquiry Forms List
+==================
+Total: 10 enquiry forms
+
+1.  enquiry-form.php                          — General
+2.  andaman-enquiry-form.php                  — Andaman
+3.  ladakh-enquiry-form.php                   — Ladakh
+4.  meghalaya-enquiry-form.php                — Meghalaya
+5.  ooty-enquiry-form.php                     — Ooty
+6.  ooty-christmas&newyear-enquiry-form.php   — Ooty Christmas & New Year
+7.  spiti-chandratal-enquiry-form.php         — Spiti Chandratal
+8.  spiti-valley-enquiry-form.php             — Spiti Valley
+9.  tawang-enquiry-form.php                   — Tawang
+10. valley-of-flowers-enquiry-form.php        — Valley of Flowers
+
+Generated: 2026-05-20

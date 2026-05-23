@@ -5,26 +5,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta property="og:image:secure_url" content="https://hanhhuonghoasen.com.vn/thumbs/748x706x1/upload/product/du-lich-bali-indonesia-9184.jpg" width="600" height="330" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <title>Roamers - Bali Honeymoon / Private Trip 6 Days 5 Nights</title>
+    <title>Roamers - Bali Honeymoon & Private Trip 6 Days 5 Nights</title>
 
     <!-- SEO Meta Description -->
-    <meta name="description" content="Join our romantic Bali getaway. From stunning cliff sunsets to private villa pools, explore the perfect Bali itinerary with Roamers." />
+    <meta name="description" content="Experience a romantic Bali getaway with Roamers. Sunset cliffs at Uluwatu, private villa pools, rice terraces, spa retreats, and vibrant beach clubs – all in 6 days 5 nights." />
     <meta name="author" content="Roamers" />
-    <meta property="og:image:width" content="700" />
-    <meta property="og:image:height" content="500" />
-    <meta property="og:title" content="Roamers - Bali Trip" />
-    <meta property="og:description"
-        content="Join our Bali trip for an unforgettable beach adventure, curated experiences, and new friendships." />
-    <meta property="og:image" content="https://hanhhuonghoasen.com.vn/thumbs/748x706x1/upload/product/du-lich-bali-indonesia-9184.jpg" />
+    <!-- Open Graph tags -->
+    <meta property="og:site_name" content="Roamers" />
+    <meta property="og:title" content="Roamers - Bali Honeymoon & Private Trip 6 Days 5 Nights" />
+    <meta property="og:description" content="Experience a romantic Bali getaway with Roamers. Sunset cliffs at Uluwatu, private villa pools, rice terraces, spa retreats, and vibrant beach clubs – all in 6 days 5 nights." />
+    <meta property="og:image" content="https://roamers.in/assets/img/bali/rewind/bali-1.jpeg" />
+    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/bali/rewind/bali-1.jpeg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Bali trip – lush rice terraces, tropical beaches, and stunning sunsets" />
     <meta property="og:url" content="https://roamers.in/bali-6days-5nights-2.php" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Roamers - Bali Trip" />
-    <meta name="twitter:description"
-        content="Join our Bali trip for an unforgettable beach adventure, curated experiences, and new friendships." />
-    <meta name="twitter:image" content="https://hanhhuonghoasen.com.vn/thumbs/748x706x1/upload/product/du-lich-bali-indonesia-9184.jpg" />
+    <meta name="twitter:title" content="Roamers - Bali Honeymoon & Private Trip 6 Days 5 Nights" />
+    <meta name="twitter:description" content="Experience a romantic Bali getaway with Roamers. Sunset cliffs at Uluwatu, private villa pools, rice terraces, spa retreats, and vibrant beach clubs – all in 6 days 5 nights." />
+    <meta name="twitter:image" content="https://roamers.in/assets/img/bali/rewind/bali-1.jpeg" />
 
     <!-- Title  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
