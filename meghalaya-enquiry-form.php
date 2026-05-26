@@ -16,7 +16,7 @@ include('includes/header.php');
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <style>
+     <style>
         :root {
             --primary: #4ec0db;
             --secondary: #4ec0db;
@@ -38,22 +38,16 @@ include('includes/header.php');
 
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: #f8fbff;
-            background-image:
-                radial-gradient(at 0% 0%, rgba(78, 192, 219, 0.08) 0px, transparent 50%),
-                radial-gradient(at 100% 0%, rgba(9, 64, 103, 0.05) 0px, transparent 50%),
-                radial-gradient(at 50% 100%, rgba(78, 192, 219, 0.05) 0px, transparent 50%);
+            background-color: #f7f7f7;
             margin: 0;
             padding: 0;
             color: var(--text);
             overflow-x: hidden;
         }
 
-
-
         .page-wrapper {
-            padding: 80px  80px;
-            min-height: 100vh;
+            padding: 30px 30px 30px 30px;
+            min-height: auto;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -86,101 +80,6 @@ include('includes/header.php');
             }
         }
 
-        .side-info {
-            flex: 1;
-            background: var(--primary);
-            padding: 60px 45px;
-            color: var(--white);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            position: relative;
-            overflow: hidden;
-            /* Mesh Gradient Effect */
-            background: linear-gradient(135deg, #094067 0%, #0b5082 100%);
-        }
-
-        .side-info::before {
-            content: '';
-            position: absolute;
-            width: 150%;
-            height: 150%;
-            top: -25%;
-            left: -25%;
-            background: radial-gradient(circle at 70% 20%, rgba(78, 192, 219, 0.2) 0%, transparent 40%),
-                radial-gradient(circle at 20% 80%, rgba(78, 192, 219, 0.15) 0%, transparent 40%);
-            animation: meshMove 15s ease-in-out infinite alternate;
-            pointer-events: none;
-        }
-
-        @keyframes meshMove {
-            0% {
-                transform: rotate(0deg) scale(1);
-            }
-
-            100% {
-                transform: rotate(10deg) scale(1.1);
-            }
-        }
-
-        .side-info h2 {
-            font-size: 36px;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 25px;
-            font-family: 'Outfit', sans-serif;
-            position: relative;
-            z-index: 1;
-        }
-
-        .side-info p {
-            font-size: 17px;
-            line-height: 1.7;
-            opacity: 0.85;
-            margin-bottom: 40px;
-            position: relative;
-            z-index: 1;
-        }
-
-        .benefits-list {
-            position: relative;
-            z-index: 1;
-        }
-
-        .benefit-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 24px;
-            background: rgba(255, 255, 255, 0.05);
-            padding: 12px 18px;
-            border-radius: 30px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            transition: all 0.3s;
-        }
-
-        /* .benefit-item:hover {
-            background: rgba(255, 255, 255, 0.1);
-            transform: translateX(8px);
-        } */
-
-        .benefit-item i {
-            width: 36px;
-            height: 36px;
-            background: rgba(78, 192, 219, 0.2);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 18px;
-            color: var(--secondary);
-            font-size: 16px;
-        }
-
-        .benefit-item span {
-            font-weight: 500;
-            font-size: 15px;
-        }
-
         .form-section {
             flex: 1.6;
             padding: 60px;
@@ -194,18 +93,9 @@ include('includes/header.php');
 
         .section-header h1 {
             font-size: 28px;
-            /* color: var(--primary); */
             margin: 0 0 8px 0;
             font-weight: 800;
             font-family: 'Outfit', sans-serif;
-        }
-
-        .section-header p {
-            font-size: 15px;
-            margin: 0;
-            color: var(--text);
-            opacity: 0.6;
-            text-align: center;
         }
 
         .form-group {
@@ -229,7 +119,7 @@ include('includes/header.php');
             height: 52px;
             background: #ffffff;
             border: 1.5px solid #cbd5e1;
-            border-radius: 30px;
+            border-radius: 16px;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
         }
@@ -239,7 +129,7 @@ include('includes/header.php');
             left: 20px;
             top: 50%;
             transform: translateY(-50%);
-            color: #b0bec5;
+            color: #4ec0db;
             transition: all 0.3s;
             font-size: 16px;
             pointer-events: none;
@@ -250,9 +140,9 @@ include('includes/header.php');
         .input-wrapper select {
             width: 100% !important;
             height: 100% !important;
-            padding: 0 45px 0 52px; /* Increased right padding for select arrow */
+            padding: 0 45px 0 52px;
             border: none !important;
-            border-radius: 30px !important;
+            border-radius: 0 !important;
             font-size: 15px;
             font-weight: 500;
             background: transparent !important;
@@ -297,7 +187,7 @@ include('includes/header.php');
             width: 100% !important;
             padding: 15px 20px;
             border: 1.5px solid #cbd5e1;
-            border-radius: 30px;
+            border-radius: 16px;
             font-size: 15px;
             font-weight: 500;
             background: #ffffff;
@@ -312,14 +202,11 @@ include('includes/header.php');
             box-shadow: 0 0 0 4px rgba(78, 192, 219, 0.1), var(--glow);
         }
 
-
-
-        /* WhatsApp Input Group */
         .whatsapp-wrapper {
             display: flex;
             align-items: center;
             border: 1.5px solid #cbd5e1;
-            border-radius: 30px;
+            border-radius: 16px;
             overflow: hidden;
             background: #ffffff;
             transition: all 0.3s;
@@ -367,7 +254,6 @@ include('includes/header.php');
             box-shadow: none !important;
         }
 
-        /* Radio Group */
         .radio-group {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -395,7 +281,7 @@ include('includes/header.php');
             padding: 20px 10px;
             background: #fff;
             border: 1.5px solid #cbd5e1;
-            border-radius: 30px !important;
+            border-radius: 18px;
             text-align: center;
             transition: all 0.3s ease;
             height: 100%;
@@ -405,7 +291,7 @@ include('includes/header.php');
         .radio-box i {
             font-size: 24px;
             margin-bottom: 12px;
-            color: #ccd6dd;
+            color: #4ec0db;
             transition: all 0.3s;
         }
 
@@ -415,12 +301,6 @@ include('includes/header.php');
             color: var(--text);
             transition: all 0.3s;
         }
-
-        /* .radio-card:hover .radio-box {
-            border-color: var(--secondary);
-            background: rgba(78, 192, 219, 0.02);
-            transform: translateY(-2px);
-        } */
 
         .radio-card input:checked+.radio-box {
             border-color: var(--secondary);
@@ -433,18 +313,13 @@ include('includes/header.php');
             transform: scale(1.2);
         }
 
-        /* 
-        .radio-card input:checked + .radio-box span {
-            color: var(--primary);
-        } */
-
         .submit-btn {
             width: 100%;
-            padding: 15px 20px;
+            padding: 20px;
             background: #4ec0db;
             color: var(--white);
             border: none;
-            border-radius: 30px !important;
+            border-radius: 20px;
             font-size: 18px;
             font-weight: 800;
             cursor: pointer;
@@ -458,32 +333,14 @@ include('includes/header.php');
             font-family: 'Outfit', sans-serif;
         }
 
-        /* .submit-btn:hover {
-            transform: translateY(-4px) scale(1.01);
-            box-shadow: 0 20px 40px rgba(9, 64, 103, 0.35);
-            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
-        } */
-
         .submit-btn:active {
             transform: translateY(-1px) scale(1);
         }
-
-        .submit-btn i {
-            transition: transform 0.4s ease;
-        }
-
-        /* .submit-btn:hover i {
-            transform: translateX(6px) rotate(-10deg);
-        } */
 
         @media (max-width: 950px) {
             .enquiry-container {
                 flex-direction: column;
                 max-width: 600px;
-            }
-
-            .side-info {
-                padding: 50px 40px;
             }
 
             .form-section {
@@ -493,7 +350,7 @@ include('includes/header.php');
 
         @media (max-width: 600px) {
             .page-wrapper {
-                padding: 100px 15px 50px;
+                padding: 10px 10px 10px 10px;
             }
 
             .form-section {
@@ -503,13 +360,22 @@ include('includes/header.php');
             .radio-group {
                 grid-template-columns: 1fr 1fr;
             }
-
-            .side-info h2 {
-                font-size: 28px;
-            }
         }
 
-        /* Rewind Section Redesign */
+        /* .head class (mirrors style.css) */
+        .head {
+            position: relative;
+            font-weight: 700;
+            font-size: 32px;
+            text-transform: capitalize;
+            margin: 0 0 2rem;
+            color: #1f2327;
+            line-height: 1.4;
+            text-align: center;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        /* Rewind Section */
         .rewind-section {
             padding: 60px 20px 100px;
             max-width: 1200px;
@@ -538,56 +404,44 @@ include('includes/header.php');
             font-weight: 500;
         }
 
+        .journey-nav-container {
+            display: flex !important;
+            justify-content: center !important;
+            gap: 20px !important;
+            margin-top: 40px !important;
+            width: 100% !important;
+            position: relative !important;
+            z-index: 1000 !important;
+            padding-bottom: 20px !important;
+        }
 
+        .journey-nav-btn {
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 50% !important;
+            background: #4ec0db !important;
+            color: #fff !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            cursor: pointer !important;
+            transition: all 0.3s ease !important;
+            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3) !important;
+            border: none !important;
+            position: relative !important;
+            top: auto !important;
+            left: auto !important;
+            right: auto !important;
+            bottom: auto !important;
+            transform: none !important;
+        }
 
         .rewind-nav-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #4ec0db;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
-            pointer-events: auto;
-            border: none;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 110;
-        }
-
-        .rewind-nav-btn:hover {
-            background: #094067;
-            transform: translateY(-50%) scale(1.1);
-        }
-
-
-
-        /* .rewind-nav-btn:hover {
-            background: #4ec0db;
-            color: #fff;
-            transform: scale(1.1);
-        } */
-
-        .prev-btn {
-            left: -25px;
-            left: auto !important;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
-
-        .next-btn {
-            right: -25px;
-            background-color: #4ec0db !important;
-            color: white !important;
+            display: none !important;
         }
 
         .rewind-swiper .swiper-wrapper {
-            height: 520px !important;
+            height: 520px;
         }
 
         .rewind-swiper {
@@ -599,7 +453,7 @@ include('includes/header.php');
         .rewind-card {
             position: relative;
             height: 500px;
-            border-radius: 30px;
+            border-radius: 25px;
             overflow: hidden;
             transition: all 0.4s ease;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -612,12 +466,6 @@ include('includes/header.php');
             object-fit: cover;
             transition: transform 0.5s ease;
         }
-
-        .rewind-card:hover img {
-            transform: scale(1.1);
-        }
-
-        /* Removed glass panel styles */
 
         .card-overlay-top {
             position: absolute;
@@ -642,36 +490,168 @@ include('includes/header.php');
             font-size: 14px;
         }
 
-        /* .rewind-card:hover .arrow-icon {
-            background: #4ec0db;
-            border-color: #4ec0db;
-            transform: rotate(45deg);
-        } */
+        .rewind-swiper .swiper-slide {
+            cursor: pointer;
+        }
 
-        @media (max-width: 768px) {
-            .rewind-nav {
-                padding: 0 5px;
+        /* ── Keyframes ── */
+        @keyframes bannerReveal {
+            from {
+                opacity: 0;
+                transform: scale(1.04);
             }
 
-            .prev-btn {
-                margin-left: -10px;
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                box-shadow: 0 12px 30px rgba(78, 192, 219, 0.25);
             }
 
-            .next-btn {
-                margin-right: -10px;
+            50% {
+                box-shadow: 0 12px 40px rgba(78, 192, 219, 0.5);
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% center;
             }
 
-            .rewind-nav-btn {
-                width: 40px;
-                height: 40px;
+            100% {
+                background-position: 200% center;
+            }
+        }
+
+        /* ── Banner ── */
+        .banner-img {
+            animation: bannerReveal 1.2s ease-out both;
+        }
+
+        /* ── Scroll-reveal: all elements fade + gentle rise ── */
+        .reveal {
+            opacity: 0;
+            transform: translateY(22px);
+            transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+            will-change: opacity, transform;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ── Input focus lift ── */
+        .input-wrapper:focus-within,
+        .whatsapp-wrapper:focus-within,
+        .input-wrapper-textarea:focus {
+            transform: translateY(-2px);
+        }
+
+        /* ── Radio cards ── */
+        .radio-box {
+            transition: all 0.3s ease-out;
+        }
+
+        /* ── Submit button hover ── */
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            animation: pulseGlow 1.5s infinite;
+        }
+
+        /* ── Shimmer on submit btn ── */
+        .submit-btn::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 20px;
+            background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.15) 50%, transparent 100%);
+            background-size: 200% auto;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .submit-btn:hover::after {
+            opacity: 1;
+            animation: shimmer 1.2s linear infinite;
+        }
+
+        /* WhatsApp FAB */
+        .whatapp {
+            background: rgba(180, 193, 180, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 6px;
+            border-radius: 10px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 2147483646;
+            display: block;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp1 0.5s ease-in-out forwards;
+        }
+
+        .whatapp img {
+            width: 30px;
+            height: auto;
+            animation: zoomPulse 2s infinite ease-in-out;
+            transition: transform 0.3s;
+            display: block;
+        }
+
+        .whatapp:hover {
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        @keyframes zoomPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
             }
 
-            .rewind-card {
-                height: 350px;
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes fadeInUp1 {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
             }
         }
 
         @media (max-width: 768px) {
+            .journey-nav-container {
+                display: none !important;
+            }
+
+            .journey-nav-btn {
+                width: 40px !important;
+                height: 40px !important;
+            }
+
+            .rewind-card {
+                height: 380px;
+            }
+
+            .rewind-swiper .swiper-wrapper {
+                height: 400px !important;
+            }
+
             .rewind-header {
                 flex-direction: column;
                 align-items: center;
@@ -680,79 +660,39 @@ include('includes/header.php');
             .rewind-title-area h2 {
                 font-size: 28px;
             }
-
-            .rewind-card {
-                height: 380px;
-            }
         }
     </style>
 </head>
 
 <body>
-
     <section>
+        <!-- Desktop View -->
 
-        <!-- <img src="assets/img/ladakh/banner-4.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: top; z-index: 0; opacity: 1;"> -->
-        <!-- mobile -->
+        <div>
+            <img src="assets/img/meghalaya/meghalaya-gallery-13.avif" alt="Megahalay Banner"
+                class="banner-img d-none d-md-block"
+                style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
+        </div>
 
-        <!-- Banner Foreground Image -->
-        <!-- <img src="assets/img/ladakh/banner-4.jpg" alt="Ladakh Banner" class="d-none d-md-block"
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;"> 
-                <img src="assets/img/ladakh/mobile-banner.avif" alt="Ladakh Banner Mobile" class="d-block d-md-none"
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: top; z-index: 0; opacity: 1;">  -->
-        <img src="assets/img/meghalaya/meghalaya-gallery-13.avif" alt=""
-            style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
+        <!-- Mobile View -->
+        <div>
+            <img src="assets/img/meghalaya/meghalaya-gallery-13.avif" alt="Megahalay Banner Mobile"
+                class="banner-img d-block d-md-none"
+                style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
+        </div>
+
     </section>
 
-
     <div class="page-wrapper">
-        <div class="enquiry-container">
-            <!-- Side Information Area -->
-            <!-- <div class="side-info">
-                <div>
-                    <h2>Ready for your next adventure?</h2>
-                    <p>Unlock curated travel experiences. Our experts are ready to craft your dream itinerary.</p>
-                    
-                    <div class="benefits-list">
-                        <div class="benefit-item">
-                            <i class="fa-solid fa-bolt"></i>
-                            <span>Fast Response (24h)</span>
-                        </div>
-                        <div class="benefit-item">
-                            <i class="fa-solid fa-map-location-dot"></i>
-                            <span>Bespoke Itineraries</span>
-                        </div>
-                        <div class="benefit-item">
-                            <i class="fa-solid fa-users"></i>
-                            <span>Solo & Group Experts</span>
-                        </div>
-                        <div class="benefit-item">
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                            <span>Top Rated Services</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div style="margin-top: 40px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.15); position: relative; z-index: 1;">
-                    <p style="font-size: 13px; margin-bottom: 8px; opacity: 0.7;">Direct Assistance</p>
-                    <a href="tel:+918122121066" style="color: var(--secondary); text-decoration: none; font-weight: 800; font-size: 20px; display: flex; align-items: center; gap: 10px;">
-                        <i class="fa-solid fa-phone-volume" style="font-size: 16px;"></i>
-                        +91 81221 21066
-                    </a>
-                </div>
-            </div> -->
-
-            <!-- Main Form Section -->
+        <div class="enquiry-container reveal">
             <div class="form-section">
-                <div class="section-header">
-                    <h1>Meghalaya Plan Your Trip</h1>
-                    <!-- <p>Start your journey with a few simple details.</p> -->
+                <div class="section-header reveal">
+                    <h1>Meghalaya</h1>
+                    <p class="text-center">  Plan Your Trip</p>
                 </div>
 
                 <form action="meghalaya-enquiry-mail.send.php" method="POST">
-
-                    <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 0;">
-                        <!-- Full Name -->
+                    <div class="row reveal" style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 0;">
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Full Name</label>
                             <div class="input-wrapper">
@@ -761,7 +701,6 @@ include('includes/header.php');
                             </div>
                         </div>
 
-                        <!-- Email -->
                         <!-- <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Email Address</label>
                             <div class="input-wrapper ">
@@ -771,8 +710,7 @@ include('includes/header.php');
                         </div> -->
                     </div>
 
-                    <!-- WhatsApp Number -->
-                    <div class="form-group">
+                    <div class="form-group reveal">
                         <label>WhatsApp Number</label>
                         <div class="whatsapp-wrapper">
                             <div class="country-code">
@@ -783,8 +721,7 @@ include('includes/header.php');
                         </div>
                     </div>
 
-                    <!-- Destination interested -->
-                    <!-- <div class="form-group">
+                    <!-- <div class="form-group reveal">
                         <label>Which destination are you interested in?</label>
                         <div class="input-wrapper">
                             <i class="fa-solid fa-earth-asia"></i>
@@ -795,8 +732,7 @@ include('includes/header.php');
                         </div>
                     </div> -->
 
-                    <!-- Number of People -->
-                    <div class="form-group">
+                    <div class="form-group reveal">
                         <label>Number of People</label>
                         <div class="radio-group">
                             <label class="radio-card">
@@ -830,8 +766,7 @@ include('includes/header.php');
                         </div>
                     </div>
 
-                    <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap;">
-                        <!-- Type of Trip -->
+                    <div class="row reveal" style="display: flex; gap: 20px; flex-wrap: wrap;">
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Trip Preference</label>
                             <div class="input-wrapper">
@@ -844,51 +779,330 @@ include('includes/header.php');
                             </div>
                         </div>
 
-                        <!-- Month -->
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Travel Month</label>
                             <div class="input-wrapper">
                                 <i class="fa-regular fa-calendar-days"></i>
                                 <select name="month" required>
                                     <option value="" disabled selected>Select Month</option>
-                                    <!-- <option value="January">January</option>
+                                    <option value="January">January</option>
                                     <option value="February">February</option>
                                     <option value="March">March</option>
                                     <option value="April">April</option>
-                                    <option value="May">May</option> -->
-                                    <!-- <option value="June">June</option> -->
+                                    <option value="May">May</option>
+                                    <option value="June">June</option>
                                     <option value="July">July</option>
                                     <option value="August">August</option>
                                     <option value="September">September</option>
                                     <option value="October">October</option>
-                                    <!-- <option value="November">November</option>
-                                    <option value="December">December</option> -->
+                                    <option value="November">November</option>
+                                    <option value="December">December</option>
                                 </select>
                                 <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Message -->
-                        <!-- <div class="form-group">
-                            <label>Additional Information (Optional)</label>
-                            <textarea class="input-wrapper-textarea" name="message"
-                                placeholder="Any specific requirements or travel goals?"></textarea>
-                        </div> -->
+                    <!-- <div class="form-group reveal">
+                        <label>Additional Information (Optional)</label>
+                        <textarea class="input-wrapper-textarea" name="message"
+                            placeholder="Any specific requirements or travel goals?"></textarea>
+                    </div> -->
 
-                    <!-- Submit -->
-                    <button type="submit" class="submit-btn" name="submit">
-                        <span>Submit</span>
-                        <!-- <i class="fa-solid fa-paper-plane"></i> -->
+                    <button type="submit" class="submit-btn reveal" name="submit">
+                        <span>Send My Enquiry</span>
+                        <i class="fa-solid fa-paper-plane"></i>
                     </button>
-
                 </form>
             </div>
         </div>
     </div>
 
 
+    <section class="rewind-section reveal" style="position: relative; overflow: hidden; padding: 0px 0px 0px 0px ;">
+        <div class="rewind-header reveal" style="margin-bottom: 50px;">
+            <div class="rewind-title-area">
+                <h3 class="head" style="text-align: center; margin-bottom: 20px;">
+                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start me-2">
+                    Roamers Rewind
+                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start">
+                </h3>
+            </div>
+        </div>
+
+        <div style="position: relative;">
+            <div class="swiper rewind-swiper" style="overflow: visible !important;">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-29.avif" alt="Meghalaya Gallery Image 29">
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                           <img src="assets/img/meghalaya/meghalaya-gallery-30.avif" alt="Meghalaya Gallery Image 30">
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-31.avif" alt="Meghalaya Gallery Image 31">
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-32.avif" alt="Meghalaya Gallery Image 32">
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-01.avif" alt="Meghalaya Gallery Image 1">
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-02.avif" alt="Meghalaya Gallery Image 2">
+                        </div>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-03.avif" alt="Meghalaya Gallery Image 3">
+                        </div>
+                    </div>
+
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-04.avif" alt="Meghalaya Gallery Image 4">
+                        </div>
+                    </div>
+
+                    <!-- Slide 9 -->
+                     <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-05.avif" alt="Meghalaya Gallery Image 5">
+                        </div>
+                    </div>
+
+                    <!-- Slide 10 -->
+                     <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-06.avif" alt="Meghalaya Gallery Image 6">
+                        </div>
+                    </div>
+
+                    <!-- Slide 11 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-07.avif" alt="Meghalaya Gallery Image 7">
+                        </div>
+                    </div>
+
+                    <!-- Slide 12 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-08.avif" alt="Meghalaya Gallery Image 8">
+                        </div>
+                    </div>
+
+                    <!-- Slide 13 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-09.avif" alt="Meghalaya Gallery Image 9">
+                        </div>
+                    </div>
+
+                    <!-- Slide 14 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-10.avif" alt="Meghalaya Gallery Image 10">
+                        </div>
+                    </div>
+
+                    <!-- Slide 15 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-11.avif" alt="Meghalaya Gallery Image 11">
+                        </div>
+                    </div>
+
+                    <!-- Slide 16 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-12.avif" alt="Meghalaya Gallery Image 12">
+                        </div>
+                    </div>
+
+                    <!-- Slide 17 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-13.avif" alt="Meghalaya Gallery Image 13">
+                        </div>
+                    </div>
+
+                    <!-- Slide 18 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-14.avif" alt="Meghalaya Gallery Image 14">
+                        </div>
+                    </div>
+
+                    <!-- Slide 19 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-15.avif" alt="Meghalaya Gallery Image 15">
+                        </div>
+                    </div>
+
+                    <!-- Slide 20 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-16.avif" alt="Meghalaya Gallery Image 16">
+                        </div>
+                    </div>
+
+                    <!-- Slide 21 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-17.avif" alt="Meghalaya Gallery Image 17">
+                        </div>
+                    </div>
+
+                    <!-- Slide 22 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-18.avif" alt="Meghalaya Gallery Image 18">
+                        </div>
+                    </div>
+
+                    <!-- Slide 23 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-19.avif" alt="Meghalaya Gallery Image 19">
+                        </div>
+                    </div>
+
+                    <!-- Slide 24 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-20.avif" alt="Meghalaya Gallery Image 20">
+                        </div>
+                    </div>
+
+                    <!-- Slide 25 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-21.avif" alt="Meghalaya Gallery Image 21">
+                        </div>
+                    </div>
+
+                    <!-- Slide 26 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-22.avif" alt="Meghalaya Gallery Image 22">
+                        </div>
+                    </div>
+
+                    <!-- Slide 27 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-23.avif" alt="Meghalaya Gallery Image 23">
+                        </div>
+                    </div>
+
+                    <!-- Slide 28 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-24.avif" alt="Meghalaya Gallery Image 24">
+                        </div>
+                    </div>
+
+                    <!-- Slide 29 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-25.avif" alt="Meghalaya Gallery Image 25">
+                        </div>
+                    </div>
+
+                    <!-- Slide 30 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-26.avif" alt="Meghalaya Gallery Image 26">
+                        </div>
+                    </div>
+
+                    <!-- Slide 31 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-27.avif" alt="Meghalaya Gallery Image 27">
+                        </div>
+                    </div>
+
+                    <!-- Slide 32 -->
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/meghalaya/meghalaya-gallery-28.avif" alt="Meghalaya Gallery Image 28">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Navigation Buttons - Relocated to bottom center with unique classes -->
+        <div class="journey-nav-container">
+            <div class="journey-nav-btn journey-prev"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="journey-nav-btn journey-next"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp FAB -->
+    <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1" target="_blank" rel="noopener">
+        <img src="assets/img/icon/whatsapp.svg" alt="Chat on WhatsApp">
+    </a>
+
     <?php include('includes/footer.php'); ?>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const reveals = document.querySelectorAll('.reveal');
+
+            /* assign staggered delays so siblings feel sequential, not simultaneous */
+            let groupIndex = 0;
+            reveals.forEach((el) => {
+                el.style.transitionDelay = (groupIndex * 0.08) + 's';
+                groupIndex++;
+            });
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -30px 0px'
+            });
+
+            reveals.forEach(el => observer.observe(el));
+        });
+    </script>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -909,6 +1123,7 @@ include('includes/header.php');
                 effect: 'coverflow',
                 grabCursor: true,
                 centeredSlides: true,
+                slideToClickedSlide: true,
                 loop: true,
                 speed: 1000,
                 autoplay: {
@@ -923,27 +1138,41 @@ include('includes/header.php');
                     slideShadows: false,
                 },
                 navigation: {
-                    nextEl: '.next-btn',
-                    prevEl: '.prev-btn',
+                    nextEl: '.journey-next',
+                    prevEl: '.journey-prev',
                 },
                 breakpoints: {
                     320: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 20,
+                        slidesPerView: 1.4,
+                        spaceBetween: 30,
+                        coverflowEffect: {
+                            rotate: 15,
+                            depth: 150,
+                            modifier: 1,
+                        }
                     },
                     640: {
                         slidesPerView: 2.5,
                         spaceBetween: 30,
+                        coverflowEffect: {
+                            rotate: 20,
+                            depth: 100,
+                            modifier: 1,
+                        }
                     },
                     1024: {
                         slidesPerView: 3,
                         spaceBetween: 50,
+                        coverflowEffect: {
+                            rotate: 20,
+                            depth: 100,
+                            modifier: 1,
+                        }
                     }
                 }
             });
         });
     </script>
-
 
 </body>
 
