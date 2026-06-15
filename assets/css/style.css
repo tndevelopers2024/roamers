@@ -2180,6 +2180,7 @@ textarea {
   overflow: hidden;
   transition: transform 0.4s ease;
 }
+
 /* 
 .swiper-slide {
   display: flex;
@@ -3030,4 +3031,142 @@ nav::before {
 .varkala-trek-button {
   display: flex;
   align-items: center;
+}
+
+/* ******************************
+:: PREMIUM INFINITE MARQUEE
+****************************** */
+.roamers-premium-marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #4ec0db;
+  padding: 8px 0;
+  border-top: 1.5px solid rgba(78, 192, 219, 0.4);
+  border-bottom: 1.5px solid rgba(78, 192, 219, 0.4);
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin: 0px 0;
+}
+
+/* Fading edge gradients */
+.roamers-premium-marquee::before,
+.roamers-premium-marquee::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* .roamers-premium-marquee::before {
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #094067 0%, transparent 100%);
+}
+.roamers-premium-marquee::after {
+  right: 0;
+  top: 0;
+  background: linear-gradient(to left, #062f4f 0%, transparent 100%);
+} */
+
+/* Scrolling track */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: roamersMarqueeScroll 35s linear infinite;
+}
+
+/* Pause scroll on hover for interactivity */
+.roamers-premium-marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Items grouping and spacing */
+.marquee-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding-right: 3rem;
+  /* Matches gap to ensure seamless loop integration */
+}
+
+/* Text and highlight styling */
+.marquee-item {
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+.marquee-item.brand-highlight {
+  color: #4ec0db;
+}
+
+/* .marquee-item.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.8);
+} */
+.marquee-divider {
+  font-size: 20px;
+  color: #4ec0db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 5px rgba(78, 192, 219, 0.5));
+}
+
+/* Seamless infinite scroll animation loop */
+@keyframes roamersMarqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 991px) {
+  .marquee-item {
+    font-size: 20px;
+  }
+
+  .marquee-divider {
+    font-size: 16px;
+  }
+
+  .marquee-content-wrapper {
+    gap: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .roamers-premium-marquee {
+    padding: 6px 0;
+    /* margin: 25px 0; */
+  }
+
+  .marquee-item {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .marquee-divider {
+    font-size: 10px;
+  }
+
+  .marquee-content-wrapper {
+    gap: 1rem;
+    padding-right: 1rem;
+  }
 }

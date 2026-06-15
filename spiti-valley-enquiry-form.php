@@ -1,18 +1,19 @@
 <?php
 session_start();
-include('includes/header.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquire Now: Spiti Valley Winter Expedition - Roamers</title>
     <!-- SEO Meta Description -->
     <meta name="description" content="Book your Spiti Valley winter expedition with Roamers. Fill out the enquiry form to discover ancient monasteries, stunning landscapes, and the unique cold desert of Himachal Pradesh." />
     <meta name="author" content="Roamers" />
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
 
     <!-- Open Graph tags -->
     <meta property="og:site_name" content="Roamers" />
@@ -688,6 +689,7 @@ include('includes/header.php');
 </head>
 
 <<body>
+    <?php include('includes/header.php'); ?>
     <section>
         <!-- Desktop View -->
 

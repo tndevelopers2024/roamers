@@ -1,18 +1,19 @@
 <?php
 session_start();
-include('includes/header.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquire Now: Ooty Christmas & New Year Trip - Roamers</title>
     <!-- SEO Meta Description -->
     <meta name="description" content="Book your Ooty Christmas & New Year trip with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Tamil Nadu, India." />
     <meta name="author" content="Roamers" />
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
 
     <!-- Open Graph tags -->
     <meta property="og:site_name" content="Roamers" />
@@ -216,12 +217,14 @@ include('includes/header.php');
         }
 
         .section-header h1 {
-            font-size: 28px;
+            font-size: 24px;
             /* color: var(--primary); */
             margin: 0 0 8px 0;
             font-weight: 800;
             font-family: 'Outfit', sans-serif;
         }
+
+        .christmas-badge { display: inline-block; background: linear-gradient(135deg, #e63946, #c1121f); color: white; font-size: 12px; font-weight: 700; padding: 5px 14px; border-radius: 50px; letter-spacing: 0.5px; margin-bottom: 12px; font-family: 'Outfit', sans-serif; }
 
         .section-header p {
             font-size: 15px;
@@ -463,29 +466,30 @@ include('includes/header.php');
 
         .submit-btn {
             width: 100%;
-            padding: 15px 20px;
-            background: #4ec0db;
+            padding: 20px;
+            background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
             color: var(--white);
             border: none;
-            border-radius: 30px !important;
+            border-radius: 20px !important;
             font-size: 18px;
             font-weight: 800;
             cursor: pointer;
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             margin-top: 10px;
-            box-shadow: 0 12px 30px rgba(9, 64, 103, 0.25);
+            box-shadow: 0 12px 30px rgba(198, 18, 31, 0.3);
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 12px;
             font-family: 'Outfit', sans-serif;
+            position: relative;
+            overflow: hidden;
         }
 
-        /* .submit-btn:hover {
-            transform: translateY(-4px) scale(1.01);
-            box-shadow: 0 20px 40px rgba(9, 64, 103, 0.35);
-            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
-        } */
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 40px rgba(198, 18, 31, 0.4);
+        }
 
         .submit-btn:active {
             transform: translateY(-1px) scale(1);
@@ -532,186 +536,34 @@ include('includes/header.php');
             }
         }
 
-        /* Rewind Section Redesign */
-        .rewind-section {
-            padding: 60px 20px 100px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .rewind-title-area {
-            text-align: center;
-            width: 100%;
-        }
-
-        .rewind-title-area h2 {
-            font-size: 32px;
-            font-weight: 800;
-            color: #1a1a1a;
-            margin: 0 0 8px 0;
-            font-family: 'Outfit', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .rewind-title-area p {
-            font-size: 16px;
-            color: #666;
-            margin: 0;
-            font-weight: 500;
-        }
-
-
-
-        .rewind-nav-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #4ec0db;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(78, 192, 219, 0.3);
-            pointer-events: auto;
-            border: none;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 110;
-        }
-
-        .rewind-nav-btn:hover {
-            background: #094067;
-            transform: translateY(-50%) scale(1.1);
-        }
-
-
-
-        /* .rewind-nav-btn:hover {
-            background: #4ec0db;
-            color: #fff;
-            transform: scale(1.1);
-        } */
-
-        .prev-btn {
-            left: -25px;
-            left: auto !important;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
-
-        .next-btn {
-            right: -25px;
-            background-color: #4ec0db !important;
-            color: white !important;
-        }
-
-        .rewind-swiper .swiper-wrapper {
-            height: 520px !important;
-        }
-
-        .rewind-swiper {
-            overflow: visible !important;
-            padding: 20px 0;
-            width: 100%;
-        }
-
-        .rewind-card {
-            position: relative;
-            height: 500px;
-            border-radius: 30px;
-            overflow: hidden;
-            transition: all 0.4s ease;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            background: #fff;
-        }
-
-        .rewind-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .rewind-card:hover img {
-            transform: scale(1.1);
-        }
-
-        /* Removed glass panel styles */
-
-        .card-overlay-top {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 10;
-        }
-
-        .arrow-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.4);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            transition: all 0.3s ease;
-            font-size: 14px;
-        }
-
-        /* .rewind-card:hover .arrow-icon {
-            background: #4ec0db;
-            border-color: #4ec0db;
-            transform: rotate(45deg);
-        } */
-
+                /* Rewind Section */
+        .rewind-section { padding: 60px 20px 100px; max-width: 1200px; margin: 0 auto; }
+        .rewind-title-area { text-align: center; width: 100%; }
+        .rewind-title-area h2 { font-size: 32px; font-weight: 800; color: #1a1a1a; margin: 0 0 8px 0; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+        .rewind-title-area p { font-size: 16px; color: #666; margin: 0; font-weight: 500; }
+        .journey-nav-container { display: flex !important; justify-content: center !important; gap: 20px !important; margin-top: 40px !important; width: 100% !important; position: relative !important; z-index: 1000 !important; padding-bottom: 20px !important; }
+        .journey-nav-btn { width: 50px !important; height: 50px !important; border-radius: 50% !important; background: #e63946 !important; color: #fff !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; transition: all 0.3s ease !important; box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3) !important; border: none !important; position: relative !important; top: auto !important; left: auto !important; right: auto !important; bottom: auto !important; transform: none !important; }
+        .rewind-nav-btn { display: none !important; }
+        .rewind-swiper .swiper-wrapper { height: 520px; }
+        .rewind-swiper { overflow: visible !important; padding: 20px 0; width: 100%; }
+        .rewind-card { position: relative; height: 500px; border-radius: 25px; overflow: hidden; transition: all 0.4s ease; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); background: #fff; }
+        .rewind-card img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .card-overlay-top { position: absolute; top: 20px; right: 20px; z-index: 10; }
+        .arrow-icon { width: 40px; height: 40px; border-radius: 50%; background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; color: #fff; border: 1px solid rgba(255, 255, 255, 0.5); transition: all 0.3s ease; font-size: 14px; }
+        .rewind-swiper .swiper-slide { cursor: pointer; }
         @media (max-width: 768px) {
-            .rewind-nav {
-                padding: 0 5px;
-            }
-
-            .prev-btn {
-                margin-left: -10px;
-            }
-
-            .next-btn {
-                margin-right: -10px;
-            }
-
-            .rewind-nav-btn {
-                width: 40px;
-                height: 40px;
-            }
-
-            .rewind-card {
-                height: 350px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .rewind-header {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .rewind-title-area h2 {
-                font-size: 28px;
-            }
-
-            .rewind-card {
-                height: 380px;
-            }
+            .journey-nav-container { display: none !important; }
+            .journey-nav-btn { width: 40px !important; height: 40px !important; }
+            .rewind-card { height: 380px; }
+            .rewind-swiper .swiper-wrapper { height: 400px !important; }
+            .rewind-header { flex-direction: column; align-items: center; }
+            .rewind-title-area h2 { font-size: 28px; }
         }
     </style>
 </head>
 
 <body>
+    <?php include('includes/header.php'); ?>
 
     <section>
 
@@ -767,9 +619,10 @@ include('includes/header.php');
 
             <!-- Main Form Section -->
             <div class="form-section">
-                <div class="section-header">
-                    <h1>Ooty Christmas & New Year Plan Your Trip</h1>
-                    <!-- <p>Start your journey with a few simple details.</p> -->
+                <div class="section-header reveal" style="text-align:center;">
+                    <span class="christmas-badge">&#127876; Christmas &amp; New Year Special</span>
+                    <h1>Ooty Christmas & New Year</h1>
+                    <p class="text-center">&nbsp; Plan Your Holiday Trip</p>
                 </div>
 
                 <form action="ooty-christmas&newyear-enquiry-mail-send.php" method="POST">
@@ -900,9 +753,9 @@ include('includes/header.php');
                         </div> -->
 
                     <!-- Submit -->
-                    <button type="submit" class="submit-btn" name="submit">
-                        <span>Submit</span>
-                        <!-- <i class="fa-solid fa-paper-plane"></i> -->
+                    <button type="submit" class="submit-btn reveal" name="submit">
+                        <span>&#127876; Book My Holiday Trip</span>
+                        <i class="fa-solid fa-paper-plane"></i>
                     </button>
 
                 </form>
@@ -910,6 +763,65 @@ include('includes/header.php');
         </div>
     </div>
 
+
+        <section class="rewind-section reveal" style="position: relative; overflow: hidden; padding: 0px 0px 0px 0px ;">
+        <div class="rewind-header reveal" style="margin-bottom: 50px;">
+            <div class="rewind-title-area">
+                <h3 class="head" style="text-align: center; margin-bottom: 20px;">
+                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start me-2">
+                    Roamers Rewind
+                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start">
+                </h3>
+            </div>
+        </div>
+
+        <div style="position: relative;">
+            <div class="swiper rewind-swiper" style="overflow: visible !important;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/Ooty/1-min.jpg" alt="Ooty View 1">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/Ooty/2.JPG" alt="Ooty View 2">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/Ooty/Ooty pic 1.jpg" alt="Ooty Peak">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/Ooty/Tea factory-min.jpg" alt="Ooty Tea Factory">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/Ooty/Aadhiyogi.jpg" alt="Aadhiyogi">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/Ooty/ootylake.jpg" alt="Ooty Lake">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rewind-card">
+                            <img src="assets/img/Ooty/pykara-lake.jpg" alt="Pykara Lake">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="journey-nav-container">
+            <div class="journey-nav-btn journey-prev"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="journey-nav-btn journey-next"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+    </section>
 
     <?php include('includes/footer.php'); ?>
 
@@ -932,6 +844,7 @@ include('includes/header.php');
                 effect: 'coverflow',
                 grabCursor: true,
                 centeredSlides: true,
+                slideToClickedSlide: true,
                 loop: true,
                 speed: 1000,
                 autoplay: {
@@ -946,21 +859,36 @@ include('includes/header.php');
                     slideShadows: false,
                 },
                 navigation: {
-                    nextEl: '.next-btn',
-                    prevEl: '.prev-btn',
+                    nextEl: '.journey-next',
+                    prevEl: '.journey-prev',
                 },
                 breakpoints: {
                     320: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 20,
+                        slidesPerView: 1.4,
+                        spaceBetween: 30,
+                        coverflowEffect: {
+                            rotate: 15,
+                            depth: 150,
+                            modifier: 1,
+                        }
                     },
                     640: {
                         slidesPerView: 2.5,
                         spaceBetween: 30,
+                        coverflowEffect: {
+                            rotate: 20,
+                            depth: 100,
+                            modifier: 1,
+                        }
                     },
                     1024: {
                         slidesPerView: 3,
                         spaceBetween: 50,
+                        coverflowEffect: {
+                            rotate: 20,
+                            depth: 100,
+                            modifier: 1,
+                        }
                     }
                 }
             });

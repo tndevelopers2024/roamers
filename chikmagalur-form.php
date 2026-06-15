@@ -1260,7 +1260,7 @@ session_start();
 
           const startingPriceElem = document.getElementById("starting-price");
           if (startingPriceElem) {
-            startingPriceElem.textContent = `Starting Price: ₹7,990/- `;
+            startingPriceElem.textContent = `Starting Price: ₹8,990/- `;
           } else {
             console.warn("Element with id 'starting-price' not found.");
           }
@@ -1766,9 +1766,9 @@ session_start();
           // Set amount using if statements
           let perPersonAmount = 0;
           if (sharing === "Triple Sharing") {
-            perPersonAmount = 7990;
-          } else if (sharing === "Double Sharing") {
             perPersonAmount = 8990;
+          } else if (sharing === "Double Sharing") {
+            perPersonAmount = 9990;
           }
 
 

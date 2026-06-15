@@ -1,8 +1,6 @@
 <?php
 session_start();
-include('includes/header.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +11,7 @@ include('includes/header.php');
     <title>Enquiry Form – Roamers | Spiti Chandratal Trek</title>
     <meta name="description" content="Embark on the ultimate Spiti Chandratal trek with Roamers. Experience high-altitude passes, ancient monasteries, and the mesmerizing Chandratal Lake in Himachal Pradesh. Join our curated adventure for an unforgettable Himalayan journey.">
     <meta name="author" content="Roamers">
+    <meta name="robots" content="index, follow">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -22,6 +21,7 @@ include('includes/header.php');
     <meta property="og:description" content="Embark on the ultimate Spiti Chandratal trek with Roamers. Experience high-altitude passes, ancient monasteries, and the mesmerizing Chandratal Lake in Himachal Pradesh. Join our curated adventure for an unforgettable Himalayan journey.">
     <meta property="og:image" content="https://roamers.in/assets/img/spiti-valley/cover/spiti-chandratal-trek.avif">
     <meta property="og:image:secure_url" content="https://roamers.in/assets/img/spiti-valley/cover/spiti-chandratal-trek.avif">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Spiti Chandratal Trek – Chandratal Lake, Himachal Pradesh">
@@ -31,8 +31,10 @@ include('includes/header.php');
     <meta name="twitter:title" content="Roamers - Spiti Chandratal: High-Altitude Adventure to Chandratal Lake">
     <meta name="twitter:description" content="Embark on the ultimate Spiti Chandratal trek with Roamers. Experience high-altitude passes, ancient monasteries, and the mesmerizing Chandratal Lake in Himachal Pradesh. Join our curated adventure for an unforgettable Himalayan journey.">
     <meta name="twitter:image" content="https://roamers.in/assets/img/spiti-valley/cover/spiti-chandratal-trek.avif">
+    <meta name="twitter:image:alt" content="Spiti Chandratal Trek – Chandratal Lake, Himachal Pradesh">
 
     <link rel="canonical" href="https://roamers.in/spiti-chandratal-enquiry-form.php">
+    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link
@@ -687,6 +689,7 @@ include('includes/header.php');
 </head>
 
 <body>
+    <?php include('includes/header.php'); ?>
     <section>
         <!-- Desktop View -->
 

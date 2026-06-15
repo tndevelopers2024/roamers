@@ -8,7 +8,7 @@ const tripPrices = {
   ".munnar-price": "₹8,499",
   ".ooty-price": "₹7,299",
   ".chik-price": "₹7,990",
-  ".chikmangalur-price": "₹7,990",
+  ".chikmangalur-price": "₹8,990",
   ".kerala-price": "₹14,490",
   ".kerala-onam-price": "₹8,499",
   ".andaman-price": "₹24,990",

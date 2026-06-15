@@ -1,8 +1,6 @@
 <?php
 session_start();
-include('includes/header.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +13,7 @@ include('includes/header.php');
     <title>Enquiry Form – Roamers | Meghalaya</title>
     <meta name="description" content="Embark on the ultimate Meghalaya backpacking adventure with Roamers. Experience majestic waterfalls, living root bridges, clean villages, and mesmerizing crystal-clear rivers. Join our curated journey for an unforgettable experience in Scotland of the East.">
     <meta name="author" content="Roamers">
+    <meta name="robots" content="index, follow">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Roamers">
@@ -23,6 +22,7 @@ include('includes/header.php');
     <meta property="og:description" content="Embark on the ultimate Meghalaya backpacking adventure with Roamers. Experience majestic waterfalls, living root bridges, clean villages, and mesmerizing crystal-clear rivers. Join our curated journey for an unforgettable experience in Scotland of the East.">
     <meta property="og:image" content="https://roamers.in/assets/img/meghalaya/cover/meghalaya-backpacking.avif">
     <meta property="og:image:secure_url" content="https://roamers.in/assets/img/meghalaya/cover/meghalaya-backpacking.avif">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Meghalaya Backpacking – Double Decker Living Root Bridge, Cherrapunji">
@@ -31,8 +31,10 @@ include('includes/header.php');
     <meta name="twitter:title" content="Roamers - Meghalaya: Backpacking Adventure into the Abode of Clouds">
     <meta name="twitter:description" content="Embark on the ultimate Meghalaya backpacking adventure with Roamers. Experience majestic waterfalls, living root bridges, clean villages, and mesmerizing crystal-clear rivers. Join our curated journey for an unforgettable experience in Scotland of the East.">
     <meta name="twitter:image" content="https://roamers.in/assets/img/meghalaya/cover/meghalaya-backpacking.avif">
+    <meta name="twitter:image:alt" content="Meghalaya Backpacking – Double Decker Living Root Bridge, Cherrapunji">
 
     <link rel="canonical" href="https://roamers.in/spiti-chandratal-enquiry-form.php">
+    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -687,6 +689,7 @@ include('includes/header.php');
 </head>
 
 <body>
+    <?php include('includes/header.php'); ?>
 
     <section>
 

@@ -549,19 +549,19 @@
         "date": "6 Sep - 12 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,990/-"
+        "price": "\u20b98,990/-"
       },
       {
         "date": "20 Sep - 26 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,990/-"
+        "price": "\u20b98,990/-"
       },
       {
         "date": "27 Sep - 3 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,990/-"
+        "price": "\u20b98,990/-"
       }
     ],
     "October": [
@@ -577,13 +577,13 @@
         "date": "6 Nov - 10 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,990/-"
+        "price": "\u20b98,990/-"
       },
       {
         "date": "28 Nov - 2 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,990/-"
+        "price": "\u20b98,990/-"
       }
     ],
     "December": [
@@ -591,21 +591,21 @@
         "date": "24 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b97,990/-"
+        "price": "\u20b98,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b97,990/-",
+      "startingPrice": "\u20b98,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b97,990/-",
-          "mrp": "\u20b98,990/-"
+          "offer": "\u20b98,990/-",
+          "mrp": "\u20b99,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b98,990/-",
-          "mrp": "\u20b99,990/-"
+          "offer": "\u20b99,990/-",
+          "mrp": "\u20b910,990/-"
         }
       ]
     }

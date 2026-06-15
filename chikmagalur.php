@@ -816,7 +816,7 @@
                     <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
                     <h5 class="special-offer">
                       <span class="old-price">
-                        <strike>₹ 8,990/-</strike>
+                        <strike>₹ 9,990/-</strike>
                       </span>
                       <span class="chikmangalur-price new-price"></span><span class="new-price">/-</span>
                     </h5>

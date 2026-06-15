@@ -17,13 +17,11 @@
     .home {
       padding: 100px 0px 0px 0px;
       background: url('assets/img/banner/mobile-banner-avif.avif');
-      background-size: 100% 100% !important;
+      background-size: 100% auto !important;
       background-repeat: no-repeat !important;
-      background-position: top !important;
-      background-position-y: 5px !important;
-      width: 100vw;
-      height: 100vw;
-      /* background-position-x: 5px !important; */
+      background-position: top center !important;
+      width: 100% !important;
+      max-width: 100%;
     }
 
     .categories-container {

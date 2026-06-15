@@ -204,7 +204,8 @@
 
     .short-break-trips-img {
         height: 300px;
-        width: 410px;
+        width: 100%;
+        max-width: 410px;
         object-fit: cover;
         border-radius: 25px 25px 0px 0px;
     }
@@ -635,7 +636,14 @@
     body {
         overflow-x: hidden;
         max-width: 100%;
+        width: 100%;
         margin: 0;
+    }
+
+    #staticBanner,
+    .banner-bg-static {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     .upcoming-container {
@@ -676,7 +684,7 @@
         color: #4CB9D3;
         border: 2px solid #4CB9D3;
         border-radius: 20px;
-        padding: 8px 24px;
+        padding: 6px 20px;
         font-size: 16px;
         font-weight: 700;
         cursor: pointer;
@@ -2166,13 +2174,11 @@
                     .home {
                         padding: 100px 0px 0px 0px;
                         background: url('assets/img/banner/mobile-banner.avif');
-                        background-size: 100% 100% !important;
+                        background-size: 100% auto !important;
                         background-repeat: no-repeat !important;
-                        background-position: top !important;
-                        background-position-y: 5px !important;
-                        width: 100vw;
-                        height: 100vw;
-                        /* background-position-x: 5px !important; */
+                        background-position: top center !important;
+                        width: 100% !important;
+                        max-width: 100%;
                     }
 
                     .categories-container {
@@ -2535,6 +2541,49 @@
             </section>
         </section>
 
+        <!-- Modern Premium Marquee -->
+        <div class="roamers-premium-marquee">
+            <div class="marquee-track">
+                <div class="marquee-content-wrapper">
+                    <span class="marquee-item brand-highlight">ROAMERS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-compass"></i></span>
+                    <span class="marquee-item outline-text">SOLO FRIENDLY</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-heart"></i></span>
+                    <span class="marquee-item">GROUP TRIPS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-map-location-dot"></i></span>
+                    <span class="marquee-item outline-text">TREKS & CAMPS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-campground"></i></span>
+                    <span class="marquee-item">ROAMERS MEETUPS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-face-smile"></i></span>
+                    <span class="marquee-item outline-text">EVERYTHING INCLUDED</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-plane"></i></span>
+                    <span class="marquee-item">LED BY PROS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-user-shield"></i></span>
+                    <span class="marquee-item outline-text">UNEXPLORED PATHS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-route"></i></span>
+                </div>
+                <!-- Duplicate track for seamless infinite scroll looping -->
+                <div class="marquee-content-wrapper" aria-hidden="true">
+                    <span class="marquee-item brand-highlight">ROAMERS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-compass"></i></span>
+                    <span class="marquee-item outline-text">SOLO FRIENDLY</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-heart"></i></span>
+                    <span class="marquee-item">GROUP TRIPS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-map-location-dot"></i></span>
+                    <span class="marquee-item outline-text">TREKS & CAMPS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-campground"></i></span>
+                    <span class="marquee-item">ROAMERS MEETUPS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-face-smile"></i></span>
+                    <span class="marquee-item outline-text">EVERYTHING INCLUDED</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-plane"></i></span>
+                    <span class="marquee-item">LED BY PROS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-user-shield"></i></span>
+                    <span class="marquee-item outline-text">UNEXPLORED PATHS</span>
+                    <span class="marquee-divider"><i class="fa-solid fa-route"></i></span>
+                </div>
+            </div>
+        </div>
+
         <!-- Upcoming Trips Section -->
         <div style="margin-top: 50px; ">
             <?php
@@ -2634,7 +2683,7 @@
                     'location' => 'EX: Chennai - Bangalore',
                     'places' => 'Chikkamagaluru, Z point, Hebbe Falls',
                     'price' => '',
-                    'price_class' => 'chik-price',
+                    'price_class' => 'chikmangalur-price',
                     'link' => 'chikmagalur'
                 ],
                 // munnar with kolukkumalai
@@ -2720,7 +2769,7 @@
                 ],
                 'ooty' => [
                     'title' => 'Ooty The Queen of Hills',
-                    'image' => 'assets/img/Ooty/Ooty%20pic%201.jpg',
+                    'image' => 'assets/img/Ooty/card/ooty-card-by-roamers.avif',
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai, Coimbatore',
                     'places' => 'Ooty, Pykara, Coonoor, Isha',
@@ -3408,6 +3457,48 @@
 
                         <div class="event-slider" id="event-slider-august">
 
+                            <!-- Event Card 4 -->
+                            <div onclick="window.open('#')" style="cursor: pointer;" class="event-card">
+                                <div class="event-content" style="position: relative;">
+                                    <div class="event-image">
+                                        <img src="assets/img/event/cards/event-card-11.avif" alt="Pottery WORK SHOP">
+                                    </div>
+                                    <!-- Slot at top right, responsive -->
+                                    <div class="event-slot-badge">
+                                        <span class="event-dates-text" style="color: black;">
+                                            <i class="fa-solid fa-users me-1" style=" margin-right: 4px;"></i>
+                                            Slot: -
+                                        </span>
+                                    </div>
+                                    <div class="event-card-content">
+                                        <div class="event-card-flex" style=" padding: 10px 20px;"></div>
+                                        <h1 class="event-title event-title-responsive-on-event">
+                                            Strangers Fun meetup
+                                            <p class="mt-1"
+                                                style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
+                                                Games, icebreakers, laughs, future buddies</p>
+
+                                        </h1>
+                                        <div class="event-price-section">
+                                            <div class="event-dates">
+                                                <span class="event-dates-text" style="font-weight:700"><i
+                                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i>
+                                                    28th Mar,25th Apr,23rd May
+                                                    <?php echo $current_year; ?>
+                                                </span>
+                                            </div>
+                                            <div class="event-dates">
+                                                <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
+                                                <span class="event-dates-text" style="font-weight:700">Chennai
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" style="color: #4ec0db !important;"
+                                        class="event-view text-decoration-none">Soon !</a>
+                                </div>
+                            </div>
+
                             <!-- Event Card 1 -->
                             <div onclick="window.open('events/c&c')" style="cursor: pointer;" class="event-card">
                                 <div class="event-content" style="position: relative;">
@@ -3447,48 +3538,6 @@
                                     </div>
                                     <a href="events/c&c" class="event-view text-decoration-none"
                                         style="color: #4ec0db !important;">Register</a>
-                                </div>
-                            </div>
-
-                            <!-- Event Card 2 -->
-                            <div onclick="window.open('#')" style="cursor: pointer;" class="event-card">
-                                <div class="event-content" style="position: relative;">
-                                    <div class="event-image">
-                                        <img src="assets/img/event/cards/event-card-12.avif" alt="Pottery WORK SHOP">
-                                    </div>
-                                    <!-- Slot at top right, responsive -->
-                                    <div class="event-slot-badge">
-                                        <span class="event-dates-text" style="color: black;">
-                                            <i class="fa-solid fa-users me-1" style=" margin-right: 4px;"></i>
-                                            Slot: -
-                                        </span>
-                                    </div>
-                                    <div class="event-card-content">
-                                        <div class="event-card-flex" style=" padding: 10px 20px;"></div>
-                                        <h1 class="event-title event-title-responsive-on-event">
-                                            Pottery Work Shop
-                                            <p class="mt-1"
-                                                style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
-                                                Shape, mold, Heal, create, laugh together</p>
-
-                                        </h1>
-                                        <div class="event-price-section">
-                                            <div class="event-dates">
-                                                <span class="event-dates-text" style="font-weight:700"><i
-                                                        class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i>
-                                                    11th Apr
-                                                    <?php echo $current_year; ?>
-                                                </span>
-                                            </div>
-                                            <div class="event-dates">
-                                                <i class="fa fa-map-marker-alt me-1" style="color: #4ec0db;"></i>
-                                                <span class="event-dates-text" style="font-weight:700">Chennai
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="#" style="color: #4ec0db !important;"
-                                        class="event-view text-decoration-none">Soon !</a>
                                 </div>
                             </div>
 
@@ -3534,11 +3583,11 @@
                                 </div>
                             </div>
 
-                            <!-- Event Card 4 -->
+                            <!-- Event Card 2 -->
                             <div onclick="window.open('#')" style="cursor: pointer;" class="event-card">
                                 <div class="event-content" style="position: relative;">
                                     <div class="event-image">
-                                        <img src="assets/img/event/cards/event-card-11.avif" alt="Pottery WORK SHOP">
+                                        <img src="assets/img/event/cards/event-card-12.avif" alt="Pottery WORK SHOP">
                                     </div>
                                     <!-- Slot at top right, responsive -->
                                     <div class="event-slot-badge">
@@ -3550,17 +3599,17 @@
                                     <div class="event-card-content">
                                         <div class="event-card-flex" style=" padding: 10px 20px;"></div>
                                         <h1 class="event-title event-title-responsive-on-event">
-                                            Strangers Fun meetup
+                                            Pottery Work Shop
                                             <p class="mt-1"
                                                 style="font-size: 10px; margin-bottom: 0px; color: #FFFFFF; text-transform: none;  word-spacing: 1px;">
-                                                Games, icebreakers, laughs, future buddies</p>
+                                                Shape, mold, Heal, create, laugh together</p>
 
                                         </h1>
                                         <div class="event-price-section">
                                             <div class="event-dates">
                                                 <span class="event-dates-text" style="font-weight:700"><i
                                                         class="fa-solid fa-calendar me-1" style="color: #4ec0db;"></i>
-                                                    28th Mar,25th Apr,23rd May
+                                                    11th Apr
                                                     <?php echo $current_year; ?>
                                                 </span>
                                             </div>
@@ -3575,6 +3624,9 @@
                                         class="event-view text-decoration-none">Soon !</a>
                                 </div>
                             </div>
+
+
+
 
                         </div>
                         <button class="event-slider-arrow right" aria-label="Scroll to next trip" type="button"

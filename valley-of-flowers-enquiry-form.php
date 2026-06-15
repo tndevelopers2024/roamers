@@ -1,18 +1,19 @@
 <?php
 session_start();
-include('includes/header.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquire Now: Valley of Flowers Trek - Roamers</title>
     <!-- SEO Meta Description -->
     <meta name="description" content="Book your Valley of Flowers trek with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India." />
     <meta name="author" content="Roamers" />
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
 
     <!-- Open Graph tags -->
     <meta property="og:site_name" content="Roamers" />
@@ -688,6 +689,7 @@ include('includes/header.php');
 </head>
 
 <body>
+    <?php include('includes/header.php'); ?>
     <section>
         <!-- Desktop View -->
 
