@@ -10,6 +10,7 @@ const tripPrices = {
   ".chik-price": "₹7,990",
   ".chikmangalur-price": "₹8,990",
   ".kerala-price": "₹14,490",
+  ".kerala-grand-price": "₹22,990",
   ".kerala-onam-price": "₹8,499",
   ".andaman-price": "₹24,990",
   ".leh-ladak-price": "₹21,990",

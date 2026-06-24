@@ -764,6 +764,124 @@
       ]
     }
   },
+
+  "kerala_grand_circuit": {
+    "September": [
+      {
+        "date": "05 Sep - 11 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "12 Sep - 18 Sep",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "26 Sep - 02 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      }
+    ],
+    "October": [
+      {
+        "date": "03 Oct - 09 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "17 Oct - 23 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "24 Oct - 30 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      }
+    ],
+    "November": [
+      {
+        "date": "07 Nov - 13 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "21 Nov - 27 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      }
+    ],
+    "December": [
+      {
+        "date": "05 Dec - 11 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "12 Dec - 18 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "20 Dec - 26 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "26 Dec - 01 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      }
+    ],
+    "January": [
+      {
+        "date": "02 Jan - 08 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      },
+      {
+        "date": "16 Jan - 22 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b922,990 /-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "\u20b922,990",
+      "prices": [
+        {
+          "sharing": "Solo Rider",
+          "offer": "\u20b933,990",
+          "mrp": "\u20b935,990"
+        },
+        {
+          "sharing": "Double Sharing",
+          "offer": "\u20b928,990",
+          "mrp": "\u20b930,990"
+        },
+        {
+          "sharing": "Traveller",
+          "offer": "\u20b922,990",
+          "mrp": "\u20b924,990"
+        }
+      ]
+    }
+  },
+
   "kerala-onam": {
     "September": [
       {

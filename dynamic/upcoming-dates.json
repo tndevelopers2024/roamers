@@ -1,5 +1,6 @@
 {
     "jan": {
+        "kerala-grand-circuit": "Jan 09, 16",
         "meghalaya": "Jan 14,24",
         "varkala-grouptrip": "Jan 14,24",
         "andaman": "Jan 14",
@@ -44,6 +45,7 @@
         "andaman": "Customise it!"
     },
     "sep": {
+        "kerala-grand-circuit": "Sep 05, 12, 26",
         "valley-of-flowers": "Sep 05",
         "kerala-onam": "Sep 4",
         "pondicherry": "Sep 20",
@@ -55,6 +57,7 @@
         "wayanad": ""
     },
     "oct": {
+        "kerala-grand-circuit": "Oct 03, 17, 24",
         "kolukkumalai-trek": "Sep 26",
         "chikmagalur": "Sep 6",
         "andaman": "",
@@ -64,6 +67,7 @@
         "srilanka": "Aug 17"
     },
     "nov": {
+        "kerala-grand-circuit": "Nov 07, 21",
         "kolukkumalai-trek": "Sep 26",
         "chikmagalur": "Sep 6",
         "andaman": "",
@@ -71,6 +75,7 @@
         "srilanka": "Aug 17"
     },
     "dec": {
+        "kerala-grand-circuit": "Dec 05, 12, 20, 26",
         "chikmagalur": "Sep 6",
         "pondicherry": "Sep 20",
         "kolukkumalai-trek": "Sep 26",

@@ -2807,6 +2807,16 @@
                     'price_class' => 'kerala-price',
                     'link' => 'kerala'
                 ],
+                'kerala-grand-circuit' => [
+                    'title' => 'KERALA GRAND CIRCUIT',
+                    'image' => 'assets/img/Kerala/Kerala-photos.jpg',
+                    'duration' => '7D/6N',
+                    'location' => 'Ex: Alleppey - Kochi',
+                    'places' => 'Alleppey, Munnar, Kochi',
+                    'price' => '',
+                    'price_class' => 'kerala-grand-price',
+                    'link' => 'kerala-grand-circuit'
+                ],
                 'kedarkantha' => [
                     'title' => 'KEDARKANTHA TREK',
                     'image' => 'assets/img/kedarkantha/main-sub.avif',
@@ -2836,6 +2846,7 @@
                     ['trip_id' => 'andaman', 'dates' => 'Jan 14, 21'],
                     ['trip_id' => 'thailand', 'dates' => 'Jan 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Jan 14, 27'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Jan 09, 16'],
                     ['trip_id' => 'kedarkantha', 'dates' => 'Jan 15, 29'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Jan 14, 28'],
                 ],
@@ -2907,6 +2918,7 @@
                     ['trip_id' => 'srilanka', 'dates' => 'Sep 06'],
                     ['trip_id' => 'andaman', 'dates' => 'Sep 12, 26'],
                     ['trip_id' => 'kerala', 'dates' => 'Sep 06, 20'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Sep 05, 12, 26'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Sep 06, 20'],
                 ],
                 'oct' => [
@@ -2916,6 +2928,7 @@
                     ['trip_id' => 'srilanka', 'dates' => 'Oct 10, 24'],
                     ['trip_id' => 'andaman', 'dates' => 'Oct 14, 28'],
                     ['trip_id' => 'kerala', 'dates' => 'Oct 07, 21'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Oct 03, 17, 24'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Oct 06, 20'],
                 ],
                 'nov' => [
@@ -2924,6 +2937,7 @@
                     ['trip_id' => 'andaman', 'dates' => 'Nov 14, 28'],
                     ['trip_id' => 'thailand', 'dates' => 'Nov 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Nov 07, 21'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Nov 07, 21'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Nov 14, 28'],
                 ],
                 'dec' => [
@@ -2932,6 +2946,7 @@
                     ['trip_id' => 'andaman', 'dates' => 'Dec 14, 28'],
                     ['trip_id' => 'thailand', 'dates' => 'Dec 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Dec 07, 21'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Dec 05, 12, 20, 26'],
                     ['trip_id' => 'kedarkantha', 'dates' => 'Dec 15, 29'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Dec 14, 28'],
                 ]
