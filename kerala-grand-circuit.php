@@ -1365,7 +1365,7 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Alleppey - Kochi</div>
+                  <div class="info-value">Kochi - Alleppey</div>
                 </div>
               </div>
             </div>

@@ -2811,8 +2811,8 @@
                     'title' => 'KERALA GRAND CIRCUIT',
                     'image' => 'assets/img/Kerala/Kerala-photos.jpg',
                     'duration' => '7D/6N',
-                    'location' => 'Ex: Alleppey - Kochi',
-                    'places' => 'Alleppey, Munnar, Kochi',
+                    'location' => 'Ex: Kochi - Alleppey',
+                    'places' => 'Kochi, Athirapally, Munnar, Vagamon, Varkala, Alleppey',
                     'price' => '',
                     'price_class' => 'kerala-grand-price',
                     'link' => 'kerala-grand-circuit'
@@ -2879,7 +2879,7 @@
                     ['trip_id' => 'tawang', 'dates' => 'May 01, 06'],
                     ['trip_id' => 'ooty', 'dates' => 'May 01, 15, 29'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'May 15, 30'],
-                    ['trip_id' => 'yelagiri', 'dates' => 'May 02, 27'],
+                    // ['trip_id' => 'yelagiri', 'dates' => 'May 02, 27'],
                 ],
                 'jun' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Jun 06, 13, 20, 27'],
@@ -2888,7 +2888,7 @@
                     ['trip_id' => 'valley', 'dates' => 'Jun 27'],
                     ['trip_id' => 'ooty', 'dates' => 'Jun 12, 26'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Jun 13, 27'],
-                    ['trip_id' => 'yelagiri', 'dates' => 'Jun 02, 27'],
+                    // ['trip_id' => 'yelagiri', 'dates' => 'Jun 02, 27'],
                 ],
                 'jul' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Jul 04, 11, 18, 25'],
@@ -2896,7 +2896,7 @@
                     ['trip_id' => 'spiti', 'dates' => 'Jul 11, 25'],
                     ['trip_id' => 'ooty', 'dates' => 'Jul 11, 25'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Jul 12, 26'],
-                    ['trip_id' => 'yelagiri', 'dates' => 'Jul 02, 27'],
+                    // ['trip_id' => 'yelagiri', 'dates' => 'Jul 02, 27'],
                 ],
                 'august' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Aug 01, 08, 15, 22, 29'],
@@ -2911,6 +2911,7 @@
                 'sep' => [
                     ['trip_id' => 'leh-ladakh', 'dates' => 'Sep 05, 12, 19, 26'],
                     ['trip_id' => 'valley', 'dates' => 'Sep 05'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Sep 05, 12, 26'],
                     ['trip_id' => 'ooty', 'dates' => 'Sep 05, 19'],
                     ['trip_id' => 'spiti', 'dates' => 'Sep 05, 19'],
                     ['trip_id' => 'meghalaya', 'dates' => 'Sep 05,12, 19,26'],
@@ -2918,35 +2919,34 @@
                     ['trip_id' => 'srilanka', 'dates' => 'Sep 06'],
                     ['trip_id' => 'andaman', 'dates' => 'Sep 12, 26'],
                     ['trip_id' => 'kerala', 'dates' => 'Sep 06, 20'],
-                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Sep 05, 12, 26'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Sep 06, 20'],
                 ],
                 'oct' => [
                     ['trip_id' => 'ooty', 'dates' => 'Oct 10, 24'],
                     ['trip_id' => 'kodaikanal', 'dates' => 'Oct 01, 15, 29'],
                     ['trip_id' => 'meghalaya', 'dates' => 'Oct 02,10, 17,24,31'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Oct 03, 17, 24'],
                     ['trip_id' => 'srilanka', 'dates' => 'Oct 10, 24'],
                     ['trip_id' => 'andaman', 'dates' => 'Oct 14, 28'],
                     ['trip_id' => 'kerala', 'dates' => 'Oct 07, 21'],
-                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Oct 03, 17, 24'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Oct 06, 20'],
                 ],
                 'nov' => [
                     ['trip_id' => 'meghalaya', 'dates' => 'Nov 07,14, 21,28'],
                     ['trip_id' => 'srilanka', 'dates' => 'Nov 07, 21'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Nov 07, 21'],
                     ['trip_id' => 'andaman', 'dates' => 'Nov 14, 28'],
                     ['trip_id' => 'thailand', 'dates' => 'Nov 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Nov 07, 21'],
-                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Nov 07, 21'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Nov 14, 28'],
                 ],
                 'dec' => [
                     ['trip_id' => 'meghalaya', 'dates' => 'Dec 05,12'],
                     ['trip_id' => 'srilanka', 'dates' => 'Dec 14, 28'],
+                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Dec 05, 12, 20, 26'],
                     ['trip_id' => 'andaman', 'dates' => 'Dec 14, 28'],
                     ['trip_id' => 'thailand', 'dates' => 'Dec 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Dec 07, 21'],
-                    ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Dec 05, 12, 20, 26'],
                     ['trip_id' => 'kedarkantha', 'dates' => 'Dec 15, 29'],
                     ['trip_id' => 'chikmagalur', 'dates' => 'Dec 14, 28'],
                 ]
@@ -2978,7 +2978,7 @@
                 <div class="upcoming-tabs" id="upcoming-tabs">
                     <?php
                     foreach ($months_config as $key => $config):
-                        $isActive = ($key === 'may') ? 'active' : '';
+                        $isActive = ($key === 'jul') ? 'active' : '';
                         ?>
                         <button class="upcoming-tab-btn <?php echo $isActive; ?>" data-tab="<?php echo $key; ?>">
                             <span class="tab-icon"><i class="fa-solid <?php echo $config['icon']; ?>"></i></span>
@@ -2997,7 +2997,7 @@
                 <!-- Tab Contents -->
                 <?php
                 foreach ($months_config as $key => $config):
-                    $isActive = ($key === 'may') ? 'active' : '';
+                    $isActive = ($key === 'jul') ? 'active' : '';
                     ?>
                     <div class="upcoming-tab-content <?php echo $isActive; ?>" id="tab-<?php echo $key; ?>">
                         <div class="upcoming-slider-wrapper">

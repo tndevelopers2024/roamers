@@ -1259,7 +1259,7 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-        MAJESTIC MEGHALAYA
+        MAGICAL MEGHALAYA
       </h2>
 
       <ul class="banner-hight-bottom p-0"
@@ -1585,7 +1585,7 @@
                     <div class="accordion-body" style="background-color: #f5fdff;">
 
                       <ul class="ps-lg-3 ps-0">
-                        <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                        <!-- <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
                             style="font-size: 0.65rem;"></i>
                           Meet the Roamers team & trip captain at the designated point in Guwahati and get ready to
                           kick-start our journey to Shillong.
@@ -1605,7 +1605,19 @@
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight stay in Shillong, where the good times continue!
-                        </li>
+                        </li> -->
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
+                            style="font-size: 0.65rem;"></i>Hey Welcome to Meghalaya! Meet your fellow travellers & Roamers Trip Captain at the designated pickup point in Guwahati.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Let's kickstart our Meghalaya expedition with a scenic drive towards Shillong, enjoy the stunning scenery & socialize with co-travellers on our way!</li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                         We'll make a stop at the stunning Umiam Lake Viewpoint, one of Meghalaya's most iconic landscapes & the perfect lake views to capture.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                           Reach Shillong by evening, check in to the hotel and take some time to freshen up before heading out to explore the lively Police Bazaar with our team.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Enjoy shopping, local cafés and explore the vibrant market of Shillong. Return to the hotel, more games & fun night awaits Roamers!</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Shillong.</li>
                       </ul>
                     </div>
                   </div>
@@ -1620,7 +1632,8 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                        <span>Laitlum Grand Canyon | Cherrapunjee | Wei Sawdong Waterfall</span>
+                        <!-- <span>Laitlum Grand Canyon | Cherrapunjee | Wei Sawdong Waterfall</span> -->
+                         <span>Shillong to Shnongpdeng (Dawki) | Laitlum & KrangSuri Waterfalls</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1632,17 +1645,17 @@
                       <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
                       </div>
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Rise and shine for an epic day! After breakfast, we're off to the stunning Laitlum Canyons for
                           panoramic valley views of Meghalaya.
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Let's Begin our drive towards Cherrapunjee,
-                        </li>
+                        </li> -->
                         <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Upon arrival check-in to our cozy hotel
                         </li> -->
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Upon arrival check-in to our cozy hotel
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -1650,7 +1663,7 @@
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight Stay in Cherrapunjee, team extravaganza! Prepare for a night of pure fun and loads of unforgettable memories
-                        </li>
+                        </li> -->
                         <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight Stay in Cherrapunjee.
                         </li> -->
@@ -1658,6 +1671,18 @@
                           Overnight Stay in Cherrapunjee, team extravaganza! Prepare for a night of pure fun and loads
                           of unforgettable memories
                         </li> -->
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                           Wake up to a beautiful Shillong morning, enjoy breakfast and get ready for another exciting day ahead.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Our first stop is the breathtaking Laitlum Canyon, explore the endless valleys & dramatic cliffs offering some of the best views in Meghalaya.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          On our way towards the long journey we'll visit the famous Krang Suri Waterfalls and get ready to swim in the icy crystal-clear blue waters just like a paradise.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                         By evening, we'll arrive at the beautiful riverside campsite in Shnongpdeng, located beside the famous Umngot River.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          As the sun sets, enjoy a memorable evening around the campsite with dinner, music, conversations and countless memories with the best travellers around!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight riverside camping in Shnongpdeng (Dawki).</li>
                       </ul>
                     </div>
                   </div>
@@ -1672,7 +1697,8 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                        <span>Trek Living Root Bridges of Meghalaya</span>
+                        <!-- <span>Trek Living Root Bridges of Meghalaya</span> -->
+                         <span>Shnongpdeng to Cherrapunji | Water Adventures & Caves</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1681,7 +1707,7 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Wake up early and post-breakfast, we're heading to Tyrna Village for a thrilling living
                           double-decker root bridge trek.
                         </li>
@@ -1694,12 +1720,30 @@
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           In the evening, we'll return to our comfy Cherrapunjee accommodation for some well-deserved leisure. Overnight stay at Cherrapunjeе!!!
-                        </li>
+                        </li> -->
                         <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>In
                           the evening, we'll return to our comfy Cherrapunjee accommodation for some well-deserved
                           leisure.
                           Overnight stay at Cherrapunjee!!!
                         </li> -->
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Rise early to witness the magical morning views of the crystal-clear Umngot River before enjoying breakfast at the campsite.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          It's time for some adventure! Enjoy exciting water activities like boating, kayaking or Cliff Jumping at the Umngot River (activities may vary and are subject to weather conditions).
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                           Later, we'll begin our scenic drive towards Cherrapunji, one of the wettest places & adventurous Land of India!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Explore the fascinating Mawsmai Cave, famous for its naturally formed limestone passages and unique rock formations.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          End the day at the spectacular Seven Sisters Waterfall Viewpoint, where the sunset creates a picture-perfect backdrop, hey a group pic is must here :)
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Late evening reach your Hotel, Overnight stay in Cherrapunji.
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -1714,7 +1758,8 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                        <span>Nohkalikai Falls | Mawsmai Caves | Dawki</span>
+                        <!-- <span>Nohkalikai Falls | Mawsmai Caves | Dawki</span> -->
+                         <span>Double Decker Root Bridge Trek | Blue Lagoon Waterfalls</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1723,7 +1768,7 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Rise and shine again! We're diving into the picturesque beauty of Meghalaya, starting with Nohkalikai Falls (the tallest plunge waterfall in India) and Seven Sister Falls.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
@@ -1734,10 +1779,31 @@
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Visit the pristine Mawlynnong village, know as Asia's cleanest village, take a relaxing walk through its beautiful surroundings
-                        </li>
+                        </li> -->
                         <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Gather for a delicious group Dinner & Overnight Camping in Dawki
                         </li> -->
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Fuel up with a delicious breakfast because today brings one of Meghalaya's biggest adventures!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                           Begin the trek to the world-famous Double Decker Living Root Bridge, passing through lush forests, hanging bridges and beautiful village trails.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          We'll take a short break at the famous Ritymmen Living Root Bridge, known for being one of the longest living root bridges in the region.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          The adventure doesn't stop there! Trek further to witness the one and only Umshiang Double Decker Living Root Bridge, a true wonder crafted by nature over centuries.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Not finished yet, gang! Let's continue our trek to the stunning Blue Lagoon Waterfalls. Take a refreshing dip, relax by the crystal-clear waters and capture those Insta-worthy moments!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After an unforgettable day of adventure, we'll begin our Return Trek, back with our Team!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Reach the hotel and relax after the long day, Overnight stay in Cherrapunji.
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -1752,7 +1818,8 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                        <span>Umngot River | Boat Ride | Krang Shuri Waterfall</span>
+                        <!-- <span>Umngot River | Boat Ride | Krang Shuri Waterfall</span> -->
+                         <span>Nohkalikai, Wei Sawdong Falls, Garden of Caves | Farewell Night</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1761,7 +1828,7 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Alright team! get ready for an exhilarating Boat ride on the crystal-clear waters of Umngot
                           River in Dawki.
                         </li>
@@ -1776,6 +1843,24 @@
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           We'll check in to our comfy Shillong accommodation and enjoy some leisure time.
                           Overnight stay in Shillong, where the adventure never ends!
+                        </li> -->
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After breakfast, we'll continue exploring some of Meghalaya's most beautiful natural attractions before heading back to Shillong.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Visit the magnificent Nohkalikai Falls Viewpoint and witness the breathtaking views from one of India's tallest plunge waterfalls. (A falls with history & mystery behind).
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Next, we'll make a short hike to the stunning Wei Sawdong Waterfall, famous for its crystal-clear turquoise pools.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Before leaving Cherrapunji, we'll explore the peaceful Garden of Caves, a hidden gem filled with streams, caves and lush greenery.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          By late evening, we'll arrive back in Shillong, relax after the day's adventures and get ready for the Farewell night & dinner with the team organised by Roamers team!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Overnight stay in Shillong.
                         </li>
                       </ul>
                     </div>
@@ -1791,7 +1876,8 @@
 
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 6</span>
-                        <span>Shillong #MeTime | Farewell</span>
+                        <!-- <span>Shillong #MeTime | Farewell</span> -->
+                         <span>Shillong to Guwahati | Back to home!</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1800,7 +1886,7 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body bg-white px-4 py-3">
                       <ul class="ps-lg-3 ps-0">
-                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                        <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Wake up and get ready for a relaxed morning as we prepare to enjoy a delightful breakfast,
                           fueling up for your last day in Meghalaya.
                         </li>
@@ -1814,7 +1900,7 @@
                         </li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Goodbyes are never easy, but what ride it has been! See you guys, more Hugs!
-                        </li>
+                        </li> -->
                         <!-- <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           We'll reach our first drop point Coimbatore at 7 PM, and we'll arrive at Chennai by 6 AM. Bye
                           for now, Roamers. Reunion plans for next year? You bet!
@@ -1822,6 +1908,23 @@
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Goodbyes are never easy, but what ride it has been! See you guys, more Hugs!
                         </li> -->
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          After breakfast, we'll bid goodbye to Meghalaya and begin our scenic drive back to Guwahati.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          On the way, let's make one final stop at the beautiful Umiam Lake if time permits, to soak
+                          in the last views of Meghalaya.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          We'll reach Guwahati by afternoon & drop everyone at the Airport/Station with hearts full of memories & cameras full of beautiful moments.
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Our Meghalaya expedition comes to an end, but the friendships, adventures and stories will
+                          stay with us forever. Until the next adventure with Roamers!
+                        </li>
+                        <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Bye Bye! More Hugs! Will see you all soon in our next adventure…
+                        </li>
                       </ul>
                     </div>
                   </div>
