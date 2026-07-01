@@ -626,6 +626,7 @@
         }
     }
 </style>
+
 <!-- Banner Below Section -->
 <style>
     * {
@@ -1567,6 +1568,7 @@
         }
     }
 </style>
+
 <!-- Events Section -->
 <style>
     html,
@@ -2086,6 +2088,7 @@
         }
     }
 </style>
+
 <style>
     /* Responsive slot badge for event cards */
     .event-slot-badge {
@@ -2541,7 +2544,7 @@
             </section>
         </section>
 
-        <!-- Modern Premium Marquee -->
+        <!-- Marquee -->
         <div class="roamers-premium-marquee">
             <div class="marquee-track">
                 <div class="marquee-content-wrapper">
@@ -2769,7 +2772,7 @@
                 ],
                 'ooty' => [
                     'title' => 'Ooty The Queen of Hills',
-                    'image' => 'assets/img/Ooty/card/ooty-card-by-roamers.avif',
+                    'image' => 'http://localhost/roamers/assets/img/bg/ooty-cove.jpeg',
                     'duration' => '3D/2N',
                     'location' => 'EX: Chennai, Coimbatore',
                     'places' => 'Ooty, Pykara, Coonoor, Isha',
@@ -2957,7 +2960,7 @@
                 // 'feb' => ['name' => 'February', 'icon' => 'fa-heart'],
                 // 'mar' => ['name' => 'March', 'icon' => 'fa-sun'],
                 // 'apr' => ['name' => 'April', 'icon' => 'fa-cloud-sun'],
-                'may' => ['name' => 'May', 'icon' => 'fa-sun'],
+                // 'may' => ['name' => 'May', 'icon' => 'fa-sun'],
                 'jun' => ['name' => 'June', 'icon' => 'fa-cloud-sun-rain'],
                 'jul' => ['name' => 'July', 'icon' => 'fa-cloud-showers-heavy'],
                 'august' => ['name' => 'August', 'icon' => 'fa-cloud-sun'],

@@ -1,3 +1,4 @@
+(() => {
 // *****Sidebar tab content start*****
 $('.tabgroup > div').hide();
 $('.tabgroup > div:first-of-type').show();
@@ -296,6 +297,7 @@ $(document).ready(function() {
       $(".whatapp").fadeIn();
   });
 });
+})();
 
 
 

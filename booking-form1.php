@@ -1,5 +1,9 @@
 <?php
 session_start();
+
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/includes/security.php';
+if (!empty($_POST)) { $_POST = clean_input($_POST); }
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -32,16 +36,16 @@ if (isset($_POST['submit-btn'])) {
     try {
         // SMTP Server Settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = $smtp_configs['booking']['host'];
         $mail->SMTPAuth = true;
-        $mail->Username = 'madhavangl20@gmail.com'; // Use environment variables
-        $mail->Password = 'lohs zucb lbqz szyf';   // NEVER expose credentials directly!
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Username = $smtp_configs['booking']['user']; // Use environment variables
+        $mail->Password = $smtp_configs['booking']['pass'];   // NEVER expose credentials directly!
+        $mail->SMTPSecure = $smtp_configs['booking']['secure'];
+        $mail->Port = $smtp_configs['booking']['port'];
 
         // Email Headers
-        $mail->setFrom('madhavangl20@gmail.com', 'Contact Form');
-        $mail->addAddress('madhavangl20@gmail.com'); // Receiver Email
+        $mail->setFrom('info@roamers.in', 'Contact Form');
+        $mail->addAddress('info@roamers.in'); // Receiver Email
 
         // Email Content
         $mail->isHTML(true);

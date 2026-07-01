@@ -1,5 +1,9 @@
 <?php
 session_start();
+
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/includes/security.php';
+if (!empty($_POST)) { $_POST = clean_input($_POST); }
 ini_set('upload_max_filesize', '40000M');
 ini_set('post_max_size', '40000M');
 ini_set('max_input_time', 300000);
@@ -45,16 +49,16 @@ if ($_POST) {
 	//Set PHPMailer to use SMTP.
 	$mail->isSMTP();
 	//Set SMTP host name                          
-	$mail->Host = "smtp.gmail.com";
+	$mail->Host = $smtp_configs['default']['host'];
 	//Set this to true if SMTP host requires authentication to send email
 	$mail->SMTPAuth = true;
 	//Provide username and password     
-	$mail->Username = "info@roamers.in";
-	$mail->Password = "atgk pshm vwxb jvia";
+	$mail->Username = $smtp_configs['default']['user'];
+	$mail->Password = $smtp_configs['default']['pass'];
 	//If SMTP requires TLS encryption then set it
-	$mail->SMTPSecure = "ssl";
+	$mail->SMTPSecure = $smtp_configs['default']['secure'];
 	//Set TCP port to connect to
-	$mail->Port = 465;
+	$mail->Port = $smtp_configs['default']['port'];
 
 	//From email address and name
 	$mail->From = $from;

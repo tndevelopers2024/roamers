@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/includes/security.php';
+if (!empty($_POST)) { $_POST = clean_input($_POST); }
 if (isset($_POST['submit'])) {
     // 1. Collect Data
     $date = date('Y-m-d H:i:s');
@@ -16,7 +20,7 @@ if (isset($_POST['submit'])) {
     ];
 
     // 2. YOUR GOOGLE WEBHOOK URL
-    $google_webhook_url = 'https://script.google.com/macros/s/AKfycby3nEnw8ya-450Fm_y_Ynx77TgNPse_g7FaaQyH5dhMZv5-Cf5dQUoLJqb1T7EQ9Ztbpg/exec';
+    $google_webhook_url = get_config('GOOGLE_WEBHOOK_URL', 'https://script.google.com/macros/s/AKfycby3nEnw8ya-450Fm_y_Ynx77TgNPse_g7FaaQyH5dhMZv5-Cf5dQUoLJqb1T7EQ9Ztbpg/exec');
 
     // 3. --- DUAL STORAGE ACTION ---
 

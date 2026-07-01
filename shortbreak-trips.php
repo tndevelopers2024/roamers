@@ -2829,31 +2829,6 @@
 <!--====== quotes End ======-->
 
 
-<!-- jQuery(necessary for all JavaScript plugins) -->
-<script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-<!-- Bootstrap js -->
-<script src="assets/js/bootstrap/popper.min.js"></script>
-<script src="assets/js/bootstrap/bootstrap.min.js"></script>
-
-<!-- Plugins js -->
-<script src="assets/js/plugins/plugins.min.js"></script>
-
-
-<!-- Active js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- <script src="assets/js/main.js"></script> -->
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="assets/js/active.js"></script>
-<script src="assets/js/dates.js"></script>
-
 <script>
   window.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper('.swiper-container', {
@@ -2898,7 +2873,3 @@
   document.getElementById("changecon").innerHTML = localStorage.getItem('four');
   document.getElementById("changecon").innerHTML = localStorage.getItem('five');
 </script>
-
-</body>
-
-</html>

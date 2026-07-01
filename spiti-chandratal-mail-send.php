@@ -1,5 +1,9 @@
 <?php
 
+
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/includes/security.php';
+if (!empty($_POST)) { $_POST = clean_input($_POST); }
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -26,12 +30,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
+        $mail->Host = $smtp_configs['alt']['host'];
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@roamers.in';
-        $mail->Password   = 'iifr konl ctis tphr'; // App password
-        $mail->SMTPSecure = 'tls';
-        $mail->Port       = 587;
+        $mail->Username = $smtp_configs['alt']['user'];
+        $mail->Password = $smtp_configs['alt']['pass']; // App password
+        $mail->SMTPSecure = $smtp_configs['alt']['secure'];
+        $mail->Port = $smtp_configs['alt']['port'];
 
         $mail->setFrom('info@roamers.in', 'Booking Form');
         $mail->addAddress('info@roamers.in');

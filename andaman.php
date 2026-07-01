@@ -822,6 +822,7 @@
         display: flex !important;
         flex-wrap: wrap !important;
         /* Enable wrapping */
+
         overflow-x: visible !important;
         /* Disable scroll */
         padding-bottom: 0px;
@@ -1064,16 +1065,17 @@
   <!-- Banner -->
   <style>
     .andaman-banner {
-      height: 125vh;
+      height: 90vh;
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
-      padding: 350px 0;
-      background-image: url('assets/img/andaman/andaman-bg.avif');
+      padding: 0;
+      background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*71GCdeCXyEA9bxjdfigJAw.jpeg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      background-color: black;
     }
 
     .andaman-banner-overlay {
@@ -1082,6 +1084,7 @@
       left: 0;
       right: 0;
       bottom: 0;
+      background: rgba(0, 0, 0, 0.22); /* Dark overlay to make white text stand out */
     }
 
     .andaman-banner-title {
@@ -1089,15 +1092,15 @@
       font-weight: 900;
       margin: 0;
       color: #fff;
-      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      /* text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.85); */
       letter-spacing: 1px;
     }
 
     @media (max-width: 768px) {
       .andaman-banner {
-        background-image: url('https://muddyshoe.in/wp-content/uploads/2025/03/IMG_2613-1024x768.jpg') !important;
+        background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*71GCdeCXyEA9bxjdfigJAw.jpeg') !important;
         height: 80vh !important;
-        padding: 150px 0 !important;
+        padding: 0 !important;
         background-position: center !important;
       }
       .andaman-banner-title {
@@ -1105,7 +1108,7 @@
         padding: 0 15px;
       }
       .andaman-banner-overlay {
-        background: rgba(0,0,0,0.3); /* Adds a slight darkening overlay on mobile for better text readability */
+        background: rgba(0,0,0,0.45) !important; /* Consistent darkening overlay on mobile */
       }
     }
   </style>
