@@ -1242,6 +1242,7 @@
       }
     }
   </style>
+
 </head>
 
 <body>
@@ -1527,7 +1528,6 @@
      border-radius: 50%;
      margin-top: 5px;">
                   </i>
-
                 </span>
               </div>
             </div>
@@ -1537,14 +1537,18 @@
           <div class="col-md-5 mt-0">
             <div class="swiper miniSlider px-px-md-0 py-3">
               <div class="swiper-wrapper">
-                <?php
-                for ($i = 1; $i <= 32; $i++) {
-                  $imgNum = sprintf("%02d", $i);
-                  echo '<div class="swiper-slide">';
-                  echo '  <img src="assets/img/meghalaya/meghalaya-gallery-' . $imgNum . '.avif" class="img-fluid w-100" alt="Meghalaya Gallery Image ' . $i . '" style="border-radius: 30px; height: 350px; object-fit: cover;">';
-                  echo '</div>';
-                }
-                ?>
+                <div class="swiper-slide">
+                  <img src="assets/img/meghalaya/meghalaya-gallery-08.avif" class="img-fluid w-100" alt="Meghalaya Gallery Image 08" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/meghalaya/meghalaya-gallery-02.avif" class="img-fluid w-100" alt="Meghalaya Gallery Image 02" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/meghalaya/meghalaya-gallery-03.avif" class="img-fluid w-100" alt="Meghalaya Gallery Image 03" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/meghalaya/meghalaya-gallery-18.avif" class="img-fluid w-100" alt="Meghalaya Gallery Image 18" style="border-radius: 30px; height: 350px; object-fit: cover;">
+                </div>
               </div>
             </div>
           </div>
@@ -1606,17 +1610,22 @@
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight stay in Shillong, where the good times continue!
                         </li> -->
-                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                            style="font-size: 0.65rem;"></i>Hey Welcome to Meghalaya! Meet your fellow travellers & Roamers Trip Captain at the designated pickup point in Guwahati.</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Hey
+                          Welcome to Meghalaya! Meet your fellow travellers & Roamers Trip Captain at the designated
+                          pickup point in Guwahati.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Let's kickstart our Meghalaya expedition with a scenic drive towards Shillong, enjoy the stunning scenery & socialize with co-travellers on our way!</li>
+                          Let's kickstart our Meghalaya expedition with a scenic drive towards Shillong, enjoy the
+                          stunning scenery & socialize with co-travellers on our way!</li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                         We'll make a stop at the stunning Umiam Lake Viewpoint, one of Meghalaya's most iconic landscapes & the perfect lake views to capture.</li>
+                          We'll make a stop at the stunning Umiam Lake Viewpoint, one of Meghalaya's most iconic
+                          landscapes & the perfect lake views to capture.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                           Reach Shillong by evening, check in to the hotel and take some time to freshen up before heading out to explore the lively Police Bazaar with our team.</li>
+                          Reach Shillong by evening, check in to the hotel and take some time to freshen up before
+                          heading out to explore the lively Police Bazaar with our team.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Enjoy shopping, local cafés and explore the vibrant market of Shillong. Return to the hotel, more games & fun night awaits Roamers!</li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
+                          Enjoy shopping, local cafés and explore the vibrant market of Shillong. Return to the hotel,
+                          more games & fun night awaits Roamers!</li>
+                        <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight stay in Shillong.</li>
                       </ul>
                     </div>
@@ -1633,7 +1642,7 @@
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
                         <!-- <span>Laitlum Grand Canyon | Cherrapunjee | Wei Sawdong Waterfall</span> -->
-                         <span>Shillong to Shnongpdeng (Dawki) | Laitlum & KrangSuri Waterfalls</span>
+                        <span>Shillong to Shnongpdeng (Dawki) | Laitlum & KrangSuri Waterfalls</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1672,15 +1681,20 @@
                           of unforgettable memories
                         </li> -->
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                           Wake up to a beautiful Shillong morning, enjoy breakfast and get ready for another exciting day ahead.</li>
+                          Wake up to a beautiful Shillong morning, enjoy breakfast and get ready for another exciting
+                          day ahead.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Our first stop is the breathtaking Laitlum Canyon, explore the endless valleys & dramatic cliffs offering some of the best views in Meghalaya.</li>
+                          Our first stop is the breathtaking Laitlum Canyon, explore the endless valleys & dramatic
+                          cliffs offering some of the best views in Meghalaya.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          On our way towards the long journey we'll visit the famous Krang Suri Waterfalls and get ready to swim in the icy crystal-clear blue waters just like a paradise.</li>
+                          On our way towards the long journey we'll visit the famous Krang Suri Waterfalls and get ready
+                          to swim in the icy crystal-clear blue waters just like a paradise.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                         By evening, we'll arrive at the beautiful riverside campsite in Shnongpdeng, located beside the famous Umngot River.</li>
+                          By evening, we'll arrive at the beautiful riverside campsite in Shnongpdeng, located beside
+                          the famous Umngot River.</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          As the sun sets, enjoy a memorable evening around the campsite with dinner, music, conversations and countless memories with the best travellers around!</li>
+                          As the sun sets, enjoy a memorable evening around the campsite with dinner, music,
+                          conversations and countless memories with the best travellers around!</li>
                         <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight riverside camping in Shnongpdeng (Dawki).</li>
                       </ul>
@@ -1698,7 +1712,7 @@
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
                         <!-- <span>Trek Living Root Bridges of Meghalaya</span> -->
-                         <span>Shnongpdeng to Cherrapunji | Water Adventures & Caves</span>
+                        <span>Shnongpdeng to Cherrapunji | Water Adventures & Caves</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1727,19 +1741,24 @@
                           Overnight stay at Cherrapunjee!!!
                         </li> -->
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Rise early to witness the magical morning views of the crystal-clear Umngot River before enjoying breakfast at the campsite.
+                          Rise early to witness the magical morning views of the crystal-clear Umngot River before
+                          enjoying breakfast at the campsite.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          It's time for some adventure! Enjoy exciting water activities like boating, kayaking or Cliff Jumping at the Umngot River (activities may vary and are subject to weather conditions).
+                          It's time for some adventure! Enjoy exciting water activities like boating, kayaking or Cliff
+                          Jumping at the Umngot River (activities may vary and are subject to weather conditions).
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                           Later, we'll begin our scenic drive towards Cherrapunji, one of the wettest places & adventurous Land of India!
+                          Later, we'll begin our scenic drive towards Cherrapunji, one of the wettest places &
+                          adventurous Land of India!
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Explore the fascinating Mawsmai Cave, famous for its naturally formed limestone passages and unique rock formations.
+                          Explore the fascinating Mawsmai Cave, famous for its naturally formed limestone passages and
+                          unique rock formations.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          End the day at the spectacular Seven Sisters Waterfall Viewpoint, where the sunset creates a picture-perfect backdrop, hey a group pic is must here :)
+                          End the day at the spectacular Seven Sisters Waterfall Viewpoint, where the sunset creates a
+                          picture-perfect backdrop, hey a group pic is must here :)
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Late evening reach your Hotel, Overnight stay in Cherrapunji.
@@ -1759,7 +1778,7 @@
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
                         <!-- <span>Nohkalikai Falls | Mawsmai Caves | Dawki</span> -->
-                         <span>Double Decker Root Bridge Trek | Blue Lagoon Waterfalls</span>
+                        <span>Double Decker Root Bridge Trek | Blue Lagoon Waterfalls</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1787,16 +1806,20 @@
                           Fuel up with a delicious breakfast because today brings one of Meghalaya's biggest adventures!
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                           Begin the trek to the world-famous Double Decker Living Root Bridge, passing through lush forests, hanging bridges and beautiful village trails.
+                          Begin the trek to the world-famous Double Decker Living Root Bridge, passing through lush
+                          forests, hanging bridges and beautiful village trails.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          We'll take a short break at the famous Ritymmen Living Root Bridge, known for being one of the longest living root bridges in the region.
+                          We'll take a short break at the famous Ritymmen Living Root Bridge, known for being one of the
+                          longest living root bridges in the region.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          The adventure doesn't stop there! Trek further to witness the one and only Umshiang Double Decker Living Root Bridge, a true wonder crafted by nature over centuries.
+                          The adventure doesn't stop there! Trek further to witness the one and only Umshiang Double
+                          Decker Living Root Bridge, a true wonder crafted by nature over centuries.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Not finished yet, gang! Let's continue our trek to the stunning Blue Lagoon Waterfalls. Take a refreshing dip, relax by the crystal-clear waters and capture those Insta-worthy moments!
+                          Not finished yet, gang! Let's continue our trek to the stunning Blue Lagoon Waterfalls. Take a
+                          refreshing dip, relax by the crystal-clear waters and capture those Insta-worthy moments!
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           After an unforgettable day of adventure, we'll begin our Return Trek, back with our Team!
@@ -1819,7 +1842,7 @@
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
                         <!-- <span>Umngot River | Boat Ride | Krang Shuri Waterfall</span> -->
-                         <span>Nohkalikai, Wei Sawdong Falls, Garden of Caves | Farewell Night</span>
+                        <span>Nohkalikai, Wei Sawdong Falls, Garden of Caves | Farewell Night</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1845,19 +1868,24 @@
                           Overnight stay in Shillong, where the adventure never ends!
                         </li> -->
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          After breakfast, we'll continue exploring some of Meghalaya's most beautiful natural attractions before heading back to Shillong.
+                          After breakfast, we'll continue exploring some of Meghalaya's most beautiful natural
+                          attractions before heading back to Shillong.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Visit the magnificent Nohkalikai Falls Viewpoint and witness the breathtaking views from one of India's tallest plunge waterfalls. (A falls with history & mystery behind).
+                          Visit the magnificent Nohkalikai Falls Viewpoint and witness the breathtaking views from one
+                          of India's tallest plunge waterfalls. (A falls with history & mystery behind).
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Next, we'll make a short hike to the stunning Wei Sawdong Waterfall, famous for its crystal-clear turquoise pools.
+                          Next, we'll make a short hike to the stunning Wei Sawdong Waterfall, famous for its
+                          crystal-clear turquoise pools.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          Before leaving Cherrapunji, we'll explore the peaceful Garden of Caves, a hidden gem filled with streams, caves and lush greenery.
+                          Before leaving Cherrapunji, we'll explore the peaceful Garden of Caves, a hidden gem filled
+                          with streams, caves and lush greenery.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          By late evening, we'll arrive back in Shillong, relax after the day's adventures and get ready for the Farewell night & dinner with the team organised by Roamers team!
+                          By late evening, we'll arrive back in Shillong, relax after the day's adventures and get ready
+                          for the Farewell night & dinner with the team organised by Roamers team!
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Overnight stay in Shillong.
@@ -1877,7 +1905,7 @@
                       <div class="d-flex align-items-center w-100">
                         <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 6</span>
                         <!-- <span>Shillong #MeTime | Farewell</span> -->
-                         <span>Shillong to Guwahati | Back to home!</span>
+                        <span>Shillong to Guwahati | Back to home!</span>
                         <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                       </div>
                     </button>
@@ -1916,7 +1944,8 @@
                           in the last views of Meghalaya.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                          We'll reach Guwahati by afternoon & drop everyone at the Airport/Station with hearts full of memories & cameras full of beautiful moments.
+                          We'll reach Guwahati by afternoon & drop everyone at the Airport/Station with hearts full of
+                          memories & cameras full of beautiful moments.
                         </li>
                         <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
                           Our Meghalaya expedition comes to an end, but the friendships, adventures and stories will
@@ -2093,259 +2122,255 @@
   </section> -->
 
   <section class="rewind-section" style="position: relative; overflow: hidden; padding: 60px 0 100px;">
-        <div class="rewind-header" style="margin-bottom: 50px;">
-            <div class="rewind-title-area">
-                <h3 class="head" style="text-align: center; margin-bottom: 20px;"> <img
-                    src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
-                    class="align-start me-2">Roamers Rewind <img src="assets/img/valley-of-flowers/fast-backward.png"
-                    alt="rewind icon" style="width: 25px;" class="align-start">
-                </h3>
-            </div>
-        </div>
-
-        <div style="position: relative;">
-            <div class="swiper rewind-swiper" style="overflow: visible !important;">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-29.avif" alt="Meghalaya Gallery Image 29">
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                           <img src="assets/img/meghalaya/meghalaya-gallery-30.avif" alt="Meghalaya Gallery Image 30">
-                        </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-31.avif" alt="Meghalaya Gallery Image 31">
-                        </div>
-                    </div>
-
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-32.avif" alt="Meghalaya Gallery Image 32">
-                        </div>
-                    </div>
-
-                    <!-- Slide 5 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-01.avif" alt="Meghalaya Gallery Image 1">
-                        </div>
-                    </div>
-
-                    <!-- Slide 6 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-02.avif" alt="Meghalaya Gallery Image 2">
-                        </div>
-                    </div>
-
-                    <!-- Slide 7 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-03.avif" alt="Meghalaya Gallery Image 3">
-                        </div>
-                    </div>
-
-                    <!-- Slide 8 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-04.avif" alt="Meghalaya Gallery Image 4">
-                        </div>
-                    </div>
-
-                    <!-- Slide 9 -->
-                     <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-05.avif" alt="Meghalaya Gallery Image 5">
-                        </div>
-                    </div>
-
-                    <!-- Slide 10 -->
-                     <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-06.avif" alt="Meghalaya Gallery Image 6">
-                        </div>
-                    </div>
-
-                    <!-- Slide 11 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-07.avif" alt="Meghalaya Gallery Image 7">
-                        </div>
-                    </div>
-
-                    <!-- Slide 12 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-08.avif" alt="Meghalaya Gallery Image 8">
-                        </div>
-                    </div>
-
-                    <!-- Slide 13 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-09.avif" alt="Meghalaya Gallery Image 9">
-                        </div>
-                    </div>
-
-                    <!-- Slide 14 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-10.avif" alt="Meghalaya Gallery Image 10">
-                        </div>
-                    </div>
-
-                    <!-- Slide 15 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-11.avif" alt="Meghalaya Gallery Image 11">
-                        </div>
-                    </div>
-
-                    <!-- Slide 16 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-12.avif" alt="Meghalaya Gallery Image 12">
-                        </div>
-                    </div>
-
-                    <!-- Slide 17 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-13.avif" alt="Meghalaya Gallery Image 13">
-                        </div>
-                    </div>
-
-                    <!-- Slide 18 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-14.avif" alt="Meghalaya Gallery Image 14">
-                        </div>
-                    </div>
-
-                    <!-- Slide 19 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-15.avif" alt="Meghalaya Gallery Image 15">
-                        </div>
-                    </div>
-
-                    <!-- Slide 20 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-16.avif" alt="Meghalaya Gallery Image 16">
-                        </div>
-                    </div>
-
-                    <!-- Slide 21 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-17.avif" alt="Meghalaya Gallery Image 17">
-                        </div>
-                    </div>
-
-                    <!-- Slide 22 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-18.avif" alt="Meghalaya Gallery Image 18">
-                        </div>
-                    </div>
-
-                    <!-- Slide 23 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-19.avif" alt="Meghalaya Gallery Image 19">
-                        </div>
-                    </div>
-
-                    <!-- Slide 24 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-20.avif" alt="Meghalaya Gallery Image 20">
-                        </div>
-                    </div>
-
-                    <!-- Slide 25 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-21.avif" alt="Meghalaya Gallery Image 21">
-                        </div>
-                    </div>
-
-                    <!-- Slide 26 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-22.avif" alt="Meghalaya Gallery Image 22">
-                        </div>
-                    </div>
-
-                    <!-- Slide 27 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-23.avif" alt="Meghalaya Gallery Image 23">
-                        </div>
-                    </div>
-
-                    <!-- Slide 28 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-24.avif" alt="Meghalaya Gallery Image 24">
-                        </div>
-                    </div>
-
-                    <!-- Slide 29 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-25.avif" alt="Meghalaya Gallery Image 25">
-                        </div>
-                    </div>
-
-                    <!-- Slide 30 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-26.avif" alt="Meghalaya Gallery Image 26">
-                        </div>
-                    </div>
-
-                    <!-- Slide 31 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-27.avif" alt="Meghalaya Gallery Image 27">
-                        </div>
-                    </div>
-
-                    <!-- Slide 32 -->
-                    <div class="swiper-slide">
-                        <div class="rewind-card">
-                            <img src="assets/img/meghalaya/meghalaya-gallery-28.avif" alt="Meghalaya Gallery Image 28">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Navigation Buttons - Now Inside Swiper for better sync -->
-                
-    <div class="journey-nav-container">
-      <div class="journey-nav-btn journey-prev"><i class="fa-solid fa-chevron-left"></i></div>
-      <div class="journey-nav-btn journey-next"><i class="fa-solid fa-chevron-right"></i></div>
+    <div class="rewind-header" style="margin-bottom: 50px;">
+      <div class="rewind-title-area">
+        <h3 class="head" style="text-align: center; margin-bottom: 20px;"> <img
+            src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
+            class="align-start me-2">Roamers Rewind <img src="assets/img/valley-of-flowers/fast-backward.png"
+            alt="rewind icon" style="width: 25px;" class="align-start">
+        </h3>
+      </div>
     </div>
 
-                
+    <div style="position: relative;">
+      <div class="swiper rewind-swiper" style="overflow: visible !important;">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-29.avif" alt="Meghalaya Gallery Image 29">
             </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-30.avif" alt="Meghalaya Gallery Image 30">
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-31.avif" alt="Meghalaya Gallery Image 31">
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-32.avif" alt="Meghalaya Gallery Image 32">
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-01.avif" alt="Meghalaya Gallery Image 1">
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-02.avif" alt="Meghalaya Gallery Image 2">
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-03.avif" alt="Meghalaya Gallery Image 3">
+            </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-04.avif" alt="Meghalaya Gallery Image 4">
+            </div>
+          </div>
+
+          <!-- Slide 9 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-05.avif" alt="Meghalaya Gallery Image 5">
+            </div>
+          </div>
+
+          <!-- Slide 10 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-06.avif" alt="Meghalaya Gallery Image 6">
+            </div>
+          </div>
+
+          <!-- Slide 11 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-07.avif" alt="Meghalaya Gallery Image 7">
+            </div>
+          </div>
+
+          <!-- Slide 12 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-08.avif" alt="Meghalaya Gallery Image 8">
+            </div>
+          </div>
+
+          <!-- Slide 13 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-09.avif" alt="Meghalaya Gallery Image 9">
+            </div>
+          </div>
+
+          <!-- Slide 14 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-10.avif" alt="Meghalaya Gallery Image 10">
+            </div>
+          </div>
+
+          <!-- Slide 15 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-11.avif" alt="Meghalaya Gallery Image 11">
+            </div>
+          </div>
+
+          <!-- Slide 16 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-12.avif" alt="Meghalaya Gallery Image 12">
+            </div>
+          </div>
+
+          <!-- Slide 17 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-13.avif" alt="Meghalaya Gallery Image 13">
+            </div>
+          </div>
+
+          <!-- Slide 18 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-14.avif" alt="Meghalaya Gallery Image 14">
+            </div>
+          </div>
+
+          <!-- Slide 19 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-15.avif" alt="Meghalaya Gallery Image 15">
+            </div>
+          </div>
+
+          <!-- Slide 20 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-16.avif" alt="Meghalaya Gallery Image 16">
+            </div>
+          </div>
+
+          <!-- Slide 21 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-17.avif" alt="Meghalaya Gallery Image 17">
+            </div>
+          </div>
+
+          <!-- Slide 22 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-18.avif" alt="Meghalaya Gallery Image 18">
+            </div>
+          </div>
+
+          <!-- Slide 23 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-19.avif" alt="Meghalaya Gallery Image 19">
+            </div>
+          </div>
+
+          <!-- Slide 24 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-20.avif" alt="Meghalaya Gallery Image 20">
+            </div>
+          </div>
+
+          <!-- Slide 25 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-21.avif" alt="Meghalaya Gallery Image 21">
+            </div>
+          </div>
+
+          <!-- Slide 26 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-22.avif" alt="Meghalaya Gallery Image 22">
+            </div>
+          </div>
+
+          <!-- Slide 27 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-23.avif" alt="Meghalaya Gallery Image 23">
+            </div>
+          </div>
+
+          <!-- Slide 28 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-24.avif" alt="Meghalaya Gallery Image 24">
+            </div>
+          </div>
+
+          <!-- Slide 29 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-25.avif" alt="Meghalaya Gallery Image 25">
+            </div>
+          </div>
+
+          <!-- Slide 30 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-26.avif" alt="Meghalaya Gallery Image 26">
+            </div>
+          </div>
+
+          <!-- Slide 31 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-27.avif" alt="Meghalaya Gallery Image 27">
+            </div>
+          </div>
+
+          <!-- Slide 32 -->
+          <div class="swiper-slide">
+            <div class="rewind-card">
+              <img src="assets/img/meghalaya/meghalaya-gallery-28.avif" alt="Meghalaya Gallery Image 28">
+            </div>
+          </div>
         </div>
-    </section>
+
+        <!-- Navigation Buttons - Now Inside Swiper for better sync -->
+
+        <div class="journey-nav-container">
+          <div class="journey-nav-btn journey-prev"><i class="fa-solid fa-chevron-left"></i></div>
+          <div class="journey-nav-btn journey-next"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
 
 
-
-
+      </div>
+    </div>
+  </section>
 
   <!-- Faq Seciton -->
   <section class="faq" id="notes">
@@ -2516,7 +2541,7 @@
   <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 
   <script>
-    window.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener("DOMContentLoaded", function () {
       const swiper = new Swiper(".swiper-container", {
         slidesPerView: "auto",
         spaceBetween: 10,
@@ -2593,9 +2618,9 @@
 
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       // Initialize Swiper with a slight delay to ensure proper positioning
-      setTimeout(function() {
+      setTimeout(function () {
         var swiper = new Swiper('.swiper-container.two', {
           effect: 'coverflow',
           grabCursor: true,
@@ -2614,7 +2639,7 @@
             clickable: true
           },
           on: {
-            init: function() {
+            init: function () {
               document.querySelector('.scroll-section').classList.add('initialized');
               document.querySelector('.swiper-container.two').classList.add('initialized');
             }
@@ -2627,7 +2652,7 @@
   <script>
     var navbar = document.querySelector("nav");
 
-    window.onscroll = function() {
+    window.onscroll = function () {
       // pageYOffset or scrollY
       if (window.scrollY > 100) {
         navbar.classList.add("scrolled");
@@ -2642,7 +2667,7 @@
 
     // *****Sidebar tab radio content start*****
     var sliders = document.querySelectorAll(".slider");
-    sliders.forEach(function(slider) {
+    sliders.forEach(function (slider) {
       var sliderContainer = slider.querySelector(".slider-container");
       var prevBtn = slider.querySelector(".prev-btn1");
       var nextBtn = slider.querySelector(".next-btn1");
@@ -2804,8 +2829,8 @@
       autoWidth: true,
       loop: true
     });
-    $(document).ready(function() {
-      $(".custom-carousel .item").click(function() {
+    $(document).ready(function () {
+      $(".custom-carousel .item").click(function () {
         $(".custom-carousel .item").not($(this)).removeClass("active");
         $(this).toggleClass("active");
       });

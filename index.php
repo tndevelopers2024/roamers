@@ -2659,7 +2659,7 @@
                     'link' => 'ladakh-circuit'
                 ],
                 'meghalaya' => [
-                    'title' => 'MAJESTIC MEGHALAYA',
+                    'title' => 'MAGICAL MEGHALAYA',
                     'image' => 'assets/img/meghalaya/meghalaya-gallery-03.avif',
                     'duration' => '6D/5N',
                     'location' => 'Ex: Guwahati',

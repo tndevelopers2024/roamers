@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
         'name'        => $_POST['name'] ?? '',
         'email'       => $_POST['email'] ?? '',
         'phone'       => $_POST['phone'] ?? '',
-        'destination' => $_POST['destination'] ?? '',
+        'destination' => !empty($_POST['destination']) ? $_POST['destination'] : ucwords(str_replace(['-', '&'], [' ', ' & '], str_replace(['-enquiry-mail.send.php', '-enquiry-mail-send.php'], '', basename(__FILE__)))),
         'pax'         => $_POST['pax'] ?? '',
         'trip_type'   => $_POST['trip_type'] ?? '',
         'month'       => $_POST['month'] ?? '',
@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
     ];
 
     // 2. YOUR GOOGLE WEBHOOK URL
-    $google_webhook_url = get_config('GOOGLE_WEBHOOK_URL', 'https://script.google.com/macros/s/AKfycby3nEnw8ya-450Fm_y_Ynx77TgNPse_g7FaaQyH5dhMZv5-Cf5dQUoLJqb1T7EQ9Ztbpg/exec');
+    $google_webhook_url = get_config('GOOGLE_WEBHOOK_URL', 'https://script.google.com/macros/s/AKfycby3nEnw8ya-450Fm_y_Ynx77TgNPse_g7FaaQyH5dhMZv5-Cf5dQUoLJqb1T7EQ9Ztbpg/exec'); 
 
     // 3. --- DUAL STORAGE ACTION ---
 
@@ -115,7 +115,7 @@ if (isset($_POST['submit'])) {
 
             .btn {
                 display: inline-block;
-                background: #094067;
+                background: #4ec0db;
                 color: white;
                 padding: 18px 45px;
                 border-radius: 50px;

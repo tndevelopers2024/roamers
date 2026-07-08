@@ -798,7 +798,7 @@ session_start();
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-suitcase"></i>
                                 <select name="trip_type" required>
-                                    <option value="Group Trip">Group Trip / Fixed Departure</option>
+                                    <option value="Group Trip">Roamers Group Trip (18 -39)</option>
                                     <option value="Private Trip">Private / Customized Trip</option>
                                 </select>
                                 <i class="fa-solid fa-chevron-down dropdown-icon"></i>

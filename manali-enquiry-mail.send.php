@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
         'name'        => $_POST['name'] ?? '',
         'email'       => $_POST['email'] ?? '',
         'phone'       => $_POST['phone'] ?? '',
-        'destination' => $_POST['destination'] ?? '',
+        'destination' => !empty($_POST['destination']) ? $_POST['destination'] : ucwords(str_replace(['-', '&'], [' ', ' & '], str_replace(['-enquiry-mail.send.php', '-enquiry-mail-send.php'], '', basename(__FILE__)))),
         'pax'         => $_POST['pax'] ?? '',
         'trip_type'   => $_POST['trip_type'] ?? '',
         'month'       => $_POST['month'] ?? '',

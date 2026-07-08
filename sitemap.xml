@@ -6,138 +6,98 @@
     http://www.sitemaps.org/schemas/sitemap/0.9
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- ========================= -->
-  <!--        HOMEPAGE           -->
-  <!-- ========================= -->
-  <url>
-    <loc>https://www.roamers.in/</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <!-- HOMEPAGE -->
+  <url><loc>https://www.roamers.in/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
 
-  <!-- ========================= -->
-  <!--        CORE PAGES         -->
-  <!-- ========================= -->
-  <url>
-    <loc>https://www.roamers.in/trips</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- CORE PAGES -->
+  <url><loc>https://www.roamers.in/trips</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.roamers.in/backpacking-trips</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.roamers.in/shortbreak-trips</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.roamers.in/group-trips</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.roamers.in/upcoming-trips</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.roamers.in/events</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.roamers.in/blog</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.roamers.in/calendar</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/cancellation-policy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 
-  <url>
-    <loc>https://www.roamers.in/backpacking-trips</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- ARTICLES / BLOGS -->
+  <url><loc>https://www.roamers.in/how-to-choose-best-solo-group-travel-package</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/how-to-choose-group-and-solo</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/how-to-choose-the-right-group-trip</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/india&apos;s-hidden-gems-10-best-camping-cestinations</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/island-hopping-in-andaman</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/ladak-blog</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/must-do-experiences-in-kerala-the-ultimate-bucket-list</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/perfect-weekend-getaway</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/top-benefits-of-group-travel</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/unlimited-guide-backpacking-trips</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <url>
-    <loc>https://www.roamers.in/shortbreak-trips</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- DESTINATIONS AND TRIPS -->
+  <url><loc>https://www.roamers.in/7-Celestial-Havens</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/andaman</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/andaman-8D</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/andaman-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/andaman-group-trip</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/andaman-packages</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/bali</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/bali-6days-5nights-1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/bali-6days-5nights-2</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/chikmagalur</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/chikmagalur-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/dubai-4D</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/dubai-5D</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/dubai-7D</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/dubai-packages</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kashmir</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kedarkantha</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kerala</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kerala-chritsmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kerala-grand-circuit</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kerala-onam</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kodaikanal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kodaikanal1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kodaikanal1-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kolukkumalai</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kolukkumalai-trek</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/kolukkumalai-trek1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/ladakh-circuit</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/ladakh-umlingla</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/mahashivratri-ooty</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/manali</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/meghalaya</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/meghalaya-backpacking-trip</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/meghalaya-christmas-new-year</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/munnar-alleppey3</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/ooty</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/ooty-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/pondi-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/pondicherry</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/pondicherry1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/skandagiri</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/spiti-chandratal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/spiti-valley</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/spitivalley-winter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/spitivalley-winter-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/srilanka</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/srilanka-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/tawang</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/valley-of-flowers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala-3days-2nights-1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala-3days-2nights-2</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala-4days-3nights-1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala-4days-3nights-2</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala-5days-4nights</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala-grouptrip</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/varkala-packages</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/wayanad</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/wayanad1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/wayanad-christmas&amp;newyear</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/yelagiri</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.roamers.in/yelagiri-group-trip</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- ========================= -->
-  <!--     DESTINATION PAGES     -->
-  <!-- ========================= -->
-  <url>
-    <loc>https://www.roamers.in/kolukkumalai</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/ooty</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/wayanad</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/kodaikanal</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/pondicherry</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/chikmagalur</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/kerala</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/andaman</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/meghalaya</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- ========================= -->
-  <!--        FORM PAGES         -->
-  <!-- ========================= -->
-  <url>
-    <loc>https://www.roamers.in/ooty-form</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/wayanad-form</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.roamers.in/kodaikanal-form</loc>
-    <lastmod>2024-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- ========================= -->
-  <!--        PDF FILES          -->
-  <!-- ========================= -->
-  <url>
-    <loc>https://www.roamers.in/assets/brochures/Ooty-Itinerary.pdf</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
+  <!-- PDF FILES -->
+  <url><loc>https://www.roamers.in/assets/brochures/Ooty-Itinerary.pdf</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
 
 </urlset>

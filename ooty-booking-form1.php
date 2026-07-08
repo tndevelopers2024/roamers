@@ -2,7 +2,9 @@
 
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/security.php';
-if (!empty($_POST)) { $_POST = clean_input($_POST); }
+if (!empty($_POST)) {
+    $_POST = clean_input($_POST);
+}
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -11,26 +13,26 @@ require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $name         = $_POST['name'];
-    $email        = $_POST['email'];
-    $phone        = $_POST['phone'];
-    $dob          = $_POST['dob'];
-    $gender       = $_POST['gender'];
-    $sharing      = $_POST['sharing'];
-    $date         = $_POST['date'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $dob = $_POST['dob'];
+    $gender = $_POST['gender'];
+    $sharing = $_POST['sharing'];
+    $date = $_POST['date'];
     $person_count = $_POST['person-count'];
-    $pickup       = $_POST['pickup'];
-    $address1     = $_POST['address1'];
-    $address2     = $_POST['address2'];
-    $city         = $_POST['city'];
-    $postcode     = $_POST['post-code'];
+    $pickup = $_POST['pickup'];
+    $address1 = $_POST['address1'];
+    $address2 = $_POST['address2'];
+    $city = $_POST['city'];
+    $postcode = $_POST['post-code'];
 
     $mail = new PHPMailer(true);
 
     try {
         $mail->isSMTP();
         $mail->Host = $smtp_configs['default']['host'];
-        $mail->SMTPAuth   = true;
+        $mail->SMTPAuth = true;
         $mail->Username = $smtp_configs['default']['user'];
         $mail->Password = $smtp_configs['default']['pass']; // App password
         $mail->SMTPSecure = $smtp_configs['default']['secure'];
