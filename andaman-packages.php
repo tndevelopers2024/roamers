@@ -576,14 +576,14 @@
 
         .card-modern {
             position: relative;
-            border-radius: 20px;
+            border-radius: 24px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 15px 35px rgba(78, 192, 219, 0.3), 0 5px 15px rgba(0, 0, 0, 0.08);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             height: 450px;
             margin-bottom: 20px;
             display: block;
-            border: 1px solid rgba(255, 255, 255, 0.4);
+            border: 1px solid rgba(78, 192, 219, 0.3);
             /* Glass Border */
         }
 
@@ -604,7 +604,7 @@
         .card-modern:hover,
         .package-card-wrap:hover .card-modern {
             transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 22px 50px rgba(78, 192, 219, 0.45), 0 8px 20px rgba(0, 0, 0, 0.12);
         }
 
         .card-modern .card-img {

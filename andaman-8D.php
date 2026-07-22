@@ -6,13 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Roamers - Andaman 8 Days 7 Nights Tour Package</title>
-  <meta name="description" content="Explore the Andaman Islands in 8 days with Roamers. Snorkel at Havelock Island, visit Cellular Jail, trek through rainforests, and relax on pristine beaches. Book your Andaman 8D/7N package today!" />
-  <meta name="keywords" content="Andaman 8 days tour, Andaman trip package, Havelock Island, Cellular Jail, Andaman Nicobar, Roamers travel" />
+  <meta name="description"
+    content="Explore the Andaman Islands in 8 days with Roamers. Snorkel at Havelock Island, visit Cellular Jail, trek through rainforests, and relax on pristine beaches. Book your Andaman 8D/7N package today!" />
+  <meta name="keywords"
+    content="Andaman 8 days tour, Andaman trip package, Havelock Island, Cellular Jail, Andaman Nicobar, Roamers travel" />
   <meta name="author" content="Themeland" />
   <!-- Open Graph tags -->
   <meta property="og:site_name" content="Roamers" />
   <meta property="og:title" content="Roamers - Andaman 8 Days 7 Nights Tour Package" />
-  <meta property="og:description" content="Explore the Andaman Islands in 8 days with Roamers. Snorkel at Havelock Island, visit Cellular Jail, trek through rainforests, and relax on pristine beaches." />
+  <meta property="og:description"
+    content="Explore the Andaman Islands in 8 days with Roamers. Snorkel at Havelock Island, visit Cellular Jail, trek through rainforests, and relax on pristine beaches." />
   <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/Andaman-cover-min.jpg" />
   <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/Andaman-cover-min.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -686,10 +689,10 @@
           <div class="trip-about">
             <div class="row">
               <div class="col-6">
-              <img class="cus-img" src="assets/img/andaman/Media/61af5c4e959d8191_28.jpg" alt="roamers-Gallery">
+                <img class="cus-img" src="assets/img/andaman/Media/61af5c4e959d8191_28.jpg" alt="roamers-Gallery">
               </div>
               <div class="col-6">
-              <img class="cus-img" src="assets/img/andaman/Media/nabil-naidu.jpg" alt="roamers-Gallery">
+                <img class="cus-img" src="assets/img/andaman/Media/nabil-naidu.jpg" alt="roamers-Gallery">
               </div>
             </div>
           </div>

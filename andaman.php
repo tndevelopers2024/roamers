@@ -8,12 +8,14 @@
   <title>Roamers - Andaman Tour Packages | Beaches, Islands & Adventure</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Explore the Andaman Islands with Roamers. Pristine beaches, snorkelling at Havelock, glass-bottom boat rides, Cellular Jail, and lush rainforests. Book your Andaman tour package today!" />
+  <meta name="description"
+    content="Explore the Andaman Islands with Roamers. Pristine beaches, snorkelling at Havelock, glass-bottom boat rides, Cellular Jail, and lush rainforests. Book your Andaman tour package today!" />
   <meta name="author" content="Themeland" />
   <!-- Open Graph tags -->
   <meta property="og:site_name" content="Roamers" />
   <meta property="og:title" content="Roamers - Andaman Tour Packages | Beaches, Islands & Adventure" />
-  <meta property="og:description" content="Explore the Andaman Islands with Roamers. Pristine beaches, snorkelling at Havelock, glass-bottom boat rides, Cellular Jail, and lush rainforests. Book your Andaman tour package today!" />
+  <meta property="og:description"
+    content="Explore the Andaman Islands with Roamers. Pristine beaches, snorkelling at Havelock, glass-bottom boat rides, Cellular Jail, and lush rainforests. Book your Andaman tour package today!" />
   <meta property="og:image" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
   <meta property="og:image:secure_url" content="https://roamers.in/assets/img/andaman/Media/overview-2.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -243,7 +245,8 @@
     .slide-text span {
       color: #fff !important;
     }
-/* 
+
+    /* 
     .swiper-slide a:hover {
       box-shadow: rgba(48, 212, 245, 0.24) 0px 6px 8px;
     } */
@@ -541,7 +544,8 @@
       transition: all 0.3s ease;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-/* 
+
+    /* 
     .btn-custom-book:hover,
     .package-card-wrap:hover .btn-custom-book {
       background-color: #094067;
@@ -1084,7 +1088,8 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.22); /* Dark overlay to make white text stand out */
+      background: rgba(0, 0, 0, 0.22);
+      /* Dark overlay to make white text stand out */
     }
 
     .andaman-banner-title {
@@ -1103,12 +1108,15 @@
         padding: 0 !important;
         background-position: center !important;
       }
+
       .andaman-banner-title {
         font-size: 38px !important;
         padding: 0 15px;
       }
+
       .andaman-banner-overlay {
-        background: rgba(0,0,0,0.45) !important; /* Consistent darkening overlay on mobile */
+        background: rgba(0, 0, 0, 0.45) !important;
+        /* Consistent darkening overlay on mobile */
       }
     }
   </style>
@@ -1137,6 +1145,7 @@
       </ul> -->
     </div>
   </section>
+  
   <!-- Banner Slider End -->
 
   <!-- About Us Section Start -->
@@ -1187,7 +1196,8 @@
         width: 100%;
         margin-bottom: 20px;
       }
-      .about-area{
+
+      .about-area {
         padding-bottom: 0 !important;
       }
 
@@ -1358,10 +1368,13 @@
       .about-area {
         padding-bottom: 0 !important;
       }
+
       .about-content {
         padding-left: 0;
       }
-      .section-title, .section-subtitle{
+
+      .section-title,
+      .section-subtitle {
         text-align: center;
       }
     }
@@ -1369,18 +1382,18 @@
 
   <style>
     .andaman-packages-section {
-        height: 50vh;
-        background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+      height: 50vh;
+      background-image: url('');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
-    
+
     @media (max-width: 991px) {
-        .andaman-packages-section {
-            height: auto !important;
-            padding: 25px 0;
-        }
+      .andaman-packages-section {
+        height: auto !important;
+        padding: 25px 0;
+      }
     }
   </style>
 
@@ -1564,8 +1577,8 @@
             </div>
           </div> -->
 
-          <!-- Duplicated Slides for Loop Stability -->
-          <!-- <div class="swiper-slide">
+  <!-- Duplicated Slides for Loop Stability -->
+  <!-- <div class="swiper-slide">
             <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Sunset">
             <div class="gallery-overlay">
               <h5>Island Sunset</h5>
@@ -1596,12 +1609,14 @@
   </section> -->
 
   <section class="rewind-section" style="position: relative; overflow: hidden; padding: 250px 0px 0px 0px;">
-     <div class="rewind-header" style="margin-bottom: 50px;">
+    <div class="rewind-header" style="margin-bottom: 50px;">
       <div class="rewind-title-area">
         <h3 class="head" style="text-align: center; margin-bottom: 20px;">
-          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start me-2">
+          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
+            class="align-start me-2">
           Roamers Rewind
-          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start">
+          <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
+            class="align-start">
         </h3>
       </div>
     </div>
@@ -1656,7 +1671,7 @@
           <div class="swiper-slide">
             <div class="rewind-card">
               <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
-              alt="Coral Reef">
+                alt="Coral Reef">
             </div>
           </div>
 
@@ -1964,79 +1979,80 @@
   </script>
 
   <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Form benefit items animation
-            const items = document.querySelectorAll('.benefit-item');
-            items.forEach((item, index) => {
-                item.style.opacity = '0';
-                item.style.transform = 'translateX(-20px)';
-                setTimeout(() => {
-                    item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
-                    item.style.opacity = '1';
-                    item.style.transform = 'translateX(0)';
-                }, 400 + (index * 100));
-            });
+    document.addEventListener('DOMContentLoaded', () => {
+      // Form benefit items animation
+      const items = document.querySelectorAll('.benefit-item');
+      items.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(-20px)';
+        setTimeout(() => {
+          item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+          item.style.opacity = '1';
+          item.style.transform = 'translateX(0)';
+        }, 400 + (index * 100));
+      });
 
-            // Rewind Swiper Initialization
-            const rewindSwiper = new Swiper('.rewind-swiper', {
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: true,
-                slideToClickedSlide: true,
-                loop: true,
-                speed: 1000,
-                autoplay: {
-                    delay: 3500,
-                    disableOnInteraction: false,
-                },
-                coverflowEffect: {
-                    rotate: 20,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: false,
-                },
-                navigation: {
-                    nextEl: '.journey-next',
-                    prevEl: '.journey-prev',
-                },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 1.4,
-                        spaceBetween: 1,
-                        coverflowEffect: {
-                            rotate: 15,
-                            depth: 150,
-                            modifier: 1,
-                        }
-                    },
-                    640: {
-                        slidesPerView: 2.5,
-                        spaceBetween: 30,
-                        coverflowEffect: {
-                            rotate: 20,
-                            depth: 100,
-                            modifier: 1,
-                        }
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 50,
-                        coverflowEffect: {
-                            rotate: 20,
-                            depth: 100,
-                            modifier: 1,
-                        }
-                    }
-                }
-            });
-        });
-    </script>
+      // Rewind Swiper Initialization
+      const rewindSwiper = new Swiper('.rewind-swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slideToClickedSlide: true,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        navigation: {
+          nextEl: '.journey-next',
+          prevEl: '.journey-prev',
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1.4,
+            spaceBetween: 1,
+            coverflowEffect: {
+              rotate: 15,
+              depth: 150,
+              modifier: 1,
+            }
+          },
+          640: {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            coverflowEffect: {
+              rotate: 20,
+              depth: 100,
+              modifier: 1,
+            }
+          }
+        }
+      });
+    });
+  </script>
 
   <style>
     .rewind-swiper .swiper-slide {
       cursor: pointer;
     }
+
     @media (max-width: 768px) {
       .rewind-swiper .swiper-slide {
         padding: 0 15px;

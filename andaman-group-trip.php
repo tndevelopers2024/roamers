@@ -242,13 +242,13 @@
   <!-- Banner -->
   <style>
     .andaman-banner {
-      height: 125vh;
+      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
       padding: 350px 0;
-      background-image: url('assets/img/andaman/andaman-bg.avif');
+      /* background-image: url('assets/img/andaman/andaman-bg.avif'); */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -1479,29 +1479,37 @@
     }
   </style>
 
-  <section id="banner" class="andaman-banner">
-    <div class="andaman-banner-overlay"></div>
-    <div style="position: relative; z-index: 1; text-align: center; color: white; width: 100%;">
+  <section id="banner" class="andaman-banner" style="overflow: hidden;">
+    <!-- Vimeo Background Video -->
+    <div class="vimeo-wrapper" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; overflow: hidden;">
+      <iframe src="https://player.vimeo.com/video/1211979997?background=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="width: 100vw; height: 56.25vw; min-height: 100vh; min-width: 177.77vh; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" title="andaman-banner-video"></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <div class="andaman-banner-overlay" style="z-index: 1; background: rgba(0,0,0,0.3);"></div>
+    <div style="position: relative; z-index: 2; text-align: center; color: white; width: 100%;">
       <h2 class="andaman-banner-title">ANDAMAN ISLAND HOPPING</h2>
       <ul style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; padding: 0;">
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           PORT BLAIR
           <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
         </li>
+        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; font-size: 16px;">
+          ROSS ISLAND
+          <span style="margin-left: 10px; margin-right:10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
+        </li>
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           HAVELOCK ISLAND
-          <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
+          <span style="margin-left: 10px; "><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
         </li>
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           NEIL ISLAND
-          <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
+         
         </li>
-        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; font-size: 16px;">
-          ROSS ISLAND
-        </li>
+      
       </ul>
     </div>
   </section>
+
   <!-- Tab -->
   <section class="tab-sections mob-tab">
     <div class="">
@@ -1788,374 +1796,169 @@
                   <!-- day 1 -->
                   <div class="accordion-item mb-4 border-0 overflow-hidden" style="border-radius: 30px;">
                     <h2 class="accordion-header" id="headingOne">
-                      <button
-                        class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                        aria-controls="collapseOne">
+                      <button class="accordion-button text-dark fw-bold d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <div class="d-flex align-items-center">
                           <span class="badge bg-primary rounded-pill me-3 px-3 py-2">Day 1</span>
-                          <span>Arrival at Port Blair | Cellular Jail & Light Show
-                          </span>
+                          <span>WELCOME TO PORT BLAIR</span>
                         </div>
                         <i class="bi bi-chevron-down ms-auto transition-all"></i>
                       </button>
                     </h2>
-
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div class="accordion-body" style="background-color: #f5fdff;">
-
                         <ul class="ps-lg-3 ps-0">
-                          <li class=""><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                              style="font-size: 0.65rem;"></i>Feel the thrill as you touch down in Port Blair, the
-                            lively
-                            gateway to the Andaman Islands.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Meet
-                            <b>Roamers representative</b>
-                            at Veer Savarkar Airport Port Blair) who’ll guide you along.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            (Airport Shuttle will be provided 9:00 am - 12 Noon, inform the arrival time to Roamers
-                            team)
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Check into our comfy hotel, freshen up, and meet your team captains & co-travellers. And
-                            let’s
-                            take a breezy island walk to soak in the vibe.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            By evening, we head to the
-                            <b>famous Cellular Jail</b>
-                            for the
-                            <b>Sound & Light Show</b>
-                            , reliving the
-                            heroic saga of India’s freedom struggle.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Return to our hotel for dinner, fun icebreaker games, music, and bonding with your Roamers
-                            fam.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Port Blair.
-                          </li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Airport Pickup</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Hotel Check-in</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <b>Cellular Jail</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i><b>Light & Sound Show</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight Stay in Port Blair</li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <!-- day 2 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                        aria-controls="collapseTwo">
 
+                  <!-- day 2 -->
+                  <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="d-flex align-items-center w-100">
                           <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 2</span>
-                          <span> Ross Island & North Bay | Historic Ruins & Ocean Thrills </span>
+                          <span>PORT BLAIR ➔ HAVELOCK ISLAND</span>
                           <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                         </div>
                       </button>
                     </h2>
-
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                       <div class="accordion-body" style="background-color: #f5fdff;">
-                        <div class="d-flex justify-content-start mb-3 gap-4 itinerary-logo-group">
-                        </div>
                         <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Savour a Delicious Breakfast & get fueled up team, our Island adventure begins!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Start the morning with a ferry to the marvelous
-                            <b>Ross Island</b>
-                            ,
-                            where history meets nature.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Stroll past crumbling
-                            <b>colonial ruins</b>
-                            now claimed by giant roots and deer wandering freely.
-                            Every ruin holds a story, a rare sight!
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Later, let’s sail across to
-                            <b>North Bay Island</b>
-                            , famous for water activities. Try your hand at
-                            snorkelling, glass-bottom rides, or just chill by the blue waters.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Back to Port Blair in the evening for dinner, laughter, and a cozy night’s rest.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Port Blair.
-                          </li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Breakfast</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Ferry Transfer to <b>Havelock Island</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Resort Check-in</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Relax at the world-famous <b>Radhanagar Beach</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Sunset by the beach</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight Stay in Havelock</li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <!-- day 3 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
-                        aria-controls="collapse3">
 
+                  <!-- day 3 -->
+                  <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                         <div class="d-flex align-items-center w-100">
                           <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 3</span>
-                          <span>Havelock Island | Radhanagar Beach, Cafes & Sunset Magic
-                          </span>
+                          <span>EXPLORE HAVELOCK</span>
                           <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                         </div>
                       </button>
                     </h2>
-                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                      data-bs-parent="#accordionExample">
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                       <div class="accordion-body bg-white px-4 py-3">
                         <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let's start our day with a delightful breakfast and depart from Port Blair to
-                            <b>Havelock Island</b>
-                            on a scenic Ferry ride
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Let's return back to our campsite, and after hearty
-                            breakfast, let's check out and head to explore Munnar.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3"
-                              style="font-size: 0.65rem;"></i>Upon
-                            reaching Havelock Island, we'll check-in to our beachside resort and settle into our
-                            accommodation, allowing the island vibes to embrace us.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Roamers, let's head out to explore the renowned
-                            <b>Radhanagar Beach</b>
-                            ‘Touted as the best beach in
-                            Asia’ known for its pristine white sands and crystal-clear waters.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3"
-                              style="font-size: 0.65rem;"></i>Go
-                            for a swim or stroll along the beach, discover charming & lnstagram-worthy cafes and treat
-                            yourself enjoying the coastal ambience.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Capture the breathtaking sunset views and immerse in the serene atmosphere of the island.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Go back to the resort and let's get ready for an
-                            <b>island-style Moon lit Party</b>
-                            with the squad.
-                            Loose, dance, and create unforgettable memories under the enchanting moon light
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Havelock Island
-
-                          </li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <b>Elephant Beach</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Complimentary <b>Glass-Bottom Boat Ride</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Adventure Activities: Scuba Diving, Sea Walk, Snorkelling, Jet Ski, Kayaking & More</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Leisure Evening</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight Stay in Havelock</li>
                         </ul>
                       </div>
                     </div>
                   </div>
+
                   <!-- day 4 -->
                   <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
                     <h2 class="accordion-header" id="headingFour">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
-                        aria-controls="collapse4">
-
+                      <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                         <div class="d-flex align-items-center w-100">
                           <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 4</span>
-                          <span>Elephant Beach & Kalapathar | Adventure & Serenity</span>
+                          <span>HAVELOCK ➔ NEIL ISLAND</span>
                           <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                         </div>
                       </button>
                     </h2>
-                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                      data-bs-parent="#accordionExample">
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                       <div class="accordion-body bg-white px-4 py-3">
                         <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Post breakfast, let's venture out to the blissful
-                            <b>Kalapathar Beach</b>
-                            and get ready to explore
-                            its breathtaking views and sports adventures.
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Experience the thrill of
-                            <b>scuba diving, snorkelling or sea walk.</b>
-                            Immerse yourself into
-                            crystal-clear water and discover a vibrant underwater world.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Don't forget to say hi to our sea friend 'Nemo' and make your coral adventure unforgettable!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            For those who aren't into sporty activities, take a leisurely stroll along the shoreline.
-                            Find
-                            a cozy spot on the beach and soak yourself in the tranquil atmosphere. You're in a paradise!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            After, let's make our way to uncover the secluded
-                            <b>Elephant Beach</b>
-                            , where you can ride on a
-                            glass bottom boat ride and other
-                            <b>water adventures.</b>
-                            It's an absolute sight on our journey.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Return to our comfortable resort after a satisfying dinner with the team and an overnight
-                            stay.
-                          </li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Breakfast</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Ferry Transfer to Neil Island</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Visit <b>Bharatpur Beach</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore <b>Natural Bridge</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i><b>Sunset at Laxmanpur Beach</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight Stay in Neil Island</li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <!-- day 5 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
-                    <h2 class="accordion-header" id="headingFive">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
-                        aria-controls="collapse5">
 
+                  <!-- day 5 -->
+                  <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                         <div class="d-flex align-items-center w-100">
                           <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 5</span>
-                          <span> Neil Island | Quiet Beaches & Laidback Vibes
-                          </span>
+                          <span>NEIL ISLAND ➔ PORT BLAIR</span>
                           <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                         </div>
                       </button>
                     </h2>
-
-                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample">
+                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                       <div class="accordion-body bg-white px-4 py-3">
                         <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                            After our last breakfast in Havelock, we sail to
-                            <b>Neil Island – a hidden gem many travellers miss, but not us Roamers!</b>
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Check into the resort and soak in the calm island. Our first stop is the famous
-                            <b>Natural Rock Formation (Howrah Bridge)</b>
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            A stunning arch sculpted by the sea, a true wonder of Neil. you’ll get to see the sea
-                            creatures nearby, everything here is natural and un disturbed!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Later, head to
-                            <b>Laxmanpur Beach</b>
-                            , a peaceful beach perfect for evening walks, golden sunsets,
-                            and stargazing by the shore (stargazing on additional)
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Back at the resort, the night is all about games, music, and
-                            <b>group bonding. A fun group poll
-                              with team captains</b>
-                            will decide tomorrow’s surprise activity.
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Neil Island.
-                          </li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Breakfast</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Ferry Transfer to Port Blair</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Hotel Check-in</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Leisure Evening</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore <b>Aberdeen Bazaar & Marina Promenade</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight Stay in Port Blair</li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <!-- day 6 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
-                    <h2 class="accordion-header" id="headingFive">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
-                        aria-controls="collapse6">
 
+                  <!-- day 6 -->
+                  <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
+                    <h2 class="accordion-header" id="headingSix">
+                      <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                         <div class="d-flex align-items-center w-100">
                           <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 6</span>
-                          <span> Bharatpur Beach & Return to Port Blair | Farewell night
-
-                          </span>
+                          <span>ROSS ISLAND & CHIDIYATAPPU</span>
                           <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                         </div>
                       </button>
                     </h2>
-
-                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample">
+                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                       <div class="accordion-body bg-white px-4 py-3">
                         <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                            Wake up to the island breeze and savour scrumptious Breakfast and let’s set off to
-                            <b>Bharatpur Beach</b>
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Famous for its coral views, shallow waters, and palm-lined shore. Last Beach on our Pipeline
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Chill, click those Instagram-worthy shots, or just float away in the blue. By afternoon,
-                            we’ll
-                            ferry back to Port Blair.
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Get time to go
-                            <b>shopping</b>
-                            and buy souvenirs to your loved ones, and in Andaman there's plenty
-                            you can buy home
-                            (trip captains will guide you to the best spots).
-
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Tonight, a
-                            <b>special Roamers surprise</b>
-                            awaits to celebrate our final farewell night together
-                            Travellers
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Overnight stay in Port Blair.
-                          </li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Breakfast</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Boat Transfer to <b>Ross Island</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Explore <b>Ross Island & Colonial Ruins</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Return to Port Blair</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i><b>Sunset & Birdwatching in Chidiyatapu</b></li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Overnight Stay in Port Blair</li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <!-- day 7 -->
-                  <div class="accordion-item mb-4 border  overflow-hidden" style="border-radius: 30px;">
-                    <h2 class="accordion-header" id="headingFive">
-                      <button
-                        class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
-                        aria-controls="collapse7">
 
+                  <!-- day 7 -->
+                  <div class="accordion-item mb-4 border overflow-hidden" style="border-radius: 30px;">
+                    <h2 class="accordion-header" id="headingSeven">
+                      <button class="accordion-button collapsed d-flex justify-content-between align-items-center text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                         <div class="d-flex align-items-center w-100">
                           <span class="badge bg-primary rounded-pill me-3 px-3 py-2 animated-badge">Day 7</span>
-                          <span> Departure | Bye all & Back to home
-
-
-                          </span>
+                          <span>FAREWELL & HAPPY DEPARTURE</span>
                           <i class="bi bi-chevron-down ms-auto transition-arrow" style="color:#0c63e4;"></i>
                         </div>
                       </button>
                     </h2>
-
-                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample">
+                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                       <div class="accordion-body bg-white px-4 py-3">
                         <ul class="ps-lg-3 ps-0">
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue" style="font-size: 0.65rem;"></i>
-                            In just 7 days, we shared thrills, spills, and countless good times. Let's plan a reunion
-                            trip
-                            next year to continue the adventure. 100% guaranteed!
-                          </li>
-                          <li><i class="fa-regular fa-circle-dot  me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>
-                            Goodbyes are never easy, but what a ride it has been! See you guys, more Hugs!
-                          </li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Breakfast</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Check-out</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Airport Transfer</li>
+                          <li><i class="fa-regular fa-circle-dot me-2 icon-blue mb-3" style="font-size: 0.65rem;"></i>Tour Ends with Wonderful Memories!</li>
                         </ul>
                       </div>
                     </div>

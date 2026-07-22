@@ -397,8 +397,9 @@
         .highlight-card {
             background: #fff;
             padding: 30px 20px;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-radius: 20px;
+            box-shadow: 0 12px 30px rgba(78, 192, 219, 0.22), 0 4px 10px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(78, 192, 219, 0.25);
             text-align: center;
             height: 100%;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -406,7 +407,8 @@
 
         .highlight-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 20px 45px rgba(78, 192, 219, 0.4);
+            border-color: rgba(78, 192, 219, 0.5);
         }
 
         .highlight-icon {
@@ -567,7 +569,23 @@
             color: #4EC0DB;
         }
 
-        /* Modern Package Card Styles */
+        /* Modern Package Card Styles - Light Glassmorphism */
+
+        @media (min-width: 769px) {
+            .packages-scroll-row {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 25px;
+            }
+
+            .packages-scroll-row>div[class*="col-"] {
+                flex: 0 0 auto;
+                width: 350px !important;
+                padding: 0;
+            }
+        }
+
         .package-card-wrap {
             display: block;
             text-decoration: none;
@@ -578,71 +596,80 @@
             position: relative;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            height: 450px;
-            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            height: 480px;
+            max-width: 350px;
+            margin: 0 auto 24px auto;
             display: block;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            /* Glass Border */
+            background: #ffffff;
+            border: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
         }
 
-        /* Glossy Sheen Overlay */
-        .card-modern::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(125deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 60%);
-            z-index: 6;
-            /* Above gradient */
-            pointer-events: none;
-        }
 
-        .card-modern:hover,
-        .package-card-wrap:hover .card-modern {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-        }
 
         .card-modern .card-img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.8s ease;
+            transition: transform 0.6s ease;
+            will-change: transform;
         }
 
-        .card-modern:hover .card-img,
-        .package-card-wrap:hover .card-img {
-            transform: scale(1.1);
-        }
 
-        .card-badge {
+
+        .card-top-badges {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(5px);
-            padding: 8px 16px;
-            border-radius: 30px;
+            top: 15px;
+            left: 15px;
+            right: 15px;
+            display: flex;
+            justify-content: space-between;
+            z-index: 10;
+        }
+
+        .badge-rating {
+            background: #ffffff;
+            color: #1a1a1a;
+            padding: 5px 10px;
+            border-radius: 20px;
             font-size: 13px;
             font-weight: 700;
-            color: #4EC0DB;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            z-index: 10;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
 
-        .card-gradient {
+        .badge-rating i {
+            color: #ffb400;
+            font-size: 12px;
+        }
+
+        .badge-wishlist {
+            width: 32px;
+            height: 32px;
+            background: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .badge-wishlist:hover {
+            color: #ff4757;
+        }
+
+        .card-white-gradient {
             position: absolute;
             bottom: 0;
             left: 0;
             width: 100%;
             height: 70%;
-            background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
+            background: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0.7) 65%, transparent 100%);
             z-index: 5;
         }
 
@@ -651,63 +678,132 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            padding: 25px;
+            padding: 22px;
             z-index: 10;
-        }
-
-        @media (max-width: 991px) {
-            .card-meta {
-                flex-wrap: wrap;
-                gap: 10px;
-            }
-        }
-
-        /* Stronger Overrides for Mobile FAQ */
-        @media (max-width: 768px) {
-            .faq {
-                padding: 40px 15px !important;
-                margin: 0 !important;
-                background-image: none !important;
-            }
-
-            .faq .accordion-item {
-                border-radius: 16px !important;
-                margin-bottom: 15px !important;
-            }
-
-            .faq .accordion-button {
-                border-radius: 16px !important;
-                font-size: 16px !important;
-                /* Restore readable font size */
-                padding: 20px !important;
-            }
-
-            .accordion-flush .accordion-item .accordion-button {
-                border-radius: 16px !important;
-                /* Override responsive.css */
-            }
-        }
-
-        .meta-item {
             display: flex;
-            align-items: center;
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 14px;
-            font-weight: 500;
-        }
-
-        .meta-item i {
-            color: #4EC0DB;
-            margin-right: 6px;
+            flex-direction: column;
+            height: 60%;
+            justify-content: flex-end;
         }
 
         .card-title {
-            color: #fff;
-            font-size: 24px;
+            color: #1a1a1a;
+            font-size: 20px;
             font-weight: 800;
-            margin: 0;
-            line-height: 1.3;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            margin: 0 0 4px 0;
+            line-height: 1.25;
+            text-shadow: none;
+        }
+
+        .card-location {
+            color: #666;
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .card-rating-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .card-rating-row .stars {
+            color: #ffb400;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+
+        .card-rating-row .rating-num {
+            color: #1a1a1a;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .card-category-pill {
+            align-self: flex-start;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            color: #444;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 16px;
+        }
+
+        .card-category-pill i {
+            color: inherit;
+            font-size: 12px;
+        }
+
+        .pill-group {
+            background: #ecfdf5;
+            color: #059669;
+            border-color: #a7f3d0;
+        }
+
+        .pill-private {
+            background: #eff6ff;
+            color: #2563eb;
+            border-color: #bfdbfe;
+        }
+
+        .pill-seasonal {
+            background: #fff7ed;
+            color: #ea580c;
+            border-color: #fed7aa;
+        }
+
+        .pill-honeymoon {
+            background: #fdf2f8;
+            color: #db2777;
+            border-color: #fbcfe8;
+        }
+
+        .card-bottom-row {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        .card-price {
+            color: #1a1a1a;
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        .card-price span {
+            font-size: 11px;
+            color: #888;
+            font-weight: 500;
+            margin-left: 2px;
+        }
+
+        .card-book-btn {
+            background: #ffffff;
+            color: #1a1a1a;
+            border: 1px solid #e0e0e0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .card-book-btn:hover {
+            background: #4EC0DB;
+            color: #ffffff;
+            border-color: #4EC0DB;
         }
 
         /* FAQ Section Styles - Premium Modern */
@@ -830,7 +926,7 @@
                 margin-right: 0px;
             }
 
-            .packages-scroll-row>.col-lg-3 {
+            .packages-scroll-row>div {
                 flex: 0 0 100% !important;
                 /* Full width */
                 max-width: 100% !important;
@@ -888,8 +984,8 @@
             margin-bottom: 10px;
         }
 
-        
-     /* Rewind Section Redesign */
+
+        /* Rewind Section Redesign */
         .rewind-section {
             padding: 60px 20px 100px;
             max-width: 1200px;
@@ -973,8 +1069,14 @@
             border-radius: 30px;
             overflow: hidden;
             transition: all 0.4s ease;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 35px rgba(78, 192, 219, 0.25), 0 5px 15px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(78, 192, 219, 0.3);
             background: #fff;
+        }
+
+        .rewind-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 22px 50px rgba(78, 192, 219, 0.45);
         }
 
         .rewind-card img {
@@ -1052,7 +1154,181 @@
                 padding: 20px 0 !important;
             }
         }
+
+        /* Scroll Reveal Animation Framework */
+        .reveal-up {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: opacity, transform;
+        }
+
+        .reveal-left {
+            opacity: 0;
+            transform: translateX(-40px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: opacity, transform;
+        }
+
+        .reveal-right {
+            opacity: 0;
+            transform: translateX(40px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: opacity, transform;
+        }
+
+        .reveal-scale {
+            opacity: 0;
+            transform: scale(0.92);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: opacity, transform;
+        }
+
+        .reveal-up.active,
+        .reveal-left.active,
+        .reveal-right.active,
+        .reveal-scale.active {
+            opacity: 1;
+            transform: translate(0) scale(1);
+        }
+
+        .testimonial-section {
+            padding: 80px 0;
+            background-color: #f9f9f9;
+            position: relative;
+        }
+
+        .testimonial-trust-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #ffffff;
+            color: #333;
+            border: 1px solid #ddd;
+            padding: 8px 20px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        .testimonial-trust-badge i {
+            color: #ffb400;
+            font-size: 16px;
+        }
+
+        .testimonial-swiper {
+            padding: 20px 10px 40px !important;
+        }
+
+        .testimonial-swiper .swiper-wrapper {
+            align-items: stretch;
+        }
+
+        .testimonial-swiper .swiper-slide {
+            height: auto !important;
+            display: flex;
+        }
+
+        .testimonial-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 30px;
+            border: 1px solid #eaeaea;
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .testimonial-quote-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: #f0f0f0;
+        }
+
+        .testimonial-stars {
+            display: flex;
+            gap: 4px;
+            color: #ffb400;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-comment {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .testimonial-user {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid #ddd;
+        }
+
+        .testimonial-user-info h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin: 0 0 2px;
+        }
+
+        .testimonial-user-info span {
+            font-size: 13px;
+            color: #777;
+        }
+
+        .testimonial-nav-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .testimonial-nav-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            background: #ffffff;
+            color: #333;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .testimonial-nav-btn:hover {
+            background: #f0f0f0;
+        }
+
+        @media (max-width: 768px) {
+            .testimonial-section {
+                padding: 60px 0;
+            }
+
+            .testimonial-card {
+                padding: 20px;
+            }
+        }
     </style>
+
 </head>
 
 <body>
@@ -1063,16 +1339,20 @@
 
     <!-- Banner Slider Start -->
     <!-- Banner Slider Start -->
-    <section class="trip-home banner-bg-static" id="tripSection" style="position: relative; overflow: hidden; height: 93vh;">
+    <section class="trip-home banner-bg-static" id="tripSection"
+        style="position: relative; overflow: hidden; height: 93vh;">
         <!-- Local Background Video -->
-        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; overflow: hidden; background: #000;">
-            <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; overflow: hidden; background: #000;">
+            <video autoplay loop muted playsinline
+                style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
                 <source src="assets/img/andaman/video/andaman-banner-video.mp4" type="video/mp4">
             </video>
         </div>
-        
-        <div class="banner-overlay dark-overlay-flex" style="z-index: 1; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; display: flex; align-items: center; justify-content: center;">
-            <div class="banner-content centered-white-text">
+
+        <div class="banner-overlay dark-overlay-flex"
+            style="z-index: 1; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; display: flex; align-items: center; justify-content: center;">
+            <div class="banner-content centered-white-text reveal-scale active">
                 <h2 class="banner-title" style="text-shadow: 0 5px 15px rgba(0,0,0,0.4);">
                     ANDAMAN TRIPS</h2>
             </div>
@@ -1085,9 +1365,8 @@
         .about-area {
             position: relative;
             z-index: 1;
-            padding: 60px 0 40px;
-            background-color: #f9f9f9;
-            /* background-image: url('assets/img/andaman/anadaman-about-bg-img.png'); */
+            padding: 100px 0px 100px 0px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)), url('assets/img/andaman/andaman-testimonial-bg.avif');
             background-size: cover;
             background-position: bottom center;
             background-repeat: no-repeat;
@@ -1138,13 +1417,21 @@
             width: 100px;
             z-index: 5;
             animation: float 4s ease-in-out infinite;
-            filter: drop-shadow(0 10px 10px rgba(0,0,0,0.1));
+            filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
         }
 
         @keyframes float {
-            0% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-10px) rotate(5deg); }
-            100% { transform: translateY(0px) rotate(0deg); }
+            0% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-10px) rotate(5deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(0deg);
+            }
         }
 
         .jacket-img {
@@ -1154,7 +1441,7 @@
             width: 130px;
             z-index: 5;
             animation: float 5s ease-in-out infinite reverse;
-            filter: drop-shadow(0 10px 10px rgba(0,0,0,0.1));
+            filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
         }
 
         @media (max-width: 768px) {
@@ -1162,6 +1449,7 @@
                 right: -20px;
                 width: 100px;
             }
+
             .about-img-1 {
                 width: 100%;
                 margin-bottom: 20px;
@@ -1283,7 +1571,7 @@
             justify-content: center;
             margin-right: 25px;
             flex-shrink: 0;
-            box-shadow: 0 8px 32px rgba(78, 192, 219, 0.3), inset 0 2px 5px rgba(255,255,255,0.5);
+            box-shadow: 0 8px 32px rgba(78, 192, 219, 0.3), inset 0 2px 5px rgba(255, 255, 255, 0.5);
             transition: all 0.3s ease;
             position: relative;
             z-index: 2;
@@ -1304,7 +1592,7 @@
         .feature-item:hover .icon-box {
             transform: translateY(-5px);
             background: linear-gradient(135deg, rgba(78, 192, 219, 0.9) 0%, rgba(78, 192, 219, 0.4) 100%);
-            box-shadow: 0 12px 40px rgba(78, 192, 219, 0.4), inset 0 2px 8px rgba(255,255,255,0.7);
+            box-shadow: 0 12px 40px rgba(78, 192, 219, 0.4), inset 0 2px 8px rgba(255, 255, 255, 0.7);
         }
 
         .icon-box img {
@@ -1334,6 +1622,7 @@
             opacity: 0.1;
             width: 300px;
         }
+
         .bg-tree-left {
             position: absolute;
             left: -320px;
@@ -1355,185 +1644,352 @@
             opacity: 0.8;
             pointer-events: none;
         }
-        
+
         @media (max-width: 1200px) {
-            .bg-tree-left, .bg-tree-right {
+
+            .bg-tree-left,
+            .bg-tree-right {
                 opacity: 0.3;
                 width: 200px;
             }
         }
     </style>
 
-    
+
     <!-- About Us Section End -->
 
-    <section class="andaman-packages-section" style="padding: 100px 0 80px; background-color: #fff; position: relative; overflow: hidden;">
+    <section class="andaman-packages-section"
+        style="padding: 50px 0px 50px 0px; background-color: #fff; position: relative; overflow: hidden;">
 
-            <h2 class="head" style="margin-bottom: 40px; position: relative; z-index: 2;">ANDAMAN TOUR PACKAGES</h2>
-            <div class="container" style="position: relative; z-index: 2;">
-                <!-- Background Trees attached to container -->
-                <img src="assets/img/andaman/andaman-left -tree.png" alt="" class="bg-tree-left">
-                <img src="assets/img/andaman/andaman-right-tree.png" alt="" class="bg-tree-right">
+        <h2 class="head reveal-up" style="margin-bottom: 40px; position: relative; z-index: 2;">ANDAMAN TOUR PACKAGES
+        </h2>
+        <div class="container" style="position: relative; z-index: 2;">
+            <!-- Background Trees attached to container -->
+            <img src="assets/img/andaman/andaman-left -tree.png" alt="" class="bg-tree-left">
+            <img src="assets/img/andaman/andaman-right-tree.png" alt="" class="bg-tree-right">
 
             <div class="row packages-scroll-row">
-                <div class="col-lg-3">
-                <div class="package-card-wrap">
-                    <a href="andaman-group-trip.php" class="card-modern">
-                    <div class="card-badge bg-success !important text-white !important">Group Trip</div>
-                    <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Island Hopping"
-                        class="card-img img-brightness-dim">
-                    <div class="card-gradient"></div>
-                    <div class="card-content">
-                        <div class="card-meta">
-                        <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 7D / 6N</span>
-                        </div>
-                        <div class="card-meta meta-spacing">
-                        <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
-                        </div>
-                        <h3 class="card-title">Andaman Island<br> Hopping</h3>
+                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.1s;">
+                    <div class="package-card-wrap">
+                        <a href="andaman-group-trip.php" class="card-modern">
+                            <div class="card-top-badges">
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+
+                            </div>
+                            <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Island Hopping"
+                                class="card-img">
+                            <div class="card-white-gradient"></div>
+
+                            <div class="card-content">
+                                <h3 class="card-title">Andaman Island Hopping</h3>
+                                <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
+                                </p>
+
+                                <div class="card-rating-row">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="rating-num">4.9</span>
+                                </div>
+
+                                <div class="card-category-pill pill-group">
+                                    <i class="fa-solid fa-users"></i> Group Trip
+                                </div>
+
+                                <div class="card-bottom-row">
+                                    <div class="card-price">
+                                        ₹29,223 <span>Per Person</span>
+                                    </div>
+                                    <div class="card-book-btn">Book</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
-                </div>
                 </div>
 
-                <div class="col-lg-3">
-                <div class="package-card-wrap">
-                    <a href="#" class="card-modern">
-                    <div class="card-badge">Private Trip</div>
-                    <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg"
-                        alt="Extended Andaman" class="card-img" style="filter:brightness(0.9)">
-                    <div class="card-gradient"></div>
-                    <div class="card-content">
-                        <div class="card-meta">
-                        <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 8D / 7N</span>
-                        </div>
-                        <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                        <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
-                        </div>
-                        <h3 class="card-title">Extended Andaman<br> Exploration</h3>
+                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.2s;">
+                    <div class="package-card-wrap">
+                        <a href="#" class="card-modern">
+                            <div class="card-top-badges">
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+
+                            </div>
+                            <img src="assets/img/andaman/Media/Andaman-cover-min.jpg" alt="Andaman Islands Gateway"
+                                class="card-img">
+                            <div class="card-white-gradient"></div>
+
+                            <div class="card-content">
+                                <h3 class="card-title">Andaman Islands Gateway</h3>
+                                <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
+                                </p>
+
+                                <div class="card-rating-row">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="rating-num">4.8</span>
+                                </div>
+
+                                <div class="card-category-pill pill-private">
+                                    <i class="fa-solid fa-user"></i> Private Trip
+                                </div>
+
+                                <div class="card-bottom-row">
+                                    <div class="card-price">
+                                        ₹25,048 <span>Per Person</span>
+                                    </div>
+                                    <div class="card-book-btn">Book</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
-                </div>
                 </div>
 
-                <div class="col-lg-3">
-                <div class="package-card-wrap">
-                    <a href="#" class="card-modern">
-                    <div class="card-badge">Seasonal Trip</div>
-                    <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Andaman Festive"
-                        class="card-img" style="filter:brightness(0.9)">
-                    <div class="card-gradient"></div>
-                    <div class="card-content">
-                        <div class="card-meta">
-                        <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 7D / 6N</span>
-                        </div>
-                        <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                        <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
-                        </div>
-                        <h3 class="card-title">Andaman Christmas<br> & New Year</h3>
+                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.3s;">
+                    <div class="package-card-wrap">
+                        <a href="#" class="card-modern">
+                            <div class="card-top-badges">
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.7</span>
+
+                            </div>
+                            <img src="https://roamers.in/assets/img/andaman/Media/bharatpur-beach-neil-island.jpg"
+                                alt="Magical Andaman Trip" class="card-img">
+                            <div class="card-white-gradient"></div>
+
+                            <div class="card-content">
+                                <h3 class="card-title">Magical Andaman Trip</h3>
+                                <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
+                                </p>
+
+                                <div class="card-rating-row">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="rating-num">4.7</span>
+                                </div>
+
+                                <div class="card-category-pill pill-private">
+                                    <i class="fa-solid fa-user"></i> Private Trip
+                                </div>
+
+                                <div class="card-bottom-row">
+                                    <div class="card-price">
+                                        ₹12,656 <span>Per Person</span>
+                                    </div>
+                                    <div class="card-book-btn">Book</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
 
-                </div>
+                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.4s;">
+                    <div class="package-card-wrap">
+                        <a href="#" class="card-modern">
+                            <div class="card-top-badges">
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.9</span>
 
-                <div class="col-lg-3">
-                <div class="package-card-wrap">
-                    <a href="#" class="card-modern">
-                    <div class="card-badge">Private Trip</div>
-                    <img src="https://roamers.in/assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg"
-                        alt="Scenic Andaman" class="card-img" style="filter:brightness(0.9)">
-                    <div class="card-gradient"></div>
-                    <div class="card-content">
-                        <div class="card-meta">
-                        <span class="meta-item mb-3"><i class="fa-solid fa-calendar-days"></i> 5D / 4N</span>
-                        </div>
-                        <div class="card-meta" style="margin-top: -10px; margin-bottom: 10px;">
-                        <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Port Blair</span>
-                        </div>
-                        <h3 class="card-title">Scenic Andaman<br> Getaway</h3>
+                            </div>
+                            <img src="https://roamers.in/assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg"
+                                alt="Best of Andaman" class="card-img">
+                            <div class="card-white-gradient"></div>
+
+                            <div class="card-content">
+                                <h3 class="card-title">Best of Andaman</h3>
+                                <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
+                                </p>
+
+                                <div class="card-rating-row">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="rating-num">4.9</span>
+                                </div>
+
+                                <div class="card-category-pill pill-private">
+                                    <i class="fa-solid fa-user"></i> Private Trip
+                                </div>
+
+                                <div class="card-bottom-row">
+                                    <div class="card-price">
+                                        ₹18,500 <span>Per Person</span>
+                                    </div>
+                                    <div class="card-book-btn">Book</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
 
+                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.5s;">
+                    <div class="package-card-wrap">
+                        <a href="#" class="card-modern">
+                            <div class="card-top-badges">
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+
+                            </div>
+                            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg"
+                                alt="Seasonal Andaman" class="card-img">
+                            <div class="card-white-gradient"></div>
+
+                            <div class="card-content">
+                                <h3 class="card-title">Seasonal Andaman</h3>
+                                <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
+                                </p>
+
+                                <div class="card-rating-row">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="rating-num">4.8</span>
+                                </div>
+
+                                <div class="card-category-pill pill-seasonal">
+                                    <i class="fa-solid fa-sun"></i> Seasonal Trip
+                                </div>
+
+                                <div class="card-bottom-row">
+                                    <div class="card-price">
+                                        ₹22,000 <span>Per Person</span>
+                                    </div>
+                                    <div class="card-book-btn">Book</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.6s;">
+                    <div class="package-card-wrap">
+                        <a href="#" class="card-modern">
+                            <div class="card-top-badges">
+                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 5.0</span>
+
+                            </div>
+                            <img src="assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
+                                alt="Andaman Islands ~ Dreamy Honeymoon" class="card-img">
+                            <div class="card-white-gradient"></div>
+
+                            <div class="card-content">
+                                <h3 class="card-title">Andaman Islands ~ Dreamy Honeymoon</h3>
+                                <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
+                                </p>
+
+                                <div class="card-rating-row">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="rating-num">5.0</span>
+                                </div>
+
+                                <div class="card-category-pill pill-honeymoon">
+                                    <i class="fa-solid fa-heart"></i> Honeymoon Trip
+                                </div>
+
+                                <div class="card-bottom-row">
+                                    <div class="card-price">
+                                        ₹35,000 <span>Per Person</span>
+                                    </div>
+                                    <div class="card-book-btn">Book</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            </div>
-  </section>
+        </div>
+    </section>
 
-  <section class="about-area">
+    <section class="about-area">
         <div class="container">
-        <div class="row align-items-center">
-            <!-- Left Image Composition -->
-            <div class="col-lg-6 mb-5 mb-lg-0">
-            <div class="about-img-wrapper">
-                <img src="assets/img/andaman/andaman-star-fish.png" alt="Starfish" class="starfish-img">
-                <!-- Main Image -->
-                <div class="about-img-1">
-                <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Adventure">
+            <div class="row align-items-center">
+                <!-- Left Image Composition -->
+                <div class="col-lg-6 mb-5 mb-lg-0 reveal-left">
+                    <div class="about-img-wrapper">
+                        <img src="assets/img/andaman/andaman-star-fish.png" alt="Starfish" class="starfish-img">
+                        <!-- Main Image -->
+                        <div class="about-img-1">
+                            <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Adventure">
+                        </div>
+                        <!-- Right Corner Image -->
+                        <img src="assets/img/andaman/andaman-jacket.png" alt="Jacket" class="jacket-img">
+                    </div>
                 </div>
-                <!-- Right Corner Image -->
-                <img src="assets/img/andaman/andaman-jacket.png" alt="Jacket" class="jacket-img">
-            </div>
-            </div>
 
-            <!-- Right Content -->
-            <div class="col-lg-6">
-            <div class="about-content">
-                <span class="section-subtitle">Explore Andaman</span>
-                <h2 class="section-title">Highlights of Andaman</h2>
+                <!-- Right Content -->
+                <div class="col-lg-6 reveal-right">
+                    <div class="about-content">
+                        <span class="section-subtitle">Explore Andaman</span>
+                        <h2 class="section-title">Highlights of Andaman</h2>
 
-                <ul class="feature-list">
-                <li class="feature-item animate">
-                    <div class="icon-box">
-                    <i class="fa-solid fa-water" style="font-size:24px; color:#fff;"></i>
-                    </div>
-                    <div class="feature-text">
-                    <h4>Crystal Clear Waters</h4>
-                    <p>Pristine turquoise waters perfect for diving, snorkeling and underwater exploration.</p>
-                    </div>
-                </li>
+                        <ul class="feature-list">
+                            <li class="feature-item animate reveal-up" style="transition-delay: 0.1s;">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-water" style="font-size:24px; color:#fff;"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Crystal Clear Waters</h4>
+                                    <p>Pristine turquoise waters perfect for diving, snorkeling and underwater
+                                        exploration.</p>
+                                </div>
+                            </li>
 
-                <li class="feature-item animate">
-                    <div class="icon-box">
-                    <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
-                    </div>
-                    <div class="feature-text">
-                    <h4>Radhanagar Beach</h4>
-                    <p>Visit Asia's best beach, known for its stunning sunset views and sparkling white sands.</p>
-                    </div>
-                </li>
+                            <li class="feature-item animate reveal-up" style="transition-delay: 0.2s;">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-umbrella-beach" style="font-size:24px; color:#fff;"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Radhanagar Beach</h4>
+                                    <p>Visit Asia's best beach, known for its stunning sunset views and sparkling white
+                                        sands.</p>
+                                </div>
+                            </li>
 
-                <li class="feature-item animate">
-                    <div class="icon-box">
-                    <i class="fa-solid fa-ship" style="font-size:24px; color:#fff;"></i>
+                            <li class="feature-item animate reveal-up" style="transition-delay: 0.3s;">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-ship" style="font-size:24px; color:#fff;"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Island Hopping</h4>
+                                    <p>Explore the unique vibes of Havelock, Neil, and Ross islands for a complete
+                                        tropical retreat.</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="feature-text">
-                    <h4>Island Hopping</h4>
-                    <p>Explore the unique vibes of Havelock, Neil, and Ross islands for a complete tropical retreat.</p>
-                    </div>
-                </li>
-                </ul>
-            </div>
+                </div>
             </div>
         </div>
-        </div>
-  </section>
+    </section>
 
     <!-- rewind section  -->
 
     <section class="rewind-section" style="position: relative; overflow: hidden; padding: 80px 0px 60px 0px;">
-        <div class="rewind-header" style="margin-bottom: 50px;">
+        <div class="rewind-header reveal-up" style="margin-bottom: 50px;">
             <div class="rewind-title-area">
                 <h3 class="head" style="text-align: center; margin-bottom: 20px;">
-                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start me-2">
+                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
+                        class="align-start me-2">
                     Roamers Rewind
-                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;" class="align-start">
+                    <img src="assets/img/valley-of-flowers/fast-backward.png" alt="rewind icon" style="width: 25px;"
+                        class="align-start">
                 </h3>
             </div>
         </div>
 
-        <div style="position: relative;">
+        <div style="position: relative;" class="reveal-scale">
             <div class="swiper rewind-swiper" style="overflow: visible !important;">
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
@@ -1546,7 +2002,8 @@
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg" alt="Cellular Jail">
+                            <img src="assets/img/andaman/Media/cellular-jail-in-andaman-reviews.jpg"
+                                alt="Cellular Jail">
                         </div>
                     </div>
 
@@ -1581,14 +2038,16 @@
                     <!-- Slide 7 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg" alt="Coral Reef">
+                            <img src="https://roamers.in/assets/img/andaman/Media/pexels-asad-photo-maldives-1450353.jpg"
+                                alt="Coral Reef">
                         </div>
                     </div>
 
                     <!-- Slide 8 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg" alt="Local Market">
+                            <img src="https://roamers.in/assets/img/andaman/Media/andaman-markets.jpg"
+                                alt="Local Market">
                         </div>
                     </div>
                 </div>
@@ -1602,105 +2061,248 @@
     </section>
     <!--====== Gallery Section End ======-->
 
+    <!--====== Testimonials Section Start ======-->
+    <section class="testimonial-section reveal-up">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="head">WHAT OUR EXPLORERS SAY</h2>
+                <div>
+                    <span class="testimonial-trust-badge">
+                        <i class="fa-solid fa-star"></i> 4.9/5 Rating from 500+ Happy Roamers
+                    </span>
+                </div>
+            </div>
+
+            <div class="swiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <i class="fa-solid fa-quote-right testimonial-quote-icon"></i>
+                            <div>
+                                <div class="testimonial-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="testimonial-comment">
+                                    "Joined the group trip with my sister, it was the best experience we could ask for!
+                                    Everything was great about the trip, explored even the spots which were not
+                                    mentioned in itinerary. Thanks to the awesome team!"
+                                </p>
+                            </div>
+                            <div class="testimonial-user">
+                                <img src="assets/img/testimonials/andaman.avif" alt="Shreya" class="testimonial-avatar">
+                                <div class="testimonial-user-info">
+                                    <h4>Shreya</h4>
+                                    <span>Andaman Group Trip</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <i class="fa-solid fa-quote-right testimonial-quote-icon"></i>
+                            <div>
+                                <div class="testimonial-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="testimonial-comment">
+                                    "The VIBE was unreal! Didn't expect I'd connect with everyone like this. Best trip I
+                                    have gone, explored Havelock beaches, local food, and crystal blue waters. Thank you
+                                    Roamers and trip captain!"
+                                </p>
+                            </div>
+                            <div class="testimonial-user">
+                                <img src="assets/img/testimonials/spiti.avif" alt="Vinayak" class="testimonial-avatar">
+                                <div class="testimonial-user-info">
+                                    <h4>Vinayak</h4>
+                                    <span>Solo Explorer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <i class="fa-solid fa-quote-right testimonial-quote-icon"></i>
+                            <div>
+                                <div class="testimonial-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="testimonial-comment">
+                                    "I joined solo and it was an unimaginable experience. My first time going on a group
+                                    trip, truly knocked my expectations! Very cool people, awesome underwater scuba
+                                    diving. Gonna miss you fam!"
+                                </p>
+                            </div>
+                            <div class="testimonial-user">
+                                <img src="assets/img/testimonials/chikmagalur.avif" alt="Naisha"
+                                    class="testimonial-avatar">
+                                <div class="testimonial-user-info">
+                                    <h4>Naisha</h4>
+                                    <span>Solo Traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <i class="fa-solid fa-quote-right testimonial-quote-icon"></i>
+                            <div>
+                                <div class="testimonial-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="testimonial-comment">
+                                    "Sunset at Radhanagar beach and island hopping with a bunch of crazy travellers!
+                                    This was the trip which I'm gonna remember for long. Lots of memories to take
+                                    back... definitely a must go!"
+                                </p>
+                            </div>
+                            <div class="testimonial-user">
+                                <img src="assets/img/testimonials/manali.avif" alt="Aadhya" class="testimonial-avatar">
+                                <div class="testimonial-user-info">
+                                    <h4>Aadhya</h4>
+                                    <span>Island Hopper</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swiper Navigation -->
+                <div class="testimonial-nav-container">
+                    <div class="testimonial-nav-btn testimonial-prev"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="testimonial-nav-btn testimonial-next"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Testimonials Section End ======-->
+
     <!--====== faq Start ======-->
     <section class="faq">
-    <h2 class="head">FAQ</h2>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-12">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item acc-item">
-              <h2 class="accordion-header acco-head" id="flush-headingOne">
-                <button class="accordion-button acc-btn collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Can I Join solo?
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  Absolutely! Whether you're joining solo, with friends, or as a couple, these group
-                  trips
-                  are designed to
-                  accommodate all types of travelers. Join us for budget-friendly adventures and check
-                  off
-                  more items from
-                  your bucket list! </div>
-              </div>
-            </div>
-            <div class="accordion-item acc-item">
-              <h2 class="accordion-header acco-head" id="flush-headingTwo">
-                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  How about a safety for female Travellers?
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  Yes, female solo travelers can confidently join our group trips. We prioritize their
-                  safety by ensuring
-                  a secure environment with trusted trip captains, verified hosts, and reliable
-                  transport
-                  vendors. Your
-                  safety is our top priority any safety concerns during the trip will be promptly
-                  addressed by our team.
-                  So relax and make the most of your journey!</div>
-              </div>
-            </div>
-            <div class="accordion-item acc-item">
-              <h2 class="accordion-header  acco-head" id="flush-headingThree">
-                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  What is the age requirement to Join?
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  The trips is for 18-35 year olds
+        <h2 class="head reveal-up">FAQ</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item acc-item reveal-up" style="transition-delay: 0.1s;">
+                            <h2 class="accordion-header acco-head" id="flush-headingOne">
+                                <button class="accordion-button acc-btn collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Can I Join solo?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Absolutely! Whether you're joining solo, with friends, or as a couple, these group
+                                    trips
+                                    are designed to
+                                    accommodate all types of travelers. Join us for budget-friendly adventures and check
+                                    off
+                                    more items from
+                                    your bucket list! </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item acc-item reveal-up" style="transition-delay: 0.2s;">
+                            <h2 class="accordion-header acco-head" id="flush-headingTwo">
+                                <button class="accordion-button collapsed acc-btn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    How about a safety for female Travellers?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes, female solo travelers can confidently join our group trips. We prioritize their
+                                    safety by ensuring
+                                    a secure environment with trusted trip captains, verified hosts, and reliable
+                                    transport
+                                    vendors. Your
+                                    safety is our top priority any safety concerns during the trip will be promptly
+                                    addressed by our team.
+                                    So relax and make the most of your journey!</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item acc-item reveal-up" style="transition-delay: 0.3s;">
+                            <h2 class="accordion-header  acco-head" id="flush-headingThree">
+                                <button class="accordion-button collapsed acc-btn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    What is the age requirement to Join?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    The trips is for 18-35 year olds
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item acc-item reveal-up" style="transition-delay: 0.4s;">
+                            <h2 class="accordion-header acco-head" id="flush-headingFour">
+                                <button class="accordion-button collapsed acc-btn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    How do I confirm my booking?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Send the payment screenshot to info@roamers.in and you’ll get the confirmation email
+                                    within 24 hours.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item acc-item reveal-up" style="transition-delay: 0.5s;">
+                            <h2 class="accordion-header acco-head" id="flush-headingFive">
+                                <button class="accordion-button collapsed acc-btn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    How do I trust Roamers?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    You can absolutely trust us! We've nailed over 500 awesome trips. Check out the
+                                    great
+                                    reviews, speak to
+                                    our travel consultants, and check the website for further details. Our offices are
+                                    in
+                                    Chennai and Delhi
+                                    – we're all about being upfront and reliable all the way… Feel free to connect.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="accordion-item acc-item">
-              <h2 class="accordion-header acco-head" id="flush-headingFour">
-                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                  How do I confirm my booking?
-                </button>
-              </h2>
-              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  Send the payment screenshot to info@roamers.in and you’ll get the confirmation email
-                  within 24 hours.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item acc-item">
-              <h2 class="accordion-header acco-head" id="flush-headingFive">
-                <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                  How do I trust Roamers?
-                </button>
-              </h2>
-              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  You can absolutely trust us! We've nailed over 500 awesome trips. Check out the
-                  great
-                  reviews, speak to
-                  our travel consultants, and check the website for further details. Our offices are
-                  in
-                  Chennai and Delhi
-                  – we're all about being upfront and reliable all the way… Feel free to connect.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
+    </section>
     <!--====== faq END ======-->
 
 
@@ -1952,18 +2554,63 @@
                     }
                 }
             });
+
+            // Testimonial Swiper Initialization
+            const testimonialSwiper = new Swiper('.testimonial-swiper', {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                speed: 800,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
+                },
+                navigation: {
+                    nextEl: '.testimonial-next',
+                    prevEl: '.testimonial-prev',
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 25,
+                    },
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    }
+                }
+            });
+
+
+
+            // Scroll Reveal Observer
+            const revealElements = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .reveal-scale');
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -40px 0px'
+            });
+
+            revealElements.forEach(el => revealObserver.observe(el));
         });
     </script>
 
     <style>
-      .rewind-swiper .swiper-slide {
-        cursor: pointer;
-      }
-      @media (max-width: 768px) {
         .rewind-swiper .swiper-slide {
-          padding: 0 15px;
+            cursor: pointer;
         }
-      }
+
+        @media (max-width: 768px) {
+            .rewind-swiper .swiper-slide {
+                padding: 0 15px;
+            }
+        }
     </style>
 </body>
 
