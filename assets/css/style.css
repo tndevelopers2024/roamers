@@ -1137,7 +1137,7 @@ transition: opacity 0.3s ease, transform 0.3s ease; */
 .faq {
   padding: 60px;
   background: rgba(78, 192, 219, 0.05);
-  background-image: url(/assets/img/images/world2.png);
+  background-image: url(../img/images/world2.png);
   background-size: contain;
   background-position: bottom;
 }

@@ -46,7 +46,7 @@
     <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon">
 
     <style>
         * {
@@ -606,6 +606,12 @@
             transition: all 0.3s ease;
         }
 
+        .package-card-wrap:hover .card-modern {
+            box-shadow: 0 20px 45px rgba(78, 192, 219, 0.4);
+            border-color: rgba(78, 192, 219, 0.5);
+        }
+
+     
 
 
         .card-modern .card-img {
@@ -668,7 +674,7 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            height: 70%;
+            height: 50%;
             background: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0.7) 65%, transparent 100%);
             z-index: 5;
         }
@@ -911,26 +917,36 @@
             padding: 7px;
         }
 
-        /* Mobile List View for Packages */
+        /* Mobile Horizontal Scroll for Packages */
         @media (max-width: 991px) {
             .packages-scroll-row {
                 display: flex !important;
-                flex-wrap: wrap !important;
-                /* Enable wrapping */
-                overflow-x: visible !important;
-                /* Disable scroll */
-                padding-bottom: 0px;
-                gap: 20px;
-                /* Vertical gap */
-                margin-left: 0px;
-                margin-right: 0px;
+                flex-wrap: nowrap !important;
+                overflow-x: auto !important;
+                overflow-y: hidden !important;
+                padding-bottom: 20px;
+                gap: 15px;
+                margin-left: -15px;
+                margin-right: -15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                scroll-snap-type: x mandatory;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none; /* Firefox */
+            }
+            
+            .packages-scroll-row::-webkit-scrollbar {
+                display: none; /* Safari and Chrome */
             }
 
             .packages-scroll-row>div {
                 flex: 0 0 100% !important;
-                /* Full width */
                 max-width: 100% !important;
-                margin-bottom: 20px;
+                margin-bottom: 0px;
+                scroll-snap-align: center;
+            }
+            .packages-scroll-row>div .card-modern {
+                max-width: 100% !important;
             }
         }
 
@@ -1274,9 +1290,12 @@
             border-top: 1px solid #f0f0f0;
         }
 
-        .testimonial-avatar {
-            width: 50px;
-            height: 50px;
+        .swiper-slide img.testimonial-avatar {
+            width: 50px !important;
+            height: 50px !important;
+            min-height: 50px !important;
+            max-height: 50px !important;
+            flex-shrink: 0;
             border-radius: 50%;
             object-fit: cover;
             border: 1px solid #ddd;
@@ -1366,7 +1385,7 @@
             position: relative;
             z-index: 1;
             padding: 100px 0px 100px 0px;
-            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)), url('assets/img/andaman/andaman-testimonial-bg.avif');
+            /* background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)), url('assets/img/andaman/andaman-testimonial-bg.avif'); */
             background-size: cover;
             background-position: bottom center;
             background-repeat: no-repeat;
@@ -1669,7 +1688,7 @@
             <img src="assets/img/andaman/andaman-right-tree.png" alt="" class="bg-tree-right">
 
             <div class="row packages-scroll-row">
-                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.1s;">
+                <div class="col-lg-4 col-md-6">
                     <div class="package-card-wrap">
                         <a href="andaman-group-trip.php" class="card-modern">
                             <div class="card-top-badges">
@@ -1709,7 +1728,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.2s;">
+                <div class="col-lg-4 col-md-6">
                     <div class="package-card-wrap">
                         <a href="#" class="card-modern">
                             <div class="card-top-badges">
@@ -1749,7 +1768,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.3s;">
+                <div class="col-lg-4 col-md-6">
                     <div class="package-card-wrap">
                         <a href="#" class="card-modern">
                             <div class="card-top-badges">
@@ -1789,7 +1808,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.4s;">
+                <div class="col-lg-4 col-md-6">
                     <div class="package-card-wrap">
                         <a href="#" class="card-modern">
                             <div class="card-top-badges">
@@ -1829,7 +1848,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.5s;">
+                <div class="col-lg-4 col-md-6">
                     <div class="package-card-wrap">
                         <a href="#" class="card-modern">
                             <div class="card-top-badges">
@@ -1869,7 +1888,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 reveal-up" style="transition-delay: 0.6s;">
+                <div class="col-lg-4 col-md-6">
                     <div class="package-card-wrap">
                         <a href="#" class="card-modern">
                             <div class="card-top-badges">
@@ -2322,11 +2341,6 @@
 
     <!-- Plugins js -->
     <script src="assets/js/plugins/plugins.min.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
