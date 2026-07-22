@@ -1257,7 +1257,7 @@ session_start();
 
           const startingPriceElem = document.getElementById("starting-price");
           if (startingPriceElem) {
-            startingPriceElem.textContent = `Starting Price: ₹24,990/- `;
+            startingPriceElem.textContent = `Starting Price: ₹29,990/- `;
           } else {
             console.warn("Element with id 'starting-price' not found.");
           }

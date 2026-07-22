@@ -12,7 +12,7 @@ const tripPrices = {
   ".kerala-price": "₹14,490",
   ".kerala-grand-price": "₹22,990",
   ".kerala-onam-price": "₹8,499",
-  ".andaman-price": "₹24,990",
+  ".andaman-price": "₹29,990",
   ".leh-ladak-price": "₹21,990",
   ".ladakh-umlingla-price": "₹24,990",
   ".pondi-price": "₹4,990",

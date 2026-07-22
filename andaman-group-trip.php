@@ -2373,7 +2373,7 @@
       <div class="price-box ">
         <h6 class="label">Starts at</h6>
         <div class="price-info">
-          <span class="price-amount ">₹24,990/-</span>
+          <span class="price-amount ">₹29,990/-</span>
           <span class="per-person">(Per Person)</span>
         </div>
       </div>

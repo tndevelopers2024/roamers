@@ -100,68 +100,108 @@
     }
   },
   "andaman": {
+    "October": [
+      {
+        "date": "03 Oct - 08 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "17 Oct - 22 Oct",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "November": [
+      {
+        "date": "07 Nov - 12 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "21 Nov - 26 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "05 Dec - 10 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "19 Dec - 25 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "26 Dec - 01 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
     "January": [
       {
-        "date": "14 Jan - 19 Jan",
+        "date": "09 Jan - 14 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+      {
+        "date": "16 Jan - 21 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      },
+       {
+        "date": "30 Jan - 04 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b929,990/-"
+      }
+    ],
+    "February":[
+      {
+        "date": "13 Feb - 18 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "\u20b924,990/-"
+      },
+       {
+        "date": "27 Feb - 04 March",
         "status": "Available",
         "statusColor": "green",
         "price": "\u20b924,990/-"
       }
     ],
-    "February": [
+    "March":[
       {
-        "date": "14 Feb ",
+        "date": "13 March - 18 March",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
-      },
-      {
-        "date": "28 Feb",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "\u20b924,990/-"
-      }
-    ],
-    "March": [
-      {
-        "date": "21 Mar",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "\u20b924,990/-"
-      },
-      {
-        "date": "28 Mar",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "\u20b924,990/-"
-      }
-    ],
-    "April": [
-      {
-        "date": "03 Apr - 07 Apr",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "\u20b924,990/-"
-      },
-      {
-        "date": "18 Apr - 23 Apr",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "\u20b929,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b924,990/-",
+      "startingPrice": "\u20b929,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
           "mrp": "\u20b940,990/-",
-          "offer": "\u20b924,990/-"
+          "offer": "\u20b929,990/-"
         },
         {
           "sharing": "Double Sharing",
           "mrp": "\u20b941,990/-",
-          "offer": "\u20b926,990/-"
+          "offer": "\u20b931,990/-"
         }
       ]
     }
