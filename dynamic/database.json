@@ -5,7 +5,7 @@
         "date": "14 Feb - 16 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       }
     ],
     "March": [
@@ -13,7 +13,7 @@
         "date": "06 Mar - 08 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       }
     ],
     "April": [
@@ -21,7 +21,7 @@
         "date": "25 Apr - 27 Apr",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       }
     ],
     "May": [
@@ -29,19 +29,19 @@
         "date": "01 May - 03 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       },
       {
         "date": "15 May - 17 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       },
       {
         "date": "29 May - 31 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       }
     ],
     "June": [
@@ -49,27 +49,27 @@
         "date": "12 Jun - 14 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       },
       {
         "date": "26 Jun - 28 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b97,299/-"
+        "price": "₹7,299/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b97,299/-",
+      "startingPrice": "₹7,299/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "varkala": "\u20b97,299/-",
-          "chennai": "\u20b98,499/-"
+          "varkala": "₹7,299/-",
+          "chennai": "₹8,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "varkala": "\u20b98,299/-",
-          "chennai": "\u20b99,499/-"
+          "varkala": "₹8,299/-",
+          "chennai": "₹9,499/-"
         }
       ]
     }
@@ -80,21 +80,21 @@
         "date": "20 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,499/-"
+        "price": "₹8,499/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b98,499/-",
+      "startingPrice": "₹8,499/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "mrp": "\u20b910,990/-",
-          "offer": "\u20b98,499/-"
+          "mrp": "₹10,990/-",
+          "offer": "₹8,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "mrp": "\u20b910,990/-",
-          "offer": "\u20b99,499/-"
+          "mrp": "₹10,990/-",
+          "offer": "₹9,499/-"
         }
       ]
     }
@@ -105,13 +105,13 @@
         "date": "03 Oct - 08 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       },
       {
         "date": "17 Oct - 22 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       }
     ],
     "November": [
@@ -119,13 +119,13 @@
         "date": "07 Nov - 12 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       },
       {
         "date": "21 Nov - 26 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       }
     ],
     "December": [
@@ -133,19 +133,19 @@
         "date": "05 Dec - 10 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       },
       {
         "date": "19 Dec - 25 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       },
       {
         "date": "26 Dec - 01 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       }
     ],
     "January": [
@@ -153,55 +153,55 @@
         "date": "09 Jan - 14 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       },
       {
         "date": "16 Jan - 21 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       },
-       {
+      {
         "date": "30 Jan - 04 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       }
     ],
-    "February":[
+    "February": [
       {
         "date": "13 Feb - 18 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
-       {
+      {
         "date": "27 Feb - 04 March",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
-    "March":[
+    "March": [
       {
         "date": "13 March - 18 March",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b929,990/-"
+        "price": "₹29,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b929,990/-",
+      "startingPrice": "₹29,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "mrp": "\u20b940,990/-",
-          "offer": "\u20b929,990/-"
+          "mrp": "₹40,990/-",
+          "offer": "₹29,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "mrp": "\u20b941,990/-",
-          "offer": "\u20b931,990/-"
+          "mrp": "₹41,990/-",
+          "offer": "₹31,990/-"
         }
       ]
     }
@@ -212,19 +212,19 @@
         "date": "6 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "13 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "20 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "January": [
@@ -232,19 +232,19 @@
         "date": "6 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "13 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "20 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "February": [
@@ -252,19 +252,19 @@
         "date": "6 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "13 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "20 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "March": [
@@ -272,33 +272,33 @@
         "date": "6 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "13 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "20 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b921,990",
+      "startingPrice": "₹21,990",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b921,990",
-          "mrp": "\u20b931,499/-"
+          "offer": "₹21,990",
+          "mrp": "₹31,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b922,990",
-          "mrp": "\u20b932,990/-"
+          "offer": "₹22,990",
+          "mrp": "₹32,990/-"
         }
       ]
     }
@@ -309,19 +309,19 @@
         "date": "20 Dec - 28 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "25 Dec - 2 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "27 Dec - 4 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "January": [
@@ -329,19 +329,19 @@
         "date": "10 Jan - 18 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "15 Jan - 23 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "24 Jan - 1 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "February": [
@@ -349,7 +349,7 @@
         "date": "14 Feb - 22 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "March": [
@@ -357,13 +357,13 @@
         "date": "19 Mar - 27 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "28 Mar - 5 Apr",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "April": [
@@ -371,33 +371,33 @@
         "date": "1 Apr - 9 Apr",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "10 Apr - 18 Apr",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "25 Apr - 3 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b921,990",
+      "startingPrice": "₹21,990",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b921,990",
-          "mrp": "\u20b931,499/-"
+          "offer": "₹21,990",
+          "mrp": "₹31,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b922,990",
-          "mrp": "\u20b932,990/-"
+          "offer": "₹22,990",
+          "mrp": "₹32,990/-"
         }
       ]
     }
@@ -408,7 +408,7 @@
         "date": "6 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       }
     ],
     "October": [
@@ -416,7 +416,7 @@
         "date": "18 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       }
     ],
     "November": [
@@ -424,7 +424,7 @@
         "date": "15 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       }
     ],
     "December": [
@@ -432,33 +432,33 @@
         "date": "13 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       },
       {
         "date": "20 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       },
       {
         "date": "27 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b943,990/-",
+      "startingPrice": "₹43,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b943,990/-",
-          "mrp": "\u20b946,990/-"
+          "offer": "₹43,990/-",
+          "mrp": "₹46,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b946,990/-",
-          "mrp": "\u20b948,990/-"
+          "offer": "₹46,990/-",
+          "mrp": "₹48,990/-"
         }
       ]
     }
@@ -469,13 +469,13 @@
         "date": "14 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b96,899/-"
+        "price": "₹6,899/-"
       },
       {
         "date": "24 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b96,899/-"
+        "price": "₹6,899/-"
       }
     ],
     "February": [
@@ -483,13 +483,13 @@
         "date": "14 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b96,899/-"
+        "price": "₹6,899/-"
       },
       {
         "date": "27 Feb",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b96,899/-"
+        "price": "₹6,899/-"
       }
     ],
     "March": [
@@ -497,27 +497,27 @@
         "date": "13 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b96,899/-"
+        "price": "₹6,899/-"
       },
       {
         "date": "27 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b96,899/-"
+        "price": "₹6,899/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b96,899/-",
+      "startingPrice": "₹6,899/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "varkala": "\u20b96,899/-",
-          "chennai": "\u20b98,499/-"
+          "varkala": "₹6,899/-",
+          "chennai": "₹8,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "varkala": "\u20b97,899/-",
-          "chennai": "\u20b99,499/-"
+          "varkala": "₹7,899/-",
+          "chennai": "₹9,499/-"
         }
       ]
     }
@@ -528,7 +528,7 @@
         "date": "20 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       }
     ],
     "October": [
@@ -536,7 +536,7 @@
         "date": "18 Oct - 24 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       }
     ],
     "November": [
@@ -544,7 +544,7 @@
         "date": "15 Nov - 21 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       }
     ],
     "December": [
@@ -552,33 +552,33 @@
         "date": "13 Dec - 19 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       },
       {
         "date": "20 Dec - 26 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       },
       {
         "date": "27 Dec - 2 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b94,990/-",
+      "startingPrice": "₹4,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b94,990/-",
-          "mrp": "\u20b95,500/-"
+          "offer": "₹4,990/-",
+          "mrp": "₹5,500/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b95,500/-",
-          "mrp": "\u20b96,990/-"
+          "offer": "₹5,500/-",
+          "mrp": "₹6,990/-"
         }
       ]
     }
@@ -589,19 +589,19 @@
         "date": "6 Sep - 12 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       },
       {
         "date": "20 Sep - 26 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       },
       {
         "date": "27 Sep - 3 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       }
     ],
     "October": [
@@ -609,7 +609,7 @@
         "date": "17 Oct - 21 Oct",
         "status": "Diwali Special",
         "statusColor": "red",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       }
     ],
     "November": [
@@ -617,13 +617,13 @@
         "date": "6 Nov - 10 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       },
       {
         "date": "28 Nov - 2 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       }
     ],
     "December": [
@@ -631,21 +631,21 @@
         "date": "24 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b98,990/-",
+      "startingPrice": "₹8,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b98,990/-",
-          "mrp": "\u20b99,990/-"
+          "offer": "₹8,990/-",
+          "mrp": "₹9,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b99,990/-",
-          "mrp": "\u20b910,990/-"
+          "offer": "₹9,990/-",
+          "mrp": "₹10,990/-"
         }
       ]
     }
@@ -656,13 +656,13 @@
         "date": "15 Aug - 20 Aug",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "22 Aug - 27 Aug",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "September": [
@@ -670,25 +670,25 @@
         "date": "05 Sep - 10 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "12 Sep - 17 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "19 Sep - 24 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "26 Sep - 01 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "October": [
@@ -696,31 +696,31 @@
         "date": "02 Oct - 07 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "10 Oct - 15 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "17 Oct - 22 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "24 Oct - 29 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "31 Oct - 05 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "November": [
@@ -728,25 +728,25 @@
         "date": "07 Nov - 12 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "14 Nov - 19 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "21 Nov - 26 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "28 Nov - 03 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "December": [
@@ -754,27 +754,27 @@
         "date": "05 Dec - 10 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "12 Dec - 17 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b919,990/-",
+      "startingPrice": "₹19,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b919,990/-",
-          "mrp": "\u20b920,990/-"
+          "offer": "₹19,990/-",
+          "mrp": "₹20,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b921,990/-",
-          "mrp": "\u20b922,990/-"
+          "offer": "₹21,990/-",
+          "mrp": "₹22,990/-"
         }
       ]
     }
@@ -785,45 +785,44 @@
         "date": "4 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b914,490 /-"
+        "price": "₹14,490 /-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b9\u20b914,490 /-",
+      "startingPrice": "₹₹14,490 /-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b914,490 /-",
-          "mrp": "\u20b916,490 /-"
+          "offer": "₹14,490 /-",
+          "mrp": "₹16,490 /-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b915,490 /-",
-          "mrp": "\u20b917,490 /-"
+          "offer": "₹15,490 /-",
+          "mrp": "₹17,490 /-"
         }
       ]
     }
   },
-
   "kerala_grand_circuit": {
     "September": [
       {
         "date": "05 Sep - 11 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "12 Sep - 18 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "26 Sep - 02 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       }
     ],
     "October": [
@@ -831,19 +830,19 @@
         "date": "03 Oct - 09 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "17 Oct - 23 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "24 Oct - 30 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       }
     ],
     "November": [
@@ -851,13 +850,13 @@
         "date": "07 Nov - 13 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "21 Nov - 27 Nov",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       }
     ],
     "December": [
@@ -865,25 +864,25 @@
         "date": "05 Dec - 11 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "12 Dec - 18 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "20 Dec - 26 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "26 Dec - 01 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       }
     ],
     "January": [
@@ -891,58 +890,57 @@
         "date": "02 Jan - 08 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       },
       {
         "date": "16 Jan - 22 Jan",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b922,990 /-"
+        "price": "₹22,990 /-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b922,990",
+      "startingPrice": "₹22,990",
       "prices": [
         {
           "sharing": "Solo Rider",
-          "offer": "\u20b933,990",
-          "mrp": "\u20b935,990"
+          "offer": "₹33,990",
+          "mrp": "₹35,990"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b928,990",
-          "mrp": "\u20b930,990"
+          "offer": "₹28,990",
+          "mrp": "₹30,990"
         },
         {
           "sharing": "Traveller",
-          "offer": "\u20b922,990",
-          "mrp": "\u20b924,990"
+          "offer": "₹22,990",
+          "mrp": "₹24,990"
         }
       ]
     }
   },
-
   "kerala-onam": {
     "September": [
       {
         "date": "4 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,499/-"
+        "price": "₹8,499/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b98,499/-",
+      "startingPrice": "₹8,499/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b98,499/-",
-          "mrp": "\u20b99,499/-"
+          "offer": "₹8,499/-",
+          "mrp": "₹9,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b99,499/-",
-          "mrp": "\u20b910,499/-"
+          "offer": "₹9,499/-",
+          "mrp": "₹10,499/-"
         }
       ]
     }
@@ -953,21 +951,21 @@
         "date": "1 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b98,499/-"
+        "price": "₹8,499/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b98,499/-",
+      "startingPrice": "₹8,499/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b98,990/-",
-          "mrp": "\u20b99,499/-"
+          "offer": "₹8,990/-",
+          "mrp": "₹9,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b99,990/-",
-          "mrp": "\u20b910,499/-"
+          "offer": "₹9,990/-",
+          "mrp": "₹10,499/-"
         }
       ]
     }
@@ -978,21 +976,21 @@
         "date": "17 Oct",
         "status": "Diwali Special",
         "statusColor": "red",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b98,990/-",
+      "startingPrice": "₹8,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b98,990/-",
-          "mrp": "\u20b910,499/-"
+          "offer": "₹8,990/-",
+          "mrp": "₹10,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b99,990/-",
-          "mrp": "\u20b910,499/-"
+          "offer": "₹9,990/-",
+          "mrp": "₹10,499/-"
         }
       ]
     }
@@ -1003,33 +1001,33 @@
         "date": "20 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "25 Dec - 2 Jan",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       },
       {
         "date": "27 Dec - 4 Jan",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b921,990"
+        "price": "₹21,990"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b921,990",
+      "startingPrice": "₹21,990",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b921,990",
-          "mrp": "\u20b931,499/-"
+          "offer": "₹21,990",
+          "mrp": "₹31,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b922,990",
-          "mrp": "\u20b932,990/-"
+          "offer": "₹22,990",
+          "mrp": "₹32,990/-"
         }
       ]
     }
@@ -1040,27 +1038,27 @@
         "date": "24 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b99,999/-"
+        "price": "₹9,999/-"
       },
       {
         "date": "29 Dec - 2 Jan",
         "status": "New Year Special",
         "statusColor": "red",
-        "price": "\u20b99,999/-"
+        "price": "₹9,999/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b99,999/-",
+      "startingPrice": "₹9,999/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b99,990/-",
-          "mrp": "\u20b99,999/-"
+          "offer": "₹9,990/-",
+          "mrp": "₹9,999/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b910,990/-",
-          "mrp": "\u20b911,499/-"
+          "offer": "₹10,990/-",
+          "mrp": "₹11,499/-"
         }
       ]
     }
@@ -1071,33 +1069,33 @@
         "date": "20 Dec - 25 Dec",
         "status": "Christmas ",
         "statusColor": "red",
-        "price": "\u20b921,990/-"
+        "price": "₹21,990/-"
       },
       {
         "date": "23 Dec - 28 Jan",
         "status": "Christmas",
         "statusColor": "red",
-        "price": "\u20b921,990/-"
+        "price": "₹21,990/-"
       },
       {
         "date": "28 Dec - 02 Jan",
         "status": "New Year ",
         "statusColor": "red",
-        "price": "\u20b921,990/-"
+        "price": "₹21,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b921,990/-",
+      "startingPrice": "₹21,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b921,990/-",
-          "mrp": "\u20b925,990/-"
+          "offer": "₹21,990/-",
+          "mrp": "₹25,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b923,990/-",
-          "mrp": "\u20b927,990/-"
+          "offer": "₹23,990/-",
+          "mrp": "₹27,990/-"
         }
       ]
     }
@@ -1108,27 +1106,27 @@
         "date": "24 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b99,499/-"
+        "price": "₹9,499/-"
       },
       {
         "date": "29 Dec - 01 Jan",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b99,499/-"
+        "price": "₹9,499/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b99,499/-",
+      "startingPrice": "₹9,499/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b99,499/-",
-          "mrp": "\u20b910,990/-"
+          "offer": "₹9,499/-",
+          "mrp": "₹10,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b910,499/-",
-          "mrp": "\u20b912,990/-"
+          "offer": "₹10,499/-",
+          "mrp": "₹12,990/-"
         }
       ]
     }
@@ -1139,33 +1137,33 @@
         "date": "21 Dec - 24 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b916,990 /-"
+        "price": "₹16,990 /-"
       },
       {
         "date": "24 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b916,990 /-"
+        "price": "₹16,990 /-"
       },
       {
         "date": "28 Dec - 1 Jan",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b916,990 /-"
+        "price": "₹16,990 /-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b9\u20b916,990 /-",
+      "startingPrice": "₹₹16,990 /-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b916,990 /-",
-          "mrp": "\u20b920,000 /-"
+          "offer": "₹16,990 /-",
+          "mrp": "₹20,000 /-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b918,990 /-",
-          "mrp": "\u20b922,000 /-"
+          "offer": "₹18,990 /-",
+          "mrp": "₹22,000 /-"
         }
       ]
     }
@@ -1176,27 +1174,27 @@
         "date": "24 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       },
       {
         "date": "29 Dec - 01 Jan",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b98,990/-"
+        "price": "₹8,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b99,499/-",
+      "startingPrice": "₹9,499/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b98,990/-",
-          "mrp": "\u20b99,990/-"
+          "offer": "₹8,990/-",
+          "mrp": "₹9,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b99,990/-",
-          "mrp": "\u20b910,990/-"
+          "offer": "₹9,990/-",
+          "mrp": "₹10,990/-"
         }
       ]
     }
@@ -1207,27 +1205,27 @@
         "date": "24 Dec - 28 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b99,499/-"
+        "price": "₹9,499/-"
       },
       {
         "date": "29 Dec - 31 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b99,499/-"
+        "price": "₹9,499/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b99,499/-",
+      "startingPrice": "₹9,499/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b99,499/-",
-          "mrp": "\u20b910,499/-"
+          "offer": "₹9,499/-",
+          "mrp": "₹10,499/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b910,499/-",
-          "mrp": "\u20b910,499/-"
+          "offer": "₹10,499/-",
+          "mrp": "₹10,499/-"
         }
       ]
     }
@@ -1238,27 +1236,27 @@
         "date": "24 Dec - 27 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       },
       {
         "date": "29 Dec - 02 Jan",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b94,990/-"
+        "price": "₹4,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b94,990/-",
+      "startingPrice": "₹4,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b94,990/-",
-          "mrp": "\u20b95,500/-"
+          "offer": "₹4,990/-",
+          "mrp": "₹5,500/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b95,500/-",
-          "mrp": "\u20b96,990/-"
+          "offer": "₹5,500/-",
+          "mrp": "₹6,990/-"
         }
       ]
     }
@@ -1269,33 +1267,33 @@
         "date": "13 Dec",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       },
       {
         "date": "20 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       },
       {
         "date": "27 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b943,990/-"
+        "price": "₹43,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b943,990/-",
+      "startingPrice": "₹43,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "offer": "\u20b943,990/-",
-          "mrp": "\u20b946,990/-"
+          "offer": "₹43,990/-",
+          "mrp": "₹46,990/-"
         },
         {
           "sharing": "Double Sharing",
-          "offer": "\u20b946,990/-",
-          "mrp": "\u20b948,990/-"
+          "offer": "₹46,990/-",
+          "mrp": "₹48,990/-"
         }
       ]
     }
@@ -1306,21 +1304,21 @@
         "date": "25 Dec - 1 Jan",
         "status": "Christmas Special",
         "statusColor": "red",
-        "price": "\u20b934,500/-"
+        "price": "₹34,500/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b934,500/-",
+      "startingPrice": "₹34,500/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
-          "mrp": "\u20b940,990/-",
-          "offer": "\u20b934,500/-"
+          "mrp": "₹40,990/-",
+          "offer": "₹34,500/-"
         },
         {
           "sharing": "Double Sharing",
-          "mrp": "\u20b941,990/-",
-          "offer": "\u20b937,500/-"
+          "mrp": "₹41,990/-",
+          "offer": "₹37,500/-"
         }
       ]
     }
@@ -1331,7 +1329,7 @@
         "date": "14 Mar - 20 Mar",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "April": [
@@ -1339,13 +1337,13 @@
         "date": "03 Apr - 09 Apr",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "25 Apr - 01 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "May": [
@@ -1353,13 +1351,13 @@
         "date": "01 May - 06 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       },
       {
         "date": "23 May - 29 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "June": [
@@ -1367,11 +1365,11 @@
         "date": "20 Jun - 26 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b919,990/-"
+        "price": "₹19,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b919,990/-",
+      "startingPrice": "₹19,990/-",
       "prices": [
         {
           "sharing": "Triple Sharing",
@@ -1404,7 +1402,7 @@
         "date": "02 May - 08 May",
         "status": "Fast Filling",
         "statusColor": "orange",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "June": [
@@ -1412,13 +1410,13 @@
         "date": "13 Jun - 19 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "27 Jun - 03 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "July": [
@@ -1426,19 +1424,19 @@
         "date": "11 Jul - 17 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "25 Jul - 31 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "30 Jul - 05 Aug",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "August": [
@@ -1446,7 +1444,7 @@
         "date": "08 Aug - 14 Aug",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "September": [
@@ -1454,59 +1452,59 @@
         "date": "05 Sep - 11 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "12 Sep - 18 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "19 Sep - 25 Sep",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "26 Sep - 02 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "costing": {
-      "startingPrice": "\u20b924,990/-",
+      "startingPrice": "₹24,990/-",
       "prices": [
         {
           "vehicle": "Tempo Traveller",
           "sharing": "Triple Sharing",
-          "price": "\u20b924,990/-"
+          "price": "₹24,990/-"
         },
         {
           "vehicle": "Tempo Traveller",
           "sharing": "Double Sharing",
-          "price": "\u20b932,990/-"
+          "price": "₹32,990/-"
         },
         {
           "vehicle": "RE Himalayan (Solo)",
           "sharing": "Triple Sharing",
-          "price": "\u20b942,990/-"
+          "price": "₹42,990/-"
         },
         {
           "vehicle": "RE Himalayan (Solo)",
           "sharing": "Double Sharing",
-          "price": "\u20b945,990/-"
+          "price": "₹45,990/-"
         },
         {
           "vehicle": "RE Himalayan (Dual Rider)",
           "sharing": "Triple Sharing",
-          "price": "\u20b935,990/-"
+          "price": "₹35,990/-"
         },
         {
           "vehicle": "RE Himalayan (Dual Rider)",
           "sharing": "Double Sharing",
-          "price": "\u20b938,990/-"
+          "price": "₹38,990/-"
         }
       ]
     }
@@ -1517,25 +1515,25 @@
         "date": "09 May - 15 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "16 May - 22 May",
         "status": "Fast Filling",
         "statusColor": "orange",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "23 May - 29 May",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "30 May - 05 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "June": [
@@ -1543,25 +1541,25 @@
         "date": "06 Jun - 12 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "13 Jun - 19 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "20 Jun - 26 Jun",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "27 Jun - 03 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "July": [
@@ -1569,25 +1567,25 @@
         "date": "04 Jul - 10 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "11 Jul - 17 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "18 Jul - 24 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "25 Jul - 31 Jul",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "August": [
@@ -1595,31 +1593,31 @@
         "date": "01 Aug - 07 Aug",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "08 Aug - 14 Aug",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "15 Aug - 21 Aug",
         "status": "Fast Filling",
         "statusColor": "orange",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "22 Aug - 28 Aug",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "29 Aug - 04 Sept",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "September": [
@@ -1627,25 +1625,25 @@
         "date": "05 Sept - 11 Sept",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "12 Sept - 18 Sept",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "19 Sept - 25 Sept",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       },
       {
         "date": "26 Sept - 02 Oct",
         "status": "Available",
         "statusColor": "green",
-        "price": "\u20b924,990/-"
+        "price": "₹24,990/-"
       }
     ],
     "costing": {
@@ -1856,7 +1854,6 @@
         "price": "₹22,990/-"
       }
     ],
-
     "costing": {
       "startingPrice": "₹22,990/-",
       "prices": [
@@ -1872,5 +1869,90 @@
         }
       ]
     }
+  },
+  "andaman-honeymoon": {
+    "costing": {
+      "startingPrice": "₹32,500/-",
+      "prices": [
+        {
+          "sharing": "Triple Sharing",
+          "mrp": "₹37,990/-",
+          "offer": "₹32,500/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "mrp": "₹39,990/-",
+          "offer": "₹35,000/-"
+        }
+      ]
+    },
+    "November": [
+      {
+        "date": "07 Nov - 12 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      },
+      {
+        "date": "21 Nov - 26 Nov",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      }
+    ],
+    "December": [
+      {
+        "date": "05 Dec - 10 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      },
+      {
+        "date": "19 Dec - 25 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      },
+      {
+        "date": "26 Dec - 01 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      }
+    ],
+    "January": [
+      {
+        "date": "09 Jan - 14 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      },
+      {
+        "date": "16 Jan - 21 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      },
+      {
+        "date": "30 Jan - 04 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      }
+    ],
+    "February": [
+      {
+        "date": "13 Feb - 18 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      },
+      {
+        "date": "27 Feb - 04 March",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹32,500/-"
+      }
+    ]
   }
 }

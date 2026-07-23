@@ -1890,7 +1890,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="package-card-wrap">
-                        <a href="#" class="card-modern">
+                        <a href="andaman-honeymoon-trip.php" class="card-modern">
                             <div class="card-top-badges">
                                 <span class="badge-rating"><i class="fa-solid fa-star"></i> 5.0</span>
 
