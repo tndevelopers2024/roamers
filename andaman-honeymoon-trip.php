@@ -280,11 +280,17 @@
         background-position: center !important;
       }
       .andaman-banner-title {
-        font-size: 34px !important;
+        font-size: 28px !important;
         padding: 0 15px;
       }
       .andaman-banner-overlay {
         background: rgba(0,0,0,0.3); /* Subtle darkening for text readability on mobile */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .andaman-banner-title {
+        font-size: 24px !important;
       }
     }
 
@@ -1487,16 +1493,16 @@
     <script src="https://player.vimeo.com/api/player.js"></script>
     <div class="andaman-banner-overlay" style="z-index: 1; background: rgba(0,0,0,0.3);"></div>
     <div style="position: relative; z-index: 2; text-align: center; color: white; width: 100%;">
-      <h2 class="andaman-banner-title">ANDAMAN ISLANDS ~ DREAMY HONEYMOON</h2>
+      <h2 class="andaman-banner-title">ANDAMAN ISLANDS ~ DREAMY HONEYMOON <i class="fa-solid fa-heart" style="color: #e21b70; margin-left: 5px;"></i></h2>
       <ul style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; padding: 0;">
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           PORT BLAIR
           <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
         </li>
-        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; font-size: 16px;">
+        <!-- <li style="display: flex; align-items: center; font-weight: 800; color: #fff; font-size: 16px;">
           ROSS ISLAND
           <span style="margin-left: 10px; margin-right:10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
-        </li>
+        </li> -->
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           HAVELOCK ISLAND
           <span style="margin-left: 10px; "><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
@@ -1541,8 +1547,8 @@
                   <img src="assets/img/andaman/elements/ruppes-bubble.png" alt="" style="width:70px">
                   <!-- </div> -->
                   <div>
-                    <div class="info-label">Starting Price</div>
-                    <div class="info-value"><span class="andaman-honeymoon-price"></span></div>
+                    <div class="info-label">Pricing & Dates</div>
+                    <div class="info-value" style="font-size: 15px;">Customisable</div>
                   </div>
                 </div>
               </div>
@@ -1555,7 +1561,7 @@
                   <!-- </div> -->
                   <div>
                     <div class="info-label">Duration</div>
-                    <div class="info-value">7D / 6N</div>
+                    <div class="info-value">6D / 5N</div>
                   </div>
                 </div>
               </div>
@@ -1573,7 +1579,7 @@
                 </div>
               </div>
               <div class="col d-flex align-items-center">
-                <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <a href="andaman-honeymoon-trip-enquiry-form.php" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
                   Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
               </div>
             </div>
@@ -1606,7 +1612,7 @@
                   </div>
                   <div>
                     <div class="info-label">Duration</div>
-                    <div class="info-value">7D / 6N</div>
+                    <div class="info-value">6D / 5N</div>
                   </div>
                 </div>
               </div>
@@ -1624,7 +1630,7 @@
                 </div>
               </div>
               <div class="col mt-4">
-                <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
+                <a href="andaman-honeymoon-trip-enquiry-form.php" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
                   Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
               </div>
             </div>
@@ -1957,7 +1963,7 @@
                     </p>
                     <p>
                       <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      6 Breakfast & '2 Dinner(Including Farewell Dinner).
+                      5 Breakfast & 2 Dinner(Including Farewell Dinner).
                     </p>
                     <p>
                       <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
@@ -2028,18 +2034,14 @@
                   <div class="p-2">
                     <!-- Inner box with light grey background -->
                     <div class="inner-box" style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
-                      <h3 style="text-align: center; margin-bottom: 20px;">Starting Price</h3>
-                      <h5 class="special-offer">
-                        <span class="old-price">
-                          <strike>₹ 39,990/-</strike>
-                        </span>
-                        <span class="new-price andaman-honeymoon-price"></span>
+                      <h3 style="text-align: center; margin-bottom: 10px;">Private Trip</h3>
+                      <h5 class="special-offer text-center mb-2" style="color: #4ec0db; font-weight: 700; font-size: 20px;">
+                        Customisable
                       </h5>
 
-                      <p>perfect for group adventures and shared <br> memories.</p>
+                      <p class="text-center" style="font-size: 13px;">Dates & pricing customized upon enquiry.</p>
                       <div class="trip-form p-0">
-                        <a href="andaman-honeymoon-trip-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Dates
-                          & Costing</a>
+                        <a href="andaman-honeymoon-trip-enquiry-form.php" class="btn butn butn__new bg-" style="border-radius: 10px;">Send Enquiry</a>
                       </div>
                     </div>
                   </div>
@@ -2346,13 +2348,12 @@
   <div class="mobile-bottom-bar">
     <div class="bottom-bar-content">
       <div class="price-box ">
-        <h6 class="label">Starts at</h6>
+        <h6 class="label">Private Trip</h6>
         <div class="price-info">
-          <span class="price-amount ">₹32,500/-</span>
-          <span class="per-person">(Per Person)</span>
+          <span class="price-amount" style="font-size: 16px !important;">Customisable</span>
         </div>
       </div>
-      <a href="andaman-honeymoon-trip-form.php" class="btn-book">Dates & Costing</a>
+      <a href="andaman-honeymoon-trip-enquiry-form.php" class="btn-book">Send Enquiry</a>
     </div>
   </div>
 
