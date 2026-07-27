@@ -2730,7 +2730,7 @@
                 'andaman' => [
                     'title' => 'Andaman Island Hopping',
                     'image' => 'https://roamers.in/assets/img/backpacking/Andaman%20hoppers.jpg',
-                    'duration' => '7D/6N',
+                    'duration' => '6D/5N',
                     'location' => 'EX: Port Blair',
                     'places' => 'Port Blair, Ross Island, Havelock, Neil',
                     'price' => '',
