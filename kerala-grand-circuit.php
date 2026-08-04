@@ -1403,7 +1403,7 @@
                 </div>
                 <div>
                   <div class="info-label">Duration</div>
-                  <div class="info-value">6D - 5N</div>
+                  <div class="info-value">7D - 6N</div>
                 </div>
               </div>
             </div>
@@ -1416,7 +1416,7 @@
                 </div>
                 <div>
                   <div class="info-label">Pickup & Drop</div>
-                  <div class="info-value">Rishikesh - Rishikesh</div>
+                  <div class="info-value">Kochi - Alleppey</div>
                 </div>
               </div>
             </div>
