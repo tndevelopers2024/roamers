@@ -1232,7 +1232,7 @@
     <?php include('includes/trips.php'); ?>
 
     <!-- Footer -->
-    <?php include('includes/footer.php'); ?>
+
 
     <!-- jQuery(necessary for all JavaScript plugins) -->
     <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
@@ -1739,6 +1739,7 @@
     </script>
 
 
+    <?php include('includes/footer.php'); ?>
 </body>
 
 </html>

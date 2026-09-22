@@ -8,33 +8,9 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquire Now: Kerala Grand Circuit Trip - Roamers</title>
-    <!-- SEO Meta Description -->
-    <meta name="description" content="Book your Kerala Grand Circuit trip with Roamers. Fill out the enquiry form to join our curated adventure and explore the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
-    <!--  -->
-    <meta name="robots" content="index, follow">
-    <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
-
-    <!-- Open Graph tags -->
-    <meta property="og:site_name" content="Roamers" />
-    <meta property="og:title" content="Enquire Now: Kerala Grand Circuit Trip - Roamers" />
-    <meta property="og:description" content="Book your Kerala Grand Circuit trip with Roamers. Fill out the enquiry form to join our curated adventure and explore the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
-    <meta property="og:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
-    <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Kerala Grand Circuit Trip - Discover God's Own Country" />
-    <meta property="og:url" content="https://roamers.in/kerala-grand-circuit-enquiry-form.php" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter / X Card tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Enquire Now: Kerala Grand Circuit Trip - Roamers" />
-    <meta name="twitter:description" content="Book your Kerala Grand Circuit trip with Roamers. Fill out the enquiry form to join our curated adventure and explore the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
-    <meta name="twitter:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
-    <meta name="twitter:image:alt" content="Kerala Grand Circuit Trip - Discover God's Own Country" />
-    <!--  -->
+    <title>Enquiry Form - Roamers | Plan Your Adventure</title>
+    <!-- Font Awesome -->
+        <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link
@@ -694,14 +670,14 @@ session_start();
         <!-- Desktop View -->
 
         <div>
-            <img src="assets\img\Kerala\KeralaCover.jpg" alt="Kerala Grand Circuit Banner"
+            <img src="assets/img/Kenya/Kenya-bg.avif" alt="Kenya Banner"
                 class="banner-img d-none d-md-block"
                 style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
         </div>
 
         <!-- Mobile View -->
         <div>
-            <img src="assets\img\Kerala\KeralaCover.jpg" alt="Kerala Grand Circuit Banner Mobile"
+            <img src="assets/img/Kenya/Kenya-bg.avif" alt="Kenya Banner Mobile"
                 class="banner-img d-block d-md-none"
                 style="width: 100%; height: 50vh; object-fit: cover; object-position: top; z-index: 0; opacity: 1; margin-top: 68px;">
         </div>
@@ -712,11 +688,11 @@ session_start();
         <div class="enquiry-container reveal">
             <div class="form-section">
                 <div class="section-header reveal">
-                    <h1>Kerala Grand Circuit</h1>
+                    <h1>Kenya</h1>
                     <p class="text-center">  Plan Your Trip</p>
                 </div>
 
-                <form action="kerala-grand-circuit-enquiry-mail-send.php" method="POST">
+                <form action="kenya-enquiry-mail-send.php" method="POST">
                     <div class="row reveal" style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 0;">
                         <div class="form-group" style="flex: 1; min-width: 220px;">
                             <label>Full Name</label>
@@ -751,7 +727,7 @@ session_start();
                         <div class="input-wrapper">
                             <i class="fa-solid fa-earth-asia"></i>
                             <select name="destination" required>
-                                <option value="Valley of flowers">Valley of flowers</option>
+                                <option value="Kenya">Kenya</option>
                             </select>
                             <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                         </div>
@@ -858,141 +834,86 @@ session_start();
         <div style="position: relative;">
             <div class="swiper rewind-swiper" style="overflow: visible !important;">
                 <div class="swiper-wrapper">
-
-                  <!-- Slide 1 -->
+                    <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 1.png" alt="Sri Lanka 1">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/Kenya/Media/overview-1.jpg" alt="Ladakh Adventure">
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 2.png" alt="Sri Lanka 3">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/Kenya/Media/cellular-jail-in-Kenya-reviews.jpg" alt="Ladakh Trip">
                         </div>
                     </div>
 
                     <!-- Slide 3 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 3.jpg" alt="Sri Lanka 3">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/Kenya/Media/bharatpur-beach-neil-island.jpg" alt="Ladakh Scenic">
                         </div>
                     </div>
 
                     <!-- Slide 4 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 4.jpg" alt="Sri Lanka 3">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/Kenya/Media/Portblair-group-min.jpg" alt="Ladakh Journey">
                         </div>
                     </div>
 
                     <!-- Slide 5 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 5.jpg" alt="Sri Lanka 4">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/Kenya/Media/overview-2.jpg" alt="Ladakh Beauty">
                         </div>
                     </div>
 
                     <!-- Slide 6 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 6.jpg" alt="Sri Lanka 4">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="assets/img/Kenya/Media/elephant beach.jpg" alt="Ladakh Vibes">
                         </div>
                     </div>
 
                     <!-- Slide 7 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 7.jpg" alt="Sri Lanka 4">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="https://roamers.in/assets/img/Kenya/Media/pexels-asad-photo-maldives-1450353.jpg" alt="Ladakh Memories">
                         </div>
                     </div>
 
                     <!-- Slide 8 -->
                     <div class="swiper-slide">
                         <div class="rewind-card">
-                            <img src="assets\img\kerala-grand-circuit\car 8.png" alt="Sri Lanka 4">
+                            <!-- <div class="card-overlay-top">
+                                <div class="arrow-icon"><i class="fa-solid fa-arrow-up"></i></div>
+                            </div> -->
+                            <img src="https://roamers.in/assets/img/Kenya/Media/Kenya-markets.jpg" alt="Ladakh Group">
                         </div>
                     </div>
-
-          <!-- Slide 1 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="https://reviews-thrillophilia.com/content/images/2024/10/VAL.jpg" alt="Kerala Grand Circuit Beauty">
-            </div>
-          </div> -->
-
-          <!-- Slide 2 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="assets/img/Kerala/Kerala-photos.jpg" alt="Kerala Grand Circuit Trip">
-            </div>
-          </div> -->
-
-          <!-- Slide 3 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="assets/img/Kerala/Kerala-photos.jpg" alt="Kerala Grand Circuit Scenic">
-            </div>
-          </div> -->
-
-          <!-- Slide 4 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="assets/img/Kerala/Kerala-photos.jpg" alt="Kerala Grand Circuit Journey">
-            </div>
-          </div> -->
-
-          <!-- Slide 5 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="assets/img/Kerala/Kerala-photos.jpg" alt="Kerala Grand Circuit Beauty">
-            </div>
-          </div> -->
-
-          <!-- Slide 6 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="https://cvsqtgaxsa.cloudimg.io/https://images.prismic.io/indiahike/aAiSWPIqRLdaBfud_Valleyofflowers_NagasaiAnudeep_July2024_trekkerontrail_florafauna_valley_greenery_monsoon.JPG?w=6096&h=4064&q=50&org_if_sml=1" alt="Kerala Grand Circuit Beauty">
-            </div>
-          </div> -->
-
-          <!-- Slide 7 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="https://himtrek.co.in/wp-content/uploads/2025/09/Valley-Of-Flowers-Trek.webp" alt="Kerala Grand Circuit Beauty">
-            </div>
-          </div> -->
-
-          <!-- Slide 8 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="https://himtrek.co.in/wp-content/uploads/2025/09/Valley-Of-Flowers-Trek.webp" alt="Kerala Grand Circuit Beauty">
-            </div>
-          </div> -->
-
-          <!-- Slide 9 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/09/02113956/Floral-Wonders-Of-The-Valley-Of-Flowers-Trek.jpg" alt="Kerala Grand Circuit Beauty">
-            </div>
-          </div> -->
-
-          <!-- Slide 10 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="assets/img/Kerala/Kerala-photos.jpg" alt="Kerala Grand Circuit Adventure">
-            </div>
-          </div> -->
-
-          <!-- Slide 11 -->
-          <!-- <div class="swiper-slide">
-            <div class="rewind-card">
-              <img src="assets/img/Kerala/Kerala-photos.jpg" alt="Kerala Grand Circuit Adventure">
-            </div>
-          </div> -->
-
-        </div>
+                </div>
 
             </div>
         </div>

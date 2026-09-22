@@ -5,31 +5,31 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Roamers - Kerala Grand Circuit Trek: Experience Himalayan Beauty & Alpine Meadows</title>
+  <title>Roamers - Kerala Grand Circuit Trip</title>
 
   <!-- SEO Meta Description -->
-  <meta name="description" content="Embark on an unforgettable Kerala Grand Circuit trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
+  <meta name="description" content="Embark on an unforgettable Kerala Grand Circuit trip with Roamers. Discover the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
   <meta name="author" content="Themeland" />
 
   <!-- Open Graph tags (Instagram, Facebook, LinkedIn, Discord, WhatsApp) -->
   <meta property="og:site_name" content="Roamers" />
-  <meta property="og:title" content="Roamers - Kerala Grand Circuit Trek: Experience Himalayan Beauty & Alpine Meadows" />
-  <meta property="og:description" content="Embark on an unforgettable Kerala Grand Circuit trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
+  <meta property="og:title" content="Roamers - Kerala Grand Circuit Trip" />
+  <meta property="og:description" content="Embark on an unforgettable Kerala Grand Circuit trip with Roamers. Discover the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
   <meta property="og:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
   <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Kerala Grand Circuit Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
+  <meta property="og:image:alt" content="Kerala Grand Circuit Trip - Discover God's Own Country" />
   <meta property="og:url" content="https://roamers.in/kerala-grand-circuit" />
   <meta property="og:type" content="website" />
 
   <!-- Twitter / X Card tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Roamers - Kerala Grand Circuit Trek: Experience Himalayan Beauty & Alpine Meadows" />
-  <meta name="twitter:description" content="Embark on an unforgettable Kerala Grand Circuit trek with Roamers. Discover vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India. Join our curated adventure for an immersive nature experience." />
+  <meta name="twitter:title" content="Roamers - Kerala Grand Circuit Trip" />
+  <meta name="twitter:description" content="Embark on an unforgettable Kerala Grand Circuit trip with Roamers. Discover the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
   <meta name="twitter:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
-  <meta name="twitter:image:alt" content="Kerala Grand Circuit Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
+  <meta name="twitter:image:alt" content="Kerala Grand Circuit Trip - Discover God's Own Country" />
 
 
   <!-- Title  -->
@@ -1483,23 +1483,15 @@
 
               <!-- Desktop description (full text) -->
               <p style="color: #555;" class="desk-desc d-none d-md-block">
-                Hey, folks! Get ready for our Kerala backpacking extravaganza! We'll kick off in the Vagamon Hills with epic paragliding, trek to Waterfalls and under star campfires, But hold onto your flip-flops because we're not done yet! We'll be heading to the laid-back vibes of Varkala for beachfront bliss, explore mangroves, and visit the world's largest sculpture, Jatayu Finally, it's off to Alleppey
+                Hey, folks! Get ready for our Kerala backpacking extravaganza! We'll kick off in the Vagamon Hills with epic paragliding, trip to Waterfalls and under star campfires, But hold onto your flip-flops because we're not done yet! We'll be heading to the laid-back vibes of Varkala for beachfront bliss, explore mangroves, and visit the world's largest sculpture, Jatayu Finally, it's off to Alleppey
                 <br> to experience its mesmerizing backwater beauty, and unique boathouse stay and delicious Kerala cuisine. More surprises await as we explore 'God's Own Country' for unforgettable moments and good times! 🌴🌊🌟
               </p>
 
               <!-- Mobile description (truncated with toggle) -->
               <p style="color: #555;" class="mob-desc d-block d-md-none">
-                Hey there, team! Welcome to the Kerala Grand Circuit, nature's very own canvas bursting with color! This
-                trip
-                isn't just about checking off a national park—it's about losing ourselves in a wildflower wonderland,
-                breathing in the fresh Himalayan air<span id="dots">...</span>
+                Hey, folks! Get ready for our Kerala backpacking extravaganza! We'll kick off in the Vagamon Hills with epic paragliding, trip to Waterfalls and under star campfires<span id="dots">...</span>
                 <span id="moreText" style="display: none;">
-                  , and trekking through landscapes that look straight out of a dream.
-                  <br> We'll wander through vibrant meadows, feel the chill of glacial streams, and soak in the serene
-                  vibes
-                  at Hemkund Sahib. And hey, don't forget to pack your appetite—we're diving into some hearty mountain
-                  grub
-                  too. Let's embrace this high-altitude magic and make memories that bloom forever!
+                  <br> But hold onto your flip-flops because we're not done yet! We'll be heading to the laid-back vibes of Varkala for beachfront bliss, explore mangroves, and visit the world's largest sculpture, Jatayu. Finally, it's off to Alleppey to experience its mesmerizing backwater beauty, and unique boathouse stay and delicious Kerala cuisine. More surprises await as we explore 'God's Own Country' for unforgettable moments and good times! 🌴🌊🌟
                 </span>
               </p>
 

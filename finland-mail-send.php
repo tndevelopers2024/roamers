@@ -40,8 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addAddress('info@roamers.in');
 
         $mail->isHTML(true);
-        $mail->Subject = 'NEW KERALA GRAND CIRCUIT BOOKING RECEIVED';
-        $mail->AddEmbeddedImage('assets/img/Kerala/KeralaCover.jpg', 'valleyimg');
+        $mail->Subject = 'NEW Finland BOOKING RECEIVED';
+        $mail->AddEmbeddedImage('assets/img/Finland/Media/overview-2.jpg', 'srilankaimg');
 
         $mail->Body = "
         <div style='
@@ -51,14 +51,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             border-radius: 18px;
             box-shadow: 0 6px 32px rgba(0,0,0,0.13);
             overflow: hidden;
-
             border: 1px solid #e0e7ef;
         '>
             <div style='background: linear-gradient(90deg, #4ec0db 0%, #1e90ff 100%); padding: 32px 0 18px 0; text-align: center;'>
-                <img src='cid:valleyimg' alt='valleyimg' style='width: 100%; max-width: 420px; height: 180px; object-fit: cover; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); margin-bottom: 18px;' />
+                <img src='cid:srilankaimg' alt='srilankaimg' style='width: 100%; max-width: 420px; height: 180px; object-fit: cover; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); margin-bottom: 18px;' />
                 <h2 style='color: #fff; font-size: 2.1rem; margin: 0 0 6px 0; letter-spacing: 1px; font-weight: 700;'>
-                    <span style=\"vertical-align:middle; margin-right:8px;\"><img src='https://img.icons8.com/ios-filled/40/ffffff/flower.png' style='width:32px;vertical-align:middle;'/></span>
-                    KERALA GRAND CIRCUIT TRIP
+                    <span style=\"vertical-align:middle; margin-right:8px;\"><img src='https://img.icons8.com/ios-filled/40/ffffff/island-on-water.png' style='width:32px;vertical-align:middle;'/></span>
+                    Finland
                 </h2>
                 <div style='color: #e0f7fa; font-size: 1.1rem; margin-bottom: 8px; letter-spacing: 0.5px;'>
                     <span style=\"vertical-align:middle; margin-right:6px;\"><img src='https://img.icons8.com/ios-filled/20/ffffff/calendar--v1.png' style='width:18px;vertical-align:middle;'/></span>
@@ -150,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </table>
             </div>
             <div style='background: #4ec0db; color: #fff; text-align: center; padding: 14px 0; font-size: 1.08rem; letter-spacing: 0.5px;'>
-                Thank you for booking your Kerala Grand Circuit Trip with Roamers! <span style='margin-left:8px;'><img src='https://img.icons8.com/ios-filled/20/ffffff/checked-checkbox.png' style='vertical-align:middle;'/></span>
+                Thank you for booking your Finland Escapade with Roamers! <span style='margin-left:8px;'><img src='https://img.icons8.com/ios-filled/20/ffffff/checked-checkbox.png' style='vertical-align:middle;'/></span>
             </div>
         </div>
         ";
@@ -271,9 +270,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     display: inline-block;
                 }
 
-                .thankyou-btn:hover {
+                /* .thankyou-btn:hover {
                     background: linear-gradient(90deg, #1e90ff 0%, #4ec0db 100%);
-                }
+                } */
 
                 @media (max-width: 600px) {
                     .thankyou-container {
@@ -290,7 +289,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
                 <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
-                    Your Kerala Grand Circuit Trip booking has been received.<br>
+                    Your Finland booking has been received.<br>
                     We can't wait to see you on your adventure!
                 </div>
                 <div class="thankyou-details">
@@ -309,7 +308,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     } catch (Exception $e) {
         echo "<script>
-            document.body.innerHTML += `<div id='valley-modal-error' style=\"
+            document.body.innerHTML += `<div id='srilanka-modal-error' style=\"
                 position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:99999;
                 background:rgba(0,0,0,0.32);display:flex;align-items:center;justify-content:center;\">
                 <div style=\"
@@ -320,7 +319,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     max-width:350px;
                     text-align:center;
                     position:relative;
-
                 \">
                     <div style='margin-bottom:18px;'>
                         <img src='https://img.icons8.com/fluency/64/high-importance.png' style='width:54px;' alt='Error'/>

@@ -1169,7 +1169,7 @@ session_start();
                                             <tr>
                                                 <th scope="col" style="font-size: 11px;">Sharing</th>
                                                 <th scope="col" style="font-size: 11px;">Guwahati</th>
-                                                <th scope="col" style="font-size: 11px;">Chennai</th>
+                                                <!-- <th scope="col" style="font-size: 11px;">Chennai</th> -->
                                             </tr>
                                         </thead>
                                         <tbody id="costing-table-body-standard">
@@ -1187,7 +1187,7 @@ session_start();
                                             <tr>
                                                 <th scope="col" style="font-size: 11px;">Sharing</th>
                                                 <th scope="col" style="font-size: 11px;">Guwahati</th>
-                                                <th scope="col" style="font-size: 11px;">Chennai</th>
+                                                <!-- <th scope="col" style="font-size: 11px;">Chennai</th> -->
                                             </tr>
                                         </thead>
                                         <tbody id="costing-table-body-kaziranga">
@@ -1251,7 +1251,7 @@ session_start();
                             rows += `<tr>
                                 <td>${price.sharing || "N/A"}</td>
                                 <td>${price.guwahati || "N/A"}</td>
-                                <td>${price.chennai || "N/A"}</td>
+                                <!-- <td>${price.chennai || "N/A"}</td> -->
                             </tr>`;
                         });
                         tableStandard.innerHTML = rows;
@@ -1265,7 +1265,7 @@ session_start();
                             rows += `<tr>
                                 <td>${price.sharing || "N/A"}</td>
                                 <td>${price.guwahati || "N/A"}</td>
-                                <td>${price.chennai || "N/A"}</td>
+                                <!-- <td>${price.chennai || "N/A"}</td> -->
                             </tr>`;
                         });
                         tableKaziranga.innerHTML = rows;

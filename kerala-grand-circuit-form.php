@@ -11,22 +11,22 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" width="600"
         height="600" alt="image for ooty" />
-    <title>Roamers - Kerala Grand Circuit Trek</title>
+    <title>Roamers - Kerala Grand Circuit Trip</title>
     <!--  SEO Meta Description -->
-    <meta name="description" content="Roamers - Kerala Grand Circuit Trek" />
+    <meta name="description" content="Roamers - Kerala Grand Circuit Trip" />
     <meta name="author" content="Themeland" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="500" />
 
     <!-- Basic Open Graph tags -->
-    <meta property="og:title" content="Roamers - Kerala Grand Circuit Trek" />
-    <meta property="og:description" content="Book your Kerala Grand Circuit Trek adventure." />
+    <meta property="og:title" content="Roamers - Kerala Grand Circuit Trip" />
+    <meta property="og:description" content="Book your Kerala Grand Circuit Trip adventure." />
     <meta property="og:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
     <meta property="og:url" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Roamers - Kerala Grand Circuit Trek" />
-    <meta name="twitter:description" content="Book your Kerala Grand Circuit Trek adventure." />
+    <meta name="twitter:title" content="Roamers - Kerala Grand Circuit Trip" />
+    <meta name="twitter:description" content="Book your Kerala Grand Circuit Trip adventure." />
     <meta name="twitter:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
 
 

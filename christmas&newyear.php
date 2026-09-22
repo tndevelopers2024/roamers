@@ -28,6 +28,12 @@
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+  <!-- Global CSS Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/color.css">
+
   <style>
     * {
       box-sizing: border-box;
@@ -47,7 +53,7 @@
       overflow: visible;
       position: relative;
       z-index: 2;
-      margin-top: 40px;
+      margin-top: 60px;
       /* Use hardware acceleration for smoothness (especially mobile) */
       will-change: transform;
       backface-visibility: hidden;
@@ -79,6 +85,18 @@
         /* min-height: 60vw; */
         max-height: 40vh;
         border-radius: 0px;
+      }
+
+      /* Specific fix for the secondary wide banner on mobile */
+      .banner-swiper-secondary,
+      .banner-swiper-secondary .swiper-slide,
+      .banner-swiper-secondary .slide-picture {
+        height: auto !important;
+        max-height: none !important;
+      }
+      
+      .banner-swiper-secondary .slide-picture {
+        object-fit: contain !important;
       }
     }
 
@@ -332,13 +350,614 @@
         border-radius: 0 !important;
       }
     }
-  </style>
+      * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      overflow-x: hidden;
+      max-width: 100%;
+      margin: 0;
+    }
+
+    .upcoming-container {
+      position: relative;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    .upcoming-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 600px) {
+      .upcoming-tabs {
+        gap: 6px;
+        margin-bottom: 18px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 0 10px;
+        justify-content: flex-start;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .upcoming-tabs::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .upcoming-tab-btn {
+      background: #fff;
+      color: #4CB9D3;
+      border: 2px solid #4CB9D3;
+      border-radius: 20px;
+      padding: 8px 24px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .upcoming-tab-btn {
+        padding: 5px 20px;
+        font-size: 12px;
+        border-radius: 14px;
+        margin-bottom: 4px;
+      }
+    }
+
+    /* .upcoming-tab-btn.active,
+    .upcoming-tab-btn:hover {
+      background: #4CB9D3;
+      color: #fff;
+    } */
+
+    .upcoming-tab-content {
+      display: none;
+      margin-bottom: 80px;
+      opacity: 0;
+      transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .upcoming-tab-content.active {
+      display: block;
+      opacity: 1;
+      transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .upcoming-card {
+      flex: 0 0 auto;
+      width: 350px;
+      height: 390px !important;
+      position: relative;
+      border: 2px solid;
+      border-image-source: linear-gradient(193.16deg, rgba(255, 255, 255, 0) 9.46%, #32EEE7 90.51%);
+      border-radius: 30px;
+      background: transparent;
+      scroll-snap-align: start;
+      margin: 0;
+      transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .upcoming-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }    .upcoming-image {
+      width: 100%;
+      height: 250px; /* Kept 250px because xmas cards don't use 450px */
+      border-radius: 24px;
+      overflow: hidden;
+      transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .upcoming-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+      padding: 2.2px; /* Inner padding like index.php */
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* .upcoming-card:hover .upcoming-image img {
+  transform: scale(1.04);
+  } */
+
+    @media (max-width: 600px) {
+      .upcoming-image {
+        height: 500px !important;
+        max-height: 70vw;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .upcoming-image {
+        height: 320px !important;
+        max-height: 80vw;
+      }
+    }
+
+    .upcoming-content {
+      background: linear-gradient(180deg, rgba(86, 195, 221, 0) 0%, #56C3DD 100%);
+      padding: 1px 1px 1px 1px;
+      margin: 1px 1px 25px 1px;
+      color: white;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 24px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: visible !important;
+    }
+
+    @media (max-width: 600px) {
+      .upcoming-content {
+        padding: 0px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .upcoming-content {
+        padding: 0px;
+      }
+    }
+
+    .upcoming-card-flex {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 15px 3px 10px;
+      flex-wrap: wrap;
+    }
+
+    .upcoming-duration {
+      display: flex;
+      align-items: center;
+      background-color: #FFFFFF;
+      color: #292929;
+      padding: 2px 6px;
+      border-radius: 30px;
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    .upcoming-duration .icon {
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+      color: #7dd3e7;
+    }
+
+    .upcoming-duration .icon img {
+      width: 12px !important;
+    }
+
+    .upcoming-from {
+      display: flex;
+      align-items: center;
+      background-color: #4CB9D3;
+      border-radius: 30px;
+      padding: 3px 7px;
+      font-size: 11px;
+      color: #FFFFFF;
+    }
+
+    .upcoming-from .icon {
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+    }
+
+    .upcoming-from .icon img {
+      width: 6px !important;
+    }
+
+    .upcoming-title {
+      font-size: 17px;
+      text-transform: uppercase;
+      color: white;
+      text-align: start;
+      margin: 5px 0px 0px 12px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* .upcoming-card:hover .upcoming-title {
+  color: #32EEE7;
+  } */
+
+    .upcoming-locations {
+      font-size: 12px;
+      color: white;
+      margin: 1px 12px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* .upcoming-card:hover .upcoming-locations {
+  color: #b2f7f7;
+  } */
+
+    .upcoming-price-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px 35px 17px 12px;
+      flex-grow: 1;
+    }
+
+    .upcoming-dates {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      color: #333;
+      padding: 5px 8px;
+      border-radius: 19px;
+      font-size: 8px;
+      box-shadow: 0px 2px 4px 0px #00000040, 1px -1px 6px 0px #00000047 inset;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* .upcoming-card:hover .upcoming-dates {
+  background: #4CB9D3;
+  color: #fff;
+  } */
+
+    .upcoming-dates .icon {
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+    }
+
+    .upcoming-dates .icon img {
+      width: 16px !important;
+    }
+
+    .upcoming-starts {
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .upcoming-price {
+      font-weight: bold;
+      text-align: right;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* .upcoming-card:hover .upcoming-price {
+  color: #32EEE7;
+  } */
+
+    .upcoming-view {
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #fff;
+      color: #4CB9D3 !important;
+      border-radius: 18px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 5px 5px 44px 0px #3CADC9B2;
+      font-size: 15px;
+      z-index: 10;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      padding: 8px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* .upcoming-view:hover,
+    .upcoming-view:focus {
+      background: #4CB9D3;
+      color: #fff;
+      box-shadow: 0 8px 32px 0 rgba(76, 185, 211, 0.18), 0 1.5px 8px 0 rgba(50, 238, 231, 0.10);
+      transform: scale(1.05) translateX(-50%);
+    } */
+
+    .upcoming-header {
+      margin: 0px 0px 30px 0px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .upcoming-header-icon {
+      color: #4CB9D3;
+      font-size: 30px;
+    }
+
+    .upcoming-slider-wrapper {
+      position: relative;
+      width: 100%;
+      padding: 0 40px;
+      overflow: visible;
+      contain: content;
+    }
+
+    .upcoming-slider {
+      display: flex;
+      gap: 20px;
+      padding: 0px 0px 30px 0px;
+      overflow-x: auto;
+      overflow-y: visible;
+      scroll-snap-type: x mandatory;
+      scroll-padding: 15px;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      -webkit-overflow-scrolling: touch;
+      will-change: scroll-position;
+      scroll-behavior: smooth;
+      transition: gap 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .upcoming-slider::-webkit-scrollbar {
+      display: none;
+    }
+
+    .upcoming-slider-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: none;
+      color: #4CB9D3;
+      font-size: 1.5rem;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      cursor: pointer;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .upcoming-slider-arrow.left {
+      left: 0;
+    }
+
+    .upcoming-slider-arrow.right {
+      right: 0;
+    }
+
+    .upcoming-slider-arrow:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* 
+    .upcoming-slider-arrow:hover:not(:disabled) {
+      background: #4CB9D3;
+      color: #fff;
+      box-shadow: 0 4px 16px 0 rgba(76, 185, 211, 0.18);
+    } */
+
+    /* Ensure only ONE clear FontAwesome chevron is rendered and hide Swiper 11 auto-injected SVGs */
+    .banner-swiper .swiper-button-next::after,
+    .banner-swiper .swiper-button-prev::after {
+      font-family: "Font Awesome 6 Free" !important;
+      font-weight: 900 !important;
+      font-size: 20px !important;
+      color: #fff !important;
+      display: block !important;
+    }
+    
+    .banner-swiper .swiper-button-next::after {
+        content: "\f054" !important;
+    }
+    
+    .banner-swiper .swiper-button-prev::after {
+        content: "\f053" !important;
+    }
+
+    .banner-swiper .swiper-button-next svg,
+    .banner-swiper .swiper-button-prev svg {
+        display: none !important;
+    }
+
+    @media (max-width: 900px) {
+      .upcoming-container {
+        padding: 0 10px;
+      }
+
+      .upcoming-card {
+        width: 320px;
+        min-width: 320px;
+        max-width: 320px;
+        height: 330px;
+      }
+
+      .upcoming-image {
+        height: 180px;
+      }
+
+      .upcoming-title {
+        font-size: 16px;
+      }
+
+      .upcoming-locations {
+        font-size: 11px;
+      }
+
+      .upcoming-price-section {
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .upcoming-slider-wrapper {
+        padding: 0 32px;
+      }
+
+      .upcoming-view {
+        bottom: -18px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .upcoming-container {
+        padding: 0 5px;
+      }
+
+      .upcoming-tab-content {
+        margin-bottom: 80px;
+      }
+
+      .upcoming-slider-wrapper {
+        padding: 0;
+      }
+
+      .upcoming-slider {
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .upcoming-card {
+        width: 350px;
+        min-width: 350px;
+        max-width: 350px;
+        height: 325px !important;
+        margin: 0;
+        scroll-snap-align: center;
+      }
+
+      .upcoming-title {
+        font-size: 14px;
+      }
+
+      .upcoming-locations {
+        font-size: 10px;
+      }
+
+      .upcoming-price-section {
+        margin: 0px 18px 10px 12px;
+        gap: 8px;
+        padding: auto;
+      }
+
+      .upcoming-dates {
+        font-size: 7px;
+        padding: 4px 6px;
+        max-width: 60%;
+      }
+
+      .upcoming-starts {
+        font-size: 10px;
+      }
+
+      .upcoming-price {
+        font-size: 16px;
+      }
+
+      .upcoming-view {
+        width: 110px;
+        height: 36px;
+        font-size: 13px;
+        padding: 6px 12px;
+        bottom: -18px;
+      }
+
+      .upcoming-header {
+        font-size: 1.1rem;
+        margin: 25px 0 35px;
+      }
+
+      .upcoming-header-icon {
+        font-size: 22px;
+      }
+
+      .upcoming-slider-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+      }
+
+      .upcoming-slider-arrow.left {
+        left: 5px;
+      }
+
+      .upcoming-slider-arrow.right {
+        right: 5px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .upcoming-slider {}
+
+      .upcoming-card {
+        width: calc(92vw - 16px);
+        min-width: calc(92vw - 16px);
+        max-width: calc(92vw - 16px);
+        height: 280px;
+      }
+
+      .upcoming-title {
+        font-size: 13px;
+        margin: 0px 12px 0px 12px;
+      }
+
+      .upcoming-locations {
+        font-size: 9px;
+        margin: 0px 12px 0px 12px;
+      }
+
+      .upcoming-dates {
+        font-size: 6px;
+        padding: 3px 5px;
+        max-width: 65%;
+      }
+
+      .upcoming-starts {
+        font-size: 9px;
+      }
+
+      .upcoming-price {
+        font-size: 14px;
+      }
+
+      .upcoming-view {
+        width: 100px;
+        height: 32px;
+        font-size: 12px;
+        padding: 5px 10px;
+        bottom: -16px;
+      }
+
+      .upcoming-slider-wrapper {
+        padding: 0;
+      }
+    }
+</style>
 </head>
 
 <body>
 
   <header>
-    <!-- <?php include('includes/header.php'); ?> -->
+    <?php include('includes/header.php'); ?>
   </header>
 
   <!-- Banner -->
@@ -383,13 +1002,13 @@
 
     </h2>
 
-    <div class="d-flex flex-wrap justify-content-center align-items-center m-0 p-0">
+    <div class="d-flex flex-wrap justify-content-center align-items-center m-0 p-0" style="row-gap: 50px; column-gap: 20px; padding-bottom: 20px !important;">
       <!-- SPITI WINTER EXPEDITION -->
-      <div class="upcoming-card mt-3" onclick="window.open('spitivalley-winter-christmas&newyear.php')"
+      <div class="upcoming-card" onclick="window.open('spitivalley-winter-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
-            <img src="https://roamers.in/assets/img/spiti-valley/p5.jpg" alt="Sri Lanka">
+            <img src="assets/img/spiti-valley/cover/spiti-chandratal-trek.avif" alt="Spiti Winter Expedition">
           </div>
           <div class="upcoming-card-flex">
             <div class="upcoming-duration">
@@ -412,15 +1031,15 @@
               <div class="upcoming-price">₹21,990 /-</div>
             </div>
           </div>
-          <a href="spitivalley-winter-christmas-new-year.php" class="upcoming-view">View Trip</a>
+          <a href="spitivalley-winter-christmas&newyear.php" class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- MEGHALAYA -->
-      <div class="upcoming-card mt-3" onclick="window.open('meghalaya-christmas-new-year.php')"
+      <div class="upcoming-card" onclick="window.open('meghalaya-christmas-new-year.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
-            <img src="assets/img/meghalaya/Front%203.jpg" alt="Valley of Flowers">
+            <img src="assets/img/meghalaya/meghalaya-gallery-03.avif" alt="Mejestic Meghalaya">
           </div>
           <div class="upcoming-card-flex">
             <div class="upcoming-duration">
@@ -443,11 +1062,11 @@
               <div class="upcoming-price">₹21,990/-</div>
             </div>
           </div>
-          <a href="meghalaya-christmas-new-year.php"  class="upcoming-view">View Trip</a>
+          <a href="meghalaya-christmas-new-year.php"  class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- CHIKMAGALUR -->
-      <div class="upcoming-card mt-3" onclick="window.open('chikmagalur-christmas&newyear.php') "
+      <div class="upcoming-card" onclick="window.open('chikmagalur-christmas&newyear.php') "
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -462,8 +1081,8 @@
               <span>EX: Chennai - Bangalore</span>
             </div>
           </div>
-          <h1 class="upcoming-title">CHIKMAGALUR BAGPACKING </h1>
-          <p class="upcoming-locations">Chikmagalur, Z point, Hebbe Falls</p>
+          <h1 class="upcoming-title">CHIKKAMAGALURU BACKPACKING </h1>
+          <p class="upcoming-locations">Chikkamagaluru, Z point, Hebbe Falls</p>
           <div class="upcoming-price-section">
             <div class="upcoming-dates">
               <span class="icon"><img src="assets/svg/calander.svg" alt="Calendar"></span>
@@ -474,11 +1093,11 @@
               <div class="upcoming-price">₹9,499/-</div>
             </div>
           </div>
-          <a href="chikmagalur-christmas-new-year.php" class="upcoming-view">View Trip</a>
+          <a href="chikmagalur-christmas&newyear.php" class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- KERALA -->
-      <div class="upcoming-card mt-3" onclick="window.open('kerala-chritsmas&newyear.php')"
+      <div class="upcoming-card" onclick="window.open('kerala-chritsmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -493,7 +1112,7 @@
               <span>EX: Chennai</span>
             </div>
           </div>
-          <h1 class="upcoming-title">KERALA: TO GOD’s OWN PLACE</h1>
+          <h1 class="upcoming-title">KERALA: GOD'S OWN COUNTRY</h1>
           <p class="upcoming-locations">Munnar, Thekkady, Alappuzha</p>
           <div class="upcoming-price-section">
             <div class="upcoming-dates">
@@ -505,11 +1124,11 @@
               <div class="upcoming-price">₹16,990/-</div>
             </div>
           </div>
-          <a href="kerala-chritsmas-newyear.php"  class="upcoming-view">View Trip</a>
+          <a href="kerala-chritsmas&newyear.php"  class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- Kodaikanal -->
-      <div class="upcoming-card mt-5" onclick="window.open('kodaikanal1-christmas&newyear.php')"
+      <div class="upcoming-card" onclick="window.open('kodaikanal1-christmas&newyear.php')"
         style="cursor:pointer">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -533,14 +1152,14 @@
             </div>
             <div>
               <div class="upcoming-starts">Starts</div>
-              <div class="upcoming-price kodaikanal-price">₹9,990/-</div>
+              <div class="upcoming-price">₹9,990/-</div>
             </div>
           </div>
-          <a href="kodaikanal1-christmas-new-year.php"  class="upcoming-view">View Trip</a>
+          <a href="kodaikanal1-christmas&newyear.php"  class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- Wayanad Card -->
-      <div class="upcoming-card mt-5" onclick="window.open('wayanad-christmas&newyear.php')"
+      <div class="upcoming-card" onclick="window.open('wayanad-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -564,14 +1183,14 @@
             </div>
             <div>
               <div class="upcoming-starts">Starts</div>
-              <div class="upcoming-price">₹9,499/-</div>
+              <div class="upcoming-price">₹8,990/-</div>
             </div>
           </div>
-          <a href="wayanad-christmas-newyear.php"  class="upcoming-view">View Trip</a>
+          <a href="wayanad-christmas&newyear.php"  class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- Ooty Card -->
-      <div class="upcoming-card mt-5" onclick="window.open('ooty-christmas&newyear.php')" style="cursor: pointer;">
+      <div class="upcoming-card" onclick="window.open('ooty-christmas&newyear.php')" style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
             <img src="https://roamers.in/assets/img/Ooty/1-min.jpg" alt="Sri Lanka">
@@ -597,14 +1216,14 @@
               <div class="upcoming-price">₹9,499/-</div>
             </div>
           </div>
-          <a href="ooty-christmas&newyear-special.php"  class="upcoming-view">View Trip</a>
+          <a href="ooty-christmas&newyear.php"  class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- Pondi Dive-in -->
-      <div class="upcoming-card mt-5" onclick="window.open('pondi-christmas&newyear.php')" style="cursor: pointer;">
+      <div class="upcoming-card" onclick="window.open('pondi-christmas&newyear.php')" style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
-            <img src="assets/img/valley-of-flowers/avif/img-3.avif" alt="Pondi Dive-in">
+            <img src="assets/img/pondicherry/Media/Pondi-cover-min.jpg" alt="Pondi Dive-in">
           </div>
           <div class="upcoming-card-flex">
             <div class="upcoming-duration">
@@ -627,15 +1246,15 @@
               <div class="upcoming-price">₹4,990</div>
             </div>
           </div>
-          <a href="pondi-christmas&newyear-special.php" class="upcoming-view">View Trip</a>
+          <a href="pondi-christmas&newyear.php" class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- Sri Lanka -->
-      <div class="upcoming-card mt-5" onclick="window.open('srilanka-christmas&newyear.php')"
+      <div class="upcoming-card" onclick="window.open('srilanka-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
-            <img src="assets/img/valley-of-flowers/avif/img-2.avif" alt="Sri Lanka">
+            <img src="assets/img/Sirlanka/srilanka-images-by-roamers (16).webp" alt="Sri Lanka">
           </div>
           <div class="upcoming-card-flex">
             <div class="upcoming-duration">
@@ -655,14 +1274,14 @@
             </div>
             <div>
               <div class="upcoming-starts">Starts</div>
-              <div class="upcoming-price">₹43,999</div>
+              <div class="upcoming-price">₹43,990/-</div>
             </div>
           </div>
-          <a href="srilanka-christmas&newyear-special.php"  class="upcoming-view">View Trip</a>
+          <a href="srilanka-christmas&newyear.php"  class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
       <!-- Andaman Island Hopping -->
-      <div class="upcoming-card mt-5" onclick="window.open('andaman-christmas&newyear.php')"
+      <div class="upcoming-card" onclick="window.open('andaman-christmas&newyear.php')"
         style="cursor: pointer;">
         <div class="upcoming-content">
           <div class="upcoming-image">
@@ -686,10 +1305,10 @@
             </div>
             <div>
               <div class="upcoming-starts">Starts</div>
-              <div class="upcoming-price andaman-price"></div>
+              <div class="upcoming-price andaman-price">₹29,990/-</div>
             </div>
           </div>
-          <a href="andaman-christmas&newyear.php"  class="upcoming-view">View Trip</a>
+          <a href="andaman-christmas&newyear.php" class="upcoming-view text-decoration-none" style="color: #4CB9D3 !important;" onclick="event.stopPropagation()">View Trip</a>
         </div>
       </div>
     </div>
@@ -723,33 +1342,24 @@
 
   <!-- Banner -3 -->
   <div class="container">
-    <div class="banner-swiper-container banner-swiper-secondary" sty>
+    <div class="banner-swiper-container banner-swiper-secondary">
       <div class="swiper banner-swiper" style="will-change: transform; backface-visibility: hidden;">
         <div class="swiper-wrapper" style="will-change: transform; backface-visibility: hidden;">
           <div class="swiper-slide" style="will-change: transform; backface-visibility: hidden;">
-            <picture>
-              <source srcset="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-13.avif" media="(max-width: 576px)">
               <img class="slide-picture" loading="eager" decoding="async"
                 src="https://roamers.in/assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif"
                 alt="Christmas in Manali - Snowy Adventure"
                 style="will-change: transform; backface-visibility: hidden;">
-            </picture>
           </div>
           <div class="swiper-slide" style="will-change: transform; backface-visibility: hidden;">
-            <picture>
-              <source srcset="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-13.avif" media="(max-width: 576px)">
               <img class="slide-picture" loading="eager" decoding="async"
                 src="https://roamers.in/assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif"
                 alt="New Year Party in Goa" style="will-change: transform; backface-visibility: hidden;">
-            </picture>
           </div>
           <div class="swiper-slide" style="will-change: transform; backface-visibility: hidden;">
-            <picture>
-              <source srcset="https://roamers.in/assets/img/meghalaya/meghalaya-gallery-13.avif" media="(max-width: 576px)">
               <img class="slide-picture" loading="eager" decoding="async"
                 src="https://roamers.in/assets/optimized-images/christmas&newyear/chirstmas&newyear-banner-by-roamers.avif"
                 alt="Himalayan Christmas Escape" style="will-change: transform; backface-visibility: hidden;">
-            </picture>
           </div>
         </div>
       </div>
@@ -877,9 +1487,6 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <!-- <?php include('includes/footer.php'); ?>
-  </footer>
 
   <!-- WhatsApp Button -->
     <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1" aria-label="Chat on WhatsApp">
@@ -1072,7 +1679,7 @@
       });
     </script>
 
-
+  <?php include('includes/footer.php'); ?>
 
 </body>
 

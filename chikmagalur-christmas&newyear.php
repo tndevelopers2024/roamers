@@ -249,7 +249,7 @@
 
       <h2 class="banner-hight-top ms-2"
         style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-                            <p class="text-white"><?php echo $new_year_text; ?> 🎅</p>
+                            <p class="text-white" style="font-size: 16px; margin-bottom: -5px; font-weight: 600;">Christmas & New Year Special 🎅</p>
 
         CHIKMAGALUR BAGPACKING
 
@@ -1147,7 +1147,7 @@
   <?php include('includes/trips.php'); ?>
 
   <!-- Footer -->
-  <?php include('includes/footer.php'); ?>
+  
 
   <!-- jQuery(necessary for all JavaScript plugins) -->
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
@@ -1659,6 +1659,7 @@
     </script>
 
 
+    <?php include('includes/footer.php'); ?>
 </body>
 
 </html>

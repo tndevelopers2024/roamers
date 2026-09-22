@@ -262,7 +262,7 @@
 
                 <h2 class="banner-hight-top ms-2"
                     style="font-size:49px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 1px;">
-                    <p class="text-white"><?php echo $new_year_text; ?> 🎅</p>
+                    <p class="text-white" style="font-size: 16px; margin-bottom: -5px; font-weight: 600;">Christmas & New Year Special 🎅</p>
 
                     SPITI WINTER EXPEDITION
                 </h2>
@@ -274,7 +274,7 @@
                         DELHI
                         <span class="ms-2">
                             <span>
-                                <img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
+                                <img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -283,7 +283,7 @@
                         SHIMLA
                         <span class="ms-2">
                             <span>
-                                <img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
+                                <img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -292,7 +292,7 @@
                         KALPA
                         <span class="ms-2">
                             <span>
-                                <img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
+                                <img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -300,7 +300,7 @@
                     <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
                         NAKO
                         <span class="ms-2">
-                            <span><img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
+                            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -308,7 +308,7 @@
                     <li class=" me-2 mobile-small-text" style="display: flex; align-items: center; font-weight: 800;">
                         KAZA
                         <span class="ms-2">
-                            <span><img src="assets/img/sri-lanka/arrow-icon.avif" alt=""
+                            <span><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt=""
                                     style="width:13px; margin-bottom: 3px;"></span>
                         </span>
                     </li>
@@ -1530,9 +1530,6 @@
     <?php include('includes/trips.php'); ?>
 
     <!-- Footer -->
-    <footer>
-        <?php include('includes/footer.php'); ?>
-    </footer>
 
 
     <!-- jQuery(necessary for all JavaScript plugins) -->
@@ -1791,6 +1788,7 @@
     </script>
 
 
+    <?php include('includes/footer.php'); ?>
 </body>
 
 </html>

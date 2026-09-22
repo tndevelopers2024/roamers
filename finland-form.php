@@ -13,18 +13,28 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Say Hi to your new travel squad – your undiscovered Besties! Whether you join solo or in a group, you're all set for an epic adventure!">
-  <title>Roamers - Wayanad Trip</title>
-
+  <title>Roamers - Finland(Form)</title> <!-- SEO Meta Description -->
   <!-- SEO Meta Description -->
-  <meta name="description" content="Roamers - Wayanad Trip" />
-  <meta name="keywords" content="Roamers - Wayanad Trip,">
+  <meta name="description" content="Roamers - Finland(Form)" />
   <meta name="author" content="Themeland" />
-  <meta property="og:image" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
-  <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Logo/Roamers%20Logo-01.png" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="500" />
 
+  <!-- Basic Open Graph tags -->
+  <meta property="og:title" content="Roamers - Finland(Form)" />
+  <meta property="og:description"
+    content="Explore the Finland Islands with Roamers – your ultimate guide to pristine beaches, adventure activities, and unforgettable group travel experiences." />
+  <meta property="og:image" content="https://roamers.in/assets/img/Finland/Media/overview-2.jpg" />
+  <meta property="og:url" content="https://roamers.in/assets/img/Finland/Media/overview-2.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Roamers - Finland(Form)" />
+  <meta name="twitter:description"
+    content="Explore the Finland Islands with Roamers – your ultimate guide to pristine beaches, adventure activities, and unforgettable group travel experiences." />
+  <meta name="twitter:image" content="https://roamers.in/assets/img/Finland/Media/overview-2.jpg" />
   <!-- Title  -->
+
+
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 
@@ -32,22 +42,27 @@ session_start();
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <!-- Favicon  -->
+  <!-- <link rel="icon" href="assets/img/Logo/Logo mark-01.png" sizes="192x192" /> -->
+
+
   <link rel="shortcut icon" href="./assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192" />
 
-  <!--  Font Asesome cdn  -->
+
+  <!-- ***** All CSS Files ***** -->
+  <!-- ***** Font Asesome cdn ***** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <!-- Style css -->
+
+
   <link rel="stylesheet" href="assets/css/style.css" />
+
 
   <!-- Responsive css -->
   <link rel="stylesheet" href="assets/css/responsive.css">
-
-  <!-- Bootstrap cdn -->
+  <!-- bootstrap cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="shortcut icon" href="asstes/img/icon/fav-icon.png" type="image/x-icon">
@@ -131,6 +146,7 @@ session_start();
     gtag('config', 'G-0MSFD4117B');
   </script>
 
+
   <style>
     .available-box {
       padding: 20px;
@@ -192,9 +208,9 @@ session_start();
     }
 
 
-    .details-box:hover {
+    /* .details-box:hover {
       background-color: #094067;
-    }
+    } */
 
 
     .details-head h4 {
@@ -609,9 +625,9 @@ session_start();
     }
 
 
-    #full-details .div i:hover {
+    /* #full-details .div i:hover {
       color: #4ec0db !important;
-    }
+    } */
 
 
     #full-details .div p {
@@ -883,7 +899,7 @@ session_start();
       left: 0;
       width: 100%;
       height: 100%;
-      background: url('assets/optimized-images/wayand-trip/wayand-img-by-roamers (1).avif');
+      background: url('assets/img/Finland/Media/overview-2.jpg');
       background-size: cover;
       background-position: center;
       filter: blur(4px);
@@ -995,11 +1011,14 @@ session_start();
 
 <body>
 
+
+  <!--====== Preloader Area End ======-->
   <!--====== whatapp Area Start ======-->
 
   <a class="whatapp" href="https://wa.me/message/QYDBK5TO42TGH1">
     <img src="assets/img/icon/whatsapp.svg" alt="">
   </a>
+
 
   <!--====== whatapp Area End ======-->
   <!-- ***** Header Start ***** -->
@@ -1008,14 +1027,15 @@ session_start();
   <!-- ***** Welcome Area Start ***** -->
   <div class="text-center mb-4">
     <h1 class="booking-form-head">
-      WONDERS OF WAYANAD</h1>
+      Finland ISLAND HOPPING
+    </h1>
     <!-- <p>Explore the lush wonders of Sri Lanka's Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with vibrant biodiversity and tropical charm.
     </p> -->
   </div>
 
   <section class="">
     <div class="container">
-      <form action="wayanad-mail-send-christmas-newyear..php" method="POST" autocomplete="off">
+      <form action="finland-mail-send.php" method="POST" autocomplete="off">
         <div class="row  row-cols-lg-2 row-cols-1 gy-4 px-0 mx-0 px-2 px-md-5" id="date-form">
 
           <div class="col order-lg-1 order-2 shadow-lg p-3" style="border-radius:20px">
@@ -1119,7 +1139,7 @@ session_start();
                         <div class="input-field mt-4">
                           <select id="pickup" name="pickup" class="form-select mt-4" required>
                             <option value="" disabled selected>Select the Location</option>
-                            <option value="Bangalore / Chennai">Bangalore / Chennai</option>
+                            <option value="Chennai">Colombo</option>
                           </select>
                         </div>
                         <span class="span mt-5">Address</span>
@@ -1219,7 +1239,7 @@ session_start();
           return response.json();
         })
         .then(data => {
-          const locationKey = "wayanad-christmas-new-year";
+          const locationKey = "Finland";
           const locationData = data[locationKey];
 
 
@@ -1237,7 +1257,7 @@ session_start();
 
           const startingPriceElem = document.getElementById("starting-price");
           if (startingPriceElem) {
-            startingPriceElem.textContent = `Starting Price: ₹8,990/- `;
+            startingPriceElem.textContent = `Starting Price: ₹24,990/- `;
           } else {
             console.warn("Element with id 'starting-price' not found.");
           }
@@ -1266,12 +1286,176 @@ session_start();
     });
   </script>
 
+  <!-- <script>
+  document.addEventListener("DOMContentLoaded", () => {
+  const dateForm = document.querySelector(".dates");
+  const bookBtn = document.querySelector("#book-btn");
+  const nextBtn = document.querySelector("#next-btnn");
+  const nextBtn2 = document.querySelector("#next-btn2")
+  const preBtn = document.querySelector("#pre-btn");
+  const preBtn2 = document.querySelector("#pre-btn2");
+  const confirmBtn = document.querySelector("#confirm-btn")
+  const perDetails = document.querySelector("#per-details");
+  const fullDetails = document.querySelector("#full-details");
+ 
+  if (bookBtn && dateForm && perDetails) {
+    bookBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      dateForm.style.display = "none";
+      perDetails.style.display = "block";
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      perDetails.style.display = "none";
+      // Add logic to show the next section if available
+    });
+  }
+
+
+  if (preBtn) {
+    preBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      dateForm.style.display = "block";
+      perDetails.style.display = "none";
+    });
+  }
+  if (preBtn2) {
+    preBtn2.addEventListener("click", (e) => {
+      e.preventDefault();
+      dateForm.style.display = "none";
+      perDetails.style.display = "block";
+      fullDetails.style.display = "none";
+    });
+  }
+
+
+  nextBtn2.addEventListener("click", (e) => {
+    e.preventDefault(); // Prevent form submission if inside a form
+
+
+   
+    // Storing input values in constants
+    const fullName = document.querySelector("#name").value.trim();
+    const email = document.querySelector('input[type="email"]').value.trim();
+    const phone = document.querySelector("#phone").value.trim();
+    const dob = document.querySelector('input[placeholder="D.O.B"]').value.trim();
+    const travellerCount = document.querySelector("#traveller-count").value.trim();
+    const address1 = document.querySelector('input[placeholder="Address 1"]').value.trim();
+    const address2 = document.querySelector('input[placeholder="Address 2"]').value.trim();
+    const city = document.querySelector('input[placeholder="City"]').value.trim();
+    const postCode = document.querySelector('input[placeholder="Post Code"]').value.trim();
+    const gender = document.querySelector('input[name="gender"]:checked')?.value || "";
+    // const sharing = document.querySelector('input[name="sharing"]:checked')?.value || "";
+    const travelDate = document.querySelector("#travel-date").value.trim();
+    const pickup = document.querySelector("#pickup").value.trim();
+    let perPersonAmount = "₹9,990/-";
+
+
+  // if (sharing === "Double Sharing" && pickup === "Chennai") {
+  //   perPersonAmount = "₹9,990/-";
+  // } else if (sharing === "Triple Sharing" && pickup === "Chennai") {
+  //   perPersonAmount = "₹8,990/-";
+  // } else if (sharing === "Double Sharing" && pickup === "Coimbatore") {
+  //   perPersonAmount = "₹8,499/-";
+  // } else if (sharing === "Triple Sharing" && pickup === "Coimbatore") {
+  //   perPersonAmount = "₹7,499/-";
+  // }
+  //   document.addEventListener('DOMContentLoaded', function() {
+  //   document.querySelectorAll('input').forEach(input => {
+  //     input.setAttribute('autocomplete', 'off');
+  //   });
+  // });
+
+
+    // Validation check (Ensuring all fields are filled)
+    if (
+      !travelDate || !fullName || !email || !phone || !dob || !travellerCount ||
+      !address1 || !city || !postCode || !gender || !sharing || !pickup
+    ) {
+      alert("All fields are required! Please fill out all fields before proceeding.");
+      return; // Stop execution if any field is empty
+    }
+
+
+    // Creating an object to store input values
+    const formData = {
+      travelDate,
+      fullName,
+      email,
+      phone,
+      dob,
+      travellerCount,
+      address1,
+      address2,
+      city,
+      postCode,
+      gender,
+      sharing,
+      pickup,
+      perPersonAmount
+    };
+
+
+    // Store the object in local storage (optional)
+    // localStorage.setItem("formData", JSON.stringify(formData));
+
+
+    // Hide previous sections and show full details
+    dateForm.style.display = "none";
+    perDetails.style.display = "none";
+    fullDetails.style.display = "block";
+
+
+    // You can replace the console log with further processing
+    // console.log("Form Data:", formData);
+    const tableHTML = `
+      <h3 class="text-center my-3">Confirm Details</h3>
+      <div><i class="fa-regular fa-user"></i> <p><b>Name :</b>  ${formData.fullName}</p></div>
+      <div><i class="fa-regular fa-envelope"></i> <p><b>Email :</b>  ${formData.email}</p></div>
+      <div><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
+      <div><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
+      <div><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
+      <div><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Valley Of Flowers</p></div>
+      <div><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
+      <div><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
+      <div><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>
+      <div><i class="fa-solid fa-truck-pickup"></i> <p><b>Pickup and Drop :</b> ${formData.pickup}</p></div>
+      <div><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
+      <div class="d-flex justify-content-between">
+        <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
+          <h4 style="text-align:center;font-weight:bold; color:#000;">₹9,990/- (Per Person)</h4>
+        </div>
+        <div class="button-div d-flex justify-content-end mt-4">        
+          <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Cancel</button>
+          <button type="submit" name="submit-btn" class="book-btn" id="confirm-btn">Confirm Booking</button>
+        </div>
+      </div>`;
+
+
+    // Append the table to fullDetails container
+    fullDetails.innerHTML = tableHTML;
+    document.addEventListener("click", function (e) {
+  if (e.target && e.target.id === "confirm-btn") {
+        e.preventDefault();
+        document.querySelector("form").submit();
+      }
+    });
+  });
+ });
+
+
+</script> -->
+
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       fetch("./dynamic/database.json") // to change the price ... 
         .then(response => response.json())
         .then(data => {
-          const locationKey = "wayanad-christmas-new-year"; // Change to "ooty" if needed
+          const locationKey = "Finland"; // Change to "ooty" if needed
           const locationData = data[locationKey];
 
           if (!locationData) {
@@ -1352,6 +1536,70 @@ session_start();
 
   <script src="index.js"></script>
 
+  <!-- form Steps -->
+
+  <!-- <script>
+    var currentStep = 1;
+    var updateProgressBar;
+
+
+    $(document).ready(function () {
+      $(".next-step").click(function () {
+        if (currentStep === 2) {
+          // Validate form fields before proceeding
+          let isValid = true;
+          $("#per-details input[required], #per-details select[required]").each(function () {
+            if (!$(this).val()) {
+              isValid = false;
+              $(this).addClass("is-invalid"); // Highlight empty fields
+            } else {
+              $(this).removeClass("is-invalid");
+            }
+          });
+
+
+          if (!isValid) {
+            return; // Stop the function if validation fails
+          }
+        }
+
+
+        if (currentStep < 3) {
+          $(".step-" + currentStep).addClass("animate__animated animate__fadeOutLeft");
+          currentStep++;
+          setTimeout(function () {
+            $(".step").removeClass("animate__animated animate__fadeOutLeft").hide();
+            $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInRight");
+            updateProgressBar();
+          }, 50);
+        }
+      });
+
+
+      $("#pre-btn").click(function (e) {
+        e.preventDefault(); // Prevent form submission if it's inside a form
+
+
+        if (currentStep > 1) {
+          $(".step-" + currentStep).addClass("animate__animated animate__fadeOutRight");
+          currentStep--;
+          setTimeout(function () {
+            $(".step").removeClass("animate__animated animate__fadeOutRight").hide();
+            $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInLeft");
+            updateProgressBar();
+          }, 50);
+        }
+      });
+
+
+      updateProgressBar = function () {
+        var progressPercentage = ((currentStep - 1) / 2) * 100;
+        $(".progress-bar").css("width", progressPercentage + "%");
+      };
+    });
+
+
+  </script> -->
   <!-- Date populate -->
   <script>
     fetch('./dynamic/database.json')
@@ -1382,10 +1630,11 @@ session_start();
 
 
         // Example: Call the function for Varkala or Ooty
-        populateDates('valley'); // or populateDates('ooty');
+        populateDates('Finland'); // or populateDates('ooty');
       })
       .catch(error => console.error('Error fetching data:', error));
   </script>
+
 
   <!-- date selecting script -->
   <script>
@@ -1511,73 +1760,79 @@ session_start();
           }
 
 
-          // Set amount using if statements
+          // Set amount dynamically from database.json
           let perPersonAmount = 0;
-          if (sharing === "Triple Sharing") {
-            perPersonAmount = 8990;
-          } else if (sharing === "Double Sharing") {
-            perPersonAmount = 9990;
-          }
+          fetch('./dynamic/database.json')
+            .then(response => response.json())
+            .then(data => {
+              const FinlandPrices = data.Finland.costing.prices;
+              const priceObj = FinlandPrices.find(p => p.sharing === sharing);
+              if (priceObj) {
+                perPersonAmount = parseInt(priceObj.offer.replace(/[^0-9]/g, ''));
+              } else {
+                // Fallback to old hardcoded values just in case
+                if (sharing === "Triple Sharing") {
+                  perPersonAmount = 24990;
+                } else if (sharing === "Double Sharing") {
+                  perPersonAmount = 26990;
+                }
+              }
 
+              const formData = {
+                travelDate,
+                fullName,
+                email,
+                phone,
+                dob,
+                travellerCount,
+                address1,
+                address2,
+                city,
+                postCode,
+                gender,
+                sharing,
+                pickup,
+                perPersonAmount,
+              };
 
-          const formData = {
-            travelDate,
-            fullName,
-            email,
-            phone,
-            dob,
-            travellerCount,
-            address1,
-            address2,
-            city,
-            postCode,
-            gender,
-            sharing,
-            pickup,
-            perPersonAmount,
-          };
+              dateForm.style.display = "none";
+              perDetails.style.display = "none";
+              fullDetails.style.display = "block";
 
+              const confirmationHTML = `
+                <h3 class="text-center my-3">Confirm Details</h3>
+                <div class="div"><i class="fa-regular fa-user"></i> <p><b>Name :</b>  ${formData.fullName}</p></div>
+                <div class="div"><i class="fa-regular fa-envelope"></i> <p><b>Email :</b>  ${formData.email}</p></div>
+                <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
+                <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
+                <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
+                <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Finland</p></div>
+                <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
+                <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
+                <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>
+                <div class="div"><i class="fa-solid fa-truck-pickup"></i> <p><b>Pickup and Drop :</b> ${formData.pickup}</p></div>
+                <div class="div"><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
+                <div class="d-flex justify-content-between flex-wrap">
+                  <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
+                    <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/-</h4>
+                  </div>
+                  <div class="button-div d-flex justify-content-end mt-4">
+                    <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Back</button>
+                    <button type="submit" name="submit-btn" class="book-btn" id="confirm-btn">Book Now</button>
+                  </div>
+                </div>`;
 
-          dateForm.style.display = "none";
-          perDetails.style.display = "none";
-          fullDetails.style.display = "block";
+              fullDetails.innerHTML = confirmationHTML;
 
+              currentStep = 3;
+              updateProgressBar();
 
-          const confirmationHTML = `
-            <h3 class="text-center my-3">Confirm Details</h3>
-            <div class="div"><i class="fa-regular fa-user"></i> <p><b>Name :</b>  ${formData.fullName}</p></div>
-            <div class="div"><i class="fa-regular fa-envelope"></i> <p><b>Email :</b>  ${formData.email}</p></div>
-            <div class="div"><i class="fa-solid fa-phone"></i> <p><b>Phone No. :</b>  ${formData.phone}</p></div>
-            <div class="div"><i class="fa-solid fa-calendar-days"></i> <p><b>DOB :</b> ${formData.dob}</p></div>
-            <div class="div"><i class="fa-solid fa-venus-mars"></i> <p><b>Gender :</b> ${formData.gender}</p></div>
-            <div class="div"><i class="fa-solid fa-plane-departure"></i> <p><b>Trip :</b> Wayanad</p></div>
-            <div class="div"><i class="fa-solid fa-calendar-check"></i> <p><b>Travel Date :</b> ${formData.travelDate}</p></div>
-            <div class="div"><i class="fa-solid fa-handshake"></i> <p><b>Sharing :</b> ${formData.sharing}</p></div>
-            <div class="div"><i class="fa-solid fa-person-hiking"></i> <p><b>Persons Count :</b> ${formData.travellerCount}</p></div>
-            <div class="div"><i class="fa-solid fa-truck-pickup"></i> <p><b>Pickup and Drop :</b> ${formData.pickup}</p></div>
-            <div class="div"><i class="fa-solid fa-location-dot"></i> <p><b>Address :</b> ${formData.address1}, ${formData.address2}, ${formData.city}, ${formData.postCode}</p></div>
-            <div class="d-flex justify-content-between flex-wrap">
-              <div style="background:#4ec0db; margin-top:20px; padding:20px 10px; border-radius:10px;" class="d-flex justify-content-center align-items-center">
-                <h4 style="text-align:center;font-weight:bold; color:#000;">₹${formData.perPersonAmount.toLocaleString()}/-</h4>
-              </div>
-              <div class="button-div d-flex justify-content-end mt-4">
-                <button class="book-btn prev-step me-2" id="pre-btn2" type="button">Back</button>
-                <button type="submit" name="submit-btn" class="book-btn" id="confirm-btn">Book Now</button>
-              </div>
-            </div>`;
-
-
-          fullDetails.innerHTML = confirmationHTML;
-
-
-          currentStep = 3;
-          updateProgressBar();
-
-
-          window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-          });
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+              });
+            });
+          return; // The block above is now async
         });
       }
 
@@ -1633,14 +1888,18 @@ session_start();
     });
   </script>
 
+
   <script>
     function goBack() {
       window.history.back();
     }
   </script>
 
+
+
   <!--  All jQuery Plugins  -->
   <!-- jQuery(necessary for all JavaScript plugins) -->
+
 
   <script src="assets/js/dates.js"></script>
   <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
@@ -1649,13 +1908,18 @@ session_start();
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+
+
   <!-- Bootstrap js -->
   <script src="assets/js/bootstrap/popper.min.js"></script>
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
   <!-- Plugins js -->
   <script src="assets/js/plugins/plugins.min.js"></script>
 
+
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
 
   <!-- Active js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
@@ -1667,7 +1931,10 @@ session_start();
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="assets/js/active.js"></script>
 
-    <?php include('includes/footer.php'); ?>
+
 </body>
+
+
+
 
 </html>
