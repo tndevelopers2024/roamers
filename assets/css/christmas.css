@@ -1,0 +1,1289 @@
+/* ==========================================================================
+   Roamers — Christmas & New Year
+   A seasonal layer over the existing Roamers design language.
+   Scoped under .cny so no other page is affected.
+   Used by christmas&newyear.php and the homepage teaser in index.php
+   ========================================================================== */
+
+.cny {
+  /* ---- brand ---- */
+  --cny-primary: #4ec0db;          /* Roamers cyan — kept for primary actions */
+  --cny-primary-dark: #2a93ad;
+  --cny-primary-soft: #eaf7fb;
+
+  /* ---- festive ---- */
+  --cny-pine: #0e3b2e;             /* deep Christmas green */
+  --cny-pine-2: #17543f;
+  --cny-pine-soft: #e8f1ec;
+  --cny-berry: #b5242e;            /* cranberry red */
+  --cny-berry-2: #8f1a22;
+  --cny-berry-soft: #fbeceb;
+  --cny-gold: #c99a3f;
+  --cny-gold-2: #e9c877;
+  --cny-gold-soft: #f7edd8;
+
+  /* ---- neutrals ---- */
+  --cny-ink: #10262f;
+  --cny-ink-2: #2c4652;
+  --cny-muted: #6b7c85;
+  --cny-cream: #fdf8f0;
+  --cny-surface: #ffffff;
+  --cny-line: #e8ded0;
+  --cny-line-2: #edf0f1;
+
+  /* ---- shape + depth ---- */
+  --cny-r-sm: 8px;
+  --cny-r: 14px;
+  --cny-r-lg: 20px;
+  --cny-shadow: 0 1px 2px rgba(16, 38, 47, .05), 0 10px 26px rgba(16, 38, 47, .07);
+  --cny-shadow-hi: 0 2px 4px rgba(16, 38, 47, .06), 0 20px 44px rgba(14, 59, 46, .16);
+
+  /* ---- rhythm ---- */
+  --cny-s2: 8px;
+  --cny-s3: 12px;
+  --cny-s4: 16px;
+  --cny-s5: 24px;
+  --cny-s6: 32px;
+  --cny-s7: 48px;
+  --cny-s8: 64px;
+  --cny-max: 1220px;
+  --cny-max-wide: 1400px;
+  --cny-gutter: 20px;
+
+  --cny-ease: cubic-bezier(.22, .61, .36, 1);
+  --cny-t: .35s var(--cny-ease);
+
+  color: var(--cny-ink);
+  font-family: 'Lato', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cny *,
+.cny *::before,
+.cny *::after { box-sizing: border-box; }
+
+.cny img { max-width: 100%; display: block; }
+
+.cny h1, .cny h2, .cny h3, .cny h4 {
+  font-family: 'Heebo', 'Lato', system-ui, sans-serif;
+  color: var(--cny-ink);
+  margin: 0;
+  letter-spacing: -.02em;
+  line-height: 1.12;
+}
+
+.cny p { margin: 0; }
+.cny ul { list-style: none; margin: 0; padding: 0; }
+.cny a { color: inherit; }
+
+.cny :focus-visible {
+  outline: 3px solid var(--cny-gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---- icons ------------------------------------------------------------- */
+.cny-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+.cny .cny-i {
+  width: 1em;
+  height: 1em;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cny .cny-i--fill { fill: currentColor; stroke: none; }
+
+/* ---- layout ------------------------------------------------------------ */
+.cny-shell {
+  width: 100%;
+  max-width: var(--cny-max);
+  margin-inline: auto;
+  padding-inline: var(--cny-gutter);
+}
+
+.cny-shell--wide { max-width: var(--cny-max-wide); }
+
+.cny-section { padding-block: clamp(46px, 6.5vw, 88px); position: relative; }
+.cny-section--tight { padding-block: clamp(34px, 5vw, 60px); }
+.cny-section--cream { background: var(--cny-cream); }
+.cny-section--pine { background: var(--cny-pine); color: #fff; }
+
+.cny-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Heebo', sans-serif;
+  font-size: .74rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--cny-berry);
+  margin: 0 0 var(--cny-s3);
+}
+
+.cny-eyebrow .cny-i { width: 1.15em; height: 1.15em; color: var(--cny-gold); }
+.cny-eyebrow--light { color: var(--cny-gold-2); }
+.cny-eyebrow--light .cny-i { color: var(--cny-gold-2); }
+
+.cny-h2 { font-size: clamp(1.7rem, 3.2vw, 2.6rem); font-weight: 800; }
+
+.cny-lead {
+  font-size: clamp(1rem, 1.2vw, 1.08rem);
+  line-height: 1.66;
+  color: var(--cny-ink-2);
+  max-width: 60ch;
+}
+
+.cny-section--pine .cny-h2 { color: #fff; }
+.cny-section--pine .cny-lead { color: rgba(255, 255, 255, .78); }
+
+.cny-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--cny-s5);
+  margin-bottom: clamp(26px, 3.6vw, 42px);
+}
+
+.cny-head--center {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cny-head__text { max-width: 58ch; }
+.cny-head__text .cny-lead { margin-top: var(--cny-s4); }
+.cny-head--center .cny-lead { margin-inline: auto; }
+
+/* ---- buttons ----------------------------------------------------------- */
+.cny-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 50px;
+  padding: 14px 26px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-family: 'Heebo', sans-serif;
+  font-size: .94rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--cny-t), color var(--cny-t), border-color var(--cny-t), transform var(--cny-t), box-shadow var(--cny-t);
+}
+
+.cny-btn .cny-i { width: 1.15em; height: 1.15em; stroke-width: 2; }
+
+.cny .cny-btn--primary {
+  background: var(--cny-berry);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(181, 36, 46, .28);
+}
+.cny .cny-btn--primary:hover,
+.cny .cny-btn--primary:focus { background: var(--cny-berry-2); color: #fff; transform: translateY(-1px); }
+
+.cny .cny-btn--brand { background: var(--cny-primary); color: #06232c; }
+.cny .cny-btn--brand:hover, .cny .cny-btn--brand:focus { background: #3aafcb; color: #06232c; transform: translateY(-1px); }
+
+.cny .cny-btn--gold {
+  background: linear-gradient(180deg, var(--cny-gold-2), var(--cny-gold));
+  color: #3b2a08;
+  box-shadow: 0 6px 18px rgba(201, 154, 63, .32);
+}
+.cny .cny-btn--gold:hover, .cny .cny-btn--gold:focus { filter: brightness(1.05); color: #3b2a08; transform: translateY(-1px); }
+
+.cny .cny-btn--ghost { background: transparent; color: var(--cny-pine); border-color: rgba(14, 59, 46, .28); }
+.cny .cny-btn--ghost:hover, .cny .cny-btn--ghost:focus { border-color: var(--cny-pine); background: var(--cny-pine-soft); }
+
+.cny .cny-btn--light { background: rgba(255, 255, 255, .1); color: #fff; border-color: rgba(255, 255, 255, .6); }
+.cny .cny-btn--light:hover, .cny .cny-btn--light:focus { background: #fff; color: var(--cny-pine); }
+
+/* ==========================================================================
+   Festive decoration
+   ========================================================================== */
+
+/* — string-light garland used as a section divider — */
+.cny-garland {
+  height: 26px;
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: 120px 26px;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='26'%3E%3Cpath d='M0 2 Q30 22 60 2 Q90 22 120 2' fill='none' stroke='%230e3b2e' stroke-width='2'/%3E%3Ccircle cx='15' cy='12' r='3.6' fill='%23b5242e'/%3E%3Ccircle cx='30' cy='14.6' r='3.6' fill='%23c99a3f'/%3E%3Ccircle cx='45' cy='12' r='3.6' fill='%234ec0db'/%3E%3Ccircle cx='75' cy='12' r='3.6' fill='%23c99a3f'/%3E%3Ccircle cx='90' cy='14.6' r='3.6' fill='%23b5242e'/%3E%3Ccircle cx='105' cy='12' r='3.6' fill='%234ec0db'/%3E%3C/svg%3E");
+}
+
+.cny-garland--light {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='26'%3E%3Cpath d='M0 2 Q30 22 60 2 Q90 22 120 2' fill='none' stroke='%23ffffff' stroke-opacity='.45' stroke-width='2'/%3E%3Ccircle cx='15' cy='12' r='3.6' fill='%23e9c877'/%3E%3Ccircle cx='30' cy='14.6' r='3.6' fill='%23ffffff'/%3E%3Ccircle cx='45' cy='12' r='3.6' fill='%23e9c877'/%3E%3Ccircle cx='75' cy='12' r='3.6' fill='%23ffffff'/%3E%3Ccircle cx='90' cy='14.6' r='3.6' fill='%23e9c877'/%3E%3Ccircle cx='105' cy='12' r='3.6' fill='%23ffffff'/%3E%3C/svg%3E");
+}
+
+/* — hanging ornaments, pinned to the top edge of a section — */
+.cny-baubles {
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Sections that hang ornaments clip sideways so the end baubles
+   can never widen the page on a narrow screen. */
+.cny-section--pine,
+.cny-teaser { overflow: hidden; }
+
+.cny-bauble {
+  position: absolute;
+  top: 0;
+  margin-left: -13px;
+  color: var(--cny-berry);
+  transform-origin: 50% 0;
+  animation: cny-sway 5.5s ease-in-out infinite;
+}
+
+.cny-bauble svg { width: 26px; height: 42px; display: block; }
+.cny-bauble--gold { color: var(--cny-gold); }
+.cny-bauble--pine { color: var(--cny-pine); }
+.cny-bauble--cyan { color: var(--cny-primary); }
+
+@keyframes cny-sway {
+  0%, 100% { transform: rotate(-4deg); }
+  50%      { transform: rotate(4deg); }
+}
+
+/* — snowfall (hero + final CTA only, never the whole page) — */
+.cny-snow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.cny-snow span {
+  position: absolute;
+  top: -8%;
+  border-radius: 50%;
+  background: #fff;
+  opacity: .75;
+  animation: cny-fall linear infinite;
+}
+
+@keyframes cny-fall {
+  0%   { transform: translate3d(0, -10vh, 0) scale(1); opacity: 0; }
+  10%  { opacity: .8; }
+  90%  { opacity: .55; }
+  100% { transform: translate3d(22px, 105vh, 0) scale(.85); opacity: 0; }
+}
+
+/* ==========================================================================
+   1. Hero
+   ========================================================================== */
+.cny-hero {
+  position: relative;
+  min-height: min(80vh, 720px);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: var(--cny-pine);
+}
+
+.cny-hero__media { position: absolute; inset: 0; }
+
+.cny-hero__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+}
+
+.cny-hero__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(7, 30, 23, .95) 0%, rgba(7, 30, 23, .86) 28%, rgba(7, 30, 23, .58) 52%, rgba(7, 30, 23, .22) 76%, rgba(7, 30, 23, 0) 100%);
+}
+
+.cny-hero__inner {
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  padding-block: clamp(38px, 6vw, 76px);
+}
+
+.cny-hero__content { max-width: 40rem; }
+
+.cny-hero h1 {
+  color: #fff;
+  font-size: clamp(2.05rem, 5.2vw, 3.85rem);
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.cny-hero__sub {
+  margin-top: var(--cny-s4);
+  color: rgba(255, 255, 255, .9);
+  font-size: clamp(1rem, 1.3vw, 1.16rem);
+  line-height: 1.6;
+  max-width: 34rem;
+}
+
+/* starting-price strip, like a proper travel-commerce hero */
+.cny-hero__price {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: clamp(18px, 2.4vw, 26px);
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .12);
+  border: 1px solid rgba(233, 200, 119, .5);
+  color: #fff;
+  font-size: .94rem;
+  backdrop-filter: blur(3px);
+}
+
+.cny-hero__price .cny-i { width: 1.2em; height: 1.2em; color: var(--cny-gold-2); }
+.cny-hero__price strong { font-family: 'Heebo', sans-serif; color: var(--cny-gold-2); font-size: 1.1rem; }
+
+.cny-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--cny-s3);
+  margin-top: clamp(20px, 2.6vw, 30px);
+}
+
+.cny-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--cny-s5);
+  margin-top: clamp(24px, 3vw, 34px);
+  padding-top: var(--cny-s5);
+  border-top: 1px solid rgba(255, 255, 255, .22);
+  color: rgba(255, 255, 255, .8);
+  font-size: .85rem;
+}
+
+.cny-hero__meta li { display: flex; align-items: center; gap: 9px; }
+.cny-hero__meta .cny-i { width: 1.7em; height: 1.7em; color: var(--cny-gold-2); }
+.cny-hero__meta strong {
+  display: block;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+/* ==========================================================================
+   2. Offer cards ("what kind of trip") — festive panels with a stocking
+   ========================================================================== */
+.cny-offers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(16px, 2vw, 26px);
+}
+
+.cny-offer {
+  position: relative;
+  display: block;
+  padding: clamp(24px, 3vw, 36px);
+  padding-right: clamp(96px, 12vw, 150px);
+  border-radius: var(--cny-r-lg);
+  overflow: hidden;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: transform var(--cny-t), box-shadow var(--cny-t);
+}
+
+.cny-offer:hover { transform: translateY(-3px); box-shadow: var(--cny-shadow-hi); }
+
+.cny-offer--pine { background: var(--cny-pine); color: #fff; }
+.cny-offer--berry { background: var(--cny-berry); color: #fff; }
+
+/* faint repeating snowflake texture */
+.cny-offer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: .16;
+  background-size: 64px 64px;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='1.4' stroke-linecap='round'%3E%3Cpath d='M16 8v16M9 12l14 8M9 20l14-8'/%3E%3Cpath d='M48 40v16M41 44l14 8M41 52l14-8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.cny-offer > * { position: relative; z-index: 2; }
+
+.cny-offer__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 13px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .16);
+  border: 1px solid rgba(255, 255, 255, .34);
+  font-family: 'Heebo', sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.cny-offer__chip .cny-i { width: 1.2em; height: 1.2em; color: var(--cny-gold-2); }
+
+.cny-offer h3 {
+  color: #fff;
+  font-size: clamp(1.3rem, 2vw, 1.75rem);
+  margin-top: var(--cny-s4);
+}
+
+.cny-offer__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: var(--cny-s4);
+  font-size: .92rem;
+  color: rgba(255, 255, 255, .84);
+}
+
+.cny-offer__list i {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--cny-gold-2);
+  display: inline-block;
+}
+
+.cny-offer__go {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: clamp(18px, 2.2vw, 24px);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  font-size: .92rem;
+  color: var(--cny-gold-2);
+}
+
+.cny-offer__go .cny-i { width: 1.1em; height: 1.1em; stroke-width: 2; transition: transform var(--cny-t); }
+.cny-offer:hover .cny-offer__go .cny-i { transform: translateX(4px); }
+
+/* the hanging stocking / tree graphic on the right */
+.cny-offer__art {
+  position: absolute;
+  right: clamp(8px, 1.4vw, 20px);
+  bottom: clamp(10px, 1.6vw, 18px);
+  z-index: 1;
+  width: clamp(92px, 11vw, 140px);
+  color: rgba(255, 255, 255, .3);
+  pointer-events: none;
+}
+
+.cny-offer__art svg { width: 100%; height: auto; display: block; }
+
+/* ==========================================================================
+   3. Category chips
+   ========================================================================== */
+.cny-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--cny-s3);
+  position: static;
+  width: auto;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  z-index: auto;
+}
+
+.cny .cny-cats::before,
+.cny .cny-cats::after { content: none; }
+
+.cny-cat {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 19px;
+  border: 1px solid var(--cny-line);
+  border-radius: 999px;
+  background: var(--cny-surface);
+  font-family: 'Heebo', sans-serif;
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--cny-pine);
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color var(--cny-t), background-color var(--cny-t), transform var(--cny-t);
+}
+
+.cny-cat .cny-i { width: 1.25em; height: 1.25em; color: var(--cny-berry); }
+.cny-cat:hover, .cny-cat:focus { border-color: var(--cny-pine); background: var(--cny-pine-soft); transform: translateY(-1px); }
+
+/* ==========================================================================
+   4. Trip card — one structure everywhere
+   ========================================================================== */
+.cny-card {
+  background: var(--cny-surface);
+  border: 1px solid var(--cny-line-2);
+  border-radius: var(--cny-r-lg);
+  overflow: hidden;
+  height: 100%;
+  transition: box-shadow var(--cny-t), border-color var(--cny-t), transform var(--cny-t);
+}
+
+.cny-card:hover { box-shadow: var(--cny-shadow-hi); border-color: transparent; transform: translateY(-4px); }
+
+.cny-card__link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cny-card__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #e9eef0;
+}
+
+.cny-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .7s var(--cny-ease);
+}
+
+.cny-card:hover .cny-card__media img { transform: scale(1.06); }
+
+/* festive ribbon badge */
+.cny-ribbon {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px 7px 12px;
+  border-radius: 0 999px 999px 0;
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .22);
+}
+
+.cny-ribbon .cny-i { width: 1.25em; height: 1.25em; }
+.cny-ribbon--ny { background: var(--cny-berry); }
+.cny-ribbon--xmas { background: var(--cny-pine); }
+
+/* duration pill over the image */
+.cny-card__len {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .94);
+  color: var(--cny-pine);
+  font-family: 'Heebo', sans-serif;
+  font-size: .76rem;
+  font-weight: 700;
+}
+
+.cny-card__len .cny-i { width: 1.15em; height: 1.15em; }
+
+.cny-card__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--cny-s3);
+  padding: var(--cny-s5);
+}
+
+.cny-card__title {
+  font-size: 1.16rem;
+  font-weight: 800;
+  line-height: 1.26;
+  min-height: 2.52em;
+}
+
+.cny-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 2px;
+}
+
+.cny-card__meta li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  font-size: .87rem;
+  line-height: 1.4;
+  color: var(--cny-ink-2);
+}
+
+.cny-card__meta .cny-i { width: 1.15em; height: 1.15em; margin-top: .12em; color: var(--cny-berry); }
+
+.cny-card__foot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--cny-s3);
+  margin-top: auto;
+  padding-top: var(--cny-s4);
+  border-top: 1px dashed var(--cny-line);
+}
+
+.cny-card__price span {
+  display: block;
+  white-space: nowrap;
+  font-size: .68rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--cny-muted);
+}
+
+.cny-card__price strong {
+  display: block;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.32rem;
+  font-weight: 800;
+  color: var(--cny-berry);
+  line-height: 1.2;
+}
+
+.cny-card__price em { font-style: normal; font-size: .72rem; color: var(--cny-muted); }
+
+.cny-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--cny-pine-soft);
+  color: var(--cny-pine);
+  font-family: 'Heebo', sans-serif;
+  font-size: .85rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background-color var(--cny-t), color var(--cny-t), gap var(--cny-t);
+}
+
+.cny-card__cta .cny-i { width: 1.1em; height: 1.1em; stroke-width: 2; }
+.cny-card:hover .cny-card__cta { background: var(--cny-pine); color: #fff; gap: 10px; }
+
+/* ==========================================================================
+   5. Explorer (filters + grid)
+   ========================================================================== */
+.cny-filters {
+  position: sticky;
+  /* Clears the fixed navbar (70px unscrolled, ~50px once shrunk). */
+  top: 74px;
+  z-index: 30;
+  background: var(--cny-surface);
+  padding-block: var(--cny-s4);
+  margin-bottom: var(--cny-s6);
+  border-bottom: 1px solid var(--cny-line);
+  box-shadow: 0 10px 20px -18px rgba(16, 38, 47, .5);
+}
+
+.cny-filters__row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cny-filters__row::-webkit-scrollbar { display: none; }
+
+.cny-pill {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 18px;
+  border: 1px solid var(--cny-line);
+  border-radius: 999px;
+  background: var(--cny-surface);
+  font-family: 'Heebo', sans-serif;
+  font-size: .86rem;
+  font-weight: 700;
+  color: var(--cny-ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--cny-t), color var(--cny-t), border-color var(--cny-t);
+}
+
+.cny-pill .cny-i { width: 1.15em; height: 1.15em; color: var(--cny-berry); transition: color var(--cny-t); }
+.cny-pill:hover { border-color: var(--cny-pine); }
+
+.cny-pill[aria-pressed="true"] { background: var(--cny-pine); border-color: var(--cny-pine); color: #fff; }
+.cny-pill[aria-pressed="true"] .cny-i { color: var(--cny-gold-2); }
+
+.cny-selects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.cny-select { position: relative; display: inline-flex; align-items: center; }
+
+.cny-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  min-height: 44px;
+  padding: 10px 40px 10px 16px;
+  border: 1px solid var(--cny-line);
+  border-radius: 999px;
+  background: var(--cny-surface);
+  font-family: 'Lato', sans-serif;
+  font-size: .88rem;
+  color: var(--cny-ink-2);
+  cursor: pointer;
+}
+
+.cny-select::after {
+  content: "";
+  position: absolute;
+  right: 17px;
+  width: 8px; height: 8px;
+  border-right: 2px solid var(--cny-muted);
+  border-bottom: 2px solid var(--cny-muted);
+  transform: translateY(-2px) rotate(45deg);
+  pointer-events: none;
+}
+
+.cny-filters__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--cny-s4);
+  margin-top: 10px;
+  font-size: .85rem;
+  color: var(--cny-muted);
+}
+
+.cny-reset {
+  background: none;
+  border: none;
+  padding: 4px 0;
+  font-family: 'Heebo', sans-serif;
+  font-size: .85rem;
+  font-weight: 700;
+  color: var(--cny-berry);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.cny-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: clamp(18px, 2vw, 26px);
+}
+
+.cny-empty {
+  display: none;
+  padding: var(--cny-s8) var(--cny-s5);
+  text-align: center;
+  border: 1px dashed var(--cny-line);
+  border-radius: var(--cny-r-lg);
+  color: var(--cny-muted);
+}
+
+.cny .cny-empty a { color: var(--cny-berry); text-decoration: underline; text-underline-offset: 3px; }
+
+[data-cny-explorer].is-empty .cny-empty { display: block; }
+[data-cny-explorer].is-empty .cny-grid { display: none; }
+
+.cny-card.is-hidden { display: none; }
+
+/* ==========================================================================
+   6. Mood tiles
+   ========================================================================== */
+.cny-moods {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(14px, 1.6vw, 22px);
+}
+
+.cny-mood {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-radius: var(--cny-r-lg);
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  cursor: pointer;
+  background: var(--cny-pine);
+  text-align: left;
+  color: #fff;
+}
+
+.cny-mood img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .8s var(--cny-ease);
+}
+
+.cny-mood::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(7, 30, 23, .88) 4%, rgba(7, 30, 23, .2) 54%, rgba(7, 30, 23, .04) 100%);
+}
+
+.cny-mood:hover img, .cny-mood:focus img { transform: scale(1.07); }
+
+.cny-mood__text { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; padding: var(--cny-s5); }
+
+.cny-mood__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .16);
+  border: 1px solid rgba(255, 255, 255, .35);
+  color: var(--cny-gold-2);
+}
+
+.cny-mood__icon .cny-i { width: 19px; height: 19px; }
+
+.cny-mood__title {
+  display: block;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #fff;
+  font-size: clamp(1.02rem, 1.3vw, 1.25rem);
+}
+
+.cny-mood__sub { display: block; margin-top: 6px; font-size: .82rem; color: rgba(255, 255, 255, .8); }
+
+/* ==========================================================================
+   7. New Year split
+   ========================================================================== */
+.cny-ny__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(28px, 4.5vw, 60px);
+  align-items: center;
+}
+
+.cny-ny__media {
+  position: relative;
+  border-radius: var(--cny-r-lg);
+  overflow: hidden;
+  width: 100%;
+  height: clamp(340px, 44vw, 600px);
+}
+
+.cny-ny__media img { width: 100%; height: 100%; object-fit: cover; }
+
+.cny-ny__list { margin: clamp(22px, 3vw, 32px) 0; border-top: 1px solid rgba(255, 255, 255, .16); }
+
+.cny-ny__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--cny-s4);
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .16);
+  text-decoration: none;
+  transition: padding-left var(--cny-t);
+}
+
+.cny-ny__item:hover { padding-left: 8px; }
+
+.cny-ny__item-name {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cny-ny__item-name .cny-i { width: 1.05em; height: 1.05em; color: var(--cny-gold-2); }
+.cny-ny__item-meta { display: block; margin-top: 3px; padding-left: 26px; font-size: .84rem; color: rgba(255, 255, 255, .6); }
+.cny-ny__item-price { font-family: 'Heebo', sans-serif; font-weight: 800; color: var(--cny-gold-2); white-space: nowrap; }
+
+/* ==========================================================================
+   8. Community
+   ========================================================================== */
+.cny-community__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(28px, 4.5vw, 60px);
+  align-items: center;
+}
+
+.cny-community__media { border-radius: var(--cny-r-lg); overflow: hidden; aspect-ratio: 5 / 4; }
+.cny-community__media img { width: 100%; height: 100%; object-fit: cover; }
+
+.cny-stats {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: clamp(18px, 3vw, 40px);
+  justify-content: start;
+  margin-top: clamp(22px, 3vw, 34px);
+}
+
+.cny-stat strong {
+  display: block;
+  font-family: 'Heebo', sans-serif;
+  font-size: clamp(1.5rem, 2.3vw, 2rem);
+  font-weight: 800;
+  color: var(--cny-pine);
+  line-height: 1.1;
+}
+
+.cny-stat span { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--cny-muted); }
+
+/* ==========================================================================
+   9. Photo journal
+   ========================================================================== */
+.cny-journal {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: clamp(118px, 12.5vw, 184px);
+  gap: clamp(10px, 1.2vw, 16px);
+}
+
+.cny-journal figure { margin: 0; overflow: hidden; border-radius: var(--cny-r); background: #e9eef0; }
+.cny-journal img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--cny-ease); }
+.cny-journal figure:hover img { transform: scale(1.05); }
+
+.cny-journal figure:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.cny-journal figure:nth-child(2) { grid-column: span 2; grid-row: span 1; }
+.cny-journal figure:nth-child(3) { grid-column: span 2; grid-row: span 2; }
+.cny-journal figure:nth-child(4) { grid-column: span 1; grid-row: span 1; }
+.cny-journal figure:nth-child(5) { grid-column: span 1; grid-row: span 1; }
+.cny-journal figure:nth-child(6) { grid-column: span 3; grid-row: span 1; }
+.cny-journal figure:nth-child(7) { grid-column: span 3; grid-row: span 1; }
+
+/* ==========================================================================
+   10. FAQ
+   ========================================================================== */
+.cny-faq__list { max-width: 820px; margin-inline: auto; }
+
+.cny-faq__item {
+  position: relative;
+  background: var(--cny-surface);
+  border: 1px solid var(--cny-line);
+  border-radius: var(--cny-r);
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: border-color var(--cny-t), box-shadow var(--cny-t);
+}
+
+.cny-faq__item:hover { border-color: rgba(14, 59, 46, .3); }
+
+/* open item gets a festive spine and a touch of lift */
+.cny-faq__item::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--cny-berry);
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition: transform var(--cny-t);
+}
+
+.cny-faq__item.is-open,
+.cny-faq__item:has(.cny-faq__q[aria-expanded="true"]) {
+  border-color: transparent;
+  box-shadow: 0 2px 4px rgba(16, 38, 47, .05), 0 14px 32px rgba(14, 59, 46, .1);
+}
+
+.cny-faq__item.is-open::before,
+.cny-faq__item:has(.cny-faq__q[aria-expanded="true"])::before { transform: scaleY(1); }
+
+.cny-faq__q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 22px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: 'Heebo', sans-serif;
+  font-size: clamp(.98rem, 1.2vw, 1.06rem);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--cny-pine);
+  cursor: pointer;
+  transition: background-color var(--cny-t);
+}
+
+.cny-faq__q:hover { background: rgba(14, 59, 46, .03); }
+
+/* the leading festive icon sits in a tinted disc */
+.cny-faq__q > .cny-i {
+  width: 38px;
+  height: 38px;
+  padding: 9px;
+  border-radius: 50%;
+  background: var(--cny-berry-soft);
+  color: var(--cny-berry);
+  stroke-width: 1.5;
+  transition: background-color var(--cny-t), color var(--cny-t);
+}
+
+.cny-faq__q[aria-expanded="true"] > .cny-i { background: var(--cny-pine); color: #fff; }
+
+/* label only — must not match .cny-faq__icon, which is also a span */
+.cny-faq__q > span:not(.cny-faq__icon) { flex: 1; min-width: 0; }
+
+.cny-faq__icon {
+  position: relative;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--cny-line);
+  transition: background-color var(--cny-t), border-color var(--cny-t), transform var(--cny-t);
+}
+
+.cny-faq__icon::before,
+.cny-faq__icon::after {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 10px; height: 1.8px;
+  border-radius: 2px;
+  background: var(--cny-pine);
+  transform: translate(-50%, -50%);
+  transition: transform var(--cny-t), background-color var(--cny-t);
+}
+
+.cny-faq__icon::after { transform: translate(-50%, -50%) rotate(90deg); }
+
+.cny-faq__q[aria-expanded="true"] .cny-faq__icon {
+  background: var(--cny-pine);
+  border-color: var(--cny-pine);
+  transform: rotate(180deg);
+}
+
+.cny-faq__q[aria-expanded="true"] .cny-faq__icon::before,
+.cny-faq__q[aria-expanded="true"] .cny-faq__icon::after { background: #fff; }
+.cny-faq__q[aria-expanded="true"] .cny-faq__icon::after { transform: translate(-50%, -50%) rotate(0deg); }
+
+.cny-faq__a { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--cny-t); }
+.cny-faq__a > div { overflow: hidden; }
+.cny-faq__a[data-open="true"] { grid-template-rows: 1fr; }
+
+.cny-faq__a p {
+  margin: 0 22px 22px 74px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--cny-line);
+  font-size: .95rem;
+  line-height: 1.75;
+  color: var(--cny-ink-2);
+}
+
+/* still-stuck helper under the list */
+.cny-faq__help {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 14px;
+  max-width: 820px;
+  margin: clamp(26px, 3vw, 36px) auto 0;
+  padding: 18px 22px;
+  border: 1px dashed var(--cny-line);
+  border-radius: var(--cny-r);
+  font-size: .95rem;
+  color: var(--cny-ink-2);
+  text-align: center;
+}
+
+.cny-faq__help .cny-i { width: 1.3em; height: 1.3em; color: var(--cny-berry); }
+
+.cny .cny-faq__help a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  color: var(--cny-berry);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+/* ==========================================================================
+   11. Final CTA
+   ========================================================================== */
+.cny-final { position: relative; overflow: hidden; color: #fff; text-align: center; }
+.cny-final__media { position: absolute; inset: 0; }
+.cny-final__media img { width: 100%; height: 100%; object-fit: cover; }
+
+.cny-final__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(7, 30, 23, .72), rgba(7, 30, 23, .88));
+}
+
+.cny-final__inner { position: relative; z-index: 4; padding-block: clamp(60px, 8vw, 118px); }
+.cny-final h2 { color: #fff; font-size: clamp(1.85rem, 3.8vw, 2.9rem); }
+
+.cny-final p {
+  margin: var(--cny-s4) auto 0;
+  max-width: 44ch;
+  color: rgba(255, 255, 255, .86);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  line-height: 1.6;
+}
+
+.cny-final__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--cny-s3);
+  margin-top: clamp(24px, 3.2vw, 36px);
+}
+
+.cny-final .cny-eyebrow { justify-content: center; }
+
+/* ==========================================================================
+   12. Homepage teaser
+   ========================================================================== */
+.cny-teaser { background: var(--cny-cream); position: relative; }
+
+.cny-teaser .cny-rail {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(268px, 1fr);
+  gap: clamp(16px, 1.8vw, 24px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--cny-s4);
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cny-teaser .cny-rail::-webkit-scrollbar { display: none; }
+.cny-teaser .cny-rail > * { scroll-snap-align: start; }
+
+@media (min-width: 1200px) {
+  .cny-teaser .cny-rail {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    overflow: visible;
+    padding-bottom: 0;
+  }
+}
+
+.cny-teaser__foot { display: flex; justify-content: center; margin-top: clamp(24px, 3vw, 36px); }
+
+/* ==========================================================================
+   Reveal
+   ========================================================================== */
+.cny-reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .7s var(--cny-ease), transform .7s var(--cny-ease);
+}
+
+.cny-reveal.is-in { opacity: 1; transform: none; }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 1100px) {
+  .cny-moods { grid-template-columns: repeat(2, 1fr); }
+  .cny-journal { grid-template-columns: repeat(4, 1fr); }
+  .cny-journal figure:nth-child(6),
+  .cny-journal figure:nth-child(7) { grid-column: span 2; }
+}
+
+@media (max-width: 900px) {
+  .cny-offers { grid-template-columns: 1fr; }
+  .cny-ny__grid,
+  .cny-community__grid { grid-template-columns: 1fr; }
+  .cny-ny__media { height: clamp(260px, 56vw, 420px); }
+  .cny-community__media { aspect-ratio: 16 / 10; }
+  .cny-hero { min-height: 74vh; }
+}
+
+@media (max-width: 720px) {
+  .cny { --cny-gutter: 16px; }
+
+  .cny-hero { min-height: 82vh; }
+  .cny-hero__media img { object-position: center 35%; }
+  .cny-hero__actions .cny-btn { width: 100%; }
+  .cny-hero__meta { gap: var(--cny-s4); font-size: .8rem; }
+
+  .cny-grid { grid-template-columns: 1fr; }
+  .cny-card__title { min-height: 0; }
+
+  .cny-offer { padding-right: clamp(80px, 26vw, 110px); }
+
+  .cny-mood__text { padding: var(--cny-s4); }
+  .cny-mood__title { font-size: 1rem; }
+  .cny-mood__icon { width: 32px; height: 32px; margin-bottom: 8px; }
+
+  .cny-filters__meta { flex-wrap: wrap; gap: var(--cny-s3); }
+
+  .cny-journal { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 42vw; }
+  .cny-journal figure:nth-child(n) { grid-column: span 1; grid-row: span 1; }
+  .cny-journal figure:nth-child(1) { grid-column: span 2; }
+  .cny-journal figure:nth-child(6) { grid-column: span 2; }
+
+  .cny-stats { grid-template-columns: repeat(3, 1fr); gap: var(--cny-s4); }
+  .cny-final__actions .cny-btn { width: 100%; }
+  .cny-faq__q { gap: 11px; padding: 16px 16px; }
+  .cny-faq__q > .cny-i { width: 32px; height: 32px; padding: 7px; }
+  .cny-faq__a p { margin: 0 16px 18px 16px; }
+}
+
+@media (max-width: 420px) {
+  .cny-mood { aspect-ratio: 4 / 5; }
+  .cny-card__foot { flex-direction: column; align-items: stretch; gap: var(--cny-s3); }
+  .cny-card__cta { justify-content: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cny *,
+  .cny *::before,
+  .cny *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+  .cny-reveal { opacity: 1; transform: none; }
+  .cny-snow { display: none; }
+  .cny-bauble { animation: none; }
+}

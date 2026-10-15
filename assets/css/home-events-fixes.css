@@ -1,0 +1,72 @@
+/* Keep event photos, text and buttons inside one rounded card. */
+.events-section-responsive .event-slider {
+  align-items: stretch;
+  padding-block: 10px 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.events-section-responsive .event-card {
+  height: 430px;
+  border: 0;
+  border-radius: 24px;
+  overflow: hidden !important;
+}
+.events-section-responsive .event-content {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  background: #18323c;
+}
+.events-section-responsive .event-image {
+  height: 100%;
+  border-radius: inherit;
+  overflow: hidden !important;
+}
+.events-section-responsive .event-image img { display: block; height: 100%; padding: 0; border-radius: inherit; object-fit: cover; }
+.events-section-responsive .event-card-content { bottom: 76px; padding-inline: 16px; }
+.events-section-responsive .event-card-flex { display: none; }
+.events-section-responsive .event-view {
+  bottom: 20px;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  margin: 0;
+  width: max-content;
+  max-width: calc(100% - 32px);
+}
+.events-section-responsive .event-slider-arrow { top: 50%; transform: translateY(-50%); }
+@media (max-width: 600px) {
+  .events-section-responsive .event-card { height: 430px !important; }
+  .events-section-responsive .event-card-content { bottom: 76px; }
+  .events-section-responsive .event-view { bottom: 20px; }
+}
+
+/* Framed square cards with overlapping action pills, as in the reference. */
+.events-section-responsive .event-slider { padding-block: 12px 64px; }
+.events-section-responsive .event-card {
+  height: auto;
+  aspect-ratio: 1;
+  border: 0;
+  padding: 0;
+  overflow: visible !important;
+}
+.events-section-responsive .event-content {
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  border-radius: 24px;
+  overflow: visible;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+.events-section-responsive .event-image { border-radius: 21px; overflow: hidden !important; }
+.events-section-responsive .event-card-content { bottom: 18px; }
+.events-section-responsive .event-view {
+  bottom: -20px;
+  z-index: 4;
+}
+@media (max-width: 600px) {
+  .events-section-responsive .event-card { height: auto !important; aspect-ratio: 1; }
+  .events-section-responsive .event-card-content { bottom: 18px; }
+  .events-section-responsive .event-view { bottom: -20px; }
+}

@@ -8,33 +8,33 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquire Now: Kerala Grand Circuit Trip - Roamers</title>
+    <title>Enquire Now: Kerala Grand Circuit Trek - Roamers</title>
     <!-- SEO Meta Description -->
-    <meta name="description" content="Book your Kerala Grand Circuit trip with Roamers. Fill out the enquiry form to join our curated adventure and explore the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
-    <!--  -->
+    <meta name="description" content="Book your Kerala Grand Circuit trek with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India." />
+    <meta name="author" content="Roamers" />
     <meta name="robots" content="index, follow">
     <link rel="shortcut icon" href="assets/img/icon/fav-icon.png" type="image/x-icon" sizes="192x192">
 
     <!-- Open Graph tags -->
     <meta property="og:site_name" content="Roamers" />
-    <meta property="og:title" content="Enquire Now: Kerala Grand Circuit Trip - Roamers" />
-    <meta property="og:description" content="Book your Kerala Grand Circuit trip with Roamers. Fill out the enquiry form to join our curated adventure and explore the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
+    <meta property="og:title" content="Enquire Now: Kerala Grand Circuit Trek - Roamers" />
+    <meta property="og:description" content="Book your Kerala Grand Circuit trek with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India." />
     <meta property="og:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
     <meta property="og:image:secure_url" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Kerala Grand Circuit Trip - Discover God's Own Country" />
-    <meta property="og:url" content="https://roamers.in/kerala-grand-circuit-enquiry-form.php" />
+    <meta property="og:image:alt" content="Kerala Grand Circuit Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
+    <meta property="og:url" content="https://roamers.in/valley-of-flowers-enquiry-form.php" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter / X Card tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Enquire Now: Kerala Grand Circuit Trip - Roamers" />
-    <meta name="twitter:description" content="Book your Kerala Grand Circuit trip with Roamers. Fill out the enquiry form to join our curated adventure and explore the backwaters, lush green landscapes, and breathtaking beauty of God's Own Country." />
+    <meta name="twitter:title" content="Enquire Now: Kerala Grand Circuit Trek - Roamers" />
+    <meta name="twitter:description" content="Book your Kerala Grand Circuit trek with Roamers. Fill out the enquiry form to join our curated adventure and explore vibrant alpine meadows, rare Himalayan flora, and breathtaking landscapes in Uttarakhand, India." />
     <meta name="twitter:image" content="https://roamers.in/assets/img/Kerala/Kerala-photos.jpg" />
-    <meta name="twitter:image:alt" content="Kerala Grand Circuit Trip - Discover God's Own Country" />
-    <!--  -->
+    <meta name="twitter:image:alt" content="Kerala Grand Circuit Trek - Vibrant alpine meadows with colorful Himalayan wildflowers and snow-capped peaks" />
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link
@@ -797,7 +797,7 @@ session_start();
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-suitcase"></i>
                                 <select name="trip_type" required>
-                                    <option value="Group Trip">Roamers Group Trip (18 -39)</option>
+                                    <option value="Group Trip">Group Trip / Fixed Departure</option>
                                     <option value="Private Trip">Private / Customized Trip</option>
                                 </select>
                                 <i class="fa-solid fa-chevron-down dropdown-icon"></i>

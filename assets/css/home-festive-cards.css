@@ -1,0 +1,596 @@
+/* Dedicated homepage cards; independent of the shared cny-card component. */
+.cny .home-festive-card {
+  height: 460px;
+  padding: 1px;
+  border: 1px solid rgba(255,255,255,.45);
+  border-radius: 26px;
+  overflow: hidden;
+  background: rgba(255,255,255,.65);
+  box-shadow: 0 8px 16px rgba(36,49,42,.08);
+}
+.cny .home-festive-card__link {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 23px;
+  clip-path: inset(0 round 23px);
+  color: #15251e;
+  text-decoration: none;
+  background: #d5ddd8;
+}
+.cny .home-festive-card__link:hover { color: #15251e; text-decoration: none; }
+.home-festive-card__photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.home-festive-card__badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  padding: 4px 8px;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 999px;
+  background: rgba(250,252,249,.8);
+  color: #253b2f;
+  font-size: 9px;
+  font-weight: 600;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.home-festive-card__content {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 20px 18px 21px;
+  isolation: isolate;
+}
+.home-festive-card__content::before {
+  content: '';
+  position: absolute;
+  inset: -145px 0 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse at 5% 95%, rgba(255,255,255,.46), transparent 55%),
+    radial-gradient(ellipse at 100% 45%, rgba(190,225,240,.24), transparent 65%),
+    linear-gradient(135deg, rgba(255,255,255,.12), rgba(237,247,249,.40) 60%, rgba(255,255,255,.62));
+  -webkit-backdrop-filter: blur(20px) saturate(155%) brightness(1.12);
+  backdrop-filter: blur(20px) saturate(155%) brightness(1.12);
+  box-shadow: inset 1px 0 rgba(255,255,255,.55), inset -1px 0 rgba(255,255,255,.35), inset 0 -2px 3px rgba(255,255,255,.6);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,.08) 12%, rgba(0,0,0,.3) 27%, rgba(0,0,0,.65) 45%, #000 72%);
+  mask-image: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,.08) 12%, rgba(0,0,0,.3) 27%, rgba(0,0,0,.65) 45%, #000 72%);
+}
+.cny .home-festive-card__content h3 {
+  margin: 0 0 10px;
+  font-family: 'Lato', 'Segoe UI', sans-serif;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #14241c;
+}
+.home-festive-card__meta { display: flex; flex-wrap: wrap; gap: 7px 12px; margin-top: 13px; font-size: 11px; }
+.home-festive-card__meta span { display: inline-flex; gap: 5px; align-items: center; }
+.home-festive-card__meta .cny-i { width: 14px; height: 14px; }
+.cny .home-festive-card__departure { margin-top: 7px; font-size: 11px; color: #34483c; }
+.home-festive-card__bottom { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px; }
+.home-festive-card__price small { display: block; font-size: 10px; color: #415447; }
+.home-festive-card__price strong { display: block; font-size: 23px; line-height: 1.3; font-weight: 700; }
+.home-festive-card__button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; padding: 7px 12px; border-radius: 999px; background: rgba(255,255,255,.89); border: 1px solid #fff; box-shadow: 0 6px 15px rgba(32,47,36,.12), inset 0 1px 2px #fff; font-size: 12px; font-weight: 700; white-space: nowrap;  transform: translateY(4px); }
+.home-festive-card__button .cny-i { width: 12px; height: 12px; }
+.home-festive-card__link:hover .home-festive-card__button { background: #fff; }
+.home-festive-card__link:focus-visible { outline: 3px solid #17543f; outline-offset: -4px; }
+@media (max-width: 1199px) {
+  .cny-teaser .cny-rail { grid-auto-columns: 290px; padding: 8px 4px 24px; }
+}
+@media (max-width: 480px) {
+  .cny-teaser .cny-rail { grid-auto-columns: min(290px, 85vw); }
+}
+
+/* Continuous marquee, with identical groups for a seamless loop. */
+.home-festive-marquee { overflow: hidden; padding: 8px 0 28px; }
+.home-festive-marquee__track { display: flex; width: max-content; animation: festive-card-marquee 38s linear infinite; }
+.home-festive-marquee__group { display: flex; flex-shrink: 0; gap: 24px; padding-right: 24px; }
+.home-festive-marquee__group .home-festive-card { flex: 0 0 300px; width: 300px; }
+@keyframes festive-card-marquee { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .home-festive-marquee { overflow-x: auto; }
+  .home-festive-marquee__track { animation: none; }
+  .home-festive-marquee__group[aria-hidden="true"] { display: none; }
+}
+.cny-teaser .cny-shell { position: relative; }
+.home-festive-playback { display: flex; justify-content: flex-end; padding-bottom: 14px; }
+.home-festive-pause { display: grid; place-items: center; width: 32px; height: 32px; border: 0; border-radius: 0; background: transparent; color: #4ec0db; font-size: 18px; cursor: pointer; }
+.home-festive-pause:focus-visible { outline: 3px solid #17543f; outline-offset: 3px; }
+.home-festive-marquee__track.is-paused { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .home-festive-playback { display: none; } }
+
+/* Evergreen festive panel with restrained gold and snow details. */
+.cny-teaser {
+  background-color: #123e33;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='240'%3E%3Cg fill='%23e5cc91' fill-opacity='.3'%3E%3Cpath d='M55 32l2 7 7 2-7 2-2 7-2-7-7-2 7-2zM242 169l1.5 5 5 1.5-5 1.5-1.5 5-1.5-5-5-1.5 5-1.5z'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-opacity='.12' fill='none' stroke-linecap='round'%3E%3Cpath d='M235 35v22M225 40l20 12M225 52l20-12'/%3E%3C/g%3E%3Cg fill='white' fill-opacity='.23'%3E%3Ccircle cx='126' cy='115' r='1.3'/%3E%3Ccircle cx='29' cy='192' r='1'/%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(ellipse at 50% 0%, rgba(79,128,94,.35), transparent 70%),
+    linear-gradient(145deg, #164b3b, #10382f);
+  background-size: 320px 240px, auto, auto;
+}
+.cny-teaser #home-cny-title { color: #fff3d7; }
+.cny-teaser .home-festive-pause { color: #e5cc91; }
+
+/* Inset festive panel, separated from the surrounding homepage. */
+.cny-teaser.cny-section {
+  width: calc(100% - 64px);
+  max-width: 1500px;
+  margin: 48px auto;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px rgba(35, 65, 44, .08);
+}
+@media (max-width: 600px) {
+  .cny-teaser.cny-section {
+    width: calc(100% - 28px);
+    margin: 28px auto;
+    border-radius: 18px;
+  }
+}
+
+.cny-teaser .cny-teaser__foot .cny-btn--primary,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:hover,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:focus {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: #2a93ad;
+}
+.cny-teaser .cny-teaser__foot .cny-btn--primary,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:hover,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:focus {
+  transform: none;
+}
+
+/* White type over darker glass for consistent photo contrast. */
+.home-festive-card__content::before {
+  background:
+    radial-gradient(ellipse at 100% 30%, rgba(125,187,213,.12), transparent 65%),
+    linear-gradient(to bottom, rgba(9,27,34,0), rgba(9,27,34,.48) 52%, rgba(7,23,31,.68));
+  -webkit-backdrop-filter: blur(20px) saturate(125%);
+  backdrop-filter: blur(20px) saturate(125%);
+  box-shadow: inset 1px 0 rgba(255,255,255,.2), inset -1px 0 rgba(255,255,255,.15);
+}
+.cny .home-festive-card__content h3,
+.home-festive-card__meta,
+.cny .home-festive-card__departure,
+.home-festive-card__price,
+.home-festive-card__price small { color: #fff; }
+.home-festive-card__content h3,
+.home-festive-card__meta,
+.home-festive-card__departure,
+.home-festive-card__price { text-shadow: 0 1px 3px rgba(0,0,0,.3); }
+.home-festive-card__button { color: #15251e; text-shadow: none; }
+
+/* Distinct festive badges for each departure type. */
+.home-festive-card__badge { display: inline-flex; align-items: center; gap: 4px; }
+.home-festive-card__badge .cny-i { width: 11px; height: 11px; }
+.home-festive-card__badge--newyear {
+  color: #624414;
+  background: linear-gradient(120deg, rgba(255,248,214,.96), rgba(243,211,135,.93));
+  border-color: rgba(255,240,186,.35);
+  box-shadow: 0 2px 8px rgba(89,61,11,.15), inset 0 1px rgba(255,255,255,.65);
+}
+.home-festive-card__badge--christmas {
+  color: #fff8e8;
+  background: linear-gradient(120deg, rgba(22,84,57,.95), rgba(12,57,40,.94));
+  border-color: rgba(232,213,157,.35);
+  box-shadow: 0 2px 8px rgba(8,44,28,.2), inset 0 1px rgba(255,255,255,.18);
+}
+.home-festive-card__badge--christmas .cny-i { color: #efcf82; }
+
+.cny-teaser .cny-teaser__foot .cny-btn--primary,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:hover,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:focus { color: #f1d99f; }
+
+/* Drift only the decorative tile; keep the background lighting still. */
+.cny-teaser { animation: festive-background-drift 36s linear infinite; }
+@keyframes festive-background-drift {
+  from { background-position: 0 0, 0 0, 0 0; }
+  to { background-position: 320px 240px, 0 0, 0 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cny-teaser { animation: none; }
+}
+
+/* Drag on desktop and swipe horizontally without blocking vertical page scroll. */
+.home-festive-marquee { touch-action: pan-y; cursor: grab; }
+.home-festive-marquee__track.is-draggable { animation: none; will-change: transform; }
+.home-festive-marquee.is-dragging,
+.home-festive-marquee.is-dragging a { cursor: grabbing; user-select: none; }
+.home-festive-marquee img { -webkit-user-drag: none; user-select: none; }
+
+/* Plain section without the festive background panel. */
+.cny-teaser.cny-section {
+  background: transparent;
+  animation: none;
+  box-shadow: none;
+}
+.cny-teaser #home-cny-title { color: var(--cny-ink); }
+.cny-teaser .home-festive-pause { color: #4ec0db; }
+.cny-teaser .cny-teaser__foot .cny-btn--primary,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:hover,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:focus { color: #2a93ad; }
+
+/* Let the moving cards use the full available page width. */
+.cny-teaser.cny-section {
+  width: 100%;
+  max-width: none;
+  border-radius: 0;
+}
+.cny-teaser .cny-shell--wide {
+  max-width: none;
+  width: 100%;
+  padding-inline: 0;
+}
+.cny-teaser .cny-head,
+.cny-teaser .home-festive-playback,
+.cny-teaser .cny-teaser__foot { padding-inline: 24px; }
+.cny .home-festive-demo-note { text-align: center; font-size: 11px; color: #6b7c85; margin-top: 8px; }
+
+/* Red Christmas and blue New Year badges. */
+.home-festive-card__badge--christmas {
+  color: #fff;
+  background: linear-gradient(120deg, #bf3540, #9e2630);
+  border-color: rgba(255,255,255,.3);
+  box-shadow: 0 2px 8px rgba(113,26,34,.16);
+}
+.home-festive-card__badge--newyear {
+  color: #fff;
+  background: linear-gradient(120deg, #309fbe, #247eaa);
+  border-color: rgba(255,255,255,.3);
+  box-shadow: 0 2px 8px rgba(24,99,133,.16);
+}
+.home-festive-card__badge--christmas .cny-i,
+.home-festive-card__badge--newyear .cny-i { color: #fff; }
+
+/* Gentle badge motion and an occasional glass highlight. */
+.home-festive-card__badge {
+  overflow: hidden;
+  animation: festive-badge-float 3.6s ease-in-out infinite;
+}
+.home-festive-card__badge::after {
+  content: '';
+  position: absolute;
+  inset: -30% auto -30% -65%;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.38), transparent);
+  transform: skewX(-20deg);
+  pointer-events: none;
+  animation: festive-badge-shimmer 6s ease-in-out infinite;
+}
+.home-festive-card__badge--christmas { animation-delay: -.9s; }
+.home-festive-card__badge--christmas::after { animation-delay: 1.5s; }
+@keyframes festive-badge-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+@keyframes festive-badge-shimmer {
+  0%, 65% { left: -65%; }
+  100% { left: 140%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-festive-card__badge,
+  .home-festive-card__badge::after { animation: none; }
+}
+
+/* Keep badges still; animate only their festive icons. */
+.home-festive-card__badge,
+.home-festive-card__badge::after { animation: none; }
+.home-festive-card__badge::after { display: none; }
+.home-festive-card__badge--newyear .cny-i {
+  animation: festive-icon-sparkle 2.4s ease-in-out infinite;
+  transform-origin: center;
+}
+.home-festive-card__badge--christmas .cny-i {
+  animation: festive-icon-twinkle 2.8s ease-in-out infinite;
+}
+@keyframes festive-icon-sparkle {
+  0%, 100% { transform: rotate(0) scale(1); opacity: 1; }
+  50% { transform: rotate(45deg) scale(1.15); opacity: .65; }
+}
+@keyframes festive-icon-twinkle {
+  0%, 100% { opacity: 1; filter: drop-shadow(0 0 0 transparent); }
+  50% { opacity: .65; filter: drop-shadow(0 0 3px rgba(255,255,255,.8)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-festive-card__badge .cny-i { animation: none; }
+}
+/* Restore the shine without moving the badge itself. */
+.home-festive-card__badge::after {
+  display: block;
+  animation: festive-badge-shimmer 6s ease-in-out infinite;
+}
+.home-festive-card__badge--christmas::after { animation-delay: 1.5s; }
+@media (prefers-reduced-motion: reduce) {
+  .home-festive-card__badge::after { animation: none; display: none; }
+}
+
+/* Festive red and sky blue, with drifting snowflakes and stars. */
+.cny-teaser.cny-section {
+  background-color: #e1f2fa;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='240'%3E%3Cg fill='%23b83d49' fill-opacity='.24'%3E%3Cpath d='M55 32l2 7 7 2-7 2-2 7-2-7-7-2 7-2zM242 169l1.5 5 5 1.5-5 1.5-1.5 5-1.5-5-5-1.5 5-1.5z'/%3E%3C/g%3E%3Cg stroke='%23318faf' stroke-opacity='.2' fill='none' stroke-linecap='round'%3E%3Cpath d='M235 35v22M225 40l20 12M225 52l20-12'/%3E%3C/g%3E%3Cg fill='white' fill-opacity='.8'%3E%3Ccircle cx='126' cy='115' r='1.8'/%3E%3Ccircle cx='29' cy='192' r='1.5'/%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(ellipse at 0% 0%, rgba(105,15,35,.72), transparent 68%),
+    linear-gradient(125deg, #9b344a, #e3f1f8 53%, #c9e5f2);
+  background-size: 320px 240px, auto, auto;
+  animation: festive-background-drift 36s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cny-teaser.cny-section { animation: none; }
+}
+
+/* Decorative snowfall stays behind content and never captures input. */
+.cny-teaser.cny-section { position: relative; isolation: isolate; }
+.cny-teaser .cny-shell--wide { position: relative; z-index: 1; }
+.cny-teaser.cny-section::before,
+.cny-teaser.cny-section::after {
+  content: '';
+  position: absolute;
+  inset: -240px 0;
+  z-index: 0;
+  pointer-events: none;
+  background-repeat: repeat;
+}
+.cny-teaser.cny-section::before {
+  background-image: radial-gradient(circle, rgba(255,255,255,.9) 1.8px, transparent 2.8px), radial-gradient(circle, rgba(255,255,255,.65) 1px, transparent 2px);
+  background-size: 83px 101px, 137px 157px;
+  background-position: 0 0, 43px 66px;
+  animation: festive-snow-fall 18s linear infinite;
+}
+.cny-teaser.cny-section::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='460' height='320' viewBox='0 0 460 320'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.55' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M50 36v24M40 42l20 12M40 54l20-12M46 39l4 4 4-4M46 57l4-4 4 4'/%3E%3Cpath d='M336 66h20v17h-20zM333 62h26v5h-26zM346 62v21M346 62c-12 0-8-12-3-7l3 7c12 0 8-12 3-7z'/%3E%3Cpath d='M181 214l-10 13h6l-10 12h28l-10-12h6zM181 239v6'/%3E%3C/g%3E%3Cg fill='%23f2d391' fill-opacity='.65'%3E%3Cpath d='M244 109l2 8 8 2-8 2-2 8-2-8-8-2 8-2zM408 259l2 6 6 2-6 2-2 6-2-6-6-2 6-2z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 460px 320px;
+  animation: festive-icon-fall 34s linear infinite;
+}
+@keyframes festive-snow-fall {
+  from { transform: translateY(0); }
+  to { transform: translateY(157px); }
+}
+@keyframes festive-icon-fall {
+  from { background-position: 0 0; }
+  to { background-position: 40px 320px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cny-teaser.cny-section::before,
+  .cny-teaser.cny-section::after { animation: none; }
+}
+
+/* User-selected festive background, with snowfall retained above it. */
+.cny-teaser.cny-section {
+  background-image: url('../img/roamers-festive-premium.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: none;
+}
+
+/* Static background image without falling decorations. */
+.cny-teaser.cny-section::before,
+.cny-teaser.cny-section::after { display: none; animation: none; }
+
+.cny-teaser .cny-teaser__foot .cny-btn--primary,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:hover,
+.cny-teaser .cny-teaser__foot .cny-btn--primary:focus {
+  background: #4ec0db;
+  border-color: #4ec0db;
+  color: #fff;
+  box-shadow: none;
+  transform: none;
+}
+
+/* A small gift wiggle; the button and label stay still. */
+.cny-teaser .cny-teaser__foot .cny-btn > .cny-i:first-child {
+  transform-origin: 50% 80%;
+  animation: festive-gift-wiggle 3.5s ease-in-out infinite;
+}
+@keyframes festive-gift-wiggle {
+  0%, 65%, 100% { transform: rotate(0deg); }
+  72% { transform: rotate(-12deg); }
+  79% { transform: rotate(10deg); }
+  86% { transform: rotate(-6deg); }
+  93% { transform: rotate(4deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cny-teaser .cny-teaser__foot .cny-btn > .cny-i:first-child { animation: none; }
+}
+
+.cny-teaser .cny-teaser__foot .cny-btn--primary {
+  padding: 7px 16px;
+  font-size: 14px;
+  gap: 8px;
+}
+
+/* Small glass keepsake and fine frost around the photo edges. */
+.home-festive-card__ornament {
+  position: absolute;
+  top: 13px;
+  right: 12px;
+  width: 31px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px 11px 14px 14px;
+  border: 1px solid rgba(255,255,255,.6);
+  background: linear-gradient(135deg, rgba(255,255,255,.38), rgba(225,244,255,.1));
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,.6), 0 3px 10px rgba(11,37,53,.12);
+  pointer-events: none;
+}
+.home-festive-card__ornament svg { width: 23px; height: 23px; }
+.home-festive-card__ornament--newyear { color: #ffe5a1; }
+.home-festive-card__ornament--christmas { color: #effaff; }
+.home-festive-card__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 1px 2px rgba(255,255,255,.8), inset 1px 0 7px rgba(220,244,255,.24), inset -1px 0 7px rgba(220,244,255,.24);
+  pointer-events: none;
+}
+
+/* Festive corner icons without a glass container. */
+.home-festive-card__ornament {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+/* Photo cards in the full trip explorer retain its filter visibility rules. */
+.cny .home-festive-card.cny-card:hover { transform: none; border-color: rgba(255,255,255,.45); }
+.cny .home-festive-card[hidden] { display: none; }
+
+/* Consistent red festive tags across all cards. */
+.home-festive-card__badge--newyear,
+.home-festive-card__badge--christmas {
+  color: #fff;
+  background: linear-gradient(120deg, #bf3540, #9e2630);
+  border-color: rgba(255,255,255,.3);
+  box-shadow: 0 2px 8px rgba(113,26,34,.16);
+}
+
+.cny-teaser #home-cny-title {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: clamp(44px, 5vw, 72px);
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+.cny-teaser #home-cny-title .home-festive-heading-christmas { color: #000; }
+.cny-teaser #home-cny-title .home-festive-heading-amp { color: #000; }
+.cny-teaser #home-cny-title .home-festive-heading-newyear { color: #000; }
+
+/* Portrait artwork preserves festive corners and the landscape on phones. */
+@media (max-width: 600px) {
+  .cny-teaser.cny-section {
+    background-image: url('../img/roamers-festive-mobile.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* Larger calligraphy with a subtle stroke for a fuller script weight. */
+.cny-teaser #home-cny-title {
+  font-size: clamp(58px, 6.6vw, 98px);
+  -webkit-text-stroke: .85px currentColor;
+}
+
+.cny-teaser .cny-head { margin-bottom: 6px; }
+.cny-teaser .home-festive-playback { padding-bottom: 4px; }
+
+.cny .home-festive-card__content h3 {
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: 400;
+}
+
+/* Icy glass lettering with snowy highlights and blue depth. */
+.cny-teaser #home-cny-title .home-festive-heading-christmas,
+.cny-teaser #home-cny-title .home-festive-heading-amp,
+.cny-teaser #home-cny-title .home-festive-heading-newyear {
+  color: #59b9db;
+  background: linear-gradient(165deg, #e9faff 5%, #61c4e8 24%, #147ba8 48%, #a3e4fa 57%, #08648e 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #267e9f;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.95)) drop-shadow(0 3px 3px rgba(29,100,133,.28));
+}
+
+.cny-teaser #home-cny-title .home-festive-heading-christmas {
+  background-image: linear-gradient(165deg, #ffe7e9 5%, #ef6c7d 24%, #c51d38 48%, #ffa8b2 57%, #a70f2b 85%);
+  -webkit-text-stroke: 1px #b7233c;
+}
+.cny-teaser #home-cny-title .home-festive-heading-amp {
+  background-image: linear-gradient(160deg, #dc4b64, #5bbde4 55%, #126f9a);
+  -webkit-text-stroke: .8px #477b9b;
+}
+
+.cny-teaser #home-cny-title .home-festive-heading-christmas,
+.cny-teaser #home-cny-title .home-festive-heading-amp,
+.cny-teaser #home-cny-title .home-festive-heading-newyear {
+  background-image: linear-gradient(165deg, #ffe7e9 5%, #ef6c7d 24%, #c51d38 48%, #ffa8b2 57%, #a70f2b 85%);
+  -webkit-text-stroke: 1px #b7233c;
+}
+.cny-teaser #home-cny-title { transform: translateY(-22px); }
+
+/* Keep festive links and their text free of hover underlines. */
+.cny .home-festive-card__link,
+.cny .home-festive-card__link:hover,
+.cny .home-festive-card__link:focus,
+.cny .home-festive-card__link *,
+.cny .home-festive-card__link:hover *,
+.cny-teaser .cny-teaser__foot .cny-btn,
+.cny-teaser .cny-teaser__foot .cny-btn:hover,
+.cny-teaser .cny-teaser__foot .cny-btn:focus {
+  text-decoration: none;
+}
+.cny-teaser .home-festive-playback {
+  justify-content: center;
+  padding-bottom: 0;
+}
+.cny-teaser .cny-teaser__foot { margin-top: 12px; }
+
+/* Soft fade along the full festive section edges. */
+.cny-teaser.cny-section {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent);
+}
+@media (max-width: 600px) {
+  .cny-teaser.cny-section {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 16px, #000 calc(100% - 16px), transparent);
+    mask-image: linear-gradient(to right, transparent, #000 16px, #000 calc(100% - 16px), transparent);
+  }
+}
+
+/* Prevent native link previews and text selection during touch-and-hold. */
+.home-festive-marquee,
+.home-festive-marquee a,
+.home-festive-marquee img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Leave room for calligraphic swashes, including the ampersand. */
+.cny-teaser .cny-head__text { max-width: 100%; width: 100%; }
+.cny-teaser #home-cny-title { overflow: visible; padding-inline: 12px; }
+.cny-teaser #home-cny-title > span {
+  display: inline-block;
+  padding: .08em .14em;
+  margin-inline: -.07em;
+  vertical-align: baseline;
+}
+@media (max-width: 600px) {
+  .cny-teaser .cny-head { padding-inline: 12px; }
+  .cny-teaser #home-cny-title {
+    font-size: clamp(40px, 10.5vw, 60px);
+    line-height: 1.12;
+    padding-inline: 0;
+  }
+}
+
+/* Keep the moving cards inexpensive to composite on touch devices. */
+@media (hover: none) and (pointer: coarse) {
+  .home-festive-marquee .home-festive-card__content::before,
+  .home-festive-marquee .home-festive-card__badge {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .home-festive-marquee .home-festive-card__ornament,
+  .home-festive-marquee .home-festive-card__ornament svg,
+  .home-festive-marquee .home-festive-card__badge::after {
+    animation: none;
+  }
+}

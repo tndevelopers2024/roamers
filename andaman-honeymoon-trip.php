@@ -280,17 +280,11 @@
         background-position: center !important;
       }
       .andaman-banner-title {
-        font-size: 28px !important;
+        font-size: 34px !important;
         padding: 0 15px;
       }
       .andaman-banner-overlay {
         background: rgba(0,0,0,0.3); /* Subtle darkening for text readability on mobile */
-      }
-    }
-
-    @media (max-width: 480px) {
-      .andaman-banner-title {
-        font-size: 24px !important;
       }
     }
 
@@ -1493,16 +1487,16 @@
     <script src="https://player.vimeo.com/api/player.js"></script>
     <div class="andaman-banner-overlay" style="z-index: 1; background: rgba(0,0,0,0.3);"></div>
     <div style="position: relative; z-index: 2; text-align: center; color: white; width: 100%;">
-      <h2 class="andaman-banner-title">ANDAMAN ISLANDS ~ DREAMY HONEYMOON <i class="fa-solid fa-heart" style="color: #e21b70; margin-left: 5px;"></i></h2>
+      <h2 class="andaman-banner-title">ANDAMAN ISLANDS ~ DREAMY HONEYMOON</h2>
       <ul style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; padding: 0;">
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           PORT BLAIR
           <span style="margin-left: 10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
         </li>
-        <!-- <li style="display: flex; align-items: center; font-weight: 800; color: #fff; font-size: 16px;">
+        <li style="display: flex; align-items: center; font-weight: 800; color: #fff; font-size: 16px;">
           ROSS ISLAND
           <span style="margin-left: 10px; margin-right:10px;"><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
-        </li> -->
+        </li>
         <li style="display: flex; align-items: center; font-weight: 800; color: #fff; margin-right: 15px; font-size: 16px;">
           HAVELOCK ISLAND
           <span style="margin-left: 10px; "><img src="assets/img/Sirlanka/arrow-icon-by-roamers.png" alt="" style="width: 13px; margin-bottom: 3px;"></span>
@@ -1561,7 +1555,7 @@
                   <!-- </div> -->
                   <div>
                     <div class="info-label">Duration</div>
-                    <div class="info-value">6D / 5N</div>
+                    <div class="info-value">7D / 6N</div>
                   </div>
                 </div>
               </div>
@@ -1579,7 +1573,7 @@
                 </div>
               </div>
               <div class="col d-flex align-items-center">
-                <a href="andaman-honeymoon-trip-enquiry-form.php" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <a href="#" class="btn butn butn__new" style="width: 100%; max-width: 200px; border-radius: 15px;">
                   Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
               </div>
             </div>
@@ -1612,7 +1606,7 @@
                   </div>
                   <div>
                     <div class="info-label">Duration</div>
-                    <div class="info-value">6D / 5N</div>
+                    <div class="info-value">7D / 6N</div>
                   </div>
                 </div>
               </div>
@@ -1630,7 +1624,7 @@
                 </div>
               </div>
               <div class="col mt-4">
-                <a href="andaman-honeymoon-trip-enquiry-form.php" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
+                <a href="#" class="get-iti-btn" style="width: 100%; border-radius: 15px;">
                   Get Itinerary <i class="fa-solid fa-download ms-1"></i></a>
               </div>
             </div>
@@ -1963,7 +1957,7 @@
                     </p>
                     <p>
                       <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>
-                      5 Breakfast & 2 Dinner(Including Farewell Dinner).
+                      6 Breakfast & '2 Dinner(Including Farewell Dinner).
                     </p>
                     <p>
                       <i class="fa-solid fa-circle-check me-2 pulse" style="color: green;"></i>

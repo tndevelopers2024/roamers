@@ -617,7 +617,7 @@ session_start();
                 document.getElementById('per-details').style.display = 'none';
                 document.getElementById('dates').style.display = 'block';
                 document.querySelector('.progress-bar').style.width = '0%';
-                
+
                 const dateBox = document.getElementById("selected-date-box");
                 if (dateBox) {
                     dateBox.classList.remove("show");

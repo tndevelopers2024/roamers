@@ -1,8 +1,4 @@
 <?php
-
-require_once __DIR__ . '/config.php';
-require_once __DIR__ . '/includes/security.php';
-if (!empty($_POST)) { $_POST = clean_input($_POST); }
 // Enable error reporting (for dev only, comment these lines out in production)
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
@@ -125,12 +121,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host = $smtp_configs['alt']['host'];
+        $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = $smtp_configs['alt']['user'];
-        $mail->Password = $smtp_configs['alt']['pass'];
-        $mail->SMTPSecure = $smtp_configs['alt']['secure'];
-        $mail->Port = $smtp_configs['alt']['port'];
+        $mail->Username = 'info@roamers.in';
+        $mail->Password = 'iifr konl ctis tphr';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
 
         // Recipients
         $mail->setFrom('info@roamers.in', $eventConfig['from_name']);

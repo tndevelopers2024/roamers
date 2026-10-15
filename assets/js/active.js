@@ -1,4 +1,3 @@
-(() => {
 // *****Sidebar tab content start*****
 $('.tabgroup > div').hide();
 $('.tabgroup > div:first-of-type').show();
@@ -159,28 +158,24 @@ const sliderElm = document.querySelector(".slider-containe .sliders");
 const btnLeft = document.querySelector(".slider-containe .btn-left");
 const btnRight = document.querySelector(".slider-containe .btn-right");
 
-let numberSliderBoxs = 0;
 if (sliderElm) {
-  numberSliderBoxs = sliderElm.children.length;
+const numberSliderBoxs = sliderElm.children.length;
 }
 let idxCurrentSlide = 0;
 
 // Functions:
 function moveSlider() {
-  if (!sliderElm) return;
   let leftMargin = (sliderElm.clientWidth / numberSliderBoxs) * idxCurrentSlide;
   sliderElm.style.marginLeft = -leftMargin + "px";
   console.log(sliderElm.clientWidth, leftMargin);
 }
 function moveLeft() {
-  if (!sliderElm) return;
   if (idxCurrentSlide === 0) idxCurrentSlide = numberSliderBoxs - 1;
   else idxCurrentSlide--;
 
   moveSlider();
 }
 function moveRight() {
-  if (!sliderElm) return;
   if (idxCurrentSlide === numberSliderBoxs - 1) idxCurrentSlide = 0;
   else idxCurrentSlide++;
 
@@ -193,11 +188,7 @@ if (btnLeft) {
 }
 if (btnRight) {
   btnRight.addEventListener("click", moveRight);
-}
-
-if (sliderElm) {
-  window.addEventListener("resize", moveSlider);
-}
+}window.addEventListener("resize", moveSlider);
 
 
 
@@ -287,27 +278,24 @@ window.addEventListener('DOMContentLoaded', function() {
 //   });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const whatsappBtn = document.querySelector(".whatapp");
-  if (whatsappBtn) {
-    // Set initial transition
-    whatsappBtn.style.transition = "opacity 0.3s ease, visibility 0.3s ease";
-    
-    window.addEventListener("scroll", function() {
-      if (window.scrollY > 0) {
-        whatsappBtn.style.opacity = "1";
-        whatsappBtn.style.visibility = "visible";
-      } else {
-        whatsappBtn.style.opacity = "0";
-        whatsappBtn.style.visibility = "hidden";
-      }
-    });
-    
-    // Trigger scroll event once on load to set initial state
-    window.dispatchEvent(new Event("scroll"));
-  }
+// $(document).ready(function() {
+//   $(window).scroll(function() {
+//       // Calculate how far the user has scrolled down the page
+//       var scrollPosition = $(window).scrollTop();
+
+//       // Show the WhatsApp button after a certain scroll threshold
+//       if (scrollPosition > 0) {
+//           $(".whatapp").fadeIn();
+//       } else {
+//           $(".whatapp").fadeOut();
+//       }
+//   });
+// });
+$(document).ready(function() {
+  $(window).scroll(function() {
+      $(".whatapp").fadeIn();
+  });
 });
-})();
 
 
 

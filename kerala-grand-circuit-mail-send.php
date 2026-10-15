@@ -1,8 +1,4 @@
 <?php
-
-require_once __DIR__ . '/config.php';
-require_once __DIR__ . '/includes/security.php';
-if (!empty($_POST)) { $_POST = clean_input($_POST); }
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -29,19 +25,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         $mail->isSMTP();
-        $mail->Host = $smtp_configs['alt']['host'];
+        $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = $smtp_configs['alt']['user'];
-        $mail->Password = $smtp_configs['alt']['pass']; // App password
-        $mail->SMTPSecure = $smtp_configs['alt']['secure'];
-        $mail->Port = $smtp_configs['alt']['port'];
+        $mail->Username = 'info@roamers.in';
+        $mail->Password = 'iifr konl ctis tphr'; // App password
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
 
         $mail->setFrom('info@roamers.in', 'Booking Form');
         $mail->addAddress('info@roamers.in');
 
         $mail->isHTML(true);
-        $mail->Subject = 'NEW KERALA GRAND CIRCUIT BOOKING RECEIVED';
-        $mail->AddEmbeddedImage('assets/img/Kerala/KeralaCover.jpg', 'valleyimg');
+        $mail->Subject = 'NEW VALLEY OF FLOWERS BOOKING RECEIVED';
+        $mail->AddEmbeddedImage('assets/img/kerala-grand-circuit/vally-of-flowers-banner-imgs (1).png', 'valleyimg');
 
         $mail->Body = "
         <div style='
@@ -58,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <img src='cid:valleyimg' alt='valleyimg' style='width: 100%; max-width: 420px; height: 180px; object-fit: cover; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); margin-bottom: 18px;' />
                 <h2 style='color: #fff; font-size: 2.1rem; margin: 0 0 6px 0; letter-spacing: 1px; font-weight: 700;'>
                     <span style=\"vertical-align:middle; margin-right:8px;\"><img src='https://img.icons8.com/ios-filled/40/ffffff/flower.png' style='width:32px;vertical-align:middle;'/></span>
-                    KERALA GRAND CIRCUIT TRIP
+                    VALLEY OF FLOWERS EXPEDITION
                 </h2>
                 <div style='color: #e0f7fa; font-size: 1.1rem; margin-bottom: 8px; letter-spacing: 0.5px;'>
                     <span style=\"vertical-align:middle; margin-right:6px;\"><img src='https://img.icons8.com/ios-filled/20/ffffff/calendar--v1.png' style='width:18px;vertical-align:middle;'/></span>
@@ -150,7 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </table>
             </div>
             <div style='background: #4ec0db; color: #fff; text-align: center; padding: 14px 0; font-size: 1.08rem; letter-spacing: 0.5px;'>
-                Thank you for booking your Kerala Grand Circuit Trip with Roamers! <span style='margin-left:8px;'><img src='https://img.icons8.com/ios-filled/20/ffffff/checked-checkbox.png' style='vertical-align:middle;'/></span>
+                Thank you for booking your Kerala Grand Circuit Expedition with Roamers! <span style='margin-left:8px;'><img src='https://img.icons8.com/ios-filled/20/ffffff/checked-checkbox.png' style='vertical-align:middle;'/></span>
             </div>
         </div>
         ";
@@ -290,7 +286,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
                 <div class="thankyou-title">Thank You for Booking!</div>
                 <div class="thankyou-msg">
-                    Your Kerala Grand Circuit Trip booking has been received.<br>
+                    Your Kerala Grand Circuit Expedition booking has been received.<br>
                     We can't wait to see you on your adventure!
                 </div>
                 <div class="thankyou-details">

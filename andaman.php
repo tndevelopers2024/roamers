@@ -175,9 +175,24 @@
             transform: scale(1.1);
         }
 
+        /* Tablet */
+        @media (max-width: 991px) {
+            .trip-home.banner-bg-static {
+                height: 60vh !important;
+            }
+        }
+
         @media (max-width: 768px) {
             nav::before {
                 display: none;
+            }
+
+            .trip-home.banner-bg-static {
+                height: 50vh !important;
+            }
+
+            .trip-home .banner-overlay {
+                padding-top: 60px;
             }
 
             .banner-slider {
@@ -652,6 +667,25 @@
             font-size: 12px;
         }
 
+        .badge-popular {
+            background: linear-gradient(135deg, #ff6b6b, #ff4757);
+            color: #ffffff;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 10px rgba(255, 71, 87, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-popular i {
+            font-size: 12px;
+        }
+
         .badge-wishlist {
             width: 32px;
             height: 32px;
@@ -940,13 +974,42 @@
             }
 
             .packages-scroll-row>div {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
+                flex: 0 0 85% !important;
+                max-width: 85% !important;
                 margin-bottom: 0px;
                 scroll-snap-align: center;
             }
             .packages-scroll-row>div .card-modern {
                 max-width: 100% !important;
+            }
+
+            /* Swipe indicator */
+            .swipe-indicator {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                margin-top: 15px;
+                color: #999;
+                font-size: 13px;
+                font-weight: 500;
+                animation: swipeHint 2s ease-in-out infinite;
+            }
+            .swipe-indicator i {
+                font-size: 14px;
+                color: #4EC0DB;
+            }
+        }
+
+        @keyframes swipeHint {
+            0%, 100% { transform: translateX(0); opacity: 0.7; }
+            50% { transform: translateX(8px); opacity: 1; }
+        }
+
+        /* Hide swipe indicator on desktop */
+        @media (min-width: 992px) {
+            .swipe-indicator {
+                display: none !important;
             }
         }
 
@@ -1692,7 +1755,7 @@
                     <div class="package-card-wrap">
                         <a href="andaman-group-trip.php" class="card-modern">
                             <div class="card-top-badges">
-                                <span class="badge-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                                <span class="badge-popular"><i class="fa-solid fa-fire"></i> Most Popular Trip</span>
 
                             </div>
                             <img src="assets/img/andaman/Media/overview-2.jpg" alt="Andaman Island Hopping"
@@ -1703,15 +1766,6 @@
                                 <h3 class="card-title">Andaman Island Hopping</h3>
                                 <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
                                 </p>
-
-                                <div class="card-rating-row">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <span class="rating-num">4.9</span>
-                                </div>
 
                                 <div class="card-category-pill pill-group">
                                     <i class="fa-solid fa-users"></i> Group Trip
@@ -1744,15 +1798,6 @@
                                 <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
                                 </p>
 
-                                <div class="card-rating-row">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <span class="rating-num">4.8</span>
-                                </div>
-
                                 <div class="card-category-pill pill-private">
                                     <i class="fa-solid fa-user"></i> Private Trip
                                 </div>
@@ -1783,15 +1828,6 @@
                                 <h3 class="card-title">Magical Andaman Trip</h3>
                                 <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
                                 </p>
-
-                                <div class="card-rating-row">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <span class="rating-num">4.7</span>
-                                </div>
 
                                 <div class="card-category-pill pill-private">
                                     <i class="fa-solid fa-user"></i> Private Trip
@@ -1824,15 +1860,6 @@
                                 <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
                                 </p>
 
-                                <div class="card-rating-row">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <span class="rating-num">4.9</span>
-                                </div>
-
                                 <div class="card-category-pill pill-private">
                                     <i class="fa-solid fa-user"></i> Private Trip
                                 </div>
@@ -1863,15 +1890,6 @@
                                 <h3 class="card-title">Seasonal Andaman</h3>
                                 <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
                                 </p>
-
-                                <div class="card-rating-row">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <span class="rating-num">4.8</span>
-                                </div>
 
                                 <div class="card-category-pill pill-seasonal">
                                     <i class="fa-solid fa-sun"></i> Seasonal Trip
@@ -1904,15 +1922,6 @@
                                 <p class="card-location"><i class="fa-solid fa-location-dot"></i> Port Blair, Andaman
                                 </p>
 
-                                <div class="card-rating-row">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <span class="rating-num">5.0</span>
-                                </div>
-
                                 <div class="card-category-pill pill-honeymoon">
                                     <i class="fa-solid fa-heart"></i> Honeymoon Trip
                                 </div>
@@ -1927,6 +1936,11 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            <!-- Swipe Indicator for Mobile -->
+            <div class="swipe-indicator">
+                <span>Swipe to explore more packages</span>
+                <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
     </section>

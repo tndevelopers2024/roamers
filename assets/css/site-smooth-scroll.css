@@ -1,0 +1,3 @@
+/* Avoid competing with CSS smooth scrolling while Lenis owns wheel inertia. */
+html.lenis.lenis-smooth { scroll-behavior: auto !important; }
+html.lenis { transition: none; }
