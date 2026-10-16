@@ -3,12 +3,14 @@ require_once __DIR__ . '/includes/christmas-trips.php';
 // Match the eight destinations featured in the homepage Christmas section.
 $festiveBySlug = array_column($christmasTrips, null, 'slug');
 $festiveBySlug['tawang'] = [
-    'slug' => 'tawang', 'title' => 'Tawang', 'url' => 'tawang.php',
-    'img' => 'assets/img/tawang/home-festive-card.avif', 'alt' => 'Tawang',
-    'duration' => '7D / 6N', 'dates' => '', 'exLabel' => 'Ex: Guwahati',
-    'price' => '₹19,990', 'newyear' => true,
-    'types' => ['mountain', 'roadtrip'], 'moods' => ['mountains'],
-    'ex' => ['guwahati'], 'budget' => '10to20', 'len' => 'long',
+    'slug' => 'tawang', 'title' => 'Tawang with Sangti Valley', 'url' => 'tawang-christmas&newyear.php',
+    'img' => 'assets/img/tawang/home-festive-card.avif', 'alt' => 'Tawang with Sangti Valley',
+    'duration' => '7D / 6N', 'dates' => 'Dec 24, 28', 'exLabel' => 'Ex: Guwahati',
+    'price' => '₹24,000', 'newyear' => true,
+    'blurb' => 'Cross Sela Pass (13,700 ft), explore Bumla Pass, Madhuri Lake and riverside stays in Sangti Valley.',
+    'locations' => 'Guwahati, Bhalukpong, Dirang, Tawang, Sangti Valley, Tezpur',
+    'types' => ['mountain', 'roadtrip'], 'moods' => ['mountains', 'roadtrip'],
+    'ex' => ['guwahati'], 'budget' => 'above20', 'len' => 'long',
 ];
 $festiveBySlug['manali'] = [
     'slug' => 'manali', 'title' => 'Manali', 'url' => 'manali.php',

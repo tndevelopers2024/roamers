@@ -223,6 +223,26 @@ $christmasTrips = [
         'newyear'   => false,
         'featured'  => true,
     ],
+    [
+        'slug'      => 'tawang',
+        'title'     => 'Tawang with Sangti Valley',
+        'blurb'     => 'Cross Sela Pass (13,700 ft), explore Bumla Pass, Madhuri Lake and riverside stays in Sangti Valley.',
+        'locations' => 'Guwahati, Bhalukpong, Dirang, Tawang, Sangti Valley, Tezpur',
+        'duration'  => '7D / 6N',
+        'exLabel'   => 'Ex: Guwahati',
+        'dates'     => 'Dec 24, 28',
+        'price'     => '₹24,000',
+        'url'       => 'tawang-christmas&newyear.php',
+        'img'       => 'assets/img/tawang/home-festive-card.avif',
+        'alt'       => 'Tawang with Sangti Valley Christmas and New Year festive trip',
+        'types'     => ['mountain', 'roadtrip'],
+        'moods'     => ['mountains', 'roadtrip'],
+        'ex'        => ['guwahati'],
+        'budget'    => 'above20',
+        'len'       => 'long',
+        'newyear'   => true,
+        'featured'  => true,
+    ],
 ];
 
 /** Human labels for the trip-type taxonomy. */

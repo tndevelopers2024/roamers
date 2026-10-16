@@ -1954,5 +1954,36 @@
         "price": "₹32,500/-"
       }
     ]
+  },
+  "tawang-christmas-new-year": {
+    "December": [
+      {
+        "date": "24 Dec - 30 Dec",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "₹24,000/-"
+      },
+      {
+        "date": "28 Dec - 03 Jan",
+        "status": "Christmas Special",
+        "statusColor": "red",
+        "price": "₹24,000/-"
+      }
+    ],
+    "costing": {
+      "startingPrice": "₹24,000/-",
+      "prices": [
+        {
+          "sharing": "Tempo Traveller (7 Adults)",
+          "guwahati": "₹24,000/-",
+          "chennai": "₹24,000/-"
+        },
+        {
+          "sharing": "Double Sharing",
+          "guwahati": "₹26,500/-",
+          "chennai": "₹26,500/-"
+        }
+      ]
+    }
   }
 }
