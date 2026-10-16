@@ -3476,10 +3476,10 @@
                     $homeBySlug = [];
                     foreach ($christmasTrips as $ct) { $homeBySlug[$ct['slug']] = $ct; }
                     $homeBySlug['tawang'] = [
-                        'title' => 'Tawang', 'url' => 'tawang.php',
-                        'img' => 'assets/img/tawang/home-festive-card.avif', 'alt' => 'Tawang',
-                        'duration' => '7D / 6N', 'dates' => '', 'exLabel' => 'Ex: Guwahati',
-                        'price' => '₹19,990', 'newyear' => true,
+                        'title' => 'Tawang', 'url' => 'tawang-christmas&newyear.php',
+                        'img' => 'assets/img/tawang/home-festive-card.avif', 'alt' => 'Tawang with Sangti Valley',
+                        'duration' => '7D / 6N', 'dates' => 'Dec 24, 28', 'exLabel' => 'Ex: Guwahati',
+                        'price' => '₹24,000', 'newyear' => true,
                     ];
                     $homeBySlug['manali'] = [
                         'title' => 'Manali', 'url' => 'manali.php',
@@ -3491,7 +3491,7 @@
                     // Demo values for the homepage preview only.
                     $homeDemoDetails = [
                         'spiti' => ['7D / 6N', 'Dec 24, 29', 'Ex: Delhi', '₹24,990'],
-                        'tawang' => ['7D / 6N', 'Dec 23, 28', 'Ex: Guwahati', '₹22,990'],
+                        'tawang' => ['7D / 6N', 'Dec 24, 28', 'Ex: Guwahati', '₹24,000'],
                         'manali' => ['5D / 4N', 'Dec 24, 30', 'Ex: Delhi', '₹14,990'],
                         'kerala' => ['5D / 4N', 'Dec 24, 29', 'Ex: Kochi', '₹16,990'],
                         'ooty' => ['3D / 2N', 'Dec 24, 30', 'Ex: Chennai', '₹8,990'],
