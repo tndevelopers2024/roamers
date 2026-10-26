@@ -584,53 +584,41 @@
     }
   },
   "chikmagalur": {
-    "September": [
-      {
-        "date": "6 Sep - 12 Sep",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      },
-      {
-        "date": "20 Sep - 26 Sep",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      },
-      {
-        "date": "27 Sep - 3 Oct",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      }
-    ],
-    "October": [
-      {
-        "date": "17 Oct - 21 Oct",
-        "status": "Diwali Special",
-        "statusColor": "red",
-        "price": "₹8,990/-"
-      }
-    ],
-    "November": [
-      {
-        "date": "6 Nov - 10 Nov",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      },
-      {
-        "date": "28 Nov - 2 Dec",
-        "status": "Available",
-        "statusColor": "green",
-        "price": "₹8,990/-"
-      }
-    ],
     "December": [
       {
-        "date": "24 Dec - 28 Dec",
+        "date": "21 Dec - 24 Dec",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,990/-"
+      },
+      {
+        "date": "23 Dec - 27 Dec",
         "status": "Christmas Special",
         "statusColor": "red",
+        "price": "₹8,990/-"
+      }
+    ],
+    "January": [
+      {
+        "date": "14 Jan - 18 Jan",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,990/-"
+      }
+    ],
+    "February": [
+      {
+        "date": "12 Feb - 16 Feb",
+        "status": "Available",
+        "statusColor": "green",
+        "price": "₹8,990/-"
+      }
+    ],
+    "March": [
+      {
+        "date": "26 Mar - 30 Mar",
+        "status": "Available",
+        "statusColor": "green",
         "price": "₹8,990/-"
       }
     ],

@@ -4,21 +4,24 @@
         "meghalaya": "Jan 14,24",
         "varkala-grouptrip": "Jan 14,24",
         "andaman": "Jan 14",
-        "kolukkumalai-trek": "Jan 14"
+        "kolukkumalai-trek": "Jan 14",
+        "chikmagalur": "Jan 14"
     },
     "feb": {
         "meghalaya": "Feb 14,19",
         "varkala-grouptrip": "Feb 14,24,27",
         "andaman": "Feb 14,28",
         "kolukkumalai-trek": "Feb 14",
-        "ooty": "Feb 14"
+        "ooty": "Feb 14",
+        "chikmagalur": "Feb 12"
     },
     "mar": {
         "meghalaya": "Mar 21,28",
         "varkala-grouptrip": "Mar 13,27",
         "andaman": "Mar 21,28",
         "kolukkumalai-trek": "Mar 20",
-        "ooty": "Mar 6"
+        "ooty": "Mar 6",
+        "chikmagalur": "Mar 26"
     },
     "apr": {
         "meghalaya": "Apr 11",
@@ -51,7 +54,7 @@
         "pondicherry": "Sep 20",
         "varkala-grouptrip": "Sep 12",
         "meghalaya": "Sep 20",
-        "chikmagalur": "Sep 6",
+        "chikmagalur": "",
         "kolukkumalai-trek": "Sep 26",
         "srilanka": "Sep 6",
         "wayanad": ""
@@ -59,7 +62,7 @@
     "oct": {
         "kerala-grand-circuit": "Oct 03, 17, 24",
         "kolukkumalai-trek": "Sep 26",
-        "chikmagalur": "Sep 6",
+        "chikmagalur": "",
         "andaman": "",
         "kodaikanal1": "Oct 01",
         "meghalaya": "Sep 20",
@@ -69,14 +72,14 @@
     "nov": {
         "kerala-grand-circuit": "Nov 07, 21",
         "kolukkumalai-trek": "Sep 26",
-        "chikmagalur": "Sep 6",
+        "chikmagalur": "",
         "andaman": "",
         "meghalaya": "Sep 20",
         "srilanka": "Aug 17"
     },
     "dec": {
         "kerala-grand-circuit": "Dec 05, 12, 20, 26",
-        "chikmagalur": "Sep 6",
+        "chikmagalur": "Dec 21, 23",
         "pondicherry": "Sep 20",
         "kolukkumalai-trek": "Sep 26",
         "srilanka": "Aug 17",

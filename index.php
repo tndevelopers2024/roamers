@@ -2852,7 +2852,7 @@
                     ['trip_id' => 'kerala', 'dates' => 'Jan 14, 27'],
                     ['trip_id' => 'kerala-grand-circuit', 'dates' => 'Jan 09, 16'],
                     ['trip_id' => 'kedarkantha', 'dates' => 'Jan 15, 29'],
-                    ['trip_id' => 'chikmagalur', 'dates' => 'Jan 14, 28'],
+                    ['trip_id' => 'chikmagalur', 'dates' => 'Jan 14, 18'],
                 ],
                 'feb' => [
                     ['trip_id' => 'srilanka', 'dates' => 'Feb 14, 28'],
@@ -2860,7 +2860,7 @@
                     ['trip_id' => 'thailand', 'dates' => 'Feb 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Feb 07, 21'],
                     ['trip_id' => 'kedarkantha', 'dates' => 'Feb 07, 21'],
-                    ['trip_id' => 'chikmagalur', 'dates' => 'Feb 14, 28'],
+                    ['trip_id' => 'chikmagalur', 'dates' => 'Feb 12, 16'],
                 ],
                 'mar' => [
                     ['trip_id' => 'tawang', 'dates' => 'Mar 14, 20'],
@@ -2870,6 +2870,7 @@
                     ['trip_id' => 'munnar', 'dates' => 'Mar 20'],
                     ['trip_id' => 'ooty', 'dates' => 'Mar 6'],
                     ['trip_id' => 'kerala', 'dates' => 'Mar 07, 21'],
+                    ['trip_id' => 'chikmagalur', 'dates' => 'Mar 26, 30'],
                 ],
                 'apr' => [
                     ['trip_id' => 'tawang', 'dates' => 'Apr 03, 25'],
@@ -2952,7 +2953,7 @@
                     ['trip_id' => 'thailand', 'dates' => 'Dec 10, 24'],
                     ['trip_id' => 'kerala', 'dates' => 'Dec 07, 21'],
                     ['trip_id' => 'kedarkantha', 'dates' => 'Dec 15, 29'],
-                    ['trip_id' => 'chikmagalur', 'dates' => 'Dec 14, 28'],
+                    ['trip_id' => 'chikmagalur', 'dates' => 'Dec 21, 27'],
                 ]
             ];
             // Months config we have to add the months here for the upcoming trips
